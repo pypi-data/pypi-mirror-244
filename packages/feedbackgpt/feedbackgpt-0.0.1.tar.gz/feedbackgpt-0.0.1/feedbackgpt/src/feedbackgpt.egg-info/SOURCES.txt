@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+feedbackgpt/src/feedbackgpt.py
+feedbackgpt/src/feedbackgpt.egg-info/PKG-INFO
+feedbackgpt/src/feedbackgpt.egg-info/SOURCES.txt
+feedbackgpt/src/feedbackgpt.egg-info/dependency_links.txt
+feedbackgpt/src/feedbackgpt.egg-info/requires.txt
+feedbackgpt/src/feedbackgpt.egg-info/top_level.txt
