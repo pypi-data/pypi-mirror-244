@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: text_to_sql
+Version: 0.0.1
+Summary: A Python package which converts natural language text to PostgreSQL commands
+Home-page: https://github.com/AI-Camp-Sprouts-AI/NaturalLangToSQL
+Author: 
+    Vignesh Prakash (pranomvignesh)
+    Sullivan Dovie - sullivandovie@gmail.com
+    Elhanan Wong - wong.elhanan@gmail.com
+    Ayana Gaur -  ayanagaur2@gmail.com
+    Mikhael Gonzalez - mikhael.gonzalez@gmail.com
+    Elizabeth Petit - elizavetapetit@gmail.com
+    
+Author-email: pranomvignesh@gmail.com
+License: MIT
+Provides-Extra: dev
+License-File: LICENSE
