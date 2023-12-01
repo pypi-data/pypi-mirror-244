@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: text-to-sql
+Version: 0.0.1
+Summary: A Python package which converts natural language text to PostgreSQL commands
+Home-page: https://github.com/AI-Camp-Sprouts-AI/NaturalLangToSQL
+Author: 
+    Vignesh Prakash (pranomvignesh)
+    Sullivan Dovie - sullivandovie@gmail.com
+    Elhanan Wong - wong.elhanan@gmail.com
+    Ayana Gaur -  ayanagaur2@gmail.com
+    Mikhael Gonzalez - mikhael.gonzalez@gmail.com
+    Elizabeth Petit - elizavetapetit@gmail.com
+    
+Author-email: pranomvignesh@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: langchain
+Requires-Dist: langchain-experimental
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Requires-Dist: psycopg2-binary
+Provides-Extra: dev
+Requires-Dist: InquirerPy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-check ; extra == 'dev'
+Requires-Dist: pytest-html ; extra == 'dev'
+Requires-Dist: tqdm ; extra == 'dev'
+Requires-Dist: faker ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
