@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: abstract_server
+Version: 0.0.0.5
+Summary: abstract_server
+Home-page: https://github.com/AbstractEndeavors/abstract_server
+Author: putkoff
+Author-email: partners@abstractendeavors.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# abstract Server
+
+## Table of Contents
+- [Introduction](#Introduction)
+- [Installation](#Installation)
+- [Getting Started](#Getting-Started)
+- [Documentation](#Documentation)
+- [Contact](#Contact)
+- [License](#License)
+
+## Introduction
+
+---
+
+## Installation of `abstract-server`
+
+To install `abstract_server`, you can either use pip or manually set it up by cloning the repository:
+
+### Using pip:
+
+```sh
+pip install abstract-server
+```
+
+**Note**: `abstract_server` requires Python 3.6 or later. Ensure you meet this requirement before proceeding with the installation.
+
+---
+
+## Getting Started
+
+Here is a basic example of using `abstract_server`:
+
+## Documentation
+
+`abstract_server` consists of the following Python files and their corresponding functionalities:
+
+### 1. `response_handling.py`:
+
+### 2. `api_call.py`:
+
+Sure, here's an exhaustive `readme.md` for the `api_calls.py` component of the `abstract_ai` module:
+
+# `api_calls.py` - Abstract AI Module
+
+`api_calls.py` is a component of the Abstract AI module, designed to facilitate API calls to OpenAI's GPT-3 model. This module is intended to simplify the interaction with the GPT-3 API and handle responses in a structured manner.
+
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Classes and Functions](#classes-and-functions)
+  - [PromptManager](#promptmanager-class)
+  - [hard_request](#hard_request-function)
+  - [quick_request](#quick_request-function)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+`api_calls.py` serves as a bridge between your application and the OpenAI GPT-3 API. It provides a convenient interface to send requests, manage responses, and control the behavior of the API calls. This module is highly customizable, allowing you to define prompts, instructions, and response handling logic.
+
+## Installation
+
+
+1. Install the required Python packages:
+
+   ```bash
+   pip install openai
+   ```
+
+2. Set your OpenAI API key as an environment variable. By default, the module looks for an environment variable named `OPENAI_API_KEY` to authenticate API calls.
+
+## Usage
+
+## Classes and Functions
+
+### PromptManager Class
+
+
+### hard_request Function
+
+The `hard_request` function sends a hard request to the OpenAI API with the provided parameters. It is a simplified way to make API calls.
+
+### quick_request Function
+
+The `quick_request` function sends a quick request to the OpenAI API with simple configurations and prints the result. It is a convenient shortcut for quick API interactions.
+
+## Examples
+
+For detailed examples and usage scenarios, refer to the `examples` directory in this repository. You'll find practical code samples demonstrating how to use the `abstract_server.py` module for various tasks.
+
+## Contributing
+
+If you'd like to contribute to the development of the `abstract_server` module or report issues, please refer to the [Contributing Guidelines](CONTRIBUTING.md).
+
+## License
+
+This module is licensed under the [MIT License](LICENSE), which means you are free to use and modify it as per the terms of the license. Make sure to review the license file for complete details.
+
+Feel free to use `api_calls.py` to enhance your interactions with OpenAI's GPT-3 model in your projects.
+### 3. `endpoints.py`:
+
+### 4. `tokenization.py`
+
+
+
+## Contact
+
+Should you have any issues, suggestions or contributions, please feel free to create a new issue on our [Github repository](https://github.com/AbstractEndeavors/abstract_essentials/abstract_ai).
+
+## License
+
+`abstract_server` is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+
