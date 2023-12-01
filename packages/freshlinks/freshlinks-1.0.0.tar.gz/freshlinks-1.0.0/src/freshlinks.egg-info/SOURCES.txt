@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/freshlinks/__init__.py
+src/freshlinks/__main__.py
+src/freshlinks/cache.py
+src/freshlinks/canonicalize.py
+src/freshlinks/py.typed
+src/freshlinks/scraper.py
+src/freshlinks.egg-info/PKG-INFO
+src/freshlinks.egg-info/SOURCES.txt
+src/freshlinks.egg-info/dependency_links.txt
+src/freshlinks.egg-info/requires.txt
+src/freshlinks.egg-info/top_level.txt
+test/test_cache.py
+test/test_canonical.py
+test/test_google_canonicalization.py
