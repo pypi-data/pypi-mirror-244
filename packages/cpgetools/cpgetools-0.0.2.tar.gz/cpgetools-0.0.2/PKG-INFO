@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cpgetools
+Version: 0.0.2
+Summary: CPGE Fast Algorithmes for verification
+Author-email: Zouhair El Hadiq <zouhairelhadiq@gmail.com>
+Project-URL: Homepage, https://github.com/elhadiq/pedagogic-library
+Project-URL: Issues, https://github.com/elhadiq/pedagogic-library/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pedagogic-library
