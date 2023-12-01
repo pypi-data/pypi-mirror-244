@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mbp.egg-info/PKG-INFO
+mbp.egg-info/SOURCES.txt
+mbp.egg-info/dependency_links.txt
+mbp.egg-info/requires.txt
+mbp.egg-info/top_level.txt
