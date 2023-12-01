@@ -1,0 +1,12 @@
+click
+pytest
+hypothesis
+prettytable
+negmas>=0.10.4
+tqdm
+joblib
+jupyter
+gif
+
+[gui]
+pyqt5
