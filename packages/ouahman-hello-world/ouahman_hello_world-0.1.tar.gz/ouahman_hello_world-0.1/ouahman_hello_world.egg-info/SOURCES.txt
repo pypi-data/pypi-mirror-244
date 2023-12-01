@@ -1,0 +1,5 @@
+setup.py
+ouahman_hello_world.egg-info/PKG-INFO
+ouahman_hello_world.egg-info/SOURCES.txt
+ouahman_hello_world.egg-info/dependency_links.txt
+ouahman_hello_world.egg-info/top_level.txt
