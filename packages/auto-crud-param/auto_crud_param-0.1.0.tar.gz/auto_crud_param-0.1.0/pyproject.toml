@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "auto-crud-param"
+version = "0.1.0"
+description = "Auto Create Retrieve Update Delete ORM Functionality for Param models using SQL alchemy."
+authors = ["Shawn Anderson <shawn@longtailfinancial.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+param = "^2.0.1"
+sqlalchemy = "^2.0.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
