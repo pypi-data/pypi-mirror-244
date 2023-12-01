@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: django-celery-ses
+Version: 3.0.0
+Summary: django-celery-ses
+Home-page: http://github.com/StreetVoice/django-celery-ses
+Author: tzangms
+Author-email: tzangms@streetvoice.com
+License: MIT
+Keywords: django,celery,mail
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Django
+Classifier: Environment :: Web Environment
+License-File: LICENSE.txt
+Requires-Dist: django (<=3.0.14,>=1.10)
+Requires-Dist: django-celery (>=3)
+
+UNKNOWN
+
