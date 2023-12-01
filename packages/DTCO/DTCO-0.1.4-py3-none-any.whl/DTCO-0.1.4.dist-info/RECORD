@@ -1,0 +1,13 @@
+GRO/__init__.py,sha256=DZNR4nGCKzIHskdUg3nQmCqJnD_K2yCC7BjWOPlyU2M,51
+GRO/classGRO.py,sha256=-AW_dJho0LglYS2Hsjns_D3suW-uPnWwkHBKDniCqI8,37821
+GRO/gro.py,sha256=DKXgJIw_zhkE7UEyaprycJDV3GaQAxcr4hizcOYDt3A,2259
+copernic/__init__.py,sha256=W7pUxpKAYD4NVnZxBzYQ_jn7KmO-aHNWAt26sf0uXng,57
+copernic/classDTCO.py,sha256=r8Cs4GyegfFXq8_-a9_m7KngJSqU5JqDHI0Bigns94M,37608
+copernic/classVSDataset.py,sha256=_khcg7HK4DSr2KlV4YYpk3T2RgaUlWGoW2MIa2vnCrE,17302
+libMetric/__init__.py,sha256=0RzipotSxKkDlRCcGKMKYFdZTW9h7QmA70KrJBDbq1w,63
+libMetric/classLiberty.py,sha256=8rfJL4CIOyWeifknSrqBgnbOrwnFc3j1_WxrLhtyN1I,46853
+DTCO-0.1.4.dist-info/LICENSE,sha256=RGyTtAO-3qxcARoGjy7XEYH37c-MIfH1_tbVooT8SAA,1113
+DTCO-0.1.4.dist-info/METADATA,sha256=mT2dIjfNkpic0QXNzjC046--U7mom52CE9Zu_CfEf_Q,5003
+DTCO-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DTCO-0.1.4.dist-info/top_level.txt,sha256=bL51RCBahLsHzCGh-oAh_r1PEVxor98xyFEBmmX2Zz4,23
+DTCO-0.1.4.dist-info/RECORD,,
