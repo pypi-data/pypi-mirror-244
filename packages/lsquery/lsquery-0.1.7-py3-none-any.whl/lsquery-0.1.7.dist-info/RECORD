@@ -1,0 +1,12 @@
+lsquery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsquery/__main__.py,sha256=8YXZLouWAX0IydojO9_tf4IBjxXHdxrg328CnYZ-TzY,484
+lsquery/api.py,sha256=eoWIR5dQ22j5HtFwhZx0b14siu3pqD5zBrwXTGBsfIc,1576
+lsquery/config.py,sha256=-b1OpjYjxGULD4YBtgTrf5p4ySqQJzyuy4cgG2ps2C0,3084
+lsquery/query.py,sha256=6eC7hEpEPOdQnMGlC9ibWu0_43B0mojcxuc_Spck2GE,4418
+lsquery/server.py,sha256=g-607UG5mu-rP_g0W898e1yTX_cuBc1sVlQ8qykXfKM,6596
+lsquery/web_socket.py,sha256=vEmKplcctHiDd8CTU1OVlHPY5BEAFx3ljebEqO1DADs,16835
+lsquery-0.1.7.dist-info/LICENCE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+lsquery-0.1.7.dist-info/METADATA,sha256=aIu3JgqkTh5N1RDceJAcnuKE_bFVVKxcjES7fy9eLS8,2891
+lsquery-0.1.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+lsquery-0.1.7.dist-info/top_level.txt,sha256=q5uUISHhcM4Lost9wtzkm7R1ujkgbK0hQv6q94EAxG4,8
+lsquery-0.1.7.dist-info/RECORD,,
