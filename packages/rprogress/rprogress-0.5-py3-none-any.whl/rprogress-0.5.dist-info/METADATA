@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: rprogress
+Version: 0.5
+Summary: custom rich progress.
+Home-page: https://github.com/GeekRicardo/rprogress
+Author: Geek·Ricardo
+Author-email: GeekRicardozzZ@gmail.com
+Requires-Dist: rich
+
