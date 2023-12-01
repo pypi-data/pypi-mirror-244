@@ -1,0 +1,3 @@
+[console_scripts]
+clehrity=clehrity.__main__:main
+
