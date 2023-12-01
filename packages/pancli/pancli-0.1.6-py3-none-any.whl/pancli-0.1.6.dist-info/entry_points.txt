@@ -1,0 +1,4 @@
+[console_scripts]
+pancli = pancli.cli:main
+pansi = pancli.cli:main
+
