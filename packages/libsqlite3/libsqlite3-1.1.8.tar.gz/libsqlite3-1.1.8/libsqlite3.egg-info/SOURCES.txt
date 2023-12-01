@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libsqlite3.egg-info/PKG-INFO
+libsqlite3.egg-info/SOURCES.txt
+libsqlite3.egg-info/dependency_links.txt
+libsqlite3.egg-info/top_level.txt
