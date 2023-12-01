@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "webwithpy"
+build = "build.py"
+readme = "README.md"
+version = "0.5.1"
+description = ""
+authors = ["Sven Keimpema"]
+packages = [{include = "webwithpy/**/*.*", format = "sdist"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncio = "^3.4.3"
+pyjwt = "^2.8.0"
+cython = "^3.0.5"
+bcrypt = "^3.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
