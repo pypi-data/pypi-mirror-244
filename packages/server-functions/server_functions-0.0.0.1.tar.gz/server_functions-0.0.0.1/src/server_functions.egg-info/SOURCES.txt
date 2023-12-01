@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/server_functions/__init__.py
+src/server_functions/server_functions.py
+src/server_functions.egg-info/PKG-INFO
+src/server_functions.egg-info/SOURCES.txt
+src/server_functions.egg-info/dependency_links.txt
+src/server_functions.egg-info/requires.txt
+src/server_functions.egg-info/top_level.txt
