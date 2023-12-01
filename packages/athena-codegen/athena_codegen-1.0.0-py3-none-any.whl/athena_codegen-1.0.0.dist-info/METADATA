@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: athena-codegen
+Version: 1.0.0
+Summary: athena dap-backend codegen
+Author: bwl
+Author-email: biwln@digiwin.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: xlrd ==2.0.1
+Requires-Dist: requests ==2.28.2
+Requires-Dist: python-dotenv ==1.0.0
+Requires-Dist: pyautogen ==0.1.14
+Requires-Dist: pandas ==1.5.3
+Requires-Dist: numpy ==1.22.3
+
