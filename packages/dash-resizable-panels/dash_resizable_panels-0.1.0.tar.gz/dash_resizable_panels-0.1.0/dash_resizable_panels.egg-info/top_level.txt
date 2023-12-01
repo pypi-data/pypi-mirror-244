@@ -1,0 +1,1 @@
+dash_resizable_panels
