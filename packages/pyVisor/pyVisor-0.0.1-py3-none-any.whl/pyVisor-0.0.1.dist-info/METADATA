@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyVisor
+Version: 0.0.1
+Summary: package for simple exploring of python objects
+Author: Edwin Saul
+Author-email: edwinsaulpm@gmail.com
+Keywords: DEV debug flask
+License-File: LICENSE
+
