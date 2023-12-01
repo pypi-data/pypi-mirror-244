@@ -1,0 +1,29 @@
+---
+files: ^(.*\.(py|yaml))$
+# We need to match the exclude list in pyproject.toml because pre-commit.ci
+# passes filenames and these do not get passed through the tool.black filter
+# for example
+exclude: ^(\.[^/]*cache/.*|.*/freesurfer/contrib/.*)$
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.11.0
+    hooks:
+      - id: black
+        args:
+          - --safe
+          - --quiet
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.6
+    hooks:
+      - id: ruff
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.6
+    hooks:
+      - id: codespell
+        additional_dependencies:
+          - tomli
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.33.0
+    hooks:
+      - id: yamllint
+        args: [--strict]
