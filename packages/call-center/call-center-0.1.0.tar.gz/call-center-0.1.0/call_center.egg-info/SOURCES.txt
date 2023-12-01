@@ -1,0 +1,16 @@
+.gitignore
+.pre-commit-config.yaml
+.prettierrc.yaml
+LICENSE
+README.md
+environment-dev.yml
+pyproject.toml
+call_center/__init__.py
+call_center/_agent.py
+call_center/_compat.py
+call_center/_version.py
+call_center.egg-info/PKG-INFO
+call_center.egg-info/SOURCES.txt
+call_center.egg-info/dependency_links.txt
+call_center.egg-info/requires.txt
+call_center.egg-info/top_level.txt

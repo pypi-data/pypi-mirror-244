@@ -1,0 +1,4 @@
+docstring-parser
+httpx
+httpx-sse
+pydantic>=2

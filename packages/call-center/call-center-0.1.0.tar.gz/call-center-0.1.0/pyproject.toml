@@ -1,0 +1,77 @@
+[build-system]
+requires = [
+    "setuptools>=60",
+    "setuptools-scm>=8.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "call-center"
+description = "OpenAI function calling utility"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Philip Meier", email = "github.pmeier@posteo.de" },
+]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "docstring-parser",
+    "httpx",
+    "httpx-sse",
+    "pydantic>=2",
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/pmeier/call-center"
+
+[tool.setuptools_scm]
+write_to = "call_center/_version.py"
+version_scheme = "release-branch-semver"
+local_scheme = "node-and-timestamp"
+
+[tool.setuptools.packages.find]
+include = [
+    "call_center*",
+]
+
+[tool.ruff]
+select = [
+    "E",
+    "F",
+    # import sorting
+    "I001"
+]
+# Ignore line too long, because due to black, the error can only occur for strings
+ignore = ["E501"]
+
+[tool.ruff.per-file-ignores]
+# ignore unused imports and imports not at the top of the file in __init__.py files
+"__init__.py" = ["F401", "E402"]
+
+[tool.mypy]
+
+files = "call_center"
+
+show_error_codes = true
+pretty = true
+
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+allow_redefinition = true
+no_implicit_optional = true
+
+warn_redundant_casts = true
+warn_unused_ignores = true
+
+warn_return_any = true
+warn_unused_configs = true
