@@ -1,0 +1,53 @@
+import hashlib
+import hmac
+import json
+
+from kairospay.np.currencies import CurrencyAPI
+from kairospay.np.payment import PaymentAPI
+from kairospay.np.payout import PayoutAPI
+
+
+class NowPayments:
+
+    def __init__(self, api_key: str, jwt_token: str = None):
+        self.api_key = api_key
+        self.jwt_token = jwt_token
+
+    @property
+    def payment(self):
+        return PaymentAPI(self.api_key, self.jwt_token)
+
+    @property
+    def currency(self):
+        return CurrencyAPI(self.api_key, self.jwt_token)
+
+    @property
+    def payout(self):
+        return PayoutAPI(self.api_key, self.jwt_token)
+
+    def get_api_status(self) -> dict:
+        """
+        This is a method for obtaining information about the status of the API.
+
+        :return: API status.
+        :rtype: dict
+        """
+        return self.payment.get_api_status()
+
+    @staticmethod
+    def verify_payment_signature(data: dict, ipn_secret: str) -> str:
+        """
+        This is a method for verifying the payment signature.
+
+        :param data: data
+        :param ipn_secret: ipn secret
+        :return: True if the signature is valid, False otherwise.
+        :rtype: bool
+        """
+        request_data = dict(sorted(data.items()))
+        sorted_request_json = json.dumps(request_data, separators=(',', ':'))
+        return hmac.new(
+            ipn_secret.encode('utf-8'),
+            sorted_request_json.encode('utf-8'),
+            hashlib.sha512
+        ).hexdigest()
