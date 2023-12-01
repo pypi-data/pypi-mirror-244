@@ -1,0 +1,9 @@
+pyproject.toml
+structure.txt
+structures/modules/fried_tofu.egg-info/PKG-INFO
+structures/modules/fried_tofu.egg-info/SOURCES.txt
+structures/modules/fried_tofu.egg-info/dependency_links.txt
+structures/modules/fried_tofu.egg-info/top_level.txt
+structures/modules/fried_tofu/node/start/__init__.py
+structures/modules/fried_tofu/node/start/assertions.py
+structures/modules/fried_tofu/node/stop/__init__.py
