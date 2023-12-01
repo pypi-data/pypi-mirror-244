@@ -1,0 +1,10 @@
+README.md
+setup.py
+moecolor/README.py
+moecolor/__init__.py
+moecolor/main.py
+moecolor/version.py
+moecolor.egg-info/PKG-INFO
+moecolor.egg-info/SOURCES.txt
+moecolor.egg-info/dependency_links.txt
+moecolor.egg-info/top_level.txt
