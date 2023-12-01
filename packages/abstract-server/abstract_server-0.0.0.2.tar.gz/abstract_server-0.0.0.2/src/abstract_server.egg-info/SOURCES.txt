@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/abstract_server/__init__.py
+src/abstract_server/abstract_server.py
+src/abstract_server.egg-info/PKG-INFO
+src/abstract_server.egg-info/SOURCES.txt
+src/abstract_server.egg-info/dependency_links.txt
+src/abstract_server.egg-info/requires.txt
+src/abstract_server.egg-info/top_level.txt
