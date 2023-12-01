@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyx-react
+Version: 0.1.0a0
+Summary: A framework that enables Python objects to be easily rendered on a web server
+Home-page: https://github.com/cykim8811/pyx-react
+Author: Kim Changyeon
+Author-email: cykim8811@snu.ac.kr
+Keywords: pyx,react,python,visualization,web
+License-File: LICENSE
+
