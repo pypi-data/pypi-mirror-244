@@ -1,0 +1,112 @@
+# RNAMoIP
+
+## Setup
+
+RNAMoIP can be installed via Pypi with the following command:
+
+```bash
+pip install rnamoip
+```
+
+You will also need ViennaRNA installed locally:
+
+```bash
+wget https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_6_x/ViennaRNA-2.6.4.tar.gz
+tar -zxvf ViennaRNA-2.6.4.tar.gz
+
+cd ViennaRNA-2.6.4
+./configure
+make
+sudo make install
+```
+
+### Python Environment (Optional)
+
+Use your favorite virtual environment for Python. The python [venv](https://docs.python.org/3/tutorial/venv.html) module is recommended if you don't have any.
+
+To create a Python version with `venv`:
+
+```bash
+python3 -m venv rnamoip-env
+```
+
+Afterward, you can use that environment with the following command:
+
+```bash
+source rnamoip-env/bin/activate
+```
+
+### Python dependencies
+
+To install the Python dependencies, run the following:
+
+```bash
+pip install -r requirements.txt
+```
+
+The Python bindings are already provided in the requirements file. Please note that RNAMoIP was built using ViennaRNA `v2.6.4`. For more information, check for the [ViennaRNA Documentation](https://github.com/ViennaRNA/ViennaRNA#installation).
+
+### IP Model Solver
+
+Multiple solvers are supported to solve the RNAMoIP equations.
+
+#### CP-SAT (Recommended)
+
+Cp-SAT is a free, open-source IP solver from the OR-tools Package, made by Google. For more information, visit their GitHub [here](https://github.com/google/or-tools).
+
+#### CBC
+
+CBC (Coin-or branch and cut) is a free, open-source IP solver available [here](https://github.com/coin-or/Cbc). It can be useful as an alternative to Gurobi, although considerably slower. It is automatically provided by the MIP python library for 64-bits Intel architecture. For more details, like manual installation, please refer to the [MIP doc](https://docs.python-mip.com/en/latest/install.html#using-your-own-cbc-binaries-optional).
+
+#### Gurobi (Need License)
+
+To install, follow the directives [here](https://www.gurobi.com/products/gurobi-optimizer/). Note that a [free academic license](https://www.gurobi.com/downloads/end-user-license-agreement-academic/) can be used for a renewable two months period.
+
+## How to execute
+
+To execute RNAMoIP, you can run the `main.py` with the following command:
+
+```bash
+cd src
+python -m rnamoip.main --sequence "AAGGUUCC" --structure "........"
+```
+
+You can also provide a more detailed configuration file. By default, it will use the base configuration located in `src/data/configuration.json`.
+You can also run the prediction through the `Prediction` Python class:
+
+```py
+# From agrs
+from rnamoip.predicter import Predicter
+
+Predicter(
+  rna_sequence='AAGGUUCC',
+  secondary_structure='........',
+  alpha=0.1,
+).iterate()
+
+# With a config file path or dict
+Predicter(configuration_file='my/path/to/configuration.json').iterate()
+```
+
+For more use cases, with **configurations details**, please see the [**Usage Documentation**](doc/usage.md).
+
+## Motif Databases
+
+RNAMoIP support two types of motif databases:
+
+- (**default**) The RIN database, of parser of type `rin`. RNAMoIP already provide a rins database of all local rins.
+- The original RNAMoIP database, of parser of type `desc`, available [here](https://github.com/McGill-CSB/RNAMoIP/raw/master/CATALOGUE.tgz).
+
+You need to specify the path of the motif database accordingly in the `motifs_path` property, and the motif type with the `parser` property. For more info, see the [**Usage Documentation**](doc/usage.md).
+
+## Scripts
+
+Useful scripts related to the project can be found under the [scripts folder](scripts/_scripts.md).
+
+## Benchmark
+
+To run a batch of multiple prediction RNAMoIP, with all chains that what used in the benchmark:
+
+```py
+python -m rnamoip.multi_batch_analysis --chains_source="../data/chain/chains.json"
+```

@@ -1,0 +1,8 @@
+mip==1.13.0
+ortools==9.5.2237
+colorama==0.4.4
+ViennaRNA==2.6.4
+scikit-glpk==0.4.4
+
+--extra-index-url https://pypi.gurobi.com
+gurobipy==9.5.0

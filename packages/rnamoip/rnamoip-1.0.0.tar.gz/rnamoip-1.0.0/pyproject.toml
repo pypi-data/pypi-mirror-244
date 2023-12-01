@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rnamoip"
+version = "1.0.0"
+authors = [
+  { name="Gabriel Loyer", email="loyer.gab@gmail.com" },
+  { name="Vladimir Reinharz", email="vreinharz@protonmail.com" }
+]
+description = "RNAMoIP: Integer Programing Framework to predict RNA secondary structure"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+  "mip==1.13.0",
+  "ortools==9.5.2237",
+  "colorama==0.4.4",
+  "scikit-glpk==0.4.4",
+  "gurobipy==9.5.0",
+  "ViennaRNA==2.6.4",
+]
+
+[project.urls]
+"Homepage" = "https://rnamoip.cbe.uqam.ca"
+"Source" = "https://gitlab.info.uqam.ca/cbe/RNAMoIP"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = [
+  ".", "src", 'src/rnamoip'
+]
+
+[tool.coverage.run]
+branch = true

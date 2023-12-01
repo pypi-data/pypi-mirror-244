@@ -1,0 +1,23 @@
+stages:
+  - Static Analysis
+  - Unit test
+
+# Official language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/python/tags/
+image: python:3.10
+
+before_script:
+  - python --version
+  - pip --version
+  - python -m pip install --upgrade pip
+  - pip install tox
+
+flake8:
+  stage: Static Analysis
+  script:
+    - tox -e lint
+
+test:
+  stage: Unit test
+  script:
+    - tox -e test
