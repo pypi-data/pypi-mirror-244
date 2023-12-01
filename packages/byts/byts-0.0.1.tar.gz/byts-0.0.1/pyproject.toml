@@ -1,0 +1,15 @@
+[project]
+name = "byts"
+version = "0.0.1"
+authors = [
+    { name="Hudson Cooper", email="hncooper96@gmail.com" },
+    { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Bits and bytes"
+dependencies = [
+    "numpy",
+    "numba",
+]
+
+[project.urls]
+source = "https://github.com/notarealdeveloper/byts"

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: byts
+Version: 0.0.1
+Summary: Bits and bytes
+Author-email: Hudson Cooper <hncooper96@gmail.com>, Jason Wilkes <notarealdeveloper@gmail.com>
+Project-URL: source, https://github.com/notarealdeveloper/byts
+Requires-Dist: numpy
+Requires-Dist: numba
