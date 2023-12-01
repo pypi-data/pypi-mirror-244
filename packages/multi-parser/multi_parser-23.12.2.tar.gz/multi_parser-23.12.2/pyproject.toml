@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "multi-parser"
+version = "23.12.2"
+description = "Multi-Parser - for argparser"
+authors = ["Tadeusz Miszczyk <42252259+8tm@users.noreply.github.com>"]
+homepage = "https://github.com/8tm/multi-parser/wiki"
+documentation = "https://8tm.github.io/multi-parser/"
+repository = "http://github.com/8tm/multi-parser"
+readme = "README.md"
+
+
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: Unix",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
