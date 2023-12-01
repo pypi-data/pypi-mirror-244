@@ -1,0 +1,12 @@
+stim-1.12.1.dist-info/RECORD,,
+stim-1.12.1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+stim-1.12.1.dist-info/WHEEL,sha256=HS_2vgrXyXO7N4Q-5VnuMAgG-fG_r8eemMgfU9Aw3Kk,110
+stim-1.12.1.dist-info/entry_points.txt,sha256=nKrnVit2TO7zlOC9PzFDbziXiGroRejQTIeqeJ2VS6Q,51
+stim-1.12.1.dist-info/top_level.txt,sha256=_h6lQZBgzVLumwrXyf13DY71YT6dUkd4SY-ZRjcljFQ,5
+stim-1.12.1.dist-info/METADATA,sha256=t0lPxA7xq_WbtNpQ2iWdf8ob-XOy8lsy0vS7w7CeTDs,4168
+stim/_stim_sse2.cpython-37m-darwin.so,sha256=9eT4jcVfgRLwDNVEqvEegIRvjYnpwDqy1us_zAUUK0c,4194424
+stim/__init__.pyi,sha256=IrcWgndH0got9Du7aP6TIHeUlpiMZx3xYAOTfEDvljw,366389
+stim/_detect_machine_architecture.cpython-37m-darwin.so,sha256=0i_D8D9KlLR5M8qd99F92iYuSJkynydydplA2mYF5OE,131968
+stim/__init__.py,sha256=62bT7zWxAc_GkO5H5ElztgZorBTY2Nlc8dU8bpeEVRE,2387
+stim/_main_argv.py,sha256=8gHM50pjV8l_X1okiK0V7GCxy_UHPhWUbFc_d7_5wPQ,134
+stim/_stim_polyfill.cpython-37m-darwin.so,sha256=1B8hHbYeX8tyilseqMsX9oU_DMVoc_78wgl-yHlFvj4,4194440
