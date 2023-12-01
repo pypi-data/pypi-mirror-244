@@ -1,0 +1,10 @@
+README.md
+setup.py
+hrshit/__init__.py
+hrshit/art.py
+hrshit/player.py
+hrshit.egg-info/PKG-INFO
+hrshit.egg-info/SOURCES.txt
+hrshit.egg-info/dependency_links.txt
+hrshit.egg-info/entry_points.txt
+hrshit.egg-info/top_level.txt
