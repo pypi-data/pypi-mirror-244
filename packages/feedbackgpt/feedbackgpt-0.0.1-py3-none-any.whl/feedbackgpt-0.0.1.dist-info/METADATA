@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: feedbackgpt
+Version: 0.0.1
+Summary: A GPT wrapper that learns from user feedback
+Author: Kunal Tangri, Noah Faro
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: numpy
+Requires-Dist: pinecone-client
+
+# FeedbackGPT
+
+FeedbackGPT is a simple-to-use mechanism for improving LLM responses based on human feedback. Currently, this library wraps LLMs provided by OpenAI and exposes a chat interface that is almost identical in usage to those provided by OpenAI.
+
+## Documentation
+Coming soon!
+
+# Getting Started
+## Installation
+`pip install feedbackgpt`
+## Example Usage
+### Run Locally
+This example stores and retrieves feedback locally. It is for demo/prototyping purposes and any provided feedback will be deleted between runs.
+```python
+from feedback import FeedbackGPT
+
+# Insert your own OpenAI Key
+OPEN_AI_KEY="YOUR_OPEN_AI_KEY"
+
+# Initialize FeedbackGPT
+feedback_gpt = FeedbackGPT(OPEN_AI_KEY)
+
+# Example message that is sent to LLM
+messages = [
+	{
+		"role": "user",
+		"content": "17077 is a prime number"
+	}
+]
+
+# Before feedback is added, the model responds incorrectly
+response = feedback_gpt.chat(messages, temperature=0)
+response_message = response.choices[0].message.content
+print(response_message)
+# Outputs:
+# No, 17077 is not a prime number. It can be divided evenly by 7 and 2441.
+
+# Provide feedback on how FeedbackGPT can better respond next time
+feedback = "The correct answer is 17077 IS a prime number. It is NOT divisible by either 7 or 2441."
+feedback_gpt.feedback(messages, response_message, feedback)
+
+# After feedback is added, the FeedbackGPT responds to the message correctly
+response = feedback_gpt.chat(messages, temperature=0)
+response_message = response.choices[0].message.content
+print(response_message)
+# Outputs:
+# Yes, 17077 is a prime number.
+```
+### Run Persistent Feedback Memory
+FeedbackGPT integrates with Pinecone in order to store feedback that persists across sessions. In order to leverage persistent feedback, you'll first need to [create a Pinecone account](https://docs.pinecone.io/docs/quickstart) and retrieve your API Key and environment. You can then initialize FeedbackGPT as follows:
+```python
+from feedbackgpt import FeedbackGPT
+
+# Insert your own OpenAI Key
+OPEN_AI_KEY="YOUR_OPEN_AI_KEY"
+
+# Specify Pinecone API Key and Environment
+pinecone_options = {
+	"pineone_key": "YOUR_PINECONE_API_KEY",
+	"pinecone_environment": "YOUR_PINECONE_ENVIRONMENT"
+}
+
+# Initialize FeedbackGPT with Pinecone Options
+feedback_gpt = FeedbackGPT(OPEN_AI_KEY, pinecone_options=pinecone_options)
+
+# Example message that is sent to LLM
+messages = [
+	{
+		"role": "user",
+		"content": "17077 is a prime number"
+	}
+]
+
+# Before feedback is added, the model responds incorrectly
+response = feedback_gpt.chat(messages, temperature=0)
+response_message = response.choices[0].message.content
+print(response_message)
+# Outputs:
+# No, 17077 is not a prime number. It can be divided evenly by 7 and 2441.
+
+# Provide feedback on how FeedbackGPT can better respond next time
+feedback = "The correct answer is 17077 IS a prime number. It is NOT divisible by either 7 or 2441."
+feedback_gpt.feedback(messages, response_message, feedback)
+
+# After feedback is added, the FeedbackGPT responds to the message correctly
+# NOTE: The pincone index may take a few seconds to update. So, feedback may not be immediately reflected.
+response = feedback_gpt.chat(messages, temperature=0)
+response_message = response.choices[0].message.content
+print(response_message)
+# Outputs:
+# Yes, 17077 is a prime number.
+```
