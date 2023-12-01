@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/read_test.py
+src/write_test.py
+src/cstruct2/__init__.py
+src/cstruct2/cstruct2.py
+src/cstruct2/cstruct2_exceptions.py
+src/cstruct2/cstruct2_fields.py
+src/cstruct2/cstruct2_utils.py
+src/cstruct2.egg-info/PKG-INFO
+src/cstruct2.egg-info/SOURCES.txt
+src/cstruct2.egg-info/dependency_links.txt
+src/cstruct2.egg-info/top_level.txt
