@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: heliumos-bixi
+Version: 0.1.6
+Summary: An open platform for load large language model.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: fastapi
+Requires-Dist: numpy
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: shortuuid
+Requires-Dist: tiktoken
+Requires-Dist: uvicorn
+Requires-Dist: transformers
+Requires-Dist: vllm
+Requires-Dist: einops
+Requires-Dist: scipy
+Requires-Dist: accelerate
+
+#model-worker
