@@ -1,0 +1,2 @@
+[datasette]
+statistics = datasette_statistics
