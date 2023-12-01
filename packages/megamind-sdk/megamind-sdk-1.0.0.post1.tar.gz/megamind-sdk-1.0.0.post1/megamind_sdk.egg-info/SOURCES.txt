@@ -1,0 +1,10 @@
+megamind_sdk/setup.py
+megamind_sdk.egg-info/PKG-INFO
+megamind_sdk.egg-info/SOURCES.txt
+megamind_sdk.egg-info/dependency_links.txt
+megamind_sdk.egg-info/top_level.txt
+megamind_sdk/api/__init__.py
+megamind_sdk/api/progress_report.py
+megamind_sdk/api/training_master_client.py
+megamind_sdk/utils/__init__.py
+megamind_sdk/utils/std_stream_proxy.py
