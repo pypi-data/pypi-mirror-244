@@ -1,0 +1,15 @@
+xfastertransformer/__init__.py,sha256=z2BCbgDvYaecvn0HeYJisYKyDykHmkuyCtgEZd2QiIg,2879
+xfastertransformer/automodel.py,sha256=iRvHdYjQoGJ0ReygiV2xpKQxlErjTdWk3Ma42yOM_WQ,3919
+xfastertransformer/libxfastertransformer_pt.so,sha256=L1qM7ZrJi4kWSTmJUYbOa_nIAen9BkUWYVxVLZSh6TQ,80291240
+xfastertransformer/tools/__init__.py,sha256=C8tmi6TVZrBSI-29rWa72ApYOVU3X30pvGtOeJ4vMNI,876
+xfastertransformer/tools/baichuan_convert.py,sha256=oLwlNCyrb6argEcmZlG7os_pMTQwo3i4RhckF0Rj-3E,7820
+xfastertransformer/tools/chatglm2_convert.py,sha256=yg12KWX13tYiZ4myBGu-YIC_GiJ7sRgofhBrfIZsZ-g,10799
+xfastertransformer/tools/chatglm_convert.py,sha256=ZDv1AUL8CyA48ta_xWr1A4rzaZ1wayoGITukRISDc1k,9114
+xfastertransformer/tools/convert.py,sha256=MOTjbrkmpoS3oF7tmFHYeWuj5fepR4n503J4i17pFjw,1693
+xfastertransformer/tools/llama_convert.py,sha256=5YErbvPawYxbKwUi54AZEwZB9_0cY9YlynDUIxcDScA,8972
+xfastertransformer/tools/opt_convert.py,sha256=EBzziBk2k6qGBIlxkCd5xCM6GcVZY1cgg34ROd8OuZc,10702
+xfastertransformer-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xfastertransformer-1.1.0.dist-info/METADATA,sha256=XxW7n_UvaviFOoCH-GZgs_jeeUlwTa1jPzbyy7Eaiko,13804
+xfastertransformer-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xfastertransformer-1.1.0.dist-info/top_level.txt,sha256=1_CJJPteHDUMscWZl8vv8rdG02Uzaut0jE6aFjC7njs,19
+xfastertransformer-1.1.0.dist-info/RECORD,,
