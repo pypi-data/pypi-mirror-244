@@ -1,0 +1,3 @@
+[console_scripts]
+backtest-view=backtest_view.cli:app
+
