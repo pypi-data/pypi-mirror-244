@@ -1,0 +1,12 @@
+pysolid.libs/libquadmath-96973f99.so.0.0.0,sha256=k0wi3tDn0WnE1GeIdslgUa3z2UVF2pYvYLQWWbB12js,247609
+pysolid.libs/libgfortran-040039e1.so.5.0.0,sha256=FK-zEpsai1C8QKOwggx_EVLqm8EBIaqxUpQ_cFdHKIY,2686065
+pysolid/solid.cpython-38-x86_64-linux-gnu.so,sha256=eSEsDePBXG3Aa_nBYHmf39lmTD8Iq2W3XPSCWOgz9dQ,486097
+pysolid/point.py,sha256=WhqZ_LmVG_VYkAN1CIhwN0oJXMxt9YxuokO1CSDVzI8,13384
+pysolid/grid.py,sha256=FlNl7Bmacl83ZPri6eWAtF_krGtUr_0hofrco67V4gQ,5941
+pysolid/__init__.py,sha256=DUxjRwj2BTOiuPG4KFdQuI7UegJ5UyZiWzuVhXX7pPU,860
+pysolid/solid.for,sha256=tNfWIHpI2M-52J7pzeSm3jNOKaRyzSHW7mukTPv8V5w,56948
+pysolid-0.3.2.dist-info/top_level.txt,sha256=aktt4uhw_RbYpbKYe3db_MsQ30eW1ZhMWRBtWZHtVd4,8
+pysolid-0.3.2.dist-info/WHEEL,sha256=zTDqV7OR0em6fvysya0bwC-51Mb7EQ0x5PBJySRF2iQ,148
+pysolid-0.3.2.dist-info/METADATA,sha256=PyKYuXBXDCrUpxlCOMp19NqTaDGG7oiSl1M9FuTQbcQ,8732
+pysolid-0.3.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pysolid-0.3.2.dist-info/RECORD,,
