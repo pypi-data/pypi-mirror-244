@@ -1,0 +1,11 @@
+didabox/__init__.py,sha256=kDYsuiNIkD9I2MR3V1lmA0K8Dh-RZ8vQMnJzL_YOlWw,146
+didabox/check.py,sha256=5Fh-MgPGDEaZX9ZMQjuajS6iXeHuqbdvLkwCWSbAPmg,712
+didabox/login.py,sha256=85GWWooPAHcYqFJzJIAACvUQJtoi91Y0j_7gI3ovpjo,591
+didabox/main.py,sha256=VslTGgZI2F3RAI4gdHT09K7ybx-BZcvX2A50R6aORjI,1482
+didabox/request.py,sha256=-8V3qlnuzQ4eVxTXY_hUmpFfX1anR5aIeKjbM5jfNW8,1412
+didabox/task.py,sha256=YwjjyKEX3CrV7eE8B-aB9uYKhzc78xCcXHUiHIGRrhc,2022
+didabox/utils.py,sha256=FygsT86GDbuaLy9EtI2tuJum62ahtCUMbkz5ltl9hJs,1999
+didabox-2.2.0.dist-info/LICENSE,sha256=piP-6PMcdvraruO6qzwSYgFw5a5aSvWtxqRv8wkYuj8,1082
+didabox-2.2.0.dist-info/METADATA,sha256=d1GPoIokjzXbQJ7fDZVNGeW4pr8pPc0ix724ZIdw9Y8,789
+didabox-2.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+didabox-2.2.0.dist-info/RECORD,,
