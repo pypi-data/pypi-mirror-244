@@ -1,0 +1,17 @@
+door/__init__.py,sha256=CB_VE1qP9pseNkHnS6MosT80UrqivZ2Bfl0mq5fcQBM,410
+door/asyncio2.py,sha256=i4gucP341smf6pYbwt-k1v9jJoL0n5ENxemL0soM-Uw,1601
+door/doors.py,sha256=5y-gdwqMGO-TfKq4KHpJiq9GwwLYw35Gbq2yo3VY1bA,13912
+door/multiprocessing2.py,sha256=yMmp8MNml8dycDsRs-pI81nstnL-_GhjlO8RVdZLM68,1547
+door/primitives.py,sha256=yUVVPINXntMXOC6M9oO4Mh6uJwklGO2Loj2Va4I9ZGs,12599
+door/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+door/threading2.py,sha256=Kih_WLPzDnBn_au6zvHikE_y_hNRQBG4kQNdr_qKubw,1530
+door/utilities.py,sha256=VS0s5QFvizOhuoTdVmGaMpf6IjHL169-SKzthpYutOo,2983
+door/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+door/tests/test_asyncio.py,sha256=gYqyVhWD-Lp-2S5kH4yWt6dMRDodpi9yrPy8q8TahQU,5377
+door/tests/test_threading.py,sha256=XJZpGqzloPwUyc67e-3MrRedoRS_5dEwDfD27AWm6Z8,5290
+door/tests/test_utilities.py,sha256=7DEzLmmpqsolbfVOU3Sz6jQ2GzRfPSVQCsBjjvJunRQ,1216
+door-0.0.2.dist-info/LICENSE,sha256=oTjtvn5ruZLH45YDYt-_M0Y5uC4UcaSeBAw1wVGqOzk,1065
+door-0.0.2.dist-info/METADATA,sha256=uVEjauKLY6XE00CbIzKHKNymerA_lX04Ao074VkTks4,3319
+door-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+door-0.0.2.dist-info/top_level.txt,sha256=ywWCq27K14_qzm-rPXuOnmi0kYZsypNgm7xH0N1jO3M,5
+door-0.0.2.dist-info/RECORD,,
