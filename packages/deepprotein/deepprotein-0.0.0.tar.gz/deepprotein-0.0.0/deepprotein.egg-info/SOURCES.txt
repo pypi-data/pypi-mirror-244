@@ -1,0 +1,15 @@
+.codespell-whitelist.txt
+.gitignore
+.pre-commit-config.yaml
+copyright
+pyproject.toml
+tox.ini
+.github/merge_rules.yaml
+.github/workflows/push.yaml
+deepprotein/__init__.py
+deepprotein/_version.py
+deepprotein.egg-info/PKG-INFO
+deepprotein.egg-info/SOURCES.txt
+deepprotein.egg-info/dependency_links.txt
+deepprotein.egg-info/requires.txt
+deepprotein.egg-info/top_level.txt

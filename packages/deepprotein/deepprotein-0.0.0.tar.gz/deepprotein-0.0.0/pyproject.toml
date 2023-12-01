@@ -1,0 +1,121 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools",
+  "setuptools-scm>=8.0.4",
+]
+
+[project]
+name = "deepprotein"
+description = "General Framework for Deep Learning on Macro Molecules"
+readme = "README.md"
+keywords = [
+  "Deep Learning",
+  "Macro Molecules",
+  "Protein",
+  "RNA",
+]
+license = {file = "LICENSE"}
+maintainers = [
+    {name = "Zhiyuan Chen", email = "chenzhiyuan@dp.tech"},
+]
+authors = [
+    {name = "Zhiyuan Chen", email = "chenzhiyuan@dp.tech"},
+    {name = "Lvjun Guo", email = "guolj@dp.tech"},
+]
+requires-python = ">=3"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dynamic = [
+  "version",
+]
+dependencies = [
+  "accelerate",
+  "chanfig",
+  "danling",
+  "einops",
+  "numpy",
+  "pandas",
+  'strenum; python_version < "3.11"',
+  "torch",
+  "torcheval",
+  "torchmetrics",
+  "transformers",
+]
+[project.urls]
+documentation = "http://deepprotein.danling.org"
+homepage = "http://deepprotein.danling.org"
+repository = "https://github.com/ZhiyuanChen/DeepProtein"
+
+[tool.setuptools]
+packages = ["deepprotein"]
+
+[tool.setuptools_scm]
+write_to = "deepprotein/_version.py"
+write_to_template = "version = __version__ = {version!r}\nversion_tuple = __version_tuple__ = {version_tuple!r}\nrevision = __revision__ = {scm_version.node!r}\n"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+profile = "black"
+
+[tool.flake8]
+max-line-length = 120
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --cov"
+
+[tool.coverage.run]
+branch = true
+omit = ["setup.py", "versioning.py", "tests/*"]
+
+[tool.coverage.paths]
+source = ["chanfig"]
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[tool.coverage.json]
+output = "coverage.json"
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 60
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pylint.messages_control]
+disable = """
+  C0114,
+  C0115,
+  C0116,
+  E0012,
+  E0401,
+  E1101,
+  R0201,
+  R0801,
+"""
+
+[tool.pylint.reports]
+output-format = "colorized"
+
+[tool.pylint.main]
+fail-under = 9.8

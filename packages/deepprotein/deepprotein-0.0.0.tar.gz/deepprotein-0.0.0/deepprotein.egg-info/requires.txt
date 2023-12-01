@@ -1,0 +1,13 @@
+accelerate
+chanfig
+danling
+einops
+numpy
+pandas
+torch
+torcheval
+torchmetrics
+transformers
+
+[:python_version < "3.11"]
+strenum
