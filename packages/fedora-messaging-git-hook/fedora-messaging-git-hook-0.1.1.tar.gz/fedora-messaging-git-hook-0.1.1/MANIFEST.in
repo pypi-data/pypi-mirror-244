@@ -1,0 +1,7 @@
+include *.ini *.example
+graft tests
+recursive-exclude tests *.pyc
+graft LICENSES
+graft docs
+prune docs/_build
+prune docs/_source
