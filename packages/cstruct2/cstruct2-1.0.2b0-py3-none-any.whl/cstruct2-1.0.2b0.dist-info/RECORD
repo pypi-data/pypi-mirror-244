@@ -1,0 +1,12 @@
+read_test.py,sha256=zM9CiC7d76E52VEbWXBQwueU2KhRv5fXhdnncN_rZu4,386
+write_test.py,sha256=Kc--PCaJGZBnsZTsnvF9-MGs6CO0BIbuzskTwKLlV0s,358
+cstruct2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstruct2/cstruct2.py,sha256=2ByFIwJTK0a_cU9Ba0L3cRz5LtQpSRSTvTUx0i3zCGw,20568
+cstruct2/cstruct2_exceptions.py,sha256=IhuF8MgxlToqXtUAQhIXLq3I6nlgRoMcd1bstbH0q10,3399
+cstruct2/cstruct2_fields.py,sha256=36kc9stk6u5r7Tv56R7_74wX7oR4UFzKlWS8LVaGAD0,1796
+cstruct2/cstruct2_utils.py,sha256=OnCxcFWh4UnuIk8VGCPo-sPIhXFNUU7-etMcJcuvqkA,1034
+cstruct2-1.0.2b0.dist-info/LICENSE,sha256=pFfJ8D2SSH1xlBiPKDX3E8KC7r9eHUV6Fbh6wm7llwo,1067
+cstruct2-1.0.2b0.dist-info/METADATA,sha256=sjq1AOZCDirRDF2nE9d59HI-I2zNESxRpge3qUhaX5E,16391
+cstruct2-1.0.2b0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cstruct2-1.0.2b0.dist-info/top_level.txt,sha256=GKPMBSUNB7jQjMHuh_7fmGXaJaEfboNLydOntZDzEDk,30
+cstruct2-1.0.2b0.dist-info/RECORD,,
