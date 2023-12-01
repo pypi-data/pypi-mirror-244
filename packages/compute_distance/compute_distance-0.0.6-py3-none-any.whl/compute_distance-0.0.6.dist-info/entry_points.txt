@@ -1,0 +1,4 @@
+[console_scripts]
+compute_distance=compute_distance.cli:cli
+compute_distance_debug=compute_distance.cli:cli_debug
+
