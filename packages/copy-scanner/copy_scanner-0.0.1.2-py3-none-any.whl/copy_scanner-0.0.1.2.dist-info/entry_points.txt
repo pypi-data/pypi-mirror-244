@@ -1,0 +1,4 @@
+[console_scripts]
+scanner-init=scanner.create_config:main
+scanner-segment=scanner.cli:main
+
