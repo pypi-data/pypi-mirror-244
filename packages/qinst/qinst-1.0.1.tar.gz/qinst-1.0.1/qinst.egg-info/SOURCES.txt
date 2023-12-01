@@ -1,0 +1,9 @@
+README.md
+setup.py
+qinst/__init__.py
+qinst/schedule.py
+qinst.egg-info/PKG-INFO
+qinst.egg-info/SOURCES.txt
+qinst.egg-info/dependency_links.txt
+qinst.egg-info/requires.txt
+qinst.egg-info/top_level.txt
