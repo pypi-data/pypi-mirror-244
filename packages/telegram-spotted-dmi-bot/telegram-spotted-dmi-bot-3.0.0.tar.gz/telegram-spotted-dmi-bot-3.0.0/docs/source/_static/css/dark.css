@@ -1,0 +1,21 @@
+html[data-theme="dark"] .sig-prename,
+html[data-theme="dark"] .sig-name {
+  color: #fff !important;
+}
+
+html[data-theme="dark"].writer-html4
+  .rst-content
+  dl:not(.docutils)
+  dl:not(.field-list)
+  > dt,
+html[data-theme="dark"].writer-html5
+  .rst-content
+  dl[class]:not(.option-list):not(.field-list):not(.footnote):not(
+    .glossary
+  ):not(.simple)
+  dl:not(.field-list)
+  > dt {
+  color: #007dce !important;
+  background-color: #0f0f0f !important;
+  border-color: #2b2b2b !important;
+}

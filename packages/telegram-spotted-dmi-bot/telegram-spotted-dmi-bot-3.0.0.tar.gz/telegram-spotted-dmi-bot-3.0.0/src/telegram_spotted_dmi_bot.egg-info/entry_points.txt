@@ -1,0 +1,2 @@
+[console_scripts]
+run_sql = spotted.scripts.run_sql:main
