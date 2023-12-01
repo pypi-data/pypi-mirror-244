@@ -1,0 +1,53 @@
+
+[build-system]
+requires = ["setuptools>=68.2.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PDFReport"
+version = "1.0.0"
+description = "Create PDF reports"
+readme = "README.md"
+authors = [{ name = "Michael Hodel", email = "info@adiuvaris.ch" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["PDF", "report", "generator", "library"]
+dependencies = [
+    "fpdf2 >= 2.7.6",
+    "Pillow >= 10.1.0",
+    "qrcode >= 7.4.2",
+    "python-barcode >= 0.15.1"
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest", "build", "twine", "sphinx", "furo"]
+
+[project.urls]
+Homepage = "https://github.com/adiuvaris/PDFReport"
+
+[tool.bumpver]
+current_version = "1.0.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = false
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"src/PDFReport/__init__.py" = ["{version}"]
+"README.md" = [
+    "{version}"
+]
