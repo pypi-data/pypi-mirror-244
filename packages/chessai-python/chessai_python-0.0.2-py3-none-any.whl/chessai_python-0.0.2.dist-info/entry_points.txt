@@ -1,0 +1,3 @@
+[console_scripts]
+chessai = chessai.app:main
+chessai.ingest = chessai.ingest:main
