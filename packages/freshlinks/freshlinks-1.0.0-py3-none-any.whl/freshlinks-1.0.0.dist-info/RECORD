@@ -1,0 +1,10 @@
+freshlinks/__init__.py,sha256=QVdXG6iQAvjaw_fn2rjWH9G6_aOFD6Sga4MZdCIczv0,189
+freshlinks/__main__.py,sha256=PsNUOOlRBNgSk51sEpure9EpkzxTB4p6h6mjZxGOHrY,7928
+freshlinks/cache.py,sha256=Hal_XtjhecNolj7VpHTlIwEJ7_Q25y8NGbNWxEw1BrY,4513
+freshlinks/canonicalize.py,sha256=jPDraEY60nKs7qWtY1XyloT_V14xZY6DArenUWNveg8,8997
+freshlinks/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freshlinks/scraper.py,sha256=QCCh6JJlgM1tnnNiMSAuPO7y2M8QErpKmaYy9EQV31o,3068
+freshlinks-1.0.0.dist-info/METADATA,sha256=52ZJqD1-bFbA4vFq4p7U9E_gltanhA0PJRWj1Jfrq7o,2968
+freshlinks-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+freshlinks-1.0.0.dist-info/top_level.txt,sha256=6ETjYPNzWfpHlGnCwtrbLfaz4GNLcQ1J6-KMh1SnpFk,11
+freshlinks-1.0.0.dist-info/RECORD,,

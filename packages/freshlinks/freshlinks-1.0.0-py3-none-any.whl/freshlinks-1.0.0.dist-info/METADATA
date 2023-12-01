@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: freshlinks
+Version: 1.0.0
+Summary: Basic link checker.
+Author-email: Metaist LLC <metaist@metaist.com>
+License: MIT
+Project-URL: Homepage, https://github.com/metaist/freshlinks
+Project-URL: Documentation, https://metaist.github.io/freshlinks/
+Project-URL: Repository, https://github.com/metaist/freshlinks.git
+Project-URL: Changelog, https://github.com/metaist/freshlinks/blob/main/CHANGELOG.md
+Keywords: link,checker
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: attrbox ==0.1.5
+Requires-Dist: beautifulsoup4 ==4.12.2
+Requires-Dist: ezq ==3.0.4
+Requires-Dist: lxml ==4.9.3
+Requires-Dist: multiprocess ==0.70.14
+Requires-Dist: requests ==2.30.0
+Requires-Dist: ujson >=5.7.0
+Requires-Dist: url-normalize ==1.4.3
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pdm ; extra == 'dev'
+Requires-Dist: pdoc3 ; extra == 'dev'
+Requires-Dist: pyright ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
+# freshlinks
+
+_Basic link checker._
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/metaist/freshlinks/.github/workflows/ci.yaml?branch=main&style=for-the-badge)](https://github.com/metaist/freshlinks/actions)
+[![freshlinks on PyPI](https://img.shields.io/pypi/v/freshlinks.svg?color=blue&style=for-the-badge)](https://pypi.org/project/freshlinks)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/freshlinks?style=for-the-badge)](https://pypi.org/project/freshlinks)
+
+[Changelog] - [Issues] - [Documentation]
+
+[changelog]: https://github.com/metaist/freshlinks/blob/main/CHANGELOG.md
+[issues]: https://github.com/metaist/freshlinks/issues
+[documentation]: https://metaist.github.io/freshlinks/
+
+## Why?
+
+There are lots of existing services out there that have lots of bells and whistles, but I just want to include small fast link checker as part of my build / lint process.
+
+## Quick Start
+
+```bash
+python -m freshlinks "https://example.com/"
+```
+
+## License
+
+[MIT License](https://github.com/metaist/freshlinks/blob/main/LICENSE.md)
