@@ -1,0 +1,17 @@
+simple_slurm/__about__.py,sha256=e3cfQy_iVs9ILsymUalJnJu5D_dd7HuUVoVwKKurcL0,22
+simple_slurm/__init__.py,sha256=ae-1h2jaLkFw1-tA5rvQIvp_etvwge6Q6UD1dbQaWt4,230
+simple_slurm/arguments.txt,sha256=uWV6I7HcYBVXct19NOD8NoaHYzTRoQuNTxwysdY4A9A,1035
+simple_slurm/arguments_help.txt,sha256=WoDETUHGA2nf1mivsjmouXLUwju6Jippa3wOuFx2S3U,1317
+simple_slurm/cli.py,sha256=ZojFT3QRe7s1gyJpCYx3g0X0d_qKzdtBx-aKxrbS95g,1051
+simple_slurm/core.py,sha256=nLa3tmTwK52XoPGaGcZWclNiYb7WEh5u_Pif27elVpE,10280
+simple_slurm/filename_patterns.txt,sha256=4VEbh9JmN6fTlitDZ7xhkW7KrcFxd-tH-sEOssEXdZM,184
+simple_slurm/output_env_vars.txt,sha256=MGK4R_olLfAcuubJBn0uqQvnfUbd2fLoRi5KMzuq5fc,999
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_cli.py,sha256=xyCiYu1bvgmteScaatoNTJ8-C7UAtBhnwtN0UzA3Ujs,2664
+test/test_core.py,sha256=uYq267wNZGlGUMby_zZ_PmgE2vaun1kaeTyRtG6mRKw,9982
+simple_slurm-0.2.7.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+simple_slurm-0.2.7.dist-info/METADATA,sha256=jAUlIcchsNbQ-XaqDmu8v2Xa4RlYRcRUUqQVjkmonMY,10348
+simple_slurm-0.2.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+simple_slurm-0.2.7.dist-info/entry_points.txt,sha256=R1bmby1V_wad4crz8EJhBeXZnXKItvCcJ6GL768VObQ,54
+simple_slurm-0.2.7.dist-info/top_level.txt,sha256=NU2emP60fwVVrLklYedTs7wz2KwCvSX3U6Cvr0mZYwg,18
+simple_slurm-0.2.7.dist-info/RECORD,,
