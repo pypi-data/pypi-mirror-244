@@ -1,0 +1,17 @@
+src/fendi/__init__.py,sha256=OGrpOdWldtfvImD-f55gstZ-8G4QsAyJ-GQSd9i_Ckg,440
+src/fendi/create.py,sha256=pF5cG3PytGLgL2V5PVQJrAhhTKpHVMOkMbD4sPQfVJI,9705
+src/fendi/fedi.py,sha256=r1x1cXw8z8yc9WF7PK4URBQ7r5Mp-8nrIvxA4lvIXFU,579
+src/fendi/styles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/fendi/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/fendi/utils/constants.py,sha256=jP_mGTwmxDU_DdO-6jNhUKmXLHdvP2L1DDIRG4V5MGg,10054
+src/fendi/utils/encrypt.py,sha256=orZiNsXXoGkIwKWhuSvhGUwk1jfJsUwlCta4tblemtg,1223
+src/fendi/utils/linkedin_to_txt.py,sha256=oPW30Y3cAsDdY0fvzMdH2IYZ6GTcsgqpUe2Vh7CQ-Kk,2364
+src/fendi/utils/move_css.py,sha256=eL2X-U3ctX-uPQWPyhBUs0FBlgORzK643h42Ozdr6W8,959
+tests/__init__.py,sha256=v_7cbTWwt8H74qazONWsVFEOiwULoA26V666EQWmtbU,101
+tests/test_simple.py,sha256=CiD9v8zpSMrkcr5u63juQ3dSFuTpzYB0rChN41uvVII,392
+fendi-0.0.0.3.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+fendi-0.0.0.3.dist-info/METADATA,sha256=AsAJkmP0WqUtdRrc-2ke18jkI-LdsbtaYv2et7uSe4I,10651
+fendi-0.0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fendi-0.0.0.3.dist-info/entry_points.txt,sha256=k4xGCnZ3hg058OIQ5jIUgWWYJfSCIr7LGYigiwa2s1w,37
+fendi-0.0.0.3.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+fendi-0.0.0.3.dist-info/RECORD,,
