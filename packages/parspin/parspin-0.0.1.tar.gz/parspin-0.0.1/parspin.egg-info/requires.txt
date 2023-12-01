@@ -1,0 +1,4 @@
+netneurotools
+nibabel
+numpy
+scipy

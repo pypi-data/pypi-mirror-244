@@ -1,0 +1,20 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "wheel",
+]
+
+
+[project]
+name = "parspin"
+version = "0.0.1"
+description = "pip mirror of parspin utilities functions by Ross Markello"
+readme = "README.rst"
+authors = [
+    {name = "N Koussis", email = "nikitas.koussis@gmail.com"},
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Source = "https://github.com/netneurolab/markello_spatialnulls/tree/master/parspin"
+Documentation = "https://github.com/netneurolab/markello_spatialnulls/tree/master/parspin"

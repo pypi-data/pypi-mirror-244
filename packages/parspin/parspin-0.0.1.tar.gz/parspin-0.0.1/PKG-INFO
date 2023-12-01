@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: parspin
+Version: 0.0.1
+Summary: A toolbox in support of Markello et al., 2020
+Home-page: https://github.com/netneurolab/markello_spatialnulls
+Author: Ross Markello
+Maintainer: Ross Markello
+Maintainer-email: rossmarkello@gmail.com
+License: BSD-3
+Download-URL: https://github.com/rmarkello/markello_spatialnulls
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Provides: parspin
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A toolbox in support of Markello et al., 2020
+
