@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: multi-parser
+Version: 23.12.2
+Summary: Multi-Parser - for argparser
+Home-page: https://github.com/8tm/multi-parser/wiki
+Author: Tadeusz Miszczyk
+Author-email: 42252259+8tm@users.noreply.github.com
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Documentation, https://8tm.github.io/multi-parser/
+Project-URL: Repository, http://github.com/8tm/multi-parser
+Description-Content-Type: text/markdown
+
+# MultiParser for argparse
+
+Please check [WIKI](https://github.com/8tm/multi_parser/wiki) pages for project description.
+
