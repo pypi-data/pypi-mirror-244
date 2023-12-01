@@ -1,0 +1,8 @@
+fedora_messaging_git_hook/__init__.py,sha256=kg429TeYwvto7S53VCj3yXI2jI8b9CMp8nY-6woffBE,344
+fedora_messaging_git_hook/cli.py,sha256=hBUZsElQlYmMHk05XljozujOgDNHNuTw_R2F5NGvqLo,880
+fedora_messaging_git_hook/hook.py,sha256=9e5qfPIvyPp_puFsoS7qz0dkxNUR07eFg4K79acDT2E,6739
+fedora_messaging_git_hook-0.1.1.dist-info/METADATA,sha256=Trp9DgMz6xwDALTFB_iSBHmE_75he1hAoORIgwpii2k,2434
+fedora_messaging_git_hook-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fedora_messaging_git_hook-0.1.1.dist-info/entry_points.txt,sha256=y9RwXhbe88DYSfKH-hu0dJZPjVXrncFK-5J3Y__C-y0,81
+fedora_messaging_git_hook-0.1.1.dist-info/top_level.txt,sha256=CPFgXXOhpTrlH0HKA1rrlCgSl37y4PrcpksjVfk4uxg,26
+fedora_messaging_git_hook-0.1.1.dist-info/RECORD,,
