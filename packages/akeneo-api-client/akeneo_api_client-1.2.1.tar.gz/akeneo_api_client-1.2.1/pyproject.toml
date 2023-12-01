@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "akeneo_api_client"
+version = "1.2.1"
+authors = [
+  { name="Asim Liaquat", email="asm.lqt@gmail.com" },
+]
+description = "REST API client for Akeneo"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/asimlqt/akeneo-api-python-client"
+"Bug Tracker" = "https://github.com/asimlqt/akeneo-api-python-client/issues"
