@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: atorch-addon
+Version: 0.0.1
+Summary: Addon for ATorch
+Author: Ant Group
+Requires-Python: >=3.8
+Requires-Dist: atorch
+
