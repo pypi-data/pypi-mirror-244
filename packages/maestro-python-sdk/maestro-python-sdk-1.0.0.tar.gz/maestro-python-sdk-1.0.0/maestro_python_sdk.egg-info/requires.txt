@@ -1,0 +1,8 @@
+pika==1.0.0b1
+requests==2.31.0
+boto3==1.26.80
+
+[cryptography]
+cryptography==41.0.3
+pycparser==2.21
+cffi==1.15.1
