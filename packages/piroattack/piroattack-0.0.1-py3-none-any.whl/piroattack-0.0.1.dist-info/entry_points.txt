@@ -1,0 +1,2 @@
+[console_scripts]
+piroattack = piroattack.main:main
