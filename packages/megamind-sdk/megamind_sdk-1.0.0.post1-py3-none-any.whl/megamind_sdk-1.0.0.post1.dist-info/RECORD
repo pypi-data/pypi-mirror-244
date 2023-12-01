@@ -1,0 +1,10 @@
+megamind_sdk/setup.py,sha256=UDTe15kP4Cr0dDjG9X-Zc_4Sn1R-xM7blx2hSNny-Rk,427
+megamind_sdk/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megamind_sdk/api/progress_report.py,sha256=cTQkXi_aagAKLmLPFuZVGO8_h9_fmV2iL9Xf55EtC8E,861
+megamind_sdk/api/training_master_client.py,sha256=yPsZMUWP8CL4EFvU_MBra6UP9t_EhA5HE2KlsON92SE,2118
+megamind_sdk/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megamind_sdk/utils/std_stream_proxy.py,sha256=fHNwNPEwbjXao4T9x1jnyID2it12U9cj4E2BWcLbdmw,1077
+megamind_sdk-1.0.0.post1.dist-info/METADATA,sha256=nh75PlAUOcyKIJ0W32hcLOeVLaAI-sdUV0xT_qV3_vw,159
+megamind_sdk-1.0.0.post1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+megamind_sdk-1.0.0.post1.dist-info/top_level.txt,sha256=CzhgPKaEbL3J6JB78G8bcZYhi4XxHpi6loKJhiBjw10,13
+megamind_sdk-1.0.0.post1.dist-info/RECORD,,
