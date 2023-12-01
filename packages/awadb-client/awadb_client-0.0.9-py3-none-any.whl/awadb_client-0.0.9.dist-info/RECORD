@@ -1,0 +1,9 @@
+awadb_client/__init__.py,sha256=xjpJiuTvqkJbNUkrlzq1b1qfcvVJUD9DQo7CSulUaMk,61
+awadb_client/awadb_api.py,sha256=pMwvmoOtksGp1Z04NBALqxzcuJ60UHA2s2xMJ0iP0GI,6287
+awadb_client/client.py,sha256=jnckbJkVh707W6xpH6Q4iwOzXa0kQ7Ayz5wLqkkkvRs,32631
+awadb_client/py_idl/awadb_pb2.py,sha256=fWOYu5sHBmRyyy4lFR4QB89ac1zBWbpz6xrP4uJRxoc,11919
+awadb_client/py_idl/awadb_pb2_grpc.py,sha256=zd8uYsvPbShwGZhzPiOYCywVVYbbycxfG58E2Df8gn0,16972
+awadb_client-0.0.9.dist-info/METADATA,sha256=d92_QKjCLR7Zncry_xoj6lUGNJ6G5fycZT3Bgb_NDr8,335
+awadb_client-0.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+awadb_client-0.0.9.dist-info/top_level.txt,sha256=-v6rCSzr-0FsvTwcxQmCv791Js5DQVjmZ6sTvTbNaVs,13
+awadb_client-0.0.9.dist-info/RECORD,,
