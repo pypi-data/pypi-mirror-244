@@ -1,0 +1,11 @@
+cpp_aws_s3_pdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpp_aws_s3_pdf/exceptions.py,sha256=L23tiSu-d0AhGKVY1hbjPM4ntRoMZvfNlCXzxP9RpmY,979
+cpp_aws_s3_pdf/s3_pdf.py,sha256=tGIQ11N-G6or8e6GEUI7RuiANN11nrxOYTs-2u0gsc8,4552
+cpp_aws_s3_pdf/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpp_aws_s3_pdf/utils/aws_s3.py,sha256=uatGW-jrRQPnw0VT6aqHUapCG5qGbIcXxIDUo7svrCU,2481
+cpp_aws_s3_pdf/utils/image.py,sha256=GQAMNuglZhf3cIR2UcNk3qBN9JrpuhdMndLSbk0C6UA,1955
+cpp_aws_s3_pdf/utils/pdf.py,sha256=TjR4R_gCDPDP2hPzymF7uQ1HkFBSyFEqAxB2VYFL7N8,1745
+cpp_aws_s3_pdf-1.1.0.dist-info/METADATA,sha256=YhLsHvoR2ZW7Goxi9QCwWYjIWokmQIrDOwRu8fd1TNg,2739
+cpp_aws_s3_pdf-1.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cpp_aws_s3_pdf-1.1.0.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cpp_aws_s3_pdf-1.1.0.dist-info/RECORD,,
