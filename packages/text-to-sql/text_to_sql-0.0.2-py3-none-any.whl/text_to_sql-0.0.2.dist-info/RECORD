@@ -1,0 +1,12 @@
+text_to_sql/__init__.py,sha256=10l76L1v-KeJ6fm6z-q7bfVcyK1EBjsxltR7QI4miVA,3896
+text_to_sql/database_connector.py,sha256=grJ_QU4GEOplChL2Zoxq9ySK2kSya4fxqSNrs0MYTAA,8300
+text_to_sql/interfaces.py,sha256=tCDR9Vo6u7ATgmxgmj-7FYSvrLXelqduJp6lhAntl24,265
+text_to_sql/main.py,sha256=DgKsE94wcaTfafdnfonrh8vJXgMNSWVOiq5nNwJHJb8,5014
+text_to_sql/mock_data_generator.py,sha256=GtwV_zk7eoLbiRmkKpWIsWvP7Nl8VYiAiFpSJcv_z3I,2007
+text_to_sql/utils.py,sha256=u3zpnYIxg4FZLDGSnNUFRdXA4Tuy_poluOZy19MPu-I,2212
+text_to_sql-0.0.2.dist-info/LICENSE,sha256=pBodqx_QPhPkaqXnIrkuTbG258FLFXT0uth-NwTksCE,1080
+text_to_sql-0.0.2.dist-info/METADATA,sha256=QZYZHkEUFizr4A5nQqxTgSSdUX-vUowvDVU8uJUNYSA,11106
+text_to_sql-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+text_to_sql-0.0.2.dist-info/entry_points.txt,sha256=Dhf6YuxuA81OXIty6m90nfMTaahtKEk8pFD-wv-MhNA,189
+text_to_sql-0.0.2.dist-info/top_level.txt,sha256=MTWX6m16KYAsKBgyFI6ODxMzQ8fKD5j3Z8FEOUkfxM8,12
+text_to_sql-0.0.2.dist-info/RECORD,,
