@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: PDFReport
+Version: 1.0.0
+Summary: Create PDF reports
+Author-email: Michael Hodel <info@adiuvaris.ch>
+License: MIT License
+        
+        Copyright (c) 2018 Real Python
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/adiuvaris/PDFReport
+Keywords: PDF,report,generator,library
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fpdf2 >=2.7.6
+Requires-Dist: Pillow >=10.1.0
+Requires-Dist: qrcode >=7.4.2
+Requires-Dist: python-barcode >=0.15.1
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: furo ; extra == 'dev'
+
+# PDFReport
+
+*Python Report Library*
+
+* **category**    Library
+* **author**      Michael Hodel <info@adiuvaris.ch>
+* **version**     1.0.0
+* **copyright**   2023-2023 Michael Hodel - Adiuvaris
+* **license**     http://www.gnu.org/copyleft/lesser.html GNU-LGPL v3 (see LICENSE.TXT)
+* **link**        https://github.com/adiuvaris/PDFReport
+* **source**      https://github.com/adiuvaris/PDFReport
+
+
+## Description
+
+Python library to generate dynamic PDF reports using the FPDF2 library to create the PDF documents. 
+The library works with nested rectangle regions on the paper where the sizes can be defined in millimeters 
+or in percent of the surrounding rectangle or the library calculates them by the content.
+
+### Main Features:
+* all standard page formats (from FPDF), custom page margins;
+* different page formats in one report;
+* management of text styles;
+* images, 2D barcodes (e.g. QR);
+* page header and footer management;
+* automatic page break, line break and text alignments;
+* automatic page numbering;
+* support for tables with a lot of features (e.g. automatic repeat the table header row after page break)
+* nested structure of rectangles to create the report structure
+
+
+## Install
+
+Via PyPi
+
+``` bash
+$ pip install PDFReport
+```
+
+## Samples
+
+``` python
+python -m PDFReport <sample number>
+```
+Sample number can be any number from 1 to 34, e.g.
+
+``` python
+python -m PDFReport 26
+```
+
+## Usage
+
+See the documentation https://docs.adiuvaris.ch/index.html
+
+
+## License
+
+GNU LESSER GENERAL PUBLIC LICENSE. Please see [License File](LICENSE) for more information.
+
