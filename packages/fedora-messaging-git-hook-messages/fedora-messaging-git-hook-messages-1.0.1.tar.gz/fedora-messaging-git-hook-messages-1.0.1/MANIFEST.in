@@ -1,0 +1,4 @@
+include *.ini *.in
+graft tests
+graft LICENSES
+recursive-exclude tests *.pyc
