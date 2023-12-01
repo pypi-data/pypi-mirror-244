@@ -1,0 +1,14 @@
+langchain
+langchain-experimental
+openai
+python-dotenv
+psycopg2-binary
+InquirerPy
+
+[dev]
+pytest
+pytest-check
+pytest-html
+tqdm
+faker
+twine
