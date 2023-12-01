@@ -1,0 +1,12 @@
+odapt/__init__.py,sha256=XXB831rO7c9DLNxPyDB0oGy4uYuRTmQDD_IhsOvsChk,280
+odapt/_version.py,sha256=CqDGE4B1ZqZ-56mxeOFcXRTmlxrdOh4ayrjbcPjziE4,411
+odapt/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+odapt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odapt/operations/__init__.py,sha256=CsZ83c60-pt4_JCLW-Ork2US5DkOFQlyhli_f543P1E,174
+odapt/operations/hadd.py,sha256=NHYD8DUOsNvgJi6EG8DHo7px4xhG7ji5_BMqkTKbLNg,12253
+odapt/operations/merge.py,sha256=iU3hoRTDqXnBcFSVHDcSQsOT-dEHvL4o3817J0UrSVg,12406
+odapt-1.1.0.dist-info/METADATA,sha256=x3hcxhGvl8i149bCU4hMKoB7IpoILS_cCGwNT8QIMnc,3169
+odapt-1.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+odapt-1.1.0.dist-info/entry_points.txt,sha256=g1NMsmx0YsAU871nTuMYz5CsFe0Fzs5Za6qWTZoDSQA,56
+odapt-1.1.0.dist-info/licenses/LICENSE,sha256=GOaGDfU4p4Fs1LEzXcFi5ydjdSMeWkICZFjs96yTTkE,1523
+odapt-1.1.0.dist-info/RECORD,,
