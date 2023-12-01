@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-5">
+    {% if cumulative_stat_list %}
+        {% for cumulative_stat in cumulative_stat_list%}
+    <table id="main-table" class="table table-responsive-lg caption-top table-bordered table-hover table-striped mt-5">
+        <caption>Stats for <b> {{cumulative_stat.category}} </b></caption>
+        <thead class="table-dark">
+            <tr>
+                <th> Attempts ({{ cumulative_stat.attempts }}) </th>
+                <th> Success ({{ cumulative_stat.success }}) </th>
+                <th> Fails ({{ cumulative_stat.fails }}) </th>
+                <th> Timeouts ({{ cumulative_stat.timeouts }}) </th>
+            </tr>
+        </thead>
+
+            <tr>
+                <td>
+                    {% for identifier_stats in identifier_stats_list %}
+                        {% if cumulative_stat.category == identifier_stats.identifier_category %}
+                    <a class="identifier-link" data-identifier-id="{{ identifier_stats.identifier_id }}" href="#"> {{ identifier_stats.identifier_id }} </a> {% if not forloop.last %} ; {% endif %}
+                        {%endif%}
+                    {% endfor %}
+                </td>
+                <td>
+                    {% for identifier_stats in identifier_stats_list %}
+                        {% if cumulative_stat.category == identifier_stats.identifier_category and identifier_stats.identifier_success %}
+                        <a class="identifier-link" data-identifier-id="{{ identifier_stats.identifier_id }}" href="#"> {{ identifier_stats.identifier_id }} </a> {% if not forloop.last %} ; {% endif %}
+                        {%endif%}
+                    {% endfor %}
+                </td>
+                <td>
+                    {% for identifier_stats in identifier_stats_list %}
+                        {% if cumulative_stat.category == identifier_stats.identifier_category and identifier_stats.identifier_fails %}
+                        <a class="identifier-link" data-identifier-id="{{ identifier_stats.identifier_id }}" href="#"> {{ identifier_stats.identifier_id }} </a> {% if not forloop.last %} ; {% endif %}
+                        {%endif%}
+                    {% endfor %}
+                </td>
+                <td>
+                    {% for identifier_stats in identifier_stats_list %}
+                        {% if cumulative_stat.category == identifier_stats.identifier_category and identifier_stats.identifier_timeout %}
+                         <a class="identifier-link" data-identifier-id="{{ identifier_stats.identifier_id }}" href="#"> {{ identifier_stats.identifier_id }} </a> {% if not forloop.last %} ; {% endif %}
+                        {%endif%}
+                    {% endfor %}
+                </td>
+          {% endfor %}
+    {% endif %}
+
+    </table>
+</div>
+
+{% endblock %}
+
+{% block js %}
+    document.querySelectorAll('.identifier-link').forEach(function(link){
+    link.addEventListener('click', function(event){
+    event.preventDefault();
+    var mainId = link.getAttribute('data-identifier-id');
+    var url = '/drawranflow/display-streaming-table/draw-sequence/' + mainId + '/';
+    window.location.href = url;
+});
+});
+{% endblock js %}
