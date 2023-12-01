@@ -1,0 +1,3 @@
+[console_scripts]
+anl = anl.cli:main
+cliadv = anl.cliadv:cli
