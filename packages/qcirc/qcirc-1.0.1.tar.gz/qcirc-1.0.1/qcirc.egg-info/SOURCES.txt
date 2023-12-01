@@ -1,0 +1,9 @@
+README.md
+setup.py
+qcirc/__init__.py
+qcirc/schedule.py
+qcirc.egg-info/PKG-INFO
+qcirc.egg-info/SOURCES.txt
+qcirc.egg-info/dependency_links.txt
+qcirc.egg-info/requires.txt
+qcirc.egg-info/top_level.txt
