@@ -32186,1127 +32186,1127 @@
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/64/f5/8b7df59c13cae0d361071d214bd1764da879cf08ced8661d520c89197ca1/netgen_mesher-6.2.2305.post21.dev0-cp39-cp39-macosx_10_15_universal2.whl",
       "upload_time": "2023-12-01T09:58:45.423161Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spaceone-api",
       "project_version": "2.0.27",
       "url": "https://files.pythonhosted.org/packages/fd/16/dbe542e5fbb48f02cab44c0e4a24669661e4fb12902e39336cc960d22745/spaceone_api-2.0.27-py3-none-any.whl",
       "upload_time": "2023-12-01T09:59:06.616936Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "swmm-api",
       "project_version": "0.4.33",
       "url": "https://files.pythonhosted.org/packages/57/b7/8a0f05df6da591c18173927abd6059ce6940bdd6cf85862f521ba085d5ee/swmm_api-0.4.33-py3-none-any.whl",
       "upload_time": "2023-12-01T09:59:07.183025Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spaceone-api",
       "project_version": "2.0.27",
       "url": "https://files.pythonhosted.org/packages/db/fa/72a1d4fe430816dacfd994e1ed9764345b129f4696b44575bdf2bdd837f6/spaceone-api-2.0.27.tar.gz",
       "upload_time": "2023-12-01T09:59:11.246124Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "swmm-api",
       "project_version": "0.4.33",
       "url": "https://files.pythonhosted.org/packages/a2/3a/5fbc0da70ffd84be57333f6d8998a96c35f7aeec66cf0c63c4579a65d4cc/swmm-api-0.4.33.tar.gz",
       "upload_time": "2023-12-01T09:59:12.965376Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mario-pipeline-tools",
       "project_version": "0.4",
       "url": "https://files.pythonhosted.org/packages/92/6c/a6f7355470ec05efde74a55cd947b4899bf0e8f1afb82cfde1e2ac0baa71/mario_pipeline_tools-0.4-py3-none-any.whl",
       "upload_time": "2023-12-01T09:59:41.524013Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mario-pipeline-tools",
       "project_version": "0.4",
       "url": "https://files.pythonhosted.org/packages/be/44/0fd9787d94be8cdf28c3d6b837ad96710d0e3ef9735c0dbe41a3831bba24/mario-pipeline-tools-0.4.tar.gz",
       "upload_time": "2023-12-01T09:59:43.097521Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "turn-by-turn",
       "project_version": "0.6.0",
       "url": "https://files.pythonhosted.org/packages/d3/6c/2af506eb419dd18e4eab4b043b0035065c5445cc14c5a11ed3806ee0632e/turn_by_turn-0.6.0-py3-none-any.whl",
       "upload_time": "2023-12-01T09:59:53.658483Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fastbase",
       "project_version": "0.3.0",
       "url": "https://files.pythonhosted.org/packages/1a/36/89df3d3aa5584c33e167e39208c4fa1da0675f97e9f8056cbe4cf079c5a5/fastbase-0.3.0-py3-none-any.whl",
       "upload_time": "2023-12-01T09:59:54.346927Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "turn-by-turn",
       "project_version": "0.6.0",
       "url": "https://files.pythonhosted.org/packages/3e/36/78406e18d07fd7a5065397873195bdc96c5527b9e77d023dcebc2f33c15d/turn_by_turn-0.6.0.tar.gz",
       "upload_time": "2023-12-01T09:59:55.622504Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fastbase",
       "project_version": "0.3.0",
       "url": "https://files.pythonhosted.org/packages/09/9a/9a9fc9aecf7348b05575dbe9aa956e5a046bed0d9c3c24fd707b3ce5cd23/fastbase-0.3.0.tar.gz",
       "upload_time": "2023-12-01T09:59:55.910714Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "smartapi-python",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/61/a1/29bf1789fa253c119f8368e70d1e5a44d8b0841379208a901c293705d36b/smartapi_python-1.4.0-py3-none-any.whl",
       "upload_time": "2023-12-01T09:59:59.844406Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pytorch-lantern",
       "project_version": "0.12.12",
       "url": "https://files.pythonhosted.org/packages/5a/29/a019517c698f44cc052174d17ea9871059214e7e8ccd1558790ad2e47645/pytorch_lantern-0.12.12-py3-none-any.whl",
       "upload_time": "2023-12-01T10:00:01.702192Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "smartapi-python",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/2a/de/58d2b88e0e5911257e1162a860aec6f201c8a0bc7d14f75d49a6d18ec2ab/smartapi-python-1.4.0.tar.gz",
       "upload_time": "2023-12-01T10:00:03.652149Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pytorch-lantern",
       "project_version": "0.12.12",
       "url": "https://files.pythonhosted.org/packages/35/12/c5680972b01c0e982c7824f0e04fd921b655718109438a7f6c4af3c3cad2/pytorch_lantern-0.12.12.tar.gz",
       "upload_time": "2023-12-01T10:00:05.201574Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pulumi-azure",
       "project_version": "5.58.0a1701420644",
       "url": "https://files.pythonhosted.org/packages/bd/08/3f5a2b7f93a2a589518f5594f54d99e1e24ba43f463ef4b98a0b57a41c01/pulumi_azure-5.58.0a1701420644-py3-none-any.whl",
       "upload_time": "2023-12-01T10:01:18.564731Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pulumi-azure",
       "project_version": "5.58.0a1701420644",
       "url": "https://files.pythonhosted.org/packages/73/46/6af33ab1f68ab2c6291e333c0c297529b61b05d236289a890666a1d38142/pulumi_azure-5.58.0a1701420644.tar.gz",
       "upload_time": "2023-12-01T10:01:25.016476Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/68/20/97b1e9b588ae5734fd93fbf34aa448d58523d89e79f30a18eb9dc6e01c4a/netgen_mesher-6.2.2305.post21.dev0-cp38-cp38-win_amd64.whl",
       "upload_time": "2023-12-01T10:02:22.360141Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/23/c3/31250fe9e2ff145505ad28159770fccd22d71b48ec4da694c1134198974f/netgen_mesher-6.2.2305.post21.dev0-cp310-cp310-macosx_10_15_universal2.whl",
       "upload_time": "2023-12-01T10:02:27.607115Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "metaphor-models",
       "project_version": "0.30.7",
       "url": "https://files.pythonhosted.org/packages/ac/96/ca6d734ca4da7c99332820f929ffd98f33c1efb2dc841d85fbb1c276c6e1/metaphor_models-0.30.7-py3-none-any.whl",
       "upload_time": "2023-12-01T10:02:31.224081Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "metaphor-models",
       "project_version": "0.30.7",
       "url": "https://files.pythonhosted.org/packages/fc/c4/787d0ca472dad654808a7094d54edddc63291794d71e0f675bb6ffe01b5b/metaphor_models-0.30.7.tar.gz",
       "upload_time": "2023-12-01T10:02:33.922883Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "Loglan-Core",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/58/7d/3b3356cab11c12dbf4250f16936c964764696d1b1327dda2735ce6f784b1/Loglan_Core-0.1.6-py3-none-any.whl",
       "upload_time": "2023-12-01T10:02:36.122903Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/34/77/5d4dc683824369cbddae9c6421340d31fd8721102543211c6390cb528c3a/netgen_mesher-6.2.2305.post21.dev0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2023-12-01T10:02:44.919508Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "Loglan-Core",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/9b/b4/61b9063102b4841a89f446ec8e9924ef6ddcf0c424f6b7d7780400091052/Loglan-Core-0.1.6.tar.gz",
       "upload_time": "2023-12-01T10:02:45.737134Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/39/21/2f010073af09e3c08dedcb507e47ea46113503cfb5530714bb35e5ea1345/netgen_mesher-6.2.2305.post21.dev0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2023-12-01T10:02:55.440332Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/0f/5b/e1cef862724b6182fd08802a61fdbc88b4de12172866838cc91d5b26741d/netgen_mesher-6.2.2305.post21.dev0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2023-12-01T10:03:04.257255Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/fa/f7/7a86d2b9b07d5282341799cf401436dd92270dc3eb1c4760cd3e57fe18bc/netgen_mesher-6.2.2305.post21.dev0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2023-12-01T10:03:12.500693Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "clisender",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/39/b8/9ea26f55c7429a3c580840bdd123d29b0bbe9563aaf260e8b44f84677a43/clisender-0.0.1-py3-none-any.whl",
       "upload_time": "2023-12-01T10:03:12.905713Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "clisender",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/6d/88/086eac7e2dfabd5bb0524de0f2f296f7186a6f76e1c310663a78f632f55f/clisender-0.0.1.tar.gz",
       "upload_time": "2023-12-01T10:03:14.095471Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tyro",
       "project_version": "0.6.0",
       "url": "https://files.pythonhosted.org/packages/c5/11/abdf67467d06713b431618732a43f82d1b1f02120107b05a789afbcdf54d/tyro-0.6.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:03:18.710824Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/29/78/7fd6470de0f13faab487cd3233757bdafcb8e33f4279c4d0e1beecb90fdf/netgen_mesher-6.2.2305.post21.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2023-12-01T10:03:20.541142Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tyro",
       "project_version": "0.6.0",
       "url": "https://files.pythonhosted.org/packages/fb/57/4329f260430abbbccbe1cff50fdb583233b7bee8ea5a77c90233b612d5c5/tyro-0.6.0.tar.gz",
       "upload_time": "2023-12-01T10:03:21.103952Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cythonimagetools",
       "project_version": "0.10",
       "url": "https://files.pythonhosted.org/packages/59/00/6d24584ddcccf13fc37065f2d0b9aa304774749a4b37e0739c32b8a04506/cythonimagetools-0.10-py3-none-any.whl",
       "upload_time": "2023-12-01T10:03:22.698611Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gefpy",
       "project_version": "0.7.10",
       "url": "https://files.pythonhosted.org/packages/e3/3a/40aaa8daf053f8504922c176882f38e69eefeaf2c7d53ecfbea947ecd1f9/gefpy-0.7.10-cp38-cp38-win_amd64.whl",
       "upload_time": "2023-12-01T10:03:23.376280Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cythonimagetools",
       "project_version": "0.10",
       "url": "https://files.pythonhosted.org/packages/31/9e/b7d881d78cb1024b9876f45863b7019297a29368da7a382c1378f836ffdd/cythonimagetools-0.10.tar.gz",
       "upload_time": "2023-12-01T10:03:24.871783Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gefpy",
       "project_version": "0.7.10",
       "url": "https://files.pythonhosted.org/packages/04/c2/ba94ff6dff467b4d76205b9dcc7b955eeeed2d7f1ec62577003c62209c23/gefpy-0.7.10-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2023-12-01T10:03:26.015271Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/38/cb/455a9981f8b8124223206edc62aa48e5b0ad4cfe3b2d6753eb510e6069d1/etiq_spark-1.5.1-cp310-cp310-macosx_11_0_x86_64.whl",
       "upload_time": "2023-12-01T10:03:29.773008Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/6e/90/46dadfdace3325015d2a842dbaa51c007ac5d1e87cd810c3ba63c8827801/etiq_spark-1.5.1-cp310-cp310-manylinux1_x86_64.whl",
       "upload_time": "2023-12-01T10:03:32.093253Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/af/43/7c29288de19b32c0f6221836008575efc32f4a7e903eccc8549de2e8e3a5/etiq_spark-1.5.1-cp310-cp310-win_amd64.whl",
       "upload_time": "2023-12-01T10:03:34.233450Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/a6/df/1913c202010ac08ac66802b5284a723ba41764f11c1f160bb85e2aa6b111/etiq_spark-1.5.1-cp311-cp311-macosx_10_9_universal2.whl",
       "upload_time": "2023-12-01T10:03:35.878567Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/eb/74/420c165c484122cbd4f8fb24fd24621bd896e19a25968c7b52c499e25cc7/etiq_spark-1.5.1-cp311-cp311-manylinux1_x86_64.whl",
       "upload_time": "2023-12-01T10:03:38.024960Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/9d/4e/b720bfc899c78b0d29f153b1d5a04962085e52ecea4008408989052fddf0/etiq_spark-1.5.1-cp311-cp311-win_amd64.whl",
       "upload_time": "2023-12-01T10:03:39.693170Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/32/3f/982947ff5cf24ff0e06640895284172695cadd913ff712f9f901a48fb8de/etiq_spark-1.5.1-cp37-cp37m-macosx_11_0_x86_64.whl",
       "upload_time": "2023-12-01T10:03:41.796591Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/fe/b8/d99721c4ef7fce9eab87981dd55f0184b0cbd839ea51a99f7a0e30dddb01/etiq_spark-1.5.1-cp37-cp37m-manylinux1_x86_64.whl",
       "upload_time": "2023-12-01T10:03:43.752689Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/86/11/48967dbd42c2e8dae6f9f266b44678560aadc21ed781cf77e15609d287e6/etiq_spark-1.5.1-cp37-cp37m-win_amd64.whl",
       "upload_time": "2023-12-01T10:03:45.935919Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/07/71/407233acb5680b83af571878c064eb29fefb8d573aeba32024e592d1ccdc/etiq_spark-1.5.1-cp38-cp38-macosx_11_0_x86_64.whl",
       "upload_time": "2023-12-01T10:03:48.302290Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/04/c5/cf22076f696ab060a73dfb8a7d739e8a2e173a9e982efc4a520c92387823/etiq_spark-1.5.1-cp38-cp38-manylinux1_x86_64.whl",
       "upload_time": "2023-12-01T10:03:50.668201Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/bb/bf/17e1bcd8a5d48d598db11b4fa0cb179953ee0e8b308a09ac178dc7b4fbed/etiq_spark-1.5.1-cp38-cp38-win_amd64.whl",
       "upload_time": "2023-12-01T10:03:52.307681Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/14/c2/e0341894fa5d661680f6cffa6418ad2ab63a7e85c5a0daa6b387fc2b2d52/etiq_spark-1.5.1-cp39-cp39-macosx_11_0_x86_64.whl",
       "upload_time": "2023-12-01T10:03:53.851154Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/ba/94/84dacda7930a7ccf4b0c231a01f4e533992241a187017fe492a64a8c73c1/etiq_spark-1.5.1-cp39-cp39-manylinux1_x86_64.whl",
       "upload_time": "2023-12-01T10:03:55.654591Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etiq-spark",
       "project_version": "1.5.1",
       "url": "https://files.pythonhosted.org/packages/97/02/f2dbb448ca1ca3f64f35109dd888770a3876cccfdc3a6b28f63630afe257/etiq_spark-1.5.1-cp39-cp39-win_amd64.whl",
       "upload_time": "2023-12-01T10:03:57.223270Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "krisinformation",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/82/04/ea3eefcade932e5d1013cc3abffb1b9afd87e1a4b576a2e20b81723c5896/krisinformation-0.1.0.tar.gz",
       "upload_time": "2023-12-01T10:04:14.100969Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mppt",
       "project_version": "0.2.0",
       "url": "https://files.pythonhosted.org/packages/3d/82/2535e2690db4f7cb2480ba8a60457c069ff812fb0e2e5b95713ad03c0b37/mppt-0.2.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:04:16.816017Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mppt",
       "project_version": "0.2.0",
       "url": "https://files.pythonhosted.org/packages/73/46/286bbf62c238aec66cb0d15804a72104592ef9ead2f185567b3b1e369920/mppt-0.2.0.tar.gz",
       "upload_time": "2023-12-01T10:04:18.359177Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pathling",
       "project_version": "6.4.0",
       "url": "https://files.pythonhosted.org/packages/0b/bb/6f01e574b0882dd26f6e31da66ee14fdc4d98e635fd826ae06bd1ad5f74f/pathling-6.4.0-py2.py3-none-any.whl",
       "upload_time": "2023-12-01T10:05:38.493118Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pathling",
       "project_version": "6.4.0",
       "url": "https://files.pythonhosted.org/packages/ca/db/22895d6d5616c34f30de9363f1e322bcd0f613b55d3db5f27dbdd3428dab/pathling-6.4.0.tar.gz",
       "upload_time": "2023-12-01T10:05:40.543670Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bunkoer",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/c0/81/98db02457ff2e945ccb9c2f212898792ee82e29323a7dc5b480743b6918a/bunkoer-0.0.2-py3-none-any.whl",
       "upload_time": "2023-12-01T10:05:47.882100Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gefpy",
       "project_version": "0.7.10",
       "url": "https://files.pythonhosted.org/packages/11/0f/52fbc5f4203e5fb02e1079ee6faa759d01ae7a71999ee964dfe1b24ca170/gefpy-0.7.10-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2023-12-01T10:05:49.554413Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bunkoer",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/74/71/617647f72ddcdffd77a3553c5af2098d48913068e6d53e3e58830ec8fde9/bunkoer-0.0.2.tar.gz",
       "upload_time": "2023-12-01T10:05:49.670350Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/c8/13/09205216efa7156cce8e72cc0dd3e0dbd7ad4c3db51c739c4d66a5e3adde/netgen_mesher-6.2.2305.post21.dev0-cp311-cp311-macosx_10_15_universal2.whl",
       "upload_time": "2023-12-01T10:06:08.013903Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "whisper-client",
       "project_version": "0.2.24",
       "url": "https://files.pythonhosted.org/packages/3e/11/7fd46249011c787899f3882c99003c3363de167dc6121687984f65fbc3ae/whisper_client-0.2.24.tar.gz",
       "upload_time": "2023-12-01T10:06:30.119352Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "whisper-client",
       "project_version": "0.2.24",
       "url": "https://files.pythonhosted.org/packages/be/4f/7a65e2b97088cd258d8c51ac2d64ba626453c934ae26e46cee6b1a5997e4/whisper_client-0.2.24-py3-none-any.whl",
       "upload_time": "2023-12-01T10:06:31.900254Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rtdip-sdk",
       "project_version": "0.9.2",
       "url": "https://files.pythonhosted.org/packages/d4/01/13089a6467c8de463a251484a87d49ec3f732990dc99a6a5facef370c699/rtdip_sdk-0.9.2-py3-none-any.whl",
       "upload_time": "2023-12-01T10:06:34.935847Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rtdip-sdk",
       "project_version": "0.9.2",
       "url": "https://files.pythonhosted.org/packages/8d/79/ed36512ff66e58e19a2d7c670c1194acdbfd6a40f92fb15fd96c6f8ec1ef/rtdip-sdk-0.9.2.tar.gz",
       "upload_time": "2023-12-01T10:06:37.693430Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dotsetup",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/2e/75/6217d9c454dbc76c70f8ebd17b6f0dcf3cf2d0030cb5c33a23bd0b3063a7/dotsetup-0.0.1-py3-none-any.whl",
       "upload_time": "2023-12-01T10:06:59.111639Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "BO4E-Python-Generator",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/c9/1f/8f0e605cd90eaa7fbc3d39a314f3c17549134099b34f5d0b4d0b8fc5f7a1/bo4e_python_generator-0.0.2-py3-none-any.whl",
       "upload_time": "2023-12-01T10:07:02.612039Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "BO4E-Python-Generator",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/5d/23/e6e4c6160a6d1dafad6a72a0137b451cda51466ca47892d6477a26e42db3/bo4e_python_generator-0.0.2.tar.gz",
       "upload_time": "2023-12-01T10:07:03.979172Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bunkoer",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/88/ae/1857d49032d144421627e28e7a5e32b98d48fa4c3b528bdf4d18f4662e7b/bunkoer-0.1.2-py3-none-any.whl",
       "upload_time": "2023-12-01T10:08:24.489825Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bunkoer",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/61/a7/7a797f66514d57ece05af90ee6f460af343e122a2d17c377d1ffdd9dc673/bunkoer-0.1.2.tar.gz",
       "upload_time": "2023-12-01T10:08:26.018235Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fendi",
       "project_version": "0.0.0.4",
       "url": "https://files.pythonhosted.org/packages/36/4e/02dd5b9dee84f79952982ab70265713c4dc1f59febbb7ccc2fb67277b7b9/fendi-0.0.0.4-py3-none-any.whl",
       "upload_time": "2023-12-01T10:09:15.927261Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fendi",
       "project_version": "0.0.0.4",
       "url": "https://files.pythonhosted.org/packages/79/48/9ecf9d743348724f0bbec2262dd5a553c6b6b88fe421ef868b9c8d29fb29/fendi-0.0.0.4.tar.gz",
       "upload_time": "2023-12-01T10:09:17.711460Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etathermlib-PatrikTrestik",
       "project_version": "1.2.3",
       "url": "https://files.pythonhosted.org/packages/eb/c7/f0dcc3d0c06879542bf72e28b5f930986bfe2716f59ee3313c9e419d623d/etathermlib_PatrikTrestik-1.2.3-py3-none-any.whl",
       "upload_time": "2023-12-01T10:09:37.590166Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "etathermlib-PatrikTrestik",
       "project_version": "1.2.3",
       "url": "https://files.pythonhosted.org/packages/5d/01/5064f19cb1213d296bbb6cf7ac732bbea9439fe12161b090515eb02ff361/etathermlib-PatrikTrestik-1.2.3.tar.gz",
       "upload_time": "2023-12-01T10:09:38.634230Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/52/70/3768cf339158c67e03a2e8a01b659837151c72190391bd9694967e7377ab/netgen_mesher-6.2.2305.post21.dev0-cp312-cp312-macosx_10_15_universal2.whl",
       "upload_time": "2023-12-01T10:10:00.963468Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gpyrobotstxt",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/79/ea/b00b591658a562dfd2c80ed59147c1db53e439c71ecb07d7d4a9883846c3/gpyrobotstxt-1.0.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:10:35.837996Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gpyrobotstxt",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/d2/16/acd0290cc2b428dbc1453257a8ca75f5ef54b57b70b0e3c043848746f51a/gpyrobotstxt-1.0.0.tar.gz",
       "upload_time": "2023-12-01T10:10:37.699127Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sarus",
       "project_version": "0.8.2",
       "url": "https://files.pythonhosted.org/packages/ad/13/5938fec0bcefeed92dfb465f496de8b87f424b35e5dd0b6bbe0786b1ea19/sarus-0.8.2.tar.gz",
       "upload_time": "2023-12-01T10:10:40.948224Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "grapycal",
       "project_version": "0.8.0",
       "url": "https://files.pythonhosted.org/packages/08/af/8d247685efcded858f78addef1de2d3ff4143139483221c10f514f78efd4/grapycal-0.8.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:11:44.262894Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "grapycal",
       "project_version": "0.8.0",
       "url": "https://files.pythonhosted.org/packages/f9/f9/571a841e276fd5a158c9a65afabf5e3b7504894fce4262b7e47ecc17b5d4/grapycal-0.8.0.tar.gz",
       "upload_time": "2023-12-01T10:11:48.445642Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "webwithpy",
       "project_version": "0.5.3",
       "url": "https://files.pythonhosted.org/packages/9e/dd/cbe709beeea8d36eab79406809e8289afa5c43df5656dc4724ad9e36737d/webwithpy-0.5.3-cp310-cp310-manylinux_2_35_x86_64.whl",
       "upload_time": "2023-12-01T10:11:55.864776Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "webwithpy",
       "project_version": "0.5.3",
       "url": "https://files.pythonhosted.org/packages/c3/af/953585e3d76abad436d27a8d84bb4dfc4dd64412118642230a220bdf2f42/webwithpy-0.5.3.tar.gz",
       "upload_time": "2023-12-01T10:11:58.074286Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ddadevops",
       "project_version": "4.9.3",
       "url": "https://files.pythonhosted.org/packages/b4/6e/304577b90bddabce790b9effdd51b6f18d331dc4dac58c725ec23638f47e/ddadevops-4.9.3-py3-none-any.whl",
       "upload_time": "2023-12-01T10:12:10.818433Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ddadevops",
       "project_version": "4.9.3",
       "url": "https://files.pythonhosted.org/packages/ac/99/c3f1d06c3fabf31d1f6da75272b913afd1854e512e274f3cf7ad7903eeea/ddadevops-4.9.3.tar.gz",
       "upload_time": "2023-12-01T10:12:14.486413Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "murfey",
       "project_version": "0.9.15",
       "url": "https://files.pythonhosted.org/packages/e0/ad/4ba2d0ab2df6ee14cb8c64f0c67f14a3934c283f41d6da251f92e38e9e6b/murfey-0.9.15-py3-none-any.whl",
       "upload_time": "2023-12-01T10:12:51.534442Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "murfey",
       "project_version": "0.9.15",
       "url": "https://files.pythonhosted.org/packages/8e/21/0a6c88bde94ebd6e1b60fda54c3d452603d3835fc2180e389403c61307c8/murfey-0.9.15.tar.gz",
       "upload_time": "2023-12-01T10:12:53.872435Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/d9/e2/5f955ecee6e69e685a5ed1bfec63855d5faddf782ca0048951e3522c3ee3/netgen_mesher-6.2.2305.post21.dev0-cp39-cp39-win_amd64.whl",
       "upload_time": "2023-12-01T10:12:54.598826Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bgpstream-website-collector",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/c8/08/2e8ca2d3a1826b611d850fe716e396945c4ae357981cabddc8f2caae5ea3/bgpstream_website_collector-1.0.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:13:47.755610Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bgpstream-website-collector",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/43/57/443859152aa0706ca85e1e5bbf3a9b7a12ba0a34f28eb9c447213a2cd16e/bgpstream_website_collector-1.0.0.tar.gz",
       "upload_time": "2023-12-01T10:13:49.689960Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "artcraft",
       "project_version": "0.0.15",
       "url": "https://files.pythonhosted.org/packages/bc/08/687ac7479833ee51f6f502d62371085513ce394133405e01cc6b92a34661/artcraft-0.0.15-py2.py3-none-any.whl",
       "upload_time": "2023-12-01T10:13:58.479552Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-infinity",
       "project_version": "0.0.4a1",
       "url": "https://files.pythonhosted.org/packages/14/58/45652a18060a9022f53bc5f630fb194a22e9187086eabfd0b5bbd105c838/python_infinity-0.0.4a1-py3-none-any.whl",
       "upload_time": "2023-12-01T10:14:18.420760Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-infinity",
       "project_version": "0.0.4a1",
       "url": "https://files.pythonhosted.org/packages/fd/8e/b917ccaa94b9fedad47524b22a2a1f91b832da30e9b3077bf36eeb393af2/python-infinity-0.0.4a1.tar.gz",
       "upload_time": "2023-12-01T10:14:20.540789Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "delphix-dct-api",
       "project_version": "12.0.0rc4",
       "url": "https://files.pythonhosted.org/packages/19/89/12d0e30f03513090459d1b0795c4cce2cec35e925ba3d3ced96f9f4400f8/delphix_dct_api-12.0.0rc4-py3-none-any.whl",
       "upload_time": "2023-12-01T10:14:30.121657Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "delphix-dct-api",
       "project_version": "12.0.0rc4",
       "url": "https://files.pythonhosted.org/packages/1d/2a/35957c9d3a4aa4a2e867e5a2d0a8f23d4a5f9e1cdbbbbc468d692bf5c988/delphix-dct-api-12.0.0rc4.tar.gz",
       "upload_time": "2023-12-01T10:14:32.145422Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pywxdump",
       "project_version": "2.2.17",
       "url": "https://files.pythonhosted.org/packages/8a/5e/0c1bcae6cc6048a537dcd7d05353433a56a6b766a2295e73975de65c1bb2/pywxdump-2.2.17-py3-none-any.whl",
       "upload_time": "2023-12-01T10:14:40.751065Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pywxdump",
       "project_version": "2.2.17",
       "url": "https://files.pythonhosted.org/packages/3a/b5/a63fdc486e59bf3d62b04743bacee6d0b3eb9b8e8c811269d878326aee1e/pywxdump-2.2.17.tar.gz",
       "upload_time": "2023-12-01T10:14:42.702974Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "webwithpy",
       "project_version": "0.5.4",
       "url": "https://files.pythonhosted.org/packages/b0/3f/79775d066848277ba40f2de21ac1a9af672477d3d821b4ac4e971249a53d/webwithpy-0.5.4-cp310-cp310-manylinux_2_35_x86_64.whl",
       "upload_time": "2023-12-01T10:15:19.460713Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "webwithpy",
       "project_version": "0.5.4",
       "url": "https://files.pythonhosted.org/packages/08/28/8f7f979f3b4cc69c789f9d189540c7fa610ed3ca1a11f797710b16a20705/webwithpy-0.5.4.tar.gz",
       "upload_time": "2023-12-01T10:15:21.539069Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "protein-data-handler",
       "project_version": "1.0.7",
       "url": "https://files.pythonhosted.org/packages/02/f6/36787baddce2192bd49aeda70a08afeb9ea3d96f0ec457e0bf3d6ab8bc55/protein_data_handler-1.0.7-py3-none-any.whl",
       "upload_time": "2023-12-01T10:15:25.697427Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "protein-data-handler",
       "project_version": "1.0.7",
       "url": "https://files.pythonhosted.org/packages/02/f6/1cca59a2e1aed732d1e6041d6c022596d87cc4e2aea996ed3008f7c1fcba/protein_data_handler-1.0.7.tar.gz",
       "upload_time": "2023-12-01T10:15:27.275465Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ewoksweb",
       "project_version": "1.0.0rc1",
       "url": "https://files.pythonhosted.org/packages/81/f9/b183bcb5cdbb03c0d23714020008a2e921427ec9b66017c4d9385fe0dd74/ewoksweb-1.0.0rc1.tar.gz",
       "upload_time": "2023-12-01T10:15:30.618060Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deeploy",
       "project_version": "1.2.2",
       "url": "https://files.pythonhosted.org/packages/65/0f/7a9e57bd346e818740a23f12ed7680b6d8ab473c5d3653d0e218c3e03192/deeploy-1.2.2-py3-none-any.whl",
       "upload_time": "2023-12-01T10:15:43.819651Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deeploy",
       "project_version": "1.2.2",
       "url": "https://files.pythonhosted.org/packages/1a/f6/a0ae02dd9e3373ad183a9816ccecef79bfaabdd4cd74553159ee21caea0d/deeploy-1.2.2.tar.gz",
       "upload_time": "2023-12-01T10:15:45.271564Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "Marl-Factory-Grid",
       "project_version": "0.2.5",
       "url": "https://files.pythonhosted.org/packages/98/db/5dd79d3a6fd4cc267e9b0ba63a7ccfffd1ea513024bc6b8430070a0ab95e/Marl_Factory_Grid-0.2.5-py3-none-any.whl",
       "upload_time": "2023-12-01T10:15:51.674531Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bslz4-to-sparse",
       "project_version": "0.0.12",
       "url": "https://files.pythonhosted.org/packages/13/76/d4f5a5d79608b2f02305c3c008626bce51db30af27ebe62622c7d40269ab/bslz4_to_sparse-0.0.12.tar.gz",
       "upload_time": "2023-12-01T10:15:52.467155Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "Marl-Factory-Grid",
       "project_version": "0.2.5",
       "url": "https://files.pythonhosted.org/packages/82/05/5718138e7d1c8f4fa17fc696a36ffeda7a4ab9d4881a586160f280e87ec5/Marl-Factory-Grid-0.2.5.tar.gz",
       "upload_time": "2023-12-01T10:15:54.144676Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/86/78/b2bef4134f14a5a0925f5da3cf5154c7ee688231698558c9da6660f47478/tf_nightly-2.16.0.dev20231201-cp310-cp310-win_amd64.whl",
       "upload_time": "2023-12-01T10:15:54.654263Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/b2/9a/5e81ebbaacd4c4fb71c72519548f7461050fcf7e223ec8e2bc6177c6a6a0/tf_nightly-2.16.0.dev20231201-cp39-cp39-win_amd64.whl",
       "upload_time": "2023-12-01T10:15:56.563486Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/4e/7b/015c7da1b43c463e4feeac87649b24aa3ca0d9aba27b7b236988b1263adf/tf_nightly-2.16.0.dev20231201-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2023-12-01T10:15:57.667470Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "capellambse",
       "project_version": "0.5.40.dev8",
       "url": "https://files.pythonhosted.org/packages/a4/0e/2604fa53d830b0bf50d2ea23e16a72dd9a276a073dbd25bbce0d09b5e2e8/capellambse-0.5.40.dev8-py3-none-any.whl",
       "upload_time": "2023-12-01T10:15:59.447464Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/0f/1c/d3ee8eeeebb6daf8c018ea393da1a7746155e44acec7e8d2121996d55af5/tf_nightly-2.16.0.dev20231201-cp39-cp39-macosx_12_0_arm64.whl",
       "upload_time": "2023-12-01T10:15:59.488918Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/8e/7c/1d00784fb54f411f188f95b6c5d052a36e51f4eb06671ee6b3581f3ae1da/tf_nightly-2.16.0.dev20231201-cp310-cp310-macosx_12_0_arm64.whl",
       "upload_time": "2023-12-01T10:16:00.880001Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/64/4c/d90b7c5ab97e632c2a33b9065ed7478ee190a9c3ceb2db25fa0b0c066f38/tf_nightly-2.16.0.dev20231201-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2023-12-01T10:16:02.240821Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/4f/aa/b06e692f60faf575ada7711da108ec4c865736cfde7235a07f1dc17645f2/tf_nightly-2.16.0.dev20231201-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2023-12-01T10:16:04.577745Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "capellambse",
       "project_version": "0.5.40.dev8",
       "url": "https://files.pythonhosted.org/packages/a5/98/ce115414886f39aa21bd4489b01f48e4b5c541bb4c8d4018082add312326/capellambse-0.5.40.dev8.tar.gz",
       "upload_time": "2023-12-01T10:16:04.748270Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/bb/7e/5933821fce33c7f335777f52ae1f6307e19bde032c7b72abad66ff23e4e4/tf_nightly-2.16.0.dev20231201-cp311-cp311-win_amd64.whl",
       "upload_time": "2023-12-01T10:16:06.354765Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-nightly",
       "project_version": "2.16.0.dev20231201",
       "url": "https://files.pythonhosted.org/packages/54/a5/1f6ea2f8ed62d031de87e4e4ebeff5862aa879d61a609ff5f1fb7b07a972/tf_nightly-2.16.0.dev20231201-cp311-cp311-macosx_12_0_arm64.whl",
       "upload_time": "2023-12-01T10:16:07.747341Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/89/04/8163c0299ef0109884ff6af3b2a598ed1efa6323a317257cb3aba90d9e00/degirum-0.10.2-cp310-cp310-manylinux_2_31_aarch64.whl",
       "upload_time": "2023-12-01T10:16:32.086783Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/8c/13/724ee4034a6df7e25891f43df8d9d3cba94180a1839cfbc405a8f8006cf7/degirum-0.10.2-cp310-cp310-manylinux_2_31_x86_64.whl",
       "upload_time": "2023-12-01T10:16:35.441349Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/4a/da/79c4c201e7aff455aecfb9d903a59b6c7acd1b08d84efaaffb44ed142a75/degirum-0.10.2-cp310-cp310-win_amd64.whl",
       "upload_time": "2023-12-01T10:16:38.535855Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/bd/23/cfe43fb62fe6e03dd59e80adcaf8a35ffcf97a2ca7039926787ffeaf533d/degirum-0.10.2-cp311-cp311-manylinux_2_31_aarch64.whl",
       "upload_time": "2023-12-01T10:16:41.062829Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/9a/9f/58954bb55045644147ec74fd2192a5eed14f72e794c8ca2bf6354f497f41/degirum-0.10.2-cp311-cp311-manylinux_2_31_x86_64.whl",
       "upload_time": "2023-12-01T10:16:43.833671Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/bf/07/ce018a9f6c2b2a4521d942e34daa9836f5673928f3fb93cd89250a9d8723/degirum-0.10.2-cp311-cp311-win_amd64.whl",
       "upload_time": "2023-12-01T10:16:47.228115Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/63/16/4a78cb4fc4265c650bbe6a4c2999fe8c96295d017dc91bda80ee882cf527/degirum-0.10.2-cp38-cp38-manylinux_2_31_aarch64.whl",
       "upload_time": "2023-12-01T10:16:49.529739Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/e3/3f/aa0dc79985246d48b62eea24c950724da9d28688e049833cc6c8c1fb99b3/degirum-0.10.2-cp38-cp38-manylinux_2_31_x86_64.whl",
       "upload_time": "2023-12-01T10:16:52.231503Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/bf/fa/e24ce4fca5fc416e45f8d5e6624c80b5a9fa858be890730577e8b388e4b0/degirum-0.10.2-cp38-cp38-win_amd64.whl",
       "upload_time": "2023-12-01T10:16:54.446884Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/6a/99/ac07bc17eaed21bfda1bc960d26d60b015cd3dd433e52f469b35150d2d1b/degirum-0.10.2-cp39-cp39-macosx_12_0_arm64.whl",
       "upload_time": "2023-12-01T10:16:56.116614Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/84/1f/6cb3badaef2ff95f464551fdf914b422aa2d417fe1fb6d66ef29340310f2/degirum-0.10.2-cp39-cp39-macosx_12_0_x86_64.whl",
       "upload_time": "2023-12-01T10:16:58.131054Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/ab/d6/c5e0fb246317c97ce9cc5a00b5bc2b3dfccf4c0d4304837f7b93e5b4f731/degirum-0.10.2-cp39-cp39-manylinux_2_31_aarch64.whl",
       "upload_time": "2023-12-01T10:17:00.338991Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "servicefoundry",
       "project_version": "0.9.25",
       "url": "https://files.pythonhosted.org/packages/87/e3/67772f3e432f6c7e3f5ec4e6fffa19c7df214053a6cd8d5006af57b8d762/servicefoundry-0.9.25-py3-none-any.whl",
       "upload_time": "2023-12-01T10:17:02.219465Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/db/37/3773df5cc72be4986f9c5ab34d3431f19535e29cc83321b6074e89cb6811/degirum-0.10.2-cp39-cp39-manylinux_2_31_x86_64.whl",
       "upload_time": "2023-12-01T10:17:03.727805Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "servicefoundry",
       "project_version": "0.9.25",
       "url": "https://files.pythonhosted.org/packages/11/b4/b888d3cb01e2b3cd4e69cb79b069565967c531cd557507e8ed1e75204969/servicefoundry-0.9.25.tar.gz",
       "upload_time": "2023-12-01T10:17:06.359559Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.10.2",
       "url": "https://files.pythonhosted.org/packages/4f/8b/f74580deb3aaa0a4255be99819c65e8c7784e0508c76fe3bf17603f79cca/degirum-0.10.2-cp39-cp39-win_amd64.whl",
       "upload_time": "2023-12-01T10:17:06.739471Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sembr",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/fe/cc/3dbf3d2825997ecb9b1640990f55b237bafcc42975de47fbb1dea036cbf6/sembr-0.0.1-py3-none-any.whl",
       "upload_time": "2023-12-01T10:18:07.385963Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "Ais-cryoET",
       "project_version": "0.0.20",
       "url": "https://files.pythonhosted.org/packages/6c/68/93ab225b6a1f357f86fb2e5a302447e83261a2b27902fe6b0a090c8fc707/Ais-cryoET-0.0.20.tar.gz",
       "upload_time": "2023-12-01T10:18:34.900511Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "azure-data-factory-testing-framework",
       "project_version": "0.0.0a178",
       "url": "https://files.pythonhosted.org/packages/4a/37/1ff65495c8df387d4fc0a87764ba7b9ed95242bbf8f0d555e06cf940023b/azure_data_factory_testing_framework-0.0.0a178-py3-none-any.whl",
       "upload_time": "2023-12-01T10:19:22.665657Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "azure-data-factory-testing-framework",
       "project_version": "0.0.0a178",
       "url": "https://files.pythonhosted.org/packages/77/9e/5e29d0f18bb4a6ca19ba59bbd00cd79d995d6f53ad731439970a295baf6f/azure_data_factory_testing_framework-0.0.0a178.tar.gz",
       "upload_time": "2023-12-01T10:19:23.928128Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyx-react",
       "project_version": "0.1.0a0",
       "url": "https://files.pythonhosted.org/packages/59/d8/473a95e39bd12112c14d2f6459cc964000263946fd7b774f6e53df72fe5d/pyx_react-0.1.0a0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:20:00.484311Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyx-react",
       "project_version": "0.1.0a0",
       "url": "https://files.pythonhosted.org/packages/58/dc/22c5125382a110cd4cb8c26a78829f3232d60ac44f892d04ef549de58493/pyx-react-0.1.0a0.tar.gz",
       "upload_time": "2023-12-01T10:20:03.126371Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ngsolve",
       "project_version": "6.2.2305.post31.dev0",
       "url": "https://files.pythonhosted.org/packages/ec/44/634204c2e64c19f7681a1e13b56256c4ba23729e88238ab3806ad11bf952/ngsolve-6.2.2305.post31.dev0-cp38-cp38-macosx_10_15_universal2.whl",
       "upload_time": "2023-12-01T10:20:04.239465Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mirdeepsquared",
       "project_version": "0.5.0",
       "url": "https://files.pythonhosted.org/packages/fd/fd/9c8eccf334006b097e3dcbfb6b48f339e73e567a66fc40a27c2c4a65f88c/mirdeepsquared-0.5.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:20:22.811476Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mirdeepsquared",
       "project_version": "0.5.0",
       "url": "https://files.pythonhosted.org/packages/9d/4f/287c14db252596318e60696c4ad5b22eaf467464b829e5306e4a73779b3a/mirdeepsquared-0.5.0.tar.gz",
       "upload_time": "2023-12-01T10:20:30.907716Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nudisxs",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/5a/a3/375c0a933f7e9e59986388d01081c00ebc05505fd33c5a84d21f59d783fd/nudisxs-1.1.0-cp310-cp310-macosx_13_0_x86_64.whl",
       "upload_time": "2023-12-01T10:20:39.739661Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nudisxs",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/94/d2/6857ec7902c27281c4c06155753d74f776c9b11825865adb984f7e923121/nudisxs-1.1.0.tar.gz",
       "upload_time": "2023-12-01T10:20:42.535194Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "salure-helpers-azure",
       "project_version": "1.3.1",
       "url": "https://files.pythonhosted.org/packages/e7/39/290460c19e33be84d206964042f92ccea3f9975b6fe57eda162b09d08fb6/salure_helpers_azure-1.3.1.tar.gz",
       "upload_time": "2023-12-01T10:20:48.166271Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "salure-helpers-profit",
       "project_version": "3.2.4",
       "url": "https://files.pythonhosted.org/packages/10/b8/bcc37a4fb323a062767286459eda57b6ce6ccd3944616d89218579c8c741/salure_helpers_profit-3.2.4.tar.gz",
       "upload_time": "2023-12-01T10:21:12.703678Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-common",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/74/0a/9b42c2292c15defefbd96c101d2594f767e7e11282d8201597e972c3052c/linien_common-1.0.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:21:15.393151Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-common",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/ef/3c/61980e569889164a1de0ad9ba3cc9b7359a83ef953d39e1856913951e7f6/linien-common-1.0.0.tar.gz",
       "upload_time": "2023-12-01T10:21:16.800860Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-server",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/ab/4c/91bb389b32cef6bf1f0080a567db4230f796320ea3811515a78386f2fdb7/linien_server-1.0.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:21:19.485081Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-server",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/3f/c6/ad8f42d0e60908e081c97794949282a8a43c5c25e85dd4450306014a0550/linien-server-1.0.0.tar.gz",
       "upload_time": "2023-12-01T10:21:21.748321Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-client",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/35/6e/1b3fdec1dcccb626d48d35da3d62f894fdcc36a94a86151e6b4b35639c70/linien_client-1.0.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:21:25.131039Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-client",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/36/24/248fcc2814259a4846e4eeda32dd8a07b0b59f4bdb2ae13cb042bcf46adf/linien-client-1.0.0.tar.gz",
       "upload_time": "2023-12-01T10:21:26.702149Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-gui",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/f0/12/a550c61c8d2532e11cef0baa532a09120f4e03ff852f759fd5d4831a24ca/linien_gui-1.0.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:21:29.680802Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "linien-gui",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/3c/d5/a7cda0cbe62d0a49d69fefe75f67dd1de96328edbf53c42f29c15937dbb1/linien-gui-1.0.0.tar.gz",
       "upload_time": "2023-12-01T10:21:30.766897Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "inferless",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/92/70/db753ce5acf618c6012c6d8d7f870c8a44d5af2fdd5f4f8e98bc19940193/inferless-0.1.0-py3-none-any.whl",
       "upload_time": "2023-12-01T10:21:33.053559Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "inferless",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/34/de/5b4a83a4d166c33c8303ecaa65bd22759abc121f88b41d3da0329d9ba5bb/inferless-0.1.0.tar.gz",
       "upload_time": "2023-12-01T10:21:34.861075Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fedops",
       "project_version": "1.1.13",
       "url": "https://files.pythonhosted.org/packages/38/97/0a5b7a045456ff26ac1af6196ea79876f768bf925fe9f1d5ec0897996c03/fedops-1.1.13-py3-none-any.whl",
       "upload_time": "2023-12-01T10:22:16.171632Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fedops",
       "project_version": "1.1.13",
       "url": "https://files.pythonhosted.org/packages/67/d6/7586c2452cd7f402b75c4b29af0591d35b56f64b5ee7199ff2cfa617a546/fedops-1.1.13.tar.gz",
       "upload_time": "2023-12-01T10:22:18.459511Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "netgen-mesher",
       "project_version": "6.2.2305.post21.dev0",
       "url": "https://files.pythonhosted.org/packages/4b/d0/b63323c4eafe5e60b48cedd060d3ced4ad4a71be969d2c54df7170223380/netgen_mesher-6.2.2305.post21.dev0-cp310-cp310-win_amd64.whl",
       "upload_time": "2023-12-01T10:23:14.283308Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "capellambse",
       "project_version": "0.5.40",
       "url": "https://files.pythonhosted.org/packages/77/d1/72efdf7c53568381284dfc031153f5e2e7f3ab2e99a8c235eec4301c27bc/capellambse-0.5.40-py3-none-any.whl",
       "upload_time": "2023-12-01T10:24:20.535758Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "capellambse",
       "project_version": "0.5.40",
       "url": "https://files.pythonhosted.org/packages/b1/8e/b4f634fdf2c16fb90e7c0a3447b14312745aa2310491f51286b8b6971310/capellambse-0.5.40.tar.gz",
       "upload_time": "2023-12-01T10:24:24.611020Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "artcraft",
       "project_version": "0.0.16",
       "url": "https://files.pythonhosted.org/packages/3f/9e/f8b85378c8977a6611c0a8f0fdae2bbf74b51fe16ca58c6a084fe5954c92/artcraft-0.0.16-py2.py3-none-any.whl",
       "upload_time": "2023-12-01T10:25:59.600196Z",
-      "processed": false
+      "processed": true
     }
   ]
 }
