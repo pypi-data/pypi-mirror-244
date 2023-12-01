@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cythonimagetools/README.MD
+cythonimagetools/__init__.py
+cythonimagetools/requirements.txt
+cythonimagetools/thirdparty.json
+cythonimagetools.egg-info/PKG-INFO
+cythonimagetools.egg-info/SOURCES.txt
+cythonimagetools.egg-info/dependency_links.txt
+cythonimagetools.egg-info/requires.txt
+cythonimagetools.egg-info/top_level.txt

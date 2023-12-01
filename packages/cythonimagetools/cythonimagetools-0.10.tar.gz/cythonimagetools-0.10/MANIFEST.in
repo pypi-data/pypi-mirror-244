@@ -1,0 +1,3 @@
+include cythonimagetools/requirements.txt
+include cythonimagetools/thirdparty.json
+include cythonimagetools/README.MD
