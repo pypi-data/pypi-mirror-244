@@ -1,0 +1,4 @@
+accelerate
+einops>=0.7.0
+local-attention
+torch>=2.0
