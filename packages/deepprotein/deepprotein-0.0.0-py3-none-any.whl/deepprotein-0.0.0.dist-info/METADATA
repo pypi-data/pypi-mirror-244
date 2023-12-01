@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: deepprotein
+Version: 0.0.0
+Summary: General Framework for Deep Learning on Macro Molecules
+Author-email: Zhiyuan Chen <chenzhiyuan@dp.tech>, Lvjun Guo <guolj@dp.tech>
+Maintainer-email: Zhiyuan Chen <chenzhiyuan@dp.tech>
+Project-URL: documentation, http://deepprotein.danling.org
+Project-URL: homepage, http://deepprotein.danling.org
+Project-URL: repository, https://github.com/ZhiyuanChen/DeepProtein
+Keywords: Deep Learning,Macro Molecules,Protein,RNA
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: accelerate
+Requires-Dist: chanfig
+Requires-Dist: danling
+Requires-Dist: einops
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: torcheval
+Requires-Dist: torchmetrics
+Requires-Dist: transformers
+Requires-Dist: strenum ; python_version < "3.11"
+
