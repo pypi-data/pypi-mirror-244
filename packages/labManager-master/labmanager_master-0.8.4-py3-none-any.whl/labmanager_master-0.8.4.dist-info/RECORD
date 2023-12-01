@@ -1,0 +1,9 @@
+labManager/master.py,sha256=2JmOdvWjACapyC3pZunv58SksbtCMkoLHFFw6h4bD_A,25131
+labManager/GUI/master/__init__.py,sha256=psHWeEnKw2j9V6Uz_p3oOD6XGUScTk0B2-rrmdeaGZM,63255
+labManager/GUI/master/_impl/computer_list.py,sha256=uT13kAPxx1r5fQ3Kn9g1doCS1ILrg3VjYMjbKvQrTbM,16251
+labManager/GUI/master/_impl/msgbox.py,sha256=5UYsKfGKgt2Xt-KkxGWS39fMRipWyXqHlnO2FkmVPCA,2746
+labManager/GUI/master/_impl/utils.py,sha256=u3flkilWErZZMUifenIrukj7FKh32b4SD71f4TywMWA,6422
+labmanager_master-0.8.4.dist-info/METADATA,sha256=goFv66qdozJEZ57Tr44tLuuGCFyRpFFAzG9S01EWogs,2969
+labmanager_master-0.8.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+labmanager_master-0.8.4.dist-info/licenses/LICENSE,sha256=GZTc2OM_YmSuo_GYj4wHFGVYCjvvnH3YofGk_3ZJHig,1082
+labmanager_master-0.8.4.dist-info/RECORD,,
