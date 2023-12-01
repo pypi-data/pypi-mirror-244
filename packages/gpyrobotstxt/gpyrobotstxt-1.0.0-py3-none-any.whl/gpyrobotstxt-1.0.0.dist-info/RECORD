@@ -1,0 +1,11 @@
+gpyrobotstxt/__init__.py,sha256=jtjuYhzvbCi8wdGPyCM7-VVFpkPZFH69-KkkWR07MR0,120
+gpyrobotstxt/match.py,sha256=KAAuCDafpFE01uLNJ4gxGmo8v19pvXzBCYHacSezs3I,1669
+gpyrobotstxt/parsedrobotskey.py,sha256=X-jmqSXmMBzNcIqnmmrQgsZSFwkBONPRPfeTaOv5ml8,2703
+gpyrobotstxt/robots_cc.py,sha256=-TDY7pHnRUPROpwJ8E4mVjpeUFHEhJ5-8PSFvIGHRjw,10552
+gpyrobotstxt/robotsmatchstrategy.py,sha256=pnVNKAAc70MZ2ATaFMH_azzqGQ3rOzjnv1LkVGTLmB4,3184
+gpyrobotstxt/robotstxtparser.py,sha256=z0PwHlUxQwnHWZNX5cVsEZpHwejlldD9JqCes5JHK7M,7836
+gpyrobotstxt-1.0.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gpyrobotstxt-1.0.0.dist-info/METADATA,sha256=yYCRoDgIECk5iuZAXnt8da8wRgwu_ns0KmfWV5uxpvE,4928
+gpyrobotstxt-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gpyrobotstxt-1.0.0.dist-info/top_level.txt,sha256=kZCCEbTcxOvswodJRQtTlGxsD2O0dmIkq_OsRnPsWRw,13
+gpyrobotstxt-1.0.0.dist-info/RECORD,,
