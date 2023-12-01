@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+81c42e8e1f2c44496df49838a0374fd0 CMakeFiles/_nudisxs
+9eda403a71b68a5f3813d5d1ece89585 _nudisxs.cpython-310-darwin.so
