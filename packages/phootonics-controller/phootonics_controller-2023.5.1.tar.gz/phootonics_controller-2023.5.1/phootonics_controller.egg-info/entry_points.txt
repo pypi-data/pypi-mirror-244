@@ -1,0 +1,11 @@
+[console_scripts]
+phoot_csv = phootonics_controller.scripts.info:csv
+phoot_dev_move = phootonics_controller.base_controllers.stage_vcm:move
+phoot_gpio = phootonics_controller.scripts.gpio:run
+phoot_hat = phootonics_controller.scripts.hat:read_hat
+phoot_info = phootonics_controller.scripts.info:info
+phoot_monitor = phootonics_controller.scripts.info:monitor
+phoot_scan = phootonics_controller.scripts.scan:scan
+phoot_stop = phootonics_controller.scripts.stop:stop
+phootonics_controller = phootonics_controller.api.app:run
+
