@@ -1,0 +1,12 @@
+llm_term/__about__.py,sha256=dQyuwMLKivbhyr6NPNHYD50AlI4p6S3zPUSiv1axcT4,143
+llm_term/__init__.py,sha256=GmQ0d2wIgqbNVGz-Sc4RK3IrT1DVYtUJo3dF9DdVpqM,193
+llm_term/__main__.py,sha256=LKYcPaJrT-J9SrZpNWyommiZX03ANiA8GMR-NBLYUW0,128
+llm_term/base.py,sha256=HHnXAp1bHLXDZM9d0Hujkbsif8l1wFk8pSZyo37EEMQ,431
+llm_term/cli.py,sha256=FzZ-6_FQ4I1T-fmXMNn2drfXMH-hCstlt9SR0_Q0vIM,2826
+llm_term/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_term/utils.py,sha256=Qu9U0UJe5-umnuhR0T_mPw1rCaLfxlQcphpkvwPksi0,6580
+llm_term-0.11.0.dist-info/METADATA,sha256=tt4XMnXip10WyUue4COvJfeHUYvNNN6STGRBOotYlLU,5494
+llm_term-0.11.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+llm_term-0.11.0.dist-info/entry_points.txt,sha256=AHnVxkdJkF8zRULppK7tkXAvs-uarp6ixvmxDcnzFtQ,46
+llm_term-0.11.0.dist-info/licenses/LICENSE,sha256=ErL_CzW02guH3c4B56JPZrvizjWCkFvYu1cuSzOarDo,1071
+llm_term-0.11.0.dist-info/RECORD,,
