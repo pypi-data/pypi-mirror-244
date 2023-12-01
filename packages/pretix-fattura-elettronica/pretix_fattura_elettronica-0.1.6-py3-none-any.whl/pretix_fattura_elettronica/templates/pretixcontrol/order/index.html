@@ -1,0 +1,60 @@
+{% extends "pretixcontrol/order/index.html" %}
+{% load fatturaelt %}
+{% load i18n %}
+{% load phone_format %}
+{% block content %}
+{{block.super}}
+
+<div id="invoices">
+    <div class="panel panel-primary items">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                Electronic invoices
+            </h3>
+        </div>
+        <div class="panel-body">
+            <dl class="dl-horizontal">
+                {% if invoices %}
+                <dt>{% trans "Invoices" %}</dt>
+                <dd>
+                    <ul>
+                        {% for i in invoices %}
+                        <li>
+                            <a href="{% url " control:event.order.invoice.download" event=request.event.slug
+                                organizer=request.event.organizer.slug code=order.code invoice=i.pk %}">
+                                {{i.number}}
+                            </a>
+
+                            {% if not i|einvoice_sent %}
+                            <form class="form-inline helper-display-inline" method="post"
+                                action="{% url 'plugins:pretix_fattura_elettronica:send_fattura' event=request.event.slug organizer=request.event.organizer.slug code=order.code %}">
+                                {% csrf_token %}
+
+                                <input type="hidden" name="invoice_id" value="{{i.pk}}">
+
+                                <button class="btn btn-default btn-xs">
+                                    Send e-invoice
+                                </button>
+                            </form>
+                            {% endif %}
+
+                            {% endfor %}
+                    </ul>
+
+                </dd>
+
+                {% endif %}
+            </dl>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    const target = document.querySelector(".panel-primary");
+    const parent = target.parentNode;
+    const invoices = document.querySelector("#invoices");
+    parent.insertBefore(invoices, target.nextSibling);
+</script>
+{% endblock content %}
