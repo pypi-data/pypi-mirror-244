@@ -1,0 +1,10 @@
+st_two_column:
+  port: 8501
+  mode:
+    - st_two_column
+#  default_mode: "show_smpl_pkl"
+
+  st_two_column:
+    train_list_file: "tl2_lib/data/images_r512"
+
+

@@ -1,0 +1,2 @@
+train_ae:
+  data_dir: "datasets/MNIST"
