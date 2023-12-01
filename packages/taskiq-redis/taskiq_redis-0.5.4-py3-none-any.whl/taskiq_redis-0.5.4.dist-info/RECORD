@@ -1,0 +1,11 @@
+taskiq_redis/__init__.py,sha256=sPv4uLLPSPc8zXK42puvsSMDY5HwbCePdJheYylyApg,527
+taskiq_redis/exceptions.py,sha256=eS4bfZVAjyMsnFs3IF74uYwO1KZOlrYxhxgPqD49ztU,561
+taskiq_redis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskiq_redis/redis_backend.py,sha256=Q_pJ1Bz-NpTyFT68UswBvsNYWkLtnSPF1x8QbOnbWI0,8357
+taskiq_redis/redis_broker.py,sha256=qQLWWvY-NacVXkgDGVCe2fyWYPkjZiOnggB0hpPStqw,3957
+taskiq_redis/redis_cluster_broker.py,sha256=CgPKkoEHZ1moNM-VNmzPQdjjNOrhiVUCNV-7FrUgqTo,2121
+taskiq_redis/schedule_source.py,sha256=SWMGC3limXRgyxZS5BawnF3bHGgJpjljByIUL5nC2BY,3414
+taskiq_redis/serializer.py,sha256=x-1ExYoD_EnDiM53lyvI99MdTpNj_pORMIaCL07-6nU,416
+taskiq_redis-0.5.4.dist-info/METADATA,sha256=XKrSxYM3F5RkGwX5mb-HGxertnZWeBpf1f_9c_yaYPQ,3588
+taskiq_redis-0.5.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+taskiq_redis-0.5.4.dist-info/RECORD,,
