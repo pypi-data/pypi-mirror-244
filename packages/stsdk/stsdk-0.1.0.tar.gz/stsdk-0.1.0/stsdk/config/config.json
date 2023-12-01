@@ -1,0 +1,27 @@
+{
+  "api_endpoint" : {
+    "http": {
+      "dms_base_url": "http://47.91.17.20:5001",
+      "oms_base_url": "http://47.91.17.20:4000",
+      "sms_base_url": ""
+    },
+    "ws": {
+      "dms_base_ws": "ws://47.91.17.20:5002",
+      "oms_base_ws": "ws://47.91.17.20:4001"
+    }
+  },
+  "consul" : {
+      "test_addr" : "47.91.17.20:8500",
+      "pre_addr" : "47.91.25.224:8500",
+      "prod_addr" : "52.196.85.180:8500",
+      "prod_token" : "e95b599e-166e-7d80-08ad-aee76e7ddf19"
+  },
+  "env": "pre",
+  "log": {
+      "path": "../logs"
+  },
+  "strategy_module": {
+    "strategy_id": "4",
+    "account_id": "aris_lingxiao_test"
+  }
+}
