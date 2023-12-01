@@ -1,0 +1,78 @@
+[project]
+name = "dan-build"
+dynamic = ["version"]
+description = "Python-based build system."
+authors = [
+    {name = "Garcia Sylvain", email="garcia.6l20@gmail.com"},
+    {email = "garcia.6l20@gmail.com"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+
+keywords = ["packaging", "dependency", "build system"]
+
+classifiers = [
+    "Topic :: Software Development"
+]
+
+dependencies = [
+    "click>=8.0.0",
+    "jinja2",
+    "distro",
+    "pyyaml",
+    "aiofiles",
+    "aiohttp",
+    "async-property>=0.2.2",
+    "termcolor",
+    "tqdm",
+    'importlib-metadata',
+    'dataclasses-json',
+    'lockfile',
+    'pefile',
+    'pyelftools',
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["dan*"]
+
+[tool.setuptools.package-data]
+"dan.pkgconfig.templates" = ["*.jinja2"]
+"dan.cli.templates" = ["*"]
+"dan.cxx.data" = ["*"]
+
+[tool.setuptools.data-files]
+"etc/bash_completion.d" = [
+    "completion/bash/dan.sh",
+    "completion/bash/dan-io.sh",
+]
+"etc/zsh_completion.d" = [
+    "completion/zsh/dan.sh",
+    "completion/zsh/dan-io.sh",
+]
+
+
+[project.optional-dependencies]
+#dev = [
+#    "black>=18.3-alpha.0",
+#]
+
+[project.urls]
+homepage = "https://github.com/Garcia6L20/dan"
+documentation = "https://github.com/Garcia6L20/dan"
+repository = "https://github.com/Garcia6L20/dan"
+
+[project.scripts]
+dan = "dan.cli.main:main"
+dan-io = "dan.cli.io:main"
+
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools-git-versioning]
+enabled = true
+

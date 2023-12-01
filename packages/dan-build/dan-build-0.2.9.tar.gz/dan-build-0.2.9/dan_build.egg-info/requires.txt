@@ -1,0 +1,14 @@
+click>=8.0.0
+jinja2
+distro
+pyyaml
+aiofiles
+aiohttp
+async-property>=0.2.2
+termcolor
+tqdm
+importlib-metadata
+dataclasses-json
+lockfile
+pefile
+pyelftools
