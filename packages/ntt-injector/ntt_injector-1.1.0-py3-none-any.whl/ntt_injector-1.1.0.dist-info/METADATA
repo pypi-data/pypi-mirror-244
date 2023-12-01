@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: ntt-injector
+Version: 1.1.0
+Summary: The small library for configuring the depedency injector design pattern
+Home-page: https://github.com/threezinedine/ntt-injector
+Author: threezinedine
+Author-email: threezinedine@email.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/threezinedine/ntt-injector
+Project-URL: Tracker, https://github.com/threezinedine/ntt-injector/issues
+Keywords: dependency injector
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Library for creating Dependency Injection Pattern
+
+## Usage
+
+``` python
+from nttinjector import dependency_inject, Injector
+
+class Model:
+    count = 0
+
+    def __init__(self, strName: str = "") -> None:
+        self._strName = strName
+        self.CreateNewModel()
+
+    def __repr__(self) -> str:
+        return f"<Model name=\"{self._strName}\" />"
+
+    @classmethod
+    def CreateNewModel(cls):
+        cls.count += 1
+
+    @classmethod
+    def GetModelInstances(cls):
+        return cls.count
+
+
+@dependency_inject(Model)
+class ViewModel:
+    count = 0
+
+    def __init__(self, mModel: Model, strName: str = "") -> None:
+        self._mModel = mModel
+        self._strName = strName
+        self.CreateNewModel()
+
+    @classmethod
+    def CreateNewModel(cls):
+        cls.count += 1
+
+    @classmethod
+    def GetModelInstances(cls):
+        return cls.count
+
+    def __repr__(self) -> str:
+        return f"<ViewModel name=\"{self._strName}\" />"
+
+
+@dependency_inject(ViewModel, Model)
+class View:
+    def __init__(self, viewModel: ViewModel, mModel: Model, strName: str = "") -> None:
+        self._viewModel = viewModel
+        self._model = mModel
+        self._strName = strName
+
+    def __repr__(self) -> str:
+        return f"<View name=\"{self._strName}\" />"
+```
+
+Then use the View as normal
+
+``` python
+view = View()
+
+print(view._model)
+```
+
