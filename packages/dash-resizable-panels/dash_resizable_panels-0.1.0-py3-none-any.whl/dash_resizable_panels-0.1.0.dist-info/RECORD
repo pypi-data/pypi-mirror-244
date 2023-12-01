@@ -1,0 +1,15 @@
+dash_resizable_panels/DashResizablePanels.py,sha256=qllZJ4SJAaKj9Uiqec_LvtRG2nPHIeHuBlQPws4hYuk,1557
+dash_resizable_panels/Panel.py,sha256=_w6wsXWvUNx8InbIO75KW2IvQOUQXh5n-51SL-PrpJI,3016
+dash_resizable_panels/PanelGroup.py,sha256=A5g8npUvrXcZgLqzdWgP7unP508jamnS0OYtIUeOTVQ,1650
+dash_resizable_panels/PanelResizeHandle.py,sha256=7OEF3wjh_5iqNDEgTGAGGZ78BYQHbjEdPZ66tya7cK8,1501
+dash_resizable_panels/__init__.py,sha256=yz-5fIF0r40ECxOLeZePoHAa9w-VezvMkgEXsSM7XG0,2302
+dash_resizable_panels/_imports_.py,sha256=k7U_03iED6Fpe9p8eVceG_oUMFjcUqVQPrUv7ivqQDs,178
+dash_resizable_panels/dash_resizable_panels.min.js,sha256=hU4G78AVOaNK0zQINlKiOsQYBaEfLNsVsSnKMViKuiM,26543
+dash_resizable_panels/dash_resizable_panels.min.js.map,sha256=vxaCTDyvkLNVO_Xs3ugFq7f81ehdDrwYdS8Iw2-TMts,119580
+dash_resizable_panels/metadata.json,sha256=OpQGFedrWqHnj78bCx0ecBLeLmFikMcCJTGeXesacY8,5398
+dash_resizable_panels/package-info.json,sha256=AViyuyQxsLdS4AdK5wRWiV355ReIlosNTO1TebicDpw,1835
+dash_resizable_panels-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_resizable_panels-0.1.0.dist-info/METADATA,sha256=Ft7bSXX8H6SZgEoQlT3t51tnADpWECeQHF670egAi2E,3973
+dash_resizable_panels-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dash_resizable_panels-0.1.0.dist-info/top_level.txt,sha256=rNeLpnQLiNkOfATxrUnq_eL2Q7JgHHAjS5cw6xpoYF0,22
+dash_resizable_panels-0.1.0.dist-info/RECORD,,
