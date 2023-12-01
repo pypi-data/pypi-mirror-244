@@ -1,0 +1,6 @@
+ase
+pandas
+numpy
+pymatgen
+m3gnet
+diffusivity
