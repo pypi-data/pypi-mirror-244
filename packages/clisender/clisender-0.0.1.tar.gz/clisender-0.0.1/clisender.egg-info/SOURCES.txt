@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+clisender/__init__.py
+clisender/main.py
+clisender.egg-info/PKG-INFO
+clisender.egg-info/SOURCES.txt
+clisender.egg-info/dependency_links.txt
+clisender.egg-info/top_level.txt
