@@ -1,0 +1,8 @@
+SDTcloud/__init__.py,sha256=74oJ-CmPQKFjXKMenaI1HwVrTPy1V9z50HTKp_r2IwA,77
+SDTcloud/cassandra_utils.py,sha256=b0NsigOwWxEjkeM6-Pbs3v2D9vEBg9EgVfrZDmFEGhQ,1028
+SDTcloud/enums.py,sha256=x06SLLPUAToQfpz1nrt2cmMlSCGLgdSjRJYAomekjsc,266
+SDTcloud/sdtcloud.py,sha256=-CsGE-HjXSSc_tM6eypp6r5wP_Qx4Sgf1mDWS-8NG1U,55933
+SDTcloud-1.1.56.dist-info/METADATA,sha256=C09WzTJMfGYGbpQYN4-MsFcGUI-mi3pdxbOaKTfMfUg,403
+SDTcloud-1.1.56.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SDTcloud-1.1.56.dist-info/top_level.txt,sha256=k1kPc7XjbsIqAMcC8VzgfQuszJsfXIaaaXqahT3AvoU,9
+SDTcloud-1.1.56.dist-info/RECORD,,
