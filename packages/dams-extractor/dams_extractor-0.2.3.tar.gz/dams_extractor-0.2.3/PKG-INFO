@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dams_extractor
+Version: 0.2.3
+Summary: A boilerpy3 text extractor wrapper
+Author: 
+License-File: LICENSE
+
+A privacy policy text extractor tool.
