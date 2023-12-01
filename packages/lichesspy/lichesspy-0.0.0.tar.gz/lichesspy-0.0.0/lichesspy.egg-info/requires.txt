@@ -1,0 +1,8 @@
+requests
+six
+python-chess
+chess
+
+[docs]
+mkdocs-material
+mkdocstrings
