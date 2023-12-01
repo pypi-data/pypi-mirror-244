@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "backtest-view"
+version = "0.0.12"
+description = "An analysis tool for viewing and replaying backtesting results"
+authors = ["jamesbaber1 <31859220+jamesbaber1@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "backtest_view"}]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.scripts]
+backtest-view = "backtest_view.cli:app"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pythonnet = "^3.0.3"
+lightweight-charts = ">=1.0.18.7"
+typer = {extras = ["all"], version = "^0.7.0"}
+pandas = "^2.1.3"
+art = ">=5.8"
+tomlkit = ">=0.11.6"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
