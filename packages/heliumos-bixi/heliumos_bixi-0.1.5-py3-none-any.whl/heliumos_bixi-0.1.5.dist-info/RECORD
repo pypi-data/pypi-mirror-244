@@ -1,0 +1,12 @@
+bixi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bixi/constants.py,sha256=BP3d-FH0e91lQ_6r2OOzoWa-1L1rmgyJrZ29eklh3bI,1964
+bixi/conversation.py,sha256=nJ0mv53hNyBWDzy3Fy60SkOZlMJhhdfVOlkPgDlz4LE,44783
+bixi/utils.py,sha256=9xgCl9TVeqpehkygUso4IMuigc2eHCLoqEx9Mr3Tk7k,9774
+bixi/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bixi/api/completion.py,sha256=gGQGUUUaX-hoiw7Xqw2F7qo4Z96-Jed2kgsv3TmKjr8,20346
+bixi/api/embedding.py,sha256=v0_yrcy_GhJVO4pMnGktKbv5gKFcYimtbcyjVSx_jls,5067
+bixi/api/protocol.py,sha256=hxNKKHqZD9pSX38k3fhs8vZhHn4ljU_Jg5fbcyzftP0,5577
+heliumos_bixi-0.1.5.dist-info/METADATA,sha256=KFkef1_obM376Sxz4-A5BHg4oI8rs01jG2kT6tYkUyY,655
+heliumos_bixi-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+heliumos_bixi-0.1.5.dist-info/top_level.txt,sha256=_ApUqDXI6h5pZfgUGC45xrABu7Z5RXcjR1-3pGaYp8Y,5
+heliumos_bixi-0.1.5.dist-info/RECORD,,
