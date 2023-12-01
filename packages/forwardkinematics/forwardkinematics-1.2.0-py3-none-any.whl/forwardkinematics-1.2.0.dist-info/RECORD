@@ -1,0 +1,13 @@
+forwardkinematics/__init__.py,sha256=O24SiQ7NJjfgXBR89j4C1MQoBpo2EYFuGvu38LGCeXY,140
+forwardkinematics/fksCommon/fk.py,sha256=r6qCyNIUms6KpDHak_zg1E5cMX42y6KRP_Apq_VPdJE,330
+forwardkinematics/planarFks/planarArmFk.py,sha256=pQwf_5wKQGgjTWKjguQXWDOoWnNvC985yfzg3Tqd4sE,2344
+forwardkinematics/planarFks/planar_fk.py,sha256=XVGJvRjD2iGG5zGju2w-HsPGQxSN35CkbMARvg4PH3Y,677
+forwardkinematics/urdfFks/casadiConversion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forwardkinematics/urdfFks/casadiConversion/geometry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forwardkinematics/urdfFks/casadiConversion/geometry/transformation_matrix.py,sha256=wwQ5HnUAfj2woLawoiTmN7s0MmdpHO4YIubmsi48W8E,3442
+forwardkinematics/urdfFks/casadiConversion/urdfparser.py,sha256=4WCzJwsURiJJRwnNcZC_qJHpqvlKFh-Tj6vpVSCpa9k,6240
+forwardkinematics/urdfFks/generic_urdf_fk.py,sha256=bEZ_fnpdHDqOML6QqEK-yQYRy7EUtbj6gH-NXchN1nc,122
+forwardkinematics/urdfFks/urdfFk.py,sha256=BfJQTh4LX6p896sOCtibmlEbDbWZAs9DbqoZccqoT0c,4151
+forwardkinematics-1.2.0.dist-info/METADATA,sha256=hS1sWvmjBZES9PgT_Lymxs0bnvF5QJsVTaNbedPCCok,1486
+forwardkinematics-1.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+forwardkinematics-1.2.0.dist-info/RECORD,,
