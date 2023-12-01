@@ -1,0 +1,14 @@
+parspin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parspin/burt.py,sha256=_tgJaT8WoCqC2peh0kmHIYwz4otkV0pR0eBCnLBxX-s,6107
+parspin/partitions.py,sha256=XNWnni79Gw2kaf1FyJcdu-tR5wsl6VtOFHWMbCckbm0,12057
+parspin/plotting.py,sha256=Yd37Ol8EfmnUeRT89qvenBO-rgHcYIQbKnCiEru24TE,3723
+parspin/simnulls.py,sha256=GIoFTKSDAASEELdCscK-Pt9mdgDIK40KDNvq6Q9MlPg,8427
+parspin/spatial.py,sha256=8AYxgofwYO18uKUrUdN3s4e3kp7__-057QkXkeGQaoU,10655
+parspin/surface.py,sha256=HS51JKt1m-Oah-t7lY-3vt3MEoYeWL1Ru1F5rQnw-RY,14970
+parspin/surrogates.py,sha256=shVr_akubAlrKx015sviLPNtEy6245N3Cl1j0Cdm_Ec,6566
+parspin/utils.py,sha256=tGNGU7N-jCONfiFVCHaSPrd7R5dOSEhb1Qh5skkLnOI,8029
+parspin-0.0.1.dist-info/LICENSE,sha256=ofFcz-pCs8wAtBJlNUD6u1CHYYiDPhyYD9EgDZLt5KQ,1524
+parspin-0.0.1.dist-info/METADATA,sha256=8cr90ikKtwL4ia8C271WGupUZjBZCrVwOCYyQlp-2pM,806
+parspin-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+parspin-0.0.1.dist-info/top_level.txt,sha256=39AY06m13nl5FsgdT8IOpfd9c0K6bdCLZd4PMXRge-w,8
+parspin-0.0.1.dist-info/RECORD,,
