@@ -1,0 +1,7 @@
+pandas
+pymmh3
+requests
+tinynetrc
+
+[fastmmh3]
+mmh3
