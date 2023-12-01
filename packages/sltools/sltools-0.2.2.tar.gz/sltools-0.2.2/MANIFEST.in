@@ -1,0 +1,7 @@
+include sltools/locale/en/LC_MESSAGES/sltools.mo
+include sltools/locale/uk/LC_MESSAGES/sltools.mo
+
+include sltools/web_server/static/*
+include sltools/web_server/static/assets/*
+include sltools/web_server/static/js/*
+include sltools/web_server/templates/*.html
