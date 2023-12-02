@@ -1,0 +1,12 @@
+LICENSE,sha256=odAUDS7AQU81JMQ4LwRa0GA-3YWrchacGISZVW9F-CI,1067
+datargs/__init__.py,sha256=Vk83p3Fen0Y2y94kMmlVAjlHRAp6weDMohEGXy74Akk,149
+datargs/compat/__init__.py,sha256=A0dksvjP3FQX7EajJWEhU4crNpRHxsG6DEsEN1roHg8,5132
+datargs/compat/attrs.py,sha256=o5HLvwjYxitRotBWHtgJiwAxqWvfMk70oPmZyZruyU4,550
+datargs/convert.py,sha256=b-pd1l4Oxtri40ANnEKHevPr_KOFT6ZyW-r2E-lNsKA,2667
+datargs/make.py,sha256=q6ZLkLbhfiSvIdI8LX5zefRlyUt0FdyGeRKPCn9E2CE,18292
+datargs/meta.py,sha256=JTsSKF3HsHqmwo2VkdnHRFz7d2I9i20FWrv-OIUBhVA,153
+datargs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datargs-1.0.0.dist-info/LICENSE,sha256=odAUDS7AQU81JMQ4LwRa0GA-3YWrchacGISZVW9F-CI,1067
+datargs-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+datargs-1.0.0.dist-info/METADATA,sha256=I_bcv4gOMt0W0rCuhkeNGj8dOc72QJQAXVz7w7j3yvw,13165
+datargs-1.0.0.dist-info/RECORD,,
