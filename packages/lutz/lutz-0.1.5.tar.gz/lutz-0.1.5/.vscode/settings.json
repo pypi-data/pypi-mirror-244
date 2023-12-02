@@ -1,0 +1,21 @@
+{
+  "python.envFile": "${workspaceFolder}/vscode.env",
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}/python"
+  },
+  "jupyter.notebookFileRoot": "${workspaceFolder}/python",
+  "pylint.args": [
+    "--init-hook",
+    "import sys; sys.path.append('./python')",
+    "--generated-members"
+  ],
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "ruff.lint.args": ["--ignore=E501"]
+}

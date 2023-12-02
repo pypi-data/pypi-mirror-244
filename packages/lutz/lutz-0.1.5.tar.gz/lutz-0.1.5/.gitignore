@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.so
+.mypy_cache
+.pytest_cache
+
+dist/
+src/magicsoup.egg-info/
+runs/
+
+target/

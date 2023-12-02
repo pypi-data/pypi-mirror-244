@@ -1,0 +1,16 @@
+[build-system]
+requires = ["maturin>=1,<2"]
+build-backend = "maturin"
+
+[project]
+name = "lutz"  # package name
+version = "0.1.5"  # package version
+readme = "README.md"
+description = "Python package setup for adding some additional rust functions"
+requires-python = ">=3.9"
+dependencies = ["fortune-python"]
+
+[tool.maturin]
+python-source = "python"  # python source
+module-name = "lutz._lib"  # python module name
+sdist-include = ["LICENSE", "README.md"]  # source distro files
