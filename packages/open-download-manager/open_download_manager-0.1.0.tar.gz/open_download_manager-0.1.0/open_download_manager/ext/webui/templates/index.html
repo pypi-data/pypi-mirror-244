@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}{{config.get('TITLE')}}{% endblock %}
+
+{% block content %}
+<div class="container box">
+<h1 class="subtitle"><strong>Current Downloads</strong></h1>
+<table class="table is-fullwidth">
+    <thead>
+        <tr>
+        <th>URL</th>
+        <th>File Destination</th>
+        <th>Completion</th>
+        <th>Cancel</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for download in downloads %}
+        <tr id="row_{{ download.id }}">
+            <script>
+                var done = false;
+                document.addEventListener("DOMContentLoaded", () => {
+                    var intervalId = window.setInterval(function(){
+                        if (!done)
+                        fetch("/api/v1/download/{{ download.id }}").then(function(response) {
+                            return response.json();
+                        }).then(function(data) {
+                            if(data.status >= 100.0) {
+                                done = true;
+                                document.getElementById("row_{{ download.id }}").remove();
+                            } else {
+                                document.getElementById("row_{{ download.id }}").querySelector("progress").value = data.status;
+                            }
+                        }).catch(function(err) {
+                            console.log('Fetch Error :-S', err);
+                        });
+                    }, 500);
+                });
+            </script>
+            <td>{{ download.url }}</td>
+            <td>{{ download.path }}</td>
+            <!-- <td>{{ download.completion }}</td> -->
+            <td><progress class="progress is-large" value="{{ download.status | int }}" max="100">{{ download.status | int }}%</progress></td>
+            <!-- <td><button class="button" onclick="
+                fetch('/api/v1/download/{{ download.id }}', {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        'action': true
+                    })
+                })
+                .then(function(response) {
+                    return response.json(); 
+                }).then(function(data) {
+                    console.log(data);
+                }).catch(function(err) {
+                    console.log('Fetch Error :-S', err);
+                });
+            ">=</button></td> -->
+            <td><button class="button is-danger" onclick="
+                fetch('/api/v1/download/{{ download.id }}', {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                .then(function(response) {
+                    return response.json(); 
+                }).then(function(data) {
+                    done = true;
+                    document.getElementById('row_{{ download.id }}').remove();
+                }).catch(function(err) {
+                    console.log('Fetch Error :-S', err);
+                });
+            ">X</button></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div> 
+{% endblock %}
