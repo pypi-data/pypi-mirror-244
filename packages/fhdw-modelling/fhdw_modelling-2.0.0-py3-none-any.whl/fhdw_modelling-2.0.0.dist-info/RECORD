@@ -1,0 +1,11 @@
+fhdw/modelling/__init__.py,sha256=n16u2m6PQAtLaQEhAxx5SLrBA2Ql9QiqrAOiiwpHiHo,35
+fhdw/modelling/base.py,sha256=_3IS5aau_CMP42SGd2FW_d0Wl5GWVrr-MYEKPaX1L5E,1517
+fhdw/modelling/pycaret.py,sha256=amUEHUNctRUm8nogJb2s68pbPRnhuzXgC9mSnPN_OcE,7690
+fhdw/tests/__init__.py,sha256=ul-1z24vNajXQ_Y_9ua6Ao-GI5pa2sUiPIPZFlTuZ-o,22
+fhdw/tests/conftest.py,sha256=j2nONs8qYSz6iCXcZ-33d1pIo8f6pnNJiCgD0UBNNS4,328
+fhdw/tests/data/automobile.csv,sha256=bn0shDyD0PKkVp6jyAXSvoYKS70MFK5xQDo89cZz6tE,6613
+fhdw/tests/test_base.py,sha256=OVNOpr6iaHpSawMt4SPOsM3cU-x6aTE-ZCbOmuRp9HE,3645
+fhdw/tests/test_pycaret.py,sha256=qkIy_FQGOMG6JV1OUMJOeBZ7CVS_0JXYVNizT_ji1Vk,4798
+fhdw_modelling-2.0.0.dist-info/METADATA,sha256=y2lAQkFs41uiZpo9x81pYLanQuDDm4B72K-Q85DsmLk,1740
+fhdw_modelling-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fhdw_modelling-2.0.0.dist-info/RECORD,,
