@@ -1,0 +1,13 @@
+---
+aliases:
+  - [a, assist]
+  - ['.', next]
+  - [p, pause]
+  - [q, queue]
+  - ['?', song]
+  - [s, start]
+  - ['!', stop]
+  - [c, clear]
+download:
+  directory: .
+prompt: "> "
