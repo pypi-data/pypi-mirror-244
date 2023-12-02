@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  modelfun:
+    cmd: ploomber-engine src/boilercore/stages/modelfun.ipynb NUL
+    deps:
+    - path: src/boilercore/stages/modelfun.ipynb
+      hash: md5
+      md5: f0d3b1ab2a68d6aefbc183bf125103f6
+      size: 7678
+    outs:
+    - path: data/model.dillpickle
+      hash: md5
+      md5: 6cc4f676111f7395e08931fee8f34521
+      size: 63277

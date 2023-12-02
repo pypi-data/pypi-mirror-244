@@ -1,0 +1,23 @@
+name: "release"
+on:
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: "{{ actions_runner }}"
+    steps:
+      - uses: "dropseed/changerelease@v1.6.0"
+        with:
+          github_token: "{% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}"
+          tag_prefix: ""
+  publish:
+    runs-on: "{{ actions_runner }}"
+    steps:
+      - uses: "blakeNaccarato/copier-python-workflow-setup@v0.2.3"
+        with:
+          python-version: "{{ python_version }}"
+          install-project: false
+      - run: "flit publish"
+        env:
+          FLIT_USERNAME: "__token__"
+          FLIT_PASSWORD: "{% raw %}${{ secrets.PYPI_TOKEN }}{% endraw %}"
