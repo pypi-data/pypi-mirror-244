@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: st-milvus-connection
+Version: 0.0.4
+Summary: Streamlit Milvus Connection
+Author-email: bsenst <bnzn@gmx.net>
+Project-URL: Homepage, https://github.com/bsenst/st-milvus-connection
+Project-URL: Issues, https://github.com/bsenst/st-milvus-connection/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pymilvus >=2.3.3
+Requires-Dist: streamlit >=1.29.0
+
+# st-milvus-connection
+Connect your streamlit app to milvus database.
+
+Install the library with:
+```
+pip install st_milvus_connection
+```
+
+Run the example script:
+```
+import os
+import streamlit as st
+
+from st_milvus_connection import MilvusConnection
+
+os.environ["milvus_uri"] = YOUR_MILVUS_ENDPOINT
+os.environ["milvus_token"] = YOUR_MILVUS_TOKEN
+
+conn = st.connection("milvus", type=MilvusConnection)
+
+collections_list = conn.list_collections()
+
+for i, collection in enumerate(collections_list):
+    print(f"{i} {collection}")
+```
