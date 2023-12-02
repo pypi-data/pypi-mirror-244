@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pypi-tdb"
+version = "0.0.4"
+authors = [
+  { name="Graham Hughes", email="graehu@gmail.com" },
+]
+description = "tdb: text based database with tagging"
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/graehu/tdb"
+"Bug Tracker" = "https://github.com/graehu/tdb/issues"
+
+[tool.hatch.build]
+include = [
+  "pyproject.toml",
+  "**/*.py",
+  "tdb/style.css",
+  "tdb/html.js"
+]
