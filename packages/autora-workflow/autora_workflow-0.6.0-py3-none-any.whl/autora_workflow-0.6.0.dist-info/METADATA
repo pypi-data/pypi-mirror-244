@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: autora-workflow
+Version: 0.6.0
+Summary: Workflow tools for the Autonomous Research Assistant (AutoRA) package.
+Author-email: John Gerrard Holland <john_holland1@brown.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Autonomous Empirical Research Initiative
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, http://www.empiricalresearch.ai/
+Project-URL: repository, https://github.com/AutoResearch/autora-workflow
+Project-URL: documentation, https://hollandjg.github.io/autora-workflow/
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: autora-core <4.1.0,>=4.0.0
+Requires-Dist: typer[all]
+Provides-Extra: cylc
+Requires-Dist: cylc-flow ; extra == 'cylc'
+Requires-Dist: cylc-uiserver ; extra == 'cylc'
+Provides-Extra: dev
+Requires-Dist: autora-core[dev] <4.1.0,>=4.0.0 ; extra == 'dev'
+Requires-Dist: autora-workflow[docs] ; extra == 'dev'
+Requires-Dist: autora-workflow[test] ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: autora-core[docs] <4.1.0,>=4.0.0 ; extra == 'docs'
+Requires-Dist: scikit-learn ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+Requires-Dist: pandas ; extra == 'docs'
+Provides-Extra: serializers
+Requires-Dist: dill ; extra == 'serializers'
+Requires-Dist: pyyaml ; extra == 'serializers'
+Provides-Extra: test
+Requires-Dist: autora-core[test] <4.1.0,>=4.0.0 ; extra == 'test'
+Requires-Dist: autora-workflow[serializers] ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+Requires-Dist: scikit-learn ; extra == 'test'
+Requires-Dist: pandas ; extra == 'test'
+
+# Workflow
+
+Workflow management tools for AutoRA.
+
+## Quickstart Guide
+
+You will need:
+
+- `python` 3.8 or greater: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+Workflow is a part of the `autora` package:
+
+```shell
+pip install -U "autora"
+```
+
+!!! success
+    It is recommended to use a `python` environment manager like `virtualenv`.
+
+Check your installation by running:
+```shell
+python -m autora.workflow --help
+```
