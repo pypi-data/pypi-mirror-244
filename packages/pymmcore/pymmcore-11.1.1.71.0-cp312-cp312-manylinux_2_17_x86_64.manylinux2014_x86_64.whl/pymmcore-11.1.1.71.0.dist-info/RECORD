@@ -1,0 +1,12 @@
+pymmcore/_pymmcore_swig.cpython-312-x86_64-linux-gnu.so,sha256=TO6o4HeEZlglKhFRxWDQSf4GPgqTXjWKSLugR8s-UD8,3109128
+pymmcore/_version.py,sha256=H94lypWDDrbBmTxXHOTvM-Jksq_MPz6qSgyoW50sLFI,28
+pymmcore/__init__.py,sha256=PKsjZqjP333KQDIm5KyoCyUUvTPX_FKp3HCcIsIVdFk,63
+pymmcore/pymmcore_swig.i,sha256=ROtn7osOsd3xLiVvEQqlxshs7EQUUTIQtcZ1rifIBdQ,14584
+pymmcore/__init__.pyi,sha256=brdRdnaWVlPX8r0TDkcInqY_WVxb9gsoEAnvFvHl1kc,60706
+pymmcore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymmcore/pymmcore_swig.py,sha256=88wbjFhIPZr0kmyoyoZrGqD4tfCWAFYKnvmsxZlXhGU,432
+pymmcore-11.1.1.71.0.dist-info/LICENSE.txt,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+pymmcore-11.1.1.71.0.dist-info/METADATA,sha256=q9EO6n1VvCln0zXRZCKscp5e476wCCOx01BlsYtFJjg,6492
+pymmcore-11.1.1.71.0.dist-info/RECORD,,
+pymmcore-11.1.1.71.0.dist-info/top_level.txt,sha256=LLsniaDErduTM0iXWVmNp19PlgsFeVo4qI8_Vucc0LM,9
+pymmcore-11.1.1.71.0.dist-info/WHEEL,sha256=vJMp7mUkE-fMIYyE5xJ9Q2cYPnWVgHf20clVdwMSXAg,152
