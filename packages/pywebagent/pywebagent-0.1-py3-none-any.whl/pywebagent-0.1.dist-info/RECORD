@@ -1,0 +1,13 @@
+pywebagent/__init__.py,sha256=zoDR-OErfCEwUF5Jbb3IUPj0sB5O8Y_lYkzAFDnxv80,22
+pywebagent/agent.py,sha256=Iz9Xb_R7keb1RpxmAMUT1dRKM7YB2rSvi0dWsmZG3SQ,5429
+pywebagent/env/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pywebagent/env/actions.py,sha256=vcGrrHG0W6ymii2xJSBAYpkkIRa_9PiH7kCvDlVTur4,5743
+pywebagent/env/browser.py,sha256=adW7jy-LR4L5BmtfCuOP0--kZtjwAZwkj-Cv0GMF8fY,6481
+pywebagent/js/mark_borders.js,sha256=AH1K_WGAcm1ZbK9_lKYpAhrnjkliHfZTF3bdE9O3nlk,9571
+pywebagent/js/override_file_chooser.js,sha256=5Zs4JBkwjqufOn6JUMwNxxcLgolXeJfN13vcBk2p0Pw,823
+pywebagent/js/remove_mark_borders.js,sha256=zkmxeYQ_t0A6KEVOA_u5i9TX6a4x4eXBCZvFe9qsoGM,554
+pywebagent-0.1.dist-info/LICENSE,sha256=QHYdDTs3RwpUFU0bMAeAyvsjVGsHy51oP66Trg4KQzQ,1067
+pywebagent-0.1.dist-info/METADATA,sha256=vCSrp1nweN0MMDVSJ0zH-Q59A6ZUsKCsRaiwnxl3joo,5560
+pywebagent-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pywebagent-0.1.dist-info/top_level.txt,sha256=LvftFbjJdtNdCtIQbLstp4dMnD351cMstQ_ZRUGefZg,11
+pywebagent-0.1.dist-info/RECORD,,
