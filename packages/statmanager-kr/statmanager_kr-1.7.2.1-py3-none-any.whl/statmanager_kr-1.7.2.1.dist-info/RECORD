@@ -1,0 +1,11 @@
+statmanager/__init__.py,sha256=-okvNema7acMuqBujPcHcqiDk_A5j3J37e4cO7Q6YAE,150
+statmanager/manager.py,sha256=3G_wJj66JUZBOO_a1LY6w89S3dk3zEw5c7BgPynvKwc,76029
+statmanager/menu_for_howtouse.py,sha256=iVb4j1d99o6LmucuNzQ9GVdF4kjwMLpkcIWCVNz8NQw,23163
+statmanager/messages_for_reporting.py,sha256=Kd-RzF0j3rROECRZpy7z9_Ka8ouKHf_90-S-xHSuX_A,19081
+statmanager/setup.py,sha256=ULPagsnAXBg9LrWxsnjZGD9Euneg0cCSmfL35hZeeMc,1462
+statmanager/statmanager.py,sha256=k6X8FCT_zqhOoA6kNdb2j_V1UGMVxLWvchFh45Jg_oE,32
+statmanager_kr-1.7.2.1.dist-info/LICENSE,sha256=932K9tixEhPzTGEPHkC1dn1M4plJt8sUCUjsx_87UUQ,1091
+statmanager_kr-1.7.2.1.dist-info/METADATA,sha256=ryaf6IbLHp-X00Sk3thdktkgfCKkpwc39UNBdg18J1M,4862
+statmanager_kr-1.7.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+statmanager_kr-1.7.2.1.dist-info/top_level.txt,sha256=hqaW5BKK4PatxhFYxx8cmKYLBYABIiT3kwgiuRxBnqk,12
+statmanager_kr-1.7.2.1.dist-info/RECORD,,
