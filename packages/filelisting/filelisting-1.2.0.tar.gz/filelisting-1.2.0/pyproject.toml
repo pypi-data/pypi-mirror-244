@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filelisting"
+version = "1.2.0"
+description = "List files under given paths."
+readme = "README.rst"
+authors = [
+    { name = "Johannes", email = "johannes-programming@posteo.org" },
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = [
+    "wonderparse>=1.2",
+]
+requires-python = ">=3.11"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Download = "https://pypi.org/project/filelisting/#files"
+Source = "https://github.com/johannes-programming/filelisting"
