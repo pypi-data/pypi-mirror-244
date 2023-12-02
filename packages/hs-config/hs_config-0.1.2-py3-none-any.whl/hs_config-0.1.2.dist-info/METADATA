@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hs-config
+Version: 0.1.2
+Summary: 基于pydantic的python项目通用配置库
+License: MIT
+Author-email: xinghao <xhrtxh@gmail.com>
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic-settings>=2.1.0
+Requires-Dist: pydantic[dotenv]>=2.5.1
+Description-Content-Type: text/markdown
+
+# example-package
+
