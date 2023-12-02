@@ -1,0 +1,16 @@
+annotrack/__init__.py,sha256=45q2TC7k7IV3DLsppmTnoT_DzzkKXIQKVLH6UYTbfPo,378
+annotrack/_dock_widgets.py,sha256=-QQ81tZ_BF0ABSVD1E5Ct8w3MMpFQtL_-LVFVEmc9oM,7548
+annotrack/annotation.py,sha256=xpEB2sFMNIRXf8N5He-9shC0xN9OaikhMcvVWyZWLdQ,22200
+annotrack/misc.py,sha256=b7CCaW_1cX08xiq4wlHp7O12GH97zHTH2FTZEP-e-Xs,1576
+annotrack/napari.yaml,sha256=pBWt5lMzso4tt9rxCr5KxNaI9g3kO7UOeTP6WhOnqio,522
+annotrack/sample_from_meta.py,sha256=sXMrS3GWkboR-jQVdeWagQR0bV80t7zCOLL7OllbS7E,10205
+annotrack/sample_management.py,sha256=MC4AzSmY1IxVv13zRy6fk3l9GGNVuXCq-hRG9qSAa2E,4624
+annotrack/sampling.py,sha256=jIx0RCqhF06xICkIND_ytZaOqDMhGKm4_XOM7bavSOU,43742
+annotrack/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annotrack/_tests/test_sampling.py,sha256=RLrcXvhGH23nxpaTZPqJhsJagb8pKCHkhBfSbU7WJ1w,80
+annotrack-0.0.1.dist-info/LICENSE,sha256=Hw5ksb43BRJbHEpi0Wr_cQwEYC0wqCgD8me7csbr1P4,1524
+annotrack-0.0.1.dist-info/METADATA,sha256=UlgJnYkvksCyYFlhhxN1bzni77b2O70eluAlRuDR9rM,6476
+annotrack-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+annotrack-0.0.1.dist-info/entry_points.txt,sha256=wG3_to5mrApKtYTbhbOKjOZut2djpyqJeOMpQJOYk8I,52
+annotrack-0.0.1.dist-info/top_level.txt,sha256=vCTjh7qs5V-iVi_35SaGTAMKJXYK2mFtyBCVxsPCmbc,10
+annotrack-0.0.1.dist-info/RECORD,,
