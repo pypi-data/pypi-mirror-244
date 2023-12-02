@@ -1,0 +1,8 @@
+ltiaas/__init__.py,sha256=uk0651XEXKiJ6iTfiGHRJBZFaw5TPnl5Qf0V3Dk5HwM,58
+ltiaas/client.py,sha256=oiQ00o34UkSHMrF6kNdpuAp9MQa0Ygoi0fY6f1R6WcE,10015
+ltiaas/exceptions.py,sha256=3sXQMNGgsj50UL9asgN-07mlDNe-xehbDSqcUlTRStI,614
+ltiaas/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ltiaas/types/idtoken.py,sha256=tWw4Yv3v6mVhWhZLQ4jR4zLcaYbrHZfs-XjCMxGZojI,57
+ltiaas-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ltiaas-0.0.1.dist-info/METADATA,sha256=V31TFcaX3pfMZvzD8FsIMoo0Vnvr8xqnUYoZQMUnYZM,367
+ltiaas-0.0.1.dist-info/RECORD,,
