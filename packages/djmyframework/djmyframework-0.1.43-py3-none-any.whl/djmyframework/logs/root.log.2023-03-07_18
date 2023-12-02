@@ -1,0 +1,528 @@
+[2023-03-07T18:01:32+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:15+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:17+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:18+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:21+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:22+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:23+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:23+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:23+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:24+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:03:24+0800] [ERROR] [django.request] [pid:25891] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:05:48+0800] [ERROR] [django.request] [pid:26354] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 171, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 80, in process_view
+    return HttpResponseRedirect('%s?from_url=%s' % (login_url, request.get_full_path()))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 282, in __str__
+    return self.value.__str__()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 255, in __getattribute__
+    return super().__getattribute__(item)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 238, in value
+    return self.get_value()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 234, in get_value
+    return self.lazy(self.manager.get_value(self.name))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 160, in get_value
+    value = self.loader.get_value(name, options.default_value)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/dynamic_settings/conf.py", line 52, in get_value
+    value = self.redis_cli.hget(self.prefix_key, name)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 2645, in hget
+    return self.execute_command('HGET', name, key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[2023-03-07T18:20:28+0800] [ERROR] [root] [pid:28545] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:130] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 180, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 178, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/log_def/views/log_define.py", line 60, in edit
+    model_instance = LogDefine.objects.get(key=params.log_key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/query.py", line 431, in get
+    self.model._meta.object_name
+log_def.models.LogDefine.DoesNotExist: LogDefine matching query does not exist.
+
+[2023-03-07T18:20:28+0800] [ERROR] [django.request] [pid:28545] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:230] Internal Server Error: /log_def/log_define/edit
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 180, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 178, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/log_def/views/log_define.py", line 60, in edit
+    model_instance = LogDefine.objects.get(key=params.log_key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/query.py", line 431, in get
+    self.model._meta.object_name
+log_def.models.LogDefine.DoesNotExist: LogDefine matching query does not exist.
