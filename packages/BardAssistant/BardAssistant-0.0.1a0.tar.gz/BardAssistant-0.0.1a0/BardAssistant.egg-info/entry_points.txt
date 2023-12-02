@@ -1,0 +1,2 @@
+[console_scripts]
+BardAssistant = BardAssistant.__main__:__bard__

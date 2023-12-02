@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: BardAssistant
+Version: 0.0.1a0
+Summary: Google Bard based Voice Assistant
+Home-page: https://github.com/DemonKingSwarn/BardAssistant
+Author: d3m0n@demonkingswarn
+Author-email: demonkingswarn@protonmail.com
+Keywords: bard,voice assistant,generative AI
+License-File: LICENSE

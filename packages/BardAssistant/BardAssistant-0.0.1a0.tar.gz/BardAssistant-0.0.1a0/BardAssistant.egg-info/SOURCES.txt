@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+BardAssistant/__init__.py
+BardAssistant/__main__.py
+BardAssistant/__version__.py
+BardAssistant.egg-info/PKG-INFO
+BardAssistant.egg-info/SOURCES.txt
+BardAssistant.egg-info/dependency_links.txt
+BardAssistant.egg-info/entry_points.txt
+BardAssistant.egg-info/requires.txt
+BardAssistant.egg-info/top_level.txt
