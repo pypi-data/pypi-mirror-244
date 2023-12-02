@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.py
+cwsapiwrapper/__init__.py
+cwsapiwrapper/api.py
+cwsapiwrapper/helpers.py
+cwsapiwrapper.egg-info/PKG-INFO
+cwsapiwrapper.egg-info/SOURCES.txt
+cwsapiwrapper.egg-info/dependency_links.txt
+cwsapiwrapper.egg-info/top_level.txt
