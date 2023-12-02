@@ -1,0 +1,11 @@
+aoc/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+aoc/tasks/__init__.py,sha256=oaa-y26p6klAM0CCN5sRjG3DG7aDtdOCxw8RJc3gFAA,42
+aoc/tasks/aoc.py,sha256=yBuYMKNWRUooXs7JDXwINvFYthN8am0ZT3BwSHvAxAU,9427
+aoc/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aoc/utils/parsing.py,sha256=2NoalvbfzD7rSuGACRZpRuXHUf5xSrRvr8jLwJ4PSM8,326
+aoc/utils/setup.py,sha256=um3QqcLzRNf-BYWSXpOeAk68TSCajL9EH8k4aJPT7WI,6413
+task_jogger_aoc-0.1.1.dist-info/LICENSE,sha256=G4R5CCoDH3IdiaKdepY47jSeA7NKj555-0p-D-Vd0MM,1068
+task_jogger_aoc-0.1.1.dist-info/METADATA,sha256=ss2SWLaEYPqsOi5wQFpEJ_yP_I8nL9psDAG8Fxaf6sM,5866
+task_jogger_aoc-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+task_jogger_aoc-0.1.1.dist-info/top_level.txt,sha256=2KqkLE8U1POjrwJjvbCJffxd7hEYBtQ--4SsEuELL9I,4
+task_jogger_aoc-0.1.1.dist-info/RECORD,,
