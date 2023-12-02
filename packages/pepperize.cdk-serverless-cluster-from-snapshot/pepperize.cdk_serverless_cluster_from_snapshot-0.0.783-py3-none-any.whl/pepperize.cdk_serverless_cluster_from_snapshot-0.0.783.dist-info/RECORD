@@ -1,0 +1,9 @@
+pepperize_cdk_serverless_cluster_from_snapshot/__init__.py,sha256=P-Z-7q5E4Rdnv6f3GRyM4VChbS0XDEhmegtORVsVlsA,39921
+pepperize_cdk_serverless_cluster_from_snapshot/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pepperize_cdk_serverless_cluster_from_snapshot/_jsii/__init__.py,sha256=LOQAWka0n78iPuYUDl1_XW0zBCVcfGG6gHI9JtdRnCM,467
+pepperize_cdk_serverless_cluster_from_snapshot/_jsii/cdk-serverless-cluster-from-snapshot@0.0.783.jsii.tgz,sha256=TDVcgk701kTLRh5-XO3lAPDQHwfa4ITfUTVdyybOBnE,28408
+pepperize.cdk_serverless_cluster_from_snapshot-0.0.783.dist-info/LICENSE,sha256=az47MmrAaaeZIWZVK36UcPYCz0H8mI0DFHdJhzt_Bv4,1078
+pepperize.cdk_serverless_cluster_from_snapshot-0.0.783.dist-info/METADATA,sha256=bWI6HZMU3cxDqdxz9LrD9q2kpxY3bXHyzr_wyPP60Iw,3230
+pepperize.cdk_serverless_cluster_from_snapshot-0.0.783.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pepperize.cdk_serverless_cluster_from_snapshot-0.0.783.dist-info/top_level.txt,sha256=nWEIYs_VxmQ1MrxwOJ8_TKND4FeGdHykU6qeqzhhb84,47
+pepperize.cdk_serverless_cluster_from_snapshot-0.0.783.dist-info/RECORD,,
