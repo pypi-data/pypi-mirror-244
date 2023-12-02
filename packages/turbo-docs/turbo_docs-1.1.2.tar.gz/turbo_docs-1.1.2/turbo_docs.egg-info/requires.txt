@@ -1,0 +1,6 @@
+openai>=1.3.6
+click
+pyperclip
+toml
+pathspec
+tiktoken
