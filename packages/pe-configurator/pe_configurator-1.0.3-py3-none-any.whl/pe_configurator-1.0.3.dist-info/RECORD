@@ -1,0 +1,16 @@
+peconfigurator/asimov.py,sha256=eGYWKaM6pEiJGF__3x8VD_jChIo_6hAUX7Ew9JhRTk8,11911
+peconfigurator/asimov_template.yaml,sha256=flD86O_CNhQlR4gor3PurXcH98KYeSro8qQsUw0EbNs,73
+peconfigurator/get_settings.py,sha256=wmepcMShJBo96BGPv4siF9hXBVnPKD3-YnztDH82v4I,10429
+peconfigurator/proc_samples.py,sha256=gwk8OKAp_9tn0gVLHbfKWap8PnqwBhn9k2jDp2fgY1o,28221
+peconfigurator/run_on_many_events.py,sha256=XshrTApfMkGb_zPdpFlrvRWGMww8yA8z55ktv5ghP3c,2897
+peconfigurator/auxiliary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peconfigurator/auxiliary/make_report.py,sha256=M9MDguxr8gQpczRQGYZgtPi8pt3-be5jC4e8p2gQ4N4,13191
+peconfigurator/auxiliary/plotting.py,sha256=qdMNnjADFWZ583WT2SA4KYelJ4wKsvrrIE7cj-g9dDY,5669
+peconfigurator/auxiliary/produce_fake_posteriors.ipynb,sha256=N5f-k6dR7kmM4j8ylFceE1Xk7eDuwppDoeHaXbRPr64,17933
+peconfigurator/auxiliary/run_analyzer.py,sha256=OKl3RT8z2o1b03rak2DuseiEG5db4ZOIw_LHJdheucw,9685
+pe_configurator-1.0.3.dist-info/LICENSE,sha256=Xp7jebtQmjGb66zNnKar5nK2lJR1H0QT6JdjMMckXec,1100
+pe_configurator-1.0.3.dist-info/METADATA,sha256=HFht28DKv7n_AWeOGu1zYi4STbGxjxZ2Y2-2WIyEcsA,11769
+pe_configurator-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pe_configurator-1.0.3.dist-info/entry_points.txt,sha256=3JB7dE2rQxCvXDFWc8yHvwxNbuGGYWsJHFAM6m8RM7E,142
+pe_configurator-1.0.3.dist-info/top_level.txt,sha256=PV9PPDlJUSgjadzy9TMXKLlgrRg0lxnqUBLsHKQ8Cg0,15
+pe_configurator-1.0.3.dist-info/RECORD,,
