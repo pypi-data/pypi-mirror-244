@@ -1,0 +1,11 @@
+pybcl/__init__.py,sha256=sqXS1qJIiFHSGXwkCLDuzk4JXabGZ98hItZW9go5b38,5124
+pybcl/__main__.py,sha256=q2x5NW3DPwveksgEnYeE7Y6TGMXy3YrwyHdIDF3bs7s,5716
+pybcl/_bcl.cp310-win32.pyd,sha256=v9GLO7J5y43n0op66FMy6g2_Y_keSeNajAJs5iDETLw,22016
+pybcl/_bcl.pyi,sha256=uUbeV-m2Fy4nfEa14ZtIMqqW2Nq1_fS46HclX9cTA5w,798
+pybcl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybcl-1.0.0.dist-info/LICENSE,sha256=n8igyULMoIX7rRwZOYJbBhc0IQwSkuJK-h5XzT-r7aY,11536
+pybcl-1.0.0.dist-info/METADATA,sha256=E8Jf-k8NmZUrPSp8bthkRVqdRlSycnxB_uwPTRoj3A0,6976
+pybcl-1.0.0.dist-info/WHEEL,sha256=SvbexPgB2fL5qUzHDAKGjD_kVQodMqingL5QKUa4vEs,98
+pybcl-1.0.0.dist-info/entry_points.txt,sha256=rD-2IUoKfDiCvslsVNsm-DrKXLTv_tAAU_GZKWuyHYU,46
+pybcl-1.0.0.dist-info/top_level.txt,sha256=Gb_IlkfHy4ECaTN9RFPu1nDeuwULxfEP3Qdj-ZFUqdI,6
+pybcl-1.0.0.dist-info/RECORD,,
