@@ -1,0 +1,7 @@
+pyrepresent
+spinners
+looperator
+
+[dev]
+pdoc3
+twine
