@@ -1,0 +1,12 @@
+pyzswagcl/LICENSE.txt,sha256=JeNdz5tf1QH7CIw_i5yqTWtlyhczLpjj3yhOyCRTEHE,1528
+pyzswagcl/__init__.py,sha256=PjufVr_MTFQZpsXoSMXOSvAacVpnsO4nscSiqqOTmac,24
+pyzswagcl/libcrypto.1.1.dylib,sha256=gP_UZvtsvWsj_n22YdvWQAV_78HY17f9p_jHZwpA3wY,2592536
+pyzswagcl/libhttpcl.a,sha256=KJoaa3GZci-OTbNLRFW1UqX3EowjdcFo137M0xR97Zo,1020064
+pyzswagcl/libspeedyj.a,sha256=YofNAgL2s4TqOtl4FZ7I7V_n0BBi4lbnlVbiW9PvMXo,28360
+pyzswagcl/libssl.1.1.dylib,sha256=I1VYfr6FxFdMgDtJo6UKKaeESMMlcQ5FiWqgYvMJvAw,568072
+pyzswagcl/libzswagcl.dylib,sha256=Gj_sI9MpV7DtfyZEQL1hRlmU0BIX-W5FezBugK5MrJ0,1429672
+pyzswagcl/pyzswagcl.cpython-311-darwin.so,sha256=0I0HPKCXY_hzxMIaKZ-mALF1NfjA8mmfAchSPB6A4t4,781104
+pyzswagcl-1.6.3.dist-info/METADATA,sha256=llQwfx_YWlN7hfjdJxGDOvG7HmrcEpnXnFxfE6879Bo,232
+pyzswagcl-1.6.3.dist-info/WHEEL,sha256=yC6Xq40UAgS-XnkGNivHewCZ-leVFHG9ReXU3o_IYbQ,116
+pyzswagcl-1.6.3.dist-info/top_level.txt,sha256=68xZPCqJP4enWPpsst2_9GD8GiGgr8ImRsP5uHJO1jo,10
+pyzswagcl-1.6.3.dist-info/RECORD,,
