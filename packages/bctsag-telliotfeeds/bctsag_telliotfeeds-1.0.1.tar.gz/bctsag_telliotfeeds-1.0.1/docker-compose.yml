@@ -1,0 +1,7 @@
+services:
+  telliot:
+    image: bctsag-tellor/telliot
+    container_name: telliot
+    build: .
+    tty: true
+    entrypoint: sh
