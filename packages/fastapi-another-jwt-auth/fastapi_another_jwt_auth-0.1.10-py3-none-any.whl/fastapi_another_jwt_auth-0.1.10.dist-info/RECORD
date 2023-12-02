@@ -1,0 +1,9 @@
+fastapi_another_jwt_auth/__init__.py,sha256=gRSgI-ErhbFPOaG2pLQwtOFG5PthCL68keUiaVmWE1w,147
+fastapi_another_jwt_auth/auth_config.py,sha256=ZRWn4wWbKCI_JJS-7qCkLR8FNfi8M12SVAI7ZI7gu6g,4954
+fastapi_another_jwt_auth/auth_jwt.py,sha256=u_4InK9m2OFjs1w4u80Pm0yi0cG-xXCEp_ktIUtA81E,35376
+fastapi_another_jwt_auth/config.py,sha256=QBugRTd8jG2fWaRButss89pFXgYYJIcEBs5nhAP_fA0,4385
+fastapi_another_jwt_auth/exceptions.py,sha256=4Pxi7MErNCuk2JMuwYhSEa_V5FI_PK1EOp-QWLaTdFs,2226
+fastapi_another_jwt_auth-0.1.10.dist-info/LICENSE,sha256=HmfheuNXpH1a4RfzOqiRhvg5b2IcimwyIbKCZzK28OU,1082
+fastapi_another_jwt_auth-0.1.10.dist-info/METADATA,sha256=2SXwV9EyLSQbkd7Gj31IDW15e1fILz6Bchuh5FUlRZs,3294
+fastapi_another_jwt_auth-0.1.10.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fastapi_another_jwt_auth-0.1.10.dist-info/RECORD,,
