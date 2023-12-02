@@ -1,0 +1,3 @@
+[console_scripts]
+meow-ai=meow_ai:main
+
