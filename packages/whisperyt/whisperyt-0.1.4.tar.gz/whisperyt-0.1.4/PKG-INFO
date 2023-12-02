@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: whisperyt
+Version: 0.1.4
+Summary: Using Gladia's Whisper API for transcribing YouTube videos
+Home-page: UNKNOWN
+Author: InquestGeronimmo
+Author-email: rcostanl@gmail.com
+License: UNKNOWN
+Keywords: python,youtube,whisper,transcription,speech-to-text,ASR
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Use Whisper speech-to-text to transcribe YouTube videos and run postprocessing with the transcription.
+
