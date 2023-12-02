@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pymajic
+Version: 0.1
+Summary: PyMajic is a Python package that simplifies working with Django projects by providing convenient commands for environment management, custom commands, and more.
+Home-page: https://github.com/Codewithshagbaor/PyMajic
+Author: Shagbaor Agber
+Author-email: dxtlive@gmail.com
+Keywords: Django,project management,virtual environment,Django development,utility,command-line tool,workflow optimization,automation
