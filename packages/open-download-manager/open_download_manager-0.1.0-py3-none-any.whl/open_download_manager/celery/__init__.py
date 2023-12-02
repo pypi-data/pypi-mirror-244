@@ -1,0 +1,1 @@
+from open_download_manager.celery.download import download
