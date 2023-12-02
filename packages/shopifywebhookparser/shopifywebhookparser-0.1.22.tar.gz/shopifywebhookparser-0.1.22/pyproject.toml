@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "shopifywebhookparser"
+version = "0.1.22"
+description = "A Python module to parse Shopify webhook requests, tailored for Azure Functions."
+authors = ["Zin Yosrim <zinyosrim@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/zinyosrim/shopify-webhook-parser-lib"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+packages = [{include = "shopifywebhookparser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+azure-functions = "^1.17.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+black = "^21.12b0"
+pylint = "^2.17.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
