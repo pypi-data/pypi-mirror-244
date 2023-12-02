@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+InfanTSeg/InfanTSeg.py
+InfanTSeg/__init__.py
+InfanTSeg.egg-info/PKG-INFO
+InfanTSeg.egg-info/SOURCES.txt
+InfanTSeg.egg-info/dependency_links.txt
+InfanTSeg.egg-info/requires.txt
+InfanTSeg.egg-info/top_level.txt
+data/__init__.py
