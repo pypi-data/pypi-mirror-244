@@ -1,0 +1,35 @@
+# sweetmatch
+
+This is sugar coating around the function scipy.optimize.linear_sum_assignment (Hungarian algo). The single provided function is sweetmatch.match, which takes 2 lists of any objects, a callable that evaluates how bad 2 objects match together (cost function) and an optional threshold value. The match function returns a list of matched pairs. Typing is correctly handled. In action:
+
+```
+from sweetmatch import match
+
+x = [1, 2, 3]
+y = [1.6, 2.1, 3.2]
+
+def cost_function(x:int, y:float) -> float:
+    return abs(x - y)
+
+matches = match(x, y, cost_function)
+
+print(matches)
+
+# [(1, 1.6), (2, 2.1), (3, 3.2)]
+
+
+matches = match(x, y, cost_function, cost_threshold=0.5)
+
+print(matches)
+
+# [(2, 2.1), (3, 3.2)]
+
+```
+
+In this example, the typing of the outputed matches is correctly handled and is list[tuple[int, float]].
+
+## Installation
+
+```
+pip install sweetmatch
+```
