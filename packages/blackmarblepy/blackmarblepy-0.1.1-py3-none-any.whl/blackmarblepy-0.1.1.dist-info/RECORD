@@ -1,0 +1,13 @@
+blackmarble/VERSION,sha256=gERzFlKfxiAU-6oEf7Z8Uaww4ygwzaNwQFNJ2NZtGWw,6
+blackmarble/__init__.py,sha256=mGf42SbvN5WOKDZNYGlgQlFoIi0X9TEP1DhlGLdjt4Y,389
+blackmarble/__main__.py,sha256=onW92wFC0iHVjf7ZAgFn1XCrxk0aCVlPguK9RlezG7Y,95
+blackmarble/base.py,sha256=Ejul-WFSH4UlKjmmN391mqVOr105Kfszjk3s9T0--xA,3216
+blackmarble/bm_extract.py,sha256=297AubPnLw5OU0M2hhICnfviYlAso03X5QtG5uE3xXk,8224
+blackmarble/bm_raster.py,sha256=udJx-O39myqNEWcJ2j2-opVu6nXw0qNH5ZVLb7L6FCg,9585
+blackmarble/utils.py,sha256=S7tp_E2sIGqAxxKli09Glub2uuOMJLeElCtYW37Wh3Q,13202
+blackmarble/data/blackmarbletiles.geojson,sha256=cYeUnqykIUAHXujKentkkbbsBwWMMPMQYw5_IiKfGsg,284252
+blackmarblepy-0.1.1.dist-info/LICENSE,sha256=hLS-tM9QIdnh1aKGVbkBNV2AJuVVJzx4-BYICUeOVdE,1067
+blackmarblepy-0.1.1.dist-info/METADATA,sha256=qa0xUfUcmKMryYBRC_6bqAfuVTsBBL614hL_FKxja7I,4473
+blackmarblepy-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+blackmarblepy-0.1.1.dist-info/top_level.txt,sha256=Cx6e_2u8eyYGIorthSLCAUSzKHh_1aZHZS0Y5p8KPnA,12
+blackmarblepy-0.1.1.dist-info/RECORD,,
