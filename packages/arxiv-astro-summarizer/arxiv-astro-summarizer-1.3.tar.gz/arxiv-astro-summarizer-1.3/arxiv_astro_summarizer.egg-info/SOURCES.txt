@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+arxiv_astro_summarizer/__init__.py
+arxiv_astro_summarizer/astroph_summarizer.py
+arxiv_astro_summarizer.egg-info/PKG-INFO
+arxiv_astro_summarizer.egg-info/SOURCES.txt
+arxiv_astro_summarizer.egg-info/dependency_links.txt
+arxiv_astro_summarizer.egg-info/requires.txt
+arxiv_astro_summarizer.egg-info/top_level.txt
