@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: collective.wfadaptations
+Version: 2.0.0a0
+Summary: Adaptations for your Plone workflows
+Home-page: UNKNOWN
+Author: Cedric Messiant
+Author-email: cedricmessiant@ecreall.com
+License: GPL
+Project-URL: PyPI, https://pypi.python.org/pypi/collective.wfadaptations
+Project-URL: Source, https://github.com/collective/collective.wfadaptations
+Keywords: Plone Python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 4.3
+Classifier: Framework :: Plone :: 6.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Provides-Extra: test
+
+.. image:: https://github.com/IMIO/collective.wfadaptations/actions/workflows/main.yml/badge.svg?branch=master
+    :target: https://github.com/IMIO/collective.wfadaptations/actions/workflows/main.yml
+
+.. image:: https://coveralls.io/repos/github/IMIO/collective.wfadaptations/badge.svg
+    :target: https://coveralls.io/github/IMIO/collective.wfadaptations
+
+.. image:: https://img.shields.io/pypi/v/collective.wfadaptations.svg
+   :alt: PyPI badge
+   :target: https://pypi.org/project/collective.wfadaptations
+
+========================
+collective.wfadaptations
+========================
+
+This package allows you to create adaptations for your workflows. To add a workflow adaptation, simply add an utility that implements `IWorkflowAdaptation`. See example in `example.py` file.
+
+Contributors
+============
+
+- Cédric Messiant, cedricmessiant@ecreall.com
+- Stéphan Geulette, stephan.geulette@imio.be
+
+Changelog
+=========
+
+
+2.0.0a0 (2023-12-01)
+--------------------
+
+- Added Plone 6 compatibility.
+  [sgeulette]
+
+1.2 (2022-10-28)
+----------------
+
+- Added `name` parameter on `apply_from_registry` to apply given adaptation.
+  [sgeulette]
+
+1.1 (2021-04-20)
+----------------
+
+- Added reapply adaptation parameter to differentiate a reapply after a workflow reset.
+  [sgeulette]
+- Kept keys as unicode in `get_applied_adaptations`
+  [sgeulette]
+
+1.0 (2020-10-07)
+----------------
+
+- Added multiplicity adaptation parameter to authorize an adaptation to be applied multiple times.
+  [sgeulette]
+
+0.2 (2019-09-20)
+----------------
+
+- Set default value to None.
+  [sgeulette]
+
+0.1 (2017-05-31)
+----------------
+
+- Add base class for workflow adaptation.
+  [sgeulette]
+- Initial release.
+  [cedricmessiant]
+
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="collective.wfadaptations"
+    interface="collective.wfadaptations.interfaces.ICollectiveWfadaptationsLayer"
+    remove="True"
+  />
+</layers>

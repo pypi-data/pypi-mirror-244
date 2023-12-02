@@ -1,0 +1,2 @@
+- Cédric Messiant, cedricmessiant@ecreall.com
+- Stéphan Geulette, stephan.geulette@imio.be

@@ -1,0 +1,4 @@
+<registry>
+  <record name="collective.wfadaptations.applied_adaptations" remove="True">
+  </record>
+</registry>
