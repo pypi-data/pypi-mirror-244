@@ -1,0 +1,12 @@
+README.md
+setup.py
+async_pyarrow/Flight_pb2.py
+async_pyarrow/Flight_pb2_grpc.py
+async_pyarrow/__init__.py
+async_pyarrow/flight.py
+async_pyarrow.egg-info/PKG-INFO
+async_pyarrow.egg-info/SOURCES.txt
+async_pyarrow.egg-info/dependency_links.txt
+async_pyarrow.egg-info/requires.txt
+async_pyarrow.egg-info/top_level.txt
+tests/test_flight.py
