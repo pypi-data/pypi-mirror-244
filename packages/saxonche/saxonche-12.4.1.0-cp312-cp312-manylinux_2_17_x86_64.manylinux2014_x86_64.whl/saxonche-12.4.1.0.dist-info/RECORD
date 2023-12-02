@@ -1,0 +1,10 @@
+saxonche.cpython-312-x86_64-linux-gnu.so,sha256=gQ_9R5xEiacWNmND9Y7B-5vOfSSbPSu7qjaiPhwRXrY,10657769
+saxonche.libs/libsaxon-hec-12-f803331f.4.1.so,sha256=D9CdLnLcvmJYmqPI-rO6GdpMtD8LZhHO2CYlI69JNDg,52226833
+saxonche/setup.py,sha256=Hh99Ze6ozVp4axQeD6SF1p0Wo9Pwkxbw8i2FzzvnyKw,2975
+saxonche/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxonche/test_saxonc.py,sha256=855D4X4BzKlHzAiLHWsTgoOh1iEDvy2tf7DtwFP8F38,61327
+saxonche/conftest.py,sha256=JhS8Vl2R_MlRTw_LfDuz0Uy3C4HvJVWw668-xp8HVvY,180
+saxonche-12.4.1.0.dist-info/top_level.txt,sha256=6tJxlK8ePmvwmsTmpNkKssbnfExHvDb9UiuTurDdKrU,9
+saxonche-12.4.1.0.dist-info/WHEEL,sha256=vJMp7mUkE-fMIYyE5xJ9Q2cYPnWVgHf20clVdwMSXAg,152
+saxonche-12.4.1.0.dist-info/METADATA,sha256=OMRnPvjPAp-GMylG_yPiw95OwAfvFtilZ9V3yBfX9dY,4991
+saxonche-12.4.1.0.dist-info/RECORD,,
