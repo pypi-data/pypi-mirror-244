@@ -1,0 +1,11 @@
+bf2fj/__init__.py,sha256=EjabVH5Yzg5qPzAvTWe0mxdME6NMuBBsN89NW7Mq1Oo,211
+bf2fj/bf2fj_cli.py,sha256=tdJ4__CtD5rV30wwYYi-Tw1mkrmr-brADTJHjCdAes8,3447
+bf2fj/bf2fj_compiler.py,sha256=Dr4H-VDNQNhbpLbMRUgVOlGGRdShy5ofKFXY2xBpk7g,11484
+bf2fj/bf_classes.py,sha256=ruyPwDhvmOh1nCJMLYVq_KdLzJzgG6DZa3bxtyXd-HY,3681
+bf2fj/compiler_exceptions.py,sha256=2m7rmTU6sDKnrfb8fE5CwY5d0cpy6uNYfSQGhE6j-WA,284
+bf2fj/flipjump_output_format.fj,sha256=ypOxhIVbj75kCfgTMnw1DRNgeU8hY5iVg2GTJ0OD8kk,8280
+bf2fj-1.0.0.dist-info/LICENSE,sha256=lYAmauXn4D7TjTu7n2h8ht1EjBSAATwQik1aQFhlOw0,1295
+bf2fj-1.0.0.dist-info/METADATA,sha256=i2wL2ReSilxyc9JuQS7TjYFPjG_H04Lew6wcOdv07gI,3363
+bf2fj-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bf2fj-1.0.0.dist-info/entry_points.txt,sha256=FJsGmKmpQ_NQbYjpz0Dg5rtnCiE3aVLvxpKv_EJRAr4,46
+bf2fj-1.0.0.dist-info/RECORD,,

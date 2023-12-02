@@ -1,0 +1,3 @@
+[console_scripts]
+bf2fj=bf2fj.bf2fj_cli:main
+
