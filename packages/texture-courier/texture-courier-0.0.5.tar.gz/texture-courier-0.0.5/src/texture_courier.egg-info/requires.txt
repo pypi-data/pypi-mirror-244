@@ -1,0 +1,8 @@
+Pillow~=10.1
+tqdm~=4.66.1
+
+[dev]
+mypy~=1.4.1
+wheel~=0.41.3
+types-setuptools~=68.2
+build~=1.0.3
