@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: progressiveai
+Version: 0.0.1
+Summary: "This repository contains the Python library for ProgressiveAI, a powerful tool for interacting with AI Models. The library provides a simple and intuitive interface for sending requests to ProgressiveAI's AI Models and processing their responses."
+Home-page: https://progressiveai.org
+Author: ProgressiveAI
+Author-email: support@progressiveai.org
+Project-URL: Bug Tracker, https://support.progressiveai.org/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
