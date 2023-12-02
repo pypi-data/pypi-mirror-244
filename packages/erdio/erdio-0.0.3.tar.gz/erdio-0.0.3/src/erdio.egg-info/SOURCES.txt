@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/erdio/__init__.py
+src/erdio/__main__.py
+src/erdio/cli.py
+src/erdio/drawio.py
+src/erdio/main.py
+src/erdio/styles.py
+src/erdio.egg-info/PKG-INFO
+src/erdio.egg-info/SOURCES.txt
+src/erdio.egg-info/dependency_links.txt
+src/erdio.egg-info/entry_points.txt
+src/erdio.egg-info/requires.txt
+src/erdio.egg-info/top_level.txt
