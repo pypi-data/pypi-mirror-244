@@ -1,0 +1,327 @@
+Metadata-Version: 2.1
+Name: cesium-script
+Version: 1.2.1
+Summary: Collection of scripts and utils to generate inputs for a Cesium based JUICE SOC application
+Home-page: https://.github.io/cesium-script
+License: MIT
+Author: Rafael Andres
+Author-email: rafael.andres@ext.esa.int
+Requires-Python: >=3.9,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: czml3 (>=0.7.0,<0.8.0)
+Requires-Dist: geojson (>=3.0.1,<4.0.0)
+Requires-Dist: planetary-coverage (==1.1.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: shapely (>=2.0.1,<3.0.0)
+Requires-Dist: spiceypy (>=5.1.2,<6.0.0)
+Project-URL: Documentation, https://.github.io/cesium-script
+Project-URL: Repository, https://github.com//cesium-script
+Description-Content-Type: text/markdown
+
+# cesium-script
+
+---
+
+
+**Source Code**: [https://juigitlab.esac.esa.int/core-system/uplink/auxiliary-tools/cesium-script.git](https://juigitlab.esac.esa.int/core-system/uplink/auxiliary-tools/cesium-script.git)
+
+---
+
+Collection of scripts and utils to generate inputs for the Cesium based JUICE SOC tool  [https://juicesoc.esac.esa.int/cesium/](https://juicesoc.esac.esa.int/cesium/)
+
+## Installation
+
+```sh
+pip install cesium-script
+```
+
+## Development
+
+* Clone this repository
+* Requirements:
+  * [Poetry](https://python-poetry.org/)
+  * Python 3.9+
+* Create a virtual environment and install the dependencies
+
+```sh
+poetry install
+```
+
+* Activate the virtual environment
+
+```sh
+poetry shell
+```
+
+### Testing
+
+```sh
+pytest
+```
+
+### Documentation
+
+The documentation is automatically generated from the content of the [docs directory](./docs) and from the docstrings
+ of the public signatures of the source code.
+
+### Pre-commit
+
+Pre-commit hooks run all the auto-formatters (e.g. `black`, `isort`), linters (e.g. `mypy`, `flake8`), and other quality
+ checks to make sure the changeset is in good shape before a commit/push happens.
+
+You can install the hooks with (runs for each commit):
+
+```sh
+pre-commit install
+```
+
+Or if you want them to run only for each push:
+
+```sh
+pre-commit install -t pre-push
+```
+
+Or if you want e.g. want to run all checks manually for all files:
+
+```sh
+pre-commit run --all-files
+```
+
+### Build
+```sh
+poetry build
+```
+
+### Publishing to JUICE NEXUS repository
+#### Setting up the remote JUICE SOC private repository (First time only)
+```sh
+poetry config repositories.packagr  https://scidockreg.esac.esa.int/repository/pypi-juice-releases/
+poetry config http-basic.packagr <user>
+```
+#### Publishing
+```sh
+poetry publish -r packagr
+```
+
+## Package Usage
+
+### Command line stand-alone application
+The python package provides two command line tools as entry point for the basic functionality.
+
+#### Contextual information
+```sh
+usage: generate_scene [-h] -mk METAKERNEL -b BODY -st START_UTC -et END_UTC -s STEP
+
+Creates a CZML file containing the contextual information of the S/C (position and attitude)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -mk METAKERNEL, --metakernel METAKERNEL
+                        the path to metakernel
+  -b BODY, --body BODY  Central body name. eg: Europa
+  -st START_UTC, --start_utc START_UTC
+                        Scene start using UTC scale and ISO format (e.g. 2032-07-02T14:22:25Z)
+  -et END_UTC, --end_utc END_UTC
+                        Scene end using UTC scale and ISO format (e.g. 2032-07-02T19:32:17Z)
+  -s STEP, --step STEP  Step size for SPICE calculations in seconds. Optional - The tool will decide the step size.
+  -c CK_KERNELS [CK_KERNELS ...], --ck_kernels CK_KERNELS [CK_KERNELS ...]
+                        list of additional ck kernels
+```
+
+e.g.
+
+```sh
+$ generate_scene -mk ~/juice_repo/juice_crema_5_1_150lb_v420_20221220_001.tm -st 2032-07-02T14:22:25Z -et 2032-07-02T19:32:17Z -s 5 -b Europa
+2023-05-11 10:20:36,947[INFO] CZML generated
+2023-05-11 10:20:37,945[INFO] jui_eur_20320702T1422_20320702T1932.czml generated
+```
+
+#### Quick-look coverage
+
+
+
+```sh
+usage: ql_coverage [-h] -mk METAKERNEL -b BODY [-c CK_KERNELS [CK_KERNELS ...]] -f FILE [-s]
+
+Create a geojson file(s) loadable by a given JUICE Cesium scenario with the features containing the geometry of the footprints of an instrument timeline.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -mk METAKERNEL, --metakernel METAKERNEL
+                        the path to metakernel
+  -b BODY, --body BODY  Central body name. eg: Europa
+  -c CK_KERNELS [CK_KERNELS ...], --ck_kernels CK_KERNELS [CK_KERNELS ...]
+                        list of additional ck kernels
+  -f FILE, --file FILE  Path to the CSV file
+  -s, --split           Generate files split by instrument (default: false)
+  -bs BASE_STEP, --base_step BASE_STEP
+                        Defines the sample step used for the shape calculations, the default is 5 seconds that is the recommended for on-the-fly representations as its value affects linearly to the performance time!
+```
+
+The tool uses as input a csv file with five fields separated using commas.
+* Observation name
+* Start of the observation, UTC date expressed using the year-month-day ISO format
+* End of the observation, UTC date expressed using the year-month-day ISO format
+* Cadence flag, see next section for details
+* Field of view of the instrument
+
+##### Cadence flag
+The cadence flag is a flexible mechanism to indicate the snapshots that will produced/accumulated per entry.
+The values allowed for the field are: **empty** or an integer.
+- If the values is **0**, a unique feature with the **instantaneous** field of view projection at **start time** will be produced
+
+- If the value (v) is **>0**, each **v seconds** a unique feature with the **union** of the field of view projections corresponding to that v second period will be produced. It will be repeated till the end of the observation.
+
+- If the value (v) is **<0**, each **abs(v) seconds** a feature with the **snapshot** of the field of view projections corresponding to that instant will be produced. It will be repeated till the end of the observation.
+
+- If the field is **empty** a unique feature the **union** of the field of view projections corresponding to the whole observation period will be produced.
+
+e.g.
+
+##### sample2.csv
+```
+JANUS_001,2032-07-02T15:00:00Z,2032-07-02T16:00:00Z,0,JANUS
+JANUS_002,2032-07-02T15:00:00Z,2032-07-02T16:00:00Z,120,JANUS
+JANUS_003,2032-07-02T15:00:00Z,2032-07-02T16:00:00Z,-120,JANUS
+JANUS_004,2032-07-02T15:00:00Z,2032-07-02T16:00:00Z,,JANUS
+```
+JANUS_001 will produce a unique feature of the JANUS FOV projection at 2032-07-02T15:00:00Z.
+JANUS_002 will produce 30 features of the JANUS accumulated FOV projections each 2 minutes
+JANUS_003 will produce 30 features of the instantaneous JANUS FOV projection each 2 minutes
+JANUS_004 will produce a unique feature with the union of FOV projections for the whole observation
+
+
+
+```sh
+ql_coverage -mk ~/juice_repo/juice_crema_5_1_150lb_v420_20221220_001.tm -f sample2.csv -b europa
+2023-05-31 16:35:48,377[INFO] Processing 2032-07-02T15:00:00Z 2032-07-02T16:40:00Z JANUS
+2023-05-31 16:36:01,885[INFO]   Added 50 features (S)
+2023-05-31 16:36:01,966[INFO] jui_eur_20320702T1500_20320702T1640_all.geojson generated
+```
+
+### Integration with Jupyter Notebooks
+The cesium_script package can be used as part of Jupyter Notebook scripting
+
+#### How to install the cesium_script in my Jupyter environment?
+
+Go to `File > New > Notebook` to create a new notebook and in the first cell, type:
+```python
+%pip install --upgrade cesium_script
+```
+
+Execute the cell with <kbd>⇧ Shift</kbd> + <kbd>↵ Enter</kbd> and you should get the latest version of the `cesium_script`.
+
+You can double check which version was install with the command:
+```python
+%pip show cesium_script
+```
+
+#### A quick Jupyter notebook samples
+
+Pre-requiste: A valid ESAC SPICE service local metakernel covering the Jupiter Tour ()
+
+###### Contextual information
+```python
+from cesium_script.czml.scene import generate_czml
+import spiceypy as sp
+
+sp.kclear()
+sp.furnsh('<HERE_PATH_TO _METAKERNEL>')
+czml = generate_czml('2032-07-02T14:22:25Z', '2032-07-02T16:22:25Z', 60, 'Europa')
+with open('sample.czml', 'w+') as czml_file:
+    czml.dump(czml_file, indent=2)
+```
+
+###### Quick-Look Coverage
+```python
+from cesium_script.geojson.observations import create_configuration, process_observation, dump_file
+
+metakernel = '/Users/randres/juice_repo/juice_crema_5_1_150lb_23_1_v423_20230309_001.tm'
+conf = create_configuration([metakernel], 'europa')
+
+features = process_observation(conf, '2032-07-02T15:00:00Z', '2032-07-02T16:30:00Z', 'JANUS', 120)
+
+dump_file(features, 'flyby_janus.geojson')
+print('done')
+```
+
+##### Embedded Cesium Viewer - Display on-the-fly generated GEOJSON data
+
+```python
+
+import IPython
+from cesium_script.jupyter.connector import send_geojson_content
+
+import geojson
+from geojson import FeatureCollection
+from geojson import Feature, Point, LineString, Polygon
+
+body = 'ganymede'
+cesium_app_url = 'https://juicesoc.esac.esa.int'
+
+features = []
+
+features.append(Feature(geometry=Point((206.56, 33.33, 0)), properties={"Site": "Abydos Facula"}))
+features.append(Feature(geometry=LineString([(8.919, 44.4074), (18.923, 44.4075)]), properties={"Line": "A line"}))
+features.append(Feature(geometry=Polygon([[(2.38, 57.322), (8.43, 57.322), (8.194, 20.28), (2.38, 20.28), (2.38, 57.322)]]), properties={"polygon": "A polygon"}))
+
+feature_collection = FeatureCollection(features)
+
+feature_collection['crs'] = {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::104916"
+    }
+  }
+
+
+viewer_url = send_geojson_content(body, geojson.dumps(feature_collection), cesium_app_url)
+IPython.display.IFrame(viewer_url, width=800, height=600)
+
+```
+##### Embedded Cesium Viewer - Display on-the-fly generated CZML data
+
+```python
+
+import IPython
+from cesium_script.jupyter.connector import send_czml_content
+from cesium_script.czml.scene import generate_czml
+import spiceypy as sp
+
+
+body = 'europa'
+cesium_app_url = 'https://juicesoc.esac.esa.int'
+
+sp.kclear()
+metakernel = 'juice_crema_5_1_150lb_23_1_v423_20230309_001.tm'
+sp.furnsh(metakernel)
+czml = generate_czml('2032-07-02T14:22:25Z', '2032-07-02T16:22:25Z', 60, 'Europa')
+
+
+viewer_url = send_czml_content(body, czml.dumps(), cesium_app_url)
+IPython.display.IFrame(viewer_url, width=1000, height=900)
+``````
+
+
+### Checking the results
+
+Once the CZML has been generated, it can be loaded as an input of the https://juicesoc.esac.esa.int/cesium/ tool.
+1. Select the central body from the top/left selector
+1. Open the dataset load area clicking the left central chevron
+1. Click the "Load Data" button
+1. Upload the file using either the browse or drag&drop options
+
+---
+
+This project was generated using the [wolt-python-package-cookiecutter](https://github.com/woltapp/wolt-python-package-cookiecutter) template.
+

@@ -1,0 +1,4 @@
+[console_scripts]
+generate_scene=cesium_script.scene_generator:cli
+ql_coverage=cesium_script.quicklook_coverage:cli
+
