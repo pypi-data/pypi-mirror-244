@@ -1,0 +1,14 @@
+
+[test]
+pytest-asyncio
+pytest-cov
+pylint
+flake8
+black
+cryptography
+
+[with_crypto]
+cryptography>=39.0.0
+
+[with_takproto]
+takproto>=2.0.0
