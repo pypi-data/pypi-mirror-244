@@ -1,0 +1,4 @@
+[console_scripts]
+grep2 = wnix.bin.grep:main
+sort2 = wnix.bin.sort:main
+what = wnix.bin.what:main
