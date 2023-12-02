@@ -1,0 +1,4 @@
+dateutil
+pandas
+requests
+bs4
