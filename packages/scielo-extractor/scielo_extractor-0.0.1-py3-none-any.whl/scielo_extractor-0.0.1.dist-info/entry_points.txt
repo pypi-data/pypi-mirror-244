@@ -1,0 +1,2 @@
+[console_scripts]
+scielo-extractor = scielo_extractor.cli:main
