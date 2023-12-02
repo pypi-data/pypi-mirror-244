@@ -1,0 +1,9 @@
+include CMakeLists.txt
+recursive-include nudisxs/f_sources *.f
+include cmake/*
+include pyproject.toml
+recursive-include nudisxs/*.py
+recursive-include nudisxs/tests *.py
+exclude MANIFEST.in
+exclude dist
+exclude work

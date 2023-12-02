@@ -1,0 +1,40 @@
+[build-system]
+requires = [
+    "scikit-build-core",
+    "numpy>=1.21",
+    "cmake>=3.17",
+    "ninja>1.10"
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "nudisxs"
+version = "1.1.1"
+requires-python = ">=3.7"
+dependencies = ["numpy>=1.21", "vegas"]
+
+authors = [
+    { name = "Vadim A. Naumov and K. Kuzmin" }
+]
+maintainers = [
+    { name = "Dmitry V. Naumov", email = "dmitryvnaumov@gmail.com" }
+]
+
+description = "A python interface to fortran code developed by Vadim A. Naumov and Konstantin Kuzmin, calculating neutrino-nucleon deep inelastic charged/neutral current cross-sections."
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy"
+]
+
+[project.urls]
+Home = "https://git.jinr.ru/dnaumov/nudisxs"

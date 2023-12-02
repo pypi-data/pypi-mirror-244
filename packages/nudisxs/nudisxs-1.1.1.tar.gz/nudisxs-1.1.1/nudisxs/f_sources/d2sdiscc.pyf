@@ -1,0 +1,18 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module d2sdiscc ! in 
+    interface  ! in :d2sdiscc
+        subroutine d2sdiscc_dxdy_array(e_nu,x,y,out,n) ! in :d2sdiscc:a.f
+            real*8 :: e_nu
+            real*8 dimension(n) :: x
+            real*8 dimension(n),depend(n) :: y
+            real*8 dimension(n),depend(n) :: out
+            integer, optional,check(shape(x, 0) == n),depend(x) :: n=shape(x, 0)
+        end subroutine d2sdiscc_dxdy_array
+    end interface 
+end python module d2sdiscc
+
+! This file was auto-generated with f2py (version:1.26.2).
+! See:
+! https://web.archive.org/web/20140822061353/http://cens.ioc.ee/projects/f2py2e
