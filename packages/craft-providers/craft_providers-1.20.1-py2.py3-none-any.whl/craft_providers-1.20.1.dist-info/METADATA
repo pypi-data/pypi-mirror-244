@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: craft-providers
+Version: 1.20.1
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: packaging >=14.1
+Requires-Dist: pydantic <2.0
+Requires-Dist: pyyaml
+Requires-Dist: requests-unixsocket
+Requires-Dist: urllib3 <2
+Provides-Extra: dev
+Requires-Dist: coverage[toml] ==7.3.2 ; extra == 'dev'
+Requires-Dist: freezegun ==1.2.2 ; extra == 'dev'
+Requires-Dist: logassert ==7 ; extra == 'dev'
+Requires-Dist: pyfakefs ==5.3.0 ; extra == 'dev'
+Requires-Dist: pytest ==7.4.2 ; extra == 'dev'
+Requires-Dist: pytest-cov ==4.1.0 ; extra == 'dev'
+Requires-Dist: pytest-mock ==3.11.1 ; extra == 'dev'
+Requires-Dist: pytest-rerunfailures ==12.0 ; extra == 'dev'
+Requires-Dist: pytest-subprocess ==1.5.0 ; extra == 'dev'
+Requires-Dist: pytest-xdist ==3.3.1 ; extra == 'dev'
+Requires-Dist: pytest-time ==0.3.1 ; extra == 'dev'
+Requires-Dist: responses ==0.23.3 ; extra == 'dev'
+Requires-Dist: types-requests ==2.31.0.6 ; extra == 'dev'
+Requires-Dist: types-setuptools ==68.2.0.0 ; extra == 'dev'
+Requires-Dist: types-pyyaml ==6.0.12.12 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: furo ==2023.9.10 ; extra == 'docs'
+Requires-Dist: lxd-sphinx-extensions ==0.0.14 ; extra == 'docs'
+Requires-Dist: myst-parser ==2.0.0 ; extra == 'docs'
+Requires-Dist: pyspelling ==2.9 ; extra == 'docs'
+Requires-Dist: sphinx ==7.2.6 ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ==2021.3.14 ; extra == 'docs'
+Requires-Dist: sphinxcontrib-jquery ==4.1 ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ==0.5.2 ; extra == 'docs'
+Requires-Dist: sphinx-design ==0.5.0 ; extra == 'docs'
+Requires-Dist: sphinxext-opengraph ==0.8.2 ; extra == 'docs'
+Requires-Dist: sphinx-lint ==0.8.1 ; extra == 'docs'
+Requires-Dist: sphinx-notfound-page ==1.0.0 ; extra == 'docs'
+Requires-Dist: sphinx-reredirects ==0.1.2 ; extra == 'docs'
+Requires-Dist: sphinx-tabs ==3.4.1 ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: black ==23.10.0 ; extra == 'lint'
+Requires-Dist: codespell[toml] ==2.2.6 ; extra == 'lint'
+Requires-Dist: ruff ==0.1.1 ; extra == 'lint'
+Requires-Dist: yamllint ==1.32.0 ; extra == 'lint'
+Provides-Extra: types
+Requires-Dist: mypy[reports] ==1.6.1 ; extra == 'types'
+Requires-Dist: pyright ==1.1.332 ; extra == 'types'
+
+***************
+Craft providers
+***************
+
+|doc-build-status-badge|_
+
+Description
+-----------
+This project provides Python interfaces for instantiating and executing
+builds for a variety of target environments.
+
+Initial providers include:
+
+- `LXD containers`_
+- `Multipass VMs`_
+
+Host support is targeted for:
+
+- Linux
+- Mac OS X
+- Windows
+
+License
+-------
+Free software: GNU Lesser General Public License v3
+
+Documentation
+--------------
+https://canonical-craft-providers.readthedocs-hosted.com/en/latest/
+
+Contributing
+------------
+See the HACKING.rst document for details on how to contribute.
+
+.. _`LXD containers`: https://ubuntu.com/lxd/
+.. _`Multipass VMs`: https://multipass.run/
+.. |doc-build-status-badge| image:: https://readthedocs.com/projects/canonical-craft-providers/badge/?version=latest
+.. _doc-build-status-badge: https://canonical-craft-providers.readthedocs-hosted.com/en/latest/?badge=latest
