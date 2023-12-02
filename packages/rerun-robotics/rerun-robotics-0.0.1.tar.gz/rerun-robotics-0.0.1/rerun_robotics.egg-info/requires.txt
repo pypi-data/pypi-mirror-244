@@ -1,0 +1,10 @@
+numpy
+pybullet
+rerun
+trimesh
+tqdm
+yourdfpy
+
+[dev]
+black
+isort
