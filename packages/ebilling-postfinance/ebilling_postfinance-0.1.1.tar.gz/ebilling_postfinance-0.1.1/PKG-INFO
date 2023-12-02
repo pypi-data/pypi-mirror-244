@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ebilling_postfinance
+Version: 0.1.1
+Summary: A Python library to access the eBill web service of Postfinance
+Home-page: https://github.com/camptocamp/ebilling-postfinance
+Author: Camptocamp (Thierry Ducrest)
+Author-email: thierry.ducrest@camptocamp.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: zeep
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-env; extra == "test"
+Requires-Dist: vcrpy; extra == "test"
+
+# eBilling Postfinance
+
+A Python library that implements the communication with the Postfinance eBill web service.
+Only the api calls related to the payer are implemented.
+
+
+## Roadmap
+
+* Add more unit test
+* Configure unit test to run on Github

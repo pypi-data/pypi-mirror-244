@@ -1,0 +1,8 @@
+zeep
+requests
+
+[test]
+pytest
+pytest-cov
+pytest-env
+vcrpy
