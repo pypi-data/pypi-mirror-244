@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+  stream_pose_ml_api:
+    image: mrilikecoding/stream_pose_ml_api:latest
+    # build: ./stream_pose_ml
+    ports:
+      - "5001:5000"
+      # - "5678:5678" # For debugger
+    networks:
+      - app-tier
+    volumes:
+      - ./stream_pose_ml:/usr/src/app
+      - ${PWD}/data/trained_models:/usr/src/app/data/trained_models
+    # privileged: true
+    # network_mode: "host"
+    environment:
+      # - DEBUG=${DEBUG:-FALSE} # Defaults to FALSE, but override this if you wish to attach a debugger, e.g. via VSCode tasks.json
+      # - DEBUG=TRUE
+      - FLASK_APP=run.py
+      - APP_NAME=${APP_NAME}
+      - FLASK_DEBUG=development
+      # - BLUETOOTH_DEVICE_MAC=${BLUETOOTH_DEVICE_MAC}
+      # - SPP_UUID=${SPP_UUID}
+    # command: >
+    #   bash -c "pip install ptvsd &&  python -m ptvsd --host 0.0.0.0 --port 5678 $(if [ \"${DEBUG}\" = \"true\" ]; then echo '--wait'; fi) run.py"
+    command: >
+      bash -c "python run.py"
+
+  web_ui:
+    image: mrilikecoding/stream_pose_ml_web_ui:latest
+    # build: ./web_ui
+    environment:
+      - APP_NAME=${APP_NAME}
+    depends_on:
+      - stream_pose_ml_api
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    networks:
+      - app-tier
+    command: >
+          bash -c "cd /usr/src/app/my-app &&
+                npm install &&
+                npm_config_loglevel=verbose npm start > logs/container_logs.txt 2>&1 || (ls -al /root/.npm/_logs && false)"
+    volumes:
+      - ./web_ui:/usr/src/app/my-app
+      - ./web_ui/node_modules:/usr/src/app/my-app/node_modules
+      - ./web_ui/logs:/root/.npm/_logs
+
+networks:
+  app-tier:
+    driver: bridge

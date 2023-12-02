@@ -1,0 +1,13 @@
+.vscode
+__pycache__
+.DS_Store
+*.egg-info
+
+dist/* 
+
+config.yml
+
+node_modules/
+data/*
+
+web_ui/logs/*
