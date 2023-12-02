@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+virtual_fabric/__init__.py
+virtual_fabric/virtual_fabric_core.py
+virtual_fabric.egg-info/PKG-INFO
+virtual_fabric.egg-info/SOURCES.txt
+virtual_fabric.egg-info/dependency_links.txt
+virtual_fabric.egg-info/requires.txt
+virtual_fabric.egg-info/top_level.txt
