@@ -1,0 +1,11 @@
+README.md
+setup.py
+morsecco/alphabet.py
+morsecco/help.txt
+morsecco/mC.py
+morsecco/morsecco.py
+morsecco.egg-info/PKG-INFO
+morsecco.egg-info/SOURCES.txt
+morsecco.egg-info/dependency_links.txt
+morsecco.egg-info/entry_points.txt
+morsecco.egg-info/top_level.txt

@@ -1,0 +1,143 @@
+
+
+morsecco command table. Use .... . to get Help for Enter etc.
+.   Enter cell                     .-.. Length of cell
+-   Transform stack                -.-. Cut or Concatenate cell(s)
+.-. Read from address or file      ..-  Use address as file or ...
+.-- Write to address or file       ---  Output cell to shell
+.-  Add cell values                -... Binary And/Or/Xor/Diff
+--  Mark position                  -..- eXecute cell
+--. Go to position                 --.. ZeroSkip
+-.- Konvert to/from Text/Num/Morse --.- Quit program or subroutine
+
+.
+. : Enter
+. token       ( » token )      Enter token on stack
+.  t1 t2 t3   ( » ‹t1 t2 t3› ) Enter multiple tokens between two empty tokens
+ 
+positive numbers are in binary with . as 0 and - as 1:
+5 --> 101 --> -.-
+negative numbers have a single . at the beginning: -5 --> .-.-
+
+-
+- : Transform stack
+- .    move 2nd cell 1 up    - -  copy 1st cell to top   - .-  drop 1st cell
+- ..   move 3rd cell 2 up    - -. copy 2nd cell to top   - .-. drop 2nd cell
+- ...  move 4rd cell 3 up    - -– copy 3rd cell to top   - .-- drop 3rd cell
+- dots move cell dots up    - n  copy nth cell to top   - .n  drop nth cell
+-      with empty token take list of transformations from stack
+
+.-..
+.-.. : Length of cell
+.-..   ( cell » length ) replaces a cell by the length of it's content
+
+-.-.
+-.-. : Cut or Concatenate cell(s)
+-.-. .    ( c1 c2 » ‹c1c2› ) Concatenate cells
+-.-. ..   ( c1 c2 » ‹c1 c2› ) Concatenate cells with a whitespace
+-.-. dots ( c1 c2 » ‹c1…c2› ) use one space less than number of dots
+-.-. n    ( c » c1 c2 ) Cut cell after the n-th character
+                                for n<0 the n-th character from the end
+
+..-
+..- : Use address
+..- ..-. ‹name› ( handle » ) Use handle as File with given name
+..- ..-.        ( name handle » ) with empty name take name from stack
+..- -.-.        ( handle » ) Close file and disconnect address
+..- -..         ( address » ) Delete cell or file for that address
+..- --          ( n handle » ) Move file position by n (negative = back)
+..- --          ( ... handle » ) Move file position to Start
+..- --          ( ..-. handle » ) Move file position to Finish
+..- -..-        Use as eXecutable (overwriting command or special address)
+Switch read mode:
+..- .      to read Everything = whole file (default)
+..- .-..   to read Linewise from file
+..- -      to read Token by token from file
+..- ----   to read given number of CHaracters from file
+..- -...   to read given number of Bytes from file
+..- ..-    to read from Url given in Cell
+
+.-.
+.-. : Read from address or file
+Normal storage cell:  ( address » cell(address) )
+file in . mode:       ( handle » ‹file contents› )
+file in .-.. mode:    ( handle » ‹next line of file› )
+file in - mode:       ( handle » ‹next token of file› )
+file in ---- mode:    ( count handle » ‹count number of CHaracters› )
+file in -... mode:    ( count handle » ‹count number of Bytes› )
+stdin in given mode: handle = -
+cell in custom mode:  ( as defined by custom command )
+from Address stack:   ( .- » ‹address› )  addr: ( ‹address› » )
+from Marked position: ( -- » ‹token(a)› )  addr: ( a » ‹a+token› )
+
+.--
+.-- : Write a cell's content to address or file or whereever
+to sTdout:          ( string - » ) write string to stdout without newline
+to address stack:   ( ‹address› .- » )  addr: ( » ‹address› )
+to morse table:     ( ‹.-.- --.- -.-.› -- » ) will translate .-.- to
+                         the sequence --.- -.-. in future -.- -- commands.
+If these addresses have mode -..- set, you write command code to their address
+
+
+---
+--- : Output cell to shell
+print to stdout with a trailing newline
+
+.-
+.- : Add cell values
+single values:   ( x y » x+y )
+multiple values: ( ‹x1 ... xn› ‹y1 ... yn ... ym› » ‹x1+y1 ... xn+yn ... ym› )
+
+-...
+-... : Binary And/Or/Xor/Diff
+-... .-   Binary And
+-... ---  Binary Or
+-... -..- Binary Xor
+-... -..  Binary Diff gives . for each match, - for each diff, empty for equal
+
+--
+-- : Mark pushes a position relative to the current on the address stack
+-- ‹n›    (positive number) position of n-th token (the -- itself is -)
+-- .‹n›   (negative number) position of n-th token before the --
+-- ‹dots› drops i-th item from address stack with i=number of dots
+--        when followed by an empty token move the position on the top of the
+          address stack to the search pattern given by the top cell
+
+....
+.... : Help
+.... ....    Help on »Help«. Didn't you already know?
+.... ‹topic› Help on topic. Honestly, go figure out yourself!
+
+--.
+--. : Go to position
+Take the address from the top of the address stack and continue execution
+there. An address is composed by the position in characters, a white space
+and the address of the executed storage. For example, »--. .. - .« would
+execute position 6 (the 7th character) in address ».. - .«.
+
+-..-
+-..- : eXecute
+-..- ( code » ) eXecute code
+-..- ( -..- » )  eXecute recursive
+-..- ( .- » )    eXecute Again
+
+--..
+--.. : ZeroSkip
+If the top cell starts with zero or is empty, skip all tokens until the
+one identical to the one following the Zeroskip command.
+Example: --.. --. ‹executed only for non-zero› --. ‹executed if zero›
+A non-empty, non-zero token is left on the stack.
+
+-.-
+-.- : Konvert top of stack to/from Text/Num/Morse
+A leading dot Konverts in the other direction. Examples with hex 41:
+-.- -   Konvert to Text:         -.....- » A
+-.- .-  Konvert from Text:       A » -.....-
+-.- -.  Konvert to Number:       -.....- » 65
+-.- .-. Konvert from Number:     65 » -.....-
+-.- --  Konvert to Morse code:   -.....- » .-
+-.- .-- Konvert from Morse code: .- » -.....-
+
+--.-
+--.- : Quit program or subroutine
+Jump to the address on top of the address stack (if any) or quit the script.
