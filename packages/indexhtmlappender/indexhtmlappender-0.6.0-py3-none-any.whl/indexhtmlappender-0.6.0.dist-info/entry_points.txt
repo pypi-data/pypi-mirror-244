@@ -1,0 +1,3 @@
+[console_scripts]
+indexhtmlappender=indexhtmlappender.cli:app
+
