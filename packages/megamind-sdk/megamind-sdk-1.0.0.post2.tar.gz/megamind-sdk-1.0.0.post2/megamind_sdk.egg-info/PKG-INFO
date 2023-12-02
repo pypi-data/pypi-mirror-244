@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: megamind-sdk
+Version: 1.0.0.post2
+Summary: MegaMind will provide you with some utils
+Author: MegaMind
+Requires-Python: >=3.6,<4.0
