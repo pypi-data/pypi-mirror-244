@@ -1,0 +1,3 @@
+[console_scripts]
+cigen = cigen.__main__:cli
+
