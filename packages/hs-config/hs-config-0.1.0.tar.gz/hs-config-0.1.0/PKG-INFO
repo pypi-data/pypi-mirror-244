@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hs-config
+Version: 0.1.0
+Summary: 基于pydantic的python项目通用配置库
+License: MIT
+Author-email: xinghao <xhrtxh@gmail.com>
+Requires-Python: >=3.8,<3.12
+Description-Content-Type: text/markdown
+
+# example-package
+
