@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "jupyter-tincan"
+version = "0.1.1"
+description = ""
+authors = ["Roberto Abdelkader Martínez Pérez <robertomartinezp@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyzmq = "^25.1.1"
+tornado = "^6.4"
+beautifulsoup4 = "^4.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+jupyter-tincan = "jupyter_tincan.cli:main"
