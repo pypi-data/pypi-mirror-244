@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bsonschema
+Version: 0.0.40
+Summary: Validation similar to bsonschema using BSON types
+Author-email: Jeff Strom <jhstrom1@gmail.com>
+Project-URL: Homepage, https://github.com/jstrom2002/bsonschema
+Project-URL: Issues, https://github.com/jstrom2002/bsonschema/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bsonschema
+
+Simple bson validator written similarly to (jsonschema)[https://github.com/python-jsonschema/jsonschema] but for BSON types.
