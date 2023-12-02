@@ -1,0 +1,14 @@
+diisco/__init__.py,sha256=-AGBil5wNQLMuGEytpQqWYdMz1TORShWrRDGnMa1RGI,190
+diisco/constants.py,sha256=6P3wsohyUninUb1XFqCsjVFfEwNM_UXZtY9rMSrZZIA,627
+diisco/diisco.py,sha256=hhkK_veBr6E45IsDLBsCmNmaHA-QqhQuVrDLJNeNAVs,34117
+diisco/gaussian_process.py,sha256=xsDoQJy7iffm93gJxuzB3ixJwzi8ZyFTHOnJFvwsa6w,3065
+diisco/guides.py,sha256=3wQMNK0Q5gXW4qONgswAC_H5aPuUZB4JLbPgkf1-bvk,19630
+diisco/math_ops.py,sha256=nMN7tClI7qHHPAojg44HM1lvTf35pRzcTeruvOX7EIo,934
+diisco/names.py,sha256=1uC3S_qmUNs-F_KSsiyC6KIjqE4xBMu5TDq3p_33j8I,978
+diisco/prior_f_model.py,sha256=wcthUX5Lq8KzbHlF0HjFyDOmq12cjiVCa_6W2HY9aDY,2497
+diisco/utils.py,sha256=vYVrSEmMdHGIMh1O3dzfGmhn9MkbqyPHyLwpXYdoIaM,2731
+diisco-0.1.2.dist-info/LICENSE,sha256=qe42hJ28ob6LEShmscYidWGh1G8NUt7IO1mZ2ffgke4,1080
+diisco-0.1.2.dist-info/METADATA,sha256=LkUxjOF-7DxnfNNUoH2N02eft7J0Xt-SrLPQhlTjlNE,1420
+diisco-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+diisco-0.1.2.dist-info/top_level.txt,sha256=AAGyKgqjzd_gyqWfbu6ey6ropbi5utyXhfvML8_DRlA,7
+diisco-0.1.2.dist-info/RECORD,,
