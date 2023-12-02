@@ -1,0 +1,3 @@
+[console_scripts]
+adventkit=adventkit.solve:main
+
