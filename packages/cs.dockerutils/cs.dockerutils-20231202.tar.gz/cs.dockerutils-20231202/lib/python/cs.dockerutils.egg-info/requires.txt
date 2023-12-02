@@ -1,0 +1,7 @@
+cs.cmdutils>=20231129
+cs.context>=20230331
+cs.fs>=20231129
+cs.pfx>=20230604
+cs.psutils>=20231129
+ffmpeg-python
+typeguard
