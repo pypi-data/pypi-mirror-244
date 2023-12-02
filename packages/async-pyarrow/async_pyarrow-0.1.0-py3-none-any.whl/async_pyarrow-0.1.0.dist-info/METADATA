@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: async-pyarrow
+Version: 0.1.0
+Requires-Dist: pyarrow
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
