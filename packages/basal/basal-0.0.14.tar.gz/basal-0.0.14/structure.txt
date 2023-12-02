@@ -1,0 +1,52 @@
+
+
+
+
+name:
+	basal
+
+description:
+	memory storage structure for directories
+
+
+tutorial:
+	basal.JSON needs to be added to a folder:
+		'''
+		basal.JSON {
+			"basilosauri": {
+				"port": ""
+			},
+			"basal ganglia": {
+				"path": ""
+			},
+			"PFC": {
+				"path": ""
+			}
+		}
+		'''
+
+	#
+	# This sets up the basal climate 
+	import basal
+	basal.start ()
+
+	import basal.ganglia.list as basal_ganglia_list
+	list = basal_ganglia_list.start ()
+
+
+
+
+structure:
+	archives
+	
+	sandbox:
+		climate.py <- setup the basal db
+		open.py <- uses basal
+	
+	modules_pip
+		basal
+			climate.JSON <- tinydb
+		
+	modules.pip.UTF8
+	
+	

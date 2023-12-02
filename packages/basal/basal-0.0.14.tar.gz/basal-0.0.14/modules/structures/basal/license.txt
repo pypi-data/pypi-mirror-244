@@ -1,0 +1,16 @@
+
+
+
+licenses:
+
+	Any of the licenses in the "licenses" folder 
+	of this module may be considered the blessing 
+	of the author or authors of this module.
+	
+	The terms of the of you choice of any of 
+	these licenses applies
+	unless otherwise restricted by included
+	or linked modules.
+	
+	Sincerest apologies in advanced for any
+	obnoxious all caps writing found in any these.

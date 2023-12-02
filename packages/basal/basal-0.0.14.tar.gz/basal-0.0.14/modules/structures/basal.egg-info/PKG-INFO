@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: basal
+Version: 0.0.14
+Summary: memory storage structure for directories
+License: 
+        
+        
+        licenses:
+        
+        	Any of the licenses in the "licenses" folder 
+        	of this module may be considered the blessing 
+        	of the author or authors of this module.
+        	
+        	The terms of the of you choice of any of 
+        	these licenses applies
+        	unless otherwise restricted by included
+        	or linked modules.
+        	
+        	Sincerest apologies in advanced for any
+        	obnoxious all caps writing found in any these.
+Description-Content-Type: text/plain
+Requires-Dist: botany
+Requires-Dist: tinydb
+Requires-Dist: clique
+
+
+
+
+
+name:
+	basal
+
+description:
+	memory storage structure for directories
+
+
+tutorial:
+	basal.JSON needs to be added to a folder:
+		'''
+		basal.JSON {
+			"basilosauri": {
+				"port": ""
+			},
+			"basal ganglia": {
+				"path": ""
+			},
+			"PFC": {
+				"path": ""
+			}
+		}
+		'''
+
+	#
+	# This sets up the basal climate 
+	import basal
+	basal.start ()
+
+	import basal.ganglia.list as basal_ganglia_list
+	list = basal_ganglia_list.start ()
+
+
+
+
+structure:
+	archives
+	
+	sandbox:
+		climate.py <- setup the basal db
+		open.py <- uses basal
+	
+	modules_pip
+		basal
+			climate.JSON <- tinydb
+		
+	modules.pip.UTF8
+	
+	
