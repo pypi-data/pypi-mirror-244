@@ -1,0 +1,12 @@
+tablecache/__init__.py,sha256=9F5-VhEiVcIQNID9c8CJMIvjm1-zWnI7ilxdg_GK_BA,1414
+tablecache/cache.py,sha256=iL7oWfZlr5HrxGnquX9zyNEfSDj8MVozuX9BX1OjmDs,9909
+tablecache/codec.py,sha256=6W-lx_vc1wTT-SHaU5YVEuPIn2znUxBFp9_95r9ucr8,9297
+tablecache/db.py,sha256=3kBpPYz2L77ugkKaOPzsI9gcLPOHs4MQcQopvpNIgjE,4513
+tablecache/storage.py,sha256=Mvzikj_XGUFtosfb6vMp-nIqOJTJDvpYwkJJucf3IfY,18323
+tablecache/subset.py,sha256=c3LVueg-7ZWnLP3jwDF1jJykFLxyB86-0Z_pDCiZ27s,7993
+tablecache/types.py,sha256=3Y38LuqF01-LSBzCR5HJGojb--xRlf9adiTB64hNflg,843
+tablecache-3.1.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+tablecache-3.1.0.dist-info/METADATA,sha256=lYuK6B7P9oCzVLJQwrtC9Nr6C1ClDkvo_T9eyYY6SyM,6229
+tablecache-3.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tablecache-3.1.0.dist-info/top_level.txt,sha256=JfYt72oXMPcluqXi3xMQmb_q_LUXocE4P4r0CqUk7TI,11
+tablecache-3.1.0.dist-info/RECORD,,
