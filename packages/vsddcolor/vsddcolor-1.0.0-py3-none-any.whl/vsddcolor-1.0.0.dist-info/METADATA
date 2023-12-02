@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: vsddcolor
+Version: 1.0.0
+Summary: DDColor function for VapourSynth
+Project-URL: Homepage, https://github.com/HolyWu/vs-ddcolor
+Project-URL: Bug Tracker, https://github.com/HolyWu/vs-ddcolor/issues
+Author-email: HolyWu <holywu@gmail.com>
+Keywords: DDColor,VapourSynth
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.11
+Requires-Dist: kornia>=0.7.0
+Requires-Dist: numpy>=1.26.2
+Requires-Dist: requests>=2.31.0
+Requires-Dist: timm>=0.9.12
+Requires-Dist: torch>=2.1.1
+Requires-Dist: tqdm>=4.66.1
+Requires-Dist: vapoursynth>=62
+Description-Content-Type: text/markdown
+
+# DDColor
+Towards Photo-Realistic Image Colorization via Dual Decoders, based on https://github.com/piddnad/DDColor.
+
+
+## Dependencies
+- [PyTorch](https://pytorch.org/get-started) 2.1.1 or later
+- [VapourSynth](http://www.vapoursynth.com/) R62 or later
+
+
+## Installation
+```
+pip install -U vsddcolor
+python -m vsddcolor
+```
+
+
+## Usage
+```python
+from vsddcolor import ddcolor
+
+ret = ddcolor(clip)
+```
+
+See `__init__.py` for the description of the parameters.
