@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: inputselect
+Version: 1.0
+Summary: A Python module for selecting options in the Python interactive terminal.
+Author: ItchyPython3759
+Description-Content-Type: text/markdown
+Requires-Dist: keyboard >=0.6.0
+
+INPUTSELECT
+
+"inputselect" is a tool for selecting options on the Python command line.
+"inputselect" works by only presenting the user with the options that the developer wants them to pick, and forces them to choose before moving on. 
+It eliminates the hassle of trying to get the user to choose only from a set of specific options, and fixes the trouble with typos and repeat loops.
+
+## API Reference
+
+#### Allow the user to select options horizontally in the Python interactive terminal.
+
+```http
+inputselect.List(message: str = "", choices=None, separator: str = " ", spin_speed: int = 0, colors=DEF_COLORS, font_effects=[]):
+```
+
+| Parameter    | Type          | Description                                                                                                                                  |
+| :----------- | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| message      | string        | **Not required**. The message that the user sees before the options are presented to them.                                                   |
+| choices      | list or tuple | **Required**. The choices to be displayed on the terminal.                                                                                   |
+| separator    | string        | **Not required**. The string that separates each option.                                                                                     |
+| spin_speed   | integer       | **Not required**. The speed at which the choices spin (spins the display forwards if x>0, backwards if x<0, and lets the user choose if x=0) |
+| colors       | list or tuple | **Not required**. The respective colors of the text and bg of the option the user currently rests on (blue text and no bg by default)        |
+| font_effects | list or tuple | **Not required**. Allows the user to select different font effects: bold, italic, underline, and strikethrough (none by default)             |
+
+#### Allow the user to select options in a sort of vertical slider in the Python interactive terminal.
+
+```http
+inputselect.Slider(message: str = "", choices=None, spin_speed: int = 0, colors=DEF_COLORS, wrap=True, font_effects=[]):
+```
+
+| Parameter    | Type          | Description                                                                                                                                  |
+| :----------- | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| message      | string        | **Not required**. The message that the user sees before the options are presented to them.                                                   |
+| choices      | list or tuple | **Required**. The choices to be displayed on the terminal.                                                                                   |
+| spin_speed   | integer       | **Not required**. The speed at which the choices spin (spins the display forwards if x>0, backwards if x<0, and lets the user choose if x=0) |
+| colors       | list or tuple | **Not required**. The respective colors of the text and bg of the option the user currently rests on (blue text and no bg by default)        |
+| wrap         | boolean       | **Not required**. Whether or not to give the slider a wrap-around feature                                                                    |
+| font_effects | list or tuple | **Not required**. Allows the user to select different font effects: bold, italic, underline, and strikethrough (none by default)             |
+
+#### Allow the user to check and uncheck options in the Python interactive terminal.
+
+```http
+inputselect.Checkbox(message: str = "pick an animal: ", choices=None, separator: str = " ", min_choices=2, colors=DEF_COLORS, alt_colors=ALT_COLORS, font_effects=[]):
+```
+
+| Parameter    | Type          | Description                                                                                                                                  |
+| :----------- | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| message      | string        | **Not required**. The message that the user sees before the options are presented to them.                                                   |
+| choices      | list or tuple | **Required**. The choices to be displayed on the terminal.                                                                                   |
+| separator    | string        | **Not required**. The string that separates each option.                                                                                     |
+| min_choices  | integer       | **Not required**. The minimum amount of choices for the user to pick before they can exit (by default it is set to 2)                        |
+| max_choices  | integer       | **Not required**. The maximum amount of choices for the user to pick before they can exit (by default it is set to 2)                        |
+| colors       | list or tuple | **Not required**. The respective colors of the text and bg of the option the user currently rests on (blue text and no bg by default)        |
+| alt_colors   | list or tuple | **Not required**. The respective colors of the text and bg of the option(s) the user has selected (yellow text and no bg by default)         |
+| font_effects | list or tuple | **Not required**. Allows the user to select different font effects: bold, italic, underline, and strikethrough (none by default)             |
+
+## AUTHORS
+
+- [@ItchyPython3759](https://pypi.org/user/ItchyPython3759/)
