@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "moveai"
+version = "0.1.0"
+description = ""
+authors = ["Move AI Ltd <info@move.ai>"]
+readme = "README.md"
+packages = [{include = "moveai"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

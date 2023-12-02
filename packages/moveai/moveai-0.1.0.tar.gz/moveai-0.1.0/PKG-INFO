@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: moveai
+Version: 0.1.0
+Summary: 
+Author: Move AI Ltd
+Author-email: info@move.ai
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# moveai-python
+ Python SDK for public APIs
+
