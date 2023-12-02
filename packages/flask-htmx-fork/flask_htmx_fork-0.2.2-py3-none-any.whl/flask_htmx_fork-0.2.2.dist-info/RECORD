@@ -1,0 +1,8 @@
+flask_htmx/__init__.py,sha256=utPx8BqGsryJIqLdvdMSBJo_jJmNCz-T69BxifxpGXs,108
+flask_htmx/constants.py,sha256=Y-kFgklOPwRG2OTKmFWouf9YK-hbg2hBGCdj42yz8WM,471
+flask_htmx/htmx.py,sha256=L_ydu0qJHd-a336o9RnUfkBgD_MD9UxeBy8-CZxfBH8,2784
+flask_htmx/responses.py,sha256=0b66BqCm7Y7XhMFpkeUj2WmDpVbOGP-l9rPpTIh8Kq8,4778
+flask_htmx_fork-0.2.2.dist-info/LICENSE,sha256=ncE4IJa3cu4Is1RmciRkmTXtoc3hMQxYCSd1x0sUYfI,1067
+flask_htmx_fork-0.2.2.dist-info/METADATA,sha256=Vt7w0-DXUa4MalYMeMaGaOUuy4Yni35aXzv_p32kv9k,5907
+flask_htmx_fork-0.2.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flask_htmx_fork-0.2.2.dist-info/RECORD,,
