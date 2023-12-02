@@ -1,0 +1,104 @@
+{% extends "pretixcontrol/order/index.html" %}
+{% load fatturaelt %}
+{% load i18n %}
+{% load phone_format %}
+{% block content %}
+{{block.super}}
+
+<div id="invoices">
+    {% if invoices %}
+    <div class="panel panel-primary items">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                Electronic invoices
+            </h3>
+        </div>
+        <div class="panel-body">
+            <dl class="dl-horizontal">
+                <dt>{% trans "Invoices" %}</dt>
+                <dd>
+                    <ul>
+                        {% for i in invoices %}
+                        <li>
+                            <a href="{% url " control:event.order.invoice.download" event=request.event.slug
+                                organizer=request.event.organizer.slug code=order.code invoice=i.pk %}">
+                                {{i.number}}
+                            </a>
+
+                            {% if not i|einvoice_sent %}
+                            <form class="form-inline helper-display-inline" method="post"
+                                action="{% url 'plugins:pretix_fattura_elettronica:send_fattura' event=request.event.slug organizer=request.event.organizer.slug code=order.code %}">
+                                {% csrf_token %}
+
+                                <input type="hidden" name="invoice_id" value="{{i.pk}}">
+
+                                <button class="btn btn-default btn-xs">
+                                    Send e-invoice
+                                </button>
+                            </form>
+                            {% endif %}
+
+                            {% endfor %}
+                    </ul>
+
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+
+<script>
+    const target = document.querySelector(".panel-primary");
+    const parent = target.parentNode;
+    const invoices = document.querySelector("#invoices");
+    parent.insertBefore(invoices, target.nextSibling);
+
+    // invoice info
+    const panelTitles = document.querySelectorAll('.panel-title');
+
+    // find the one that says Invoice information (assuming we are using english)
+    const panelTitle = Array.from(panelTitles).find((el) => el.innerText.trim() === 'Invoice information');
+
+    if (panelTitle) {
+        const dl = panelTitle.closest('.panel').querySelector('dl');
+
+        const pec = "{{order.meta_info_data.pec}}";
+        const sdi = "{{order.meta_info_data.sdi}}";
+        const fiscalCode = "{{order.meta_info_data.codice_fiscale}}";
+
+        if (pec) {
+            const dt = document.createElement('dt');
+            dt.innerText = 'PEC';
+            dl.appendChild(dt);
+
+            const dd = document.createElement('dd');
+            dd.innerText = pec;
+            dl.appendChild(dd);
+        }
+
+        if (sdi) {
+            const dt = document.createElement('dt');
+            dt.innerText = 'SDI';
+            dl.appendChild(dt);
+
+            const dd = document.createElement('dd');
+            dd.innerText = sdi;
+            dl.appendChild(dd);
+        }
+
+        if (fiscalCode) {
+            const dt = document.createElement('dt');
+            dt.innerText = 'Codice Fiscale';
+            dl.appendChild(dt);
+
+            const dd = document.createElement('dd');
+            dd.innerText = fiscalCode;
+            dl.appendChild(dd);
+        }
+    }
+
+</script>
+{% endblock content %}
