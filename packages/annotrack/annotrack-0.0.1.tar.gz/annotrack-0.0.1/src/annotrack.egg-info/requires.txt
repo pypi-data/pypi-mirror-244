@@ -1,0 +1,12 @@
+dask
+napari
+numpy
+zarr
+nd2_dask
+pytest
+sphinx
+pandas
+ptpy
+pyqt5
+scikit-image
+h5py
