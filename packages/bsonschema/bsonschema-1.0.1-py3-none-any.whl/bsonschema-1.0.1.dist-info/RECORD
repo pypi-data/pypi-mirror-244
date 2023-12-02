@@ -1,0 +1,16 @@
+bsonschema/__init__.py,sha256=YgIzpjwbZcW6GfqHQeZSKklxwfTofIMpj14YhIwBgjQ,46
+bsonschema/__main__.py,sha256=QmtcN4oi3WJDX_hCN8NuKFB9m-wxVLY6P89XtqP1zno,53
+bsonschema/_format.py,sha256=e5DjB8l_j7ODdXmqwmRbuLBCoVefyLH546pwNMumDt0,12792
+bsonschema/_keywords.py,sha256=wLPnTpKgRuX6DZsCSYjy-CyDbsixuRFbqcmBwFnpxm0,15032
+bsonschema/_legacy_keywords.py,sha256=Z3NVLnuBM8_hRSeV0ncK-70Leq-Kiyy4VlG6skdT_4E,12733
+bsonschema/_types.py,sha256=-GWClhYL8UrBsZrW_aLMP3UVeOc0B0QVfw5FrsFPnDk,5594
+bsonschema/_typing.py,sha256=rcashx_om1FY3itp3HjK78StNwwy-eVchV3L3uaox_M,638
+bsonschema/_utils.py,sha256=1RR70v9951VYkMQntpUglb_1qaOLlmKOiqJ4C00qHQs,11022
+bsonschema/exceptions.py,sha256=YF8mDK32rm4xxYdOGlHB4X4vWZc_Idp1NY7rK8h5sZY,14464
+bsonschema/protocols.py,sha256=5OEJoyjTiPBw-FuEh2Sa593dinzl2UM8s4jqVmLW3b8,7400
+bsonschema/validators.py,sha256=75YPHRamzcPBJyWhdlRIrXRtp3Yx8iPLRfMpHSIQJCY,33124
+bsonschema-1.0.1.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+bsonschema-1.0.1.dist-info/METADATA,sha256=VY0zb1LA4z16bPD5lFxo-v7p6E-qiNCwJ2tkZSXW32A,945
+bsonschema-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bsonschema-1.0.1.dist-info/top_level.txt,sha256=4McZewdfgT5inOs4gbbWilYcWADjTL7RXIfxeFiTg00,11
+bsonschema-1.0.1.dist-info/RECORD,,
