@@ -1,0 +1,13 @@
+{
+    "api_endpoint" : {
+        "http": {
+          "dms_base_url": "http://47.91.17.20:5001",
+          "oms_base_url": "http://47.91.17.20:4000",
+          "sms_base_url": ""
+        },
+        "ws": {
+          "dms_base_ws": "ws://47.91.17.20:5002",
+          "oms_base_ws": "ws://47.91.17.20:4001"
+        }
+    }
+}
