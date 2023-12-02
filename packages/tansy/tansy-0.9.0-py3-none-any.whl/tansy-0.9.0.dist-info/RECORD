@@ -1,0 +1,10 @@
+tansy/__init__.py,sha256=J-RkmLHJItC5G5UeEfZV4x_XYOBrSSiDlqqGQBlnMpA,838
+tansy/class_slash.py,sha256=NacgWDenSbCXByH3P9bBZ52NiTzFYNGwd7KlZu5lH80,19891
+tansy/slash_commands.py,sha256=hFtxFlX3Ay40U85y4VMSYONVLPosU0mGxm0bk8jTOoY,29433
+tansy/slash_param.py,sha256=v8sJz1DZfy3AJQVC9ckoIz_oki-yF0mk8OjUSy4kcKQ,8363
+tansy/utils.py,sha256=gx4AUlPmGmYWBa1PUKYH22bHVRGgtvHzJKXYnOkzWlk,3602
+tansy-0.9.0.dist-info/LICENSE,sha256=FrKDEdC8ZjQq2do39ONvTNcablivuAkJKrgXVY27SYU,1068
+tansy-0.9.0.dist-info/METADATA,sha256=O9CdTV6ioyFsAliqBUoYxV0vny72vAdOmA3_gnOf-5Q,2647
+tansy-0.9.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tansy-0.9.0.dist-info/top_level.txt,sha256=NApnzcUn7a4oHVCf5HqHtuxbvribJNP3IuMopRwwmV0,6
+tansy-0.9.0.dist-info/RECORD,,
