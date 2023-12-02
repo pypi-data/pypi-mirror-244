@@ -1,0 +1,340 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "e271c934",
+   "metadata": {},
+   "source": [
+    "# configurator report\n",
+    " This notebook contains the automatic `configurator` report based on preliminary PE results.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b26d814e",
+   "metadata": {},
+   "source": [
+    "\n",
+    "**Data provenance**\n",
+    "\n",
+    "|  |  |\n",
+    "|--|--|\n",
+    "| PE summary file | /Users/hestelles/Downloads/IGWN-GWTC2p1-v2-GW190814_211039_PEDataRelease_mixed_cosmo.h5 |\n",
+    "|  Data set       |  C01:IMRPhenomXPHM     |\n",
+    "| md5sum of file      |     0231d2a2338fd8f042887280a2ad4a6a     | \n",
+    "\n",
+    "**Settings**\n",
+    "\n",
+    "| | |\n",
+    "|--|--|\n",
+    "|$f_{\\rm low}$|20.0 Hz|\n",
+    "|$f_{\\rm ref}$|20.0 Hz|\n",
+    "|Max $\\ell$ for Nyquist check|3|\n",
+    "|Tolerance for railing|2.0|\n",
+    "|nbins for railing|50|\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c18e2789",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%matplotlib inline\n",
+    "import pesummary\n",
+    "from pesummary.io import read\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "import pandas as pd\n",
+    "%config InlineBackend.figure_format = 'retina'\n",
+    "import warnings\n",
+    "warnings.filterwarnings('ignore')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f9b2f6e6",
+   "metadata": {},
+   "source": [
+    "## Automatically generated analysis"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b1a561de",
+   "metadata": {},
+   "source": [
+    "\n",
+    "* **Mass 2 has strong support for mass < 3 $M_{\\odot}$**\n",
+    "\n",
+    "\n",
+    "* **Equal masses are excluded at high confidence for this event!\n",
+    "Median mass ratio is below 1/3, highly unequal mass event!**\n",
+    "\n",
+    "\n",
+    "* **The median network matched filter SNR is above 25.0! Very loud event?**\n",
+    "\n",
+    "\n",
+    "* **$a_{1}$ is well constrained!\\n**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a43b7a8f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "file_name = '/Users/hestelles/Downloads/IGWN-GWTC2p1-v2-GW190814_211039_PEDataRelease_mixed_cosmo.h5'\n",
+    "data = read(file_name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7259aef3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "samples_dict = data.samples_dict\n",
+    "posterior_samples = samples_dict['C01:IMRPhenomXPHM']\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "26b9c3c6",
+   "metadata": {},
+   "source": [
+    "## Summary of posterior sample parameters\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bdbaa5c6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "mtot = np.array(posterior_samples[\"total_mass\"])\n",
+    "q = np.array(posterior_samples[\"mass_ratio\"])\n",
+    "chi1z = np.array(posterior_samples[\"spin_1z\"])\n",
+    "chi2z = np.array(posterior_samples[\"spin_2z\"])\n",
+    "dist = np.array(posterior_samples[\"luminosity_distance\"])\n",
+    "chirp_mass = np.array(posterior_samples[\"chirp_mass\"])\n",
+    "\n",
+    "dc = {\n",
+    "    r\"$\\mathcal{M}$\": chirp_mass,\n",
+    "    r\"$M_{\\rm total}$\": mtot,\n",
+    "    r\"$q$\": q,\n",
+    "    r\"$d_{L}$\": dist,\n",
+    "    r\"$\\chi_{1z}$\": chi1z,\n",
+    "    r\"$\\chi_{2z}$\": chi2z\n",
+    "}\n",
+    "df = pd.DataFrame(dc)\n",
+    "try:\n",
+    "    from pandas_profiling import ProfileReport\n",
+    "    have_report = True\n",
+    "except:\n",
+    "    from IPython.core.display import display, HTML\n",
+    "    have_report = False\n",
+    "\n",
+    "have_report = False\n",
+    "if have_report:\n",
+    "    profile = ProfileReport(df, title='Pandas Profiling Report',minimal=True,progress_bar=False,\n",
+    "        html={\"navbar_show\": False})\n",
+    "    profile.to_widgets()\n",
+    "else:\n",
+    "    from IPython.core.display import display, HTML\n",
+    "    display(HTML(df.describe().to_html()))\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2931b025",
+   "metadata": {},
+   "source": [
+    "## Posterior railing visual check"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6ca11c7a",
+   "metadata": {},
+   "source": [
+    "Automatic checks on railing. Note that the **recommendations are ad-hoc** and may not result in posteriors not being cut off."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bf3b2471",
+   "metadata": {},
+   "source": [
+    "\n",
+    "| |  | Recommendation  |\n",
+    "|--|--|--|\n",
+    "|chirp_mass|**<font color='green'>PASSED</font>**| | \n",
+    "|distance|**<font color='green'>PASSED</font>**| | \n",
+    "|mass_ratio|**<font color='green'>PASSED</font>**| | \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2f44a9b6",
+   "metadata": {},
+   "source": [
+    "Plot of selected posterior parameters. **All masses are in the detector frame**.  The red dashed lines show the proposed $\\mathcal{M}$ bounds,[6.1954,6.5825]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4b4bc06e",
+   "metadata": {},
+   "source": [
+    "<font color='red'>Detchar recommended segment lenght is more restrictive than posterior-based recommended segment length. Minimum chirp mass consistent with detchar recommendation would be 9.896451155111588$M_{\\odot}$, indicated with a purple dashed line.</font>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a3fec08f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "checks_passed = True\n",
+    "version = [int(x) for x in pd.__version__.split('.')]\n",
+    "if version[0]<1:\n",
+    "    j,k = 1,0\n",
+    "else:\n",
+    "    j,k = 0,0\n",
+    "\n",
+    "N = len(df.columns)\n",
+    "if N%3 == 0:\n",
+    "    n = N//3\n",
+    "else:\n",
+    "    n = np.floor(N/3)+1\n",
+    "\n",
+    "plt.rcParams['axes.titlesize'] =  'xx-large'   \n",
+    "plt.rcParams['font.size'] = 18\n",
+    "plt.rcParams['text.usetex'] = False\n",
+    "axes=df.hist(figsize=(12,8),bins=50,layout=(n,3),histtype=\"step\",density=True)\n",
+    "if checks_passed:\n",
+    "    axes[j,k].axvline(x=6.195429253510138, ls=\"--\", color=\"r\")\n",
+    "    axes[j,k].axvline(x=6.582464458187108, ls=\"--\", color=\"r\")\n",
+    "    _ = axes[j,k].set_xlim(0.95 * 6.195429253510138,1.05 * 6.582464458187108)\n",
+    "\n",
+    "    axes[j,k].axvline(x=9.896451155111588, ls=\"--\", color=\"purple\")\n",
+    "       "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8b26db04",
+   "metadata": {},
+   "source": [
+    "## MECO frequency check\n",
+    " The reference frequency is shown as a dashed green vertical line. If the reference frequency has been modified by the MECO test, the input value appears in red and the new value in green."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4ca84c0f",
+   "metadata": {},
+   "source": [
+    "\n",
+    "| |  | Recommendation  |\n",
+    "|--|--|--|\n",
+    "|f_ref|**<font color='green'>PASSED</font>**| | \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "27a2d8ca",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "import lalsimulation as LS\n",
+    "\n",
+    "def MECO_freq(m_total, q, chi1z, chi2z):\n",
+    "    eta = q / (1.0 + q) ** 2\n",
+    "    fmeco_tmp = LS.SimIMRPhenomXfMECO(eta, chi1z, chi2z)\n",
+    "    fmeco = LS.SimIMRPhenomXUtilsMftoHz(fmeco_tmp, m_total)\n",
+    "    return fmeco\n",
+    "\n",
+    "f_ref_input = 20.0\n",
+    "f_ref = 20.0\n",
+    "f_MECOs = np.array([\n",
+    "        MECO_freq(mt, 1 / qp, s1z, s2z)\n",
+    "        for mt, qp, s1z, s2z in list(zip(mtot, q, chi1z, chi2z))\n",
+    "    ])\n",
+    "plt.figure(figsize=(8,6))\n",
+    "plt.hist(f_MECOs,bins=50,histtype=\"step\",density=True)\n",
+    "plt.axvline(f_ref_input,ls=\"--\",color=\"r\")\n",
+    "plt.axvline(f_ref,ls=\"--\",color=\"g\")\n",
+    "plt.xlabel(r\"$f_{\\rm MECO}$ (Hz)\")\n",
+    "_ = plt.ylabel(r\"Probability density\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ee96ca4f",
+   "metadata": {},
+   "source": [
+    "## Recommended settings"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4e818f4f",
+   "metadata": {},
+   "source": [
+    "<font color='red'>Detchar recommended segment lenght is more restrictive than posterior-based recommended segment length. Recommended segment length has been overriden to detchar recommendation. Notice that this might produce several pathologies during the run, due to unresolved content in the templates.</font>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3d936d38",
+   "metadata": {},
+   "source": [
+    "\n",
+    "|  |  |\n",
+    "|--|--|\n",
+    "|  seglen | 8 sec. |\n",
+    "|  srate       |  4096     |\n",
+    "|  $f_{\\rm start}$     | 13.3333 Hz|\n",
+    "|  $f_{\\rm ref}$     | 20.0 Hz|\n",
+    "| $\\mathcal{M}$ bounds | [6.1954,6.5825]|\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ebf32b22",
+   "metadata": {},
+   "source": [
+    "## Extra information"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4fc56016",
+   "metadata": {},
+   "source": [
+    "\n",
+    "|  |  |\n",
+    "|--|--|\n",
+    "|Date| 2023-05-01 16:58:48.214088|\n",
+    "|Script revision| 0.2.0.dev13+ge96dd58.d20230501|\n",
+    "|Complete arguments | Namespace(output_dir='examples/test_GW190814_fake_detchar_recommendation', HM=True, q_min=None, ell_max=3, tolerance=2.0, nbins=50, flow=20.0, f_ref=20.0, bounds_tol=0.2, json_file='test.json', report_file='test.pdf', override_safeties=False, debug=False, include_dL_recommendations=False, override_fstart=-1, detchar_seglen=8)|\n"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
