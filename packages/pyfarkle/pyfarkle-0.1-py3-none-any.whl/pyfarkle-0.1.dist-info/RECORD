@@ -1,0 +1,14 @@
+pyfarkle/__init__.py,sha256=B5gaXa_iv3KKAmR9gppWSb7F1Iaba-sVO-73URL8e70,20
+pyfarkle/__main__.py,sha256=Zghc6Lf-Z8UNRUwEBdh_BmSOp8MdLw6cSuEOl_g-2QY,20304
+pyfarkle/farkle.css,sha256=a0Fa9MI56sl7Ei98vyMIR7lu8-37kR8Gqr-OvYebu_A,2065
+pyfarkle/game.py,sha256=qG3qMFd4VpipYKxEaw3nSr1kYE3fog0fufdYR4I_ppg,10370
+pyfarkle/scores.py,sha256=5fpPhYq7M0t2G_uItlaYGywAZ1hgg5uwabAxzaeH3Cs,5988
+pyfarkle/screens.py,sha256=CHpMMe5_gZoYCfW3lWo3uXtDlTR6_zBpoZYfxN9mTHQ,4925
+pyfarkle/strategy.py,sha256=rYx7f4um5cHSUrxOv_oyT1PiarqHGDSqK1soUkadLis,106536
+pyfarkle-0.1.dist-info/LICENSE,sha256=yRqs152AzvTayJ9ikhbVHuPQsVj2Ylvv55RTQCVzDLU,1070
+pyfarkle-0.1.dist-info/METADATA,sha256=7WErmfn2cOaNhq4LHIS4NTOk0NSBYwDrZ6J5Jrpn3m4,630
+pyfarkle-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyfarkle-0.1.dist-info/entry_points.txt,sha256=xyfguN8ueUW4H_HOuAbwTs9Zf8xIaUZbsVc6S1fCxuI,52
+pyfarkle-0.1.dist-info/top_level.txt,sha256=ezHmw-I4ecpXm1s4PHeJHU8TsySthhTEmack1g5ZVQo,9
+pyfarkle-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyfarkle-0.1.dist-info/RECORD,,

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyfarkle
+Version: 0.1
+Summary: Farkle dice game with textual interface
+Home-page: https://github.com/cdelker/pyfarkle
+Author: Collin J. Delker
+Author-email: code@collindelker.com
+License: License :: OSI Approved :: MIT License
+Keywords: farkle,dice,game,tui
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: textual >=0.42
+Requires-Dist: platformdirs
+
+# pyfarkle
+Farkle dice game in the terminal
