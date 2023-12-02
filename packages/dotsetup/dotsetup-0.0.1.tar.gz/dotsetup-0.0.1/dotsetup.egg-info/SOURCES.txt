@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dotsetup/__init__.py
+dotsetup/exception.py
+dotsetup/parse.py
+dotsetup/version.py
+dotsetup.egg-info/PKG-INFO
+dotsetup.egg-info/SOURCES.txt
+dotsetup.egg-info/dependency_links.txt
+dotsetup.egg-info/top_level.txt
