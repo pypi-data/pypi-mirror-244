@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+slider_with_buttons/__init__.py
+slider_with_buttons/example.py
+slider_with_buttons.egg-info/PKG-INFO
+slider_with_buttons.egg-info/SOURCES.txt
+slider_with_buttons.egg-info/dependency_links.txt
+slider_with_buttons.egg-info/requires.txt
+slider_with_buttons.egg-info/top_level.txt
+slider_with_buttons/frontend/build/asset-manifest.json
+slider_with_buttons/frontend/build/bootstrap.min.css
+slider_with_buttons/frontend/build/index.html
+slider_with_buttons/frontend/build/static/js/main.9554f9d0.js
+slider_with_buttons/frontend/build/static/js/main.9554f9d0.js.LICENSE.txt
+slider_with_buttons/frontend/build/static/js/main.9554f9d0.js.map
