@@ -1,0 +1,17 @@
+safedata_validator/__init__.py,sha256=uyzi5wc7pOszG6gz_YAY3HExCVEVf_uxOd5cdqe5AG0,104
+safedata_validator/entry_points.py,sha256=RdYwlDqddbElgmVgkr-XqejchAqC7rj_QnHasIUD7zw,33415
+safedata_validator/extent.py,sha256=rUzWRR9_oGjVABgfUjo2k7Aueb-z-iGE4a6GBqMhL-I,5485
+safedata_validator/field.py,sha256=kK3FLJvRfv8E1OwnOHNK3R7lekGFJ0yU4LpGoyBt4f8,86446
+safedata_validator/gemini_xml_template.xml,sha256=Bly6dl26DvsnDc493Xy9RJZQ61OVNrl4HrJGcmwQxHU,17607
+safedata_validator/locations.py,sha256=48VsNqKymfLow8oll7nH8b2vTmxRsi9BMcvBxNZe4Tk,19768
+safedata_validator/logger.py,sha256=jHha2_un59M5DFny397Ss-NUNHYfaIHTk_QToH_1cQI,11520
+safedata_validator/resources.py,sha256=z2TpwN5MzAIGTH2H9fvE29DkMM9KMVXEa1Lk5BE7oNI,20102
+safedata_validator/summary.py,sha256=UF75OMnnt5PZ12hQLdIuTrfAnc7UpxUuNHooPChi54Q,33821
+safedata_validator/taxa.py,sha256=8b5RhMu4NTw4hUzj1o0QpJBGA14N--UF8ryABgKY6eM,90799
+safedata_validator/taxondb.py,sha256=mIZWRGhlLfrEahjDnpXx9oRYXogwcHCl71m6SInHx5I,20517
+safedata_validator/validators.py,sha256=Up2SPdsyYl-XI8FrW3VQza2PEjBiJhfpNC2G8TGizUs,19328
+safedata_validator/zenodo.py,sha256=_k16mvBb_g9n722YcufYZoyacGPEZud3atK6KeUztBw,49441
+safedata_validator-3.0.0.dist-info/entry_points.txt,sha256=DvDpxND4RPJoWcA79m2xNtAZnofPnoUHFayEKC9mC9k,391
+safedata_validator-3.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+safedata_validator-3.0.0.dist-info/METADATA,sha256=NWxGvy_dgH-wkiv8lwVqGUf9RCPvOXF7CANGgfY_V4g,1996
+safedata_validator-3.0.0.dist-info/RECORD,,
