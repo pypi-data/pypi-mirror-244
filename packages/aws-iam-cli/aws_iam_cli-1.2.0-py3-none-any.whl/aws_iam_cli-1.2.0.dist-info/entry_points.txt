@@ -1,0 +1,2 @@
+[console_scripts]
+iam-cli = iam_cli.main:main
