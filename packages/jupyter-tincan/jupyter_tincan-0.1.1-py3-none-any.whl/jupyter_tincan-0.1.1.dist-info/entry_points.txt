@@ -1,0 +1,3 @@
+[console_scripts]
+jupyter-tincan=jupyter_tincan.cli:main
+
