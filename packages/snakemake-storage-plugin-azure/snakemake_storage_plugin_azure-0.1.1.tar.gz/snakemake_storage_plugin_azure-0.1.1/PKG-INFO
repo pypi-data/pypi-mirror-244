@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: snakemake-storage-plugin-azure
+Version: 0.1.1
+Summary: A Snakemake storage plugin to read and write from Azure Blob Storage
+Author: Jake VanCampen
+Author-email: jake.vancampen7@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: azure-core (>=1.29.5,<2.0.0)
+Requires-Dist: azure-identity (>=1.15.0,<2.0.0)
+Requires-Dist: azure-storage-blob (>=12.19.0,<13.0.0)
+Requires-Dist: snakemake-interface-common (==1.14.3)
+Requires-Dist: snakemake-interface-storage-plugins (>=2.1.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Snakemake Storage Plugin Azure
+
+Azure Blob Storage plugin for snakemake.
+
+# Testing
+
+Testing this plugin locally require the azurite storage emulator to be running locally. 
+This can be setup using the following docker run command: 
+
+```
+docker run -p 10000:10000 mcr.microsoft.com/azure-storage/azurite azurite-blob --blobHost 0.0.0.0
+```
+
+Then execute the tests: 
+```
+poetry run coverage run -m pytest tests/tests.py
+```
+
