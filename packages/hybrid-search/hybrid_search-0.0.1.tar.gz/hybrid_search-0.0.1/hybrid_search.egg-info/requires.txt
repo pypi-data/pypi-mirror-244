@@ -1,0 +1,6 @@
+pycomfort
+click
+pytorch
+sentence_transformers
+opensearch-py
+langchain
