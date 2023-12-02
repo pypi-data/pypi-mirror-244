@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "python-requisites"
+version = "0.1.0"
+description = "Python Requisites: A dynamic tool for the explicit declaration and analysis of dependencies in Python objects, streamlining the process of identifying and managing required elements in your code."
+authors = ["Allen Chou <f1470891079@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [
+    { include = "requisites" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+typing-extensions = "^4"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23"
+isort = "^5"
+pytest = "^7"
+pytest-cov = "^4"
+tomli = "^2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
