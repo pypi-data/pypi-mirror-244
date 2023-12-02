@@ -1,0 +1,8 @@
+setup.py
+pgdbutils/__init__.py
+pgdbutils/main.py
+pgdbutils.egg-info/PKG-INFO
+pgdbutils.egg-info/SOURCES.txt
+pgdbutils.egg-info/dependency_links.txt
+pgdbutils.egg-info/requires.txt
+pgdbutils.egg-info/top_level.txt
