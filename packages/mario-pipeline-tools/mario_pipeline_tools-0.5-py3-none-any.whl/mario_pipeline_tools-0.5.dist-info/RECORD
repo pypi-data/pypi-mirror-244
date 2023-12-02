@@ -1,0 +1,12 @@
+mario/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mario/base.py,sha256=xUuVkgRcLMutp7o_i8DeKWKO44PKiAiQqtkgSvGPJMs,593
+mario/data_extractor.py,sha256=pREkqqlW9AzwRKCCFIfwJgb_bc6Y4d2YFtmeNH-eMzI,9971
+mario/dataset_builder.py,sha256=OX1lRslnu7PnJ7-2rutypBQ6pSHuJHl-TVcEIQSScCE,3520
+mario/dataset_specification.py,sha256=7o3dEfDYvXIJ3Nja6mIYPwvx7kWmvagX2PmgkgP-aeQ,2108
+mario/example.py,sha256=cCQzzTBtKpH-YlxTs4MVHUAhjnHYMMtc_7zVAJwqHPg,1458
+mario/metadata.py,sha256=qAHMDxOqfgzr8pxfZ-lwzZTGYPNVdpyc2Xgbdjr-FsQ,2864
+mario/utils.py,sha256=dVplrPCjHmOLGcJykL7mBJ22U6KxwhjUdVuQlo3MjLc,334
+mario_pipeline_tools-0.5.dist-info/METADATA,sha256=BtWCSgk3cSSNTRythl8Ts2qoByyzeiA8Z82GuZAMnNw,495
+mario_pipeline_tools-0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mario_pipeline_tools-0.5.dist-info/top_level.txt,sha256=npPHLup1NF_ifjKuue-G4otUbE8aElym78eU0vfIQkY,6
+mario_pipeline_tools-0.5.dist-info/RECORD,,
