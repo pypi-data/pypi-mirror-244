@@ -1,0 +1,17 @@
+requests
+
+[all]
+qiskit-aer
+sympy
+qiskit
+cirq
+
+[cirq]
+cirq
+
+[qiskit]
+qiskit
+qiskit-aer
+
+[spinz]
+sympy
