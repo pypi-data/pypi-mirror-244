@@ -1,0 +1,72 @@
+printf("  Loading PPTX support...")
+
+let((PPTX
+	   (module_description "Adds a PowerPoint (*.pptx) view type to Virtuoso")
+	   (Softworks Import['Softworks]))
+
+PPTX = let((
+	(viewSetup '(
+	;(viewType  appName dataTrigger parentType)
+	("pptx" "libreoffice_pptx" "SdmPPTXDataTrigger" nil) 
+	)))
+
+procedure(init() 
+"Register all PPTX Cellview Types "
+let(((out t))
+	Softworks->initDeRegApp(viewSetup)
+))
+
+procedure(uninit() 
+"uninitialize all PPTX views so they can be redefined"
+let(((out t))
+	Softworks->uninitDeRegApp(viewSetup)
+))
+
+; Open a PPTX view with the function specified by startReader
+;  startReader should start the editor with no arguments specified.
+;  startReader should open any number of views when specified as additional arguments.
+procedure(DataTrigger(@optional argList)
+    "Open a PPTX view with the function specified by startReader.
+	startReader should start the editor with no arguments specified and
+	open any number of views when specified as additional arguments."
+	let((libName cellName file fileName extension objId viewFileName viewName rootType templateName)	
+	libName = argList->libName
+	cellName = argList->cellName
+  viewName = argList->viewName
+	rootType = argList->rootType
+	viewFileName = argList->viewFileId->name
+
+    if( objId = ddGetObj(libName cellName viewName viewFileName nil "r") then
+		; Open existing file
+    	file = ddGetObjWritePath(objId)
+		; Start editor 
+		if(isFile(file) then
+			startReader(file)
+		else
+			warn("Warning, couldn't open %s / %s / %s as a PPTX view", libName cellName viewName))
+	else
+		SdmCombinedGUI(libName cellName viewName )
+	)
+	t
+))
+
+procedure(startReader(filePath)
+	"Opens a pptx file in Libre office."
+	system(strcat( "libreoffice --impress " filePath))
+)
+
+list(nil
+	'init init
+	'uninit uninit
+	'DataTrigger DataTrigger
+))
+
+putprop(Softworks PPTX 'PPTX)
+PPTX->init()
+
+)
+
+;Global functions
+SdmPPTXDataTrigger = Import['Softworks]->PPTX->DataTrigger
+
+printf("done\n")

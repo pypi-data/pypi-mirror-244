@@ -1,0 +1,3 @@
+[virtue]
+softworks=softworks.virtue_softworks
+
