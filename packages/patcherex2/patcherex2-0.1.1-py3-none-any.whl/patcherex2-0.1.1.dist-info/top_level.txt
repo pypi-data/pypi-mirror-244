@@ -1,0 +1,11 @@
+allocation_management
+assemblers
+assets
+binary_analyzers
+binfmt_tools
+compilers
+disassemblers
+patch_managers
+patches
+targets
+utils
