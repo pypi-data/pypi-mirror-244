@@ -1,0 +1,2 @@
+[console_scripts]
+decide-get-trials = decide_analysis.get_data:main
