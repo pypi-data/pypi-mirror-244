@@ -1,0 +1,11 @@
+gioconda/__init__.py,sha256=ZCoWDOeJhIvLuFDWtfounfnh1HZNzOq2HowzSWJ2zIg,71
+gioconda/_data.py,sha256=SL8ut-RFjKOfHMFR3xT05YZF3K0pDvtlrZE9xOS7-Mw,10498
+gioconda/_file.py,sha256=f7EZ827FMixzEezg7uFrgsUzqNm0_PS3vWt6_KRUMJg,1324
+gioconda/_matrix.py,sha256=4-6OTF_usisDCC8T30qUKheXAlh3B0wkTjR0gseExj8,12912
+gioconda/_methods.py,sha256=IBuQmPWmleoXH4QbOJQc2qicRgtW3di-ctkbFHYXGAg,3928
+gioconda/test_data.csv,sha256=qCQKEUAt8hOwERUwQ3QvZ-qs5myNbtgyfUkFrTfE7CY,3380
+gioconda-1.6.0.dist-info/LICENSE,sha256=QrIsKZIFpYZ1BgUDo3FhCL5L_zCh93s3cukxuBGM-60,1079
+gioconda-1.6.0.dist-info/METADATA,sha256=_AE5J2gErjgqkRerbfGeDBdqMlYSHszc1af1nGkRcZ0,525
+gioconda-1.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gioconda-1.6.0.dist-info/top_level.txt,sha256=r3CU-gLZ5qzBy4-xtFsXgr-zd5A7kV6BiOrA9zi1TYM,9
+gioconda-1.6.0.dist-info/RECORD,,
