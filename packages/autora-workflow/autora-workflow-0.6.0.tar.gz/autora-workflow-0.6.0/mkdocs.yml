@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+INHERIT: mkdocs/base.yml  # use the shared AutoRA configuration by default
+
+site_name: AutoRA Workflow
+
+markdown_extensions:
+  pymdownx.snippets: { url_download: True }
+
+theme:
+  features:
+    - content.code.copy
+
+nav:
+- Introduction: 'index.md'
+- "Basic Usage": "cli/basic-usage/Readme.ipynb"
+- "Using Cylc": "cli/cylc-pip/README.md"
+- "Using Cylc and Slurm": "cli/cylc-slurm-pip/README.md"
+

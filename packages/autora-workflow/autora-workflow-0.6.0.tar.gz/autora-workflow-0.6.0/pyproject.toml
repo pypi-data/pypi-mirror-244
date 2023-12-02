@@ -1,0 +1,58 @@
+[project]
+name = "autora-workflow"
+description = "Workflow tools for the Autonomous Research Assistant (AutoRA) package."
+authors = [
+    { name = "John Gerrard Holland", email = "john_holland1@brown.edu" }
+]
+dynamic = ["version"]
+
+readme = "docs/index.md"
+license = {file = "LICENSE"}
+
+dependencies = [
+    "autora-core>=4.0.0,<4.1.0",
+    "typer[all]",
+]
+
+[project.optional-dependencies]
+dev = [
+    "autora-core[dev]>=4.0.0,<4.1.0",
+    "autora-workflow[docs]",
+    "autora-workflow[test]",
+]
+docs = [
+    "autora-core[docs]>=4.0.0,<4.1.0",
+    "scikit-learn",
+    "matplotlib",
+    "pandas",
+]
+test = [
+    "autora-core[test]>=4.0.0,<4.1.0",
+    "autora-workflow[serializers]",
+    "hypothesis",
+    "scikit-learn",
+    "pandas",
+]
+cylc = [
+    "cylc-flow",
+    "cylc-uiserver"
+]
+serializers = [
+    "dill",
+    "pyyaml"
+]
+
+[project.urls]
+homepage = "http://www.empiricalresearch.ai/"
+repository = "https://github.com/AutoResearch/autora-workflow"
+documentation = "https://hollandjg.github.io/autora-workflow/"
+
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.isort]
+profile = "black"
+known_first_party = ["autora"]
