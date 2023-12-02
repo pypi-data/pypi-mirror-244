@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyglass-api
+Version: 0.2.1
+Summary: python wrapper for /dev-ptera/spyglass-api
+Home-page: https://github.com/Eulentier161/pyglass-api
+License: MIT
+Author: Eulentier161
+Author-email: git@eule.wtf
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/Eulentier161/pyglass-api
+Description-Content-Type: text/markdown
+
+# python wrapper for [spyglass-api](https://github.com/dev-ptera/spyglass-api)
+
+```console
+pip install pyglass-api
+```
+```py
+from pyglass import account
+
+acc = account.get_overview("ban_1hootubx...hqnxd")
+print(acc.balance)
+```
+
