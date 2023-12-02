@@ -1,0 +1,4 @@
+PyGithub>=2.1.1
+docassemble.ALToolbox
+openai>=1.0
+tiktoken
