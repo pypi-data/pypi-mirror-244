@@ -1,0 +1,12 @@
+[package]
+name = "pdoc-pyo3-sample-library"
+license = "MIT"
+version = "1.0.7"
+edition = "2021"
+
+[lib]
+name = "pdoc_pyo3_sample_library"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = {version = "0.20.0", features = ["abi3", "abi3-py38", "extension-module"] }
