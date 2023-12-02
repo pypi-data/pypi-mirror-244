@@ -1,0 +1,52 @@
+PROGRESSIVEAI PYTHON LIBRARY LICENSE AGREEMENT
+
+This License Agreement (the "Agreement") is entered into by and between the individual or entity licensing the software ("Licensee") and ProgressiveAI, Org. ("ProgressiveAI"). This Agreement governs the use of the ProgressiveAI Python library, hereinafter referred to as the "Software."
+
+1. GRANT OF LICENSE
+
+Subject to the terms and conditions of this Agreement, ProgressiveAI hereby grants Licensee a limited, non-exclusive, non-transferable, revocable license to use, copy, modify, and distribute the Software solely for the purpose of developing and running software applications that comply with ProgressiveAI's policies and Terms of Service, as specified at https://policies.progressiveai.org/terms_of_service.
+
+2. RESTRICTIONS
+
+Licensee shall not, without the express written consent of ProgressiveAI:
+
+a. Use the Software for any purpose other than as expressly permitted herein;
+b. Sell, sublicense, rent, lease, or otherwise transfer the Software or any part thereof to any third party;
+c. Reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software, except to the extent expressly permitted by applicable law;
+d. Remove or alter any copyright, trademark, or other proprietary rights notice contained in or on the Software;
+e. Use the Software in any manner that violates ProgressiveAI's policies and Terms of Service.
+
+3. COPYRIGHT AND OWNERSHIP
+
+The Software is the exclusive property of ProgressiveAI and is protected by copyright and other intellectual property laws. ProgressiveAI retains all rights, title, and interest in and to the Software, including any modifications or enhancements made by Licensee.
+
+4. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. PROGRESSIVEAI MAKES NO WARRANTIES OR REPRESENTATIONS REGARDING THE USE, VALIDITY, ACCURACY, OR RELIABILITY OF THE SOFTWARE.
+
+5. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL PROGRESSIVEAI BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF OR RELATED TO THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF PROGRESSIVEAI HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+6. TERMINATION
+
+This Agreement is effective until terminated. ProgressiveAI may terminate this Agreement immediately upon notice if Licensee breaches any provision herein. Upon termination, Licensee shall cease all use of the Software and destroy all copies in its possession or control.
+
+7. MISCELLANEOUS
+
+a. Governing Law: This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction specified in ProgressiveAI's Terms of Service.
+
+b. Entire Agreement: This Agreement constitutes the entire understanding between the parties and supersedes all prior negotiations, understandings, or agreements, whether oral or written, relating to the subject matter hereof.
+
+c. Modifications: ProgressiveAI reserves the right to modify this Agreement at any time. Licensee agrees to review the Agreement periodically for changes.
+
+By using the Software, Licensee agrees to be bound by the terms and conditions of this Agreement.
+
+The ProgressiveAI Python Library is also licensed under the Apache License, Version 2.0.
+
+For details, see the full license text in the file named LICENSE.txt or visit:
+https://www.apache.org/licenses/LICENSE-2.0
+
+Date: 30/11/2023
+
+ProgressiveAI, Org.
