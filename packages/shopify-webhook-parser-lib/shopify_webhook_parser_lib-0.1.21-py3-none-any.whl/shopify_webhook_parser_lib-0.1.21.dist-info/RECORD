@@ -1,0 +1,10 @@
+shopifywebhookparser/__init__.py,sha256=G4GGBrHVhY796pwmTcaMnt9A6vwikSa9BoaLUJOdCWY,134
+shopifywebhookparser/__init__.pyi,sha256=sVK__GgDJK1hKubSLwbCS7s9frjiMYPyA9mUF7ZfGn4,449
+shopifywebhookparser/models.py,sha256=rWlqsogD-mQOrkN1Zq7A6NnKcXYAp7tAEIFzU4C901k,1419
+shopifywebhookparser/models.pyi,sha256=hoJ8rOmBttuL__bfVwm6IdpZzJmIfLYnK4Rsy3VaZbg,311
+shopifywebhookparser/parsing.py,sha256=vkHB965NGoavp-i4bnpyzsWxbaRbAVodPTdwNh1Zz2Q,3487
+shopifywebhookparser/parsing.pyi,sha256=vuaegH_skDj0Bl-NWPb9qX-EzMfYGUvbjmm5LL8cYMY,449
+shopify_webhook_parser_lib-0.1.21.dist-info/LICENSE,sha256=Knt5TU8h6ni6P6wr1TZNY2wpWQEAHCOC8v5yLdQACVI,1075
+shopify_webhook_parser_lib-0.1.21.dist-info/METADATA,sha256=rNNwhC9zSDZDtmGNPSs4GQgq2lwt_dkD2SAjLSqRlYc,4059
+shopify_webhook_parser_lib-0.1.21.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+shopify_webhook_parser_lib-0.1.21.dist-info/RECORD,,
