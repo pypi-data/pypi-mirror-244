@@ -1,0 +1,9 @@
+angr
+pyelftools
+lief
+keystone-engine
+intelhex
+requests
+
+[Test]
+shellphish-qemu
