@@ -1,0 +1,8 @@
+opencv-python
+tqdm
+moviepy
+imagehash
+Pillow
+SpeechRecognition
+ffmpeg
+whisper-client
