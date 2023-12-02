@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "climafeis"
+version = "1.0.10"
+description = "Scrape daily climate data from Canal CLIMA"
+authors = ["João Fauvel <jmmfauvel@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/joaofauvel/climafeis"
+repository = "https://github.com/joaofauvel/climafeis"
+keywords = ["scraping", "climate", "eto", "evapotranspiration", "dataset"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+requests = "^2.31.0"
+numpy = "^1.26.2"
+pandas = "^2.1.3"
+beautifulsoup4 = "^4.12.2"
+html5lib = "^1.1"
+
+[tool.poetry.scripts]
+climafeis = 'climafeis.climascraper:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
