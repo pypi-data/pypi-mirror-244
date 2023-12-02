@@ -1,0 +1,14 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Gocad T Surface files should always be converted to native line endings.
+*.ts text
+
+# Enable style checks on source files
+*.h   hooks.style=uncrustify
+*.cpp hooks.style=uncrustify
+*.hpp hooks.style=uncrustify
+
+# git archive ignores
+Tests/Data export-ignore
+web/content export-ignore

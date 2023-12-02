@@ -1,0 +1,22 @@
+build gui mac:
+  extends:
+    - .template-build-linux
+    - .test-artifacts
+  stage: build
+  tags:
+    - mac
+    - ${ARCHITECTURE}
+  needs: [meta]
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+    - changes:
+        - Applications/DataExplorer/**/*
+    - when: manual
+      allow_failure: true
+  variables:
+    CMAKE_PRESET: release-gui
+    CMAKE_ARGS: >-
+      -DOGS_USE_CONAN=auto
+  parallel:
+    matrix:
+      - ARCHITECTURE: ["amd64"] # "arm64" not supported yet
