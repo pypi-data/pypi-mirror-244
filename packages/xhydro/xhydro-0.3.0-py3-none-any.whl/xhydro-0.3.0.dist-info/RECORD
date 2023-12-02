@@ -1,0 +1,12 @@
+xhydro/__init__.py,sha256=Lbt8UqYHDab9eRLaq9c5A0Nq2L1qP-ej6sasJYLugL8,288
+xhydro/cc.py,sha256=dTSigNTruU4iXoe23AjcRwpw1MOnP7bbJStXghTPgYE,843
+xhydro/indicators.py,sha256=ne9NppG3Ua3KPkDlleGyCdOlY_G3GMYikL46jY71QZs,8859
+xhydro/utils.py,sha256=d7i0nsNIiDAE26bNgqROuCySctJOMygxCNGeXPXx7Ag,109
+xhydro/frequency_analysis/__init__.py,sha256=c1EX-_wLaK_5NMNlPbamXawx4A-_HQqcHs0yUHDbchY,54
+xhydro/frequency_analysis/local.py,sha256=bq_TQpfapwmAxLVqycE0fZqlcB3LTROcuAT14WKeZLQ,9342
+xhydro/testing/__init__.py,sha256=vx0WcNtIfgfw6JvEpLJDoFoyBwgI2lr-2lNJ3O4gO6w,27
+xhydro/testing/utils.py,sha256=lZt8IpDqlsgMmRMHVPBvEc30Z_GfPp6A8SnFGnJncwQ,3407
+xhydro-0.3.0.dist-info/LICENSE,sha256=9IZ2250PALJY8k1KMYOiUwBFaVsYT5UJWcq31Np39Hc,600
+xhydro-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+xhydro-0.3.0.dist-info/METADATA,sha256=ZEcHPV0aIHnFqgl4EQ_D18hk0yENQocDlctxA14yNOg,4299
+xhydro-0.3.0.dist-info/RECORD,,
