@@ -1,0 +1,107 @@
+#!/bin/bash
+#
+# databases machine
+
+set -x
+set -e
+
+OWNER=ec2-user
+INSTALL_PACKAGES=/usr/bin/dnf
+
+# Install necessary public packages to bootstrap configuration
+if [ "$(grep "Amazon Linux release 2 " /etc/system-release)" != "" ]; then
+    INSTALL_PACKAGES=/usr/bin/yum
+    # We need to insure SELinux is enabled which is not the case
+    # with the default AmazonLinux2 images.
+    if [ "$(sestatus)" =~ .*disabled ] ; then
+        /usr/bin/yum install selinux-policy selinux-policy-targeted policycoreutils-python
+        sed -i 's/SELINUX=\(\w\w*\)/SELINUX=enforcing/g' /etc/selinux/config
+        sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="\(.*\)"/GRUB_CMDLINE_LINUX_DEFAULT="\1 selinux=1 security=selinux"/' /etc/default/grub
+        /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg
+        touch /.autorelabel
+        # XXX we will need to reboot with the `reboot` command.
+    fi
+    # We have to enable the EPEL repo to install podofo.
+    if [ ! -f /etc/yum.repos.d/epel.repo ]; then
+        amazon-linux-extras install epel -y
+    fi
+    [ -e /usr/lib64/python2.7/site-packages/selinux ] || $INSTALL_PACKAGES -y install libselinux-python
+fi
+if [ "$(grep "CentOS" /etc/system-release)" != "" ]; then
+    OWNER=centos
+    INSTALL_PACKAGES=/usr/bin/yum
+    if [ ! -f /usr/bin/python3 ]; then
+        if [ ! -f /etc/yum.repos.d/epel.repo ]; then
+            /usr/bin/yum -y install epel-release
+        fi
+    fi
+    # Without making the fast cache, python36 is sometimes not found on mirror
+    # (ex: mirrors.cat.pdx.edu)
+    /usr/bin/yum makecache fast
+    /usr/bin/yum -y install python36 python36-libs python36-devel python36-pip python-boto3
+    [ -e /usr/lib64/python2.7/site-packages/selinux ] || $INSTALL_PACKAGES -y install libselinux-python
+fi
+
+[ -f /usr/bin/aws ] || $INSTALL_PACKAGES -y install awscli
+[ -f /usr/bin/bzip2 ] || $INSTALL_PACKAGES -y install bzip2
+[ -f /usr/bin/make ] || $INSTALL_PACKAGES -y install make
+
+# download keys, certificates, etc.
+/usr/bin/aws s3 cp {{identities_url}} / --recursive
+
+# defaults to downloading drop so we can install the webfront.xml profile.
+siteTop=${HOME}/workspace
+if [ ! -f ${siteTop}/bin/dservices ]; then
+    /usr/bin/mkdir -p ${siteTop}/reps
+    $VIRTUALENV_RUN ${siteTop}
+    echo "installTop=${siteTop}" > ${siteTop}/dws.mk
+    /usr/bin/git clone {{remote_drop_repo}} ${siteTop}/reps/drop
+    pushd ${siteTop}/reps/drop
+    ${siteTop}/bin/pip install -r requirements.txt
+    make install
+    popd
+fi
+
+# Mount encrypted volume as /var after copying previous content over.
+if [ -e /dev/xvdf -a ! -d /var.old ] ; then
+    mkfs.ext4 -m 0 /dev/xvdf
+    mkdir -p /mnt/encvol
+    mount /dev/xvdf /mnt/encvol
+    cd /var && cp -ax * /mnt/encvol
+    cd /
+    umount /dev/xvdf
+    mv /var /var.old
+    mkdir -p /var
+    mount /dev/xvdf /var
+    restorecon -rvF /var
+else
+   echo "install databases storage on primary volume."
+fi
+
+# Install identities
+/usr/bin/aws s3 cp {{identities_url}} / --recursive
+
+# Clone configuration scripts repository and setup the machine.
+VIRTUALENV_RUN="/usr/bin/python3 -m venv --system-site-packages"
+mkdir -p ${siteTop}/reps
+${VIRTUALENV_RUN} ${siteTop}
+cd ${siteTop}
+git clone {{remote_drop_repo}} reps/drop
+bin/pip install -r reps/drop/requirements.txt
+pushd reps/drop/src
+../../../bin/python setup.py --quiet build -b ../../../build install --prefix=${siteTop}
+popd
+DB_PASSWORD='{{db_password}}'
+DB_MASTER_PASSWORD='{{db_master_password}}'
+${siteTop}/bin/dservices -Dadmin=$USER -DetcDir=/etc -DlogsBucket={{s3_logs_bucket}} -DdbHost="{{db_host}}" -DdbUser="{{db_user}}" -DdbPassword="$DB_PASSWORD" -DcompanyDomain="{{company_domain}}" -DldapHost="{{ldap_host}}"{% if ldap_hashed_password %} -DldapPasswordHash="{{ldap_hashed_password}}"{% endif %} -Dvpc_cidr="{{vpc_cidr}}" reps/drop/share/profiles/databases.xml
+sudo -u postgres /usr/bin/psql -c "ALTER USER postgres PASSWORD '$DB_MASTER_PASSWORD';"
+sudo -u postgres /usr/bin/psql -c "CREATE ROLE {{db_user}} LOGIN PASSWORD '$DB_PASSWORD';"
+
+# Restore database from flat files
+mkdir -p /var/migrate/pgsql/dumps /var/migrate/pgsql/schemas
+chown -R postgres:postgres /var/migrate/pgsql
+LDIF_DUMPS=`find /var/migrate/ldap/dumps -name '*.ldif' -print`
+PGSQL_DUMPS=`find /var/migrate/pgsql/dumps -name '*.sql' -o -name '*.sql.gz' -print`
+if [ "X$LDIF_DUMPS" != "X" ] && [ "X$PGSQL_DUMPS" != "X" ] ; then
+    bin/python reps/drop/src/drestore.py --domainName="{{company_domain}}" $LDIF_DUMPS $PGSQL_DUMPS
+fi
