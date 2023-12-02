@@ -1,0 +1,11 @@
+jupyter_tincan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_tincan/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+jupyter_tincan/cli.py,sha256=CfIrml2wPUgHDQf_6i78L6YmMiLS0T5FemsFbhk17ig,3703
+jupyter_tincan/html.py,sha256=80iUlxuZ0XSoZPCMLrfWpjHw_qB0gVECMsQLuxm7jmk,657
+jupyter_tincan/proxy.py,sha256=0WJMkGEI0BNbwSz_AN88YEP-wZCuzaMfQ_7YY-ZzGwQ,6473
+jupyter_tincan/text2svg.js,sha256=ZCKf61ZovrFsPtRHPe09iO4m4AcAIy7egR05QgttbdU,774
+jupyter_tincan/text2svg.py,sha256=34KL3ZGyNgEAPKtAFDH1Nmr9ufUM4n28hn5_i7x1ZcM,1219
+jupyter_tincan-0.1.0.dist-info/METADATA,sha256=aPR0fOT_6CgilBA94tx3AaJZ0-WEiVdIa5jW6YEZ3Gw,2735
+jupyter_tincan-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+jupyter_tincan-0.1.0.dist-info/entry_points.txt,sha256=4oN17X9rO0xSr2RRjG_Fqu4T8Q7JANsObRzX26a9Zxs,58
+jupyter_tincan-0.1.0.dist-info/RECORD,,
