@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: i2c-registers
+Version: 0.0.2
+Summary: Python wrapper library around the common I2C controller register pattern.
+Home-page: https://github.com/tsessebe/i2c-register-module
+Author: Francois de Wet
+Author-email: francois@recotrust.co.za
+License: MIT
+Keywords: library i2c registers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Python I2C Register
+===================
+
+Python wrapper library around the common I2C controller register
+pattern, based on
+`py-i2c-register <https://github.com/Noah-Huppert/py-i2c-register>`__.
+
+Table Of Contents
+=================
+
+-  `Installation <#installation>`__
+-  
+
+Installation
+============
+
+I2C Register is available as a PIP package with the name
+``i2c-register``.
+
+Simply use PIP to install:
+
+.. code:: bash
+
+   pip install --user i2c-register
+
+You will then be able to include the ``i2c_register`` module and its
+various classes:
+
+.. code:: python
+
+   from i2c_registers.i2c_device import I2cDevice
+   from i2c_registers.i2c_register import I2cRegister
+   from i2c_registers.i2c_register_section import I2cRegisterSection
