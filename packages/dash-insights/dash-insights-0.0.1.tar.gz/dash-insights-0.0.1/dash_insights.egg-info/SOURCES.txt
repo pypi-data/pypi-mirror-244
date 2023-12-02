@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dash_insights/__init__.py
+dash_insights.egg-info/PKG-INFO
+dash_insights.egg-info/SOURCES.txt
+dash_insights.egg-info/dependency_links.txt
+dash_insights.egg-info/top_level.txt
