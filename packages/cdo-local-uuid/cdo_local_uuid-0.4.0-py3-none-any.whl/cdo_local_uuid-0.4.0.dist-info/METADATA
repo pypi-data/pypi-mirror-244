@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: cdo-local-uuid
+Version: 0.4.0
+Summary: Python utility for optionally controlling UUID generation
+Home-page: https://github.com/Cyber-Domain-Ontology/CDO-Utility-Local-UUID
+Author: Alex Nelson
+Author-email: alexander.nelson@nist.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing :: Mocking
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+
+# CDO Local UUID Utility
+
+This project provides a specialized UUID-generating function that can, on user request, cause a program to generate deterministic UUIDs.  Its main purpose is to assist with generating version-controllable example data using consistent identifiers.  This package intentionally includes mechanisms to make it difficult to activate this non-random mode without awareness of the caller.
+
+Full documentation is available at the [project homepage](https://github.com/Cyber-Domain-Ontology/CDO-Utility-Local-UUID).
+
+
