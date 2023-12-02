@@ -1,0 +1,4 @@
+mds_cashbook<=6.0.999,>=6.0.31
+mds_cashbook_account<=6.0.999,>=6.0.14
+trytond<6.1,>=6.0
+trytond_analytic_account<6.1,>=6.0
