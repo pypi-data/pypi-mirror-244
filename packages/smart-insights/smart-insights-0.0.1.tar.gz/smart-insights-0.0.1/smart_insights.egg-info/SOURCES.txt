@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+smart_insights/__init__.py
+smart_insights.egg-info/PKG-INFO
+smart_insights.egg-info/SOURCES.txt
+smart_insights.egg-info/dependency_links.txt
+smart_insights.egg-info/top_level.txt
