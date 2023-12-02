@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: aglio
+Version: 0.2.0
+Summary: Another Geodata Library for Input/Output (and more)
+Author-email: Chris Havlin <chris.havlin@gmail.com>
+Project-URL: Homepage, https://github.com/chrishavlin/aglio
+Project-URL: Bug Tracker, https://github.com/chrishavlin/aglio/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: netcdf4
+Requires-Dist: h5py
+Requires-Dist: scipy
+Requires-Dist: geopandas >=0.11.1
+Requires-Dist: shapely >=2.0
+Requires-Dist: xarray
+Requires-Dist: scikit-learn
+Requires-Dist: tslearn
+Requires-Dist: dask
+Provides-Extra: dev
+Requires-Dist: pytest >=3 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: yt >4.1 ; extra == 'dev'
+Provides-Extra: extra
+Requires-Dist: yt >4.1 ; extra == 'extra'
+Requires-Dist: yt-xarray ; extra == 'extra'
+Requires-Dist: yt-idv ; extra == 'extra'
+Requires-Dist: cartopy ; extra == 'extra'
+Provides-Extra: full
+Requires-Dist: yt >4.1 ; extra == 'full'
+
+## Another Geodata Library for Input/Output (aglio :garlic:)
+
+**aglio** focuses on data aggregation and regularization from a variety of sources, with an emphasis on geophysical applications but may be useful beyond. 
+
+For now, check out the examples [here]() for an idea of what you can do! 
+
+## Installation
+
+For a base installation: 
+
+```shell
+pip install aglio
+```
+
+To install optional dependencies: 
+
+```shell
+pip install aglio[full]
+```
+
+To install extra dependencies that are not used by `aglio` but **are** used in 
+some of the examples:
+
+```shell
+pip install aglio[extra]
+```
+
+## Development installation 
+
+after forking and cloning: 
+
+```shell
+pip install -e .[dev]
+```
