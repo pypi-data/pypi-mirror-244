@@ -1,0 +1,14 @@
+ebilling_postfinance/__init__.py,sha256=48oL7_Sjba_xg5Wx0EVD_1EbyqDfL7Mchhm0W7RQBxk,35
+ebilling_postfinance/ebilling_postfinance.py,sha256=iuGeWjpmcKWF361PY4Mq1SOUnVWBS-4iTSIu4Uv7qBo,8743
+ebilling_postfinance/certificates/inte/SwissSign_EV_Gold_CA_2014-G22.cer,sha256=8gy_aJyxrXefdR_1f115Rn521b_VD7C1px32b6MPHy8,2390
+ebilling_postfinance/certificates/inte/SwissSign_Gold_CA-G2.cer,sha256=DrsaXZO4atncvSlEE_JygX_ju4ukb07IGSs7gF8vqK4,2045
+ebilling_postfinance/certificates/inte/ebill-ki.postfinance.ch.cer,sha256=T9CHPWQBx9P38D648pGkP9Yilt28uMb6ZUnsH9Rcaw8,2183
+ebilling_postfinance/certificates/prod/SwissSign_EV_Gold_CA_2014-G22.cer,sha256=8gy_aJyxrXefdR_1f115Rn521b_VD7C1px32b6MPHy8,2390
+ebilling_postfinance/certificates/prod/SwissSign_Gold_CA-G2.cer,sha256=DrsaXZO4atncvSlEE_JygX_ju4ukb07IGSs7gF8vqK4,2045
+ebilling_postfinance/certificates/prod/ebill.postfinance.ch.cer,sha256=YImrlWeyWQPYTNa9z0fq1Vr-qcZNXwNAgfZuNiFDP_k,2057
+ebilling_postfinance/wsdl/b2bservice_inte.wsdl,sha256=rZa98UCJvB0z4cP1rpiseJyKVMfjW0WkHlMcqtiQQgY,18696
+ebilling_postfinance/wsdl/b2bservice_prod.wsdl,sha256=bHRg0mfxy6zgRuVPPWlhSFc2uSix6Dn_blzAUG27W6w,43445
+ebilling_postfinance-0.1.1.dist-info/METADATA,sha256=y5wpOMWEomh_JxZ91O9i-qQWikYzC-tj_pKpVNNZM3w,1095
+ebilling_postfinance-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ebilling_postfinance-0.1.1.dist-info/top_level.txt,sha256=QYShmgeAarIwTH0eVktuCSX4nLwMANGK0kzW1E-xIgI,125
+ebilling_postfinance-0.1.1.dist-info/RECORD,,
