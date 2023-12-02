@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:cashbook.book,analytic:"
+msgid "Analytic Account"
+msgstr "Analytic Account"
+
+msgctxt "field:cashbook.book,analytic_mode:"
+msgid "Method"
+msgstr "Method"
+
+msgctxt "help:cashbook.book,analytic_mode:"
+msgid "Stores analytic amounts on one or both sides of the move."
+msgstr "Stores analytic amounts on one or both sides of the move."
+
+msgctxt "selection:cashbook.book,analytic_mode:"
+msgid "Item and Cash Book Line"
+msgstr "Item and Cash Book Line"
+
+msgctxt "selection:cashbook.book,analytic_mode:"
+msgid "Item Line"
+msgstr "Item Line"
+
+msgctxt "selection:cashbook.book,analytic_mode:"
+msgid "Cash Book Line"
+msgstr "Cash Book Line"
+
+msgctxt "view:cashbook.line:"
+msgid "Analytic Lines"
+msgstr "Analytic Lines"
+
