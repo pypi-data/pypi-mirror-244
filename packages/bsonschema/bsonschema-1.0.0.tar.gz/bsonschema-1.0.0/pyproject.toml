@@ -1,0 +1,18 @@
+[project]
+name = "bsonschema"
+version = "1.0.0"
+authors = [
+  { name="Jeff Strom", email="jhstrom1@gmail.com" },
+]
+description = "Validation similar to bsonschema using BSON types"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jstrom2002/bsonschema"
+Issues = "https://github.com/jstrom2002/bsonschema/issues"
