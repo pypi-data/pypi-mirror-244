@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: pydebcontents
+Version: 0.3.1
+Summary: Utilities working with Debian repository Contents files
+Author-email: Stuart Prescott <stuart@debian.org>
+License: BSD-3-Clause
+Project-URL: homepage, https://salsa.debian.org/debian-irc-team/pydebcontents/
+Keywords: debian,package,contents,archive
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: requests ; extra == 'test'
+
+# pydebcontents: Searching Debian Contents files
+
+Package repositories published by Debian (and its derivatives) have lots of different index files describing the Releases, Packages, Sources, and the file Contents of the packages.
+The Debian wiki has a [full description of the repository format](https://wiki.debian.org/DebianRepository/Format).
+
+Access to the data within the Release, Packages, and Sources files is provided by the [python-debian](https://python-debian-team.pages.debian.net/python-debian/html/) module, available within the Debian archive and from PyPI.
+
+This module provides access to the Contents files.
+
+# Requirements
+
+This module requires no Python modules outside of stdlib.
+
+Searching the Contents files is, however, dependent on the external `zgrep` program being on your PATH; `zgrep` is used to transparently search the gzip-compressed `Contents.gz` files.
+
+The Contents files need to be arranged as they would be found on a Debian mirror:
+`dists/{release}/{component}/Contents-{arch}.gz`.
+
+Users of the `apt-cacher-ng` package might like to use its local file cache for access to the Contents files in the expected format.
+
+# Installation
+
+From PyPI:
+
+    pip install pydebcontents
+
+From git:
+
+    git clone https://salsa.debian.org/debian-irc-team/pydebcontents
+    cd pydebcontents
+    pip install .
+
+# Usage
+
+The module comes with a simple command-line interface that feels a bit like the standard `apt-file` program.
+
+For example, to find all the README files shipped in packages:
+
+    py-apt-file --base /var/cache/apt-cacher-ng/debrep/ search --mode glob  usr/share/doc/*/README
+
+The only verb that `py-apt-file` knows at present is `search`.
+
+```
+$ py-apt-file search --help
+usage: py-apt-file search [-h] [--release RELEASE] [--arch ARCH] [--component COMP] [--mode {glob,regex,fixed}]
+[--max MAX]
+PATTERN
+
+positional arguments:
+PATTERN               glob, regular expression or fixed string
+
+options:
+-h, --help            show this help message and exit
+--release RELEASE     release to search (default: sid)
+--arch ARCH, --architecture ARCH
+architecture to search (default: amd64)
+--component COMP      archive components to search (default: all of them)
+--mode {glob,regex,fixed}
+match mode for pattern
+--max MAX             maximum number of packages to return
+```
+
+From Python, the module can be used as:
+
+```python
+import pydebcontents
+
+contents = pydebcontents.ContentsFile("/var/cache/apt-cacher-ng/debrep/", "sid", "amd64", ["contrib"])
+
+contents.search("usr/share/doc/.*/README")
+```
+
+A `ContentsDict` structure is returned, which is a `dict` where the
+keys are package entries (in the `{section}/{package}` format used in the Contents files), and the values are lists of matching filenames.
+
+The search term that `ContentsFile.search` uses is a `str` representation of a regular expression.
+There are convenience functions in `pydebcontents` for handling search patterns, including navigating some of the foibles of `zgrep` and the Contents file format:
+
+ - `glob2re` converts glob syntax to regular expression
+ - `fixed2re` converts a fixed string into a regular expression
+ - `re2re` cleans up an existing regular expression
+ - `pattern2re` is for programmatic use in selecting one of the above three functions.
+
+
+## To-do list / limitations
+
+ - A previous attempt at a Python-only implementation was too slow to be usable for searching the Contents files; this could be revisited.
+ - The mirrors are now carrying other compression formats such as `xz` that will not be found or used at present.
+ - There is no utility provided to obtain the Contents files and arrange them on disk in a suitable tree.
+ - There is no ability to simply point at a Contents file on-disk that is not in the desired tree format.

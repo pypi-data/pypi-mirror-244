@@ -1,0 +1,2 @@
+[console_scripts]
+py-apt-file = pydebcontents.cli:main

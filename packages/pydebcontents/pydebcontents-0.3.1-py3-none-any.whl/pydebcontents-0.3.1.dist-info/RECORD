@@ -1,0 +1,15 @@
+pydebcontents/__init__.py,sha256=-TIsiX3TGl9POA9XEehFVg5I-0i_g0eXh83VMbFqHNw,567
+pydebcontents/_contents_dict.py,sha256=CSPemuEZegGh0uZr3-FwSHA5SK_11eTHJNmaNNmWR-c,5290
+pydebcontents/_contents_file.py,sha256=B-hNF5IH8CuBIwO7_xbQI209v8RR9SeeMuWpQ4hpkdA,7518
+pydebcontents/cli.py,sha256=4mLsUGLZ0H-9ne79blMGWG3FUCYKo-y-H_OPGjaQ9go,5859
+pydebcontents/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydebcontents/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydebcontents/test/conftest.py,sha256=-ypiqTQZ7suJJHYZFa-g03yVaZf1TdktyJg3HXO2vYg,4433
+pydebcontents/test/test_contents_dict.py,sha256=2GxQmPgzroheRLpKgsrhXRSh4B_PU0-iovXbEBWWMq8,2232
+pydebcontents/test/test_contents_file.py,sha256=OykSwz-ora-Ok3hGewMlXfXyi6fu1sJkJfsf9VSqgDg,4860
+pydebcontents-0.3.1.dist-info/LICENSE,sha256=5GJNYN08YfQgGB63skg-Uhxs4oRYeh_wIqE1gRFp7iE,1530
+pydebcontents-0.3.1.dist-info/METADATA,sha256=H7FSV_TDa1BChDAyL0CY5tIyrnkztCXdqkG0n4XgvSA,4309
+pydebcontents-0.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pydebcontents-0.3.1.dist-info/entry_points.txt,sha256=TsPzdghrjXCGPeQ_ZxQZvYF_1thdbIsq5IUlb9LPxX4,55
+pydebcontents-0.3.1.dist-info/top_level.txt,sha256=KcsY4ijDoXGuQoVN_jJYYVYLK7Ew98fJoD1kWFvhaNo,14
+pydebcontents-0.3.1.dist-info/RECORD,,
