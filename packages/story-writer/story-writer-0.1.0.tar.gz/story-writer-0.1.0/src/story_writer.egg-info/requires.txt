@@ -1,0 +1,9 @@
+openai>=1.2.0
+reportlab
+scikit-image
+numpy
+
+[testing]
+tox
+pytest
+pytest-cov
