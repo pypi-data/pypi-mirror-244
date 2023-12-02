@@ -1,0 +1,43 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+#################
+# cashbook.book #
+#################
+msgctxt "field:cashbook.book,analytic:"
+msgid "Analytic Account"
+msgstr "Kostenstelle"
+
+msgctxt "field:cashbook.book,analytic_mode:"
+msgid "Method"
+msgstr "Methode"
+
+msgctxt "help:cashbook.book,analytic_mode:"
+msgid "Stores analytic amounts on one or both sides of the move."
+msgstr "Speichert Kostenstellenbeträge auf einer oder beiden Seiten des Buchungssatzes."
+
+msgctxt "selection:cashbook.book,analytic_mode:"
+msgid "Item and Cash Book Line"
+msgstr "Artikel- und Kassenbuchzeile"
+
+msgctxt "selection:cashbook.book,analytic_mode:"
+msgid "Item Line"
+msgstr "Artikelzeile"
+
+msgctxt "selection:cashbook.book,analytic_mode:"
+msgid "Cash Book Line"
+msgstr "Kassenbuchzeile"
+
+
+#################
+# cashbook.line #
+#################
+msgctxt "view:cashbook.line:"
+msgid "Analytic Lines"
+msgstr "Kostenstellenzeilen"
+
+msgctxt "field:cashbook.line,analytic_lines:"
+msgid "Analytic Lines"
+msgstr "Kostenstellenzeilen"
