@@ -1,0 +1,9 @@
+irisml/tasks/create_torchvision_model.py,sha256=C7BksvPmdLW0ANuMxR4g3TK5AFDQe3NjC-k95j8AeO8,7351
+irisml/tasks/create_torchvision_transform.py,sha256=L7zNOAU6wyuayzwTN8KY69JjWKzSzsBTXbmJ8yt5490,4331
+irisml/tasks/create_torchvision_transform_v2.py,sha256=pV-GcmOC5LKrS0rWiRnLWLX9h_UtqVasPa5wvgYx75g,6920
+irisml/tasks/load_torchvision_dataset.py,sha256=ElWx6gJPGzIrz_LRjI3qGDImffIFuEQuob_G94iopb8,2435
+irisml_tasks_torchvision-0.0.8.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+irisml_tasks_torchvision-0.0.8.dist-info/METADATA,sha256=8zm9wXxtDg40lmpWrrbsj5R1AgH1ODMAS3kf4K8usyo,749
+irisml_tasks_torchvision-0.0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+irisml_tasks_torchvision-0.0.8.dist-info/top_level.txt,sha256=-O6mZvBaJ0q2Xuea9BVCfU8n5tO5UO5aLoPn_Eos3Ao,7
+irisml_tasks_torchvision-0.0.8.dist-info/RECORD,,
