@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: krisinformation
+Version: 0.1.3
+Summary: API facade for Krisinformation
+Home-page: https://github.com/obennet/krisinformation
+Author: Oscar Bennet
+Author-email: oscar.bennet@outlook.com
+License-File: LICENSE.md
