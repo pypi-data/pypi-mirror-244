@@ -1,0 +1,11 @@
+texture_courier/__init__.py,sha256=ZVz_z3pM-TqCeIyq7C9ARYuggKGbaWb-nDF53F4ns7E,167
+texture_courier/api.py,sha256=dIh5x3CtertI-xZkzv59gZZM2Xu0qOnBRpkj47mlJOY,3050
+texture_courier/cli.py,sha256=tdA8y6yKFlu2L22YTYyZNT6I7GyAy3WIsGVZpztDJi0,5470
+texture_courier/core.py,sha256=bw5qkMXyOe9EvdLErO6gXQsTHmKi_5jD0JR3iQVA1AI,2486
+texture_courier/find.py,sha256=L6lm3bSUKLiwB1U7KCVtuXs5hVuYxciGQ9we0SOu3Iw,1693
+texture_courier-0.0.5.dist-info/LICENSE,sha256=rUylFMO3b4Uu1LadCA3OR0j2rmwTNPG9RUKwIU-EhM8,1058
+texture_courier-0.0.5.dist-info/METADATA,sha256=xT4uhohdRAyDcDU4NI0wGtgtau_-8vYTgUCisRewgzc,2004
+texture_courier-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+texture_courier-0.0.5.dist-info/entry_points.txt,sha256=s4BKak9cGunXSDACyI0S3SBWDI3qBA3NYpHQRBoVs2k,57
+texture_courier-0.0.5.dist-info/top_level.txt,sha256=pYa4uI88iLlMeVhaCB25E885-9FasdixfmMDZP6qhmk,16
+texture_courier-0.0.5.dist-info/RECORD,,
