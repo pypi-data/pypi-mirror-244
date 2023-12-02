@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+SMtc.egg-info/PKG-INFO
+SMtc.egg-info/SOURCES.txt
+SMtc.egg-info/dependency_links.txt
+SMtc.egg-info/requires.txt
+SMtc.egg-info/top_level.txt
+sm_tc/__init__.py
