@@ -1,0 +1,10 @@
+airllm/__init__.py,sha256=hdgB64TpSm_m3cKqNLCyn8-kgDO-ScKxJZ1VPZzqnX0,118
+airllm/airllm.py,sha256=rb2eY4z7VBY4Xjcz8Qb6jpBbEVp0YnQGC0aspFXYn_Q,25566
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/airllm.py,sha256=GulSLoOSU0Vx3H_bfSrcjAkIO5jfGwqI5LCWKgcJtQw,16544
+src/inference_example.py,sha256=3yysC9U2e76G6wZo6Yr43ul6JRTRP0ZWva87mgkBeXQ,844
+airllm-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airllm-2.0.0.dist-info/METADATA,sha256=fVl9ZYbp85EvyFQ5RGrXB-UPtuOFMyySOh3-lS9Crf4,5841
+airllm-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+airllm-2.0.0.dist-info/top_level.txt,sha256=EXHLcaZNBsKqL-l-R3FgK2dR_-kUMmOc1e_ht7AvpoE,7
+airllm-2.0.0.dist-info/RECORD,,
