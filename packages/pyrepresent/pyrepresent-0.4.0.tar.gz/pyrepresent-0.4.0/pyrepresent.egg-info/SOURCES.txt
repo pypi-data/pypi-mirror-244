@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+build.py
+requirements-dev.txt
+requirements.txt
+setup.py
+test.py
+pyrepresent.egg-info/PKG-INFO
+pyrepresent.egg-info/SOURCES.txt
+pyrepresent.egg-info/dependency_links.txt
+pyrepresent.egg-info/requires.txt
+pyrepresent.egg-info/top_level.txt
+represent/__init__.py
+represent/colors.py
+represent/indentation.py
+represent/object.py
+represent/structures.py

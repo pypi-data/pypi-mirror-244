@@ -1,0 +1,4 @@
+include requirements.txt
+include requirements-dev.txt
+include test.py
+include build.py
