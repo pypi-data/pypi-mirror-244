@@ -1,0 +1,12 @@
+procurement_tools/__init__.py,sha256=UmDYZhyPMKZzFfkOOfoXTa6FBcK1N4iTf98gW0OkeK0,180
+procurement_tools/data/periodic_table.json,sha256=K9LPam0QlrcarPF0TMrJ9tejb_cCwrPjNPcWC5Ak7Fg,74077
+procurement_tools/far.py,sha256=3gw1DquBQcGyezzGrq8el_-jCshPtWY40n6kmrd8R1Y,3426
+procurement_tools/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+procurement_tools/models/far_clause.py,sha256=oeujomjMwygLppJEgHLdNjSMevgTGb9ZjMrgbT0Ai5c,495
+procurement_tools/periodic_table.py,sha256=C-garSuEmJKjwiFkI09rcu7JpHb7DMWTeDGU_tWUWMU,1740
+procurement_tools/uei.py,sha256=s9CY8S38smSv5sChfCYpN6A4BwiJIeXBUSHi8GWr_K4,1881
+procurement_tools/usaspending.py,sha256=uemBau7uZOAUZ8_GvcVbHtdnA-7gb5jdjhabeXtD0vM,1375
+procurement_tools-0.1.3.dist-info/LICENSE.md,sha256=bfZKWnTHPfTPATNupGQDjlflMSUrR5OFp938RFj8KmA,10501
+procurement_tools-0.1.3.dist-info/METADATA,sha256=TJ7-ts3kc1irabvGCbU0ZnlwzYqky9xN4K5FuheO1NQ,1715
+procurement_tools-0.1.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+procurement_tools-0.1.3.dist-info/RECORD,,
