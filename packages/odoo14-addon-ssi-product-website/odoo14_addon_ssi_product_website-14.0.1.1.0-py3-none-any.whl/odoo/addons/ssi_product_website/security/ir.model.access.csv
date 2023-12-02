@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_product_public,product.product.public,product.model_product_product,,1,0,0,0
+access_product_template_public,product.template.public,product.model_product_template,,1,0,0,0
+access_product_category_public,product.category.public,product.model_product_category,,1,0,0,0
+access_product_attribute_public,product.attribute public,product.model_product_attribute,,1,0,0,0
+access_product_attribute_value_public,product.attribute value public,product.model_product_attribute_value,,1,0,0,0
+access_product_product_attribute,product.template.attribute value public,product.model_product_template_attribute_value,,1,0,0,0
+access_product_template_attribute_exclusion,product.template.attribute exclusion public,product.model_product_template_attribute_exclusion,,1,0,0,0
+access_product_template_attribute_line_public,product.template.attribute line public,product.model_product_template_attribute_line,,1,0,0,0
