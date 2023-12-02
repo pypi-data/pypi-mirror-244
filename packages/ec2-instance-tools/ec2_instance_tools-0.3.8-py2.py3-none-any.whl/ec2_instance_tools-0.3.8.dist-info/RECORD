@@ -1,0 +1,12 @@
+ec2_instance_tools/__init__.py,sha256=7dTW0A5-FkrEuNOotvR8oW59M2lvIwYouVqfJzvXpKk,22
+ec2_instance_tools/metadata.py,sha256=vuLR5Lo1j3l7zWa3cZ7hO9vH3fp-OOYBDsGU1XzUBD8,3464
+ec2_instance_tools/namer.py,sha256=kZ6l65f1QifgGlPY66esSJO3dvQ9eRvZJGTd-h0IkAU,13518
+ec2_instance_tools/sshec2.py,sha256=uJttdB859B0mE4xUJojBjbwPsJQ0PqwLO9s2dkIKQq8,3490
+ec2_instance_tools/whoami.py,sha256=l8zT-aobn8SiimfQKvXD_R67L0JI58iwztjMtpIo6mU,2811
+ec2_instance_tools-0.3.8.dist-info/AUTHORS.txt,sha256=2SB5zpcZJ0rIKLgYAoxUtifez7-o78XOAFw-4NUZCe8,33
+ec2_instance_tools-0.3.8.dist-info/LICENSE.txt,sha256=wRtzpZdBoYWbmhGygXfueQL_aVdVRnyb-D87hwSyYTU,1462
+ec2_instance_tools-0.3.8.dist-info/METADATA,sha256=KotgQZINbbOXRAM0TouSCuQEFGPZvw5qBhIXfmS3ORU,4174
+ec2_instance_tools-0.3.8.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+ec2_instance_tools-0.3.8.dist-info/entry_points.txt,sha256=zwjxtyyfy4GaCaErt4dIkUsfdVSLFDmPNhFRR16Jv3w,146
+ec2_instance_tools-0.3.8.dist-info/top_level.txt,sha256=1HGmmVOMf5Bpc0cIRN4yjkCODYaMV1GtqG-ZK18FjDY,19
+ec2_instance_tools-0.3.8.dist-info/RECORD,,
