@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wbi_teaching_applied_ml_utils/__init__.py
+wbi_teaching_applied_ml_utils.egg-info/PKG-INFO
+wbi_teaching_applied_ml_utils.egg-info/SOURCES.txt
+wbi_teaching_applied_ml_utils.egg-info/dependency_links.txt
+wbi_teaching_applied_ml_utils.egg-info/top_level.txt
+wbi_teaching_applied_ml_utils/datasets/exercise2/ex1data2.txt
+wbi_teaching_applied_ml_utils/datasets/exercise3/ex2data1.txt
+wbi_teaching_applied_ml_utils/datasets/exercise3/ex2data2.txt
+wbi_teaching_applied_ml_utils/datasets/exercise3/full_set.txt
