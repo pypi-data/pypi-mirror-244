@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kevin-mysql-sync
+Version: 0.1.0
+Summary: 
+Author: Kevin
+Author-email: kevin.qinchao@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pymysql (>=1.1.0,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+数据库同步

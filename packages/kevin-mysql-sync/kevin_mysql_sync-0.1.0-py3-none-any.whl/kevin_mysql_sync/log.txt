@@ -1,0 +1,4440 @@
+程序启动，开始检查
+===数据库连接信息========================
+数据库主机地址：rm-m5ek42g4msk7017a49o.mysql.rds.aliyuncs.com
+数据库端口号：3306
+数据库用户名：b'data_ttg'
+数据库密码：b'LQRdQIUaMsswzpzA1'
+数据库名：b'data_ttg'
+===========================
+===数据库连接信息========================
+数据库主机地址：122.9.53.128
+数据库端口号：3306
+数据库用户名：b'ttg'
+数据库密码：b'TTg+HuaWei|2023@_JSX'
+数据库名：b'data_ttg'
+===========================
+共有111个表需要检查
+数据表：clt_coupon 开始检查
+数据表：clt_coupon 已检查0条
+记录总量：387
+目标表clt_coupon记录数[387]和源表记录数[387]一致，跳过
+数据表：clt_coupon_comment 开始检查
+数据表：clt_coupon_comment 已检查0条
+记录总量：64
+目标表clt_coupon_comment记录数[64]和源表记录数[64]一致，跳过
+数据表：clt_coupon_order 开始检查
+数据表：clt_coupon_order 已检查0条
+记录总量：1060618
+目标表clt_coupon_order记录数[1060618]和源表记录数[1060618]一致，跳过
+数据表：clt_coupon_order_action 开始检查
+数据表：clt_coupon_order_action 已检查0条
+记录总量：3880980
+目标表clt_coupon_order_action记录数[3880980]和源表记录数[3880980]一致，跳过
+数据表：clt_coupon_order_goods 开始检查
+数据表：clt_coupon_order_goods 已检查0条
+记录总量：1060617
+目标表clt_coupon_order_goods记录数[1060617]和源表记录数[1060617]一致，跳过
+数据表：clt_coupon_sequence 开始检查
+数据表：clt_coupon_sequence 已检查0条
+记录总量：387
+目标表clt_coupon_sequence记录数[387]和源表记录数[387]一致，跳过
+数据表：clt_coupon_untying_log 开始检查
+数据表：clt_coupon_untying_log 已检查0条
+记录总量：11
+目标表clt_coupon_untying_log记录数[11]和源表记录数[11]一致，跳过
+数据表：clt_discount_class 开始检查
+数据表：clt_discount_class 已检查0条
+记录总量：79
+目标表clt_discount_class记录数[79]和源表记录数[79]一致，跳过
+数据表：clt_discount_news 开始检查
+数据表：clt_discount_news 已检查0条
+记录总量：4
+目标表clt_discount_news记录数[4]和源表记录数[4]一致，跳过
+数据表：clt_discount_news_class 开始检查
+数据表：clt_discount_news_class 已检查0条
+记录总量：1
+目标表clt_discount_news_class记录数[1]和源表记录数[1]一致，跳过
+数据表：clt_discount_public 开始检查
+数据表：clt_discount_public 已检查0条
+记录总量：1
+目标表clt_discount_public记录数[1]和源表记录数[1]一致，跳过
+数据表：clt_discount_services 开始检查
+数据表：clt_discount_services 已检查0条
+记录总量：3
+目标表clt_discount_services记录数[3]和源表记录数[3]一致，跳过
+数据表：clt_eb_combination 开始检查
+数据表：clt_eb_combination 已检查0条
+记录总量：215
+目标表clt_eb_combination记录数[215]和源表记录数[215]一致，跳过
+数据表：clt_eb_combination_delivery 开始检查
+数据表：clt_eb_combination_delivery 已检查0条
+记录总量：87
+目标表clt_eb_combination_delivery记录数[87]和源表记录数[87]一致，跳过
+数据表：clt_eb_combination_draft 开始检查
+数据表：clt_eb_combination_draft 已检查0条
+记录总量：0
+数据表：clt_eb_commissioner 开始检查
+数据表：clt_eb_commissioner 已检查0条
+记录总量：1021
+目标表clt_eb_commissioner记录数[1021]和源表记录数[1021]一致，跳过
+数据表：clt_eb_commissioner_leader 开始检查
+数据表：clt_eb_commissioner_leader 已检查0条
+记录总量：57
+目标表clt_eb_commissioner_leader记录数[57]和源表记录数[57]一致，跳过
+数据表：clt_eb_express 开始检查
+数据表：clt_eb_express 已检查0条
+记录总量：28
+目标表clt_eb_express记录数[28]和源表记录数[28]一致，跳过
+数据表：clt_eb_goods_search 开始检查
+数据表：clt_eb_goods_search 已检查0条
+记录总量：11
+目标表clt_eb_goods_search记录数[11]和源表记录数[11]一致，跳过
+数据表：clt_eb_group_colonel 开始检查
+数据表：clt_eb_group_colonel 已检查0条
+记录总量：667602
+目标表clt_eb_group_colonel记录数[667602]和源表记录数[667602]一致，跳过
+数据表：clt_eb_group_colonel_income 开始检查
+数据表：clt_eb_group_colonel_income 已检查0条
+记录总量：20843
+目标表clt_eb_group_colonel_income记录数[20843]和源表记录数[20843]一致，跳过
+数据表：clt_eb_group_colonel_record 开始检查
+数据表：clt_eb_group_colonel_record 已检查0条
+记录总量：196
+目标表clt_eb_group_colonel_record记录数[196]和源表记录数[196]一致，跳过
+数据表：clt_eb_group_colonel_verify 开始检查
+数据表：clt_eb_group_colonel_verify 已检查0条
+记录总量：392
+目标表clt_eb_group_colonel_verify记录数[392]和源表记录数[392]一致，跳过
+数据表：clt_eb_group_colonel_withdraw 开始检查
+数据表：clt_eb_group_colonel_withdraw 已检查0条
+记录总量：1287
+目标表clt_eb_group_colonel_withdraw记录数[1287]和源表记录数[1287]一致，跳过
+数据表：clt_eb_houniao_order 开始检查
+数据表：clt_eb_houniao_order 已检查0条
+记录总量：31
+目标表clt_eb_houniao_order记录数[31]和源表记录数[31]一致，跳过
+数据表：clt_eb_live_room 开始检查
+数据表：clt_eb_live_room 已检查0条
+记录总量：2
+目标表clt_eb_live_room记录数[2]和源表记录数[2]一致，跳过
+数据表：clt_eb_live_subscribe 开始检查
+数据表：clt_eb_live_subscribe 已检查0条
+记录总量：639
+目标表clt_eb_live_subscribe记录数[639]和源表记录数[639]一致，跳过
+数据表：clt_eb_order_export 开始检查
+数据表：clt_eb_order_export 已检查0条
+记录总量：26075
+目标表clt_eb_order_export记录数[26075]和源表记录数[26075]一致，跳过
+数据表：clt_eb_order_refund 开始检查
+数据表：clt_eb_order_refund 已检查0条
+记录总量：1055
+目标表clt_eb_order_refund记录数[1055]和源表记录数[1055]一致，跳过
+数据表：clt_eb_region 开始检查
+数据表：clt_eb_region 已检查0条
+记录总量：704724
+目标表clt_eb_region记录数[704724]和源表记录数[704724]一致，跳过
+数据表：clt_eb_selection 开始检查
+数据表：clt_eb_selection 已检查0条
+记录总量：16
+目标表clt_eb_selection记录数[16]和源表记录数[16]一致，跳过
+数据表：clt_eb_shipping_delivery 开始检查
+数据表：clt_eb_shipping_delivery 已检查0条
+记录总量：162
+目标表clt_eb_shipping_delivery记录数[162]和源表记录数[162]一致，跳过
+数据表：clt_eb_shipping_delivery_product 开始检查
+数据表：clt_eb_shipping_delivery_product 已检查0条
+记录总量：2393
+目标表clt_eb_shipping_delivery_product记录数[2393]和源表记录数[2393]一致，跳过
+数据表：clt_eb_shipping_driver 开始检查
+数据表：clt_eb_shipping_driver 已检查0条
+记录总量：36
+目标表clt_eb_shipping_driver记录数[36]和源表记录数[36]一致，跳过
+数据表：clt_eb_shipping_templates 开始检查
+数据表：clt_eb_shipping_templates 已检查0条
+记录总量：90
+目标表clt_eb_shipping_templates记录数[90]和源表记录数[90]一致，跳过
+数据表：clt_eb_shipping_templates_free 开始检查
+数据表：clt_eb_shipping_templates_free 已检查0条
+记录总量：0
+数据表：clt_eb_shipping_templates_region 开始检查
+数据表：clt_eb_shipping_templates_region 已检查0条
+记录总量：22917
+目标表clt_eb_shipping_templates_region记录数[22917]和源表记录数[22917]一致，跳过
+数据表：clt_eb_spread_wechat 开始检查
+数据表：clt_eb_spread_wechat 已检查0条
+记录总量：360
+目标表clt_eb_spread_wechat记录数[360]和源表记录数[360]一致，跳过
+数据表：clt_eb_store_cart 开始检查
+数据表：clt_eb_store_cart 已检查0条
+记录总量：33724
+目标表clt_eb_store_cart记录数[33724]和源表记录数[33724]一致，跳过
+数据表：clt_eb_store_cate 开始检查
+数据表：clt_eb_store_cate 已检查0条
+记录总量：36
+目标表clt_eb_store_cate记录数[36]和源表记录数[36]一致，跳过
+数据表：clt_eb_store_category 开始检查
+数据表：clt_eb_store_category 已检查0条
+记录总量：165
+目标表clt_eb_store_category记录数[165]和源表记录数[165]一致，跳过
+数据表：clt_eb_store_combination 开始检查
+数据表：clt_eb_store_combination 已检查0条
+记录总量：5381
+目标表clt_eb_store_combination记录数[5381]和源表记录数[5381]一致，跳过
+数据表：clt_eb_store_coupon_issue 开始检查
+数据表：clt_eb_store_coupon_issue 已检查0条
+记录总量：0
+数据表：clt_eb_store_coupon_issue_user 开始检查
+数据表：clt_eb_store_coupon_issue_user 已检查0条
+记录总量：0
+数据表：clt_eb_store_order 开始检查
+数据表：clt_eb_store_order 已检查0条
+记录总量：47789539
+select * from clt_eb_store_order limit 0, 1
+主键：id，当前共有57个字段
+select * from clt_eb_store_order limit 0, 100
+select * from clt_eb_store_order limit 0, 100
+本次提交99条记录
+成功插入99条记录
+程序启动，开始检查
+===数据库连接信息========================
+数据库主机地址：rm-m5ek42g4msk7017a49o.mysql.rds.aliyuncs.com
+数据库端口号：3306
+数据库用户名：b'data_ttg'
+数据库密码：b'LQRdQIUaMsswzpzA1'
+数据库名：b'data_ttg'
+===========================
+===数据库连接信息========================
+数据库主机地址：122.9.53.128
+数据库端口号：3306
+数据库用户名：b'ttg'
+数据库密码：b'TTg+HuaWei|2023@_JSX'
+数据库名：b'data_ttg'
+===========================
+共有111个表需要检查
+数据表：clt_coupon 开始检查
+数据表：clt_coupon 已检查387条
+记录总量：387
+数据表：clt_coupon 已检查387条，检查完成
+数据表：clt_coupon_comment 开始检查
+数据表：clt_coupon_comment 已检查64条
+记录总量：64
+数据表：clt_coupon_comment 已检查64条，检查完成
+数据表：clt_coupon_order 开始检查
+数据表：clt_coupon_order 已检查1060618条
+记录总量：1060618
+数据表：clt_coupon_order 已检查1060618条，检查完成
+数据表：clt_coupon_order_action 开始检查
+数据表：clt_coupon_order_action 已检查3880980条
+记录总量：3880980
+数据表：clt_coupon_order_action 已检查3880980条，检查完成
+数据表：clt_coupon_order_goods 开始检查
+数据表：clt_coupon_order_goods 已检查1060617条
+记录总量：1060617
+数据表：clt_coupon_order_goods 已检查1060617条，检查完成
+数据表：clt_coupon_sequence 开始检查
+数据表：clt_coupon_sequence 已检查387条
+记录总量：387
+数据表：clt_coupon_sequence 已检查387条，检查完成
+数据表：clt_coupon_untying_log 开始检查
+数据表：clt_coupon_untying_log 已检查11条
+记录总量：11
+数据表：clt_coupon_untying_log 已检查11条，检查完成
+数据表：clt_discount_class 开始检查
+数据表：clt_discount_class 已检查79条
+记录总量：79
+数据表：clt_discount_class 已检查79条，检查完成
+数据表：clt_discount_news 开始检查
+数据表：clt_discount_news 已检查4条
+记录总量：4
+数据表：clt_discount_news 已检查4条，检查完成
+数据表：clt_discount_news_class 开始检查
+数据表：clt_discount_news_class 已检查1条
+记录总量：1
+数据表：clt_discount_news_class 已检查1条，检查完成
+数据表：clt_discount_public 开始检查
+数据表：clt_discount_public 已检查1条
+记录总量：1
+数据表：clt_discount_public 已检查1条，检查完成
+数据表：clt_discount_services 开始检查
+数据表：clt_discount_services 已检查3条
+记录总量：3
+数据表：clt_discount_services 已检查3条，检查完成
+数据表：clt_eb_combination 开始检查
+数据表：clt_eb_combination 已检查215条
+记录总量：215
+数据表：clt_eb_combination 已检查215条，检查完成
+数据表：clt_eb_combination_delivery 开始检查
+数据表：clt_eb_combination_delivery 已检查87条
+记录总量：87
+数据表：clt_eb_combination_delivery 已检查87条，检查完成
+数据表：clt_eb_combination_draft 开始检查
+数据表：clt_eb_combination_draft 已检查0条
+记录总量：0
+数据表：clt_eb_commissioner 开始检查
+数据表：clt_eb_commissioner 已检查1021条
+记录总量：1021
+数据表：clt_eb_commissioner 已检查1021条，检查完成
+数据表：clt_eb_commissioner_leader 开始检查
+数据表：clt_eb_commissioner_leader 已检查57条
+记录总量：57
+数据表：clt_eb_commissioner_leader 已检查57条，检查完成
+数据表：clt_eb_express 开始检查
+数据表：clt_eb_express 已检查28条
+记录总量：28
+数据表：clt_eb_express 已检查28条，检查完成
+数据表：clt_eb_goods_search 开始检查
+数据表：clt_eb_goods_search 已检查11条
+记录总量：11
+数据表：clt_eb_goods_search 已检查11条，检查完成
+数据表：clt_eb_group_colonel 开始检查
+数据表：clt_eb_group_colonel 已检查667602条
+记录总量：667602
+数据表：clt_eb_group_colonel 已检查667602条，检查完成
+数据表：clt_eb_group_colonel_income 开始检查
+数据表：clt_eb_group_colonel_income 已检查20843条
+记录总量：20843
+数据表：clt_eb_group_colonel_income 已检查20843条，检查完成
+数据表：clt_eb_group_colonel_record 开始检查
+数据表：clt_eb_group_colonel_record 已检查196条
+记录总量：196
+数据表：clt_eb_group_colonel_record 已检查196条，检查完成
+数据表：clt_eb_group_colonel_verify 开始检查
+数据表：clt_eb_group_colonel_verify 已检查392条
+记录总量：392
+数据表：clt_eb_group_colonel_verify 已检查392条，检查完成
+数据表：clt_eb_group_colonel_withdraw 开始检查
+数据表：clt_eb_group_colonel_withdraw 已检查1287条
+记录总量：1287
+数据表：clt_eb_group_colonel_withdraw 已检查1287条，检查完成
+数据表：clt_eb_houniao_order 开始检查
+数据表：clt_eb_houniao_order 已检查31条
+记录总量：31
+数据表：clt_eb_houniao_order 已检查31条，检查完成
+数据表：clt_eb_live_room 开始检查
+数据表：clt_eb_live_room 已检查2条
+记录总量：2
+数据表：clt_eb_live_room 已检查2条，检查完成
+数据表：clt_eb_live_subscribe 开始检查
+数据表：clt_eb_live_subscribe 已检查639条
+记录总量：639
+数据表：clt_eb_live_subscribe 已检查639条，检查完成
+数据表：clt_eb_order_export 开始检查
+数据表：clt_eb_order_export 已检查26075条
+记录总量：26075
+数据表：clt_eb_order_export 已检查26075条，检查完成
+数据表：clt_eb_order_refund 开始检查
+数据表：clt_eb_order_refund 已检查1055条
+记录总量：1055
+数据表：clt_eb_order_refund 已检查1055条，检查完成
+数据表：clt_eb_region 开始检查
+数据表：clt_eb_region 已检查704724条
+记录总量：704724
+数据表：clt_eb_region 已检查704724条，检查完成
+数据表：clt_eb_selection 开始检查
+数据表：clt_eb_selection 已检查16条
+记录总量：16
+数据表：clt_eb_selection 已检查16条，检查完成
+数据表：clt_eb_shipping_delivery 开始检查
+数据表：clt_eb_shipping_delivery 已检查162条
+记录总量：162
+数据表：clt_eb_shipping_delivery 已检查162条，检查完成
+数据表：clt_eb_shipping_delivery_product 开始检查
+数据表：clt_eb_shipping_delivery_product 已检查2393条
+记录总量：2393
+数据表：clt_eb_shipping_delivery_product 已检查2393条，检查完成
+数据表：clt_eb_shipping_driver 开始检查
+数据表：clt_eb_shipping_driver 已检查36条
+记录总量：36
+数据表：clt_eb_shipping_driver 已检查36条，检查完成
+数据表：clt_eb_shipping_templates 开始检查
+数据表：clt_eb_shipping_templates 已检查90条
+记录总量：90
+数据表：clt_eb_shipping_templates 已检查90条，检查完成
+数据表：clt_eb_shipping_templates_free 开始检查
+数据表：clt_eb_shipping_templates_free 已检查0条
+记录总量：0
+数据表：clt_eb_shipping_templates_region 开始检查
+数据表：clt_eb_shipping_templates_region 已检查22917条
+记录总量：22917
+数据表：clt_eb_shipping_templates_region 已检查22917条，检查完成
+数据表：clt_eb_spread_wechat 开始检查
+数据表：clt_eb_spread_wechat 已检查360条
+记录总量：360
+数据表：clt_eb_spread_wechat 已检查360条，检查完成
+数据表：clt_eb_store_cart 开始检查
+数据表：clt_eb_store_cart 已检查33724条
+记录总量：33724
+数据表：clt_eb_store_cart 已检查33724条，检查完成
+数据表：clt_eb_store_cate 开始检查
+数据表：clt_eb_store_cate 已检查36条
+记录总量：36
+数据表：clt_eb_store_cate 已检查36条，检查完成
+数据表：clt_eb_store_category 开始检查
+数据表：clt_eb_store_category 已检查165条
+记录总量：165
+数据表：clt_eb_store_category 已检查165条，检查完成
+数据表：clt_eb_store_combination 开始检查
+数据表：clt_eb_store_combination 已检查5381条
+记录总量：5381
+数据表：clt_eb_store_combination 已检查5381条，检查完成
+数据表：clt_eb_store_coupon_issue 开始检查
+数据表：clt_eb_store_coupon_issue 已检查0条
+记录总量：0
+数据表：clt_eb_store_coupon_issue_user 开始检查
+数据表：clt_eb_store_coupon_issue_user 已检查0条
+记录总量：0
+数据表：clt_eb_store_order 开始检查
+数据表：clt_eb_store_order 已检查0条
+记录总量：47789539
+select * from clt_eb_store_order limit 0, 1
+主键：id，当前共有57个字段
+select * from clt_eb_store_order limit 0, 100
+select * from clt_eb_store_order limit 0, 100
+最后一条记录的id：212, 212, 一致，跳过对比
+数据表：clt_eb_store_order 已检查100条
+select * from clt_eb_store_order limit 100, 100
+select * from clt_eb_store_order limit 100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查200条
+select * from clt_eb_store_order limit 200, 100
+select * from clt_eb_store_order limit 200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查300条
+select * from clt_eb_store_order limit 300, 100
+select * from clt_eb_store_order limit 300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查400条
+select * from clt_eb_store_order limit 400, 100
+select * from clt_eb_store_order limit 400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查500条
+select * from clt_eb_store_order limit 500, 100
+select * from clt_eb_store_order limit 500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查600条
+select * from clt_eb_store_order limit 600, 100
+select * from clt_eb_store_order limit 600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查700条
+select * from clt_eb_store_order limit 700, 100
+select * from clt_eb_store_order limit 700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查800条
+select * from clt_eb_store_order limit 800, 100
+select * from clt_eb_store_order limit 800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查900条
+select * from clt_eb_store_order limit 900, 100
+select * from clt_eb_store_order limit 900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1000条
+select * from clt_eb_store_order limit 1000, 100
+select * from clt_eb_store_order limit 1000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1100条
+select * from clt_eb_store_order limit 1100, 100
+select * from clt_eb_store_order limit 1100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1200条
+select * from clt_eb_store_order limit 1200, 100
+select * from clt_eb_store_order limit 1200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1300条
+select * from clt_eb_store_order limit 1300, 100
+select * from clt_eb_store_order limit 1300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1400条
+select * from clt_eb_store_order limit 1400, 100
+select * from clt_eb_store_order limit 1400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1500条
+select * from clt_eb_store_order limit 1500, 100
+select * from clt_eb_store_order limit 1500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1600条
+select * from clt_eb_store_order limit 1600, 100
+select * from clt_eb_store_order limit 1600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1700条
+select * from clt_eb_store_order limit 1700, 100
+select * from clt_eb_store_order limit 1700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1800条
+select * from clt_eb_store_order limit 1800, 100
+select * from clt_eb_store_order limit 1800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查1900条
+select * from clt_eb_store_order limit 1900, 100
+select * from clt_eb_store_order limit 1900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2000条
+select * from clt_eb_store_order limit 2000, 100
+select * from clt_eb_store_order limit 2000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2100条
+select * from clt_eb_store_order limit 2100, 100
+select * from clt_eb_store_order limit 2100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2200条
+select * from clt_eb_store_order limit 2200, 100
+select * from clt_eb_store_order limit 2200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2300条
+select * from clt_eb_store_order limit 2300, 100
+select * from clt_eb_store_order limit 2300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2400条
+select * from clt_eb_store_order limit 2400, 100
+select * from clt_eb_store_order limit 2400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2500条
+select * from clt_eb_store_order limit 2500, 100
+select * from clt_eb_store_order limit 2500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2600条
+select * from clt_eb_store_order limit 2600, 100
+select * from clt_eb_store_order limit 2600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2700条
+select * from clt_eb_store_order limit 2700, 100
+select * from clt_eb_store_order limit 2700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2800条
+select * from clt_eb_store_order limit 2800, 100
+select * from clt_eb_store_order limit 2800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查2900条
+select * from clt_eb_store_order limit 2900, 100
+select * from clt_eb_store_order limit 2900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3000条
+select * from clt_eb_store_order limit 3000, 100
+select * from clt_eb_store_order limit 3000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3100条
+select * from clt_eb_store_order limit 3100, 100
+select * from clt_eb_store_order limit 3100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3200条
+select * from clt_eb_store_order limit 3200, 100
+select * from clt_eb_store_order limit 3200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3300条
+select * from clt_eb_store_order limit 3300, 100
+select * from clt_eb_store_order limit 3300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3400条
+select * from clt_eb_store_order limit 3400, 100
+select * from clt_eb_store_order limit 3400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3500条
+select * from clt_eb_store_order limit 3500, 100
+select * from clt_eb_store_order limit 3500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3600条
+select * from clt_eb_store_order limit 3600, 100
+select * from clt_eb_store_order limit 3600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3700条
+select * from clt_eb_store_order limit 3700, 100
+select * from clt_eb_store_order limit 3700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3800条
+select * from clt_eb_store_order limit 3800, 100
+select * from clt_eb_store_order limit 3800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查3900条
+select * from clt_eb_store_order limit 3900, 100
+select * from clt_eb_store_order limit 3900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4000条
+select * from clt_eb_store_order limit 4000, 100
+select * from clt_eb_store_order limit 4000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4100条
+select * from clt_eb_store_order limit 4100, 100
+select * from clt_eb_store_order limit 4100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4200条
+select * from clt_eb_store_order limit 4200, 100
+select * from clt_eb_store_order limit 4200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4300条
+select * from clt_eb_store_order limit 4300, 100
+select * from clt_eb_store_order limit 4300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4400条
+select * from clt_eb_store_order limit 4400, 100
+select * from clt_eb_store_order limit 4400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4500条
+select * from clt_eb_store_order limit 4500, 100
+select * from clt_eb_store_order limit 4500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4600条
+select * from clt_eb_store_order limit 4600, 100
+select * from clt_eb_store_order limit 4600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4700条
+select * from clt_eb_store_order limit 4700, 100
+select * from clt_eb_store_order limit 4700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4800条
+select * from clt_eb_store_order limit 4800, 100
+select * from clt_eb_store_order limit 4800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查4900条
+select * from clt_eb_store_order limit 4900, 100
+select * from clt_eb_store_order limit 4900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5000条
+select * from clt_eb_store_order limit 5000, 100
+select * from clt_eb_store_order limit 5000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5100条
+select * from clt_eb_store_order limit 5100, 100
+select * from clt_eb_store_order limit 5100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5200条
+select * from clt_eb_store_order limit 5200, 100
+select * from clt_eb_store_order limit 5200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5300条
+select * from clt_eb_store_order limit 5300, 100
+select * from clt_eb_store_order limit 5300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5400条
+select * from clt_eb_store_order limit 5400, 100
+select * from clt_eb_store_order limit 5400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5500条
+select * from clt_eb_store_order limit 5500, 100
+select * from clt_eb_store_order limit 5500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5600条
+select * from clt_eb_store_order limit 5600, 100
+select * from clt_eb_store_order limit 5600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5700条
+select * from clt_eb_store_order limit 5700, 100
+select * from clt_eb_store_order limit 5700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5800条
+select * from clt_eb_store_order limit 5800, 100
+select * from clt_eb_store_order limit 5800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查5900条
+select * from clt_eb_store_order limit 5900, 100
+select * from clt_eb_store_order limit 5900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6000条
+select * from clt_eb_store_order limit 6000, 100
+select * from clt_eb_store_order limit 6000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6100条
+select * from clt_eb_store_order limit 6100, 100
+select * from clt_eb_store_order limit 6100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6200条
+select * from clt_eb_store_order limit 6200, 100
+select * from clt_eb_store_order limit 6200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6300条
+select * from clt_eb_store_order limit 6300, 100
+select * from clt_eb_store_order limit 6300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6400条
+select * from clt_eb_store_order limit 6400, 100
+select * from clt_eb_store_order limit 6400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6500条
+select * from clt_eb_store_order limit 6500, 100
+select * from clt_eb_store_order limit 6500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6600条
+select * from clt_eb_store_order limit 6600, 100
+select * from clt_eb_store_order limit 6600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6700条
+select * from clt_eb_store_order limit 6700, 100
+select * from clt_eb_store_order limit 6700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6800条
+select * from clt_eb_store_order limit 6800, 100
+select * from clt_eb_store_order limit 6800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查6900条
+select * from clt_eb_store_order limit 6900, 100
+select * from clt_eb_store_order limit 6900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7000条
+select * from clt_eb_store_order limit 7000, 100
+select * from clt_eb_store_order limit 7000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7100条
+select * from clt_eb_store_order limit 7100, 100
+select * from clt_eb_store_order limit 7100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7200条
+select * from clt_eb_store_order limit 7200, 100
+select * from clt_eb_store_order limit 7200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7300条
+select * from clt_eb_store_order limit 7300, 100
+select * from clt_eb_store_order limit 7300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7400条
+select * from clt_eb_store_order limit 7400, 100
+select * from clt_eb_store_order limit 7400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7500条
+select * from clt_eb_store_order limit 7500, 100
+select * from clt_eb_store_order limit 7500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7600条
+select * from clt_eb_store_order limit 7600, 100
+select * from clt_eb_store_order limit 7600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7700条
+select * from clt_eb_store_order limit 7700, 100
+select * from clt_eb_store_order limit 7700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7800条
+select * from clt_eb_store_order limit 7800, 100
+select * from clt_eb_store_order limit 7800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查7900条
+select * from clt_eb_store_order limit 7900, 100
+select * from clt_eb_store_order limit 7900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8000条
+select * from clt_eb_store_order limit 8000, 100
+select * from clt_eb_store_order limit 8000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8100条
+select * from clt_eb_store_order limit 8100, 100
+select * from clt_eb_store_order limit 8100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8200条
+select * from clt_eb_store_order limit 8200, 100
+select * from clt_eb_store_order limit 8200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8300条
+select * from clt_eb_store_order limit 8300, 100
+select * from clt_eb_store_order limit 8300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8400条
+select * from clt_eb_store_order limit 8400, 100
+select * from clt_eb_store_order limit 8400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8500条
+select * from clt_eb_store_order limit 8500, 100
+select * from clt_eb_store_order limit 8500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8600条
+select * from clt_eb_store_order limit 8600, 100
+select * from clt_eb_store_order limit 8600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8700条
+select * from clt_eb_store_order limit 8700, 100
+select * from clt_eb_store_order limit 8700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8800条
+select * from clt_eb_store_order limit 8800, 100
+select * from clt_eb_store_order limit 8800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查8900条
+select * from clt_eb_store_order limit 8900, 100
+select * from clt_eb_store_order limit 8900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9000条
+select * from clt_eb_store_order limit 9000, 100
+select * from clt_eb_store_order limit 9000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9100条
+select * from clt_eb_store_order limit 9100, 100
+select * from clt_eb_store_order limit 9100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9200条
+select * from clt_eb_store_order limit 9200, 100
+select * from clt_eb_store_order limit 9200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9300条
+select * from clt_eb_store_order limit 9300, 100
+select * from clt_eb_store_order limit 9300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9400条
+select * from clt_eb_store_order limit 9400, 100
+select * from clt_eb_store_order limit 9400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9500条
+select * from clt_eb_store_order limit 9500, 100
+select * from clt_eb_store_order limit 9500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9600条
+select * from clt_eb_store_order limit 9600, 100
+select * from clt_eb_store_order limit 9600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9700条
+select * from clt_eb_store_order limit 9700, 100
+select * from clt_eb_store_order limit 9700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9800条
+select * from clt_eb_store_order limit 9800, 100
+select * from clt_eb_store_order limit 9800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查9900条
+select * from clt_eb_store_order limit 9900, 100
+select * from clt_eb_store_order limit 9900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10000条
+select * from clt_eb_store_order limit 10000, 100
+select * from clt_eb_store_order limit 10000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10100条
+select * from clt_eb_store_order limit 10100, 100
+select * from clt_eb_store_order limit 10100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10200条
+select * from clt_eb_store_order limit 10200, 100
+select * from clt_eb_store_order limit 10200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10300条
+select * from clt_eb_store_order limit 10300, 100
+select * from clt_eb_store_order limit 10300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10400条
+select * from clt_eb_store_order limit 10400, 100
+select * from clt_eb_store_order limit 10400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10500条
+select * from clt_eb_store_order limit 10500, 100
+select * from clt_eb_store_order limit 10500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10600条
+select * from clt_eb_store_order limit 10600, 100
+select * from clt_eb_store_order limit 10600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10700条
+select * from clt_eb_store_order limit 10700, 100
+select * from clt_eb_store_order limit 10700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10800条
+select * from clt_eb_store_order limit 10800, 100
+select * from clt_eb_store_order limit 10800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查10900条
+select * from clt_eb_store_order limit 10900, 100
+select * from clt_eb_store_order limit 10900, 100
+程序启动，开始检查
+===数据库连接信息========================
+数据库主机地址：rm-m5ek42g4msk7017a49o.mysql.rds.aliyuncs.com
+数据库端口号：3306
+数据库用户名：b'data_ttg'
+数据库密码：b'LQRdQIUaMsswzpzA1'
+数据库名：b'data_ttg'
+===========================
+===数据库连接信息========================
+数据库主机地址：122.9.53.128
+数据库端口号：3306
+数据库用户名：b'ttg'
+数据库密码：b'TTg+HuaWei|2023@_JSX'
+数据库名：b'data_ttg'
+===========================
+共有111个表需要检查
+数据表：clt_coupon 开始检查
+数据表：clt_coupon 已检查387条
+记录总量：387
+数据表：clt_coupon 已检查387条，检查完成
+数据表：clt_coupon_comment 开始检查
+数据表：clt_coupon_comment 已检查64条
+记录总量：64
+数据表：clt_coupon_comment 已检查64条，检查完成
+数据表：clt_coupon_order 开始检查
+数据表：clt_coupon_order 已检查1060618条
+记录总量：1060618
+数据表：clt_coupon_order 已检查1060618条，检查完成
+数据表：clt_coupon_order_action 开始检查
+数据表：clt_coupon_order_action 已检查3880980条
+记录总量：3880980
+数据表：clt_coupon_order_action 已检查3880980条，检查完成
+数据表：clt_coupon_order_goods 开始检查
+数据表：clt_coupon_order_goods 已检查1060617条
+记录总量：1060617
+数据表：clt_coupon_order_goods 已检查1060617条，检查完成
+数据表：clt_coupon_sequence 开始检查
+数据表：clt_coupon_sequence 已检查387条
+记录总量：387
+数据表：clt_coupon_sequence 已检查387条，检查完成
+数据表：clt_coupon_untying_log 开始检查
+数据表：clt_coupon_untying_log 已检查11条
+记录总量：11
+数据表：clt_coupon_untying_log 已检查11条，检查完成
+数据表：clt_discount_class 开始检查
+数据表：clt_discount_class 已检查79条
+记录总量：79
+数据表：clt_discount_class 已检查79条，检查完成
+数据表：clt_discount_news 开始检查
+数据表：clt_discount_news 已检查4条
+记录总量：4
+数据表：clt_discount_news 已检查4条，检查完成
+数据表：clt_discount_news_class 开始检查
+数据表：clt_discount_news_class 已检查1条
+记录总量：1
+数据表：clt_discount_news_class 已检查1条，检查完成
+数据表：clt_discount_public 开始检查
+数据表：clt_discount_public 已检查1条
+记录总量：1
+数据表：clt_discount_public 已检查1条，检查完成
+数据表：clt_discount_services 开始检查
+数据表：clt_discount_services 已检查3条
+记录总量：3
+数据表：clt_discount_services 已检查3条，检查完成
+数据表：clt_eb_combination 开始检查
+数据表：clt_eb_combination 已检查215条
+记录总量：215
+数据表：clt_eb_combination 已检查215条，检查完成
+数据表：clt_eb_combination_delivery 开始检查
+数据表：clt_eb_combination_delivery 已检查87条
+记录总量：87
+数据表：clt_eb_combination_delivery 已检查87条，检查完成
+数据表：clt_eb_combination_draft 开始检查
+数据表：clt_eb_combination_draft 已检查0条
+记录总量：0
+数据表：clt_eb_commissioner 开始检查
+数据表：clt_eb_commissioner 已检查1021条
+记录总量：1021
+数据表：clt_eb_commissioner 已检查1021条，检查完成
+数据表：clt_eb_commissioner_leader 开始检查
+数据表：clt_eb_commissioner_leader 已检查57条
+记录总量：57
+数据表：clt_eb_commissioner_leader 已检查57条，检查完成
+数据表：clt_eb_express 开始检查
+数据表：clt_eb_express 已检查28条
+记录总量：28
+数据表：clt_eb_express 已检查28条，检查完成
+数据表：clt_eb_goods_search 开始检查
+数据表：clt_eb_goods_search 已检查11条
+记录总量：11
+数据表：clt_eb_goods_search 已检查11条，检查完成
+数据表：clt_eb_group_colonel 开始检查
+数据表：clt_eb_group_colonel 已检查667602条
+记录总量：667602
+数据表：clt_eb_group_colonel 已检查667602条，检查完成
+数据表：clt_eb_group_colonel_income 开始检查
+数据表：clt_eb_group_colonel_income 已检查20843条
+记录总量：20843
+数据表：clt_eb_group_colonel_income 已检查20843条，检查完成
+数据表：clt_eb_group_colonel_record 开始检查
+数据表：clt_eb_group_colonel_record 已检查196条
+记录总量：196
+数据表：clt_eb_group_colonel_record 已检查196条，检查完成
+数据表：clt_eb_group_colonel_verify 开始检查
+数据表：clt_eb_group_colonel_verify 已检查392条
+记录总量：392
+数据表：clt_eb_group_colonel_verify 已检查392条，检查完成
+数据表：clt_eb_group_colonel_withdraw 开始检查
+数据表：clt_eb_group_colonel_withdraw 已检查1287条
+记录总量：1287
+数据表：clt_eb_group_colonel_withdraw 已检查1287条，检查完成
+数据表：clt_eb_houniao_order 开始检查
+数据表：clt_eb_houniao_order 已检查31条
+记录总量：31
+数据表：clt_eb_houniao_order 已检查31条，检查完成
+数据表：clt_eb_live_room 开始检查
+数据表：clt_eb_live_room 已检查2条
+记录总量：2
+数据表：clt_eb_live_room 已检查2条，检查完成
+数据表：clt_eb_live_subscribe 开始检查
+数据表：clt_eb_live_subscribe 已检查639条
+记录总量：639
+数据表：clt_eb_live_subscribe 已检查639条，检查完成
+数据表：clt_eb_order_export 开始检查
+数据表：clt_eb_order_export 已检查26075条
+记录总量：26075
+数据表：clt_eb_order_export 已检查26075条，检查完成
+数据表：clt_eb_order_refund 开始检查
+数据表：clt_eb_order_refund 已检查1055条
+记录总量：1055
+数据表：clt_eb_order_refund 已检查1055条，检查完成
+数据表：clt_eb_region 开始检查
+数据表：clt_eb_region 已检查704724条
+记录总量：704724
+数据表：clt_eb_region 已检查704724条，检查完成
+数据表：clt_eb_selection 开始检查
+数据表：clt_eb_selection 已检查16条
+记录总量：16
+数据表：clt_eb_selection 已检查16条，检查完成
+数据表：clt_eb_shipping_delivery 开始检查
+数据表：clt_eb_shipping_delivery 已检查162条
+记录总量：162
+数据表：clt_eb_shipping_delivery 已检查162条，检查完成
+数据表：clt_eb_shipping_delivery_product 开始检查
+数据表：clt_eb_shipping_delivery_product 已检查2393条
+记录总量：2393
+数据表：clt_eb_shipping_delivery_product 已检查2393条，检查完成
+数据表：clt_eb_shipping_driver 开始检查
+数据表：clt_eb_shipping_driver 已检查36条
+记录总量：36
+数据表：clt_eb_shipping_driver 已检查36条，检查完成
+数据表：clt_eb_shipping_templates 开始检查
+数据表：clt_eb_shipping_templates 已检查90条
+记录总量：90
+数据表：clt_eb_shipping_templates 已检查90条，检查完成
+数据表：clt_eb_shipping_templates_free 开始检查
+数据表：clt_eb_shipping_templates_free 已检查0条
+记录总量：0
+数据表：clt_eb_shipping_templates_region 开始检查
+数据表：clt_eb_shipping_templates_region 已检查22917条
+记录总量：22917
+数据表：clt_eb_shipping_templates_region 已检查22917条，检查完成
+数据表：clt_eb_spread_wechat 开始检查
+数据表：clt_eb_spread_wechat 已检查360条
+记录总量：360
+数据表：clt_eb_spread_wechat 已检查360条，检查完成
+数据表：clt_eb_store_cart 开始检查
+数据表：clt_eb_store_cart 已检查33724条
+记录总量：33724
+数据表：clt_eb_store_cart 已检查33724条，检查完成
+数据表：clt_eb_store_cate 开始检查
+数据表：clt_eb_store_cate 已检查36条
+记录总量：36
+数据表：clt_eb_store_cate 已检查36条，检查完成
+数据表：clt_eb_store_category 开始检查
+数据表：clt_eb_store_category 已检查165条
+记录总量：165
+数据表：clt_eb_store_category 已检查165条，检查完成
+数据表：clt_eb_store_combination 开始检查
+数据表：clt_eb_store_combination 已检查5381条
+记录总量：5381
+数据表：clt_eb_store_combination 已检查5381条，检查完成
+数据表：clt_eb_store_coupon_issue 开始检查
+数据表：clt_eb_store_coupon_issue 已检查0条
+记录总量：0
+数据表：clt_eb_store_coupon_issue_user 开始检查
+数据表：clt_eb_store_coupon_issue_user 已检查0条
+记录总量：0
+数据表：clt_eb_store_order 开始检查
+数据表：clt_eb_store_order 已检查10900条
+记录总量：47789539
+当前表[clt_eb_store_order]已检查10900条记录
+select * from clt_eb_store_order limit 0, 1
+主键：id，当前共有57个字段
+select * from clt_eb_store_order limit 10900, 100
+select * from clt_eb_store_order limit 10900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11000条
+select * from clt_eb_store_order limit 11000, 100
+select * from clt_eb_store_order limit 11000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11100条
+select * from clt_eb_store_order limit 11100, 100
+select * from clt_eb_store_order limit 11100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11200条
+select * from clt_eb_store_order limit 11200, 100
+select * from clt_eb_store_order limit 11200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11300条
+select * from clt_eb_store_order limit 11300, 100
+select * from clt_eb_store_order limit 11300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11400条
+select * from clt_eb_store_order limit 11400, 100
+select * from clt_eb_store_order limit 11400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11500条
+select * from clt_eb_store_order limit 11500, 100
+select * from clt_eb_store_order limit 11500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11600条
+select * from clt_eb_store_order limit 11600, 100
+select * from clt_eb_store_order limit 11600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11700条
+select * from clt_eb_store_order limit 11700, 100
+select * from clt_eb_store_order limit 11700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11800条
+select * from clt_eb_store_order limit 11800, 100
+select * from clt_eb_store_order limit 11800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查11900条
+select * from clt_eb_store_order limit 11900, 100
+select * from clt_eb_store_order limit 11900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12000条
+select * from clt_eb_store_order limit 12000, 100
+select * from clt_eb_store_order limit 12000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12100条
+select * from clt_eb_store_order limit 12100, 100
+select * from clt_eb_store_order limit 12100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12200条
+select * from clt_eb_store_order limit 12200, 100
+select * from clt_eb_store_order limit 12200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12300条
+select * from clt_eb_store_order limit 12300, 100
+select * from clt_eb_store_order limit 12300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12400条
+select * from clt_eb_store_order limit 12400, 100
+select * from clt_eb_store_order limit 12400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12500条
+select * from clt_eb_store_order limit 12500, 100
+select * from clt_eb_store_order limit 12500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12600条
+select * from clt_eb_store_order limit 12600, 100
+select * from clt_eb_store_order limit 12600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12700条
+select * from clt_eb_store_order limit 12700, 100
+select * from clt_eb_store_order limit 12700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12800条
+select * from clt_eb_store_order limit 12800, 100
+select * from clt_eb_store_order limit 12800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查12900条
+select * from clt_eb_store_order limit 12900, 100
+select * from clt_eb_store_order limit 12900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13000条
+select * from clt_eb_store_order limit 13000, 100
+select * from clt_eb_store_order limit 13000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13100条
+select * from clt_eb_store_order limit 13100, 100
+select * from clt_eb_store_order limit 13100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13200条
+select * from clt_eb_store_order limit 13200, 100
+select * from clt_eb_store_order limit 13200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13300条
+select * from clt_eb_store_order limit 13300, 100
+select * from clt_eb_store_order limit 13300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13400条
+select * from clt_eb_store_order limit 13400, 100
+select * from clt_eb_store_order limit 13400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13500条
+select * from clt_eb_store_order limit 13500, 100
+select * from clt_eb_store_order limit 13500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13600条
+select * from clt_eb_store_order limit 13600, 100
+select * from clt_eb_store_order limit 13600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13700条
+select * from clt_eb_store_order limit 13700, 100
+select * from clt_eb_store_order limit 13700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13800条
+select * from clt_eb_store_order limit 13800, 100
+select * from clt_eb_store_order limit 13800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查13900条
+select * from clt_eb_store_order limit 13900, 100
+select * from clt_eb_store_order limit 13900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14000条
+select * from clt_eb_store_order limit 14000, 100
+select * from clt_eb_store_order limit 14000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14100条
+select * from clt_eb_store_order limit 14100, 100
+select * from clt_eb_store_order limit 14100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14200条
+select * from clt_eb_store_order limit 14200, 100
+select * from clt_eb_store_order limit 14200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14300条
+select * from clt_eb_store_order limit 14300, 100
+select * from clt_eb_store_order limit 14300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14400条
+select * from clt_eb_store_order limit 14400, 100
+select * from clt_eb_store_order limit 14400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14500条
+select * from clt_eb_store_order limit 14500, 100
+select * from clt_eb_store_order limit 14500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14600条
+select * from clt_eb_store_order limit 14600, 100
+select * from clt_eb_store_order limit 14600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14700条
+select * from clt_eb_store_order limit 14700, 100
+select * from clt_eb_store_order limit 14700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14800条
+select * from clt_eb_store_order limit 14800, 100
+select * from clt_eb_store_order limit 14800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查14900条
+select * from clt_eb_store_order limit 14900, 100
+select * from clt_eb_store_order limit 14900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15000条
+select * from clt_eb_store_order limit 15000, 100
+select * from clt_eb_store_order limit 15000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15100条
+select * from clt_eb_store_order limit 15100, 100
+select * from clt_eb_store_order limit 15100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15200条
+select * from clt_eb_store_order limit 15200, 100
+select * from clt_eb_store_order limit 15200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15300条
+select * from clt_eb_store_order limit 15300, 100
+select * from clt_eb_store_order limit 15300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15400条
+select * from clt_eb_store_order limit 15400, 100
+select * from clt_eb_store_order limit 15400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15500条
+select * from clt_eb_store_order limit 15500, 100
+select * from clt_eb_store_order limit 15500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15600条
+select * from clt_eb_store_order limit 15600, 100
+select * from clt_eb_store_order limit 15600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15700条
+select * from clt_eb_store_order limit 15700, 100
+select * from clt_eb_store_order limit 15700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15800条
+select * from clt_eb_store_order limit 15800, 100
+select * from clt_eb_store_order limit 15800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查15900条
+select * from clt_eb_store_order limit 15900, 100
+select * from clt_eb_store_order limit 15900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16000条
+select * from clt_eb_store_order limit 16000, 100
+select * from clt_eb_store_order limit 16000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16100条
+select * from clt_eb_store_order limit 16100, 100
+select * from clt_eb_store_order limit 16100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16200条
+select * from clt_eb_store_order limit 16200, 100
+select * from clt_eb_store_order limit 16200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16300条
+select * from clt_eb_store_order limit 16300, 100
+select * from clt_eb_store_order limit 16300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16400条
+select * from clt_eb_store_order limit 16400, 100
+select * from clt_eb_store_order limit 16400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16500条
+select * from clt_eb_store_order limit 16500, 100
+select * from clt_eb_store_order limit 16500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16600条
+select * from clt_eb_store_order limit 16600, 100
+select * from clt_eb_store_order limit 16600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16700条
+select * from clt_eb_store_order limit 16700, 100
+select * from clt_eb_store_order limit 16700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16800条
+select * from clt_eb_store_order limit 16800, 100
+select * from clt_eb_store_order limit 16800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查16900条
+select * from clt_eb_store_order limit 16900, 100
+select * from clt_eb_store_order limit 16900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17000条
+select * from clt_eb_store_order limit 17000, 100
+select * from clt_eb_store_order limit 17000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17100条
+select * from clt_eb_store_order limit 17100, 100
+select * from clt_eb_store_order limit 17100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17200条
+select * from clt_eb_store_order limit 17200, 100
+select * from clt_eb_store_order limit 17200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17300条
+select * from clt_eb_store_order limit 17300, 100
+select * from clt_eb_store_order limit 17300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17400条
+select * from clt_eb_store_order limit 17400, 100
+select * from clt_eb_store_order limit 17400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17500条
+select * from clt_eb_store_order limit 17500, 100
+select * from clt_eb_store_order limit 17500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17600条
+select * from clt_eb_store_order limit 17600, 100
+select * from clt_eb_store_order limit 17600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17700条
+select * from clt_eb_store_order limit 17700, 100
+select * from clt_eb_store_order limit 17700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17800条
+select * from clt_eb_store_order limit 17800, 100
+select * from clt_eb_store_order limit 17800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查17900条
+select * from clt_eb_store_order limit 17900, 100
+select * from clt_eb_store_order limit 17900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18000条
+select * from clt_eb_store_order limit 18000, 100
+select * from clt_eb_store_order limit 18000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18100条
+select * from clt_eb_store_order limit 18100, 100
+select * from clt_eb_store_order limit 18100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18200条
+select * from clt_eb_store_order limit 18200, 100
+select * from clt_eb_store_order limit 18200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18300条
+select * from clt_eb_store_order limit 18300, 100
+select * from clt_eb_store_order limit 18300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18400条
+select * from clt_eb_store_order limit 18400, 100
+select * from clt_eb_store_order limit 18400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18500条
+select * from clt_eb_store_order limit 18500, 100
+select * from clt_eb_store_order limit 18500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18600条
+select * from clt_eb_store_order limit 18600, 100
+select * from clt_eb_store_order limit 18600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18700条
+select * from clt_eb_store_order limit 18700, 100
+select * from clt_eb_store_order limit 18700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18800条
+select * from clt_eb_store_order limit 18800, 100
+select * from clt_eb_store_order limit 18800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查18900条
+select * from clt_eb_store_order limit 18900, 100
+select * from clt_eb_store_order limit 18900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19000条
+select * from clt_eb_store_order limit 19000, 100
+select * from clt_eb_store_order limit 19000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19100条
+select * from clt_eb_store_order limit 19100, 100
+select * from clt_eb_store_order limit 19100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19200条
+select * from clt_eb_store_order limit 19200, 100
+select * from clt_eb_store_order limit 19200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19300条
+select * from clt_eb_store_order limit 19300, 100
+select * from clt_eb_store_order limit 19300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19400条
+select * from clt_eb_store_order limit 19400, 100
+select * from clt_eb_store_order limit 19400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19500条
+select * from clt_eb_store_order limit 19500, 100
+select * from clt_eb_store_order limit 19500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19600条
+select * from clt_eb_store_order limit 19600, 100
+select * from clt_eb_store_order limit 19600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19700条
+select * from clt_eb_store_order limit 19700, 100
+select * from clt_eb_store_order limit 19700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19800条
+select * from clt_eb_store_order limit 19800, 100
+select * from clt_eb_store_order limit 19800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查19900条
+select * from clt_eb_store_order limit 19900, 100
+select * from clt_eb_store_order limit 19900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20000条
+select * from clt_eb_store_order limit 20000, 100
+select * from clt_eb_store_order limit 20000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20100条
+select * from clt_eb_store_order limit 20100, 100
+select * from clt_eb_store_order limit 20100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20200条
+select * from clt_eb_store_order limit 20200, 100
+select * from clt_eb_store_order limit 20200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20300条
+select * from clt_eb_store_order limit 20300, 100
+select * from clt_eb_store_order limit 20300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20400条
+select * from clt_eb_store_order limit 20400, 100
+select * from clt_eb_store_order limit 20400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20500条
+select * from clt_eb_store_order limit 20500, 100
+select * from clt_eb_store_order limit 20500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20600条
+select * from clt_eb_store_order limit 20600, 100
+select * from clt_eb_store_order limit 20600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20700条
+select * from clt_eb_store_order limit 20700, 100
+select * from clt_eb_store_order limit 20700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20800条
+select * from clt_eb_store_order limit 20800, 100
+select * from clt_eb_store_order limit 20800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查20900条
+select * from clt_eb_store_order limit 20900, 100
+select * from clt_eb_store_order limit 20900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21000条
+select * from clt_eb_store_order limit 21000, 100
+select * from clt_eb_store_order limit 21000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21100条
+select * from clt_eb_store_order limit 21100, 100
+select * from clt_eb_store_order limit 21100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21200条
+select * from clt_eb_store_order limit 21200, 100
+select * from clt_eb_store_order limit 21200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21300条
+select * from clt_eb_store_order limit 21300, 100
+select * from clt_eb_store_order limit 21300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21400条
+select * from clt_eb_store_order limit 21400, 100
+select * from clt_eb_store_order limit 21400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21500条
+select * from clt_eb_store_order limit 21500, 100
+select * from clt_eb_store_order limit 21500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21600条
+select * from clt_eb_store_order limit 21600, 100
+select * from clt_eb_store_order limit 21600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21700条
+select * from clt_eb_store_order limit 21700, 100
+select * from clt_eb_store_order limit 21700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21800条
+select * from clt_eb_store_order limit 21800, 100
+select * from clt_eb_store_order limit 21800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查21900条
+select * from clt_eb_store_order limit 21900, 100
+select * from clt_eb_store_order limit 21900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22000条
+select * from clt_eb_store_order limit 22000, 100
+select * from clt_eb_store_order limit 22000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22100条
+select * from clt_eb_store_order limit 22100, 100
+select * from clt_eb_store_order limit 22100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22200条
+select * from clt_eb_store_order limit 22200, 100
+select * from clt_eb_store_order limit 22200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22300条
+select * from clt_eb_store_order limit 22300, 100
+select * from clt_eb_store_order limit 22300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22400条
+select * from clt_eb_store_order limit 22400, 100
+select * from clt_eb_store_order limit 22400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22500条
+select * from clt_eb_store_order limit 22500, 100
+select * from clt_eb_store_order limit 22500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22600条
+select * from clt_eb_store_order limit 22600, 100
+select * from clt_eb_store_order limit 22600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22700条
+select * from clt_eb_store_order limit 22700, 100
+select * from clt_eb_store_order limit 22700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22800条
+select * from clt_eb_store_order limit 22800, 100
+select * from clt_eb_store_order limit 22800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查22900条
+select * from clt_eb_store_order limit 22900, 100
+select * from clt_eb_store_order limit 22900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23000条
+select * from clt_eb_store_order limit 23000, 100
+select * from clt_eb_store_order limit 23000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23100条
+select * from clt_eb_store_order limit 23100, 100
+select * from clt_eb_store_order limit 23100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23200条
+select * from clt_eb_store_order limit 23200, 100
+select * from clt_eb_store_order limit 23200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23300条
+select * from clt_eb_store_order limit 23300, 100
+select * from clt_eb_store_order limit 23300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23400条
+select * from clt_eb_store_order limit 23400, 100
+select * from clt_eb_store_order limit 23400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23500条
+select * from clt_eb_store_order limit 23500, 100
+select * from clt_eb_store_order limit 23500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23600条
+select * from clt_eb_store_order limit 23600, 100
+select * from clt_eb_store_order limit 23600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23700条
+select * from clt_eb_store_order limit 23700, 100
+select * from clt_eb_store_order limit 23700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23800条
+select * from clt_eb_store_order limit 23800, 100
+select * from clt_eb_store_order limit 23800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查23900条
+select * from clt_eb_store_order limit 23900, 100
+select * from clt_eb_store_order limit 23900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24000条
+select * from clt_eb_store_order limit 24000, 100
+select * from clt_eb_store_order limit 24000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24100条
+select * from clt_eb_store_order limit 24100, 100
+select * from clt_eb_store_order limit 24100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24200条
+select * from clt_eb_store_order limit 24200, 100
+select * from clt_eb_store_order limit 24200, 100
+程序启动，开始检查
+===数据库连接信息========================
+数据库主机地址：rm-m5ek42g4msk7017a49o.mysql.rds.aliyuncs.com
+数据库端口号：3306
+数据库用户名：b'data_ttg'
+数据库密码：b'LQRdQIUaMsswzpzA1'
+数据库名：b'data_ttg'
+===========================
+===数据库连接信息========================
+数据库主机地址：122.9.53.128
+数据库端口号：3306
+数据库用户名：b'ttg'
+数据库密码：b'TTg+HuaWei|2023@_JSX'
+数据库名：b'data_ttg'
+===========================
+共有111个表需要检查
+数据表：clt_coupon 开始检查
+数据表：clt_coupon 已检查387条
+记录总量：387
+数据表：clt_coupon 已检查387条，检查完成
+数据表：clt_coupon_comment 开始检查
+数据表：clt_coupon_comment 已检查64条
+记录总量：64
+数据表：clt_coupon_comment 已检查64条，检查完成
+数据表：clt_coupon_order 开始检查
+数据表：clt_coupon_order 已检查1060618条
+记录总量：1060618
+数据表：clt_coupon_order 已检查1060618条，检查完成
+数据表：clt_coupon_order_action 开始检查
+数据表：clt_coupon_order_action 已检查3880980条
+记录总量：3880980
+数据表：clt_coupon_order_action 已检查3880980条，检查完成
+数据表：clt_coupon_order_goods 开始检查
+数据表：clt_coupon_order_goods 已检查1060617条
+记录总量：1060617
+数据表：clt_coupon_order_goods 已检查1060617条，检查完成
+数据表：clt_coupon_sequence 开始检查
+数据表：clt_coupon_sequence 已检查387条
+记录总量：387
+数据表：clt_coupon_sequence 已检查387条，检查完成
+数据表：clt_coupon_untying_log 开始检查
+数据表：clt_coupon_untying_log 已检查11条
+记录总量：11
+数据表：clt_coupon_untying_log 已检查11条，检查完成
+数据表：clt_discount_class 开始检查
+数据表：clt_discount_class 已检查79条
+记录总量：79
+数据表：clt_discount_class 已检查79条，检查完成
+数据表：clt_discount_news 开始检查
+数据表：clt_discount_news 已检查4条
+记录总量：4
+数据表：clt_discount_news 已检查4条，检查完成
+数据表：clt_discount_news_class 开始检查
+数据表：clt_discount_news_class 已检查1条
+记录总量：1
+数据表：clt_discount_news_class 已检查1条，检查完成
+数据表：clt_discount_public 开始检查
+数据表：clt_discount_public 已检查1条
+记录总量：1
+数据表：clt_discount_public 已检查1条，检查完成
+数据表：clt_discount_services 开始检查
+数据表：clt_discount_services 已检查3条
+记录总量：3
+数据表：clt_discount_services 已检查3条，检查完成
+数据表：clt_eb_combination 开始检查
+数据表：clt_eb_combination 已检查215条
+记录总量：215
+数据表：clt_eb_combination 已检查215条，检查完成
+数据表：clt_eb_combination_delivery 开始检查
+数据表：clt_eb_combination_delivery 已检查87条
+记录总量：87
+数据表：clt_eb_combination_delivery 已检查87条，检查完成
+数据表：clt_eb_combination_draft 开始检查
+数据表：clt_eb_combination_draft 已检查0条
+记录总量：0
+数据表：clt_eb_commissioner 开始检查
+数据表：clt_eb_commissioner 已检查1021条
+记录总量：1021
+数据表：clt_eb_commissioner 已检查1021条，检查完成
+数据表：clt_eb_commissioner_leader 开始检查
+数据表：clt_eb_commissioner_leader 已检查57条
+记录总量：57
+数据表：clt_eb_commissioner_leader 已检查57条，检查完成
+数据表：clt_eb_express 开始检查
+数据表：clt_eb_express 已检查28条
+记录总量：28
+数据表：clt_eb_express 已检查28条，检查完成
+数据表：clt_eb_goods_search 开始检查
+数据表：clt_eb_goods_search 已检查11条
+记录总量：11
+数据表：clt_eb_goods_search 已检查11条，检查完成
+数据表：clt_eb_group_colonel 开始检查
+数据表：clt_eb_group_colonel 已检查667602条
+记录总量：667602
+数据表：clt_eb_group_colonel 已检查667602条，检查完成
+数据表：clt_eb_group_colonel_income 开始检查
+数据表：clt_eb_group_colonel_income 已检查20843条
+记录总量：20843
+数据表：clt_eb_group_colonel_income 已检查20843条，检查完成
+数据表：clt_eb_group_colonel_record 开始检查
+数据表：clt_eb_group_colonel_record 已检查196条
+记录总量：196
+数据表：clt_eb_group_colonel_record 已检查196条，检查完成
+数据表：clt_eb_group_colonel_verify 开始检查
+数据表：clt_eb_group_colonel_verify 已检查392条
+记录总量：392
+数据表：clt_eb_group_colonel_verify 已检查392条，检查完成
+数据表：clt_eb_group_colonel_withdraw 开始检查
+数据表：clt_eb_group_colonel_withdraw 已检查1287条
+记录总量：1287
+数据表：clt_eb_group_colonel_withdraw 已检查1287条，检查完成
+数据表：clt_eb_houniao_order 开始检查
+数据表：clt_eb_houniao_order 已检查31条
+记录总量：31
+数据表：clt_eb_houniao_order 已检查31条，检查完成
+数据表：clt_eb_live_room 开始检查
+数据表：clt_eb_live_room 已检查2条
+记录总量：2
+数据表：clt_eb_live_room 已检查2条，检查完成
+数据表：clt_eb_live_subscribe 开始检查
+数据表：clt_eb_live_subscribe 已检查639条
+记录总量：639
+数据表：clt_eb_live_subscribe 已检查639条，检查完成
+数据表：clt_eb_order_export 开始检查
+数据表：clt_eb_order_export 已检查26075条
+记录总量：26075
+数据表：clt_eb_order_export 已检查26075条，检查完成
+数据表：clt_eb_order_refund 开始检查
+数据表：clt_eb_order_refund 已检查1055条
+记录总量：1055
+数据表：clt_eb_order_refund 已检查1055条，检查完成
+数据表：clt_eb_region 开始检查
+数据表：clt_eb_region 已检查704724条
+记录总量：704724
+数据表：clt_eb_region 已检查704724条，检查完成
+数据表：clt_eb_selection 开始检查
+数据表：clt_eb_selection 已检查16条
+记录总量：16
+数据表：clt_eb_selection 已检查16条，检查完成
+数据表：clt_eb_shipping_delivery 开始检查
+数据表：clt_eb_shipping_delivery 已检查162条
+记录总量：162
+数据表：clt_eb_shipping_delivery 已检查162条，检查完成
+数据表：clt_eb_shipping_delivery_product 开始检查
+数据表：clt_eb_shipping_delivery_product 已检查2393条
+记录总量：2393
+数据表：clt_eb_shipping_delivery_product 已检查2393条，检查完成
+数据表：clt_eb_shipping_driver 开始检查
+数据表：clt_eb_shipping_driver 已检查36条
+记录总量：36
+数据表：clt_eb_shipping_driver 已检查36条，检查完成
+数据表：clt_eb_shipping_templates 开始检查
+数据表：clt_eb_shipping_templates 已检查90条
+记录总量：90
+数据表：clt_eb_shipping_templates 已检查90条，检查完成
+数据表：clt_eb_shipping_templates_free 开始检查
+数据表：clt_eb_shipping_templates_free 已检查0条
+记录总量：0
+数据表：clt_eb_shipping_templates_region 开始检查
+数据表：clt_eb_shipping_templates_region 已检查22917条
+记录总量：22917
+数据表：clt_eb_shipping_templates_region 已检查22917条，检查完成
+数据表：clt_eb_spread_wechat 开始检查
+数据表：clt_eb_spread_wechat 已检查360条
+记录总量：360
+数据表：clt_eb_spread_wechat 已检查360条，检查完成
+数据表：clt_eb_store_cart 开始检查
+数据表：clt_eb_store_cart 已检查33724条
+记录总量：33724
+数据表：clt_eb_store_cart 已检查33724条，检查完成
+数据表：clt_eb_store_cate 开始检查
+数据表：clt_eb_store_cate 已检查36条
+记录总量：36
+数据表：clt_eb_store_cate 已检查36条，检查完成
+数据表：clt_eb_store_category 开始检查
+数据表：clt_eb_store_category 已检查165条
+记录总量：165
+数据表：clt_eb_store_category 已检查165条，检查完成
+数据表：clt_eb_store_combination 开始检查
+数据表：clt_eb_store_combination 已检查5381条
+记录总量：5381
+数据表：clt_eb_store_combination 已检查5381条，检查完成
+数据表：clt_eb_store_coupon_issue 开始检查
+数据表：clt_eb_store_coupon_issue 已检查0条
+记录总量：0
+数据表：clt_eb_store_coupon_issue_user 开始检查
+数据表：clt_eb_store_coupon_issue_user 已检查0条
+记录总量：0
+数据表：clt_eb_store_order 开始检查
+数据表：clt_eb_store_order 已检查24200条
+记录总量：47789539
+当前表[clt_eb_store_order]已检查24200条记录
+select * from clt_eb_store_order limit 0, 1
+主键：id，当前共有57个字段
+select * from clt_eb_store_order limit 24200, 100
+select * from clt_eb_store_order limit 24200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24300条
+select * from clt_eb_store_order limit 24300, 100
+select * from clt_eb_store_order limit 24300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24400条
+select * from clt_eb_store_order limit 24400, 100
+select * from clt_eb_store_order limit 24400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24500条
+select * from clt_eb_store_order limit 24500, 100
+select * from clt_eb_store_order limit 24500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24600条
+select * from clt_eb_store_order limit 24600, 100
+select * from clt_eb_store_order limit 24600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24700条
+select * from clt_eb_store_order limit 24700, 100
+select * from clt_eb_store_order limit 24700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24800条
+select * from clt_eb_store_order limit 24800, 100
+select * from clt_eb_store_order limit 24800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查24900条
+select * from clt_eb_store_order limit 24900, 100
+select * from clt_eb_store_order limit 24900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25000条
+select * from clt_eb_store_order limit 25000, 100
+select * from clt_eb_store_order limit 25000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25100条
+select * from clt_eb_store_order limit 25100, 100
+select * from clt_eb_store_order limit 25100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25200条
+select * from clt_eb_store_order limit 25200, 100
+select * from clt_eb_store_order limit 25200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25300条
+select * from clt_eb_store_order limit 25300, 100
+select * from clt_eb_store_order limit 25300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25400条
+select * from clt_eb_store_order limit 25400, 100
+select * from clt_eb_store_order limit 25400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25500条
+select * from clt_eb_store_order limit 25500, 100
+select * from clt_eb_store_order limit 25500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25600条
+select * from clt_eb_store_order limit 25600, 100
+select * from clt_eb_store_order limit 25600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25700条
+select * from clt_eb_store_order limit 25700, 100
+select * from clt_eb_store_order limit 25700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25800条
+select * from clt_eb_store_order limit 25800, 100
+select * from clt_eb_store_order limit 25800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查25900条
+select * from clt_eb_store_order limit 25900, 100
+select * from clt_eb_store_order limit 25900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26000条
+select * from clt_eb_store_order limit 26000, 100
+select * from clt_eb_store_order limit 26000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26100条
+select * from clt_eb_store_order limit 26100, 100
+select * from clt_eb_store_order limit 26100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26200条
+select * from clt_eb_store_order limit 26200, 100
+select * from clt_eb_store_order limit 26200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26300条
+select * from clt_eb_store_order limit 26300, 100
+select * from clt_eb_store_order limit 26300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26400条
+select * from clt_eb_store_order limit 26400, 100
+select * from clt_eb_store_order limit 26400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26500条
+select * from clt_eb_store_order limit 26500, 100
+select * from clt_eb_store_order limit 26500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26600条
+select * from clt_eb_store_order limit 26600, 100
+select * from clt_eb_store_order limit 26600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26700条
+select * from clt_eb_store_order limit 26700, 100
+select * from clt_eb_store_order limit 26700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26800条
+select * from clt_eb_store_order limit 26800, 100
+select * from clt_eb_store_order limit 26800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查26900条
+select * from clt_eb_store_order limit 26900, 100
+select * from clt_eb_store_order limit 26900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27000条
+select * from clt_eb_store_order limit 27000, 100
+select * from clt_eb_store_order limit 27000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27100条
+select * from clt_eb_store_order limit 27100, 100
+select * from clt_eb_store_order limit 27100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27200条
+select * from clt_eb_store_order limit 27200, 100
+select * from clt_eb_store_order limit 27200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27300条
+select * from clt_eb_store_order limit 27300, 100
+select * from clt_eb_store_order limit 27300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27400条
+select * from clt_eb_store_order limit 27400, 100
+select * from clt_eb_store_order limit 27400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27500条
+select * from clt_eb_store_order limit 27500, 100
+select * from clt_eb_store_order limit 27500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27600条
+select * from clt_eb_store_order limit 27600, 100
+select * from clt_eb_store_order limit 27600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27700条
+select * from clt_eb_store_order limit 27700, 100
+select * from clt_eb_store_order limit 27700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27800条
+select * from clt_eb_store_order limit 27800, 100
+select * from clt_eb_store_order limit 27800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查27900条
+select * from clt_eb_store_order limit 27900, 100
+select * from clt_eb_store_order limit 27900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28000条
+select * from clt_eb_store_order limit 28000, 100
+select * from clt_eb_store_order limit 28000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28100条
+select * from clt_eb_store_order limit 28100, 100
+select * from clt_eb_store_order limit 28100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28200条
+select * from clt_eb_store_order limit 28200, 100
+select * from clt_eb_store_order limit 28200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28300条
+select * from clt_eb_store_order limit 28300, 100
+select * from clt_eb_store_order limit 28300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28400条
+select * from clt_eb_store_order limit 28400, 100
+select * from clt_eb_store_order limit 28400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28500条
+select * from clt_eb_store_order limit 28500, 100
+select * from clt_eb_store_order limit 28500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28600条
+select * from clt_eb_store_order limit 28600, 100
+select * from clt_eb_store_order limit 28600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28700条
+select * from clt_eb_store_order limit 28700, 100
+select * from clt_eb_store_order limit 28700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28800条
+select * from clt_eb_store_order limit 28800, 100
+select * from clt_eb_store_order limit 28800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查28900条
+select * from clt_eb_store_order limit 28900, 100
+select * from clt_eb_store_order limit 28900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29000条
+select * from clt_eb_store_order limit 29000, 100
+select * from clt_eb_store_order limit 29000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29100条
+select * from clt_eb_store_order limit 29100, 100
+select * from clt_eb_store_order limit 29100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29200条
+select * from clt_eb_store_order limit 29200, 100
+select * from clt_eb_store_order limit 29200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29300条
+select * from clt_eb_store_order limit 29300, 100
+select * from clt_eb_store_order limit 29300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29400条
+select * from clt_eb_store_order limit 29400, 100
+select * from clt_eb_store_order limit 29400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29500条
+select * from clt_eb_store_order limit 29500, 100
+select * from clt_eb_store_order limit 29500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29600条
+select * from clt_eb_store_order limit 29600, 100
+select * from clt_eb_store_order limit 29600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29700条
+select * from clt_eb_store_order limit 29700, 100
+select * from clt_eb_store_order limit 29700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29800条
+select * from clt_eb_store_order limit 29800, 100
+select * from clt_eb_store_order limit 29800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查29900条
+select * from clt_eb_store_order limit 29900, 100
+select * from clt_eb_store_order limit 29900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30000条
+select * from clt_eb_store_order limit 30000, 100
+select * from clt_eb_store_order limit 30000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30100条
+select * from clt_eb_store_order limit 30100, 100
+select * from clt_eb_store_order limit 30100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30200条
+select * from clt_eb_store_order limit 30200, 100
+select * from clt_eb_store_order limit 30200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30300条
+select * from clt_eb_store_order limit 30300, 100
+select * from clt_eb_store_order limit 30300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30400条
+select * from clt_eb_store_order limit 30400, 100
+select * from clt_eb_store_order limit 30400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30500条
+select * from clt_eb_store_order limit 30500, 100
+select * from clt_eb_store_order limit 30500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30600条
+select * from clt_eb_store_order limit 30600, 100
+select * from clt_eb_store_order limit 30600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30700条
+select * from clt_eb_store_order limit 30700, 100
+select * from clt_eb_store_order limit 30700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30800条
+select * from clt_eb_store_order limit 30800, 100
+select * from clt_eb_store_order limit 30800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查30900条
+select * from clt_eb_store_order limit 30900, 100
+select * from clt_eb_store_order limit 30900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31000条
+select * from clt_eb_store_order limit 31000, 100
+select * from clt_eb_store_order limit 31000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31100条
+select * from clt_eb_store_order limit 31100, 100
+select * from clt_eb_store_order limit 31100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31200条
+select * from clt_eb_store_order limit 31200, 100
+select * from clt_eb_store_order limit 31200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31300条
+select * from clt_eb_store_order limit 31300, 100
+select * from clt_eb_store_order limit 31300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31400条
+select * from clt_eb_store_order limit 31400, 100
+select * from clt_eb_store_order limit 31400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31500条
+select * from clt_eb_store_order limit 31500, 100
+select * from clt_eb_store_order limit 31500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31600条
+select * from clt_eb_store_order limit 31600, 100
+select * from clt_eb_store_order limit 31600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31700条
+select * from clt_eb_store_order limit 31700, 100
+select * from clt_eb_store_order limit 31700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31800条
+select * from clt_eb_store_order limit 31800, 100
+select * from clt_eb_store_order limit 31800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查31900条
+select * from clt_eb_store_order limit 31900, 100
+select * from clt_eb_store_order limit 31900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32000条
+select * from clt_eb_store_order limit 32000, 100
+select * from clt_eb_store_order limit 32000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32100条
+select * from clt_eb_store_order limit 32100, 100
+select * from clt_eb_store_order limit 32100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32200条
+select * from clt_eb_store_order limit 32200, 100
+select * from clt_eb_store_order limit 32200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32300条
+select * from clt_eb_store_order limit 32300, 100
+select * from clt_eb_store_order limit 32300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32400条
+select * from clt_eb_store_order limit 32400, 100
+select * from clt_eb_store_order limit 32400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32500条
+select * from clt_eb_store_order limit 32500, 100
+select * from clt_eb_store_order limit 32500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32600条
+select * from clt_eb_store_order limit 32600, 100
+select * from clt_eb_store_order limit 32600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32700条
+select * from clt_eb_store_order limit 32700, 100
+select * from clt_eb_store_order limit 32700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32800条
+select * from clt_eb_store_order limit 32800, 100
+select * from clt_eb_store_order limit 32800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查32900条
+select * from clt_eb_store_order limit 32900, 100
+select * from clt_eb_store_order limit 32900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33000条
+select * from clt_eb_store_order limit 33000, 100
+select * from clt_eb_store_order limit 33000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33100条
+select * from clt_eb_store_order limit 33100, 100
+select * from clt_eb_store_order limit 33100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33200条
+select * from clt_eb_store_order limit 33200, 100
+select * from clt_eb_store_order limit 33200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33300条
+select * from clt_eb_store_order limit 33300, 100
+select * from clt_eb_store_order limit 33300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33400条
+select * from clt_eb_store_order limit 33400, 100
+select * from clt_eb_store_order limit 33400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33500条
+select * from clt_eb_store_order limit 33500, 100
+select * from clt_eb_store_order limit 33500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33600条
+select * from clt_eb_store_order limit 33600, 100
+select * from clt_eb_store_order limit 33600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33700条
+select * from clt_eb_store_order limit 33700, 100
+select * from clt_eb_store_order limit 33700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33800条
+select * from clt_eb_store_order limit 33800, 100
+select * from clt_eb_store_order limit 33800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查33900条
+select * from clt_eb_store_order limit 33900, 100
+select * from clt_eb_store_order limit 33900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34000条
+select * from clt_eb_store_order limit 34000, 100
+select * from clt_eb_store_order limit 34000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34100条
+select * from clt_eb_store_order limit 34100, 100
+select * from clt_eb_store_order limit 34100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34200条
+select * from clt_eb_store_order limit 34200, 100
+select * from clt_eb_store_order limit 34200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34300条
+select * from clt_eb_store_order limit 34300, 100
+select * from clt_eb_store_order limit 34300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34400条
+select * from clt_eb_store_order limit 34400, 100
+select * from clt_eb_store_order limit 34400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34500条
+select * from clt_eb_store_order limit 34500, 100
+select * from clt_eb_store_order limit 34500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34600条
+select * from clt_eb_store_order limit 34600, 100
+select * from clt_eb_store_order limit 34600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34700条
+select * from clt_eb_store_order limit 34700, 100
+select * from clt_eb_store_order limit 34700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34800条
+select * from clt_eb_store_order limit 34800, 100
+select * from clt_eb_store_order limit 34800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查34900条
+select * from clt_eb_store_order limit 34900, 100
+select * from clt_eb_store_order limit 34900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35000条
+select * from clt_eb_store_order limit 35000, 100
+select * from clt_eb_store_order limit 35000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35100条
+select * from clt_eb_store_order limit 35100, 100
+select * from clt_eb_store_order limit 35100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35200条
+select * from clt_eb_store_order limit 35200, 100
+select * from clt_eb_store_order limit 35200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35300条
+select * from clt_eb_store_order limit 35300, 100
+select * from clt_eb_store_order limit 35300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35400条
+select * from clt_eb_store_order limit 35400, 100
+select * from clt_eb_store_order limit 35400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35500条
+select * from clt_eb_store_order limit 35500, 100
+select * from clt_eb_store_order limit 35500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35600条
+select * from clt_eb_store_order limit 35600, 100
+select * from clt_eb_store_order limit 35600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35700条
+select * from clt_eb_store_order limit 35700, 100
+select * from clt_eb_store_order limit 35700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35800条
+select * from clt_eb_store_order limit 35800, 100
+select * from clt_eb_store_order limit 35800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查35900条
+select * from clt_eb_store_order limit 35900, 100
+select * from clt_eb_store_order limit 35900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36000条
+select * from clt_eb_store_order limit 36000, 100
+select * from clt_eb_store_order limit 36000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36100条
+select * from clt_eb_store_order limit 36100, 100
+select * from clt_eb_store_order limit 36100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36200条
+select * from clt_eb_store_order limit 36200, 100
+select * from clt_eb_store_order limit 36200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36300条
+select * from clt_eb_store_order limit 36300, 100
+select * from clt_eb_store_order limit 36300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36400条
+select * from clt_eb_store_order limit 36400, 100
+select * from clt_eb_store_order limit 36400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36500条
+select * from clt_eb_store_order limit 36500, 100
+select * from clt_eb_store_order limit 36500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36600条
+select * from clt_eb_store_order limit 36600, 100
+select * from clt_eb_store_order limit 36600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36700条
+select * from clt_eb_store_order limit 36700, 100
+select * from clt_eb_store_order limit 36700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36800条
+select * from clt_eb_store_order limit 36800, 100
+select * from clt_eb_store_order limit 36800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查36900条
+select * from clt_eb_store_order limit 36900, 100
+select * from clt_eb_store_order limit 36900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37000条
+select * from clt_eb_store_order limit 37000, 100
+select * from clt_eb_store_order limit 37000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37100条
+select * from clt_eb_store_order limit 37100, 100
+select * from clt_eb_store_order limit 37100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37200条
+select * from clt_eb_store_order limit 37200, 100
+select * from clt_eb_store_order limit 37200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37300条
+select * from clt_eb_store_order limit 37300, 100
+select * from clt_eb_store_order limit 37300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37400条
+select * from clt_eb_store_order limit 37400, 100
+select * from clt_eb_store_order limit 37400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37500条
+select * from clt_eb_store_order limit 37500, 100
+select * from clt_eb_store_order limit 37500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37600条
+select * from clt_eb_store_order limit 37600, 100
+select * from clt_eb_store_order limit 37600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37700条
+select * from clt_eb_store_order limit 37700, 100
+select * from clt_eb_store_order limit 37700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37800条
+select * from clt_eb_store_order limit 37800, 100
+select * from clt_eb_store_order limit 37800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查37900条
+select * from clt_eb_store_order limit 37900, 100
+select * from clt_eb_store_order limit 37900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38000条
+select * from clt_eb_store_order limit 38000, 100
+select * from clt_eb_store_order limit 38000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38100条
+select * from clt_eb_store_order limit 38100, 100
+select * from clt_eb_store_order limit 38100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38200条
+select * from clt_eb_store_order limit 38200, 100
+select * from clt_eb_store_order limit 38200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38300条
+select * from clt_eb_store_order limit 38300, 100
+select * from clt_eb_store_order limit 38300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38400条
+select * from clt_eb_store_order limit 38400, 100
+select * from clt_eb_store_order limit 38400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38500条
+select * from clt_eb_store_order limit 38500, 100
+select * from clt_eb_store_order limit 38500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38600条
+select * from clt_eb_store_order limit 38600, 100
+select * from clt_eb_store_order limit 38600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38700条
+select * from clt_eb_store_order limit 38700, 100
+select * from clt_eb_store_order limit 38700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38800条
+select * from clt_eb_store_order limit 38800, 100
+select * from clt_eb_store_order limit 38800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查38900条
+select * from clt_eb_store_order limit 38900, 100
+select * from clt_eb_store_order limit 38900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39000条
+select * from clt_eb_store_order limit 39000, 100
+select * from clt_eb_store_order limit 39000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39100条
+select * from clt_eb_store_order limit 39100, 100
+select * from clt_eb_store_order limit 39100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39200条
+select * from clt_eb_store_order limit 39200, 100
+select * from clt_eb_store_order limit 39200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39300条
+select * from clt_eb_store_order limit 39300, 100
+select * from clt_eb_store_order limit 39300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39400条
+select * from clt_eb_store_order limit 39400, 100
+select * from clt_eb_store_order limit 39400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39500条
+select * from clt_eb_store_order limit 39500, 100
+select * from clt_eb_store_order limit 39500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39600条
+select * from clt_eb_store_order limit 39600, 100
+select * from clt_eb_store_order limit 39600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39700条
+select * from clt_eb_store_order limit 39700, 100
+select * from clt_eb_store_order limit 39700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39800条
+select * from clt_eb_store_order limit 39800, 100
+select * from clt_eb_store_order limit 39800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查39900条
+select * from clt_eb_store_order limit 39900, 100
+select * from clt_eb_store_order limit 39900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40000条
+select * from clt_eb_store_order limit 40000, 100
+select * from clt_eb_store_order limit 40000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40100条
+select * from clt_eb_store_order limit 40100, 100
+select * from clt_eb_store_order limit 40100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40200条
+select * from clt_eb_store_order limit 40200, 100
+select * from clt_eb_store_order limit 40200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40300条
+select * from clt_eb_store_order limit 40300, 100
+select * from clt_eb_store_order limit 40300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40400条
+select * from clt_eb_store_order limit 40400, 100
+select * from clt_eb_store_order limit 40400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40500条
+select * from clt_eb_store_order limit 40500, 100
+select * from clt_eb_store_order limit 40500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40600条
+select * from clt_eb_store_order limit 40600, 100
+select * from clt_eb_store_order limit 40600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40700条
+select * from clt_eb_store_order limit 40700, 100
+select * from clt_eb_store_order limit 40700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40800条
+select * from clt_eb_store_order limit 40800, 100
+select * from clt_eb_store_order limit 40800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查40900条
+select * from clt_eb_store_order limit 40900, 100
+select * from clt_eb_store_order limit 40900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41000条
+select * from clt_eb_store_order limit 41000, 100
+select * from clt_eb_store_order limit 41000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41100条
+select * from clt_eb_store_order limit 41100, 100
+select * from clt_eb_store_order limit 41100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41200条
+select * from clt_eb_store_order limit 41200, 100
+select * from clt_eb_store_order limit 41200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41300条
+select * from clt_eb_store_order limit 41300, 100
+select * from clt_eb_store_order limit 41300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41400条
+select * from clt_eb_store_order limit 41400, 100
+select * from clt_eb_store_order limit 41400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41500条
+select * from clt_eb_store_order limit 41500, 100
+select * from clt_eb_store_order limit 41500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41600条
+select * from clt_eb_store_order limit 41600, 100
+select * from clt_eb_store_order limit 41600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41700条
+select * from clt_eb_store_order limit 41700, 100
+select * from clt_eb_store_order limit 41700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41800条
+select * from clt_eb_store_order limit 41800, 100
+select * from clt_eb_store_order limit 41800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查41900条
+select * from clt_eb_store_order limit 41900, 100
+select * from clt_eb_store_order limit 41900, 100
+程序启动，开始检查
+===数据库连接信息========================
+数据库主机地址：rm-m5ek42g4msk7017a49o.mysql.rds.aliyuncs.com
+数据库端口号：3306
+数据库用户名：b'data_ttg'
+数据库密码：b'LQRdQIUaMsswzpzA1'
+数据库名：b'data_ttg'
+===========================
+===数据库连接信息========================
+数据库主机地址：122.9.53.128
+数据库端口号：3306
+数据库用户名：b'ttg'
+数据库密码：b'TTg+HuaWei|2023@_JSX'
+数据库名：b'data_ttg'
+===========================
+共有111个表需要检查
+数据表：clt_coupon 开始检查
+数据表：clt_coupon 已检查387条
+记录总量：387
+数据表：clt_coupon 已检查387条，检查完成
+数据表：clt_coupon_comment 开始检查
+数据表：clt_coupon_comment 已检查64条
+记录总量：64
+数据表：clt_coupon_comment 已检查64条，检查完成
+数据表：clt_coupon_order 开始检查
+数据表：clt_coupon_order 已检查1060618条
+记录总量：1060618
+数据表：clt_coupon_order 已检查1060618条，检查完成
+数据表：clt_coupon_order_action 开始检查
+数据表：clt_coupon_order_action 已检查3880980条
+记录总量：3880980
+数据表：clt_coupon_order_action 已检查3880980条，检查完成
+数据表：clt_coupon_order_goods 开始检查
+数据表：clt_coupon_order_goods 已检查1060617条
+记录总量：1060617
+数据表：clt_coupon_order_goods 已检查1060617条，检查完成
+数据表：clt_coupon_sequence 开始检查
+数据表：clt_coupon_sequence 已检查387条
+记录总量：387
+数据表：clt_coupon_sequence 已检查387条，检查完成
+数据表：clt_coupon_untying_log 开始检查
+数据表：clt_coupon_untying_log 已检查11条
+记录总量：11
+数据表：clt_coupon_untying_log 已检查11条，检查完成
+数据表：clt_discount_class 开始检查
+数据表：clt_discount_class 已检查79条
+记录总量：79
+数据表：clt_discount_class 已检查79条，检查完成
+数据表：clt_discount_news 开始检查
+数据表：clt_discount_news 已检查4条
+记录总量：4
+数据表：clt_discount_news 已检查4条，检查完成
+数据表：clt_discount_news_class 开始检查
+数据表：clt_discount_news_class 已检查1条
+记录总量：1
+数据表：clt_discount_news_class 已检查1条，检查完成
+数据表：clt_discount_public 开始检查
+数据表：clt_discount_public 已检查1条
+记录总量：1
+数据表：clt_discount_public 已检查1条，检查完成
+数据表：clt_discount_services 开始检查
+数据表：clt_discount_services 已检查3条
+记录总量：3
+数据表：clt_discount_services 已检查3条，检查完成
+数据表：clt_eb_combination 开始检查
+数据表：clt_eb_combination 已检查215条
+记录总量：215
+数据表：clt_eb_combination 已检查215条，检查完成
+数据表：clt_eb_combination_delivery 开始检查
+数据表：clt_eb_combination_delivery 已检查87条
+记录总量：87
+数据表：clt_eb_combination_delivery 已检查87条，检查完成
+数据表：clt_eb_combination_draft 开始检查
+数据表：clt_eb_combination_draft 已检查0条
+记录总量：0
+数据表：clt_eb_commissioner 开始检查
+数据表：clt_eb_commissioner 已检查1021条
+记录总量：1021
+数据表：clt_eb_commissioner 已检查1021条，检查完成
+数据表：clt_eb_commissioner_leader 开始检查
+数据表：clt_eb_commissioner_leader 已检查57条
+记录总量：57
+数据表：clt_eb_commissioner_leader 已检查57条，检查完成
+数据表：clt_eb_express 开始检查
+数据表：clt_eb_express 已检查28条
+记录总量：28
+数据表：clt_eb_express 已检查28条，检查完成
+数据表：clt_eb_goods_search 开始检查
+数据表：clt_eb_goods_search 已检查11条
+记录总量：11
+数据表：clt_eb_goods_search 已检查11条，检查完成
+数据表：clt_eb_group_colonel 开始检查
+数据表：clt_eb_group_colonel 已检查667602条
+记录总量：667602
+数据表：clt_eb_group_colonel 已检查667602条，检查完成
+数据表：clt_eb_group_colonel_income 开始检查
+数据表：clt_eb_group_colonel_income 已检查20843条
+记录总量：20843
+数据表：clt_eb_group_colonel_income 已检查20843条，检查完成
+数据表：clt_eb_group_colonel_record 开始检查
+数据表：clt_eb_group_colonel_record 已检查196条
+记录总量：196
+数据表：clt_eb_group_colonel_record 已检查196条，检查完成
+数据表：clt_eb_group_colonel_verify 开始检查
+数据表：clt_eb_group_colonel_verify 已检查392条
+记录总量：392
+数据表：clt_eb_group_colonel_verify 已检查392条，检查完成
+数据表：clt_eb_group_colonel_withdraw 开始检查
+数据表：clt_eb_group_colonel_withdraw 已检查1287条
+记录总量：1287
+数据表：clt_eb_group_colonel_withdraw 已检查1287条，检查完成
+数据表：clt_eb_houniao_order 开始检查
+数据表：clt_eb_houniao_order 已检查31条
+记录总量：31
+数据表：clt_eb_houniao_order 已检查31条，检查完成
+数据表：clt_eb_live_room 开始检查
+数据表：clt_eb_live_room 已检查2条
+记录总量：2
+数据表：clt_eb_live_room 已检查2条，检查完成
+数据表：clt_eb_live_subscribe 开始检查
+数据表：clt_eb_live_subscribe 已检查639条
+记录总量：639
+数据表：clt_eb_live_subscribe 已检查639条，检查完成
+数据表：clt_eb_order_export 开始检查
+数据表：clt_eb_order_export 已检查26075条
+记录总量：26075
+数据表：clt_eb_order_export 已检查26075条，检查完成
+数据表：clt_eb_order_refund 开始检查
+数据表：clt_eb_order_refund 已检查1055条
+记录总量：1055
+数据表：clt_eb_order_refund 已检查1055条，检查完成
+数据表：clt_eb_region 开始检查
+数据表：clt_eb_region 已检查704724条
+记录总量：704724
+数据表：clt_eb_region 已检查704724条，检查完成
+数据表：clt_eb_selection 开始检查
+数据表：clt_eb_selection 已检查16条
+记录总量：16
+数据表：clt_eb_selection 已检查16条，检查完成
+数据表：clt_eb_shipping_delivery 开始检查
+数据表：clt_eb_shipping_delivery 已检查162条
+记录总量：162
+数据表：clt_eb_shipping_delivery 已检查162条，检查完成
+数据表：clt_eb_shipping_delivery_product 开始检查
+数据表：clt_eb_shipping_delivery_product 已检查2393条
+记录总量：2393
+数据表：clt_eb_shipping_delivery_product 已检查2393条，检查完成
+数据表：clt_eb_shipping_driver 开始检查
+数据表：clt_eb_shipping_driver 已检查36条
+记录总量：36
+数据表：clt_eb_shipping_driver 已检查36条，检查完成
+数据表：clt_eb_shipping_templates 开始检查
+数据表：clt_eb_shipping_templates 已检查90条
+记录总量：90
+数据表：clt_eb_shipping_templates 已检查90条，检查完成
+数据表：clt_eb_shipping_templates_free 开始检查
+数据表：clt_eb_shipping_templates_free 已检查0条
+记录总量：0
+数据表：clt_eb_shipping_templates_region 开始检查
+数据表：clt_eb_shipping_templates_region 已检查22917条
+记录总量：22917
+数据表：clt_eb_shipping_templates_region 已检查22917条，检查完成
+数据表：clt_eb_spread_wechat 开始检查
+数据表：clt_eb_spread_wechat 已检查360条
+记录总量：360
+数据表：clt_eb_spread_wechat 已检查360条，检查完成
+数据表：clt_eb_store_cart 开始检查
+数据表：clt_eb_store_cart 已检查33724条
+记录总量：33724
+数据表：clt_eb_store_cart 已检查33724条，检查完成
+数据表：clt_eb_store_cate 开始检查
+数据表：clt_eb_store_cate 已检查36条
+记录总量：36
+数据表：clt_eb_store_cate 已检查36条，检查完成
+数据表：clt_eb_store_category 开始检查
+数据表：clt_eb_store_category 已检查165条
+记录总量：165
+数据表：clt_eb_store_category 已检查165条，检查完成
+数据表：clt_eb_store_combination 开始检查
+数据表：clt_eb_store_combination 已检查5381条
+记录总量：5381
+数据表：clt_eb_store_combination 已检查5381条，检查完成
+数据表：clt_eb_store_coupon_issue 开始检查
+数据表：clt_eb_store_coupon_issue 已检查0条
+记录总量：0
+数据表：clt_eb_store_coupon_issue_user 开始检查
+数据表：clt_eb_store_coupon_issue_user 已检查0条
+记录总量：0
+数据表：clt_eb_store_order 开始检查
+数据表：clt_eb_store_order 已检查41900条
+记录总量：47789539
+当前表[clt_eb_store_order]已检查41900条记录
+select * from clt_eb_store_order limit 0, 1
+主键：id，当前共有57个字段
+select * from clt_eb_store_order limit 41900, 100
+select * from clt_eb_store_order limit 41900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42000条
+select * from clt_eb_store_order limit 42000, 100
+select * from clt_eb_store_order limit 42000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42100条
+select * from clt_eb_store_order limit 42100, 100
+select * from clt_eb_store_order limit 42100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42200条
+select * from clt_eb_store_order limit 42200, 100
+select * from clt_eb_store_order limit 42200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42300条
+select * from clt_eb_store_order limit 42300, 100
+select * from clt_eb_store_order limit 42300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42400条
+select * from clt_eb_store_order limit 42400, 100
+select * from clt_eb_store_order limit 42400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42500条
+select * from clt_eb_store_order limit 42500, 100
+select * from clt_eb_store_order limit 42500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42600条
+select * from clt_eb_store_order limit 42600, 100
+select * from clt_eb_store_order limit 42600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42700条
+select * from clt_eb_store_order limit 42700, 100
+select * from clt_eb_store_order limit 42700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42800条
+select * from clt_eb_store_order limit 42800, 100
+select * from clt_eb_store_order limit 42800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查42900条
+select * from clt_eb_store_order limit 42900, 100
+select * from clt_eb_store_order limit 42900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43000条
+select * from clt_eb_store_order limit 43000, 100
+select * from clt_eb_store_order limit 43000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43100条
+select * from clt_eb_store_order limit 43100, 100
+select * from clt_eb_store_order limit 43100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43200条
+select * from clt_eb_store_order limit 43200, 100
+select * from clt_eb_store_order limit 43200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43300条
+select * from clt_eb_store_order limit 43300, 100
+select * from clt_eb_store_order limit 43300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43400条
+select * from clt_eb_store_order limit 43400, 100
+select * from clt_eb_store_order limit 43400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43500条
+select * from clt_eb_store_order limit 43500, 100
+select * from clt_eb_store_order limit 43500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43600条
+select * from clt_eb_store_order limit 43600, 100
+select * from clt_eb_store_order limit 43600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43700条
+select * from clt_eb_store_order limit 43700, 100
+select * from clt_eb_store_order limit 43700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43800条
+select * from clt_eb_store_order limit 43800, 100
+select * from clt_eb_store_order limit 43800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查43900条
+select * from clt_eb_store_order limit 43900, 100
+select * from clt_eb_store_order limit 43900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44000条
+select * from clt_eb_store_order limit 44000, 100
+select * from clt_eb_store_order limit 44000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44100条
+select * from clt_eb_store_order limit 44100, 100
+select * from clt_eb_store_order limit 44100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44200条
+select * from clt_eb_store_order limit 44200, 100
+select * from clt_eb_store_order limit 44200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44300条
+select * from clt_eb_store_order limit 44300, 100
+select * from clt_eb_store_order limit 44300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44400条
+select * from clt_eb_store_order limit 44400, 100
+select * from clt_eb_store_order limit 44400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44500条
+select * from clt_eb_store_order limit 44500, 100
+select * from clt_eb_store_order limit 44500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44600条
+select * from clt_eb_store_order limit 44600, 100
+select * from clt_eb_store_order limit 44600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44700条
+select * from clt_eb_store_order limit 44700, 100
+select * from clt_eb_store_order limit 44700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44800条
+select * from clt_eb_store_order limit 44800, 100
+select * from clt_eb_store_order limit 44800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查44900条
+select * from clt_eb_store_order limit 44900, 100
+select * from clt_eb_store_order limit 44900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45000条
+select * from clt_eb_store_order limit 45000, 100
+select * from clt_eb_store_order limit 45000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45100条
+select * from clt_eb_store_order limit 45100, 100
+select * from clt_eb_store_order limit 45100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45200条
+select * from clt_eb_store_order limit 45200, 100
+select * from clt_eb_store_order limit 45200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45300条
+select * from clt_eb_store_order limit 45300, 100
+select * from clt_eb_store_order limit 45300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45400条
+select * from clt_eb_store_order limit 45400, 100
+select * from clt_eb_store_order limit 45400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45500条
+select * from clt_eb_store_order limit 45500, 100
+select * from clt_eb_store_order limit 45500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45600条
+select * from clt_eb_store_order limit 45600, 100
+select * from clt_eb_store_order limit 45600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45700条
+select * from clt_eb_store_order limit 45700, 100
+select * from clt_eb_store_order limit 45700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45800条
+select * from clt_eb_store_order limit 45800, 100
+select * from clt_eb_store_order limit 45800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查45900条
+select * from clt_eb_store_order limit 45900, 100
+select * from clt_eb_store_order limit 45900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46000条
+select * from clt_eb_store_order limit 46000, 100
+select * from clt_eb_store_order limit 46000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46100条
+select * from clt_eb_store_order limit 46100, 100
+select * from clt_eb_store_order limit 46100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46200条
+select * from clt_eb_store_order limit 46200, 100
+select * from clt_eb_store_order limit 46200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46300条
+select * from clt_eb_store_order limit 46300, 100
+select * from clt_eb_store_order limit 46300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46400条
+select * from clt_eb_store_order limit 46400, 100
+select * from clt_eb_store_order limit 46400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46500条
+select * from clt_eb_store_order limit 46500, 100
+select * from clt_eb_store_order limit 46500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46600条
+select * from clt_eb_store_order limit 46600, 100
+select * from clt_eb_store_order limit 46600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46700条
+select * from clt_eb_store_order limit 46700, 100
+select * from clt_eb_store_order limit 46700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46800条
+select * from clt_eb_store_order limit 46800, 100
+select * from clt_eb_store_order limit 46800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查46900条
+select * from clt_eb_store_order limit 46900, 100
+select * from clt_eb_store_order limit 46900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47000条
+select * from clt_eb_store_order limit 47000, 100
+select * from clt_eb_store_order limit 47000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47100条
+select * from clt_eb_store_order limit 47100, 100
+select * from clt_eb_store_order limit 47100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47200条
+select * from clt_eb_store_order limit 47200, 100
+select * from clt_eb_store_order limit 47200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47300条
+select * from clt_eb_store_order limit 47300, 100
+select * from clt_eb_store_order limit 47300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47400条
+select * from clt_eb_store_order limit 47400, 100
+select * from clt_eb_store_order limit 47400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47500条
+select * from clt_eb_store_order limit 47500, 100
+select * from clt_eb_store_order limit 47500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47600条
+select * from clt_eb_store_order limit 47600, 100
+select * from clt_eb_store_order limit 47600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47700条
+select * from clt_eb_store_order limit 47700, 100
+select * from clt_eb_store_order limit 47700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47800条
+select * from clt_eb_store_order limit 47800, 100
+select * from clt_eb_store_order limit 47800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查47900条
+select * from clt_eb_store_order limit 47900, 100
+select * from clt_eb_store_order limit 47900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48000条
+select * from clt_eb_store_order limit 48000, 100
+select * from clt_eb_store_order limit 48000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48100条
+select * from clt_eb_store_order limit 48100, 100
+select * from clt_eb_store_order limit 48100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48200条
+select * from clt_eb_store_order limit 48200, 100
+select * from clt_eb_store_order limit 48200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48300条
+select * from clt_eb_store_order limit 48300, 100
+select * from clt_eb_store_order limit 48300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48400条
+select * from clt_eb_store_order limit 48400, 100
+select * from clt_eb_store_order limit 48400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48500条
+select * from clt_eb_store_order limit 48500, 100
+select * from clt_eb_store_order limit 48500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48600条
+select * from clt_eb_store_order limit 48600, 100
+select * from clt_eb_store_order limit 48600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48700条
+select * from clt_eb_store_order limit 48700, 100
+select * from clt_eb_store_order limit 48700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48800条
+select * from clt_eb_store_order limit 48800, 100
+select * from clt_eb_store_order limit 48800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查48900条
+select * from clt_eb_store_order limit 48900, 100
+select * from clt_eb_store_order limit 48900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49000条
+select * from clt_eb_store_order limit 49000, 100
+select * from clt_eb_store_order limit 49000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49100条
+select * from clt_eb_store_order limit 49100, 100
+select * from clt_eb_store_order limit 49100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49200条
+select * from clt_eb_store_order limit 49200, 100
+select * from clt_eb_store_order limit 49200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49300条
+select * from clt_eb_store_order limit 49300, 100
+select * from clt_eb_store_order limit 49300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49400条
+select * from clt_eb_store_order limit 49400, 100
+select * from clt_eb_store_order limit 49400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49500条
+select * from clt_eb_store_order limit 49500, 100
+select * from clt_eb_store_order limit 49500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49600条
+select * from clt_eb_store_order limit 49600, 100
+select * from clt_eb_store_order limit 49600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49700条
+select * from clt_eb_store_order limit 49700, 100
+select * from clt_eb_store_order limit 49700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49800条
+select * from clt_eb_store_order limit 49800, 100
+select * from clt_eb_store_order limit 49800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查49900条
+select * from clt_eb_store_order limit 49900, 100
+select * from clt_eb_store_order limit 49900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50000条
+select * from clt_eb_store_order limit 50000, 100
+select * from clt_eb_store_order limit 50000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50100条
+select * from clt_eb_store_order limit 50100, 100
+select * from clt_eb_store_order limit 50100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50200条
+select * from clt_eb_store_order limit 50200, 100
+select * from clt_eb_store_order limit 50200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50300条
+select * from clt_eb_store_order limit 50300, 100
+select * from clt_eb_store_order limit 50300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50400条
+select * from clt_eb_store_order limit 50400, 100
+select * from clt_eb_store_order limit 50400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50500条
+select * from clt_eb_store_order limit 50500, 100
+select * from clt_eb_store_order limit 50500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50600条
+select * from clt_eb_store_order limit 50600, 100
+select * from clt_eb_store_order limit 50600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50700条
+select * from clt_eb_store_order limit 50700, 100
+select * from clt_eb_store_order limit 50700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50800条
+select * from clt_eb_store_order limit 50800, 100
+select * from clt_eb_store_order limit 50800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查50900条
+select * from clt_eb_store_order limit 50900, 100
+select * from clt_eb_store_order limit 50900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51000条
+select * from clt_eb_store_order limit 51000, 100
+select * from clt_eb_store_order limit 51000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51100条
+select * from clt_eb_store_order limit 51100, 100
+select * from clt_eb_store_order limit 51100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51200条
+select * from clt_eb_store_order limit 51200, 100
+select * from clt_eb_store_order limit 51200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51300条
+select * from clt_eb_store_order limit 51300, 100
+select * from clt_eb_store_order limit 51300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51400条
+select * from clt_eb_store_order limit 51400, 100
+select * from clt_eb_store_order limit 51400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51500条
+select * from clt_eb_store_order limit 51500, 100
+select * from clt_eb_store_order limit 51500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51600条
+select * from clt_eb_store_order limit 51600, 100
+select * from clt_eb_store_order limit 51600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51700条
+select * from clt_eb_store_order limit 51700, 100
+select * from clt_eb_store_order limit 51700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51800条
+select * from clt_eb_store_order limit 51800, 100
+select * from clt_eb_store_order limit 51800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查51900条
+select * from clt_eb_store_order limit 51900, 100
+select * from clt_eb_store_order limit 51900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52000条
+select * from clt_eb_store_order limit 52000, 100
+select * from clt_eb_store_order limit 52000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52100条
+select * from clt_eb_store_order limit 52100, 100
+select * from clt_eb_store_order limit 52100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52200条
+select * from clt_eb_store_order limit 52200, 100
+select * from clt_eb_store_order limit 52200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52300条
+select * from clt_eb_store_order limit 52300, 100
+select * from clt_eb_store_order limit 52300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52400条
+select * from clt_eb_store_order limit 52400, 100
+select * from clt_eb_store_order limit 52400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52500条
+select * from clt_eb_store_order limit 52500, 100
+select * from clt_eb_store_order limit 52500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52600条
+select * from clt_eb_store_order limit 52600, 100
+select * from clt_eb_store_order limit 52600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52700条
+select * from clt_eb_store_order limit 52700, 100
+select * from clt_eb_store_order limit 52700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52800条
+select * from clt_eb_store_order limit 52800, 100
+select * from clt_eb_store_order limit 52800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查52900条
+select * from clt_eb_store_order limit 52900, 100
+select * from clt_eb_store_order limit 52900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53000条
+select * from clt_eb_store_order limit 53000, 100
+select * from clt_eb_store_order limit 53000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53100条
+select * from clt_eb_store_order limit 53100, 100
+select * from clt_eb_store_order limit 53100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53200条
+select * from clt_eb_store_order limit 53200, 100
+select * from clt_eb_store_order limit 53200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53300条
+select * from clt_eb_store_order limit 53300, 100
+select * from clt_eb_store_order limit 53300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53400条
+select * from clt_eb_store_order limit 53400, 100
+select * from clt_eb_store_order limit 53400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53500条
+select * from clt_eb_store_order limit 53500, 100
+select * from clt_eb_store_order limit 53500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53600条
+select * from clt_eb_store_order limit 53600, 100
+select * from clt_eb_store_order limit 53600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53700条
+select * from clt_eb_store_order limit 53700, 100
+select * from clt_eb_store_order limit 53700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53800条
+select * from clt_eb_store_order limit 53800, 100
+select * from clt_eb_store_order limit 53800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查53900条
+select * from clt_eb_store_order limit 53900, 100
+select * from clt_eb_store_order limit 53900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54000条
+select * from clt_eb_store_order limit 54000, 100
+select * from clt_eb_store_order limit 54000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54100条
+select * from clt_eb_store_order limit 54100, 100
+select * from clt_eb_store_order limit 54100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54200条
+select * from clt_eb_store_order limit 54200, 100
+select * from clt_eb_store_order limit 54200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54300条
+select * from clt_eb_store_order limit 54300, 100
+select * from clt_eb_store_order limit 54300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54400条
+select * from clt_eb_store_order limit 54400, 100
+select * from clt_eb_store_order limit 54400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54500条
+select * from clt_eb_store_order limit 54500, 100
+select * from clt_eb_store_order limit 54500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54600条
+select * from clt_eb_store_order limit 54600, 100
+select * from clt_eb_store_order limit 54600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54700条
+select * from clt_eb_store_order limit 54700, 100
+select * from clt_eb_store_order limit 54700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54800条
+select * from clt_eb_store_order limit 54800, 100
+select * from clt_eb_store_order limit 54800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查54900条
+select * from clt_eb_store_order limit 54900, 100
+select * from clt_eb_store_order limit 54900, 100
+程序启动，开始检查
+===数据库连接信息========================
+数据库主机地址：rm-m5ek42g4msk7017a49o.mysql.rds.aliyuncs.com
+数据库端口号：3306
+数据库用户名：b'data_ttg'
+数据库密码：b'LQRdQIUaMsswzpzA1'
+数据库名：b'data_ttg'
+===========================
+===数据库连接信息========================
+数据库主机地址：122.9.53.128
+数据库端口号：3306
+数据库用户名：b'ttg'
+数据库密码：b'TTg+HuaWei|2023@_JSX'
+数据库名：b'data_ttg'
+===========================
+共有111个表需要检查
+数据表：clt_coupon 开始检查
+数据表：clt_coupon 已检查387条
+记录总量：387
+数据表：clt_coupon 已检查387条，检查完成
+数据表：clt_coupon_comment 开始检查
+数据表：clt_coupon_comment 已检查64条
+记录总量：64
+数据表：clt_coupon_comment 已检查64条，检查完成
+数据表：clt_coupon_order 开始检查
+数据表：clt_coupon_order 已检查1060618条
+记录总量：1060618
+数据表：clt_coupon_order 已检查1060618条，检查完成
+数据表：clt_coupon_order_action 开始检查
+数据表：clt_coupon_order_action 已检查3880980条
+记录总量：3880980
+数据表：clt_coupon_order_action 已检查3880980条，检查完成
+数据表：clt_coupon_order_goods 开始检查
+数据表：clt_coupon_order_goods 已检查1060617条
+记录总量：1060617
+数据表：clt_coupon_order_goods 已检查1060617条，检查完成
+数据表：clt_coupon_sequence 开始检查
+数据表：clt_coupon_sequence 已检查387条
+记录总量：387
+数据表：clt_coupon_sequence 已检查387条，检查完成
+数据表：clt_coupon_untying_log 开始检查
+数据表：clt_coupon_untying_log 已检查11条
+记录总量：11
+数据表：clt_coupon_untying_log 已检查11条，检查完成
+数据表：clt_discount_class 开始检查
+数据表：clt_discount_class 已检查79条
+记录总量：79
+数据表：clt_discount_class 已检查79条，检查完成
+数据表：clt_discount_news 开始检查
+数据表：clt_discount_news 已检查4条
+记录总量：4
+数据表：clt_discount_news 已检查4条，检查完成
+数据表：clt_discount_news_class 开始检查
+数据表：clt_discount_news_class 已检查1条
+记录总量：1
+数据表：clt_discount_news_class 已检查1条，检查完成
+数据表：clt_discount_public 开始检查
+数据表：clt_discount_public 已检查1条
+记录总量：1
+数据表：clt_discount_public 已检查1条，检查完成
+数据表：clt_discount_services 开始检查
+数据表：clt_discount_services 已检查3条
+记录总量：3
+数据表：clt_discount_services 已检查3条，检查完成
+数据表：clt_eb_combination 开始检查
+数据表：clt_eb_combination 已检查215条
+记录总量：215
+数据表：clt_eb_combination 已检查215条，检查完成
+数据表：clt_eb_combination_delivery 开始检查
+数据表：clt_eb_combination_delivery 已检查87条
+记录总量：87
+数据表：clt_eb_combination_delivery 已检查87条，检查完成
+数据表：clt_eb_combination_draft 开始检查
+数据表：clt_eb_combination_draft 已检查0条
+记录总量：0
+数据表：clt_eb_commissioner 开始检查
+数据表：clt_eb_commissioner 已检查1021条
+记录总量：1021
+数据表：clt_eb_commissioner 已检查1021条，检查完成
+数据表：clt_eb_commissioner_leader 开始检查
+数据表：clt_eb_commissioner_leader 已检查57条
+记录总量：57
+数据表：clt_eb_commissioner_leader 已检查57条，检查完成
+数据表：clt_eb_express 开始检查
+数据表：clt_eb_express 已检查28条
+记录总量：28
+数据表：clt_eb_express 已检查28条，检查完成
+数据表：clt_eb_goods_search 开始检查
+数据表：clt_eb_goods_search 已检查11条
+记录总量：11
+数据表：clt_eb_goods_search 已检查11条，检查完成
+数据表：clt_eb_group_colonel 开始检查
+数据表：clt_eb_group_colonel 已检查667602条
+记录总量：667602
+数据表：clt_eb_group_colonel 已检查667602条，检查完成
+数据表：clt_eb_group_colonel_income 开始检查
+数据表：clt_eb_group_colonel_income 已检查20843条
+记录总量：20843
+数据表：clt_eb_group_colonel_income 已检查20843条，检查完成
+数据表：clt_eb_group_colonel_record 开始检查
+数据表：clt_eb_group_colonel_record 已检查196条
+记录总量：196
+数据表：clt_eb_group_colonel_record 已检查196条，检查完成
+数据表：clt_eb_group_colonel_verify 开始检查
+数据表：clt_eb_group_colonel_verify 已检查392条
+记录总量：392
+数据表：clt_eb_group_colonel_verify 已检查392条，检查完成
+数据表：clt_eb_group_colonel_withdraw 开始检查
+数据表：clt_eb_group_colonel_withdraw 已检查1287条
+记录总量：1287
+数据表：clt_eb_group_colonel_withdraw 已检查1287条，检查完成
+数据表：clt_eb_houniao_order 开始检查
+数据表：clt_eb_houniao_order 已检查31条
+记录总量：31
+数据表：clt_eb_houniao_order 已检查31条，检查完成
+数据表：clt_eb_live_room 开始检查
+数据表：clt_eb_live_room 已检查2条
+记录总量：2
+数据表：clt_eb_live_room 已检查2条，检查完成
+数据表：clt_eb_live_subscribe 开始检查
+数据表：clt_eb_live_subscribe 已检查639条
+记录总量：639
+数据表：clt_eb_live_subscribe 已检查639条，检查完成
+数据表：clt_eb_order_export 开始检查
+数据表：clt_eb_order_export 已检查26075条
+记录总量：26075
+数据表：clt_eb_order_export 已检查26075条，检查完成
+数据表：clt_eb_order_refund 开始检查
+数据表：clt_eb_order_refund 已检查1055条
+记录总量：1055
+数据表：clt_eb_order_refund 已检查1055条，检查完成
+数据表：clt_eb_region 开始检查
+数据表：clt_eb_region 已检查704724条
+记录总量：704724
+数据表：clt_eb_region 已检查704724条，检查完成
+数据表：clt_eb_selection 开始检查
+数据表：clt_eb_selection 已检查16条
+记录总量：16
+数据表：clt_eb_selection 已检查16条，检查完成
+数据表：clt_eb_shipping_delivery 开始检查
+数据表：clt_eb_shipping_delivery 已检查162条
+记录总量：162
+数据表：clt_eb_shipping_delivery 已检查162条，检查完成
+数据表：clt_eb_shipping_delivery_product 开始检查
+数据表：clt_eb_shipping_delivery_product 已检查2393条
+记录总量：2393
+数据表：clt_eb_shipping_delivery_product 已检查2393条，检查完成
+数据表：clt_eb_shipping_driver 开始检查
+数据表：clt_eb_shipping_driver 已检查36条
+记录总量：36
+数据表：clt_eb_shipping_driver 已检查36条，检查完成
+数据表：clt_eb_shipping_templates 开始检查
+数据表：clt_eb_shipping_templates 已检查90条
+记录总量：90
+数据表：clt_eb_shipping_templates 已检查90条，检查完成
+数据表：clt_eb_shipping_templates_free 开始检查
+数据表：clt_eb_shipping_templates_free 已检查0条
+记录总量：0
+数据表：clt_eb_shipping_templates_region 开始检查
+数据表：clt_eb_shipping_templates_region 已检查22917条
+记录总量：22917
+数据表：clt_eb_shipping_templates_region 已检查22917条，检查完成
+数据表：clt_eb_spread_wechat 开始检查
+数据表：clt_eb_spread_wechat 已检查360条
+记录总量：360
+数据表：clt_eb_spread_wechat 已检查360条，检查完成
+数据表：clt_eb_store_cart 开始检查
+数据表：clt_eb_store_cart 已检查33724条
+记录总量：33724
+数据表：clt_eb_store_cart 已检查33724条，检查完成
+数据表：clt_eb_store_cate 开始检查
+数据表：clt_eb_store_cate 已检查36条
+记录总量：36
+数据表：clt_eb_store_cate 已检查36条，检查完成
+数据表：clt_eb_store_category 开始检查
+数据表：clt_eb_store_category 已检查165条
+记录总量：165
+数据表：clt_eb_store_category 已检查165条，检查完成
+数据表：clt_eb_store_combination 开始检查
+数据表：clt_eb_store_combination 已检查5381条
+记录总量：5381
+数据表：clt_eb_store_combination 已检查5381条，检查完成
+数据表：clt_eb_store_coupon_issue 开始检查
+数据表：clt_eb_store_coupon_issue 已检查0条
+记录总量：0
+数据表：clt_eb_store_coupon_issue_user 开始检查
+数据表：clt_eb_store_coupon_issue_user 已检查0条
+记录总量：0
+数据表：clt_eb_store_order 开始检查
+数据表：clt_eb_store_order 已检查54900条
+记录总量：47789539
+当前表[clt_eb_store_order]已检查54900条记录
+select * from clt_eb_store_order limit 0, 1
+主键：id，当前共有57个字段
+select * from clt_eb_store_order limit 54900, 100
+select * from clt_eb_store_order limit 54900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55000条
+select * from clt_eb_store_order limit 55000, 100
+select * from clt_eb_store_order limit 55000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55100条
+select * from clt_eb_store_order limit 55100, 100
+select * from clt_eb_store_order limit 55100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55200条
+select * from clt_eb_store_order limit 55200, 100
+select * from clt_eb_store_order limit 55200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55300条
+select * from clt_eb_store_order limit 55300, 100
+select * from clt_eb_store_order limit 55300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55400条
+select * from clt_eb_store_order limit 55400, 100
+select * from clt_eb_store_order limit 55400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55500条
+select * from clt_eb_store_order limit 55500, 100
+select * from clt_eb_store_order limit 55500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55600条
+select * from clt_eb_store_order limit 55600, 100
+select * from clt_eb_store_order limit 55600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55700条
+select * from clt_eb_store_order limit 55700, 100
+select * from clt_eb_store_order limit 55700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55800条
+select * from clt_eb_store_order limit 55800, 100
+select * from clt_eb_store_order limit 55800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查55900条
+select * from clt_eb_store_order limit 55900, 100
+select * from clt_eb_store_order limit 55900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56000条
+select * from clt_eb_store_order limit 56000, 100
+select * from clt_eb_store_order limit 56000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56100条
+select * from clt_eb_store_order limit 56100, 100
+select * from clt_eb_store_order limit 56100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56200条
+select * from clt_eb_store_order limit 56200, 100
+select * from clt_eb_store_order limit 56200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56300条
+select * from clt_eb_store_order limit 56300, 100
+select * from clt_eb_store_order limit 56300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56400条
+select * from clt_eb_store_order limit 56400, 100
+select * from clt_eb_store_order limit 56400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56500条
+select * from clt_eb_store_order limit 56500, 100
+select * from clt_eb_store_order limit 56500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56600条
+select * from clt_eb_store_order limit 56600, 100
+select * from clt_eb_store_order limit 56600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56700条
+select * from clt_eb_store_order limit 56700, 100
+select * from clt_eb_store_order limit 56700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56800条
+select * from clt_eb_store_order limit 56800, 100
+select * from clt_eb_store_order limit 56800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查56900条
+select * from clt_eb_store_order limit 56900, 100
+select * from clt_eb_store_order limit 56900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57000条
+select * from clt_eb_store_order limit 57000, 100
+select * from clt_eb_store_order limit 57000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57100条
+select * from clt_eb_store_order limit 57100, 100
+select * from clt_eb_store_order limit 57100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57200条
+select * from clt_eb_store_order limit 57200, 100
+select * from clt_eb_store_order limit 57200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57300条
+select * from clt_eb_store_order limit 57300, 100
+select * from clt_eb_store_order limit 57300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57400条
+select * from clt_eb_store_order limit 57400, 100
+select * from clt_eb_store_order limit 57400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57500条
+select * from clt_eb_store_order limit 57500, 100
+select * from clt_eb_store_order limit 57500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57600条
+select * from clt_eb_store_order limit 57600, 100
+select * from clt_eb_store_order limit 57600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57700条
+select * from clt_eb_store_order limit 57700, 100
+select * from clt_eb_store_order limit 57700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57800条
+select * from clt_eb_store_order limit 57800, 100
+select * from clt_eb_store_order limit 57800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查57900条
+select * from clt_eb_store_order limit 57900, 100
+select * from clt_eb_store_order limit 57900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58000条
+select * from clt_eb_store_order limit 58000, 100
+select * from clt_eb_store_order limit 58000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58100条
+select * from clt_eb_store_order limit 58100, 100
+select * from clt_eb_store_order limit 58100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58200条
+select * from clt_eb_store_order limit 58200, 100
+select * from clt_eb_store_order limit 58200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58300条
+select * from clt_eb_store_order limit 58300, 100
+select * from clt_eb_store_order limit 58300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58400条
+select * from clt_eb_store_order limit 58400, 100
+select * from clt_eb_store_order limit 58400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58500条
+select * from clt_eb_store_order limit 58500, 100
+select * from clt_eb_store_order limit 58500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58600条
+select * from clt_eb_store_order limit 58600, 100
+select * from clt_eb_store_order limit 58600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58700条
+select * from clt_eb_store_order limit 58700, 100
+select * from clt_eb_store_order limit 58700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58800条
+select * from clt_eb_store_order limit 58800, 100
+select * from clt_eb_store_order limit 58800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查58900条
+select * from clt_eb_store_order limit 58900, 100
+select * from clt_eb_store_order limit 58900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59000条
+select * from clt_eb_store_order limit 59000, 100
+select * from clt_eb_store_order limit 59000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59100条
+select * from clt_eb_store_order limit 59100, 100
+select * from clt_eb_store_order limit 59100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59200条
+select * from clt_eb_store_order limit 59200, 100
+select * from clt_eb_store_order limit 59200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59300条
+select * from clt_eb_store_order limit 59300, 100
+select * from clt_eb_store_order limit 59300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59400条
+select * from clt_eb_store_order limit 59400, 100
+select * from clt_eb_store_order limit 59400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59500条
+select * from clt_eb_store_order limit 59500, 100
+select * from clt_eb_store_order limit 59500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59600条
+select * from clt_eb_store_order limit 59600, 100
+select * from clt_eb_store_order limit 59600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59700条
+select * from clt_eb_store_order limit 59700, 100
+select * from clt_eb_store_order limit 59700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59800条
+select * from clt_eb_store_order limit 59800, 100
+select * from clt_eb_store_order limit 59800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查59900条
+select * from clt_eb_store_order limit 59900, 100
+select * from clt_eb_store_order limit 59900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60000条
+select * from clt_eb_store_order limit 60000, 100
+select * from clt_eb_store_order limit 60000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60100条
+select * from clt_eb_store_order limit 60100, 100
+select * from clt_eb_store_order limit 60100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60200条
+select * from clt_eb_store_order limit 60200, 100
+select * from clt_eb_store_order limit 60200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60300条
+select * from clt_eb_store_order limit 60300, 100
+select * from clt_eb_store_order limit 60300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60400条
+select * from clt_eb_store_order limit 60400, 100
+select * from clt_eb_store_order limit 60400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60500条
+select * from clt_eb_store_order limit 60500, 100
+select * from clt_eb_store_order limit 60500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60600条
+select * from clt_eb_store_order limit 60600, 100
+select * from clt_eb_store_order limit 60600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60700条
+select * from clt_eb_store_order limit 60700, 100
+select * from clt_eb_store_order limit 60700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60800条
+select * from clt_eb_store_order limit 60800, 100
+select * from clt_eb_store_order limit 60800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查60900条
+select * from clt_eb_store_order limit 60900, 100
+select * from clt_eb_store_order limit 60900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61000条
+select * from clt_eb_store_order limit 61000, 100
+select * from clt_eb_store_order limit 61000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61100条
+select * from clt_eb_store_order limit 61100, 100
+select * from clt_eb_store_order limit 61100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61200条
+select * from clt_eb_store_order limit 61200, 100
+select * from clt_eb_store_order limit 61200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61300条
+select * from clt_eb_store_order limit 61300, 100
+select * from clt_eb_store_order limit 61300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61400条
+select * from clt_eb_store_order limit 61400, 100
+select * from clt_eb_store_order limit 61400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61500条
+select * from clt_eb_store_order limit 61500, 100
+select * from clt_eb_store_order limit 61500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61600条
+select * from clt_eb_store_order limit 61600, 100
+select * from clt_eb_store_order limit 61600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61700条
+select * from clt_eb_store_order limit 61700, 100
+select * from clt_eb_store_order limit 61700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61800条
+select * from clt_eb_store_order limit 61800, 100
+select * from clt_eb_store_order limit 61800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查61900条
+select * from clt_eb_store_order limit 61900, 100
+select * from clt_eb_store_order limit 61900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62000条
+select * from clt_eb_store_order limit 62000, 100
+select * from clt_eb_store_order limit 62000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62100条
+select * from clt_eb_store_order limit 62100, 100
+select * from clt_eb_store_order limit 62100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62200条
+select * from clt_eb_store_order limit 62200, 100
+select * from clt_eb_store_order limit 62200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62300条
+select * from clt_eb_store_order limit 62300, 100
+select * from clt_eb_store_order limit 62300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62400条
+select * from clt_eb_store_order limit 62400, 100
+select * from clt_eb_store_order limit 62400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62500条
+select * from clt_eb_store_order limit 62500, 100
+select * from clt_eb_store_order limit 62500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62600条
+select * from clt_eb_store_order limit 62600, 100
+select * from clt_eb_store_order limit 62600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62700条
+select * from clt_eb_store_order limit 62700, 100
+select * from clt_eb_store_order limit 62700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62800条
+select * from clt_eb_store_order limit 62800, 100
+select * from clt_eb_store_order limit 62800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查62900条
+select * from clt_eb_store_order limit 62900, 100
+select * from clt_eb_store_order limit 62900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63000条
+select * from clt_eb_store_order limit 63000, 100
+select * from clt_eb_store_order limit 63000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63100条
+select * from clt_eb_store_order limit 63100, 100
+select * from clt_eb_store_order limit 63100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63200条
+select * from clt_eb_store_order limit 63200, 100
+select * from clt_eb_store_order limit 63200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63300条
+select * from clt_eb_store_order limit 63300, 100
+select * from clt_eb_store_order limit 63300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63400条
+select * from clt_eb_store_order limit 63400, 100
+select * from clt_eb_store_order limit 63400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63500条
+select * from clt_eb_store_order limit 63500, 100
+select * from clt_eb_store_order limit 63500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63600条
+select * from clt_eb_store_order limit 63600, 100
+select * from clt_eb_store_order limit 63600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63700条
+select * from clt_eb_store_order limit 63700, 100
+select * from clt_eb_store_order limit 63700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63800条
+select * from clt_eb_store_order limit 63800, 100
+select * from clt_eb_store_order limit 63800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查63900条
+select * from clt_eb_store_order limit 63900, 100
+select * from clt_eb_store_order limit 63900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64000条
+select * from clt_eb_store_order limit 64000, 100
+select * from clt_eb_store_order limit 64000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64100条
+select * from clt_eb_store_order limit 64100, 100
+select * from clt_eb_store_order limit 64100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64200条
+select * from clt_eb_store_order limit 64200, 100
+select * from clt_eb_store_order limit 64200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64300条
+select * from clt_eb_store_order limit 64300, 100
+select * from clt_eb_store_order limit 64300, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64400条
+select * from clt_eb_store_order limit 64400, 100
+select * from clt_eb_store_order limit 64400, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64500条
+select * from clt_eb_store_order limit 64500, 100
+select * from clt_eb_store_order limit 64500, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64600条
+select * from clt_eb_store_order limit 64600, 100
+select * from clt_eb_store_order limit 64600, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64700条
+select * from clt_eb_store_order limit 64700, 100
+select * from clt_eb_store_order limit 64700, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64800条
+select * from clt_eb_store_order limit 64800, 100
+select * from clt_eb_store_order limit 64800, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查64900条
+select * from clt_eb_store_order limit 64900, 100
+select * from clt_eb_store_order limit 64900, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查65000条
+select * from clt_eb_store_order limit 65000, 100
+select * from clt_eb_store_order limit 65000, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查65100条
+select * from clt_eb_store_order limit 65100, 100
+select * from clt_eb_store_order limit 65100, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查65200条
+select * from clt_eb_store_order limit 65200, 100
+select * from clt_eb_store_order limit 65200, 100
+本次提交100条记录
+成功插入100条记录
+数据表：clt_eb_store_order 已检查65300条
+select * from clt_eb_store_order limit 65300, 100
+select * from clt_eb_store_order limit 65300, 100
