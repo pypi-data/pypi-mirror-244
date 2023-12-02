@@ -1,0 +1,10 @@
+shopifywebhookparser/__init__.py,sha256=G4GGBrHVhY796pwmTcaMnt9A6vwikSa9BoaLUJOdCWY,134
+shopifywebhookparser/__init__.pyi,sha256=sVK__GgDJK1hKubSLwbCS7s9frjiMYPyA9mUF7ZfGn4,449
+shopifywebhookparser/models.py,sha256=VinxmPxN_SGTEvV7scwgrM63rtAwIP2hwrfl5wHObuk,1341
+shopifywebhookparser/models.pyi,sha256=hoJ8rOmBttuL__bfVwm6IdpZzJmIfLYnK4Rsy3VaZbg,311
+shopifywebhookparser/parsing.py,sha256=vkHB965NGoavp-i4bnpyzsWxbaRbAVodPTdwNh1Zz2Q,3487
+shopifywebhookparser/parsing.pyi,sha256=HA4PBsMAlx_fTTotD7BE_dyUGw397UeH6xDX6zLKagA,913
+shopifywebhookparser-0.1.23.dist-info/LICENSE,sha256=Knt5TU8h6ni6P6wr1TZNY2wpWQEAHCOC8v5yLdQACVI,1075
+shopifywebhookparser-0.1.23.dist-info/METADATA,sha256=kuEgl883v0PNPL8TH6OOWYWhM0O5ACpk95-TPoGaZ7M,4197
+shopifywebhookparser-0.1.23.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+shopifywebhookparser-0.1.23.dist-info/RECORD,,
