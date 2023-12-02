@@ -1,0 +1,10 @@
+pybcl/__init__.py,sha256=sWwMmzhciSlYb06E-OgTXRqEJoT-Sx7AqDOQdfbd4iM,4922
+pybcl/_bcl.cpython-37m-darwin.so,sha256=_ghmc7PH_rLVgwJAp9XSeqiIPiUuFk-WgGS5jxYTEnk,55016
+pybcl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybcl/__main__.py,sha256=3NUSBxrhvXgsKkeHWVib8coulMx8GwX8pgfp_GBNl2I,5571
+pybcl-1.0.0.dist-info/RECORD,,
+pybcl-1.0.0.dist-info/LICENSE,sha256=PJ2GIRBV2IC7UeLuvL83tO1C3FfBIHQu_tZJlHAtPJQ,11336
+pybcl-1.0.0.dist-info/WHEEL,sha256=HS_2vgrXyXO7N4Q-5VnuMAgG-fG_r8eemMgfU9Aw3Kk,110
+pybcl-1.0.0.dist-info/entry_points.txt,sha256=rD-2IUoKfDiCvslsVNsm-DrKXLTv_tAAU_GZKWuyHYU,46
+pybcl-1.0.0.dist-info/top_level.txt,sha256=Gb_IlkfHy4ECaTN9RFPu1nDeuwULxfEP3Qdj-ZFUqdI,6
+pybcl-1.0.0.dist-info/METADATA,sha256=DoLHJxjS-bk9PrHSj8u9j2BFeJQMoJobwo7wdFk1VKE,6790
