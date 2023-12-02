@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gyvatukas"
+version = "0"
+description = "collection of utils by/for paulius."
+authors = ["Paulius Gerve <gerve@paulius.xyz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
