@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: sourcehutx
+Version: 0.2.0
+Summary: Async Python client for the Sourcehut API
+Project-URL: Source, https://git.sr.ht/~gotmax23/sourcehutx
+Project-URL: Mailing List, https://lists.sr.ht/~gotmax23/sourcehutx
+Project-URL: Changelog, https://git.sr.ht/~gotmax23/sourcehutx/tree/main/item/NEWS.md
+Author-email: Maxwell G <maxwell@gtmx.me>
+License: MIT AND Unlicense
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: httpx
+Requires-Dist: pydantic<3,>=1.10
+Requires-Dist: tomli; python_version < '3.11'
+Provides-Extra: codeqa
+Requires-Dist: reuse; extra == 'codeqa'
+Requires-Dist: ruff; extra == 'codeqa'
+Provides-Extra: dev
+Requires-Dist: nox; extra == 'dev'
+Requires-Dist: sourcehutx[formatters]; extra == 'dev'
+Requires-Dist: sourcehutx[test]; extra == 'dev'
+Requires-Dist: sourcehutx[typing]; extra == 'dev'
+Provides-Extra: formatters
+Requires-Dist: black; extra == 'formatters'
+Requires-Dist: isort; extra == 'formatters'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: respx; extra == 'test'
+Requires-Dist: vcrpy; extra == 'test'
+Provides-Extra: typing
+Requires-Dist: mypy; extra == 'typing'
+Requires-Dist: nox; extra == 'typing'
+Requires-Dist: pytest; extra == 'typing'
+Requires-Dist: pytest-asyncio; extra == 'typing'
+Requires-Dist: respx; extra == 'typing'
+Requires-Dist: typing-extensions; extra == 'typing'
+Description-Content-Type: text/markdown
+
+<!--
+Copyright (C) 2023 Maxwell G <maxwell@gtmx.me>
+SPDX-License-Identifier: MIT
+-->
+
+# sourcehutX
+
+[![builds.sr.ht status](https://builds.sr.ht/~gotmax23/sourcehutx/commits/main.svg)](https://builds.sr.ht/~gotmax23/sourcehutx/commits/main?)
+
+[![copr build status][badge-copr]][link-copr] (gotmax23/sourcehut)
+
+[![copr build status][badge-copr-dev]][link-copr-dev] (gotmax23/sourcehut-dev)
+
+sourcehutX provides an async python client for the Sourcehut API
+implemented using httpx and pydantic.
+
+## Links
+
+- [sourcehutX project hub](https://sr.ht/~gotmax23/sourcehutx)
+- [sourcehutX git.sr.ht repo](https://git.sr.ht/~gotmax23/sourcehutx)
+- [sourcehutX tracker](https://todo.sr.ht/~gotmax23/sourcehutx)
+- [sourcehutX mailing list][archives] ([~gotmax/sourcehutx@lists.sr.ht][mailto])
+
+[archives]: https://lists.sr.ht/~gotmax23/sourcehutx
+[mailto]: mailto:~gotmax/sourcehutx@lists.sr.ht
+
+## Contributing
+
+See [CONTRIBUTING.md](https://git.sr.ht/~gotmax23/sourcehutx/tree/main/item/CONTRIBUTING.md).
+
+## License
+
+This repository is licensed under
+
+    SPDX-License-Identifer: MIT AND Unlicense
+
+In general:
+
+- Code is licensed under `MIT`
+- Test fixtures in `fixtures/cassettes` are licensed under `Unlicense`
+
+[badge-copr]: https://copr.fedorainfracloud.org/coprs/gotmax23/sourcehut/package/python-sourcehutx/status_image/last_build.png
+[link-copr]: https://copr.fedorainfracloud.org/coprs/gotmax23/sourcehut/
+[badge-copr-dev]: https://copr.fedorainfracloud.org/coprs/gotmax23/sourcehut-dev/package/python-sourcehutx/status_image/last_build.png
+[link-copr-dev]: https://copr.fedorainfracloud.org/coprs/gotmax23/sourcehut-dev/
