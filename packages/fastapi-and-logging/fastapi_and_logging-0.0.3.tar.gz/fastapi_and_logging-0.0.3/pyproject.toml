@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fastapi-and-logging"
+version = "0.0.3"
+description = "FastAPI-and-Logging simplifies log handling, allowing for effective organization, tracking, and analysis of logs in FastAPI applications, aiding in debugging and issue resolut"
+authors = ["Saeid Noormohammadi <heysaeid92@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/heysaeid/fastapi-and-logging"
+repository = "https://github.com/heysaeid/fastapi-and-logging"
+documentation = "https://github.com/heysaeid/fastapi-and-logging"
+keywords = ["fastapi", "fastapi logging", "fastapi and logging"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.104.1"
+loguru = "^0.7.2"
+user-agents = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.100.0"
+loguru = "^0.7.2"
+user-agents = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
