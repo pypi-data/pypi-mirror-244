@@ -1,0 +1,11 @@
+bibt/__init__.py,sha256=8tkdZMytST5vyHv-q2abYIZDQje16WBHsRLOKyHYIGA,1014
+bibt/gcp/__init__.py,sha256=YWEslxLEnJGeQb-YBJr4qrKfXGP-61VdNx0WlW_e9Vo,935
+bibt/gcp/scc/__init__.py,sha256=sqJJX4hkV_X5-SE8Aoz3XPsvdN1GAYejFakT1oU_6dQ,884
+bibt/gcp/scc/classes.py,sha256=McPnS0IQ01JStTCH4S9UHIYhWx-AgL_oqgO3WGac_Ms,2974
+bibt/gcp/scc/methods.py,sha256=yqwhXL4R8WidDBqlG0L5h7FLn_ZKuFZZh9JDcfmGuxQ,19844
+bibt/gcp/scc/version.py,sha256=KlgaVSJ1AQxCDJZgh4wFk-gpem-k9PfebW8U3hiKJD4,22
+docs/conf.py,sha256=KBG28SRGxYj_GCd8Uoe3_0pYah1NUEe7iycCFtmDkK0,2910
+bibt_gcp_scc-1.1.5.dist-info/METADATA,sha256=hJm7escFy9pRnmJ4w-fw_e_0SMXp6fYW8WA82prWHXg,1907
+bibt_gcp_scc-1.1.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+bibt_gcp_scc-1.1.5.dist-info/licenses/LICENSE,sha256=epnB9a7mCEhC0EaX3ub51YmLFi_lWd6lhQ5Upted0NE,1054
+bibt_gcp_scc-1.1.5.dist-info/RECORD,,
