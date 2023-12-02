@@ -1,0 +1,7 @@
+aiconfig_extension_hugging_face_transformers/__init__.py,sha256=I-ldbOA_8OeeXvtOdMc1iSMqea5PJByd98cfwgIVE5c,118
+aiconfig_extension_hugging_face_transformers/text_generation.py,sha256=DZx4NsFnO2e3R5f7VKMvjKrLI8m1rfw_H1UCpgXBdzI,9881
+aiconfig_extension_hugging_face_transformers-0.0.3.dist-info/LICENSE,sha256=Y9QXsR7MsHamtzzHDOh4-XPsAK-QxJpSsYYDqarrnlY,1055
+aiconfig_extension_hugging_face_transformers-0.0.3.dist-info/METADATA,sha256=34247xy4xcc_FhqcX99pBQruh7w7JDmSL5gHcPEJNks,2163
+aiconfig_extension_hugging_face_transformers-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aiconfig_extension_hugging_face_transformers-0.0.3.dist-info/top_level.txt,sha256=Y-nNILbD8iTLlKVEIcjFVKrpgEMXbHoxjkJZtA2Q6Ek,45
+aiconfig_extension_hugging_face_transformers-0.0.3.dist-info/RECORD,,
