@@ -1,0 +1,158 @@
+name: CI
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches:
+      - "*"
+  schedule:
+    - cron: "0 13 * * 1"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  detect-ci-trigger:
+    name: detect ci trigger
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    outputs:
+      triggered: ${{ steps.detect-trigger.outputs.trigger-found }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: xarray-contrib/ci-trigger@v1
+        id: detect-trigger
+        with:
+          keyword: "[full-cloud-ci]"
+
+  build:
+    name: Build (${{ matrix.python-version }} | ${{ matrix.os }})
+    if: github.repository == 'jbusecke/xmip'
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: bash -l {0}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ["ubuntu-latest"]
+        python-version: ["3.8", "3.9", "3.10"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create conda environment
+        uses: mamba-org/setup-micromamba@v1.6.0
+        with:
+          cache-downloads: true
+          cache-env: true
+          micromamba-version: 'latest'
+          environment-file: ci/environment.yml
+          extra-specs: |
+            python=${{ matrix.python-version }}
+      - name: Install xMIP
+        run: |
+          python -m pip install -e . --no-deps
+          conda list
+      - name: Run Tests
+        run: |
+          pytest -n auto --cov=./ --cov-report=xml --ignore=tests/test_preprocessing_cloud.py
+      - name: Upload code coverage to Codecov
+        uses: codecov/codecov-action@v3.1.4
+        with:
+          file: ./coverage.xml
+          flags: unittests
+          env_vars: OS,PYTHON
+          name: codecov-umbrella
+          fail_ci_if_error: false
+      - name: Check Machine Config
+        run: lscpu
+
+  upstream-dev:
+    name: Build (upstream-dev)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create conda environment
+        uses: mamba-org/provision-with-micromamba@main
+        with:
+          cache-downloads: true
+          cache-env: true
+          micromamba-version: 'latest'
+          environment-file: ci/environment-upstream-dev.yml
+          extra-specs: |
+            python=3.10
+      - name: Install xMIP
+        run: |
+          python -m pip install -e . --no-deps
+          conda list
+      - name: Run Tests
+        run: |
+          pytest -n auto --cov=./ --cov-report=xml --ignore=tests/test_preprocessing_cloud.py
+      - name: Upload code coverage to Codecov
+        uses: codecov/codecov-action@v3.1.4
+        with:
+          file: ./coverage.xml
+          flags: unittests
+          env_vars: OS,PYTHON
+          name: codecov-umbrella
+          fail_ci_if_error: false
+      - name: Check Machine Config
+        run: lscpu
+      - name: Run Tests
+        run: |
+          pytest -n auto --ignore=tests/test_preprocessing_cloud.py
+
+  cloud-tests:
+    needs: detect-ci-trigger
+    if: needs.detect-ci-trigger.outputs.triggered == 'true'
+    name: Build (cloud-data-tests | ${{ matrix.variable_id }} | ${{ matrix.experiment_id }} | ${{ matrix.grid_label }})
+    strategy:
+      fail-fast: false
+      matrix:
+        variable_id: ["thetao", "o2", "so", "uo"]
+        experiment_id: ["historical", "ssp585"]
+        grid_label: ["gn", "gr"]
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create conda environment
+        uses: mamba-org/provision-with-micromamba@main
+        with:
+          cache-downloads: true
+          cache-env: true
+          micromamba-version: 'latest'
+          environment-file: ci/environment-upstream-dev.yml
+          extra-specs: |
+            python=3.10
+      - name: Install xMIP
+        run: |
+          python -m pip install -e . --no-deps
+          conda list
+      - name: Run Tests
+        run: |
+          pytest -n auto --cov=./ --cov-report=xml --ignore=tests/test_preprocessing_cloud.py
+      - name: Upload code coverage to Codecov
+        uses: codecov/codecov-action@v3.1.4
+        with:
+          file: ./coverage.xml
+          flags: unittests
+          env_vars: OS,PYTHON
+          name: codecov-umbrella
+          fail_ci_if_error: false
+      - name: Check Machine Config
+        run: lscpu
+      - name: Run Tests
+        run: |
+          pwd
+          echo $PYTHONPATH
+          pytest -n auto --reruns 1 --reruns-delay 5 tests/test_preprocessing_cloud.py --gl ${{ matrix.grid_label }} --ei ${{ matrix.experiment_id }} --vi ${{ matrix.variable_id }}
