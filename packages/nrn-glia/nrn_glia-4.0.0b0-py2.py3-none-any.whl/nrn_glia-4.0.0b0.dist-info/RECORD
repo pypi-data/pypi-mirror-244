@@ -1,0 +1,16 @@
+glia/.gitignore,sha256=s6sjeNcjW4HNvKAMqP4Z1C1ccy6drkIwZZYXpFTz8YY,18
+glia/__init__.py,sha256=-T5B-iGIWda33jHbbkIy0qqqphXe5s9BqLaMQHTyWs4,2668
+glia/_cli.py,sha256=W8W3it8bZfKXbvIiJG-Q-em5MfYvI7JKYYC4jMm8FuE,6530
+glia/_fs.py,sha256=KEUO21RIN-OAwS17wE7iraeMAgRqVaMBmzytwluBRtQ,2233
+glia/_glia.py,sha256=eWFqdJFJVW7uruCGYOavlylE4pXRgl0czlZDHFi2gXE,20009
+glia/_hash.py,sha256=JqZNzDgJ2_hqtUGAmFS_aPYmpWzKBdMJFLC-PIXbL1o,1102
+glia/_mpi.py,sha256=Csa_iyJwQM8By9W8q7zBvqTpPKz8wIM0LI4S4umQpEQ,460
+glia/assets.py,sha256=BUsGHFCYbFiNm73jMXY-nY7k8MfPPg_RGsCG7jTBV_o,8044
+glia/exceptions.py,sha256=wMKSgRldPT6nxXxvf4DjUMeOMwww6QxQeqAekY3aQwo,1134
+glia/library.py,sha256=xwGxEqCnIK5L0W07_kg5XOD4tuIpgiMn__b07a-auuM,195
+glia/resolution.py,sha256=VLKT_j4mY_7NWejpeX-RYN4OBLbcCwveraBdBPP85VA,9418
+nrn_glia-4.0.0b0.dist-info/entry_points.txt,sha256=Z4NH_D-BET2ze9Yx_kXcEbHZob8IABbYda_oPvf0jHI,43
+nrn_glia-4.0.0b0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+nrn_glia-4.0.0b0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+nrn_glia-4.0.0b0.dist-info/METADATA,sha256=6HxWyzMtLTIGdNY-2-93etsNJauWkQOPtQO2g2b1zk8,6397
+nrn_glia-4.0.0b0.dist-info/RECORD,,
