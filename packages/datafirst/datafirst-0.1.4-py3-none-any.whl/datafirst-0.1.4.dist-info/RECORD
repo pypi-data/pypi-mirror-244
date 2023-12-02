@@ -1,0 +1,10 @@
+datafirst/__init__.py,sha256=plrS0jJbEqtfW3XPqMhLqMDwSZOWyqlpYQ4bqBwX2ow,387
+datafirst/constants.py,sha256=J856FFcezW1rBykIuMrhJw_Ypz4Cf3j27bs2zUQELIk,68
+datafirst/database.py,sha256=73Q19k1LZZl-kXdwxKbMH0xIUM4QlSghN-GJqQzUzTE,9903
+datafirst/models/database.py,sha256=OAkjVIGjrW257-a1_GRCaHV3N0TTXnuKk4IpiSJ72IM,2107
+datafirst/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datafirst/utils.py,sha256=eliDLyyJxBgDmkK6Na1mvOAeKMItc1YfbP6KaUnVYvc,998
+datafirst-0.1.4.dist-info/LICENSE,sha256=_Kxr-obdxsFx_dUF_N-OGoO-SO3RCVjZL81a9q4ZSj8,1080
+datafirst-0.1.4.dist-info/METADATA,sha256=gpjmfRPHOU5eiIysUq0bXIc-j2hNWWT3YWntJrTc2RQ,3451
+datafirst-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+datafirst-0.1.4.dist-info/RECORD,,
