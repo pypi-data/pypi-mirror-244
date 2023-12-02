@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ipython_iris_magic.egg-info/PKG-INFO
+src/ipython_iris_magic.egg-info/SOURCES.txt
+src/ipython_iris_magic.egg-info/dependency_links.txt
+src/ipython_iris_magic.egg-info/requires.txt
+src/ipython_iris_magic.egg-info/top_level.txt
+src/iris_magic/__init__.py
+src/iris_magic/iris_magic.py
