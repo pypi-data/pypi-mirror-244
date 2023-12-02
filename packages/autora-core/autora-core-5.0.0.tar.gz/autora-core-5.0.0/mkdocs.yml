@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+INHERIT: mkdocs/base.yml  # use the shared AutoRA configuration by default
+
+site_name: AutoRA Core
+repo_url: 'https://github.com/autoresearch/autora-core'
+markdown_extensions:
+  pymdownx.snippets: { url_download: True }
+
+theme:
+  features:
+    - content.code.copy
+nav:
+- Home: 'index.md'
+- Experimentalist Pipeline: 'pipeline/Experimentalist Pipeline Examples.ipynb'
+- Experimentalists:
+  - Pooler:
+      - Grid:
+          - Home: 'experimentalists/pooler/grid/index.md'
+          - Quickstart: 'experimentalists/pooler/grid/quickstart.md'
+      - Random:
+          - Home: 'experimentalists/pooler/random/index.md'
+          - Quickstart: 'experimentalists/pooler/random/quickstart.md'
+  - Sampler:
+      - Random:
+          - Home: 'experimentalists/sampler/random/index.md'
+          - Quickstart: 'experimentalists/sampler/random/quickstart.md'
+- Cycle:
+  - Functional: 'cycle/Linear and Cyclical Workflows using Functions and States.ipynb'
+- "Command Line Interface":
+  - "Basic Usage": "cli/basic-usage/README.md"
+  - "Using Cylc": "cli/cylc-pip/README.md"
+  - "Using Cylc and Slurm": "cli/cylc-slurm-pip/README.md"
+
