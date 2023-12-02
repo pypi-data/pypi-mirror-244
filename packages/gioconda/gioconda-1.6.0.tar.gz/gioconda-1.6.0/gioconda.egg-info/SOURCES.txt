@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gioconda/__init__.py
+gioconda/_data.py
+gioconda/_file.py
+gioconda/_matrix.py
+gioconda/_methods.py
+gioconda/test_data.csv
+gioconda.egg-info/PKG-INFO
+gioconda.egg-info/SOURCES.txt
+gioconda.egg-info/dependency_links.txt
+gioconda.egg-info/requires.txt
+gioconda.egg-info/top_level.txt
