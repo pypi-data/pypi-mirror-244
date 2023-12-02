@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: plumify
+Version: 0.0.1
+Summary: Create the plumbing for you functional Python pipeline
+Project-URL: Documentation, https://github.com/pycodehash/plumify#readme
+Project-URL: Issues, https://github.com/pycodehash/plumify/issues
+Project-URL: Source, https://github.com/pycodehash/plumify
+Author-email: Ralph Urlus <rurlus.dev@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pycodehash
+Description-Content-Type: text/markdown
+
+# plumify
+
+[![PyPI - Version](https://img.shields.io/pypi/v/plumify.svg)](https://pypi.org/project/plumify)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/plumify.svg)](https://pypi.org/project/plumify)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install plumify
+```
+
+## License
+
+`plumify` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
