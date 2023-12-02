@@ -1,0 +1,11 @@
+{
+  "consul" : {
+      "test_addr" : "47.91.17.20:8500",
+      "pre_addr" : "47.91.25.224:8500",
+      "prod_addr" : "52.196.85.180:8500",
+      "prod_token" : "e95b599e-166e-7d80-08ad-aee76e7ddf19"
+  },
+  "log": {
+      "path": "../logs"
+  }
+}

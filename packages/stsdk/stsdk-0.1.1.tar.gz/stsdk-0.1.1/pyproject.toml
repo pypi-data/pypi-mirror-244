@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "stsdk"
+version = "0.1.1"
+description = "this is for at trade strategy module"
+authors = ["stark <yangwang@web3.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+start = 'test.main:main'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.25.0"
+websockets = "^11.0.3"
+asyncio = "^3.4.3"
+aiohttp = "^3.8.6"
+blinker = "^1.7.0"
+websocket-client = "^1.6.4"
+rel = "^0.4.9"
+ujson = "^5.8.0"
+janus = "^1.0.0"
+rx = "^3.2.0"
+numpy = "^1.26.2"
+cacheout = "^0.15.0"
+loguru = "^0.7.2"
+chardet = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
