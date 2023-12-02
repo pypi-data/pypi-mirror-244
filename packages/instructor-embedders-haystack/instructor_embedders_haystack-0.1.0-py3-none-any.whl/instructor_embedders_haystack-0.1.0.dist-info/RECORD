@@ -1,0 +1,10 @@
+instructor_embedders/__about__.py,sha256=vXSRyyUabMchfzfB3HHK0VT4xUqM-dgcdl_chMP_akc,132
+instructor_embedders/__init__.py,sha256=N5DSLpRV05eyW9rZ6MT-xf8GUjuMjhH8RII0dwI3IQI,348
+instructor_embedders/instructor_document_embedder.py,sha256=rnA54TyBLDWaFFDFeLlyXi-lGQ9FLf54p79EJQdNV8A,8054
+instructor_embedders/instructor_text_embedder.py,sha256=TJM-Rt5nZDCT3Oq3hmwpwoo8hjf9f3GgdMo3caytCdA,5476
+instructor_embedders/embedding_backend/__init__.py,sha256=6GZ8Y3Lw0rLOsOAqi6Tu5mZC977UzQvgDxKpOWr8IQw,110
+instructor_embedders/embedding_backend/instructor_backend.py,sha256=3wW-_QDp00EFuNiScKnEGc_lqjRGxwe0v_7f5G2zEGw,1727
+instructor_embedders_haystack-0.1.0.dist-info/METADATA,sha256=ldMwfOgoacujXN9hZA10_C31Xpe7KtDf2SWgm5rBeDs,2185
+instructor_embedders_haystack-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+instructor_embedders_haystack-0.1.0.dist-info/licenses/LICENSE.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+instructor_embedders_haystack-0.1.0.dist-info/RECORD,,
