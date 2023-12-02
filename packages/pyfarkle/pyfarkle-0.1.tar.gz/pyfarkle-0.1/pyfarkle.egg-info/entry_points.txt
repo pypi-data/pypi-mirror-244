@@ -1,0 +1,2 @@
+[console_scripts]
+pyfarkle = pyfarkle.__main__:main
