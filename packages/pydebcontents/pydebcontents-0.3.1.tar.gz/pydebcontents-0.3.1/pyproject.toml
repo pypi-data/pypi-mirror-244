@@ -1,0 +1,96 @@
+# https://peps.python.org/pep-0517/
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# https://peps.python.org/pep-0621/
+[project]
+name = "pydebcontents"
+version = "0.3.1"
+description = "Utilities working with Debian repository Contents files"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "BSD-3-Clause"}
+authors = [
+    {name = "Stuart Prescott", email = "stuart@debian.org"},
+]
+keywords = ["debian", "package", "contents", "archive"]
+dependencies = [
+]
+
+[project.urls]
+homepage = "https://salsa.debian.org/debian-irc-team/pydebcontents/"
+
+[project.scripts]
+py-apt-file = "pydebcontents.cli:main"
+
+# https://peps.python.org/pep-0621/#dependencies-optional-dependencies
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+    "requests",
+]
+
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+[tool.setuptools]
+include-package-data = true
+packages = [
+    "pydebcontents",
+    "pydebcontents.test",
+]
+
+[tool.setuptools.package-data]
+"*" = [
+    "py.typed",
+    "*.pyi",
+]
+
+# https://docs.pytest.org/en/6.2.x/customize.html
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov-report term-missing --cov=pydebcontents  -v -rsx"
+testpaths = ["pydebcontents/test"]
+filterwarnings = [
+]
+
+# https://mypy.readthedocs.io/en/stable/config_file.html
+[tool.mypy]
+files = "pydebcontents/**/"
+strict = true
+disallow_any_generics = false
+disallow_subclassing_any = false
+show_error_codes = true
+pretty = true
+ignore_missing_imports = true
+warn_unused_ignores = false
+
+# https://coverage.readthedocs.io/en/6.4/config.html
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "pragma: no-cover",
+    "if TYPE_CHECKING:",
+    "@overload",
+    "except ImportError",
+]
+
+[tool.pylint."MESSAGES CONTROL"]
+disable= '''
+    fixme,
+    invalid-name,
+    line-too-long,
+    locally-disabled,
+    missing-function-docstring,
+    missing-class-docstring,
+    missing-module-docstring,
+    too-few-public-methods,
+    too-many-arguments,
+    too-many-instance-attributes,
+'''
+
+[tool.pylint.REPORTS]
+reports = false
+
+[tool.pylint.SIMILARITIES]
+min-similarity-lines = 999
