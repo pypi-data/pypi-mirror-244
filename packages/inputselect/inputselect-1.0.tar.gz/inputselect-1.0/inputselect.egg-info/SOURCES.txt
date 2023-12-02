@@ -1,0 +1,9 @@
+README.md
+setup.py
+inputselect/__init__.py
+inputselect/main.py
+inputselect.egg-info/PKG-INFO
+inputselect.egg-info/SOURCES.txt
+inputselect.egg-info/dependency_links.txt
+inputselect.egg-info/requires.txt
+inputselect.egg-info/top_level.txt
