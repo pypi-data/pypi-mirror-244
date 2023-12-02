@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+pipeline_anomaly_dimension_class/__init__.py
+pipeline_anomaly_dimension_class.egg-info/PKG-INFO
+pipeline_anomaly_dimension_class.egg-info/SOURCES.txt
+pipeline_anomaly_dimension_class.egg-info/dependency_links.txt
+pipeline_anomaly_dimension_class.egg-info/top_level.txt

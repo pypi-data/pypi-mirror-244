@@ -1,0 +1,2 @@
+recursive-include pipeline_anomaly_dimension_class *
+global-exclude *.py[cod]
