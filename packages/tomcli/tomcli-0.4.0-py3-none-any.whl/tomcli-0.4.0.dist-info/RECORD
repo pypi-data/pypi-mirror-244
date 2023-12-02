@@ -1,0 +1,16 @@
+tomcli/__init__.py,sha256=XulVcfEzvJRfxOIrC0zzbeNMXT68b4mgJKJan2Fdy-A,204
+tomcli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tomcli/toml.py,sha256=GNt98BVDODRWJOraBu3w-H-3tVX2XtbwPHEQlbwofCU,5983
+tomcli/cli/__init__.py,sha256=5gk-tyUH0_BmawPE6QriL8VAqIII8F-_t7xmVrs1A9w,82
+tomcli/cli/_util.py,sha256=SQVE0mkIAfZKqZ5lwhjD7NjG5lQy3epcwmls_6MV5tE,944
+tomcli/cli/formatters.py,sha256=onJOHWzVmQPjjUCf9l_zUeeCgVHgIW9ymbuqao11jhY,812
+tomcli/cli/get.py,sha256=PASKQL_sXl9opiOE80hXKfzNpM9rvKpRt9qfsY3W9FA,1987
+tomcli/cli/main.py,sha256=JHsygcCQ6fpZHFzzvQ3wPe6baGTdeRGPrPcpeS899P0,627
+tomcli/cli/set.py,sha256=-MbG_2vz8mJeU07JwM6Ya1BvAqScmGLfp8jTf-SMaDM,12343
+tomcli/formatters/__init__.py,sha256=yjZGcDfqKGKW4iMInC8ImoXDkKLwz3teg19yltRoFbQ,1865
+tomcli/formatters/builtin.py,sha256=F_iNpoqC8VwNzduoGi6OJmSWasWomU8q6o1w2cmQQiA,1643
+tomcli-0.4.0.dist-info/METADATA,sha256=oO9uFvph73e88Vr2TQdNZcekvto-fgP6tMgDvmbQlH8,3516
+tomcli-0.4.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tomcli-0.4.0.dist-info/entry_points.txt,sha256=YXtexqP-11IILLr-8CztfQU7Yj2AEaGDekv5yPcXKr0,444
+tomcli-0.4.0.dist-info/licenses/LICENSES/MIT.txt,sha256=uF3NPkU9BZglUsUrX8ngvdbSPG-OhEuYSoivMlcLDMA,1078
+tomcli-0.4.0.dist-info/RECORD,,
