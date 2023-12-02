@@ -1,0 +1,6 @@
+jinja2
+render-engine>=2023.12.1b1
+
+[dev]
+pytest
+ruff
