@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nyc-taxi-fare-model
+Version: 0.1.1.1
+Summary: wheel file the regression model for NYC taxi fare prediction
+Home-page: https://databricks.com
+Author: 
+Author-email: 
+Requires-Dist: setuptools
+Requires-Dist: tqdm (==4.66)
+Requires-Dist: torchmetrics (==1.2.0)
+
