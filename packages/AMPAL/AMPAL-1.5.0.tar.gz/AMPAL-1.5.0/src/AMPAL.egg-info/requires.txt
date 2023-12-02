@@ -1,0 +1,4 @@
+Cython
+networkx
+numpy==1.22
+requests
