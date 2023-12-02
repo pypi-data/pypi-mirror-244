@@ -1,0 +1,8 @@
+git_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_storage/apps.py,sha256=hZ16kLw3oP4Ij-O73GXAUUSLXqYnqOF6Ko7wtvwe_eM,94
+git_storage/base.py,sha256=ShgcV3xyDG4Z9La9bPOJpkkgyhf7VMetJyv_mnKAi0Q,1505
+git_storage/storage.py,sha256=5UWOF4iXpPr8QqYBD0K1rL-z3s58ydufLl5svDWeaNg,6784
+django_git_storages-1.0.0.dist-info/METADATA,sha256=G6OGi5ZDwnT2bxSFx0zU4uY_zBFaQZ9SJjVXaIZg_L0,489
+django_git_storages-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_git_storages-1.0.0.dist-info/top_level.txt,sha256=f_VECHXktNRanwl2j170qq4EMbCnYbvnKdESPWCqjlU,12
+django_git_storages-1.0.0.dist-info/RECORD,,
