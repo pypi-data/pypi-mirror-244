@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<menuitem
+        id="product_product_menu"
+        name="Product Varians"
+        parent="menu_root_product"
+        action="product.product_normal_action"
+        groups="product_configurator_group"
+        sequence="2"
+    />
+</odoo>
