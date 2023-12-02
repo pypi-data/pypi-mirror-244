@@ -1,0 +1,3 @@
+[console_scripts]
+s2_build_index=scripts.s2_train_index:main
+

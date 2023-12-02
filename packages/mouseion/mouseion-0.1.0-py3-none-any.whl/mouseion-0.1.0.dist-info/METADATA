@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mouseion
+Version: 0.1.0
+Summary: [RALM]: Introducing the Mouseion retrieval augmented language model builder
+Home-page: https://github.com/artificialwisdomai/origin/mouseion
+License: Apache-2
+Author: Steven Dake
+Author-email: steve@computelify.com
+Requires-Python: >=3.11,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: faiss-gpu (==1.7.2)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Project-URL: Repository, https://github.com/artificialwisdomai/origin/mouseion
+Description-Content-Type: text/markdown
+
+
