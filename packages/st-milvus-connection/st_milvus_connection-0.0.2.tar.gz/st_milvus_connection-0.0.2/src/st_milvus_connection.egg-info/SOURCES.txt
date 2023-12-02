@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/st_milvus_connection/__init__.py
+src/st_milvus_connection/connection.py
+src/st_milvus_connection.egg-info/PKG-INFO
+src/st_milvus_connection.egg-info/SOURCES.txt
+src/st_milvus_connection.egg-info/dependency_links.txt
+src/st_milvus_connection.egg-info/requires.txt
+src/st_milvus_connection.egg-info/top_level.txt
