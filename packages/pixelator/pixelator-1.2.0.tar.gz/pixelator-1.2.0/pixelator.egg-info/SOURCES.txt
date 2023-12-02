@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pixelator/__init__.py
+pixelator/pixelator.py
+pixelator.egg-info/PKG-INFO
+pixelator.egg-info/SOURCES.txt
+pixelator.egg-info/dependency_links.txt
+pixelator.egg-info/requires.txt
+pixelator.egg-info/top_level.txt
+test/test_1.py
+test/test_2.py
+test/test_3.py
