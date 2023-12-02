@@ -1,0 +1,9 @@
+README.md
+setup.py
+sweetmatch/__init__.py
+sweetmatch/matching.py
+sweetmatch.egg-info/PKG-INFO
+sweetmatch.egg-info/SOURCES.txt
+sweetmatch.egg-info/dependency_links.txt
+sweetmatch.egg-info/requires.txt
+sweetmatch.egg-info/top_level.txt
