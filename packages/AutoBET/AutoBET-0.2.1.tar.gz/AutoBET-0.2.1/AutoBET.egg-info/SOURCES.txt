@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AutoBET/__init__.py
+AutoBET.egg-info/PKG-INFO
+AutoBET.egg-info/SOURCES.txt
+AutoBET.egg-info/dependency_links.txt
+AutoBET.egg-info/requires.txt
+AutoBET.egg-info/top_level.txt
+data/MNI152_T1.nii.gz
+data/MNI152_mask.nii.gz
+data/__init__.py
