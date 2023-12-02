@@ -1,0 +1,10 @@
+saxoncee.cpython-311-x86_64-linux-gnu.so,sha256=ZhVqJlKWk6b3tDkpgbbVgcnpa_oedxInD1HVLa7qE7I,11194361
+saxoncee/setup.py,sha256=4FoW7wauVsxLLM9PGdSYe60mgcDiBhLXSEmFptnnT6k,2975
+saxoncee/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxoncee/test_saxonc.py,sha256=mvSRV3mmJ0vDb37Nvc_gLrppiA-ygzTVvkGJhEIca14,61327
+saxoncee/conftest.py,sha256=JhS8Vl2R_MlRTw_LfDuz0Uy3C4HvJVWw668-xp8HVvY,180
+saxoncee.libs/libsaxon-eec-12-42267e22.4.1.so,sha256=mKzCefcO90zcOGbk05pwcDvdllpeOVBuw0WPW6GlPAs,92388297
+saxoncee-12.4.1.0.dist-info/top_level.txt,sha256=wUukq_Q-eGXqORVXlotGf6vj6BTA3ZYOgtf9Zd0FFuI,9
+saxoncee-12.4.1.0.dist-info/WHEEL,sha256=AI1yqBLEPcVKWn5Ls2uPawjbqPXPFTYdQLSdN8WFCJw,152
+saxoncee-12.4.1.0.dist-info/METADATA,sha256=19T-THXth1UuxrSdm3dE3x1CSZcEiaOCKFw4vS-n9ak,4991
+saxoncee-12.4.1.0.dist-info/RECORD,,
