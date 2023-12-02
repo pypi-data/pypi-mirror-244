@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "paystack-cli"
+version = "0.1.4"
+description = "A command line app for interacting with Paystack's API"
+authors = ["Gbenga Adeyi <adeyigbenga005@gmail.com>"]
+readme = "README.md"
+packages = [{include = "paystack_cli"}]
+keywords = ["paystack-python", "pypaystack", "paystack", "paystackapi"]
+license = "MIT"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pypaystack2 = "^2.0.2"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+
+[tool.poetry.scripts]
+paystack = "paystack_cli.main:run"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+pyinstaller = "^5.13.0"
+ruff = "^0.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
