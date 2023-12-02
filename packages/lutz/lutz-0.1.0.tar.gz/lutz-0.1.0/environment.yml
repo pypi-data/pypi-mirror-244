@@ -1,0 +1,11 @@
+name: lutz
+
+dependencies:
+  - python=3.9
+  - twine
+  - pip
+  - pip:
+      - mypy
+      - maturin
+      - -r python/requirements.txt
+      - -r tests/requirements.txt
