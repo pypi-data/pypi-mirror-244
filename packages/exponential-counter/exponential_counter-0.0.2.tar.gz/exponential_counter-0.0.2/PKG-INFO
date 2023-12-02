@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: exponential-counter
+Version: 0.0.2
+Project-URL: Documentation, https://github.com/unknown/exponential-counter#readme
+Project-URL: Issues, https://github.com/unknown/exponential-counter/issues
+Project-URL: Source, https://github.com/unknown/exponential-counter
+Author-email: Xiang Wang <ramwin@qq.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# exponential_counter
+
+[![PyPI - Version](https://img.shields.io/pypi/v/exponential-counter.svg)](https://pypi.org/project/exponential-counter)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/exponential-counter.svg)](https://pypi.org/project/exponential-counter)
+
+-----
+
+**Table of Contents**
+
+- [Usage](#usage)
+- [Installation](#installation)
+- [License](#license)
+
+## Usage
+```
+from exponential_counter import ExponentialCounter, LinearCounter
+counter = LinearCounter(max_value=4)
+values = [counter() for i in range(8)]
+# [0, 1, 2, 3, 4, 4, 4, 4]
+
+counter = ExponentialCounter(start=4, step=3, max_value=32)
+values = [counter() for i in range(6)]
+# [4, 12, 32, 32, 32, 32]
+```
+
+## Installation
+
+```console
+pip install exponential-counter
+```
+
+## License
+
+`exponential-counter` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
