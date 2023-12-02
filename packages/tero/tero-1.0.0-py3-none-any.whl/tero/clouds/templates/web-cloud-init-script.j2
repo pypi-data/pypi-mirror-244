@@ -1,0 +1,231 @@
+#!/bin/bash
+#
+# Configures a webfront instance.
+
+set -x
+set -e
+
+rootDir=/var/www
+USER=djaoapp
+OWNER=ec2-user
+INSTALL_PACKAGES=/usr/bin/dnf
+
+# Install necessary public packages to bootstrap configuration
+if [ "$(grep "Amazon Linux release 2 " /etc/system-release)" != "" ]; then
+    INSTALL_PACKAGES=/usr/bin/yum
+    # We need to insure SELinux is enabled which is not the case
+    # with the default AmazonLinux2 images.
+    if [ "$(sestatus)" =~ .*disabled ] ; then
+        /usr/bin/yum install selinux-policy selinux-policy-targeted policycoreutils-python
+        sed -i 's/SELINUX=\(\w\w*\)/SELINUX=enforcing/g' /etc/selinux/config
+        sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="\(.*\)"/GRUB_CMDLINE_LINUX_DEFAULT="\1 selinux=1 security=selinux"/' /etc/default/grub
+        /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg
+        touch /.autorelabel
+        # XXX we will need to reboot with the `reboot` command.
+    fi
+    # We have to enable the EPEL repo to install podofo.
+    if [ ! -f /etc/yum.repos.d/epel.repo ]; then
+        amazon-linux-extras install epel -y
+    fi
+    [ -e /usr/lib64/python2.7/site-packages/selinux ] || $INSTALL_PACKAGES -y install libselinux-python
+fi
+if [ "$(grep "CentOS" /etc/system-release)" != "" ]; then
+    OWNER=centos
+    INSTALL_PACKAGES=/usr/bin/yum
+    if [ ! -f /usr/bin/python3 ]; then
+        if [ ! -f /etc/yum.repos.d/epel.repo ]; then
+            /usr/bin/yum -y install epel-release
+        fi
+    fi
+    # Without making the fast cache, python36 is sometimes not found on mirror
+    # (ex: mirrors.cat.pdx.edu)
+    /usr/bin/yum makecache fast
+    /usr/bin/yum -y install python36 python36-libs python36-devel python36-pip python-boto3
+    [ -e /usr/lib64/python2.7/site-packages/selinux ] || $INSTALL_PACKAGES -y install libselinux-python
+fi
+
+[ -f /usr/bin/aws ] || $INSTALL_PACKAGES -y install awscli
+[ -f /usr/bin/bzip2 ] || $INSTALL_PACKAGES -y install bzip2
+[ -f /usr/bin/make ] || $INSTALL_PACKAGES -y install make
+[ -f /usr/sbin/semanage ] || $INSTALL_PACKAGES -y install policycoreutils-python-utils
+
+# download keys, certificates, etc.
+/usr/bin/aws s3 cp {{identities_url}} / --recursive
+
+# update required ownership
+[ $(/usr/bin/getent group $USER) ] || /usr/sbin/groupadd --gid 1001 $USER
+[ $(/usr/bin/getent passwd $USER) ] || /usr/sbin/useradd --no-create-home --uid 1001 --gid 1001 $USER
+# recreates links for TLS certificates
+for domain in `ls /etc/pki/tls/certs/archive` ; do
+  chmod 600 /etc/pki/tls/certs/archive/$domain/privkey.pem
+  mkdir -p /etc/pki/tls/certs/live/$domain
+  pushd /etc/pki/tls/certs/live/$domain
+  [ -e privkey.pem ] || ln -s ../../archive/$domain/privkey.pem
+  [ -e fullchain.pem ] || ln -s ../../archive/$domain/fullchain.pem
+done
+for domain in `ls /etc/letsencrypt/archive` ; do
+  chmod 600 /etc/letsencrypt/archive/$domain/privkey.pem
+  mkdir -p /etc/letsencrypt/live/$domain
+  pushd /etc/letsencrypt/live/$domain
+  [ -e privkey.pem ] || ln -s ../../archive/$domain/privkey1.pem privkey.pem
+  [ -e fullchain.pem ] || ln -s ../../archive/$domain/fullchain1.pem fullchain.pem
+  [ -e cert.pem ] || ln -s ../../archive/$domain/cert1.pem cert.pem
+  [ -e chain.pem ] || ln -s ../../archive/$domain/chain1.pem chain.pem
+done
+
+siteTop=${rootDir}/djaoapp
+cd $rootDir
+shopt -s nullglob
+packages=$(echo "*.tar.gz *.tar.bz2")
+VIRTUALENV_RUN="/usr/bin/python3 -m venv --system-site-packages"
+if [ "X$packages" != "X" ] ; then
+    for package in ${packages} ; do
+        dirname=${package%%.*}
+        installTop="$rootDir/$dirname"
+        [[ $package == *.tar.gz ]] && /usr/bin/tar zxf $package
+        [[ $package == *.tar.bz2 ]] && /usr/bin/tar jxf $package
+        /usr/bin/chown -R ${OWNER}:${OWNER} "$dirname"
+        if [ ! -f ${installTop}/bin/activate ]; then
+            $VIRTUALENV_RUN ${installTop}
+            # Updating pip because version 22.0. does not generate version
+            # numbers correctly when doing `pip install .`
+            # in a source directory.
+            ${installTop}/bin/pip install pip -U
+            # Installing `wheel` will help install packages with Python bindinds
+            # without recompiling from source.
+            ${installTop}/bin/pip install wheel
+        fi
+        echo "installTop=$installTop" > $dirname/dws.mk
+        echo "srcTop=$installTop/reps" >> $dirname/dws.mk
+        echo "remoteIndex=$installTop/./reps/djaoapp.git/djaoapp.xml" >> $dirname/dws.mk
+        pushd $installTop/reps/drop
+        /usr/bin/make install
+        cd $installTop/reps/$dirname
+        ../../bin/dws --default make recurse
+        ../../bin/dws --default make install
+        popd
+        /usr/bin/chown -R ${OWNER}:${OWNER} "$dirname"
+        rm ${package}
+    done
+else
+    # defaults to downloading drop so we can install the webfront.xml profile.
+    if [ ! -f ${siteTop}/bin/dservices ]; then
+        /usr/bin/mkdir -p ${siteTop}/reps
+        $VIRTUALENV_RUN ${siteTop}
+        /usr/bin/git clone {{remote_drop_repo}} ${siteTop}/reps/drop
+    fi
+fi
+
+cd $siteTop
+${siteTop}/bin/dservices -DetcDir=/etc{% if logs_storage_location %} -DlogsLocation={{logs_storage_location}}{% endif %}{% if ldap_host %} -DldapHost={{ldap_host}}{% endif %}{% if company_domain %} -DcompanyDomain={{company_domain}}{% endif %}{% if domain_name %} -DdomainName={{domain_name}}{% endif %} reps/drop/share/profiles/webfront.xml
+
+# Extra configuation to start up djagent and djaoapp
+if [ -d ${siteTop} ] ; then
+    # Install dcopylogs into /usr/local/bin
+    if [ ! -f /usr/local/bin/dcopylogs ]; then
+        mv ${siteTop}/dws.mk ${siteTop}/dws.disable
+        cd ${siteTop}/reps/drop
+        make install installTop=/usr/local PYTHON=/usr/bin/python3
+        mv ${siteTop}/dws.disable ${siteTop}/dws.mk
+        # Insures dcopylogs can upload the logs to S3
+        setsebool -P nis_enabled 1
+    fi
+
+    # Install djagent service
+    if [ ! -f /usr/lib/systemd/system/djagent.service ]; then
+        cd ${siteTop}/reps/djagent
+        ../../bin/pip install -r requirements.txt
+        ../../bin/dws --default make install
+        echo "SETTINGS_LOCATION=" > ${siteTop}/etc/sysconfig/djagent
+        echo "SETTINGS_CRYPT_KEY=" >> ${siteTop}/etc/sysconfig/djagent
+        echo "QUEUE_URL=" >> ${siteTop}/etc/sysconfig/djagent
+        /usr/bin/chmod 600 ${siteTop}/etc/sysconfig/djagent
+        /usr/bin/chown ${OWNER}:${OWNER} ${siteTop}/etc/sysconfig/djagent
+        /usr/bin/cp ${siteTop}/etc/systemd/system/djagent.service /usr/lib/systemd/system
+        ../../bin/dws --default make install-selinux
+        /usr/bin/systemctl enable djagent
+    fi
+
+    # Install djaoapp service
+    if [ ! -f /usr/lib/systemd/system/djaoapp.service ]; then
+        echo "SETTINGS_LOCATION=" > ${siteTop}/etc/sysconfig/djaoapp
+        echo "SETTINGS_CRYPT_KEY=" >> ${siteTop}/etc/sysconfig/djaoapp
+        echo "LD_LIBRARY_PATH=/usr/local/lib64" >> ${siteTop}/etc/sysconfig/djaoapp
+        /usr/bin/chmod 600 ${siteTop}/etc/sysconfig/djaoapp
+        /usr/bin/mkdir -p /var/log/gunicorn
+        /usr/bin/chown ${USER}:${USER} /var/log/gunicorn
+        /usr/bin/rm -rf ${siteTop}/var/log/gunicorn
+        pushd ${siteTop}/var/log
+        /usr/bin/ln -s /var/log/gunicorn
+        popd
+        /usr/bin/mkdir -p ${siteTop}/reps/djaoapp/htdocs/themes ${siteTop}/reps/djaoapp/themes ${siteTop}/reps/djaoapp/.cache
+
+        # We make sure the .pid file can be created by gunicorn and systemd
+        # service can load.
+        /usr/bin/chown ${USER}:${USER} ${siteTop}/etc/sysconfig/djaoapp ${siteTop}/var/run /var/log/gunicorn
+        # Insures we can upload themes
+        /usr/bin/chown ${USER}:${USER} ${siteTop}/reps/djaoapp/htdocs/themes ${siteTop}/reps/djaoapp/themes ${siteTop}/reps/djaoapp/.cache
+        # and that nginx can access the static assets
+        /usr/sbin/semanage fcontext -a -t 'httpd_sys_rw_content_t' "${siteTop}/reps/djaoapp/htdocs(.*)"
+        /usr/sbin/restorecon -rvF ${siteTop}/reps/djaoapp
+
+        /usr/bin/cp ${siteTop}/etc/systemd/system/djaoapp.service /usr/lib/systemd/system
+        /usr/bin/systemctl enable djaoapp
+    fi
+    # move the database where the config files have been configured with.
+    if [ -f ${siteTop}/reps/djaoapp/db.sqlite ]; then
+        /usr/bin/mv ${siteTop}/reps/djaoapp/db.sqlite ${siteTop}/var/db/djaodjin.sqlite
+    fi
+
+    # Configure nginx proxy
+    if [ ! -f /etc/nginx/conf.d/proxy_djaoapp.conf ]; then
+
+        # Rewrite nginx config file to avoid redirects loops because no https
+        /usr/bin/cat << EOF >> /etc/nginx/conf.d/proxy_djaoapp.conf
+    upstream proxy_djaoapp {
+        server  127.0.0.1:8000;
+    }
+EOF
+        /usr/bin/cat << EOF >> /etc/nginx/conf.d/djaoapp.com.conf
+    server {
+        listen       80;
+        listen       [::]:80;
+        server_name  {{domain_name}};
+
+        root         /var/www/djaoapp/reps/djaoapp/htdocs;
+
+        location / {
+            try_files \$uri/index.html \$uri.html \$uri @forward_to_djaoapp;
+        }
+
+        location @forward_to_djaoapp {
+            proxy_pass    http://proxy_djaoapp;
+            include       /etc/nginx/proxy_params;
+        }
+
+        error_page 404 /404.html;
+            location = /40x.html {
+        }
+
+        error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
+EOF
+
+        /usr/bin/cp /usr/share/nginx/html/404.html /usr/share/nginx/html/50x.html ${siteTop}/reps/djaoapp/htdocs
+        /usr/sbin/restorecon -rvF ${siteTop}/reps/djaoapp/htdocs
+    fi
+fi
+
+# cron notifications
+alternatives --set mta /usr/sbin/sendmail.ssmtp
+
+# restart services whose configuration has been altered
+/usr/bin/systemctl force-reload systemd-journald
+/usr/bin/systemctl restart djaoapp.service
+/usr/bin/systemctl restart djagent.service
+
+# We will be waiting for this server to respond
+# before it continues with registering the AMI.
+/usr/bin/systemctl restart nginx.service
