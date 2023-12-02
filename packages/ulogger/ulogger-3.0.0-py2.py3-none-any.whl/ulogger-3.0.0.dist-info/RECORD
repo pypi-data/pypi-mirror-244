@@ -1,0 +1,10 @@
+ulogger/__init__.py,sha256=43xhAzRmDSAiQYHEU5FsXH46MMGgj-Xn8-H9DHVrb4g,903
+ulogger/exceptions.py,sha256=WkjQeG5qlBH2xIyKlJVH5qDe7VMb-0NwSsA8pA9PklU,756
+ulogger/stackdriver.py,sha256=aPhjLe7SW1qQSQoCjm14Duh9be2aPu4-0a_tMjKxjZc,8040
+ulogger/syslog.py,sha256=9FaMpOTTre7UtUnqn6vML9pQCf3ZN88xxuCizOIrIIE,5510
+ulogger/ulogger.py,sha256=sz8odSt50DoxZxjO14Fulpm-hTgsi0H3-sB0mU5NbQc,3487
+ulogger-3.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+ulogger-3.0.0.dist-info/METADATA,sha256=9p-1gP2yEaxpTnyKvG6dNFjYJ9Sp8DElHhyYCnaXNtk,6256
+ulogger-3.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+ulogger-3.0.0.dist-info/top_level.txt,sha256=A6aFhTcA0jx3PpHp8Jmn7oaFODlWrCGgDtTdz1Y_4Es,8
+ulogger-3.0.0.dist-info/RECORD,,
