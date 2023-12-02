@@ -1,0 +1,8 @@
+TTS
+python_shell
+simpleaudio
+pydub
+num2words
+websockets
+sanic
+toml
