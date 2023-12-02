@@ -1,0 +1,10 @@
+fastcore
+pandas
+tabulate
+langchain
+langsmith
+pydantic
+openai>=1.1.1
+shiny
+
+[dev]
