@@ -1,0 +1,15 @@
+tdfs/__init__.py,sha256=7AcO7uB1opRCt7t2JOHworKimfAaDeO3boRW7u9Geo8,23
+tdfs/datasets.py,sha256=-b2MPEKGki2V1M8iUcoDR9uc2krIK7u1CK-EhChvihs,985
+tdfs/feature_store.py,sha256=Honu7eOAXxP4Ivz0mRlhuNkfTDzgZl5HB1WlQUwzcZ0,31354
+tdfs/data/curves.csv,sha256=q0Tm-0yu7VMK4lHvHpgi1LMeRq0lO5gJy2Q17brKbEM,112488
+tdfs4ds/__init__.py,sha256=PFIiGnZUEdYu1aQvRhe_t3ztTMcIekdYnxNTTGeICiA,1112
+tdfs4ds/datasets.py,sha256=-b2MPEKGki2V1M8iUcoDR9uc2krIK7u1CK-EhChvihs,985
+tdfs4ds/feature_engineering.py,sha256=oVnZ2V_XNGE12LKC_fNfkrWSQZLgtYRmaf8Dispi6S4,7081
+tdfs4ds/feature_store.py,sha256=PELRvThCZD3SfNTkCMoUmR7Bv0LFxUQpZdJbDMEZPgk,57617
+tdfs4ds/process_store.py,sha256=7tnvnz18Ap8xqhsNqLNRlt4ArAzZalGRpRz1asuj2qY,16507
+tdfs4ds/utils.py,sha256=3jDmrswslbYZJU4v1_-qV_dauBI6TtuPcE8AvioKWXo,15963
+tdfs4ds/data/curves.csv,sha256=q0Tm-0yu7VMK4lHvHpgi1LMeRq0lO5gJy2Q17brKbEM,112488
+tdfs4ds-0.1.0.10.dist-info/METADATA,sha256=Fw94PvKo6t_XZUuU4jtDl_0hg4HjSPdcZH3YwtiFCzM,6170
+tdfs4ds-0.1.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tdfs4ds-0.1.0.10.dist-info/top_level.txt,sha256=wMyVkMvnBn8RRt1xBveGQxOpWFijPMPkMiE7G2mi8zo,8
+tdfs4ds-0.1.0.10.dist-info/RECORD,,
