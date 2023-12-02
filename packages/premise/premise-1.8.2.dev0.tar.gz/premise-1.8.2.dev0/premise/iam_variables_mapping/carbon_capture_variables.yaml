@@ -1,0 +1,35 @@
+# mapping between premise and IAM terminology
+# regarding the volume of carbon capture
+# for different industrial sectors
+---
+cement - co2:
+  iam_aliases:
+    remind:
+      - Emi|CO2|Industrial Processes|+|Cement
+      - Emi|CO2|Energy|Demand|Industry|++|Cement
+      - Carbon Management|Carbon Capture|Industry Energy|Cement
+      - Carbon Management|Carbon Capture|+|Industry Process
+    image: Emissions|CO2|Industry|Cement|Gross
+    message:
+      - Carbon Sequestration|CCS|Industrial Processes
+      - Emissions|CO2|Industrial Processes|Non-Metallic Minerals|Cement
+      - Emissions|CO2|Energy|Demand|Industry|Non-Metallic Minerals|Cement
+cement - cco2:
+  iam_aliases:
+    remind:
+      - Carbon Management|Carbon Capture|Industry Energy|Cement
+      - Carbon Management|Carbon Capture|+|Industry Process
+    image: Emissions|CO2|Industry|Cement|Sequestered
+    message:
+      - CCS|Industry|Industrial Processes|Non-Metallic Minerals
+steel - co2:
+  iam_aliases:
+    remind:
+      - Emi|CO2|Energy|Demand|Industry|++|Steel
+      - Carbon Management|Carbon Capture|Industry Energy|Steel
+    image: Emissions|CO2|Industry|Steel|Gross
+steel - cco2:
+  iam_aliases:
+    remind:
+      - Carbon Management|Carbon Capture|Industry Energy|Steel
+    image: Emissions|CO2|Industry|Steel|Sequestered
