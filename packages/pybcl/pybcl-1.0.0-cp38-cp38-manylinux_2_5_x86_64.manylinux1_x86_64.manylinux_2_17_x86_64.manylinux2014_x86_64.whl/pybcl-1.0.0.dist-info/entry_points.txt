@@ -1,0 +1,2 @@
+[console_scripts]
+pybcl = pybcl.__main__:main
