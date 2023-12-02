@@ -1,0 +1,16 @@
+ssh_telegram_manager/__init__.py,sha256=6br-WCGZcA-OBkMU-5T1i1t_h0nqYqxcTYyokI4Zj_E,146
+ssh_telegram_manager/core.py,sha256=1LZTCahR8mC2fEabFkhuzBDRkrsqGGMy3aHpuVTa0Ko,4849
+ssh_telegram_manager/locale/en/LC_MESSAGES/ssh_telegram_manager.mo,sha256=-5Hgff2pmCFFbfqMcHAYXFXkXlPdLpoT0F_kuCmmPwM,424
+ssh_telegram_manager/locale/en.po,sha256=iQd3zNctpjlvAm1LA1MxAq2imsN7GQKqcEPdk9gdXpY,738
+ssh_telegram_manager/locale/es/LC_MESSAGES/ssh_telegram_manager.mo,sha256=IUS6J1ftmd0fKGqYF_lTHRGT6-Mfe1oGQsB0ZM70cuM,1852
+ssh_telegram_manager/locale/es.po,sha256=teP7OYsxJyxg_b2jcDMaZ9OfWwUvz0Ki0w4IfW6AdHo,2220
+ssh_telegram_manager/locale/ssh_telegram_manager.pot,sha256=Ennrgk-vNMl6-2pduX_Nb2g4srBDZG3LlnfQtsXfGG8,1447
+ssh_telegram_manager/poethepoet.py,sha256=eiSXvfDy8Y4WVwSo8DMF1WAQ7OuXFFE9mvIcCjhTyQw,1362
+ssh_telegram_manager/reusing/datetime_functions.py,sha256=pvDDq72aP1VbMX9gdNh9SgQpUbqwmJsa8dBdTQGpcfo,17619
+ssh_telegram_manager/reusing/file_functions.py,sha256=ENsRbPM37mLpFZBQRKY31_p2ZV4RPquts3recpsK2vk,1204
+ssh_telegram_manager/reusing/github.py,sha256=YQAW95mCuZzTentAnS0j1oL01v8y2eRa4_uFu5Iggic,2584
+ssh_telegram_manager-0.6.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ssh_telegram_manager-0.6.0.dist-info/METADATA,sha256=izcOCOC4YrfJR7Nou8FmHSnDKJEaTjRsxEIkG6O0eY0,3325
+ssh_telegram_manager-0.6.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ssh_telegram_manager-0.6.0.dist-info/entry_points.txt,sha256=ATvhrT8JVN13bc1ElTeX2tWODoMsJPcmr2_kyaj3kzs,71
+ssh_telegram_manager-0.6.0.dist-info/RECORD,,
