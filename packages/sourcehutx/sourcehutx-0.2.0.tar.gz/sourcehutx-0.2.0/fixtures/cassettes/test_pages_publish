@@ -1,0 +1,157 @@
+interactions:
+- request:
+    body: '{"query": "\n        query {\n          me {\n            username\n          }\n        }\n        ",
+      "variables": {}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '119'
+      content-type:
+      - application/json
+      host:
+      - pages.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://pages.sr.ht/query
+  response:
+    content: '{"data":{"me":{"username":"gotmax23-test"}}}'
+    headers:
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 13 Aug 2023 01:58:42 GMT
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: !!binary |
+      LS0wNjYwMTFkMjkxNjI5OWFiNGQ3OTg3ZjdkZjYzZTg4Yw0KQ29udGVudC1EaXNwb3NpdGlvbjog
+      Zm9ybS1kYXRhOyBuYW1lPSJvcGVyYXRpb25zIg0KDQp7InF1ZXJ5IjogIlxuICAgICAgICBtdXRh
+      dGlvbiBwdWJsaXNoKFxuICAgICAgICAgICAgJGRvbWFpbjogU3RyaW5nIVxuICAgICAgICAgICAg
+      JGZpbGU6IFVwbG9hZCFcbiAgICAgICAgICAgICRwcm90b2NvbDogUHJvdG9jb2whXG4gICAgICAg
+      ICAgICAkc3ViZGlyZWN0b3J5OiBTdHJpbmdcbiAgICAgICAgICAgICRzaXRlQ29uZmlnOiBTaXRl
+      Q29uZmlnXG4gICAgICAgICkge1xuICAgICAgICAgICAgcHVibGlzaChcbiAgICAgICAgICAgICAg
+      ICBkb21haW46ICRkb21haW5cbiAgICAgICAgICAgICAgICBjb250ZW50OiAkZmlsZVxuICAgICAg
+      ICAgICAgICAgIHByb3RvY29sOiAkcHJvdG9jb2xcbiAgICAgICAgICAgICAgICBzdWJkaXJlY3Rv
+      cnk6ICRzdWJkaXJlY3RvcnlcbiAgICAgICAgICAgICAgICBzaXRlQ29uZmlnOiAkc2l0ZUNvbmZp
+      Z1xuICAgICAgICAgICAgKSB7XG4gICAgICAgICAgICAgICAgaWRcbmRvbWFpblxucHJvdG9jb2xc
+      bmNyZWF0ZWRcbnVwZGF0ZWRcbnZlcnNpb25cbm5vdEZvdW5kXG5cbiAgICAgICAgICAgIH1cbiAg
+      ICAgICAgfVxuXG4gICAgICAgICIsICJ2YXJpYWJsZXMiOiB7ImRvbWFpbiI6ICJnb3RtYXgyMy10
+      ZXN0LnNyaHQuc2l0ZSIsICJwcm90b2NvbCI6ICJIVFRQUyIsICJzdWJkaXJlY3RvcnkiOiAicHl0
+      aG9uLXNvdXJjZWh1dC10ZXN0IiwgInNpdGVDb25maWciOiB7Im5vdEZvdW5kIjogbnVsbCwgImZp
+      bGVDb25maWdzIjogbnVsbH19fQ0KLS0wNjYwMTFkMjkxNjI5OWFiNGQ3OTg3ZjdkZjYzZTg4Yw0K
+      Q29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJtYXAiDQoNCnsiMCI6IFsidmFy
+      aWFibGVzLmZpbGUiXX0NCi0tMDY2MDExZDI5MTYyOTlhYjRkNzk4N2Y3ZGY2M2U4OGMNCkNvbnRl
+      bnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iMCI7IGZpbGVuYW1lPSJ1cGxvYWQiDQpD
+      b250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbQ0KDQofiwgIDC7YZAL/c2l0ZS50
+      YXIA7dVba9swFABgP/tXqHnZky3bsZ00KKbQCy2MLdAUtkc1PokEvgTphCYv++2Tq972sO1htLD2
+      fBhknSMs+XLkmMf8ZCH3lyBrMMGrSLzftUkyzp/Ph3iaZGkWsH3wBnYWpXHTBx9TNmUt6hbmaXmc
+      TqdFMSnirEzzcnwcBuTd010N+1hh27zeHENRl/l9jaeTInnZ3iuTIkjzvCyTzPUmrv6zfDIOWPKW
+      9b/psZV/2HH+lv9PiaMoCq8XZ9+iC93Aab89GL1RuIQ9ztiXvgOf/KxX0FmIrmroUK81mBm76Rof
+      DaOoCkNxdPb1dPl9cc6Gr6kKhXK/lCpkjmgBJVspaSzgfHSzvIimo4cUamyguoSm6dldb5pacB8K
+      BfdXELd9fXgYrdJfh7q+T2x9O1gqbZk7JEOwyO7g1mqE+Cl/hUN2Z6Fm6948hYVkysB6PlKIWzvj
+      3BpXF/yHf/HZmNt+Z1agdshHFSpg1499tjig6ju2arR7Op+s4PJ5NbpD2BiJ2g0Y1mP9QgTfDnfo
+      b422IUIIIYQQQgghhBBCCCGEEEIIIYT8g5//ep60ACgAAA0KLS0wNjYwMTFkMjkxNjI5OWFiNGQ3
+      OTg3ZjdkZjYzZTg4Yy0tDQo=
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '1556'
+      content-type:
+      - multipart/form-data; boundary=066011d2916299ab4d7987f7df63e88c
+      host:
+      - pages.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://pages.sr.ht/query
+  response:
+    content: '{"data":{"publish":{"id":171768,"domain":"gotmax23-test.srht.site","protocol":"https","created":"2023-08-13T01:58:15.991942Z","updated":"2023-08-13T01:58:15.991942Z","version":"cd1ecccdff2e4c1497d7996091d76cf1","notFound":null}}}'
+    headers:
+      Content-Length:
+      - '229'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 13 Aug 2023 01:58:42 GMT
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query listSites(\n            $cursor: Cursor\n        )
+      {\n            sites(cursor: $cursor) {\n                cursor\n                results
+      {\n                    id\ndomain\nprotocol\ncreated\nupdated\nversion\nnotFound\n\n                }\n            }\n        }\n        ",
+      "variables": {"cursor": null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '337'
+      content-type:
+      - application/json
+      host:
+      - pages.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://pages.sr.ht/query
+  response:
+    content: '{"data":{"sites":{"cursor":null,"results":[{"id":171768,"domain":"gotmax23-test.srht.site","protocol":"https","created":"2023-08-13T01:58:15.991942Z","updated":"2023-08-13T01:58:15.991942Z","version":"cd1ecccdff2e4c1497d7996091d76cf1","notFound":null}]}}}'
+    headers:
+      Content-Length:
+      - '255'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 13 Aug 2023 01:58:42 GMT
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation unpublish(\n            $domain: String!\n            $protocol:
+      Protocol!\n        ) {\n            unpublish(\n                domain: $domain\n                protocol:
+      $protocol\n            ) {\n                id\ndomain\nprotocol\ncreated\nupdated\nversion\nnotFound\n\n            }\n        }\n        ",
+      "variables": {"domain": "gotmax23-test.srht.site", "protocol": "HTTPS"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '416'
+      content-type:
+      - application/json
+      host:
+      - pages.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://pages.sr.ht/query
+  response:
+    content: '{"data":{"unpublish":{"id":171768,"domain":"gotmax23-test.srht.site","protocol":"","created":"2023-08-13T01:58:15.991942Z","updated":"2023-08-13T01:58:15.991942Z","version":"cd1ecccdff2e4c1497d7996091d76cf1","notFound":null}}}'
+    headers:
+      Content-Length:
+      - '226'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 13 Aug 2023 01:58:42 GMT
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

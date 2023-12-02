@@ -1,0 +1,92 @@
+interactions:
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              name\n              id\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "tester"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '321'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"name":"tester","id":10353}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '58'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 27 Aug 2023 00:34:20 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getTrackerDefaultAcl($username: String!, $tracker:
+      String!) {\n            user(username: $username) {\n                tracker(name:
+      $tracker) {\n                    defaultACL {\n                        \nbrowse\nsubmit\ncomment\nedit\ntriage\n\n                    }\n                }\n            }\n        }\n        ",
+      "variables": {"username": "gotmax23", "tracker": "tester"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '413'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"defaultACL":{"browse":true,"submit":true,"comment":true,"edit":false,"triage":false}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '117'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 27 Aug 2023 00:34:20 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

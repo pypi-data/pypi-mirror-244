@@ -1,0 +1,90 @@
+interactions:
+- request:
+    body: '{"query": "\n        query {\n          me {\n            username\n          }\n        }\n        ",
+      "variables": {}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '119'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"me":{"username":"gotmax23-test"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:02 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n                \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "does-not-exist-123456"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '376'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":null}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:03 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

@@ -1,0 +1,30 @@
+# Copyright (C) 2023 Maxwell G <maxwell@gtmx.me>
+# SPDX-License-Identifier: MIT
+---
+
+image: fedora/rawhide
+packages:
+  - koji-tool
+  - mock
+  - mock-core-configs
+  - pipx
+  - python3.11-devel
+  - rpm-build
+  - rpmdevtools
+  - rpmlint
+sources:
+  - "https://git.sr.ht/~gotmax23/sourcehutx"
+artifacts:
+  - sourcehutx/results_sourcehut.tar.gz
+tasks:
+  - setup: |
+      pipx install --python "/usr/bin/python3.11" nox
+      sudo usermod -aG mock $USER
+      koji-tool install -y mock mock-core-configs
+  - mockbuild-rawhide: |
+      cd sourcehutx
+      nox -e mockbuild -- --resultdir results_sourcehut --postinstall -r fedora-rawhide-x86_64
+      tar cvf results_sourcehut.tar.gz results_sourcehut
+  - rpmlint: |
+      cd sourcehutx
+      rpmlint --ignore-unused-rpmlintrc -r python-sourcehutx.rpmlintrc results_sourcehut/*.rpm

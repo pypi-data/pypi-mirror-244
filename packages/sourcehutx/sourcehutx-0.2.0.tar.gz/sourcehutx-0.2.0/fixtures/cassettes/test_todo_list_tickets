@@ -1,0 +1,174 @@
+interactions:
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              name\n              id\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '325'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"name":"fedrq-copy","id":11641}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '62'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:00 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query($username: String!, $name: String!, $cursor:
+      Cursor) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              tickets(cursor: $cursor) {\n                cursor\n                results
+      {\n                  id\n                  created\n                  updated\n                  ref\n                  subject\n                  body\n                  status\n                  resolution\n                  submitter
+      {\n                    canonicalName\n                  }\n                  tracker
+      {\n                    id\n                    name\n                    owner
+      {\n                      canonicalName\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy", "cursor": null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '895'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"tickets":{"cursor":"gAAAAABk1rwIsPCXHjsDm-mExzcdK-Z8Ez5veMxfgcWGyIAGB92IcicOGWQIsC5eiYMNCdgSaFeI7LZc1Y_Fy_MbCymaP9vFajZMHrAP3Wp_xJeWb_WxmgzD3yEt3fRlHE5iEkWMiSiJ","results":[{"id":30,"created":"2023-06-07T01:14:21Z","updated":"2023-06-07T01:14:21Z","ref":"~gotmax23/fedrq-copy#30","subject":"Add
+      more repolist-esque functionality","body":"Allow customizing the output of `fedrq
+      repolist` and printing fields like mirrorlists or repourls.\nPerhaps we can
+      extend repolist or add a new command to use (lib)dnf(5) APIs to\nrender custom
+      .repo files.","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":29,"created":"2023-05-29T03:13:45Z","updated":"2023-05-30T01:14:49Z","ref":"~gotmax23/fedrq-copy#29","subject":"Add
+      `repolist` subcommand","body":"","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":28,"created":"2023-05-13T23:34:44Z","updated":"2023-05-13T23:34:44Z","ref":"~gotmax23/fedrq-copy#28","subject":"Policy
+      about when to remove compat code for old libdnf5 versions","body":"","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":27,"created":"2023-04-06T06:46:13Z","updated":"2023-04-06T06:46:13Z","ref":"~gotmax23/fedrq-copy#27","subject":"Require
+      prefixing repo groups with `@`","body":"https://git.sr.ht/~gotmax23/fedrq/tree/f237e84c498e454c4370a05b07178fec216cc3c1/item/src/fedrq/release_repo.py#L268-270\r\n\r\nFirst
+      add deprecation warnings","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":26,"created":"2023-04-06T06:45:03Z","updated":"2023-04-06T14:24:19Z","ref":"~gotmax23/fedrq-copy#26","subject":"Add
+      `make-cache` and `clean-cache` subcommands","body":"","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":25,"created":"2023-04-03T12:57:52Z","updated":"2023-04-03T12:57:52Z","ref":"~gotmax23/fedrq-copy#25","subject":"Comps
+      and group querying","body":"","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":24,"created":"2023-03-20T16:17:53Z","updated":"2023-05-30T03:46:36Z","ref":"~gotmax23/fedrq-copy#24","subject":"Add
+      pseudo local release","body":"`fedrq PKGS -r local` should enable all system
+      repositories.","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":23,"created":"2023-03-04T00:25:33Z","updated":"2023-03-04T00:25:46Z","ref":"~gotmax23/fedrq-copy#23","subject":"`fedrq
+      changelogs`","body":"The scope needs to be defined, but it might be interesting
+      to allow querying changelogs in some way. We could allow querying by package.
+      We could allow only extracting certain fields such as `author`, `text`, or `date`.","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":22,"created":"2023-02-21T18:11:55Z","updated":"2023-03-20T02:18:38Z","ref":"~gotmax23/fedrq-copy#22","subject":"Add
+      fancy HTML docs","body":"mkdocs and mkdocstrings is a contender","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":21,"created":"2023-02-20T20:00:20Z","updated":"2023-03-18T19:39:04Z","ref":"~gotmax23/fedrq-copy#21","subject":"More
+      flexible repo selection","body":"- Add a psuedo `local` release to load system
+      repositories and allow --enablerepo and --disablerepo.\r\n- Make it easier to
+      query arbitrary copr repositories.","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":20,"created":"2023-02-20T01:50:27Z","updated":"2023-03-22T02:47:30Z","ref":"~gotmax23/fedrq-copy#20","subject":"Add
+      `fedrq download` subcommand","body":"This is low on fedrq''s priority list,
+      but it''d be nice to have a subcommand to query for packages and download the
+      respective (S)RPMs. I''d probably use requests for the downloading portion.","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":19,"created":"2023-02-16T00:11:58Z","updated":"2023-02-21T18:10:45Z","ref":"~gotmax23/fedrq-copy#19","subject":"Cleanup
+      Formatters code","body":"It''s a terrible mess.","status":"RESOLVED","resolution":"FIXED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":18,"created":"2023-02-14T00:34:10Z","updated":"2023-03-18T19:39:23Z","ref":"~gotmax23/fedrq-copy#18","subject":"Change
+      smartcache dir key from release.branch to release.version","body":"","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":17,"created":"2023-02-14T00:10:08Z","updated":"2023-04-06T14:23:51Z","ref":"~gotmax23/fedrq-copy#17","subject":"Add
+      release configurations for other distributions","body":"CentOS Stream (with
+      and without EPEL)\r\n\r\nAlmalinux (with and without EPEL)\r\n\r\nOpenSUSE or
+      others.\r\nThis is made for Fedora developers but I have no problem adding builtin
+      configurations for other distributions as long as they''re open source, have
+      no legal problems that would preclude Fedora inclusion, and not behind a (psuedo)
+      paywall. As an example, UBI doesn''t meet this last criteria.\r\n\r\n---\r\n\r\nI
+      will create a patch to add CentOS Stream so others can use it as an example.","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":16,"created":"2023-02-13T23:50:33Z","updated":"2023-02-20T01:49:14Z","ref":"~gotmax23/fedrq-copy#16","subject":"Clarify
+      fedrq.5 repo configuration","body":"The documentation is out of date and not
+      particularly clear. fedrq''s release configuration is quite flexible and allows
+      loading _any_ .repo file from anywhere on the filesystem and/or from the system
+      configuration. This should be made clearer to users. fedrq does this differently
+      than other tools.","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":15,"created":"2023-02-13T18:57:03Z","updated":"2023-05-27T16:37:44Z","ref":"~gotmax23/fedrq-copy#15","subject":"Package
+      fedrq for Fedora","body":"I think it''s about time. The package %description
+      will carry a warning about potential breaking changes on updates. I do not want
+      to freeze an alpha/beta version for an entire release cycle.","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":14,"created":"2023-02-13T18:37:14Z","updated":"2023-02-21T02:36:33Z","ref":"~gotmax23/fedrq-copy#14","subject":"Add
+      a stable API and document it","body":"Multiple Fedora developers have expressed
+      interest in a public API interface for fedrq. `fedrq.cli` will always be internal
+      (I have no interest in a plugin architecture or anything like that), but `fedrq.config`
+      and the backends should eventually be made public and fully documented.\r\n\r\nThe
+      package querying functionality could help bridge the gap between dnf and libdnf5
+      and reduce the need to copy around boilerplate to initialize a dnf Base session.\r\n\r\nIn
+      the meantime, the JSON formatter may be appropriate for some scripts. Shell
+      scripting is of course always possible.\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003eJSON
+      formatter example\u003c/summary\u003e\r\n\u003cpre\u003e\r\nfedrq pkgs scdoc
+      -F json:name,evr,arch,files,requires\r\n[\r\n  {\r\n    \"name\": \"scdoc\",\r\n    \"evr\":
+      \"1.11.2-3.fc37\",\r\n    \"arch\": \"x86_64\",\r\n    \"requires\": [\r\n      \"rtld(GNU_HASH)\",\r\n      \"libc.so.6(GLIBC_2.34)(64bit)\",\r\n      \"/usr/bin/pkg-config\"\r\n    ],\r\n    \"files\":
+      [\r\n      \"/usr/bin/scdoc\",\r\n      \"/usr/lib/.build-id\",\r\n      \"/usr/lib/.build-id/c1\",\r\n      \"/usr/lib/.build-id/c1/62fcbc2f7d9b41ce409071b05905bdbfa6ffe7\",\r\n      \"/usr/share/doc/scdoc\",\r\n      \"/usr/share/doc/scdoc/README.md\",\r\n      \"/usr/share/licenses/scdoc\",\r\n      \"/usr/share/licenses/scdoc/COPYING\",\r\n      \"/usr/share/man/man1/scdoc.1.gz\",\r\n      \"/usr/share/man/man5/scdoc.5.gz\",\r\n      \"/usr/share/pkgconfig/scdoc.pc\"\r\n    ]\r\n  },\r\n  {\r\n    \"name\":
+      \"scdoc\",\r\n    \"evr\": \"1.11.2-3.fc37\",\r\n    \"arch\": \"src\",\r\n    \"requires\":
+      [\r\n      \"make\",\r\n      \"gcc\",\r\n      \"sed\"\r\n    ],\r\n    \"files\":
+      [\r\n      \"/scdoc-1.11.2.tar.gz\",\r\n      \"/scdoc.spec\"\r\n    ]\r\n  }\r\n]\r\n\u003c/pre\u003e\r\n\u003c/details\u003e","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":13,"created":"2023-02-12T13:37:17Z","updated":"2023-02-12T19:39:41Z","ref":"~gotmax23/fedrq-copy#13","subject":"RFE:
+      Create a subcommand that finds whatrequires a SRPM''s subpackages","body":"[Mattia
+      Verga suggests](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/message/CYAYMKRYYYCLLL4UF7IGBDQNP2IFVVYZ/)
+      adding a separate subcommand that finds whatrequires a SRPM''s subpackages.
+      `fedrq whatrequires $(fedpkg subpkgs SRPM)` is lengthy and also has a performance
+      penalty (it has to initialize the dnf session twice). This is definitely possible,
+      but I need to figure out what to name it. Tacking this on as `whatrequires`
+      flag would be confusing; it needs a slightly different codepath.","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":12,"created":"2023-02-12T03:38:33Z","updated":"2023-02-14T01:09:07Z","ref":"~gotmax23/fedrq-copy#12","subject":"Add
+      more EXAMPLES to fedrq(1) and better explain existing ones","body":"","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":11,"created":"2023-02-08T21:23:20Z","updated":"2023-02-17T22:20:48Z","ref":"~gotmax23/fedrq-copy#11","subject":"fedrq.config.Release.make_base()
+      method needs refactoring","body":"It should be split up or otherwise made more
+      flexible.","status":"RESOLVED","resolution":"CLOSED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":10,"created":"2023-02-07T15:52:25Z","updated":"2023-02-13T04:34:08Z","ref":"~gotmax23/fedrq-copy#10","subject":"Add
+      support for forcearch","body":"","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":9,"created":"2023-01-02T02:02:05Z","updated":"2023-02-12T18:22:53Z","ref":"~gotmax23/fedrq-copy#9","subject":"Add
+      a libdnf5 backend","body":"","status":"RESOLVED","resolution":"IMPLEMENTED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":8,"created":"2022-12-19T23:37:12Z","updated":"2023-02-12T00:07:22Z","ref":"~gotmax23/fedrq-copy#8","subject":"Controlled
+      way to configure dnf and --cachedir (may be out of scope)","body":"https://git.sr.ht/~gotmax23/fedrq/tree/4ee5d185b0fb242b8c9a72c27c51623fb7723c52/item/fedrq/cli/base.py#L111-113
+      :\r\n\r\n```\r\n        # This is private for now; I''m not yet sure how I want
+      to architect\r\n        # passing extra configuration options.\r\n        parser.add_argument(\"--cachedir\",
+      help=argparse.SUPPRESS)\r\n```\r\n\r\n`--cachedir` is undocumented and currently
+      only used in unit tests. Figure out `--cachedir` (#5) and extra dnf configuration
+      in general.","status":"RESOLVED","resolution":"CLOSED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":7,"created":"2022-12-14T17:51:13Z","updated":"2023-01-02T01:59:37Z","ref":"~gotmax23/fedrq-copy#7","subject":"Deeper
+      configuration merging","body":"","status":"RESOLVED","resolution":"BY_DESIGN","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}},{"id":5,"created":"2022-12-13T20:29:57Z","updated":"2023-01-28T18:55:26Z","ref":"~gotmax23/fedrq-copy#5","subject":"Fix
+      cachedir and releasever handling","body":"```\r\nfedrq COMMAND -b f37\r\nfedrq
+      COMMAND -b f36\r\nfedrq COMMAND -b f37\r\n```\r\n\r\ndeletes the cache when
+      changing the branch.\r\n\r\nChange the repoid each time (probably makes sense
+      to vendor the repo configs in this case which would fix #1) or use a custom
+      cachedir.","status":"RESOLVED","resolution":"CLOSED","submitter":{"canonicalName":"~gotmax23"},"tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}}]}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:00 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

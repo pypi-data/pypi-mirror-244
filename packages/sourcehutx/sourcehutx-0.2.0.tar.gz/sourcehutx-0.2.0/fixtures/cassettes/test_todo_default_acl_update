@@ -1,0 +1,181 @@
+interactions:
+- request:
+    body: '{"query": "\n        mutation create(\n          $name: String!\n          $description:
+      String\n          $visibility: Visibility!\n        ) {\n          createTracker(\n            name:
+      $name\n            description: $description\n            visibility: $visibility\n          )
+      {\n              \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n          }\n        }\n        ",
+      "variables": {"name": "tester-acl", "description": null, "visibility": "UNLISTED"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '477'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"createTracker":{"id":12206,"created":"2023-08-27T01:12:26.922363Z","updated":"2023-08-27T01:12:26.922363Z","name":"tester-acl","description":null,"visibility":"UNLISTED"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '182'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 27 Aug 2023 01:12:26 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query {\n          me {\n            username\n          }\n        }\n        ",
+      "variables": {}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '119'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"me":{"username":"gotmax23-test"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 27 Aug 2023 01:12:27 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation updateTrackerACL($tracker_id: Int!, $inp:
+      ACLInput!) {\n            updateTrackerACL(trackerId: $tracker_id, input: $inp)
+      {\n                \nbrowse\nsubmit\ncomment\nedit\ntriage\n\n            }\n        }\n        ",
+      "variables": {"inp": {"browse": true, "submit": true, "comment": true, "edit":
+      true, "triage": false}, "tracker_id": 12206}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '375'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"updateTrackerACL":{"browse":true,"submit":true,"comment":true,"edit":true,"triage":false}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '101'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 27 Aug 2023 01:12:27 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation delete($tracker: Int!) {\n          deleteTracker(id:
+      $tracker) {\n            id\n          }\n        }\n        ", "variables":
+      {"tracker": 12206}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '180'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"deleteTracker":{"id":12206}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '39'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 27 Aug 2023 01:12:28 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

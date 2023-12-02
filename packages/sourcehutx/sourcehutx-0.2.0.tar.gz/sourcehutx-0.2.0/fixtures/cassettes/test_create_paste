@@ -1,0 +1,275 @@
+interactions:
+- request:
+    body: "--b966f068534b460992c7a6903357bf51\r\nContent-Disposition: form-data; name=\"operations\"\r\n\r\n{\"query\":
+      \"\\n        mutation createPaste($files: [Upload!]!, $visibility: Visibility!)
+      {\\n            create(files: $files, visibility: $visibility) {\\n                \\nid\\nuser
+      {\\n    canonicalName\\n}\\n\\ncreated\\nvisibility\\nfiles {\\n    filename\\n
+      \   hash\\n    contents\\n}\\n\\n            }\\n        }\\n        \", \"variables\":
+      {\"visibility\": \"UNLISTED\", \"files\": [null, null]}}\r\n--b966f068534b460992c7a6903357bf51\r\nContent-Disposition:
+      form-data; name=\"map\"\r\n\r\n{\"0\": [\"variables.files.0\"], \"1\": [\"variables.files.1\"]}\r\n--b966f068534b460992c7a6903357bf51\r\nContent-Disposition:
+      form-data; name=\"0\"; filename=\"test_file_1.py\"\r\nContent-Type: text/x-python\r\n\r\nTEST_FILE_1\n\r\n--b966f068534b460992c7a6903357bf51\r\nContent-Disposition:
+      form-data; name=\"1\"; filename=\"test_file_2.py\"\r\nContent-Type: text/x-python\r\n\r\nTEST_FILE_2\n\r\n--b966f068534b460992c7a6903357bf51--\r\n"
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '949'
+      content-type:
+      - multipart/form-data; boundary=b966f068534b460992c7a6903357bf51
+      host:
+      - paste.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://paste.sr.ht/query
+  response:
+    content: '{"data":{"create":{"id":"e3b6161b566a41572d67ea8e64ac47610e936746","user":{"canonicalName":"~gotmax23-test"},"created":"2023-08-20T02:17:00.902943977Z","visibility":"UNLISTED","files":[{"filename":"test_file_1.py","hash":"5a5ce63b55d7baa75f642545a303ee752552f1de","contents":"https://paste.sr.ht/query/blob/5a5ce63b55d7baa75f642545a303ee752552f1de"},{"filename":"test_file_2.py","hash":"1c2358714c3a60511d82ff95720508f543ac3e37","contents":"https://paste.sr.ht/query/blob/1c2358714c3a60511d82ff95720508f543ac3e37"}]}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '518'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Aug 2023 02:17:00 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query {\n          me {\n            username\n          }\n        }\n        ",
+      "variables": {}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '119'
+      content-type:
+      - application/json
+      host:
+      - paste.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://paste.sr.ht/query
+  response:
+    content: '{"data":{"me":{"username":"gotmax23-test"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Aug 2023 02:17:01 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getPasteRef($paste_id: String!) {\n            paste(id:
+      $paste_id) {\n                \nid\nuser {\n    canonicalName\n}\n\n            }\n        }\n        ",
+      "variables": {"paste_id": "e3b6161b566a41572d67ea8e64ac47610e936746"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '259'
+      content-type:
+      - application/json
+      host:
+      - paste.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://paste.sr.ht/query
+  response:
+    content: '{"data":{"paste":{"id":"e3b6161b566a41572d67ea8e64ac47610e936746","user":{"canonicalName":"~gotmax23-test"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '110'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Aug 2023 02:17:01 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getPaste($paste_id: String!) {\n            paste(id:
+      $paste_id) {\n                \nid\nuser {\n    canonicalName\n}\n\ncreated\nvisibility\nfiles
+      {\n    filename\n    hash\n    contents\n}\n\n            }\n        }\n        ",
+      "variables": {"paste_id": "e3b6161b566a41572d67ea8e64ac47610e936746"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '329'
+      content-type:
+      - application/json
+      host:
+      - paste.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://paste.sr.ht/query
+  response:
+    content: '{"data":{"paste":{"id":"e3b6161b566a41572d67ea8e64ac47610e936746","user":{"canonicalName":"~gotmax23-test"},"created":"2023-08-20T02:17:00.890821Z","visibility":"UNLISTED","files":[{"filename":"test_file_1.py","hash":"5a5ce63b55d7baa75f642545a303ee752552f1de","contents":"https://paste.sr.ht/query/blob/5a5ce63b55d7baa75f642545a303ee752552f1de"},{"filename":"test_file_2.py","hash":"1c2358714c3a60511d82ff95720508f543ac3e37","contents":"https://paste.sr.ht/query/blob/1c2358714c3a60511d82ff95720508f543ac3e37"}]}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '514'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Aug 2023 02:17:01 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query listPastes($username: String!, $cursor: Cursor)
+      {\n            user(username: $username) {\n                pastes(cursor: $cursor)
+      {\n                    cursor\n                    results {\n                        \nid\nuser
+      {\n    canonicalName\n}\n\ncreated\nvisibility\nfiles {\n    filename\n    hash\n    contents\n}\n\n                    }\n                }\n            }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "cursor": null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '494'
+      content-type:
+      - application/json
+      host:
+      - paste.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://paste.sr.ht/query
+  response:
+    content: '{"data":{"user":{"pastes":{"cursor":null,"results":[{"id":"e3b6161b566a41572d67ea8e64ac47610e936746","user":{"canonicalName":"~gotmax23-test"},"created":"2023-08-20T02:17:00.890821Z","visibility":"UNLISTED","files":[{"filename":"test_file_1.py","hash":"5a5ce63b55d7baa75f642545a303ee752552f1de","contents":"https://paste.sr.ht/query/blob/5a5ce63b55d7baa75f642545a303ee752552f1de"},{"filename":"test_file_2.py","hash":"1c2358714c3a60511d82ff95720508f543ac3e37","contents":"https://paste.sr.ht/query/blob/1c2358714c3a60511d82ff95720508f543ac3e37"}]}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '552'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Aug 2023 02:17:01 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation delete($paste_id: String!) {\n            delete(id:
+      $paste_id) {\n                \nid\nuser {\n    canonicalName\n}\n\ncreated\nvisibility\nfiles
+      {\n    filename\n    hash\n    contents\n}\n\n            }\n        }\n        ",
+      "variables": {"paste_id": "e3b6161b566a41572d67ea8e64ac47610e936746"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '331'
+      content-type:
+      - application/json
+      host:
+      - paste.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://paste.sr.ht/query
+  response:
+    content: '{"data":{"delete":{"id":"e3b6161b566a41572d67ea8e64ac47610e936746","user":{"canonicalName":"~gotmax23-test"},"created":"2023-08-20T02:17:00.890821Z","visibility":"UNLISTED","files":[]}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '186'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Aug 2023 02:17:01 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

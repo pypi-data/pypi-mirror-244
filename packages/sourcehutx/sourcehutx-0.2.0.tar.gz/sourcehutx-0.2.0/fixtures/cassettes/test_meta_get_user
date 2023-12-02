@@ -1,0 +1,92 @@
+interactions:
+- request:
+    body: '{"query": "\n        query getUser($username: String!) {\n            userByName(username:
+      $username) {\n                id\ncanonicalName\nusername\nemail\ncreated\nupdated\nurl\nlocation\nbio\n\n            }\n        }\n        ",
+      "variables": {"username": "gotmax23-test"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '277'
+      content-type:
+      - application/json
+      host:
+      - meta.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://meta.sr.ht/query
+  response:
+    content: '{"data":{"userByName":{"id":45032,"canonicalName":"~gotmax23-test","username":"gotmax23-test","email":"maxwell+client-test@gtmx.me","created":"2023-06-16T19:34:38.871517Z","updated":"2023-06-18T16:38:03.828571Z","url":null,"location":null,"bio":"Account
+      for \u003chttps://git.sr.ht/~gotmax23/sourcehut\u003e''s integration tests"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '331'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 21 Aug 2023 01:46:55 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getUser($username: String!) {\n            userByName(username:
+      $username) {\n                id\ncanonicalName\nusername\nemail\ncreated\nupdated\nurl\nlocation\nbio\n\n            }\n        }\n        ",
+      "variables": {"username": "gotmax23-test"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '277'
+      content-type:
+      - application/json
+      host:
+      - meta.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://meta.sr.ht/query
+  response:
+    content: '{"data":{"userByName":{"id":45032,"canonicalName":"~gotmax23-test","username":"gotmax23-test","email":"maxwell+client-test@gtmx.me","created":"2023-06-16T19:34:38.871517Z","updated":"2023-06-18T16:38:03.828571Z","url":null,"location":null,"bio":"Account
+      for \u003chttps://git.sr.ht/~gotmax23/sourcehut\u003e''s integration tests"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '331'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 21 Aug 2023 01:46:55 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

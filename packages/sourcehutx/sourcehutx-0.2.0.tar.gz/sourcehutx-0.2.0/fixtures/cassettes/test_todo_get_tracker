@@ -1,0 +1,94 @@
+interactions:
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n                \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "tester"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '356'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"id":10353,"created":"2022-12-13T04:06:14.212547Z","updated":"2023-06-16T20:35:35.831158Z","name":"tester","description":"This
+      is a test tracker.","visibility":"UNLISTED"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '202'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:53:59 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n                \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "tester"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '356'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"id":10353,"created":"2022-12-13T04:06:14.212547Z","updated":"2023-06-16T20:35:35.831158Z","name":"tester","description":"This
+      is a test tracker.","visibility":"UNLISTED"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '202'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:53:59 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

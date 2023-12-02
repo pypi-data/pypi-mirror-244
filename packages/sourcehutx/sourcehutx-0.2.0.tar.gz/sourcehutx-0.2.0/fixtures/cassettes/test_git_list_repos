@@ -1,0 +1,697 @@
+interactions:
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '554'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEcpzEOO5y-mBtD8TGLF0rWKtqFBqyaEwI4hVweL1yXIiQajfshhvzCFRN-xI52Qc9KXl_vEVpJIYUME3tHvIZmvT8JzpUbsH1i2eqig1xilzJZoDQwDijjPz5doCxfHpGp","results":[{"name":"drewdevault.com","description":"My
+      blog and personal website","visibility":"PUBLIC","id":29886,"created":"2020-08-21T19:00:38.513811Z","updated":"2023-06-19T17:00:13.594655Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sourcehut.org","description":"sourcehut
+      marketing website","visibility":"PUBLIC","id":4573,"created":"2019-02-06T17:01:46.900139Z","updated":"2023-06-19T14:54:26.274658Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare","description":"The
+      Hare programming language","visibility":"PUBLIC","id":40974,"created":"2021-01-22T16:55:07.334951Z","updated":"2023-06-19T11:35:00.586096Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"builds.sr.ht","description":"sr.ht
+      build service","visibility":"PUBLIC","id":7,"created":"2017-04-02T21:57:15.183189Z","updated":"2023-06-19T09:44:59.88667Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"himitsu","description":"Secure
+      key store","visibility":"PUBLIC","id":93861,"created":"2022-03-29T20:25:43.97433Z","updated":"2023-06-17T06:43:23.819795Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"helios","description":"An
+      experimental microkernel","visibility":"PUBLIC","id":83097,"created":"2022-03-09T11:04:41.941211Z","updated":"2023-06-15T11:18:31.525836Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sr.ht-docs","description":"SourceHut
+      documentation","visibility":"PUBLIC","id":9367,"created":"2019-08-07T01:12:47.414354Z","updated":"2023-06-13T13:51:13.008597Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"core-go","description":"Essential
+      Go modules for sourcehut","visibility":"PUBLIC","id":29835,"created":"2020-08-20T14:06:25.285799Z","updated":"2023-06-13T09:28:03.191223Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"harec","description":"Hare
+      bootstrap compiler","visibility":"PUBLIC","id":32433,"created":"2020-10-06T00:17:24.116703Z","updated":"2023-06-13T00:04:52.181953Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-specification","description":"The
+      Hare programming language specification","visibility":"PUBLIC","id":30755,"created":"2020-09-05T15:25:01.169985Z","updated":"2023-06-09T02:51:16.555602Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"harelang.org","description":"Website
+      for the Hare programming language","visibility":"PUBLIC","id":23907,"created":"2020-05-22T21:07:04.659671Z","updated":"2023-06-09T01:57:56.089798Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"meta.sr.ht","description":"sr.ht
+      core account services","visibility":"PUBLIC","id":2,"created":"2017-04-02T18:12:59.583407Z","updated":"2023-06-06T15:30:37.282253Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"mercury","description":"Low-level
+      userspace for writing Helios drivers","visibility":"PUBLIC","id":141468,"created":"2022-06-26T10:42:28.607577Z","updated":"2023-06-05T11:08:03.933282Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"most","description":"A
+      simple pager utility","visibility":"PUBLIC","id":333340,"created":"2023-06-03T18:02:34.694422Z","updated":"2023-06-04T08:23:34.689933Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hautils","description":"POSIX
+      utilities implemented in Hare","visibility":"PUBLIC","id":54904,"created":"2021-07-08T16:32:07.085674Z","updated":"2023-06-04T07:26:03.751601Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-sdl2","description":"SDL2
+      bindings for Hare","visibility":"PUBLIC","id":67565,"created":"2021-12-09T11:03:37.202697Z","updated":"2023-06-04T07:23:27.606829Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-vt","description":"Hare
+      library for driving terminals","visibility":"PUBLIC","id":211782,"created":"2022-11-01T19:39:38.069072Z","updated":"2023-06-03T21:28:58.473874Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"ipcgen","description":"IPC
+      interface generator for Mercury","visibility":"PUBLIC","id":210595,"created":"2022-10-30T09:38:41.499999Z","updated":"2023-06-02T17:04:00.139809Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-text","description":"Text
+      encodings support for Hare","visibility":"PUBLIC","id":332776,"created":"2023-06-02T14:55:25.583612Z","updated":"2023-06-02T15:30:24.603687Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-message","description":"Internet
+      message format implementation for Hare","visibility":"PUBLIC","id":306163,"created":"2023-04-17T14:38:12.525714Z","updated":"2023-06-02T10:21:00.369233Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sr.ht-apkbuilds","description":"Alpine
+      packages for sr.ht","visibility":"PUBLIC","id":56,"created":"2017-11-14T01:06:57.488813Z","updated":"2023-06-02T08:49:05.144024Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"pages.sr.ht","description":"Static
+      website hosting service","visibility":"PUBLIC","id":43224,"created":"2021-02-17T14:23:46.586353Z","updated":"2023-06-01T10:44:11.192842Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"git.sr.ht","description":"sr.ht
+      git services","visibility":"PUBLIC","id":1,"created":"2017-04-02T18:07:01.232203Z","updated":"2023-06-01T10:42:54.87749Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"git-send-email.io","description":"Website
+      for introducing people to git send-email","visibility":"PUBLIC","id":4414,"created":"2019-02-01T08:20:26.844422Z","updated":"2023-06-01T10:39:02.310667Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"metrics.sr.ht","description":"SourceHut
+      monitoring tools","visibility":"PUBLIC","id":15888,"created":"2020-01-05T17:28:19.447785Z","updated":"2023-06-01T10:37:00.545988Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEcpzEOO5y-mBtD8TGLF0rWKtqFBqyaEwI4hVweL1yXIiQajfshhvzCFRN-xI52Qc9KXl_vEVpJIYUME3tHvIZmvT8JzpUbsH1i2eqig1xilzJZoDQwDijjPz5doCxfHpGp"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEceTHMuZ2uZ1RrE_4mPgmmvsfZSqnRrFic1eP0rmag_Iw2tYP80eP4dOILHp1LMsza41EhIvX-1C3H97v5XZkUxMogijYCOSxFDR8QbQpgqlSPVs8nM2vWLCh9U68bXCiK","results":[{"name":"sr.ht-pkgbuilds","description":"Arch
+      packages for sr.ht software","visibility":"PUBLIC","id":4,"created":"2017-04-02T18:28:50.878561Z","updated":"2023-06-01T10:32:25.311546Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"paste.sr.ht","description":"Sourcehut
+      paste hosting service","visibility":"PUBLIC","id":5383,"created":"2019-02-24T20:13:21.745242Z","updated":"2023-06-01T10:28:07.679262Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"man.sr.ht","description":"sr.ht
+      wiki","visibility":"PUBLIC","id":59,"created":"2017-12-03T16:58:10.761476Z","updated":"2023-06-01T10:27:54.335402Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hub.sr.ht","description":"SourceHut
+      project hub","visibility":"PUBLIC","id":19726,"created":"2020-03-24T14:26:29.620417Z","updated":"2023-06-01T10:27:35.126264Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare.vim","description":"Vim
+      plugin for Hare programming","visibility":"PUBLIC","id":22606,"created":"2020-05-07T02:56:07.727032Z","updated":"2023-05-22T01:04:05.543568Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"writefreesoftware.org","description":"A
+      resource to promote free software philosophy and implementation","visibility":"PUBLIC","id":322909,"created":"2023-05-16T08:38:44.392477Z","updated":"2023-05-20T15:28:26.803644Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sr.ht-nginx","description":"Nginx
+      config files for sr.ht","visibility":"PUBLIC","id":30482,"created":"2020-08-31T22:05:41.727463Z","updated":"2023-05-11T07:55:51.668154Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hboot","description":"Helios
+      EFI bootloader for x86_64","visibility":"PUBLIC","id":317714,"created":"2023-05-08T07:43:14.050152Z","updated":"2023-05-11T07:44:19.882515Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"dotfiles","description":"My
+      dotfiles. WTFPL","visibility":"PUBLIC","id":5,"created":"2017-04-02T18:29:27.27263Z","updated":"2023-05-10T13:36:51.719841Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hello-mercury-c","description":"\"Hello
+      world\" program for Mercury, in C","visibility":"PUBLIC","id":141469,"created":"2022-06-26T11:44:20.604899Z","updated":"2023-05-07T15:09:48.412564Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"mercury-libc","description":"C
+      support for Mercury","visibility":"PUBLIC","id":314750,"created":"2023-05-02T08:33:47.174698Z","updated":"2023-05-06T14:17:56.457988Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-glfw","description":"GLFW
+      support for Hare","visibility":"PUBLIC","id":313640,"created":"2023-04-30T11:02:47.667514Z","updated":"2023-04-30T11:14:01.401168Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"himitsu-totp","description":"TOTP
+      support for Himitsu","visibility":"PUBLIC","id":104109,"created":"2022-04-17T08:24:33.111781Z","updated":"2023-04-20T08:24:14.613534Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"rc","description":"A
+      simple shell","visibility":"PUBLIC","id":177859,"created":"2022-08-30T13:15:36.091696Z","updated":"2023-04-19T12:40:09.321905Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-json","description":"JSON
+      support for Hare","visibility":"PUBLIC","id":207893,"created":"2022-10-25T11:14:25.739382Z","updated":"2023-04-19T10:18:51.122402Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"lists.sr.ht","description":"sr.ht
+      mailing list service","visibility":"PUBLIC","id":126,"created":"2018-06-09T01:16:11.199595Z","updated":"2023-04-17T11:20:24.87032Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hire.sr.ht","description":"[WIP]
+      SourceHut for-hire service","visibility":"PUBLIC","id":64337,"created":"2021-10-30T09:22:58.126932Z","updated":"2023-04-12T09:08:07.934808Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"todo.sr.ht","description":"sr.ht
+      bug tracking service","visibility":"PUBLIC","id":31,"created":"2017-07-22T04:34:01.709201Z","updated":"2023-04-11T13:01:57.160948Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"himitsu-git","description":"Git
+      integration for Himitsu","visibility":"PUBLIC","id":267649,"created":"2023-02-09T10:20:58.249113Z","updated":"2023-04-06T09:23:56.717915Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"scm.sr.ht","description":"Shared
+      support code for sr.ht source control services","visibility":"PUBLIC","id":3940,"created":"2019-01-20T22:22:58.044761Z","updated":"2023-03-22T10:11:23.722918Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-compress","description":"Compression
+      algorithms for Hare","visibility":"PUBLIC","id":104639,"created":"2022-04-18T13:06:04.369182Z","updated":"2023-03-16T09:10:37.250709Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-qoi","description":"Quite
+      OK image format for Hare","visibility":"PUBLIC","id":254076,"created":"2023-01-16T14:50:18.850533Z","updated":"2023-03-16T09:02:04.528422Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-png","description":"PNG
+      implementation for Hare","visibility":"PUBLIC","id":84538,"created":"2022-03-12T12:21:22.216371Z","updated":"2023-03-16T09:01:09.219637Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-vec","description":"(WIP)
+      Vector graphics library for Hare","visibility":"PUBLIC","id":238059,"created":"2022-12-18T12:28:35.757883Z","updated":"2023-03-16T08:59:17.415077Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wayland-book","description":"The
+      Wayland Protocol","visibility":"PUBLIC","id":6251,"created":"2019-03-28T03:28:31.435014Z","updated":"2023-03-13T11:54:54.674161Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEceTHMuZ2uZ1RrE_4mPgmmvsfZSqnRrFic1eP0rmag_Iw2tYP80eP4dOILHp1LMsza41EhIvX-1C3H97v5XZkUxMogijYCOSxFDR8QbQpgqlSPVs8nM2vWLCh9U68bXCiK"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEcU7236ixwGe7apThBjj9AlmfQALuR5QF0Yp8tXKuTpqPk1E7xmRZi0tNZd28Psk0PQ0qRk3LeIiAKoQCdtVNE-C8Y45C07tTNZanOGYUcr4LRYSYNcU38tho77kmG6XDg","results":[{"name":"api.sr.ht","description":"SourceHut
+      GraphQL federation gateway","visibility":"PUBLIC","id":147779,"created":"2022-07-07T15:36:21.350992Z","updated":"2023-03-01T13:13:25.367283Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gddo","description":"Fork
+      of godoc.org","visibility":"PUBLIC","id":38298,"created":"2020-12-18T18:28:44.674946Z","updated":"2023-02-28T20:17:51.126978Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"otptool","description":"Tools
+      for working with one-time pads","visibility":"PUBLIC","id":277914,"created":"2023-02-27T10:10:19.856248Z","updated":"2023-02-28T08:20:49.86465Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"himitsu-ssh","description":"SSH
+      integration for Himitsu","visibility":"PUBLIC","id":114467,"created":"2022-05-08T15:11:06.792877Z","updated":"2023-02-25T08:35:34.679933Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"himitsu-firefox","description":"Himitsu
+      integration for Firefox","visibility":"PUBLIC","id":114982,"created":"2022-05-09T10:56:58.265232Z","updated":"2023-02-25T08:25:09.56944Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-progbits","description":"Hare
+      implementations of low-level ELF bits","visibility":"PUBLIC","id":274952,"created":"2023-02-22T11:34:52.403102Z","updated":"2023-02-22T16:06:58.78557Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-xml","description":"XML
+      support for Hare","visibility":"PUBLIC","id":104640,"created":"2022-04-18T13:13:14.035603Z","updated":"2023-02-22T09:41:17.771081Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"useplaintext.email","description":"A
+      website encouraging email users to use plaintext","visibility":"PUBLIC","id":9002,"created":"2019-07-23T21:59:46.128198Z","updated":"2023-02-22T08:52:35.383406Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-ssh","description":"SSH
+      library for Hare","visibility":"PUBLIC","id":111798,"created":"2022-05-02T11:28:57.197114Z","updated":"2023-02-22T08:09:18.245314Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hiprompt-gtk-py","description":"A
+      GTK+ Himitsu prompter for Wayland","visibility":"PUBLIC","id":125897,"created":"2022-05-28T12:10:14.409172Z","updated":"2023-02-22T07:44:50.579669Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-http","description":"HTTP(s)
+      support for Hare","visibility":"PUBLIC","id":267651,"created":"2023-02-09T10:45:40.373519Z","updated":"2023-02-15T08:53:11.894157Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"srht.site","description":"srht.site
+      documentation","visibility":"PUBLIC","id":43310,"created":"2021-02-18T16:31:12.198132Z","updated":"2023-02-14T08:30:23.390332Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"himitsustore.org","description":"Himitsu
+      website","visibility":"PUBLIC","id":127192,"created":"2022-05-29T16:27:02.469499Z","updated":"2023-02-10T07:59:37.937482Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"ares-os.org","description":"Website
+      for Ares","visibility":"PUBLIC","id":148356,"created":"2022-07-08T14:17:34.027775Z","updated":"2023-02-08T09:18:26.980004Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"venus","description":"Driver
+      collection for Ares OS","visibility":"PUBLIC","id":263739,"created":"2023-02-02T18:08:22.655053Z","updated":"2023-02-02T22:17:02.441324Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"pixbuf","description":"Pixel
+      buffers for Hare","visibility":"PUBLIC","id":152753,"created":"2022-07-16T11:56:41.144705Z","updated":"2023-02-02T11:16:23.588097Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wev","description":"Wayland
+      event viewer","visibility":"PUBLIC","id":9715,"created":"2019-08-11T08:03:08.059705Z","updated":"2023-01-30T09:05:48.026174Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hello-hare-wl","description":"\"Hello
+      Wayland\" in Hare with hare-vec and pixbuf","visibility":"PUBLIC","id":261474,"created":"2023-01-29T11:11:45.707482Z","updated":"2023-01-29T12:54:15.222996Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-wayland","description":"Wayland
+      client \u0026 server implementation for Hare","visibility":"PUBLIC","id":54927,"created":"2021-07-08T20:15:24.680176Z","updated":"2023-01-29T12:14:24.966805Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"dispatch.sr.ht","description":"Dispatches
+      events to and from the sr.ht network","visibility":"PUBLIC","id":84,"created":"2018-03-04T02:43:17.076902Z","updated":"2023-01-26T07:44:47.849261Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"helios-talk","description":null,"visibility":"PUBLIC","id":254707,"created":"2023-01-17T17:16:10.704063Z","updated":"2023-01-24T13:05:31.735898Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hello-mercury","description":"Simple
+      example driver for Mercury","visibility":"PUBLIC","id":256915,"created":"2023-01-21T18:22:53.006865Z","updated":"2023-01-21T18:24:19.906722Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-ev","description":"Event
+      loop for Hare","visibility":"PUBLIC","id":227968,"created":"2022-11-30T10:03:55.159601Z","updated":"2023-01-16T14:06:14.379473Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gmnisrv","description":"Gemini
+      server","visibility":"PUBLIC","id":31760,"created":"2020-09-23T15:24:50.441751Z","updated":"2023-01-16T12:33:52.147368Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gmni","description":"Gemini
+      client","visibility":"PUBLIC","id":31563,"created":"2020-09-20T17:07:05.065969Z","updated":"2023-01-16T12:33:29.661717Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEcU7236ixwGe7apThBjj9AlmfQALuR5QF0Yp8tXKuTpqPk1E7xmRZi0tNZd28Psk0PQ0qRk3LeIiAKoQCdtVNE-C8Y45C07tTNZanOGYUcr4LRYSYNcU38tho77kmG6XDg"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEc1yxFO4jHiLcQqhlvkQScbvqKtg2SKGhGewu-f_JNKJz14RvPNp0300CuUQKxKodXqU4pWVx96zMyx5rf1mL6b3QMXpmW3ax0tn6iiF9KJ4HS_7cofq8zDP8brWMzTAWR","results":[{"name":"hare-redis","description":"Redis
+      client for Hare","visibility":"PUBLIC","id":73756,"created":"2022-02-08T12:24:29.833703Z","updated":"2022-12-19T11:55:32.539152Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"tokidoki","description":"A
+      small and robust calendar \u0026 contacts server","visibility":"PUBLIC","id":74707,"created":"2022-02-21T08:25:41.439124Z","updated":"2022-12-17T20:14:29.429318Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"go-git","description":"SourceHut
+      branch of github.com/go-git/go-git","visibility":"PUBLIC","id":73682,"created":"2022-02-07T10:25:10.284583Z","updated":"2022-12-06T09:15:43.505684Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"filedrop","description":"Lightweight
+      file transfers","visibility":"PUBLIC","id":224054,"created":"2022-11-23T10:17:26.792454Z","updated":"2022-11-23T14:50:34.589771Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-iobus","description":"An
+      asyncronous I/O abstraction for Hare","visibility":"PUBLIC","id":104636,"created":"2022-04-18T12:38:26.143997Z","updated":"2022-11-19T08:45:37.346898Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-irc","description":"net::irc
+      for Hare","visibility":"PUBLIC","id":64705,"created":"2021-11-04T12:14:26.212413Z","updated":"2022-11-17T11:49:47.904419Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"srht-fakedb","description":"Tool
+      to populate SourceHut databases with test data","visibility":"PUBLIC","id":173966,"created":"2022-08-23T08:37:47.773241Z","updated":"2022-11-10T10:23:27.159727Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"powerctl","description":"CLI
+      tool for power management on Linux","visibility":"PUBLIC","id":176307,"created":"2022-08-27T20:37:20.991199Z","updated":"2022-10-16T11:40:57.846664Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"dowork","description":"Task
+      queueing library for Go","visibility":"PUBLIC","id":32019,"created":"2020-09-28T18:24:21.480264Z","updated":"2022-10-10T08:57:48.802897Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"personal-aports","description":"Personal
+      aports tree","visibility":"PUBLIC","id":9861,"created":"2019-08-17T06:23:18.997455Z","updated":"2022-10-03T09:03:47.469827Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gcc","description":"Personal
+      fork of gcc","visibility":"PUBLIC","id":141466,"created":"2022-06-26T10:16:25.232269Z","updated":"2022-09-16T16:10:03.252164Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"opbot","description":"A
+      simple IRC bot that ops everyone","visibility":"PUBLIC","id":171870,"created":"2022-08-19T15:48:19.694545Z","updated":"2022-08-19T15:49:03.906112Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"toothbrush","description":"A
+      finger server and client","visibility":"PUBLIC","id":50117,"created":"2021-05-12T21:26:26.438898Z","updated":"2022-08-15T13:50:05.767497Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"pages.sr.ht-examples","description":"pages.sr.ht
+      example manifests","visibility":"PUBLIC","id":43315,"created":"2021-02-18T17:26:50.123277Z","updated":"2022-08-15T13:47:37.475129Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"tetrominoes","description":"Tetromino
+      game","visibility":"PUBLIC","id":67598,"created":"2021-12-09T19:24:39.371259Z","updated":"2022-08-13T10:39:05.766194Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hashiru","description":"GitLab/lists.sr.ht
+      patch bridge","visibility":"PUBLIC","id":150545,"created":"2022-07-12T08:28:34.404273Z","updated":"2022-08-09T08:54:13.115376Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hdmg","description":"GameBoy
+      emulator (WIP)","visibility":"PUBLIC","id":164803,"created":"2022-08-06T10:03:13.473077Z","updated":"2022-08-07T14:30:24.151303Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wtf_wikipedia","description":"Personal
+      fork of wtf_wikipedia","visibility":"PUBLIC","id":144680,"created":"2022-07-02T15:57:39.353899Z","updated":"2022-07-22T10:26:45.844044Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-barebones","description":"Minimal
+      demonstration of a freestanding Hare environment for kernel/OS hacking","visibility":"PUBLIC","id":156023,"created":"2022-07-22T09:21:26.223329Z","updated":"2022-07-22T09:27:14.639081Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"searchhut","description":"Search
+      engine","visibility":"PUBLIC","id":148380,"created":"2022-07-08T17:46:40.124892Z","updated":"2022-07-15T07:25:33.493726Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"searchhut-docs","description":"Documentation
+      for SearchHut","visibility":"PUBLIC","id":151624,"created":"2022-07-14T11:00:35.820159Z","updated":"2022-07-14T13:44:00.170697Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"fandumb","description":"Reclaiming
+      Fandom for the readers","visibility":"PUBLIC","id":144681,"created":"2022-07-02T16:00:29.833047Z","updated":"2022-07-02T16:00:47.843829Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"doom","description":"Personal
+      fork of doomgeneric","visibility":"PUBLIC","id":141472,"created":"2022-06-26T12:47:05.961864Z","updated":"2022-06-27T12:12:59.202138Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"binutils","description":"Personal
+      fork of binutils","visibility":"PUBLIC","id":141461,"created":"2022-06-26T09:08:30.57177Z","updated":"2022-06-26T15:57:00.374813Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"mercury.old","description":"A
+      shitty i386 kernel","visibility":"PUBLIC","id":32165,"created":"2020-10-01T18:55:02.349002Z","updated":"2022-06-26T10:42:07.019547Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEc1yxFO4jHiLcQqhlvkQScbvqKtg2SKGhGewu-f_JNKJz14RvPNp0300CuUQKxKodXqU4pWVx96zMyx5rf1mL6b3QMXpmW3ax0tn6iiF9KJ4HS_7cofq8zDP8brWMzTAWR"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEcC1MgIBJQ7OCoSeeReH0RuvCi3vMByB9qli-HXDX5RmUvGaZw9huf1Ebu0ln7vcIQL_gibYP1tuMw3bta4AZI0rKY4G635vWajFkqQeZsEm8-9YMTnB8Qcz2zM9e4wqb6","results":[{"name":"hiprompt-gtk","description":"Legacy
+      GTK3 prompter for Himitsu, do not use","visibility":"PUBLIC","id":103133,"created":"2022-04-15T21:27:00.209345Z","updated":"2022-05-29T09:13:57.471987Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"harebot","description":"IRC
+      bot for the #hare channel on libera.chat","visibility":"PUBLIC","id":65031,"created":"2021-11-09T10:38:14.522277Z","updated":"2022-05-16T12:02:39.73382Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-md5","description":"crypto::md5
+      for Hare programs","visibility":"PUBLIC","id":70092,"created":"2022-01-10T12:50:04.39377Z","updated":"2022-05-16T11:55:49.238556Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-virt","description":"hare-virt
+      provides hypervisor support for Hare programs","visibility":"PUBLIC","id":64945,"created":"2021-11-08T12:02:31.848857Z","updated":"2022-05-16T11:41:07.875112Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"scheduled","description":"A
+      daemon for scheduling tasks","visibility":"PUBLIC","id":68643,"created":"2021-12-23T13:34:56.921143Z","updated":"2022-05-06T12:15:47.646541Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"baremessages.org","description":"Website
+      for the BARE message encoding specification","visibility":"PUBLIC","id":26008,"created":"2020-06-21T23:01:16.053309Z","updated":"2022-05-04T09:00:44.401648Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"echo","description":"A
+      TCP echo server written with Hare and iobus","visibility":"PUBLIC","id":63734,"created":"2021-10-22T06:45:09.573522Z","updated":"2022-04-25T08:01:29.041443Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"habf","description":"Hare
+      brainfuck compiler","visibility":"PUBLIC","id":43183,"created":"2021-02-17T02:47:18.084091Z","updated":"2022-04-25T08:01:21.95529Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"harsh","description":"A
+      Unix shell inspired by Plan 9''s rc","visibility":"PUBLIC","id":70427,"created":"2022-01-14T18:48:51.278108Z","updated":"2022-04-25T08:00:54.334028Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"carrot","description":"Personal
+      carrot tree","visibility":"PUBLIC","id":69732,"created":"2022-01-05T17:29:17.471087Z","updated":"2022-04-25T08:00:46.730491Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"deblob","description":"~lanodan/deblob","visibility":"PUBLIC","id":74475,"created":"2022-02-18T09:27:31.220084Z","updated":"2022-04-25T08:00:33.443176Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"btqd","description":"Bittorrent
+      queue daemon","visibility":"PUBLIC","id":87472,"created":"2022-03-18T09:41:32.867447Z","updated":"2022-04-25T08:00:16.418883Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-curl","description":"Hare
+      wrapper for cURL (temporary)","visibility":"PUBLIC","id":87958,"created":"2022-03-19T08:39:20.142658Z","updated":"2022-04-25T08:00:13.373717Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hare-linux","description":"Extra
+      Linux support for Hare programs","visibility":"PUBLIC","id":104638,"created":"2022-04-18T12:48:24.045765Z","updated":"2022-04-25T07:58:56.957803Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"chroma","description":"Fork
+      of github.com/alecthomas/chroma","visibility":"PUBLIC","id":28472,"created":"2020-07-28T17:03:19.349396Z","updated":"2022-04-25T07:55:43.408081Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hugo","description":"Fork
+      of gohugo.io","visibility":"PUBLIC","id":28473,"created":"2020-07-28T17:07:20.29775Z","updated":"2022-04-25T07:55:40.407464Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wildwildweb","description":"Web
+      interface for driving plotters","visibility":"PUBLIC","id":94818,"created":"2022-03-31T10:11:58.238249Z","updated":"2022-03-31T10:43:53.126111Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"himitsu.old","description":"Daemon
+      for storing secrets","visibility":"PUBLIC","id":12983,"created":"2019-11-05T03:04:33.416583Z","updated":"2022-03-29T20:25:25.675705Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"visurf","description":"A
+      power-user frontend for netsurf","visibility":"PUBLIC","id":59992,"created":"2021-09-05T13:25:45.244713Z","updated":"2022-03-14T08:35:46.208226Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"jsbot","description":"Terrible
+      JavaScript IRC bot","visibility":"PUBLIC","id":26470,"created":"2020-06-29T17:58:44.195938Z","updated":"2022-02-27T22:37:52.860647Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wshowkeys","description":"Displays
+      keys being pressed on a Wayland session","visibility":"PUBLIC","id":11343,"created":"2019-09-25T20:48:16.749443Z","updated":"2022-02-20T08:45:43.668776Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"musl","description":"Personal
+      musl libc tree","visibility":"PUBLIC","id":74359,"created":"2022-02-16T10:39:11.560897Z","updated":"2022-02-16T10:39:33.076322Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"aerc-mail.org","description":"aerc-mail.org","visibility":"PUBLIC","id":7424,"created":"2019-05-24T03:06:54.10828Z","updated":"2022-01-30T16:50:02.48703Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"aerc","description":"A
+      pretty good email client","visibility":"PUBLIC","id":74,"created":"2018-01-10T00:29:35.004431Z","updated":"2022-01-18T20:13:26.968705Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"pass-rotate","description":"A
+      tool and library for rotating your password on online services","visibility":"PUBLIC","id":55,"created":"2017-11-13T01:42:25.321263Z","updated":"2022-01-13T15:36:22.270193Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEcC1MgIBJQ7OCoSeeReH0RuvCi3vMByB9qli-HXDX5RmUvGaZw9huf1Ebu0ln7vcIQL_gibYP1tuMw3bta4AZI0rKY4G635vWajFkqQeZsEm8-9YMTnB8Qcz2zM9e4wqb6"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEcama_XUiKTv0SUi7grXE3aMbZ0vNxfKsc-JOVLE4x6HBp9rHFu0PmlAWe06KncM39-gfIB2LqCRKce79_M0ZY_JURZduGmVKTeqgRyqdmduco67dmjmGpUow1hNID_OrZ","results":[{"name":"redis-py","description":"Fork
+      of redis-py which removes nonfree modules","visibility":"PUBLIC","id":69088,"created":"2021-12-29T09:19:26.837047Z","updated":"2021-12-29T09:19:39.131527Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"openring","description":"A
+      webring for static site generators","visibility":"PUBLIC","id":7726,"created":"2019-06-03T18:56:31.78001Z","updated":"2021-12-21T08:31:23.165631Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"fosspay","description":"Donation
+      collection for FOSS groups and individuals","visibility":"PUBLIC","id":32157,"created":"2020-10-01T18:30:37.347707Z","updated":"2021-12-20T09:23:58.545117Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"chartsrv","description":"Daemon
+      which renders SVG plots from Prometheus data","visibility":"PUBLIC","id":31479,"created":"2020-09-18T19:03:07.681131Z","updated":"2021-12-17T10:24:28.335213Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"git","description":"Personal
+      git tree","visibility":"PUBLIC","id":66681,"created":"2021-11-29T19:42:11.312372Z","updated":"2021-11-29T19:43:51.97161Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"kineto","description":"An
+      HTTP to Gemini proxy","visibility":"PUBLIC","id":32796,"created":"2020-10-11T17:35:54.119263Z","updated":"2021-11-05T09:32:17.429051Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"postsq","description":"Fluent
+      PostgreSQL generator for Go","visibility":"PUBLIC","id":63013,"created":"2021-10-18T07:41:49.235759Z","updated":"2021-10-18T09:04:46.003289Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"forgeperf","description":"Software
+      Forge Performance Index","visibility":"PUBLIC","id":20893,"created":"2020-04-15T22:09:29.808559Z","updated":"2021-10-08T20:15:48.532286Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"ctools","description":"A
+      collection of core tools for a POSIX-compatible operating system","visibility":"PUBLIC","id":10485,"created":"2019-08-31T11:26:43.239895Z","updated":"2021-10-04T09:57:21.772474Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"antiweb","description":"A
+      CSS framework for a simpler web","visibility":"PUBLIC","id":61707,"created":"2021-09-29T13:44:02.96856Z","updated":"2021-09-30T11:38:47.41903Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"phoenix","description":"A
+      shoot-em-up game for GameBoy","visibility":"PUBLIC","id":61377,"created":"2021-09-24T13:47:25.898372Z","updated":"2021-09-24T13:48:29.164395Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"opensbi","description":"Personal
+      OpenSBI tree","visibility":"PUBLIC","id":60962,"created":"2021-09-19T15:56:02.030083Z","updated":"2021-09-19T15:59:11.406964Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"u-boot","description":"Personal
+      u-boot tree","visibility":"PUBLIC","id":60961,"created":"2021-09-19T15:55:05.326397Z","updated":"2021-09-19T15:58:59.023703Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"getopt","description":"A
+      POSIX-compatible getopt implementation for Go","visibility":"PUBLIC","id":5111,"created":"2019-02-14T05:04:04.254514Z","updated":"2021-09-09T08:12:26.798605Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"git-rebase.io","description":"Website
+      for teaching people how to use git rebase","visibility":"PUBLIC","id":6913,"created":"2019-04-28T19:02:40.745896Z","updated":"2021-08-23T08:15:29.285615Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"reminderbot","description":"Reminder
+      bot","visibility":"PUBLIC","id":49,"created":"2017-10-11T14:13:52.601873Z","updated":"2021-07-31T07:39:04.040302Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"koio","description":"Asset
+      bundler for C","visibility":"PUBLIC","id":116,"created":"2018-05-29T02:11:57.786293Z","updated":"2021-07-14T14:00:38.63575Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wxrc","description":"Wayland
+      XR compositor","visibility":"PUBLIC","id":12565,"created":"2019-10-28T14:50:35.916133Z","updated":"2021-07-08T13:32:43.194089Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"go-bare","description":"Implementation
+      of BARE message encoding for Go","visibility":"PUBLIC","id":25925,"created":"2020-06-20T14:06:47.256095Z","updated":"2021-04-06T12:03:07.092557Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"imrsh","description":"Interactive
+      POSIX shell","visibility":"PUBLIC","id":15969,"created":"2020-01-07T16:57:03.851302Z","updated":"2021-03-20T13:02:44.112575Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"arewesimpleyet.org","description":"Are
+      we simple yet?","visibility":"PUBLIC","id":10513,"created":"2019-09-01T09:41:59.396719Z","updated":"2021-03-09T13:04:24.36983Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gemreader","description":"A
+      feed reader hosted on Gemini","visibility":"PUBLIC","id":44640,"created":"2021-03-05T19:24:37.589896Z","updated":"2021-03-08T15:18:40.448018Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"casa","description":"Home
+      screen for Wayland compositors","visibility":"PUBLIC","id":14920,"created":"2019-12-11T23:03:39.497068Z","updated":"2021-01-24T11:55:14.845733Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"aports-riscv64","description":"WIP
+      aports patches for riscv64 port","visibility":"PUBLIC","id":37126,"created":"2020-12-03T17:08:25.156334Z","updated":"2021-01-02T17:21:16.046038Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"mkproof","description":"A
+      simple tool for generating and verifying proofs of work","visibility":"PUBLIC","id":36324,"created":"2020-11-25T17:06:00.888294Z","updated":"2020-12-27T00:25:38.89171Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEcama_XUiKTv0SUi7grXE3aMbZ0vNxfKsc-JOVLE4x6HBp9rHFu0PmlAWe06KncM39-gfIB2LqCRKce79_M0ZY_JURZduGmVKTeqgRyqdmduco67dmjmGpUow1hNID_OrZ"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEcVpr7HVeuMJAnulJjLXi9XHdUjaVQMNvEeG2s8vg5J9-iiMP7kXKLH0WVRFEeYFxZ3yzohmJZ42FbVJxj8xUkmWleQW-V6skYUBPURA7WHzgROQ6eJhtRVuMKgbgBOz0E","results":[{"name":"go-libvterm","description":"Fork
+      of github.com/micromaomao/go-libvterm","visibility":"PUBLIC","id":5969,"created":"2019-03-16T22:56:06.735953Z","updated":"2020-11-17T14:46:56.775473Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"tw","description":"Terminal
+      wayland compositor (WIP)","visibility":"PUBLIC","id":9170,"created":"2019-07-30T00:50:50.558322Z","updated":"2020-11-13T04:13:55.438Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"cgi-scripts","description":"Gemini
+      CGI scripts","visibility":"PUBLIC","id":33731,"created":"2020-10-26T22:18:13.235941Z","updated":"2020-11-11T16:08:14.808513Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wio","description":"Wayland
+      compositor similar to plan9''s rio","visibility":"PUBLIC","id":3457,"created":"2019-01-10T03:53:39.932393Z","updated":"2020-11-02T19:11:08.942602Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"annotatec","description":"[DEFUNCT]
+      Creates sourcehut JSON annotations for C source trees","visibility":"PUBLIC","id":8476,"created":"2019-07-03T21:41:47.082968Z","updated":"2020-11-02T17:28:48.237438Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"youtube-dl","description":"Personal
+      youtube-dl tree","visibility":"PUBLIC","id":33437,"created":"2020-10-23T19:40:48.620888Z","updated":"2020-10-23T23:38:59.586622Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"annotatego","description":"[DEPRECATED]
+      Creates sourcehut JSON annotations for Go source trees","visibility":"PUBLIC","id":8539,"created":"2019-07-07T01:20:44.890916Z","updated":"2020-10-22T22:06:12.159763Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gql.sr.ht","description":"Shared
+      GraphQL code for *.sr.ht","visibility":"PUBLIC","id":23688,"created":"2020-05-19T14:17:26.19567Z","updated":"2020-10-06T18:25:44.376581Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"truecraft","description":"[obsolete]
+      A Minecraft beta 1.7.3 server \u0026 client implementation","visibility":"PUBLIC","id":32173,"created":"2020-10-01T19:04:41.960907Z","updated":"2020-10-01T19:04:45.505272Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"bfbot","description":"IRC
+      bot written in brainfuck","visibility":"PUBLIC","id":32172,"created":"2020-10-01T19:02:27.346628Z","updated":"2020-10-01T19:02:27.557293Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"smproxy","description":"[obsolete]
+      Minecraft reverse engineering proxy","visibility":"PUBLIC","id":32171,"created":"2020-10-01T19:01:04.97351Z","updated":"2020-10-01T19:01:05.199601Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hiragana.js","description":"Hiragana/katakana
+      input method for web browsers","visibility":"PUBLIC","id":32170,"created":"2020-10-01T19:00:34.96253Z","updated":"2020-10-01T19:00:35.158419Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"tomato","description":"[obsolete]
+      DCPU-16 emulator \u0026 debugger","visibility":"PUBLIC","id":32169,"created":"2020-10-01T18:59:11.471798Z","updated":"2020-10-01T18:59:11.827235Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"bash-scraper","description":"bash.org
+      scraper","visibility":"PUBLIC","id":32168,"created":"2020-10-01T18:57:41.731843Z","updated":"2020-10-01T18:57:42.894975Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"classic6","description":"A
+      Minecraft classic server written in 6 hours","visibility":"PUBLIC","id":32167,"created":"2020-10-01T18:56:51.528754Z","updated":"2020-10-01T18:56:51.695191Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"pong","description":"Pong
+      for KnightOS, in C","visibility":"PUBLIC","id":32166,"created":"2020-10-01T18:56:19.003611Z","updated":"2020-10-01T18:56:19.143649Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"evilpass","description":"Slightly
+      evil password strength checker","visibility":"PUBLIC","id":32163,"created":"2020-10-01T18:51:45.633721Z","updated":"2020-10-01T18:51:46.203223Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"anthy.js","description":"[obsolete]
+      Japanese input in the browser","visibility":"PUBLIC","id":32162,"created":"2020-10-01T18:50:59.103729Z","updated":"2020-10-01T18:51:02.588975Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"vimspeak","description":"A
+      vim plugin which rigs vim with espeak TTS","visibility":"PUBLIC","id":32161,"created":"2020-10-01T18:45:57.727934Z","updated":"2020-10-01T18:45:57.865916Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"calc","description":"A
+      calculator for KnightOS","visibility":"PUBLIC","id":32160,"created":"2020-10-01T18:45:11.645047Z","updated":"2020-10-01T18:45:12.085098Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"ChatSharp","description":"A
+      C# library for IRC (RFC 1459 \u0026 2812)","visibility":"PUBLIC","id":32159,"created":"2020-10-01T18:43:12.390067Z","updated":"2020-10-01T18:43:12.657577Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"qtlayershell","description":"[obsolete]
+      Qt support for the Wayland layer-shell extension","visibility":"PUBLIC","id":32158,"created":"2020-10-01T18:38:25.677922Z","updated":"2020-10-01T18:38:25.834672Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"receptor","description":"Web
+      frontend for the synapse bittorrent client","visibility":"PUBLIC","id":35,"created":"2017-08-06T22:25:06.801295Z","updated":"2020-10-01T18:32:05.543349Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"macrobot","description":"An
+      IRC bot that can do macros","visibility":"PUBLIC","id":36,"created":"2017-08-19T03:45:31.9934Z","updated":"2020-09-27T21:22:10.559795Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"aports","description":"Personal
+      fork of aports","visibility":"PUBLIC","id":31905,"created":"2020-09-26T21:41:28.796239Z","updated":"2020-09-26T22:30:11.773744Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEcVpr7HVeuMJAnulJjLXi9XHdUjaVQMNvEeG2s8vg5J9-iiMP7kXKLH0WVRFEeYFxZ3yzohmJZ42FbVJxj8xUkmWleQW-V6skYUBPURA7WHzgROQ6eJhtRVuMKgbgBOz0E"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEcOWrOsMzwWxtZoMOFQAyMGur52QIQIuX19i7PzgxMuW83ecULTwl94YK3k-qCmhmCcRExIqRjVz9rxLd5dLOURo7wy7-PdaPVqlWTConClwue9Z3CXAb3BxvMUSbV9uCA","results":[{"name":"open-dodge-d250","description":"Notes
+      and 3D printable parts for Dodge D250 trucks","visibility":"PUBLIC","id":19761,"created":"2020-03-25T15:33:43.786855Z","updated":"2020-07-30T23:04:25.397258Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"bare","description":"Binary
+      Application Record Encoding","visibility":"PUBLIC","id":25899,"created":"2020-06-19T23:50:37.955303Z","updated":"2020-07-22T17:57:52.137439Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"ddevlang","description":"Software
+      tools for language study","visibility":"PUBLIC","id":13286,"created":"2019-11-12T01:11:51.568783Z","updated":"2020-06-06T00:23:40.250707Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gqlgen","description":"Fork
+      of github.com/99designs/gqlgen with sr.ht patches applied","visibility":"PUBLIC","id":20714,"created":"2020-04-12T13:41:02.01012Z","updated":"2020-05-22T19:21:53.534846Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"shouldiusethreads.com","description":"Should
+      I use threads?","visibility":"PUBLIC","id":23262,"created":"2020-05-14T02:24:57.55034Z","updated":"2020-05-14T15:02:31.709642Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"qemu-chroot","description":"Run
+      qemu in a chroot","visibility":"PUBLIC","id":22814,"created":"2020-05-08T18:46:59.8314Z","updated":"2020-05-08T19:05:30.812988Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"bloom","description":"bloom
+      filter in C","visibility":"PUBLIC","id":290,"created":"2018-09-07T13:20:12.157136Z","updated":"2020-04-30T22:55:45.635866Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"cstyle","description":"C
+      style guide","visibility":"PUBLIC","id":16256,"created":"2020-01-14T17:27:49.805981Z","updated":"2020-03-31T23:54:08.02979Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wayland-demo-client","description":"Wayland
+      demo client for The Wayland Protocol book","visibility":"PUBLIC","id":19694,"created":"2020-03-23T17:19:33.685429Z","updated":"2020-03-23T21:08:13.322404Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"go-9fans","description":"Fork
+      of github.com/9fans/go","visibility":"PUBLIC","id":19108,"created":"2020-03-09T21:31:58.291474Z","updated":"2020-03-09T21:36:20.082078Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"legacy.sr.ht","description":"Original
+      sr.ht codebase","visibility":"PUBLIC","id":12,"created":"2017-04-18T23:57:22.102831Z","updated":"2020-03-04T16:50:16.103407Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"mk","description":"A
+      standalone port of Plan 9 mk to POSIX systems","visibility":"PUBLIC","id":18564,"created":"2020-02-27T01:27:37.593906Z","updated":"2020-02-27T01:45:28.574109Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"velour","description":"Personal
+      fork of an acme IRC client","visibility":"PUBLIC","id":17814,"created":"2020-02-17T04:39:26.121975Z","updated":"2020-02-17T04:39:44.470196Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"shit","description":"An
+      implementation of git in (almost) pure POSIX shell","visibility":"PUBLIC","id":17559,"created":"2020-02-11T22:12:11.763573Z","updated":"2020-02-12T16:22:08.148852Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"legacy.sr.ht-shim","description":"Shim
+      implementation of legacy.sr.ht on modern SourceHut libraries","visibility":"PUBLIC","id":16559,"created":"2020-01-21T16:12:03.420824Z","updated":"2020-01-21T17:04:01.56157Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sedna","description":"A
+      minimal window-stacking compositor for Wayland","visibility":"PUBLIC","id":14801,"created":"2019-12-09T20:25:15.263945Z","updated":"2020-01-19T00:00:48.554417Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"mmodemd","description":"Mobile
+      modem daemon","visibility":"PUBLIC","id":16430,"created":"2020-01-18T19:58:04.78222Z","updated":"2020-01-18T19:58:13.511535Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"cells","description":"Game","visibility":"PUBLIC","id":15421,"created":"2019-12-23T17:23:01.361644Z","updated":"2020-01-12T19:15:23.362746Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sourcehut-go","description":"Go
+      library and command line tool for the Sourcehut API","visibility":"PUBLIC","id":5462,"created":"2019-02-27T04:48:22.80122Z","updated":"2020-01-09T01:17:19.53447Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wayland-protocols","description":"Personal
+      fork of wayland-protocols","visibility":"PUBLIC","id":8044,"created":"2019-06-13T19:36:48.366659Z","updated":"2020-01-02T16:01:51.767447Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"names.sr.ht","description":"DNS
+      \u0026 domain registration service","visibility":"PUBLIC","id":11428,"created":"2019-09-30T01:05:49.028589Z","updated":"2019-12-16T14:50:55.89944Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wlhax","description":"Wayland
+      proxy TUI","visibility":"PUBLIC","id":14708,"created":"2019-12-07T17:42:35.632449Z","updated":"2019-12-08T00:04:30.669985Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sr.ht-etc","description":"Configuration
+      files for sr.ht","visibility":"PUBLIC","id":13214,"created":"2019-11-11T00:19:15.108448Z","updated":"2019-11-11T00:21:48.999656Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"lpsh","description":"Line
+      printer shell","visibility":"PUBLIC","id":12698,"created":"2019-10-30T03:02:36.391133Z","updated":"2019-10-30T15:00:09.550297Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"noseplumbs","description":"Minimal
+      Unix-style command line crypto tool","visibility":"PUBLIC","id":12631,"created":"2019-10-29T01:39:13.882129Z","updated":"2019-10-29T13:18:32.763804Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEcOWrOsMzwWxtZoMOFQAyMGur52QIQIuX19i7PzgxMuW83ecULTwl94YK3k-qCmhmCcRExIqRjVz9rxLd5dLOURo7wy7-PdaPVqlWTConClwue9Z3CXAb3BxvMUSbV9uCA"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":"gAAAAABkkQEc2dZ7yGDe_98TeR5VazAEGcmXNh3pOp8v9iZkhWhYZ9eMF0Kuy-YTE8gazSSLZZe5j6Q6R6oYINrT8gV9XuOnCIp9YRm8HEzskAIL3uUW93a4AYEisxrWDzYx4J9xlTAA","results":[{"name":"xrgears","description":"xrgears
+      with Wayland DRM leasing support","visibility":"PUBLIC","id":8664,"created":"2019-07-11T17:30:53.375126Z","updated":"2019-10-18T15:59:59.242647Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"kmscube","description":"kmscube
+      but with Wayland DRM leasing","visibility":"PUBLIC","id":8385,"created":"2019-06-27T15:05:39.8018Z","updated":"2019-10-17T14:42:58.345891Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"chopsui","description":"Experimental
+      UI toolkit","visibility":"PUBLIC","id":38,"created":"2017-09-01T22:45:35.735256Z","updated":"2019-10-13T18:39:52.509587Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"fsnotify-shim","description":"Shim
+      for the Golang fsnotify library","visibility":"PUBLIC","id":11219,"created":"2019-09-22T13:55:31.845567Z","updated":"2019-09-22T13:55:54.920447Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"ninefans-go","description":"Personal
+      fork of github.com/9fans/go","visibility":"PUBLIC","id":11149,"created":"2019-09-19T18:49:20.712689Z","updated":"2019-09-19T18:49:34.309786Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"tcell","description":"aerc
+      fork of github.com/gdamore/tcell","visibility":"PUBLIC","id":7678,"created":"2019-06-01T15:21:18.274466Z","updated":"2019-08-07T05:48:27.400472Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"gdwlroots","description":"wlroots
+      bindings for Godot","visibility":"PUBLIC","id":5264,"created":"2019-02-19T22:24:41.892599Z","updated":"2019-07-31T17:38:20.52845Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"xserver","description":"Personal
+      fork of the xorg server","visibility":"PUBLIC","id":9058,"created":"2019-07-25T19:52:04.810146Z","updated":"2019-07-25T19:52:48.013716Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"mesa","description":"Personal
+      fork of mesa","visibility":"PUBLIC","id":8608,"created":"2019-07-09T17:52:16.348483Z","updated":"2019-07-11T21:16:28.740686Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"vulkan-docs","description":"","visibility":"PUBLIC","id":8498,"created":"2019-07-04T20:11:36.684955Z","updated":"2019-07-11T19:48:38.661438Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wlroots","description":"Libraries
+      for building Wayland compositors","visibility":"PUBLIC","id":34,"created":"2017-08-04T20:46:10.116075Z","updated":"2019-06-20T17:15:50.375581Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"aerc-legacy","description":"Async
+      IMAP/SMTP client for your terminal","visibility":"PUBLIC","id":15,"created":"2017-05-03T16:55:57.423188Z","updated":"2019-05-18T00:53:35.521674Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"sway","description":"i3-compatible
+      Wayland compositor","visibility":"PUBLIC","id":11,"created":"2017-04-15T18:28:02.902329Z","updated":"2019-05-11T17:38:19.909363Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"alpine-conf","description":"Personal
+      fork of alpine-conf","visibility":"PUBLIC","id":6839,"created":"2019-04-24T14:30:23.02927Z","updated":"2019-04-24T16:01:54.986203Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"cozy","description":"Cozy
+      C toolchain","visibility":"PUBLIC","id":6629,"created":"2019-04-14T15:44:33.88383Z","updated":"2019-04-17T03:43:05.89689Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"live.drewdevault.com","description":"Self-hosted
+      code livestreaming platform","visibility":"PUBLIC","id":6266,"created":"2019-03-28T19:31:08.359602Z","updated":"2019-04-06T22:50:57.762714Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"pty","description":"Fork
+      of github.com/ktr/pty","visibility":"PUBLIC","id":6328,"created":"2019-03-30T15:48:18.322844Z","updated":"2019-03-30T15:49:14.7446Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hg.sr.ht","description":"sr.ht
+      mercurial service","visibility":"PUBLIC","id":4243,"created":"2019-01-27T19:13:11.246994Z","updated":"2019-03-28T16:14:29.766208Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"kitchensink.host","description":"Website
+      for kitchensink.host","visibility":"PUBLIC","id":6049,"created":"2019-03-19T16:10:22.314301Z","updated":"2019-03-24T18:11:39.598508Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"email-test-drive","description":"Sample
+      repository for testing out your git send-email skills","visibility":"PUBLIC","id":6133,"created":"2019-03-22T21:03:57.1978Z","updated":"2019-03-23T21:59:18.860103Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"otaqlock","description":"An
+      HTML5 implementation of Uniqlock","visibility":"PUBLIC","id":476,"created":"2018-11-08T04:32:58.22314Z","updated":"2019-03-19T02:20:32.154449Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"scons-wayland-scanner","description":"wayland-scanner
+      support for SCons","visibility":"PUBLIC","id":5445,"created":"2019-02-26T17:01:58.290449Z","updated":"2019-02-26T17:11:17.032863Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"virtboard","description":"Personal
+      fork of Purim''s virtboard on-screen keyboard","visibility":"PUBLIC","id":5145,"created":"2019-02-16T02:31:53.285287Z","updated":"2019-02-22T15:55:09.552842Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"alpine-riscv-bootstrap","description":"Bootstrap
+      script for Alpine Linux on riscv64","visibility":"PUBLIC","id":3063,"created":"2018-12-21T04:14:29.270398Z","updated":"2019-02-16T20:54:12.50066Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"go-example","description":"Example
+      Go program using Go modules","visibility":"PUBLIC","id":5069,"created":"2019-02-13T02:34:45.620003Z","updated":"2019-02-13T02:35:01.104668Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepos($username: String!, $cursor: Cursor)
+      {\n          user(username: $username) {\n            repositories(cursor: $cursor)
+      {\n              cursor\n              results {\n                name\n                description\n                visibility\n                id\n                created\n                updated\n                owner
+      {\n                  canonicalName\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABkkQEc2dZ7yGDe_98TeR5VazAEGcmXNh3pOp8v9iZkhWhYZ9eMF0Kuy-YTE8gazSSLZZe5j6Q6R6oYINrT8gV9XuOnCIp9YRm8HEzskAIL3uUW93a4AYEisxrWDzYx4J9xlTAA"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '692'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repositories":{"cursor":null,"results":[{"name":"abuild","description":"Alpine
+      Linux build scripts","visibility":"PUBLIC","id":2745,"created":"2018-12-08T19:19:31.295683Z","updated":"2018-12-16T04:27:20.343193Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"apk-tools","description":"Alpine
+      Linux package manager","visibility":"PUBLIC","id":2746,"created":"2018-12-08T19:21:25.917001Z","updated":"2018-12-08T19:21:53.597953Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"tinyinitrd","description":"Simple
+      and small initrd generator","visibility":"PUBLIC","id":274,"created":"2018-08-24T23:06:55.516076Z","updated":"2018-08-24T23:08:13.061925Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"broca","description":"Proxy
+      for translating Synaspe RPC to Transmission RPC","visibility":"PUBLIC","id":80,"created":"2018-02-04T02:42:53.190156Z","updated":"2018-08-13T21:30:45.049085Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"agunix-init","description":"Archived
+      agunix sources","visibility":"PUBLIC","id":226,"created":"2018-07-30T12:11:28.963095Z","updated":"2018-07-30T12:11:39.292404Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hiti","description":"Minimal
+      template for building operating systems for TI calcs","visibility":"PUBLIC","id":164,"created":"2018-07-10T00:47:54.910518Z","updated":"2018-07-10T02:21:15.06235Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"unmediumify","description":"Migrates
+      Medium exports to other blog engines","visibility":"PUBLIC","id":107,"created":"2018-05-06T14:36:17.303856Z","updated":"2018-05-06T20:06:55.244031Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"ddjekyll","description":"My
+      blog''s Jekyll template","visibility":"PUBLIC","id":108,"created":"2018-05-06T15:51:30.498116Z","updated":"2018-05-06T15:56:46.815732Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"qt-hello-world","description":"with
+      layer shell","visibility":"PUBLIC","id":102,"created":"2018-04-22T20:34:21.467818Z","updated":"2018-04-22T20:34:34.594754Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"wersh","description":"Static
+      site generator based on POSIX sh","visibility":"PUBLIC","id":72,"created":"2018-01-06T16:20:48.062417Z","updated":"2018-01-06T16:41:52.623755Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"scurvy","description":"A
+      terminal emulator","visibility":"PUBLIC","id":18,"created":"2017-05-10T19:57:48.152733Z","updated":"2018-01-02T23:12:58.794364Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"accusu","description":"osu!
+      offset auto-adjustement tool","visibility":"PUBLIC","id":69,"created":"2017-12-31T00:12:00.56036Z","updated":"2018-01-02T01:47:40.546861Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"agunix","description":"Agunix
+      source archive","visibility":"PUBLIC","id":63,"created":"2017-12-17T03:08:15.631277Z","updated":"2017-12-17T03:08:26.420344Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"agunix.org","description":"Archived
+      agunix.org sources","visibility":"PUBLIC","id":62,"created":"2017-12-17T03:01:52.825592Z","updated":"2017-12-17T03:02:13.810101Z","owner":{"canonicalName":"~sircmpwn"}},{"name":"hnstats","description":"Hacker
+      News analytics","visibility":"PUBLIC","id":13,"created":"2017-04-21T14:57:58.971018Z","updated":"2017-09-11T20:49:52.592696Z","owner":{"canonicalName":"~sircmpwn"}}]}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:30:04 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

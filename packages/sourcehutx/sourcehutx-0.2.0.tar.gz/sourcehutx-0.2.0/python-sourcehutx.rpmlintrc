@@ -1,0 +1,5 @@
+# Copyright (C) 2023 Maxwell G <maxwell@gtmx.me>
+# SPDX-License-Identifier: MIT
+
+addFilter("E: spelling-error")
+addFilter("W: python-missing-require")

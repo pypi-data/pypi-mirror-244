@@ -1,0 +1,223 @@
+interactions:
+- request:
+    body: '{"query": "\n        mutation create(\n          $name: String!\n          $visibility:
+      Visibility!\n          $description: String,\n          $cloneUrl: String\n        )
+      {\n          createRepository(\n            name: $name\n            visibility:
+      $visibility\n            description: $description\n            cloneUrl: $cloneUrl\n          )
+      {\n            name\n            visibility\n            description\n            id\n            created\n            updated\n            owner
+      {\n              canonicalName\n            }\n          }\n        }\n        ",
+      "variables": {"name": "python-client-test-upload", "visibility": "UNLISTED",
+      "description": null, "cloneUrl": "https://git.sr.ht/~gotmax23/testproj"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '729'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"createRepository":{"name":"python-client-test-upload","visibility":"UNLISTED","description":null,"id":342569,"created":"2023-06-20T01:52:14.850139Z","updated":"2023-06-20T01:52:14.850139Z","owner":{"canonicalName":"~gotmax23-test"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '244'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:52:14 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: "--389c8a766ae35e5e1a3f52b811e82db0\r\nContent-Disposition: form-data; name=\"operations\"\r\n\r\n{\"query\":
+      \"\\n        mutation upload($repoid: Int!, $revspec: String!, $file: Upload!)
+      {\\n          uploadArtifact(repoId: $repoid, revspec: $revspec, file: $file)
+      {\\n            id\\n            created\\n            filename\\n            checksum\\n
+      \           size\\n            url\\n          }\\n        }\\n        \", \"variables\":
+      {\"repoid\": 342569, \"revspec\": \"0.0.1\", \"file\": null}}\r\n--389c8a766ae35e5e1a3f52b811e82db0\r\nContent-Disposition:
+      form-data; name=\"map\"\r\n\r\n{\"0\": [\"variables.file\"]}\r\n--389c8a766ae35e5e1a3f52b811e82db0\r\nContent-Disposition:
+      form-data; name=\"0\"; filename=\"artifact.txt\"\r\nContent-Type: text/plain\r\n\r\n#
+      Copyright (C) 2023 Maxwell G <maxwell@gtmx.me>\n# SPDX-License-Identifier: MIT\n\nfrom
+      __future__ import annotations\n\nfrom pathlib import Path\n\nimport pytest\n\nfrom
+      sourcehut.client import VISIBILITY, SrhtClient, SRHT_SERVICE\nfrom sourcehut.services
+      import git\n\nfrom .. import vcr\n\n\n@pytest.mark.asyncio\n@vcr.use_cassette\nasync
+      def test_git_list_repos(authed_client: SrhtClient):\n    async with authed_client:\n
+      \       client = git.GitSrhtClient(authed_client)\n        # List repos\n        repos
+      = [\n            repo async for repo in client.list_repositories(\"sircmpwn\",
+      max_pages=None)\n        ]\n        names = {repo.name for repo in repos}\n
+      \       # Ensure pagination works\n        assert len(repos) > 50\n        #
+      Get a list of sourcehut services\n        services = {f\"{key.value}.sr.ht\"
+      for key in SRHT_SERVICE}\n        # Check list\n        assert names & services
+      == services\n        # Ensure client is attached to each repo\n        assert
+      all(map(lambda repo: repo.client == client, repos))\n\n\n@pytest.mark.asyncio\n@vcr.use_cassette\nasync
+      def test_git_create_repo(authed_client: SrhtClient):\n    async with authed_client:\n
+      \       client = git.GitSrhtClient(authed_client)\n        repo = await client.create_repository(\"python-client-test\",
+      VISIBILITY.UNLISTED)\n        try:\n            whoami = await client.whoami()\n\n
+      \           # Check expected\n            expected = git.Repository(\n                id=repo.id,\n
+      \               client=client,\n                owner=whoami,\n                name='python-client-test',\n
+      \               visibility=git.VISIBILITY.UNLISTED,\n                description=None,\n
+      \               created=repo.created,\n                updated=repo.updated,\n
+      \           )\n            assert repo == expected\n\n            # Check get_repository()\n
+      \           gotten = await repo.get()\n            assert repo == gotten\n\n
+      \           # Check update_repository()\n            newrepo = await repo.update(description=\"This
+      is a description!\")\n            expected.description = \"This is a description!\"\n
+      \           expected.updated = newrepo.updated\n            assert newrepo ==
+      expected\n        finally:\n            await repo.delete()\n\n\n@pytest.mark.asyncio\n@vcr.use_cassette\nasync
+      def test_git_upload(authed_client: SrhtClient):\n    async with authed_client:\n
+      \       client = git.GitSrhtClient(authed_client)\n\n        # Get artifact
+      contents\n        contents = Path(__file__).read_bytes()\n        # Create repository\n
+      \       repo = await client.create_repository(\n            \"python-client-test-upload\",\n
+      \           VISIBILITY.UNLISTED,\n            clone_url=\"https://git.sr.ht/~gotmax23/testproj\",\n
+      \       )\n        try:\n            # Upload artifact\n            artifact
+      = await repo.upload_artifact(\"0.0.1\", \"artifact.txt\", contents)\n            #
+      Check artifact\n            assert artifact.filename == \"artifact.txt\"\n            #
+      Delete artifact\n            await artifact.delete()\n        finally:\n            await
+      repo.delete()\n\r\n--389c8a766ae35e5e1a3f52b811e82db0--\r\n"
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '3716'
+      content-type:
+      - multipart/form-data; boundary=389c8a766ae35e5e1a3f52b811e82db0
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"uploadArtifact":{"id":4313,"created":"2023-06-20T01:52:15.029465Z","filename":"artifact.txt","checksum":"sha256:66f574a0c0e01929cbbf8b9136c338656b3b2353ce7768a032e060d07a193326","size":2961,"url":"https://patchouli.sr.ht/git.sr.ht//artifact.txt"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '258'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:52:15 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation delete($artifact: Int!) {\n          deleteArtifact(id:
+      $artifact) {\n            id\n          }\n        }\n        ", "variables":
+      {"artifact": 4313}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '183'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"deleteArtifact":{"id":4313}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '39'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:52:15 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation delete($id: Int!) {\n          deleteRepository(id:
+      $id) { id }\n        }\n        ", "variables": {"id": 342569}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '145'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"deleteRepository":{"id":342569}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '43'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jun 2023 01:52:15 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

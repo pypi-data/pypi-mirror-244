@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              name\n              id\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '325'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"name":"fedrq-copy","id":11641}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '62'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:01 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query($username: String!, $name: String!, $cursor:
+      Cursor) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              labels(cursor: $cursor) {\n                cursor\n                results
+      {\n                  name\n                  id\n                  backgroundColor\n                  foregroundColor\n                  created\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy", "cursor": null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '555'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"labels":{"cursor":null,"results":[{"name":"1:
+      low-priority","id":9977,"backgroundColor":"#f8e45c","foregroundColor":"#000000","created":"2022-12-13T20:35:11Z"},{"name":"2:
+      low-priority","id":9978,"backgroundColor":"#e5a50a","foregroundColor":"#000000","created":"2023-02-20T19:59:09Z"},{"name":"3:
+      medium-priority","id":9979,"backgroundColor":"#ff7800","foregroundColor":"#000000","created":"2022-12-13T20:32:23Z"},{"name":"5:
+      high-priority","id":9980,"backgroundColor":"#f62f1a","foregroundColor":"#000000","created":"2022-12-13T04:49:07Z"},{"name":"backburner","id":9981,"backgroundColor":"#9a9996","foregroundColor":"#000000","created":"2023-02-08T23:41:43Z"},{"name":"blocked","id":9982,"backgroundColor":"#ffffff","foregroundColor":"#000000","created":"2023-02-15T13:08:27Z"},{"name":"bug","id":9983,"backgroundColor":"#a51d2d","foregroundColor":"#FFFFFF","created":"2023-02-12T18:14:51Z"},{"name":"cleanup","id":9984,"backgroundColor":"#1a5fb4","foregroundColor":"#FFFFFF","created":"2022-12-13T06:24:59Z"},{"name":"documentation","id":9985,"backgroundColor":"#dc8add","foregroundColor":"#000000","created":"2023-02-12T05:32:31Z"},{"name":"feature","id":9986,"backgroundColor":"#ff6cc3","foregroundColor":"#000000","created":"2023-02-12T18:15:26Z"},{"name":"feedback-wanted","id":9987,"backgroundColor":"#8ff0a4","foregroundColor":"#000000","created":"2022-12-20T04:00:53Z"},{"name":"good-first-issue","id":9988,"backgroundColor":"#99c1f1","foregroundColor":"#000000","created":"2023-02-14T00:04:45Z"},{"name":"in-progress","id":9989,"backgroundColor":"#9141ac","foregroundColor":"#FFFFFF","created":"2023-01-02T02:01:18Z"},{"name":"internal","id":9990,"backgroundColor":"#000000","foregroundColor":"#FFFFFF","created":"2023-02-14T00:34:25Z"},{"name":"needs-more-thought","id":9991,"backgroundColor":"#128b80","foregroundColor":"#000000","created":"2023-02-21T02:06:52Z"},{"name":"next-release","id":9992,"backgroundColor":"#f66151","foregroundColor":"#000000","created":"2023-02-19T18:02:34Z"},{"name":"packaging","id":9993,"backgroundColor":"#26a269","foregroundColor":"#000000","created":"2023-02-13T18:57:25Z"}]}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:01 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

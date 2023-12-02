@@ -1,0 +1,229 @@
+interactions:
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              name\n              id\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '325'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"name":"fedrq-copy","id":11641}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '62'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:02 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation subscribe($tracker: Int!) {\n          trackerSubscribe(trackerId:
+      $tracker) {\n            id\n            created\n            tracker {\n              name\n              id\n              owner
+      {\n                canonicalName\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"tracker": 11641}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '361'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"trackerSubscribe":{"id":85531,"created":"2023-08-11T22:54:02.351881Z","tracker":{"name":"fedrq-copy","id":11641,"owner":{"canonicalName":"~gotmax23"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '163'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:02 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getSubscription($username: String!, $name: String!)
+      {\n          user(username: $username) {\n            tracker(name: $name) {\n              subscription
+      {\n                id\n                created\n                tracker {\n                  id\n                  name\n                  owner
+      {\n                    canonicalName\n                  }\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '534'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"subscription":{"id":85531,"created":"2023-08-11T22:54:02.351881Z","tracker":{"id":11641,"name":"fedrq-copy","owner":{"canonicalName":"~gotmax23"}}}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '180'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:02 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation unsubscribe($tracker: Int!, $tickets: Boolean!)
+      {\n          trackerUnsubscribe(trackerId: $tracker, tickets: $tickets) {\n            id\n            created\n            tracker
+      {\n              name\n              id\n              owner {\n                canonicalName\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"tracker": 11641, "tickets": false}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '422'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"trackerUnsubscribe":{"id":85531,"created":"2023-08-11T22:54:02.351881Z","tracker":{"name":"fedrq-copy","id":11641,"owner":{"canonicalName":"~gotmax23"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '165'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:02 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getSubscription($username: String!, $name: String!)
+      {\n          user(username: $username) {\n            tracker(name: $name) {\n              subscription
+      {\n                id\n                created\n                tracker {\n                  id\n                  name\n                  owner
+      {\n                    canonicalName\n                  }\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '534'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"subscription":null}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '51'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:02 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

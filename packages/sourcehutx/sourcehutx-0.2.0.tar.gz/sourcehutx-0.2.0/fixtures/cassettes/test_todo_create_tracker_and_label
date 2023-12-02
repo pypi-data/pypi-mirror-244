@@ -1,0 +1,746 @@
+interactions:
+- request:
+    body: '{"query": "\n        mutation create(\n          $name: String!\n          $description:
+      String\n          $visibility: Visibility!\n        ) {\n          createTracker(\n            name:
+      $name\n            description: $description\n            visibility: $visibility\n          )
+      {\n              \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n          }\n        }\n        ",
+      "variables": {"name": "python-source-test", "description": "This is a test tracker",
+      "visibility": "UNLISTED"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '505'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"createTracker":{"id":12105,"created":"2023-08-11T22:56:08.351986Z","updated":"2023-08-11T22:56:08.351986Z","name":"python-source-test","description":"This
+      is a test tracker","visibility":"UNLISTED"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '210'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:08 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query {\n          me {\n            username\n          }\n        }\n        ",
+      "variables": {}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '119'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"me":{"username":"gotmax23-test"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:08 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query get(\n          $username: String!\n          $name:
+      String!\n        ) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n                \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-source-test"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '373'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"id":12105,"created":"2023-08-11T22:56:08.351986Z","updated":"2023-08-11T22:56:08.351986Z","name":"python-source-test","description":"This
+      is a test tracker","visibility":"UNLISTED"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '213'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:08 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation updateTracker($trackerid: Int!, $inp: TrackerInput!)
+      {\n            updateTracker(id: $trackerid, input: $inp) {\n                \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n                owner
+      {\n                    canonicalName\n                }\n            }\n        }\n        ",
+      "variables": {"inp": {"description": "This is a test tracker"}, "trackerid":
+      12105}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '417'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"updateTracker":{"id":12105,"created":"2023-08-11T22:56:08.351986Z","updated":"2023-08-11T22:56:08.600492Z","name":"python-source-test","description":"This
+      is a test tracker","visibility":"UNLISTED","owner":{"canonicalName":"~gotmax23-test"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '253'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:08 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation updateTracker($trackerid: Int!, $inp: TrackerInput!)
+      {\n            updateTracker(id: $trackerid, input: $inp) {\n                \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n                owner
+      {\n                    canonicalName\n                }\n            }\n        }\n        ",
+      "variables": {"inp": {"description": "This is a test tracker", "visibility":
+      "UNLISTED"}, "trackerid": 12105}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '443'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"updateTracker":{"id":12105,"created":"2023-08-11T22:56:08.351986Z","updated":"2023-08-11T22:56:08.711159Z","name":"python-source-test","description":"This
+      is a test tracker","visibility":"UNLISTED","owner":{"canonicalName":"~gotmax23-test"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '253'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:08 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation updateTracker($trackerid: Int!, $inp: TrackerInput!)
+      {\n            updateTracker(id: $trackerid, input: $inp) {\n                \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n                owner
+      {\n                    canonicalName\n                }\n            }\n        }\n        ",
+      "variables": {"inp": {"visibility": "UNLISTED"}, "trackerid": 12105}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '402'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"updateTracker":{"id":12105,"created":"2023-08-11T22:56:08.351986Z","updated":"2023-08-11T22:56:08.830225Z","name":"python-source-test","description":"This
+      is a test tracker","visibility":"UNLISTED","owner":{"canonicalName":"~gotmax23-test"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '253'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:08 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation createLabel(\n          $tracker: Int!\n          $name:
+      String!\n          $foreground_color: String!\n          $background_color:
+      String!\n        ) {\n            createLabel(\n              trackerId: $tracker\n              name:
+      $name\n              foregroundColor: $foreground_color\n              backgroundColor:
+      $background_color\n            ) {\n              id\n              created\n              name\n              backgroundColor\n              foregroundColor\n              tracker
+      {\n                name\n                id\n                owner {\n                  canonicalName\n                }\n              }\n          }\n        }\n        ",
+      "variables": {"tracker": 12105, "name": "testlabel", "foreground_color": "#000000",
+      "background_color": "#ffff00"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '824'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"createLabel":{"id":11038,"created":"2023-08-11T22:56:08.940275Z","name":"testlabel","backgroundColor":"#ffff00","foregroundColor":"#000000","tracker":{"name":"python-source-test","id":12105,"owner":{"canonicalName":"~gotmax23-test"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '246'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:08 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query($username: String!, $name: String!, $cursor:
+      Cursor) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              labels(cursor: $cursor) {\n                cursor\n                results
+      {\n                  name\n                  id\n                  backgroundColor\n                  foregroundColor\n                  created\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-source-test", "cursor":
+      null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '568'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"labels":{"cursor":null,"results":[{"name":"testlabel","id":11038,"backgroundColor":"#ffff00","foregroundColor":"#000000","created":"2023-08-11T22:56:08.940275Z"}]}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '196'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getLabel($username: String!, $name: String!,
+      $label: String!) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              id\n              label(name: $label) {\n                id\n                created\n                name\n                foregroundColor\n                backgroundColor\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-source-test", "label":
+      "testlabel"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '517'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"id":12105,"label":{"id":11038,"created":"2023-08-11T22:56:08.940275Z","name":"testlabel","foregroundColor":"#000000","backgroundColor":"#ffff00"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '178'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation update($label: Int!, $input: UpdateLabelInput!)
+      {\n          updateLabel(id: $label, input: $input) {\n            id\n            name\n            created\n            foregroundColor\n            backgroundColor\n            tracker
+      {\n              name\n              id\n              owner {\n                canonicalName\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"label": 11038, "input": {"name": "testlabel2"}}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '491'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"updateLabel":{"id":11038,"name":"testlabel2","created":"2023-08-11T22:56:08.940275Z","foregroundColor":"#000000","backgroundColor":"#ffff00","tracker":{"name":"python-source-test","id":12105,"owner":{"canonicalName":"~gotmax23-test"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '247'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query($username: String!, $name: String!, $cursor:
+      Cursor) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              labels(cursor: $cursor) {\n                cursor\n                results
+      {\n                  name\n                  id\n                  backgroundColor\n                  foregroundColor\n                  created\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-source-test", "cursor":
+      null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '568'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"labels":{"cursor":null,"results":[{"name":"testlabel2","id":11038,"backgroundColor":"#ffff00","foregroundColor":"#000000","created":"2023-08-11T22:56:08.940275Z"}]}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '197'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation deleteLabel(\n          $label: Int!\n        )
+      {\n          deleteLabel(id: $label) {\n            id\n            tracker
+      {\n              name\n              id\n              owner {\n                canonicalName\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"label": 11038}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '346'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"deleteLabel":{"id":11038,"tracker":{"name":"python-source-test","id":12105,"owner":{"canonicalName":"~gotmax23-test"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '131'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query($username: String!, $name: String!, $cursor:
+      Cursor) {\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              labels(cursor: $cursor) {\n                cursor\n                results
+      {\n                  name\n                  id\n                  backgroundColor\n                  foregroundColor\n                  created\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-source-test", "cursor":
+      null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '568'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"labels":{"cursor":null,"results":[]}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '69'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation submit($tracker: Int!, $input: SubmitTicketInput!)
+      {\n          submitTicket(trackerId: $tracker, input: $input) {\n            id\n            created\n            updated\n            ref\n            subject\n            body\n            status\n            resolution\n            submitter
+      {\n              canonicalName\n            }\n            tracker {\n              name\n              id\n              owner
+      {\n                canonicalName\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"tracker": 12105, "input": {"subject": "Test ticket", "body":
+      "This is a test ticket!"}}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '658'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"submitTicket":{"id":1,"created":"2023-08-11T22:56:09.561668Z","updated":"2023-08-11T22:56:09.561668Z","ref":"~gotmax23-test/python-source-test#1","subject":"Test
+      ticket","body":"This is a test ticket!","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23-test"},"tracker":{"name":"python-source-test","id":12105,"owner":{"canonicalName":"~gotmax23-test"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '401'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getTicket($username: String!, $name: String!,
+      $ticket: Int!){\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              ticket(id: $ticket) {\n                id\n                created\n                updated\n                ref\n                subject\n                body\n                status\n                resolution\n                submitter
+      {\n                  canonicalName\n                }\n                tracker
+      {\n                  name\n                  id\n                  owner {\n                    canonicalName\n                  }\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-source-test", "ticket":
+      1}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '801'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"user":{"tracker":{"ticket":{"id":1,"created":"2023-08-11T22:56:09.561668Z","updated":"2023-08-11T22:56:09.561668Z","ref":"~gotmax23-test/python-source-test#1","subject":"Test
+      ticket","body":"This is a test ticket!","status":"REPORTED","resolution":"UNRESOLVED","submitter":{"canonicalName":"~gotmax23-test"},"tracker":{"name":"python-source-test","id":12105,"owner":{"canonicalName":"~gotmax23-test"}}}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '416'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation delete($tracker: Int!) {\n          deleteTracker(id:
+      $tracker) {\n            id\n          }\n        }\n        ", "variables":
+      {"tracker": 12105}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '180'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"data":{"deleteTracker":{"id":12105}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '39'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:56:09 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

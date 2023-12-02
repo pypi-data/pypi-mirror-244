@@ -1,0 +1,95 @@
+interactions:
+- request:
+    body: '{"query": "\n        mutation createSSHKey($key: String!) {\n            createSSHKey(key:
+      $key) {\n                id\nuser {\n    canonicalName\n}\nfingerprint\ncreated\nlastUsed\nkey\ncomment\n\n            }\n        }\n        ",
+      "variables": {"key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK2h3LqD9UYubrKs0962ekYub3qxi6wPHbWrMCg0xPCB
+      python-sourcehut tests"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '363'
+      content-type:
+      - application/json
+      host:
+      - meta.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://meta.sr.ht/query
+  response:
+    content: '{"data":{"createSSHKey":{"id":46398,"user":{"canonicalName":"~gotmax23-test"},"fingerprint":"ad:81:a1:49:d1:08:84:99:30:dc:ac:a7:e3:ec:f0:3f","created":"2023-08-21T01:55:32.071312Z","lastUsed":null,"key":"ssh-ed25519
+      AAAAC3NzaC1lZDI1NTE5AAAAIK2h3LqD9UYubrKs0962ekYub3qxi6wPHbWrMCg0xPCB python-sourcehut
+      tests","comment":"python-sourcehut tests"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '347'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 21 Aug 2023 01:55:32 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation deleteSSHKey($key_id: Int!) {\n            deleteSSHKey(id:
+      $key_id) {\n                id\nuser {\n    canonicalName\n}\nfingerprint\ncreated\nlastUsed\nkey\ncomment\n\n            }\n        }\n        ",
+      "variables": {"key_id": 46398}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '268'
+      content-type:
+      - application/json
+      host:
+      - meta.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://meta.sr.ht/query
+  response:
+    content: '{"data":{"deleteSSHKey":{"id":46398,"user":{"canonicalName":"~gotmax23-test"},"fingerprint":"ad:81:a1:49:d1:08:84:99:30:dc:ac:a7:e3:ec:f0:3f","created":"2023-08-21T01:55:32.071312Z","lastUsed":null,"key":"ssh-ed25519
+      AAAAC3NzaC1lZDI1NTE5AAAAIK2h3LqD9UYubrKs0962ekYub3qxi6wPHbWrMCg0xPCB python-sourcehut
+      tests","comment":"python-sourcehut tests"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '347'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 21 Aug 2023 01:55:32 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

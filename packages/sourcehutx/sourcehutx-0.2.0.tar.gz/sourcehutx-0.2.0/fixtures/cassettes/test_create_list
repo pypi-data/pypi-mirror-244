@@ -1,0 +1,372 @@
+interactions:
+- request:
+    body: '{"query": "\n        mutation createList(\n            $name: String!\n            $description:
+      String\n            $visibility: Visibility!\n        ) {\n            createMailingList(\n                name:
+      $name\n                description: $description\n                visibility:
+      $visibility\n            ) {\n                \nid\nname\nowner {\n    canonicalName\n}\n\n\ncreated\nupdated\ndescription\nvisibility\npermitMime\nrejectMime\narchive\nlast30days\n\n            }\n        }\n        ",
+      "variables": {"name": "testlist", "description": "This is a test list", "visibility":
+      "PUBLIC"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '604'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"createMailingList":{"id":9586,"name":"testlist","owner":{"canonicalName":"~gotmax23-test"},"created":"2023-08-11T22:38:53.315542Z","updated":"2023-08-11T22:38:53.315542Z","description":"This
+      is a test list","visibility":"PUBLIC","permitMime":["text/*","application/pgp-signature","application/pgp-keys"],"rejectMime":["text/html"],"archive":"https://lists.sr.ht/query/list/9586.mbox","last30days":"https://lists.sr.ht/query/list/9586.mbox?since=30"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '461'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:53 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query {\n          me {\n            username\n          }\n        }\n        ",
+      "variables": {}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '119'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"me":{"username":"gotmax23-test"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:53 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getListRef($username: String!, $name: String!)
+      {\n            user(username: $username) {\n                list(name: $name)
+      {\n                    \nid\nname\nowner {\n    canonicalName\n}\n\n\n                }\n            }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "testlist"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '341'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"user":{"list":{"id":9586,"name":"testlist","owner":{"canonicalName":"~gotmax23-test"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '99'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:53 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getList($username: String!, $name: String!)
+      {\n            user(username: $username) {\n                list(name: $name)
+      {\n                    \nid\nname\nowner {\n    canonicalName\n}\n\n\ncreated\nupdated\ndescription\nvisibility\npermitMime\nrejectMime\narchive\nlast30days\n\n                }\n            }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "testlist"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '428'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"user":{"list":{"id":9586,"name":"testlist","owner":{"canonicalName":"~gotmax23-test"},"created":"2023-08-11T22:38:53.315542Z","updated":"2023-08-11T22:38:53.315542Z","description":"This
+      is a test list","visibility":"PUBLIC","permitMime":["text/*","application/pgp-signature","application/pgp-keys"],"rejectMime":["text/html"],"archive":"https://lists.sr.ht/query/list/9586.mbox","last30days":"https://lists.sr.ht/query/list/9586.mbox?since=30"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '457'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:53 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation updateList(\n            $listid: Int!\n            $inp:
+      MailingListInput!\n        ) {\n            updateMailingList(\n                id:
+      $listid\n                input: $inp\n            ) {\n                \nid\nname\nowner
+      {\n    canonicalName\n}\n\n\ncreated\nupdated\ndescription\nvisibility\npermitMime\nrejectMime\narchive\nlast30days\n\n            }\n        }\n        ",
+      "variables": {"listid": 9586, "inp": {"description": "This is a test list"}}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '494'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"updateMailingList":{"id":9586,"name":"testlist","owner":{"canonicalName":"~gotmax23-test"},"created":"2023-08-11T22:38:53.315542Z","updated":"2023-08-11T22:38:53.315542Z","description":"This
+      is a test list","visibility":"PUBLIC","permitMime":["text/*","application/pgp-signature","application/pgp-keys"],"rejectMime":["text/html"],"archive":"https://lists.sr.ht/query/list/9586.mbox","last30days":"https://lists.sr.ht/query/list/9586.mbox?since=30"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '461'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:53 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation updateList(\n            $listid: Int!\n            $inp:
+      MailingListInput!\n        ) {\n            updateMailingList(\n                id:
+      $listid\n                input: $inp\n            ) {\n                \nid\nname\nowner
+      {\n    canonicalName\n}\n\n\ncreated\nupdated\ndescription\nvisibility\npermitMime\nrejectMime\narchive\nlast30days\n\n            }\n        }\n        ",
+      "variables": {"listid": 9586, "inp": {"description": "This is a test list",
+      "visibility": "PUBLIC"}}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '518'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"updateMailingList":{"id":9586,"name":"testlist","owner":{"canonicalName":"~gotmax23-test"},"created":"2023-08-11T22:38:53.315542Z","updated":"2023-08-11T22:38:53.315542Z","description":"This
+      is a test list","visibility":"PUBLIC","permitMime":["text/*","application/pgp-signature","application/pgp-keys"],"rejectMime":["text/html"],"archive":"https://lists.sr.ht/query/list/9586.mbox","last30days":"https://lists.sr.ht/query/list/9586.mbox?since=30"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '461'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:53 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation updateList(\n            $listid: Int!\n            $inp:
+      MailingListInput!\n        ) {\n            updateMailingList(\n                id:
+      $listid\n                input: $inp\n            ) {\n                \nid\nname\nowner
+      {\n    canonicalName\n}\n\n\ncreated\nupdated\ndescription\nvisibility\npermitMime\nrejectMime\narchive\nlast30days\n\n            }\n        }\n        ",
+      "variables": {"listid": 9586, "inp": {"visibility": "PUBLIC"}}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '480'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"updateMailingList":{"id":9586,"name":"testlist","owner":{"canonicalName":"~gotmax23-test"},"created":"2023-08-11T22:38:53.315542Z","updated":"2023-08-11T22:38:53.315542Z","description":"This
+      is a test list","visibility":"PUBLIC","permitMime":["text/*","application/pgp-signature","application/pgp-keys"],"rejectMime":["text/html"],"archive":"https://lists.sr.ht/query/list/9586.mbox","last30days":"https://lists.sr.ht/query/list/9586.mbox?since=30"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '461'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:54 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation deleteList(\n            $listid: Int!\n        )
+      {\n            deleteMailingList(\n                id: $listid\n            )
+      {\n                \nid\nname\nowner {\n    canonicalName\n}\n\n\ncreated\nupdated\ndescription\nvisibility\npermitMime\nrejectMime\narchive\nlast30days\n\n            }\n        }\n        ",
+      "variables": {"listid": 9586}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '381'
+      content-type:
+      - application/json
+      host:
+      - lists.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://lists.sr.ht/query
+  response:
+    content: '{"data":{"deleteMailingList":{"id":9586,"name":"testlist","owner":{"canonicalName":"~gotmax23-test"},"created":"2023-08-11T22:38:53.315542Z","updated":"2023-08-11T22:38:53.315542Z","description":"This
+      is a test list","visibility":"PUBLIC","permitMime":["text/*","application/pgp-signature","application/pgp-keys"],"rejectMime":["text/html"],"archive":"https://lists.sr.ht/query/list/9586.mbox","last30days":"https://lists.sr.ht/query/list/9586.mbox?since=30"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '461'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:38:54 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

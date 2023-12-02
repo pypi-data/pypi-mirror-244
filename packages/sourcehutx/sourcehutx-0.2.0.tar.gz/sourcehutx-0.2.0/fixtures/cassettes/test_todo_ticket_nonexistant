@@ -1,0 +1,50 @@
+interactions:
+- request:
+    body: '{"query": "\n        query getTicket($username: String!, $name: String!,
+      $ticket: Int!){\n          user(username: $username) {\n            tracker(name:
+      $name) {\n              ticket(id: $ticket) {\n                id\n                created\n                updated\n                ref\n                subject\n                body\n                status\n                resolution\n                submitter
+      {\n                  canonicalName\n                }\n                tracker
+      {\n                  name\n                  id\n                  owner {\n                    canonicalName\n                  }\n                }\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23", "name": "fedrq-copy", "ticket": 1000}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '791'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: '{"errors":[{"message":"the requested element is null which the schema
+      does not allow","path":["user","tracker","ticket"]}],"data":{"user":{"tracker":null}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '156'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:03 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

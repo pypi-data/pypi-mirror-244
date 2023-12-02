@@ -1,0 +1,285 @@
+interactions:
+- request:
+    body: '{"query": "\n        query list(\n          $username: String!\n          $cursor:
+      Cursor\n        ) {\n          user(username: $username) {\n            trackers(cursor:
+      $cursor) {\n              cursor\n              results {\n                  \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '427'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: "{\"data\":{\"user\":{\"trackers\":{\"cursor\":\"gAAAAABk1rwI0KtUmNDlxLXh02o-GAQ5CqVUOwhozO8LcmJcqsf6eGg0DAN3Q6jV5mYFtiqYtgj_HhWs2l3VStYmjFcb_PigXxc_5cHXdNZs-ajugSLOpsH1hAV93jXImiOm0C1g_rL7\",\"results\":[{\"id\":11881,\"created\":\"2023-07-13T08:45:17.139554Z\",\"updated\":\"2023-07-15T10:21:39.385623Z\",\"name\":\"lilhub\",\"description\":\"Bug
+      tracker for lilhub\",\"visibility\":\"PUBLIC\"},{\"id\":11581,\"created\":\"2023-06-02T19:05:03.857821Z\",\"updated\":\"2023-06-03T17:20:01.402602Z\",\"name\":\"hare-vt\",\"description\":\"\",\"visibility\":\"PUBLIC\"},{\"id\":11580,\"created\":\"2023-06-02T10:25:17.187852Z\",\"updated\":\"2023-06-02T10:28:15.378195Z\",\"name\":\"hare-message\",\"description\":\"Tickets
+      for the hare-message library\",\"visibility\":\"PUBLIC\"},{\"id\":11487,\"created\":\"2023-05-17T10:02:46.645011Z\",\"updated\":\"2023-07-09T00:04:52.097244Z\",\"name\":\"writefreesoftware.org\",\"description\":\"\",\"visibility\":\"PUBLIC\"},{\"id\":11123,\"created\":\"2023-03-31T11:07:30.445165Z\",\"updated\":\"2023-07-31T13:36:37.124848Z\",\"name\":\"rc\",\"description\":\"Bug
+      tracker for the rc shell\",\"visibility\":\"PUBLIC\"},{\"id\":10789,\"created\":\"2023-02-10T09:43:13.520696Z\",\"updated\":\"2023-02-10T13:34:12.796686Z\",\"name\":\"hare-http\",\"description\":\"\",\"visibility\":\"PUBLIC\"},{\"id\":10724,\"created\":\"2023-01-31T12:58:24.361141Z\",\"updated\":\"2023-01-31T14:52:22.259952Z\",\"name\":\"hare-vec\",\"description\":\"Tickets
+      for the Hare vector graphics library.\",\"visibility\":\"PUBLIC\"},{\"id\":10689,\"created\":\"2023-01-28T10:26:39.570034Z\",\"updated\":\"2023-01-29T11:42:05.562305Z\",\"name\":\"hare-wayland\",\"description\":\"Tickets
+      for hare-wayland\",\"visibility\":\"PUBLIC\"},{\"id\":10271,\"created\":\"2022-11-30T13:32:02.830408Z\",\"updated\":\"2023-01-06T11:45:42.908347Z\",\"name\":\"hare-ev\",\"description\":\"Event
+      loop for Hare\",\"visibility\":\"PUBLIC\"},{\"id\":9184,\"created\":\"2022-07-16T14:42:05.907666Z\",\"updated\":\"2022-07-16T18:19:14.05914Z\",\"name\":\"pixbuf\",\"description\":\"\",\"visibility\":\"PUBLIC\"},{\"id\":9075,\"created\":\"2022-07-08T18:43:01.997702Z\",\"updated\":\"2022-07-15T07:35:29.371755Z\",\"name\":\"searchhut\",\"description\":\"Tickets
+      for a search engine. \\\"pre-crawl\\\" tickets are blockers before we can set
+      it loose on the broader web.\",\"visibility\":\"PUBLIC\"},{\"id\":8900,\"created\":\"2022-06-26T11:52:36.043958Z\",\"updated\":\"2023-08-11T09:33:21.757687Z\",\"name\":\"mercury\",\"description\":\"Bug
+      tracker for the Mercury low-level Helios userspace\",\"visibility\":\"PUBLIC\"},{\"id\":8642,\"created\":\"2022-05-08T12:47:30.570005Z\",\"updated\":\"2022-05-22T18:09:15.041659Z\",\"name\":\"hare-ssh\",\"description\":\"Tickets
+      for the hare-ssh project.\",\"visibility\":\"PUBLIC\"},{\"id\":8473,\"created\":\"2022-04-11T15:58:27.890209Z\",\"updated\":\"2023-06-13T08:31:36.991729Z\",\"name\":\"himitsu\",\"description\":\"Bug
+      tracker for the Himitsu project\",\"visibility\":\"PUBLIC\"},{\"id\":8258,\"created\":\"2022-03-10T09:00:03.561367Z\",\"updated\":\"2023-07-13T10:31:51.357906Z\",\"name\":\"helios\",\"description\":\"Tickets
+      for the [helios kernel](https://sr.ht/~sircmpwn/helios)\",\"visibility\":\"PUBLIC\"},{\"id\":8133,\"created\":\"2022-02-21T08:26:10.595921Z\",\"updated\":\"2022-08-27T13:50:44.426099Z\",\"name\":\"tokidoki\",\"description\":\"Tickets
+      for the tokidoki calendar \\u0026 contacts server.\",\"visibility\":\"PUBLIC\"},{\"id\":7077,\"created\":\"2021-09-06T13:44:05.616264Z\",\"updated\":\"2022-05-12T03:38:34.254482Z\",\"name\":\"visurf\",\"description\":\"Ticket
+      tracker for visurf. Do not post tickets here without first consulting the mailing
+      list.\",\"visibility\":\"PUBLIC\"},{\"id\":6652,\"created\":\"2021-06-23T19:11:49.854022Z\",\"updated\":\"2021-10-12T13:51:29.537947Z\",\"name\":\"project-ideas\",\"description\":\"Projects
+      that I think ought to exist. This tracker is closed for submissions, but open
+      to comments, so you can tell me when you made one of them.\",\"visibility\":\"PUBLIC\"},{\"id\":5883,\"created\":\"2021-03-05T21:01:46.168087Z\",\"updated\":\"2021-03-05T22:48:52.398157Z\",\"name\":\"gemreader\",\"description\":\"Bug
+      tracker for [gemreader](https://sr.ht/~sircmpwn/gemreader)\",\"visibility\":\"PUBLIC\"},{\"id\":5839,\"created\":\"2021-02-28T13:27:22.868328Z\",\"updated\":\"2023-01-26T09:31:51.254181Z\",\"name\":\"test\",\"description\":\"Disregard
+      this tracker\",\"visibility\":\"PUBLIC\"},{\"id\":5776,\"created\":\"2021-02-18T15:25:02.97054Z\",\"updated\":\"2023-06-01T10:30:21.131006Z\",\"name\":\"pages.sr.ht\",\"description\":\"Tickets
+      for the pages.sr.ht web hosting service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1 \U0001F6D1
+      **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":5709,\"created\":\"2021-02-07T21:32:24.889506Z\",\"updated\":\"2023-08-07T15:13:48.490013Z\",\"name\":\"hare\",\"description\":\"Tickets
+      for the [Hare programming language](https://harelang.org).\\r\\n\\r\\n- [idea](https://todo.sr.ht/~sircmpwn/hare?search=label%3A%22idea%22)
+      tickets are vague and need to be refined\\r\\n- [design](https://todo.sr.ht/~sircmpwn/hare?search=label%3A%22design%22)
+      tickets are accepted but need design work\\r\\n- [spec](https://todo.sr.ht/~sircmpwn/hare?search=label%3A%22spec%22)
+      tickets need to have a formal specification written up\\r\\n- [harec](https://todo.sr.ht/~sircmpwn/hare?search=label%3A%22harec%22)
+      tickets are for issues with the C implementation\\r\\n- [stdlib](https://todo.sr.ht/~sircmpwn/hare?search=status%3Aopen%20label%3A%22stdlib%22)
+      tickets pertrain to the standard library\\r\\n- [easy](https://todo.sr.ht/~sircmpwn/hare?search=status%3Aopen%20label%3A%22easy%22)
+      tickets are good for new contributors\\r\\n\\r\\n\U0001F6D1 \U0001F6D1 \U0001F6D1
+      **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and feature requests only; you must start by
+      posting to [hare-users](https://lists.sr.ht/~sircmpwn/hare-users) if this does
+      not describe your issue. You will be asked to file a ticket if appropriate.\\r\\n\\r\\n**Do
+      not file security-related tickets here**. Email them to sir@cmpwn.com.\",\"visibility\":\"PUBLIC\"},{\"id\":5465,\"created\":\"2021-01-11T21:24:55.111782Z\",\"updated\":\"2023-07-23T16:58:10.820152Z\",\"name\":\"gddo\",\"description\":\"Bug
+      tracker for the godocs.io [gddo fork](https://sr.ht/~sircmpwn/godocs.io).\",\"visibility\":\"PUBLIC\"},{\"id\":4668,\"created\":\"2020-10-10T18:32:06.691605Z\",\"updated\":\"2022-05-17T09:00:57.635012Z\",\"name\":\"sr.ht-ops\",\"description\":\"Tickets
+      for operations-related tasks within SourceHut.\\r\\n\\r\\nThis tracker does
+      not accept public submissions. If you have a question or an issue with SourceHut
+      operations, write to [sr.ht-dev](https://lists.sr.ht/~sircmpwn/sr.ht-dev).\",\"visibility\":\"PUBLIC\"},{\"id\":4654,\"created\":\"2020-10-09T14:40:21.371606Z\",\"updated\":\"2022-01-21T12:42:31.255349Z\",\"name\":\"core-go\",\"description\":\"Tickets
+      related to the [core-go](https://git.sr.ht/~sircmpwn/core-go) library.\\r\\n\\r\\nThis
+      tracker does not accept public submissions. If you have a question or an issue
+      with core-go, write to [sr.ht-dev](https://lists.sr.ht/~sircmpwn/sr.ht-dev).\",\"visibility\":\"PUBLIC\"}]}}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:00 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query list(\n          $username: String!\n          $cursor:
+      Cursor\n        ) {\n          user(username: $username) {\n            trackers(cursor:
+      $cursor) {\n              cursor\n              results {\n                  \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABk1rwI0KtUmNDlxLXh02o-GAQ5CqVUOwhozO8LcmJcqsf6eGg0DAN3Q6jV5mYFtiqYtgj_HhWs2l3VStYmjFcb_PigXxc_5cHXdNZs-ajugSLOpsH1hAV93jXImiOm0C1g_rL7"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '565'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: "{\"data\":{\"user\":{\"trackers\":{\"cursor\":\"gAAAAABk1rwILuyf3X7Xte310IuUiKAYrpuB5IRWJ8XUtiE9K5sAy_6qf6O2oVQOqzUBMAePSQ50nCPRoetOxYoMZr0Zn3VauxzlkvpWuDrqqOPTSuiqAi-mkkQSsxDDfCotqisZpGym\",\"results\":[{\"id\":4587,\"created\":\"2020-09-28T21:49:14.016694Z\",\"updated\":\"2021-01-18T23:15:26.546664Z\",\"name\":\"dowork\",\"description\":\"Tickets
+      for the [dowork project](https://sr.ht/~sircmpwn/dowork).\",\"visibility\":\"PUBLIC\"},{\"id\":4523,\"created\":\"2020-09-20T18:52:29.827117Z\",\"updated\":\"2022-08-27T18:39:03.428977Z\",\"name\":\"gmni\",\"description\":\"Bugs
+      for the [gmni](https://sr.ht/~sircmpwn/gmni/) and [gmnisrv](https://sr.ht/~sircmpwn/gmnisrv)
+      projects.\",\"visibility\":\"PUBLIC\"},{\"id\":4508,\"created\":\"2020-09-18T19:10:55.313706Z\",\"updated\":\"2021-12-16T12:02:18.43352Z\",\"name\":\"chartsrv\",\"description\":\"Tickets
+      for the [chartsrv](https://sr.ht/~sircmpwn/chartsrv) project.\\r\\n\\r\\n\U0001F6D1
+      This tracker is for *confirmed* bugs and feature requests only; you should start
+      by posting to [chartsrv-discuss](https://lists.sr.ht/~sircmpwn/chartsrv-discuss)
+      if this does not describe you.\",\"visibility\":\"PUBLIC\"},{\"id\":3774,\"created\":\"2020-06-22T13:17:05.763744Z\",\"updated\":\"2020-11-02T14:10:30.986221Z\",\"name\":\"go-bare\",\"description\":\"[Implementation
+      of BARE message encoding for Go](https://git.sr.ht/~sircmpwn/go-bare)\",\"visibility\":\"PUBLIC\"},{\"id\":2849,\"created\":\"2020-04-01T22:38:53.874436Z\",\"updated\":\"2022-09-06T12:13:01.496182Z\",\"name\":\"hub.sr.ht\",\"description\":\"Tickets
+      for [hub.sr.ht](https://git.sr.ht/~sircmpwn/hub.sr.ht).\\r\\n\\r\\n\U0001F6D1
+      \U0001F6D1 \U0001F6D1 **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1
+      \U0001F6D1\\r\\n\\r\\nThis tracker is for *confirmed* bugs and *confirmed* feature
+      requests only; you must start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":2400,\"created\":\"2020-01-07T20:21:40.689204Z\",\"updated\":\"2020-01-24T20:43:52.800146Z\",\"name\":\"imrsh\",\"description\":\"Tasks
+      for [imrsh](https://git.sr.ht/~sircmpwn/imrsh). Not for end-user support - use
+      the [mailing list](https://lists.sr.ht/~emersion/mrsh-dev).\",\"visibility\":\"PUBLIC\"},{\"id\":2285,\"created\":\"2019-12-11T13:39:46.112688Z\",\"updated\":\"2019-12-17T16:35:26.18364Z\",\"name\":\"sedna\",\"description\":\"\",\"visibility\":\"PUBLIC\"},{\"id\":2019,\"created\":\"2019-10-28T19:05:26.166902Z\",\"updated\":\"2019-11-18T19:03:35.340434Z\",\"name\":\"wxrc\",\"description\":\"[Wayland
+      XR compositor](https://git.sr.ht/~sircmpwn/wxrc)\",\"visibility\":\"PUBLIC\"},{\"id\":1742,\"created\":\"2019-09-10T20:31:00.331868Z\",\"updated\":\"2019-11-01T09:05:28.044629Z\",\"name\":\"ctools\",\"description\":\"Tickets
+      for the [ctools](https://git.sr.ht/~sircmpwn/ctools) project.\",\"visibility\":\"PUBLIC\"},{\"id\":1573,\"created\":\"2019-08-22T06:18:05.93999Z\",\"updated\":\"2019-08-22T06:20:53.43386Z\",\"name\":\"test-repo\",\"description\":\"This
+      is my repo description, hooray huzzah\",\"visibility\":\"PUBLIC\"},{\"id\":1410,\"created\":\"2019-07-05T03:16:29.183179Z\",\"updated\":\"2019-08-31T19:36:14.465269Z\",\"name\":\"annotate\",\"description\":\"Bug
+      tracker for annotate tools\",\"visibility\":\"PUBLIC\"},{\"id\":1190,\"created\":\"2019-04-25T19:00:13.76702Z\",\"updated\":\"2021-06-22T09:02:23.229853Z\",\"name\":\"wio\",\"description\":\"This
+      is the bug tracker for [wio](https://git.sr.ht/~sircmpwn/wio).\\r\\n\\r\\nThe
+      bug tracker for [cage](https://github.com/Hjdskes/cage/issues) may also be useful.\",\"visibility\":\"PUBLIC\"},{\"id\":1162,\"created\":\"2019-04-16T21:18:26.680989Z\",\"updated\":\"2019-04-16T21:18:44.817015Z\",\"name\":\"cozy\",\"description\":\"Bug
+      tracker for the [cozy C toolchain](https://git.sr.ht/~sircmpwn/cozy)\",\"visibility\":\"PUBLIC\"},{\"id\":988,\"created\":\"2019-02-24T21:22:52.020911Z\",\"updated\":\"2022-03-14T09:49:57.453714Z\",\"name\":\"paste.sr.ht\",\"description\":\"Tickets
+      for [paste.sr.ht](https://paste.sr.ht).\\r\\n\\r\\n\U0001F6D1 \U0001F6D1 \U0001F6D1
+      **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":971,\"created\":\"2019-02-19T16:54:50.170287Z\",\"updated\":\"2019-03-27T18:59:30.838187Z\",\"name\":\"godot-wlr\",\"description\":\"Godot
+      bindings for wlroots\",\"visibility\":\"PUBLIC\"},{\"id\":920,\"created\":\"2019-02-07T17:03:44.814591Z\",\"updated\":\"2019-02-07T17:04:18.329895Z\",\"name\":\"deacme\",\"description\":\"Bug
+      tracker for [deacme](https://git.sr.ht/~sircmpwn/deacme)\",\"visibility\":\"PUBLIC\"},{\"id\":851,\"created\":\"2019-01-30T00:01:18.172066Z\",\"updated\":\"2023-07-08T15:37:02.575285Z\",\"name\":\"hg.sr.ht\",\"description\":\"Tickets
+      for the hg.sr.ht mercurial hosting service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1
+      \U0001F6D1 **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":568,\"created\":\"2018-12-08T22:09:07.021137Z\",\"updated\":\"2018-12-11T00:46:55.048904Z\",\"name\":\"alpine-riscv64\",\"description\":\"Tickets
+      for the WIP riscv64 port of Alpine Linux\",\"visibility\":\"PUBLIC\"},{\"id\":35,\"created\":\"2018-06-26T13:37:09.85526Z\",\"updated\":\"2018-06-26T13:37:09.855289Z\",\"name\":\"koio\",\"description\":\"Bugs
+      for the koio project:\\r\\n\\r\\nhttps://git.sr.ht/~sircmpwn/koio\",\"visibility\":\"PUBLIC\"},{\"id\":29,\"created\":\"2018-05-05T23:02:32.960765Z\",\"updated\":\"2018-05-05T23:03:16.975463Z\",\"name\":\"unmediumify\",\"description\":\"\",\"visibility\":\"PUBLIC\"},{\"id\":26,\"created\":\"2018-03-15T22:12:47.289275Z\",\"updated\":\"2022-03-14T09:48:51.246456Z\",\"name\":\"dispatch.sr.ht\",\"description\":\"Tickets
+      for the dispatch.sr.ht service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1 \U0001F6D1
+      **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":25,\"created\":\"2018-02-09T21:42:44.581248Z\",\"updated\":\"2022-11-27T13:38:31.662541Z\",\"name\":\"aerc2\",\"description\":\"Bugs
+      \\u0026 feature requests for the [aerc2](https://git.sr.ht/~sircmpwn/aerc) email
+      client.\",\"visibility\":\"PUBLIC\"},{\"id\":23,\"created\":\"2018-02-03T21:44:11.631979Z\",\"updated\":\"2018-02-23T20:22:48.721239Z\",\"name\":\"stewdio\",\"description\":\"\",\"visibility\":\"PUBLIC\"},{\"id\":21,\"created\":\"2018-01-08T05:02:30.245778Z\",\"updated\":\"2022-03-15T13:07:54.772403Z\",\"name\":\"man.sr.ht\",\"description\":\"Tickets
+      for the man.sr.ht wiki site (and for the top-level wiki).\\r\\n\\r\\n\U0001F6D1
+      \U0001F6D1 \U0001F6D1 **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1
+      \U0001F6D1\\r\\n\\r\\nThis tracker is for *confirmed* bugs and *confirmed* feature
+      requests only; you must start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":20,\"created\":\"2017-12-10T07:00:17.808744Z\",\"updated\":\"2021-10-25T05:44:35.623546Z\",\"name\":\"scdoc\",\"description\":\"Tickets
+      relating to the [scdoc](https://git.sr.ht/~sircmpwn/scdoc) man page generator.\",\"visibility\":\"PUBLIC\"}]}}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:00 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query list(\n          $username: String!\n          $cursor:
+      Cursor\n        ) {\n          user(username: $username) {\n            trackers(cursor:
+      $cursor) {\n              cursor\n              results {\n                  \nid\ncreated\nupdated\nname\ndescription\nvisibility\n\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "sircmpwn", "cursor": "gAAAAABk1rwILuyf3X7Xte310IuUiKAYrpuB5IRWJ8XUtiE9K5sAy_6qf6O2oVQOqzUBMAePSQ50nCPRoetOxYoMZr0Zn3VauxzlkvpWuDrqqOPTSuiqAi-mkkQSsxDDfCotqisZpGym"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '565'
+      content-type:
+      - application/json
+      host:
+      - todo.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://todo.sr.ht/query
+  response:
+    content: "{\"data\":{\"user\":{\"trackers\":{\"cursor\":null,\"results\":[{\"id\":19,\"created\":\"2017-12-04T00:46:43.707507Z\",\"updated\":\"2019-04-23T19:58:13.232794Z\",\"name\":\"alpine\",\"description\":\"Stuff
+      I want to remember to do on alpine\",\"visibility\":\"PUBLIC\"},{\"id\":13,\"created\":\"2017-10-11T14:43:44.010528Z\",\"updated\":\"2017-11-28T15:31:39.106976Z\",\"name\":\"wormy\",\"description\":\"Tickets
+      for wormy sub-bots\",\"visibility\":\"PUBLIC\"},{\"id\":10,\"created\":\"2017-09-20T18:16:27.693229Z\",\"updated\":\"2023-06-28T09:55:13.612402Z\",\"name\":\"lists.sr.ht\",\"description\":\"Tickets
+      related to the lists.sr.ht mailing list service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1
+      \U0001F6D1 **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":6,\"created\":\"2017-09-14T03:44:33.832847Z\",\"updated\":\"2023-07-05T08:38:08.923912Z\",\"name\":\"git.sr.ht\",\"description\":\"Tickets
+      for the git.sr.ht git hosting service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1 \U0001F6D1
+      **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":4,\"created\":\"2017-09-14T03:22:50.651471Z\",\"updated\":\"2023-07-01T07:08:18.163241Z\",\"name\":\"builds.sr.ht\",\"description\":\"Tickets
+      for the builds.sr.ht CI service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1 \U0001F6D1
+      **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":3,\"created\":\"2017-09-14T03:19:06.174134Z\",\"updated\":\"2023-03-15T07:32:45.518052Z\",\"name\":\"meta.sr.ht\",\"description\":\"Tickets
+      for the meta.sr.ht authentication service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1
+      \U0001F6D1 **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":2,\"created\":\"2017-09-14T03:12:53.300949Z\",\"updated\":\"2023-06-22T16:02:51.179038Z\",\"name\":\"sr.ht\",\"description\":\"General
+      sr.ht tickets and tickets awaiting triage into specific subtrackers\\r\\n\\r\\n\U0001F6D1
+      \U0001F6D1 \U0001F6D1 **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1
+      \U0001F6D1\\r\\n\\r\\nThis tracker is for *confirmed* bugs and *confirmed* feature
+      requests only; you must start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"},{\"id\":1,\"created\":\"2017-09-14T03:05:51.779198Z\",\"updated\":\"2023-04-10T13:28:37.944907Z\",\"name\":\"todo.sr.ht\",\"description\":\"Tickets
+      for the todo.sr.ht ticket service.\\r\\n\\r\\n\U0001F6D1 \U0001F6D1 \U0001F6D1
+      **READ BEFORE FILING YOUR TICKET** \U0001F6D1 \U0001F6D1 \U0001F6D1\\r\\n\\r\\nThis
+      tracker is for *confirmed* bugs and *confirmed* feature requests only; you must
+      start by posting to [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss)
+      if this does not describe your issue. You will be asked to file a ticket if
+      appropriate.\\r\\n\\r\\n**Do not report security-related issues here**. Email
+      them to [sr.ht-security](https://lists.sr.ht/~sircmpwn/sr.ht-security).\",\"visibility\":\"PUBLIC\"}]}}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 11 Aug 2023 22:54:00 GMT
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1
