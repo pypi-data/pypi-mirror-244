@@ -1,0 +1,6 @@
+requests>=2.28.1
+aiohttp>=3.8.3
+
+[tests]
+pytest>=7.2.1
+pytest-asyncio>=0.21.0
