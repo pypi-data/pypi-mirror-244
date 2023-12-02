@@ -1,0 +1,17 @@
+geode_implicit/__init__.py,sha256=OlUTCuLHo4YVEP1DXz25FKDxWGhV1gil-UFuUe4K6D8,260
+geode_implicit/explicitation.py,sha256=sI1vGZHeWH20lRj_AgUo3-xs0XuHAiOhr5CCA5cHwBw,277
+geode_implicit/implicitation.py,sha256=gIeC04W5t4pkVRo9aPoivaxea0DvVXmoW9DdHL-kPks,195
+geode_implicit/insertion.py,sha256=Ufq_8FzbNJkBR5-xdO--FjQhpqETnOXReQYPrh92WIc,242
+geode_implicit/model_io.py,sha256=zNNkwimAePcQxhl2qJnEvczeu6MGoXnwuiULVZNT1R0,212
+geode_implicit/bin/Geode-Implicit_explicitation.dll,sha256=Ic405GO-sI8QQ5LHmZmA8RPf4ccDD4hUlwseEKM7xfU,3785216
+geode_implicit/bin/Geode-Implicit_implicitation.dll,sha256=SQwHxGuzc_CyMCAA3K0tKkTZgCmL0sV3rl3z48Xu3hU,3845120
+geode_implicit/bin/Geode-Implicit_insertion.dll,sha256=jvL4fgqtLmRPffZXfflZu1m2Xxe85fiPs7bSgkJVBK4,3830272
+geode_implicit/bin/Geode-Implicit_io.dll,sha256=YfC-cN3UShEHDvULRvDQjdSzTQu5LQ-UkiPoQGbGwZU,97792
+geode_implicit/bin/geode_implicit_py_explicitation.cp39-win_amd64.pyd,sha256=385EX9isLy2kP3pxHj21wZO3hYi-Ut_jstcXvAgb4s8,163328
+geode_implicit/bin/geode_implicit_py_implicitation.cp39-win_amd64.pyd,sha256=KnUCLBP3cI142JpQ-qafXlH1b3t2uZrusVGJdJwD6P8,144896
+geode_implicit/bin/geode_implicit_py_insertion.cp39-win_amd64.pyd,sha256=VBVvpXyVh40QwypKyCJmTAHnpeD9gphpMxwESOUM8zY,139776
+geode_implicit/bin/geode_implicit_py_io.cp39-win_amd64.pyd,sha256=zkU93HJl5yi59z8xMuXVfW_IMsOBZqdWIfeRlFvqMw0,125440
+Geode_Implicit-2.5.0.dist-info/METADATA,sha256=ikg5mugiOf812H9xkserPsXebXEFDEEKCv9F4MnNsgo,3003
+Geode_Implicit-2.5.0.dist-info/WHEEL,sha256=GZFS91_ufm4WrNPBaFVPB9MvOXR6bMZQhPcZRRTN5YM,100
+Geode_Implicit-2.5.0.dist-info/top_level.txt,sha256=en1gGkG76WrTwf913IpVYGFiSRrSP4d4BQa6430AyRQ,15
+Geode_Implicit-2.5.0.dist-info/RECORD,,
