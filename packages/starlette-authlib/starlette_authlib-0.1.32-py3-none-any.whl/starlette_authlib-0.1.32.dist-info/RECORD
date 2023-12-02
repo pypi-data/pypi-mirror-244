@@ -1,0 +1,5 @@
+starlette_authlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starlette_authlib/middleware.py,sha256=btt4f1sckhPAB9LGc4zyjruwq_J-V6o1QC-CXk49ihE,5044
+starlette_authlib-0.1.32.dist-info/METADATA,sha256=qYocp3EI3GM3OKD11hZUL-is0y4XwCipsWyvx2LskXk,3210
+starlette_authlib-0.1.32.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+starlette_authlib-0.1.32.dist-info/RECORD,,
