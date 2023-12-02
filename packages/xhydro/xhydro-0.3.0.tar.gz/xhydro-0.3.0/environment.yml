@@ -1,0 +1,15 @@
+name: xhydro
+channels:
+  - conda-forge
+dependencies:
+  - python >=3.9,<3.12
+  # Don't forget to sync changes between environment.yml, environment-dev.yml, and pyproject.toml!
+  # Main packages
+  - numpy
+  - statsmodels
+  - xarray
+  - xclim >=0.45.0
+  - xscen >=0.7.1
+  - pip
+  - pip:
+    - xdatasets
