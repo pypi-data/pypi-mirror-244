@@ -1,0 +1,14 @@
+LICENSE
+README.md
+README_PyPI.md
+THIRD_PARTY_LICENSES.md
+setup.cfg
+setup.py
+cdo_local_uuid/__init__.py
+cdo_local_uuid/py.typed
+cdo_local_uuid.egg-info/PKG-INFO
+cdo_local_uuid.egg-info/SOURCES.txt
+cdo_local_uuid.egg-info/dependency_links.txt
+cdo_local_uuid.egg-info/requires.txt
+cdo_local_uuid.egg-info/top_level.txt
+tests/test_local_uuid.py
