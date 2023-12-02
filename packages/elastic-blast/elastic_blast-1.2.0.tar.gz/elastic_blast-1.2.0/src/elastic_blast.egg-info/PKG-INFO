@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: elastic-blast
+Version: 1.2.0
+Summary: ElasticBLAST is a cloud-based tool to perform your BLAST searches faster and make you more effective
+Home-page: https://blast.ncbi.nlm.nih.gov/doc/elastic-blast
+Maintainer: NCBI
+Maintainer-email: elastic-blast-support@ncbi.nlm.nih.gov
+Project-URL: Repository, https://github.com/ncbi/elastic-blast/
+Project-URL: ChangeLog, https://github.com/ncbi/elastic-blast/releases
+Project-URL: Support, https://blast.ncbi.nlm.nih.gov/doc/elastic-blast/support.html
+Project-URL: Tutorials, https://blast.ncbi.nlm.nih.gov/doc/elastic-blast/tutorials.html
+Keywords: "BLAST", "Alignment", "Cloud Computing", "Bioinformatics"
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+ElasticBLAST is a cloud-based tool to perform your BLAST searches faster and make you more effective
