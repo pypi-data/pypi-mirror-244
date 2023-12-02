@@ -1,0 +1,11 @@
+huggingface_hub
+torch
+open-clip-torch
+
+[dev]
+flake8
+black==22.3.0
+isort
+twine
+pytest
+wheel
