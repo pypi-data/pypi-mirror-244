@@ -1,0 +1,35 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "continuousbeam"
+# Version system: YYYY.0M.PATCH
+version = "2023.11.0"
+description = "Structural analysis of continuous beam using stiffness matrix method"
+readme = "README.md"
+authors = [{ name = "Sanjay G. Khirwadkar", email = "khirwadkar@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+     "License :: OSI Approved :: MIT License",
+     "Programming Language :: Python",
+     "Programming Language :: Python :: 3",
+     "Topic :: Scientific/Engineering",
+]
+keywords = ["continuous beam", "indeterminate beam", "stiffness matrix", "structural engineering", "structural analysis"]
+dependencies = [
+     "continuousbeam-backend >= 2023.11.0",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/khirwadkar/StructInsight_in_Python"
+
+[project.scripts]
+contibeam = "continuousbeam.contibeam_main:main"
+
+[project.gui-scripts]
+contibeam_win = "continuousbeam.contibeam_main:main_gui"
+
