@@ -1,0 +1,15 @@
+torchaudio
+transformers
+numpy>=1.15.1
+pyaudio>=0.2.12
+webrtcvad>=2.0.10
+scipy>=1.1.0
+toml>=0.10.2
+sanic>=22.6.0
+ffmpeg-python>=0.2.0
+websockets>=10.3
+deepmultilingualpunctuation
+pyctcdecode
+kenlm
+fastapi
+accelerate
