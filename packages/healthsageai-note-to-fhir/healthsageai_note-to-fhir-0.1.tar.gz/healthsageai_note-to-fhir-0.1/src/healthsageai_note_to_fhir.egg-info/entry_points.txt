@@ -1,0 +1,2 @@
+[console_scripts]
+run_evaluation = note_to_fhir.evaluation.run_evaluation:main

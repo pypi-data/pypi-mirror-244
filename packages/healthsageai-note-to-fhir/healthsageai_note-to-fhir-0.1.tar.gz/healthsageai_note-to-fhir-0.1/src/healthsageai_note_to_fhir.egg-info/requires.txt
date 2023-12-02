@@ -1,0 +1,10 @@
+
+[demo]
+requests
+gradio
+
+[inference]
+
+[training]
+torch
+pytorch-gpu
