@@ -1,0 +1,11 @@
+README.md
+setup.py
+transcriptorthology/Tclustering.py
+transcriptorthology/__init__.py
+transcriptorthology/transcriptOrthology.py
+transcriptorthology/tsmComputing.py
+transcriptorthology.egg-info/PKG-INFO
+transcriptorthology.egg-info/SOURCES.txt
+transcriptorthology.egg-info/dependency_links.txt
+transcriptorthology.egg-info/requires.txt
+transcriptorthology.egg-info/top_level.txt
