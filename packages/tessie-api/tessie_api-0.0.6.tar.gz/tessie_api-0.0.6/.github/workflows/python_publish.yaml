@@ -1,0 +1,67 @@
+name: Build and Publish
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.11-buster
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Extract tag version and update pyproject.toml
+      run: |
+        TAG_VERSION=${GITHUB_REF#refs/tags/}
+        echo "Extracted version: ${{ github.ref_name }}"
+        sed -i "s/^version = .*/version = '${{ github.ref_name }}'/" pyproject.toml
+
+    - name: Install dependencies
+      run: |
+        pip install build twine
+
+    - name: Set execute permission for build.sh and dist.sh
+      run: |
+        chmod +x ./scripts/build.sh
+        chmod +x ./scripts/dist.sh
+
+    - name: Run build script
+      run: bash ./scripts/build.sh
+
+    - name: Run distribution script
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+      run: bash ./scripts/dist.sh
+
+    - name: Upload files to a GitHub release
+      uses: svenstaro/upload-release-action@2.7.0
+      with:
+        file: ./dist/tessie_api-${{ github.ref_name }}.tar.gz
+        tag: ${{ github.ref_name }}
+        overwrite: true
+        release_name: Release of ${{ github.ref_name }}
+
+    - name: Create a GitHub Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref_name }}
+        release_name: Release ${{ github.ref_name }}
+        draft: false
+        prerelease: false
+
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./dist/tessie_api-${{ github.ref_name }}.tar.gz
+        asset_content_type: application/gzip
