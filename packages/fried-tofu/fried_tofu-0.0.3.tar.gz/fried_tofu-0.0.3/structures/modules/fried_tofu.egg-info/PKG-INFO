@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fried-tofu
+Version: 0.0.3
+Description-Content-Type: text/plain
+Requires-Dist: click
+Requires-Dist: rethinkdb
+Requires-Dist: looseversion
+Requires-Dist: botany
+Requires-Dist: revenue
