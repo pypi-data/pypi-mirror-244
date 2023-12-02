@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+seurl/__init__.py
+seurl/__main__.py
+seurl/version.py
+seurl.egg-info/PKG-INFO
+seurl.egg-info/SOURCES.txt
+seurl.egg-info/dependency_links.txt
+seurl.egg-info/entry_points.txt
+seurl.egg-info/requires.txt
+seurl.egg-info/top_level.txt
