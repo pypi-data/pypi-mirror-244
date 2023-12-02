@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+colarised/__init__.py
+colarised/test.py
+colarised.egg-info/PKG-INFO
+colarised.egg-info/SOURCES.txt
+colarised.egg-info/dependency_links.txt
+colarised.egg-info/top_level.txt
