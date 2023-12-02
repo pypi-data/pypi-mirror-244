@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyscheme
+Version: 0.0.1
+Summary: Minimal r7rs scheme python library with a repl. Made by gpt, tuned by a human.
+License-Expression: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Minimal r7rs scheme python library with a repl. Made by gpt, tuned by a human.
+
+# Warning
+
+Under heavy development, use it as your please.
+
+# Install
+
+```shell
+pip install pyscheme
+```
+
+```shell
+pip install git+https://github.com/dbian/pyscheme.git
+```

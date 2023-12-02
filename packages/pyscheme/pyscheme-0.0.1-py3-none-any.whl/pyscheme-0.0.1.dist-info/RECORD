@@ -1,0 +1,6 @@
+pyscheme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscheme/scheme.py,sha256=OUatO1s_7aUu2MD4rKTbU_2whK2IZVsbUMkr7lqM7RU,3565
+pyscheme/t.py,sha256=Y_LdAnXFTaxRIAHi6vaga-k48fihQVGw7TqdkJUhCWY,303
+pyscheme-0.0.1.dist-info/METADATA,sha256=M3Y_ykQ8eIdmgm9cG6e05_OKCEL8wGKK8G_ZVyh_eU8,481
+pyscheme-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pyscheme-0.0.1.dist-info/RECORD,,
