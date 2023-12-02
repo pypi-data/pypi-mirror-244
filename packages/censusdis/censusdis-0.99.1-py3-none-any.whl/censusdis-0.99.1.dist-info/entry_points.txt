@@ -1,0 +1,3 @@
+[console_scripts]
+censusdata=censusdis.cli.cli:main
+
