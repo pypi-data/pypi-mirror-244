@@ -1,0 +1,6 @@
+ordered_set>=3.0
+lark-parser<1,>=0.6.5
+railroad-diagrams<3,>=1
+pylru<2,>=1.1
+gravis<1,>=0.1
+bitarray<3,>2
