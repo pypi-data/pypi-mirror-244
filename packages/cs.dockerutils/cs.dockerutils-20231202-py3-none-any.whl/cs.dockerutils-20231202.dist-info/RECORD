@@ -1,0 +1,5 @@
+cs/dockerutils.py,sha256=B46DmVggTnQZ29iNfQWd1uiADM8IwogrKdo8yiT1HcQ,12754
+cs.dockerutils-20231202.dist-info/METADATA,sha256=K-_1LaWLklRHeHS-3BtiqF7VQO2szcY-rzl0wyvzo1I,4743
+cs.dockerutils-20231202.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cs.dockerutils-20231202.dist-info/top_level.txt,sha256=MJn10B_hUOb4f5hIJP5wKj_mMYsOQ6NUWqo9vSLmwcQ,3
+cs.dockerutils-20231202.dist-info/RECORD,,
