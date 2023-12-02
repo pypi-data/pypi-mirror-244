@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+SM8mosind.egg-info/PKG-INFO
+SM8mosind.egg-info/SOURCES.txt
+SM8mosind.egg-info/dependency_links.txt
+SM8mosind.egg-info/requires.txt
+SM8mosind.egg-info/top_level.txt
+lib8mosind/__init__.py
