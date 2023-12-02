@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: tempf
+Version: 1.0.0
+Summary: Multiple temporary files in 1 line of code
+Home-page: https://github.com/tomhea/tempfiles
+License: BSD-2-Clause-Simplified
+Keywords: esolang,oisc,assembly
+Author: Tom Herman
+Author-email: flipjumpproject@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Filesystems
+Provides-Extra: tests
+Requires-Dist: pytest (>=7.4.3,<8.0.0) ; extra == "tests"
+Project-URL: Repository, https://github.com/tomhea/tempfiles
+Description-Content-Type: text/markdown
+
+# tempf - TempFiles
+
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tomhea/tempfiles)](https://github.com/tomhea/tempfiles)
+[![GitHub](https://img.shields.io/github/license/tomhea/flip-jump)](LICENSE)
+[![PyPI - Version](https://img.shields.io/pypi/v/tempf)](https://pypi.org/project/tempf/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/tempf)](https://pypi.org/project/tempf/)
+
+
+Multiple temporary files in 1 line of code. 
+
+TempFiles(X) returns a tuple of X non-used paths.
+
+```python
+from tempf import TempFiles
+
+with TempFiles(3) as (path1, path2, path3):
+    with path1.open('w') as file1:
+        file1.write('See how easy it is?')
+```
+
+
+## Install
+```
+>>> pip install tempf
+```
+
+
+## Example
+Compilation process:
+
+```python
+from pathlib import Path
+from tempf import TempFiles
+
+
+def compile_run_and_check_output(code_path: Path, expected_output: str) -> bool:
+    """
+    Compile the code, run it, and assert the output is as expected.
+    :param code_path: The path to the code to compile.
+    :param expected_output: The expected output from running the code.
+    :returns: True if compilation and run went successful, and the run outputted the expected output. 
+    """
+    with TempFiles(4) as (compile_log_path, run_log_path, executable_path, run_output_path):
+        compile_file(code_path, log=compile_log_path, compiled=executable_path)
+        if not is_compile_log_ok(compile_log_path):
+            return False
+
+        run_compiled(executable_path, log=run_log_path, run_output=run_output_path)
+        if not is_run_log_ok(run_log_path):
+            return False
+
+        with run_output_path.open('r') as output_file:
+            return expected_output == output_file.read()
+```
+
