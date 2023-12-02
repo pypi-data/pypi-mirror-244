@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/text_to_sql/__init__.py
+src/text_to_sql/database_connector.py
+src/text_to_sql/interfaces.py
+src/text_to_sql/main.py
+src/text_to_sql/mock_data_generator.py
+src/text_to_sql/utils.py
+src/text_to_sql.egg-info/PKG-INFO
+src/text_to_sql.egg-info/SOURCES.txt
+src/text_to_sql.egg-info/dependency_links.txt
+src/text_to_sql.egg-info/entry_points.txt
+src/text_to_sql.egg-info/requires.txt
+src/text_to_sql.egg-info/top_level.txt
