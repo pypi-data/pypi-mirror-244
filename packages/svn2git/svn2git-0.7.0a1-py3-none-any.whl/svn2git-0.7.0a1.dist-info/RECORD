@@ -1,0 +1,12 @@
+svn2git/__init__.py,sha256=iA9UA2rbm7WWx0eVaC5Gk3XdXZFa0WxablYsD8oL71o,449
+svn2git/__main__.py,sha256=Pm7TuCPfvakTkYrVqc0tJD268C3dyaaW8_nxJJiEYsU,9427
+svn2git/env_default_action.py,sha256=sYH6IKvsRlszr_yrNpccjfmUsOo5f50e6E_mCSgUclw,714
+svn2git/git.py,sha256=qRqxTNdpLZkyHYHhtDvz9j_WAWWzyG98vV-QaJuJGms,21185
+svn2git/options.py,sha256=t0AU8wcoIvT7BHdsLsLAT8aNDKLaXgCVDr8aP08MCoI,2836
+svn2git/svn.py,sha256=iLSLTMlEeLneH0RT4Ik8GNZ2GUvbtP45yKWmOyyTKE8,1730
+svn2git/svn_store_plaintext_password.py,sha256=vP0a-D5nt6eFuebdpQM7yXHrpkog2RPV6QttPo5mzhs,5795
+svn2git/utils.py,sha256=CCx7_23voudU5zlqQwaYlU-nWrLp8Fj1j4ty5rsZtbM,1389
+svn2git-0.7.0a1.dist-info/METADATA,sha256=3xm1suLgWFCqnjXWxIyL8XVnoeiozJKdSb7kqt4Rmpk,12471
+svn2git-0.7.0a1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+svn2git-0.7.0a1.dist-info/entry_points.txt,sha256=ToKrd2f3LlFmylGYp52WkNAMZNRPmKfonzh_GuCYv8Q,49
+svn2git-0.7.0a1.dist-info/RECORD,,
