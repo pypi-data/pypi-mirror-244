@@ -1,0 +1,8 @@
+setup.py
+mysqldbutils/__init__.py
+mysqldbutils/main.py
+mysqldbutils.egg-info/PKG-INFO
+mysqldbutils.egg-info/SOURCES.txt
+mysqldbutils.egg-info/dependency_links.txt
+mysqldbutils.egg-info/requires.txt
+mysqldbutils.egg-info/top_level.txt
