@@ -1,0 +1,15 @@
+knewkarma/__init__.py,sha256=qaxspz8A_nxNBsmj81Gci0H99dKtyvnysdZtpaQIEjc,194
+knewkarma/_cli.py,sha256=sAxE--lfUBgM4pHLvrSCgG5YmB17HB0wUKkNCXjy1q4,4484
+knewkarma/_coreutils.py,sha256=1QE_b3BG9ZVsVhVRvrQ7cJPpzsqg0np7k0sqfY-h6O0,4387
+knewkarma/_parser.py,sha256=CSDvV_novUW3ikEzOKspvkFJp78tj1fg-1XFDe99s8Y,5008
+knewkarma/api.py,sha256=yBh6a5Ktg2bsdpRpInrbfj8rHsSzcve6wj79UKQYMgY,9867
+knewkarma/base.py,sha256=gYonWc8DrSruim49r7LK6r63AK7Xu-RnFCtEWlE-idE,11333
+knewkarma/examples/posts.py,sha256=2O-t4mIuhGdDEJbaaseLliLGxBqywmCneG5b5I2HyJs,1134
+knewkarma/examples/subreddit.py,sha256=KfJIx_z3FHH-6BZYbqy8IrVxjoS8pphsv3_Eg3teefI,1166
+knewkarma/examples/user.py,sha256=bgdXEy07_rXIQCeDxkXzxyaqu8s0Oe-YYA_PciK-ZFk,1199
+knewkarma/metadata.py,sha256=W7kl23z8Iz-kwBXOVGV5uaeKW-iw6sBhrtgomiID_Lk,2736
+knewkarma-3.1.0.0.dist-info/LICENSE,sha256=kTxN5txAxe0q-4go2BnfRSPECNrGeWodj2keQ0tF0zI,1091
+knewkarma-3.1.0.0.dist-info/METADATA,sha256=u82tEJudXGAFUJHc3YZHFgv8tpGVBHoi4uslY9uV5FY,6828
+knewkarma-3.1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+knewkarma-3.1.0.0.dist-info/entry_points.txt,sha256=wKhzQ1BVGXlIFM3VhxVy1_sLS0pM7HAKQU2AhVPhsa8,56
+knewkarma-3.1.0.0.dist-info/RECORD,,
