@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: RiboSeq-DP-Tools
+Version: 0.1.4
+Summary: A python command-line utility for working with RiboSeq.Orgs Data Portal
+Home-page: https://github.com/riboseqorg/RDP-Tools
+Author: Jack Tierney
+Author-email: jackcurragh@gmail.com
+License: MIT license
+Keywords: RDP-Tools
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE

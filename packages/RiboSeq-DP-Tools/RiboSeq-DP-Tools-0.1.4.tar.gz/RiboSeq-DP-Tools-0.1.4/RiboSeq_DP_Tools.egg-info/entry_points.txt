@@ -1,0 +1,2 @@
+[console_scripts]
+RDP-Tools = RDPTools.RDPTools:rdp_tools
