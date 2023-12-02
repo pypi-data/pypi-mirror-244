@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aws_iam_cli.egg-info/PKG-INFO
+aws_iam_cli.egg-info/SOURCES.txt
+aws_iam_cli.egg-info/dependency_links.txt
+aws_iam_cli.egg-info/entry_points.txt
+aws_iam_cli.egg-info/requires.txt
+aws_iam_cli.egg-info/top_level.txt
+iam_cli/__init__.py
+iam_cli/command.py
+iam_cli/create_yaml.py
+iam_cli/deploy_cfn.py
+iam_cli/main.py
+iam_cli/tools.py
+iam_cli/validators.py
