@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: diisco
+Version: 0.1.2
+Summary: A probabilistic programming method to characterize dynamic cellular interactions in longitudinal scRNA-seq data.
+Home-page: https://github.com/velezbeltran/diisco
+Author: Nicolas Beltran-Velez
+Author-email: nb2838@columbia.edu
+License: MIT license
+Keywords: diisco
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pyro-ppl
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+======
+DIISCO
+======
+
+
+.. image:: https://img.shields.io/pypi/v/diisco.svg
+        :target: https://pypi.python.org/pypi/diisco
+
+A probabilistic programming method to characterize dynamic cellular interactions in longitudinal scRNA-seq data.
+
+Bioarxiv pre-print: https://www.biorxiv.org/content/10.1101/2023.11.14.566956v1
+
+* Free software: MIT license
+
+
+
+
+=======
+History
+=======
+
+0.1.0 (2023-01-28)
+------------------
+
+* First release on PyPI.
