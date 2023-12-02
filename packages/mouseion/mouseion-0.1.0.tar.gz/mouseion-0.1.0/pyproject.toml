@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mouseion"
+version = "0.1.0"
+description = "[RALM]: Introducing the Mouseion retrieval augmented language model builder"
+authors = ["Steven Dake <steve@computelify.com>", "Robert Starmer <robert@computeilfy.com>", "Corbin Simpson <corbin@computelify.com>"]
+readme = "README.md"
+repository = "https://github.com/artificialwisdomai/origin/mouseion"
+license = "Apache-2"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.1"
+faiss-gpu = "1.7.2"
+
+# Upstream faiss-gpu is not compiled properly and is not the most recent stable release.
+# There are many reasons for this, most chiefly that PyPi has a limit on file size that faiss exceeds.
+
+#faiss = {url = "https://github.com/artificialwisdomai/apt.oifv.ai/raw/main/whl/faiss-1.7.4-py3-none-any.whl"}
+
+# TODO(sdake) The name step2 is terrible. During reviews, please suggest an improvementl.
+[tool.poetry.scripts]
+s2_build_index = "scripts.s2_train_index:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
