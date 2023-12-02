@@ -1,0 +1,13 @@
+xdatasets/__init__.py,sha256=ObeAOt7vapEFYFmtGPQAx2PHuy3ckZulicBmXMqrg1E,252
+xdatasets/core.py,sha256=soSmNgw5_Jph7QHfgEgCKSBPVwYEk25_wiN9l81pXZI,11698
+xdatasets/scripting.py,sha256=BoR8eXEN2LUf5rl9ljyGwzzUnkUwbyg77z1U7MYevug,884
+xdatasets/spatial.py,sha256=9mXSO9nQ5I-BqEk4Xj9jbRj8ikDdv_3rBr4-ip2wdJQ,3976
+xdatasets/temporal.py,sha256=CYfZNW37emGZyS_OkZYiAINQnmD7CNdsH38wp0Nk634,3283
+xdatasets/tutorial.py,sha256=hFUsDLZae0L7jGTryBBuCEG8pbfqRiuHnE4GLtCvB5E,4482
+xdatasets/utils.py,sha256=c2u8Gjmt3VF8v3Q5QZ306SIVP929PmtL8Dm_q1YNgVY,4133
+xdatasets/validations.py,sha256=FOVmwA0Sps7TNPdB9vQzd-0yrf4fSW17roYuk62OzQM,2022
+xdatasets/workflows.py,sha256=HbWmB9vc45LdEcaQJYY4dqWAzSJa-pr03VdHsA26LFs,7230
+xdatasets-0.3.1.dist-info/LICENSE,sha256=v3kUzqg_4HCWZ_XIjfDapKSru6j2h_WrueMAviZhGT4,1076
+xdatasets-0.3.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+xdatasets-0.3.1.dist-info/METADATA,sha256=qRgemJDrdRCU81gx-83C0frQkns2MsYmMjq0WoXgRR4,5163
+xdatasets-0.3.1.dist-info/RECORD,,
