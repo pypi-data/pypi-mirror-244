@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: shadow-game-tools
+Version: 0.0.9
+Summary: 瞎写一通
+Author: shadow
+Author-email: 516043893@qq.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pypiwin32
+Requires-Dist: opencv-python
+Requires-Dist: rpyc
+
+
+自己娱乐
