@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "kicad-draw"
+version = "0.2.1"
+description = ""
+authors = ["t-sasatani <sasatani.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kicad_draw"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.2"
+pytest = "^7.4.3"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^6.2.1"
+furo = ">=2023.5.20,<2023.07.26"
+myst-parser = "^2.0.0"
+autodoc-pydantic = "^2.0.1"
+sphinx_rtd_theme = "^2.0"
