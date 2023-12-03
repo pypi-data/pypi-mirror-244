@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: lifelib
+Version: 0.9.3
+Summary: Actuarial models in Python
+Home-page: https://lifelib.io
+Author: lifelib Developers
+Author-email: fumito.ham@gmail.com
+License: MIT License
+Keywords: actuary model development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: modelx >=0.12.1
+
+
+**lifelib** is a collection of open-source life actuarial models written in Python.
+lifelib includes a variety of models, with sample scripts
+and Jupyter notebooks that demonstrate how to use the models.
+
+Visit https://lifelib.io for more information!
+
+What for?
+---------
+
+lifelib models are highly versatile and transparent.
+You can customize lifelib models and utilize them
+in various practical areas, such as:
+
+- Model validation / testing
+- Pricing / profit testing
+- Research / educational projects
+- Valuation / cashflow projections
+- Asset-liability modeling
+- Risk and capital modeling
+- Actuarial modernization to replace spreadsheet models
+
+
+Why lifelib?
+------------
+
+By effectively utilizing the models in lifelib,
+you can expect the following benefits from both model development and governance perspectives:
+
+- A more efficient, transparent, and faster model development experience
+- Model integration with the Python ecosystem (Pandas, Numpy, SciPy, etc.)
+- Elimination of spreadsheet errors
+- Improved version control and model governance
+- Automated model testing
+
+Some of the models in lifelib are built using `modelx`_, an open-source
+Python package for building object-oriented models in Python.
+By using lifelib, you can enjoy the following advantages:
+
+* Models run fast!
+* Formulas are easy to read
+* Easy to trace formula dependency and errors
+* Formulas are instantly evaluated
+* Pandas and Numpy can be utilized
+* Object-oriented
+* Input from Excel and CSV files
+* Documents can be integrated
+* Formulas are saved in text files
+
+.. _modelx: http://docs.modelx.io
+
