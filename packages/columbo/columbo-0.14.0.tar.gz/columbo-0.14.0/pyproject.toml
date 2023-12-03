@@ -1,0 +1,184 @@
+[build-system]
+requires = ["hatchling==1.18.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "columbo"
+version = "0.14.0"
+description = "Specify a dynamic set of questions to ask a user and get their answers."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    { name = "Patrick Lannigan", email = "p.lannigan@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "prompt-toolkit~=3.0",
+    "typing-extensions>=4.4.0,<5; python_version < '3.10'",
+]
+
+[project.urls]
+Homepage = "https://github.com/plannigan/columbo"
+changelog = "https://github.com/plannigan/columbo/blob/main/CHANGELOG.md"
+issues = "https://github.com/plannigan/columbo/issues"
+documentation = "https://plannigan.github.io/columbo"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/columbo",
+]
+
+# environment management & scripts
+[tool.hatch.envs.default]
+description = "Test and lint the project code"
+dependencies = [
+    "bandit==1.7.5",
+    "black==23.11.0",
+    "flake8==6.1.0",
+    "isort==5.12.0",
+    "mypy==1.7.1",
+    "pytest==7.4.3",
+    "pytest-cov==4.1.0",
+    "pytest-mock==3.12.0",
+    "pdbpp==0.10.3",
+]
+[tool.hatch.envs.default.scripts]
+test-no-cov = "pytest --no-cov {args}"
+test = "pytest --cov-report html {args}"
+test-ci = "pytest {args}"
+typing = "mypy"
+_fmt = [
+    "black --quiet .",
+    "isort .",
+]
+black-check = "black --check --diff ."
+isort-check = "isort --check-only ."
+flake8-check = "flake8"
+bandit-ci = "bandit --ini .bandit -r ."
+bandit-check = "bandit-ci --quiet"
+check-strict = [
+    "black-check",
+    "isort-check",
+    "typing",
+    "test",
+    "flake8-check",
+    "bandit-check",
+]
+check = [
+    "_fmt",
+    "typing",
+    "test",
+    "flake8-check",
+    "bandit-check",
+]
+test-docs-examples = [
+    "./docker/validate_docs.sh"
+]
+
+[tool.hatch.envs.bump]
+description = "Release a new version"
+detached = true
+dependencies = [
+    "hyper-bump-it==0.5.2"
+]
+[tool.hatch.envs.bump.scripts]
+it = "hyper-bump-it {args}"
+
+[tool.hatch.envs.docs]
+description = "Generate documentaiton for the project"
+dependencies = [
+    "mike==2.0.0",
+    "markdown-include==0.8.1",
+    "mkdocs==1.5.3",
+    "mkdocs-material==9.4.14",
+    "mkdocs-minify-plugin==0.7.1",
+    "mkdocs-redirects==1.2.1",
+    "mkdocstrings[python]==0.24.0",
+]
+[tool.hatch.envs.docs.scripts]
+build = "mkdocs build --strict"
+serve = "mkdocs serve --dev-addr=0.0.0.0:8000"
+
+# type checking
+[tool.mypy]
+files = [
+    "columbo",
+    "tests",
+]
+show_error_codes = true
+warn_unused_configs = true
+pretty = true
+strict = true
+disallow_any_explicit = true
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+module = [
+    "tests.*",
+]
+disallow_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = [
+    "tests.sample_data",
+]
+disallow_untyped_defs = true
+
+# testing
+[tool.pytest.ini_options]
+addopts = "--verbose --cov=columbo --cov-report xml:/tmp/coverage.xml --cov-report term-missing"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+data_file = "/tmp/columbo_coverage"
+
+[tool.coverage.report]
+fail_under = 90
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    "pragma: no cover"
+]
+
+# code formatting
+[tool.black]
+line-length = 88
+target-version = ["py38", "py39", "py310"]
+
+[tool.isort]
+profile = "black"
+
+# version bumping
+[tool.hyper-bump-it.git.actions]
+commit = "create-and-push"
+branch = "create-and-push"
+
+[[tool.hyper-bump-it.files]]
+file_glob = "pyproject.toml"
+keystone = true
+search_format_pattern = "version = \"{version}\""
+
+[[tool.hyper-bump-it.files]]
+file_glob = "columbo/__init__.py"
+
+[[tool.hyper-bump-it.files]]
+file_glob = "docs/index.md"
+search_format_pattern = "Columbo - {version}"
+
+[[tool.hyper-bump-it.files]]
+file_glob = "CHANGELOG.md"
+search_format_pattern = "## [Unreleased]"
+replace_format_pattern = """## [Unreleased]
+
+## [{version}] - {today}"""
