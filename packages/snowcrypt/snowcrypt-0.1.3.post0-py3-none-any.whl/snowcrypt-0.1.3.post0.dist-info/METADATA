@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: snowcrypt
+Version: 0.1.3.post0
+Summary: Decrypt AAX and AAXC into M4A
+Home-page: https://github.com/snowskeleton/snowcrypt
+Author: snowskeleton
+Author-email: isaac@snowskeleton.net
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome
+
