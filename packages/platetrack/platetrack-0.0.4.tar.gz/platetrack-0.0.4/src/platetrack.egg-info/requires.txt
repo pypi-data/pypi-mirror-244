@@ -1,0 +1,7 @@
+napari
+numpy
+trackpy
+pandas
+plateletanalysis
+qtpy
+pyqt5
