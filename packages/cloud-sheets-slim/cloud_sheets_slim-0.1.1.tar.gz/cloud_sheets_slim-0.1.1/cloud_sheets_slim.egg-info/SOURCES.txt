@@ -1,0 +1,11 @@
+README.md
+setup.py
+cloud_sheets_slim/__init__.py
+cloud_sheets_slim/cloud_sheets_base.py
+cloud_sheets_slim/google_sheets.py
+cloud_sheets_slim.egg-info/PKG-INFO
+cloud_sheets_slim.egg-info/SOURCES.txt
+cloud_sheets_slim.egg-info/dependency_links.txt
+cloud_sheets_slim.egg-info/requires.txt
+cloud_sheets_slim.egg-info/top_level.txt
+tests/test_google_sheets.py
