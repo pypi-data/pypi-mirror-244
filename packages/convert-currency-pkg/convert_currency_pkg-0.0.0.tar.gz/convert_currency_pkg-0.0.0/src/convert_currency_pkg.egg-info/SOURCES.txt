@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/convert_currency_pkg/__init__.py
+src/convert_currency_pkg/convert_currency.py
+src/convert_currency_pkg.egg-info/PKG-INFO
+src/convert_currency_pkg.egg-info/SOURCES.txt
+src/convert_currency_pkg.egg-info/dependency_links.txt
+src/convert_currency_pkg.egg-info/top_level.txt
