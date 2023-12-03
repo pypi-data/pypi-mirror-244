@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_holographic.cp312-win32.pyd,sha256=WQGH0EK6LP2hQqkzMP0KT4LuJwYa6VqisjSZEtb01BM,37376
+winrt/_winrt_windows_applicationmodel_holographic.pyi,sha256=3GMGZGzY-Mwow5-uREhf5jytWK39zU_G2qoOFF9y09s,1362
+winrt/windows/applicationmodel/holographic/__init__.py,sha256=Qg1-lOPrDjty-rrNdqZjz7khvYvQenv41ETUFHAQ_mo,299
+winrt_Windows.ApplicationModel.Holographic-2.0.0b2.dist-info/METADATA,sha256=lYCdJlfsL8MilQeM5LWb8pzO9BTrEGrrKnxWyfsPiCc,1206
+winrt_Windows.ApplicationModel.Holographic-2.0.0b2.dist-info/WHEEL,sha256=4N7jptPh4OYjkcvBzbL_SyiQfKWhgnHPSC8E7zx3zFw,98
+winrt_Windows.ApplicationModel.Holographic-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Holographic-2.0.0b2.dist-info/RECORD,,
