@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: agenttobenamed
+Version: 0.1.13
+Summary: 
+Author: poludmik
+Author-email: michael.poludin@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain (>=0.0.336,<0.0.337)
+Requires-Dist: matplotlib (>=3.8.1,<4.0.0)
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: openai (>=1.3.2,<2.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pandas (>=2.1.3,<3.0.0)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: scipy (>=1.11.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# A minimalistic LLM agent for Exploratory Data Analysis (EDA) using pandas library
+## *Task*: given a CSV or a XLSX file, respond to user's query about this table by generating a python code and executing it.
+* Using LangChain routers/tagging, a prompt type will be established: to produce a plot or to compute the numerical values.
+* The GPT model breaks down the user's request into several subtasks.
+* The LLM generates code based on these subtasks.
+* The code is executed using the python REPL.
+* If the REPL throws an error, GPT will begin debugging until resolved.
+* The result is the string output of the code 'print(result)' + optionally, saved image with a plot.
+
+**Query example:** 'Find correlation between GDP and happiness index, subtract 0.4 and multiply by 1e6.'
+
+![alt text](https://github.com/poludmik/AgentToBeNamed/blob/master/README/AgentScreenshot.png?raw=true)
+
