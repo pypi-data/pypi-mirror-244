@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: yggdrasil-mc
+Version: 0.2.1
+Summary: A simple Python lib to get player info and texture from Mojang and Yggdrasil APIs. / 一个简单的 Python 库，可从 Mojang 和 Yggdrasil APIs 获取玩家的信息和材质。
+Home-page: https://github.com/SerinaNya/yggdrasil-mc
+License: AGPL-3.0-or-later
+Keywords: yggdrasil,mc,api,mcapi,mojang,minecraft,littleskin,blessing skin
+Author: SerinaNya
+Author-email: 34389622+SerinaNya@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pydantic :: 2
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: httpx[http2] (>=0.25.1,<0.26.0)
+Requires-Dist: pydantic (>=2.5.1,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/SerinaNya/yggdrasil-mc/issues
+Project-URL: Repository, https://github.com/SerinaNya/yggdrasil-mc
+Description-Content-Type: text/markdown
+
+# yggdrasil-mc
+
+![GitHub Repo stars](https://img.shields.io/github/stars/SerinaNya/yggdrasil-mc?style=social) ![PyPI](https://img.shields.io/pypi/v/yggdrasil-mc?style=flat-square) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/yggdrasil-mc?style=flat-square) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/SerinaNya/yggdrasil-mc/main?style=flat-square) ![GitHub](https://img.shields.io/github/license/SerinaNya/yggdrasil-mc?style=flat-square)
+
+A simple Python lib to get player info and texture from Mojang and Yggdrasil APIs.
+
+一个简单的 Python 库，可从 Mojang 和 Yggdrasil APIs 获取玩家的信息和材质。
+
+## Attention
+
+This package can run in **Python 3.10+ ONLY**.
+
