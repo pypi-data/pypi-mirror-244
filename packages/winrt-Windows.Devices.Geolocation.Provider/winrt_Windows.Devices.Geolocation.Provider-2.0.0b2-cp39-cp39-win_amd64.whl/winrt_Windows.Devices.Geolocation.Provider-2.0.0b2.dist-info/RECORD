@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_geolocation_provider.cp39-win_amd64.pyd,sha256=JnY7e2loovfVYg5EEN1dSXQl-bPhaKR4cc5ZMu762S8,52736
+winrt/_winrt_windows_devices_geolocation_provider.pyi,sha256=7naRS3vKEmiX3sxn6hDUQueMeJmhF46C-RkhDUv0aYs,1299
+winrt/windows/devices/geolocation/provider/__init__.py,sha256=qy4AEaZR3L29Auipd_zD84EANezSDJnA8TX5VpN7Nao,463
+winrt_Windows.Devices.Geolocation.Provider-2.0.0b2.dist-info/METADATA,sha256=IgNhA1nWEUaWbJZ3eYsKYr9uWvArftnp5xDwPlzvkaw,1198
+winrt_Windows.Devices.Geolocation.Provider-2.0.0b2.dist-info/WHEEL,sha256=2xSj8c4s_gFbWpcImYQptdXS3JLuzC2uK5Om8I_SEKg,100
+winrt_Windows.Devices.Geolocation.Provider-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Geolocation.Provider-2.0.0b2.dist-info/RECORD,,
