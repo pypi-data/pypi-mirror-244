@@ -1,0 +1,7 @@
+astropath-1.0.0a0.dist-info/RECORD,,
+astropath-1.0.0a0.dist-info/WHEEL,sha256=qW9xlwewyQBufEUzmM-8CIjZ7fR659LOSrcgouui4Z4,111
+astropath-1.0.0a0.dist-info/top_level.txt,sha256=D1MtFGzGtRXjwyBaH56wdciLITYpnPw5fmJIX-Ssh8k,10
+astropath-1.0.0a0.dist-info/METADATA,sha256=MKwFrECsjjqKwUhP7tKTIyJ3d1lWJxDjKR6M0pv82w4,535
+astropath/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astropath/astar.pyi,sha256=Q5HdYXyzrJmnfwVn-Tw__MbCp-qZirM6QtwASTmXnj8,306
+astropath/astar.cpython-310-darwin.so,sha256=DwjLIx4dl22VKsk5i2YCOHpqJIgoJ4sMyBWEvOUmT5M,40864
