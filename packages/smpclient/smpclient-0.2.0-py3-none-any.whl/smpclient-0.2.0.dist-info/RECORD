@@ -1,0 +1,11 @@
+smpclient/__init__.py,sha256=yodOI4T8yUgmmqt62Tw7BS4dO7WVbPfj3EdOMAe71eI,1512
+smpclient/generics.py,sha256=FipHWfIqUMFFXyBOAAf4Rzf2V86JrdyDxiSK1_hJWEs,2688
+smpclient/requests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smpclient/requests/image_management.py,sha256=tgbC1Iz7Whc7wB8-S-Z1hYE9hvE2GimwuipntTU9BQo,806
+smpclient/requests/os_management.py,sha256=Wn1t1J1a1gAkej5evUEooGb1Fzr7pw93pamqVUkihVA,696
+smpclient/transport/__init__.py,sha256=lM6CDjnD02v-MPfZiuGTAZdv4JxTvgL1A4B-Soc7ZMA,384
+smpclient/transport/serial.py,sha256=Sr75Onlfv2dUFLM5bsHr_tRkrDA1574YoOk97JckJ4c,2453
+smpclient-0.2.0.dist-info/LICENSE,sha256=qVPv7sWyVkZJh762G8cSiJpal7hOKN2c3xqVQmmvRG4,11421
+smpclient-0.2.0.dist-info/METADATA,sha256=P-ZHaoAxxJ3bLRuT52aQsl04K84AleTCg9n8YR3vPis,666
+smpclient-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+smpclient-0.2.0.dist-info/RECORD,,
