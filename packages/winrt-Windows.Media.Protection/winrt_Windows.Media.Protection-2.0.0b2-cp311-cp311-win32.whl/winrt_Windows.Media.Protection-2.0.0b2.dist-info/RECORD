@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_protection.cp311-win32.pyd,sha256=H_GsVlI5Gb8W9LV1Wo9S-GHnkCIngRpkN0MIiQgUqOw,169984
+winrt/_winrt_windows_media_protection.pyi,sha256=-BudVIEXZ9AEKIqbdru9M7BZqj4ucPPiI5d3gWUtywc,6154
+winrt/windows/media/protection/__init__.py,sha256=lQQngLKEstw3ok3OtZclNh04G7r5E-7j3P-KTGsoAa4,3589
+winrt_Windows.Media.Protection-2.0.0b2.dist-info/METADATA,sha256=gMjQb82l5xNsrysrSq9lqnZWf10miVAEOef60RLl3cY,1235
+winrt_Windows.Media.Protection-2.0.0b2.dist-info/WHEEL,sha256=1hQMSMLa8wpOIN866ksgBSFaZ-xM7VQgzYiKWe8vFok,98
+winrt_Windows.Media.Protection-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Protection-2.0.0b2.dist-info/RECORD,,
