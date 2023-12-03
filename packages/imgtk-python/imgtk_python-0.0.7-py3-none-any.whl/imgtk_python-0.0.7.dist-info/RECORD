@@ -1,0 +1,11 @@
+imgtk/__init__.py,sha256=RJyt6rwuC1dH5JAQs_C7XkpwuRkSyrZ0mgdL7I1AtBQ,167
+imgtk/cli.py,sha256=5LU9f0aHdFDbzy6oBCG6pKT4gBCJoYGZ9p0g-TE8uLI,1402
+imgtk/filters.py,sha256=eDbA2TDHeee9b5hWimA9xR8dYpm6p8-Xw3qhvMC6jds,4156
+imgtk/img.py,sha256=dQWvUUqIuyzDA_-03wP5Okf1Chr3vAUo8pwzNDr-z9E,963
+imgtk/modifiers.py,sha256=D3Kvjny_a7WIRRi_tNF27I8SHCKi2A1LwdFjIE4JEZQ,10872
+imgtk_python-0.0.7.dist-info/LICENSE,sha256=QZDpZpY8EeSqcJeD9h21EnBz9IcIMlPaIhoxjYuDKzE,1071
+imgtk_python-0.0.7.dist-info/METADATA,sha256=cwe7JLs6t3PMhikKMNPInrXL-xEZ-M89ItxuNHbdLaI,3319
+imgtk_python-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+imgtk_python-0.0.7.dist-info/entry_points.txt,sha256=KEpGMqNu_zEijzcE6xmxZbgU-Iz41asf0RzHQvKSI-M,40
+imgtk_python-0.0.7.dist-info/top_level.txt,sha256=r2kwNRIRwmvGcA-_LSD6B-4S9aSUcBZJ7vOLWuBwQQs,6
+imgtk_python-0.0.7.dist-info/RECORD,,
