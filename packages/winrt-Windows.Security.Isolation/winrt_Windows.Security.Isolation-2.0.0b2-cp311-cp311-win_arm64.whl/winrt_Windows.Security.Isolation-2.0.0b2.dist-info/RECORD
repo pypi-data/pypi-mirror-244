@@ -1,0 +1,7 @@
+winrt/_winrt_windows_security_isolation.cp311-win_arm64.pyd,sha256=wD2007y7Y3ogAwBfcs_iG0qRB8SYd_V9EwV5bC87ym8,507904
+winrt/_winrt_windows_security_isolation.pyi,sha256=f5zD2mDERg2Qx_2TQRouRMZNg80r2hqCTtTTRXzXQTg,18030
+winrt/windows/security/isolation/__init__.py,sha256=n_Y9TpCFuyWV7sAw3V8wZVY-HrdJFVb0NG1Xq98Vw3M,7298
+winrt_Windows.Security.Isolation-2.0.0b2.dist-info/METADATA,sha256=3fjEDjeSFboQxb95HYdelOlXEQdyWoAf2JDMUqT1Gzo,1161
+winrt_Windows.Security.Isolation-2.0.0b2.dist-info/WHEEL,sha256=Qn6DjB4_JWLoPTwXpNiAThZMCaXLz2hkVOumgNpPUd8,102
+winrt_Windows.Security.Isolation-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Isolation-2.0.0b2.dist-info/RECORD,,
