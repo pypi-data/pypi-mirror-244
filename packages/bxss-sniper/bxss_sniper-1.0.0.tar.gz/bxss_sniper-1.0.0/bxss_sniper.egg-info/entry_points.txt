@@ -1,0 +1,2 @@
+[console_scripts]
+bxsniper = bxss_sniper.bxss_sniper:main

@@ -1,0 +1,9 @@
+setup.py
+bxss_sniper/__init__.py
+bxss_sniper/bxss_sniper.py
+bxss_sniper.egg-info/PKG-INFO
+bxss_sniper.egg-info/SOURCES.txt
+bxss_sniper.egg-info/dependency_links.txt
+bxss_sniper.egg-info/entry_points.txt
+bxss_sniper.egg-info/requires.txt
+bxss_sniper.egg-info/top_level.txt
