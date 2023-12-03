@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+my_happy_jupyter_utils/__init__.py
+my_happy_jupyter_utils/image_utils.py
+my_happy_jupyter_utils/markdown_utils.py
+my_happy_jupyter_utils/shell_utils.py
+my_happy_jupyter_utils/version.py
+my_happy_jupyter_utils_02.egg-info/PKG-INFO
+my_happy_jupyter_utils_02.egg-info/SOURCES.txt
+my_happy_jupyter_utils_02.egg-info/dependency_links.txt
+my_happy_jupyter_utils_02.egg-info/not-zip-safe
+my_happy_jupyter_utils_02.egg-info/requires.txt
+my_happy_jupyter_utils_02.egg-info/top_level.txt
