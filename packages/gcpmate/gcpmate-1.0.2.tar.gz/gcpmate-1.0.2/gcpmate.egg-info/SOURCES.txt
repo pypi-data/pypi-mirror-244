@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gcpmate/__init__.py
+gcpmate/gcpmate.py
+gcpmate.egg-info/PKG-INFO
+gcpmate.egg-info/SOURCES.txt
+gcpmate.egg-info/dependency_links.txt
+gcpmate.egg-info/entry_points.txt
+gcpmate.egg-info/requires.txt
+gcpmate.egg-info/top_level.txt
