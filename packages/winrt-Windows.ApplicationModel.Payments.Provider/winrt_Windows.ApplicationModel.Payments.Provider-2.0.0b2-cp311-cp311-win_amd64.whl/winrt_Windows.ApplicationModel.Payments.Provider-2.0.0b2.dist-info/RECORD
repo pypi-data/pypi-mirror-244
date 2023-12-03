@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_payments_provider.cp311-win_amd64.pyd,sha256=QHlVgHwxGLMxSGqZfqpoJjJj-NIkh79A4Jv4SIWqqPM,129536
+winrt/_winrt_windows_applicationmodel_payments_provider.pyi,sha256=w7Zl6tKGk_GBQkrrKxJq3CF7S4iSf9GHq9698bfq2sc,3317
+winrt/windows/applicationmodel/payments/provider/__init__.py,sha256=02L3PbUu-KIKpyAoKeYDdA5oE34Y-iNxQSzwFTjl2Zc,749
+winrt_Windows.ApplicationModel.Payments.Provider-2.0.0b2.dist-info/METADATA,sha256=wVqjSN4OX0PNK29aXzRFT1qdNmb8PqXVmvj4jiT9k24,1318
+winrt_Windows.ApplicationModel.Payments.Provider-2.0.0b2.dist-info/WHEEL,sha256=badvNS-y9fEq0X-qzdZYvql_JFjI7Xfw-wR8FsjoK0I,102
+winrt_Windows.ApplicationModel.Payments.Provider-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Payments.Provider-2.0.0b2.dist-info/RECORD,,
