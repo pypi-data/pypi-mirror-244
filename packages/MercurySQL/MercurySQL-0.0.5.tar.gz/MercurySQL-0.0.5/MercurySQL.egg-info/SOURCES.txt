@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+MercurySQL/__init__.py
+MercurySQL/base.py
+MercurySQL.egg-info/PKG-INFO
+MercurySQL.egg-info/SOURCES.txt
+MercurySQL.egg-info/dependency_links.txt
+MercurySQL.egg-info/top_level.txt
+tests/test-231119.py
+tests/test-231124.py
+tests/test-231202.py
+tests/test-231203 (Driver_SQLite).py
