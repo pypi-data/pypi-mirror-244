@@ -1,0 +1,3 @@
+__version__ = "0.0.4"
+
+from .amp_utils import get_supported_precision
