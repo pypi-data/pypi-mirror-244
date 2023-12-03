@@ -1,0 +1,2 @@
+[console_scripts]
+har2csp = har2csp.main:main
