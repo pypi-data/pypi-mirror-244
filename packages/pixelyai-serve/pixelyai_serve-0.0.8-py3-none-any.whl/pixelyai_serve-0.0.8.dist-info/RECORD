@@ -1,0 +1,10 @@
+pixelyai_serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixelyai_serve/serving/__init__.py,sha256=rXuC-F_iScez9OXXo0iKfeQc9LpN8g10qjSJq1Bdc3I,239
+pixelyai_serve/serving/jax_module.py,sha256=FhfwtrhJemYWFThFM098GbFX8WOQDIqZHgT5HvVHy-c,4593
+pixelyai_serve/serving/torch_module.py,sha256=j2mSq7coasNCp7r_jTmZfgUZTCrkHgTrTLW3FCPcVok,1765
+pixelyai_serve/serving/utils.py,sha256=h5QaHoCXZ11aWugFVtFX9biuqlmu2Y43_nC9wxd-blo,24149
+pixelyai_serve-0.0.8.dist-info/LICENSE,sha256=JP1PaVqTLVZcd3TOL42fCXQwkpGBLofmODEmZAGpBTI,1506
+pixelyai_serve-0.0.8.dist-info/METADATA,sha256=Yai1HgrQa1xEjjvjv5sYgp4_kptOtRs23q-f5TH5tig,1437
+pixelyai_serve-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pixelyai_serve-0.0.8.dist-info/top_level.txt,sha256=bIqWjr71DgaT44yWZA_nf106csRvxuBNcbhBL0YaaEw,15
+pixelyai_serve-0.0.8.dist-info/RECORD,,
