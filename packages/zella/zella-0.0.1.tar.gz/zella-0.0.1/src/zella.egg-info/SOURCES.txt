@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/zella.egg-info/PKG-INFO
+src/zella.egg-info/SOURCES.txt
+src/zella.egg-info/dependency_links.txt
+src/zella.egg-info/top_level.txt
