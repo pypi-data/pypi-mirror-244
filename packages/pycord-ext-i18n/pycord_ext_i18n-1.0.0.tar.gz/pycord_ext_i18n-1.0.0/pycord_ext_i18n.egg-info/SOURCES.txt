@@ -1,0 +1,11 @@
+README.md
+setup.py
+pycord_ext_i18n/__init__.py
+pycord_ext_i18n/enums.py
+pycord_ext_i18n/errors.py
+pycord_ext_i18n/i18n.py
+pycord_ext_i18n/utils.py
+pycord_ext_i18n.egg-info/PKG-INFO
+pycord_ext_i18n.egg-info/SOURCES.txt
+pycord_ext_i18n.egg-info/dependency_links.txt
+pycord_ext_i18n.egg-info/top_level.txt
