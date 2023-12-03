@@ -1,0 +1,5 @@
+[console_scripts]
+rcat=sdj_remotetools.rcat:rcat
+rexec=sdj_remotetools.rexec:rexec
+rlist=sdj_remotetools.rlist:rlist
+
