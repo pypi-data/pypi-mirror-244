@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+ypkgupgr.egg-info/PKG-INFO
+ypkgupgr.egg-info/SOURCES.txt
+ypkgupgr.egg-info/dependency_links.txt
+ypkgupgr.egg-info/top_level.txt

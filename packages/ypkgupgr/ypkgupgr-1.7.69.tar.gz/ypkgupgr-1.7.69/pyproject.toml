@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ypkgupgr"
+
+# The workflow takes care of the version. No need to change.
+version = "1.7.69"
+
+authors = [
+  { name="yesseruser", email="yesseruser@gmail.com" },
+]
+description = "Placeholder for yesserpackageupdater"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yesseruser/YesserPackageUpdater"
+"Bug Tracker" = "https://github.com/yesseruser/YesserPackageUpdater/issues"
