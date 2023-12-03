@@ -1,0 +1,11 @@
+microapi/__init__.py,sha256=sDwgQImUdNA5GXInqAW2EYFmkGy_8HUV8tmWMdQFTbw,679
+microapi/exceptions.py,sha256=DxnGCgTi-5ziPH_MkZqqokfFqx730KViRteRf7jnGZo,485
+microapi/http.py,sha256=EwQcWUGx2Rb-eIYKQ9KS3B3HDsy_jSHd0o2nr_xHxF8,176
+microapi/serializers.py,sha256=C9DI6OeijXKHkizh0Hy93QHhTpVf23tQwW4n3ZcTXDQ,3266
+microapi/tests.py,sha256=MI5m5pyODi56qtL6hFgFs0MfQXb4_DYGkoSsFH_hAzw,12247
+microapi/views.py,sha256=9iKhy0sg6yZbA2bNPwRONPFn5wfhsSC-daOPk6GXDLA,6458
+django_microapi-1.1.0.dist-info/LICENSE,sha256=YfRR3jiYmOBDSAuohL-0QCZ5pvPlBHP-QscnKMqiF6k,1460
+django_microapi-1.1.0.dist-info/METADATA,sha256=HAP6JVVVDLiO-Z74pu15_1Zq3vxVS6uoQiziYTh6IqA,3478
+django_microapi-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_microapi-1.1.0.dist-info/top_level.txt,sha256=LZv6JWVWfiHNDHe1QpcZnaSKpwprmwIkEEm8PjoobJQ,9
+django_microapi-1.1.0.dist-info/RECORD,,
