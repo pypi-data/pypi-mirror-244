@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+rev_HunYuan/__init__.py
+rev_HunYuan/chat.py
+rev_hunyuan.egg-info/PKG-INFO
+rev_hunyuan.egg-info/SOURCES.txt
+rev_hunyuan.egg-info/dependency_links.txt
+rev_hunyuan.egg-info/top_level.txt
