@@ -1,0 +1,17 @@
+.DS_Store,sha256=EKWh2vsG8nhBR0EnzcN3bsHfaYb2ppMCnqMuw05Hw0o,6148
+open-datagen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open-datagen/data_manager.py,sha256=_3y1XEpRMFosgaqLfAxhyNEGeCoZEC0FF4gj9Q6ONWo,19865
+opendatagen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opendatagen/agent.py,sha256=XxDSgTjK4hSsRURQxp9q8_G6nQ0t8jGHk4ifTr5ImL4,23264
+opendatagen/anonymizer.py,sha256=NTzvZ78iZXRi62i9X3I57M5vxQ5KjhLNGW-wAauYl68,2877
+opendatagen/data_generator.py,sha256=WcCZKM5V-WDyYF834gv40OwmHqVtkh3oOtsvUfs-cEs,28228
+opendatagen/data_manager.py,sha256=96vqUrLzu_407YgO6w5DlBHbbeCb1VH_xHP-fPcdKzU,18688
+opendatagen/main.py,sha256=41y62P2KWfHnMMdVPmQX8ApWAxuaZmL9DXVH3MUAIV4,6584
+opendatagen/model.py,sha256=hTKt4o01OUhV-1fDcB2UutGcC5paREKu1j7gIqtfjDg,3068
+opendatagen/template.py,sha256=1FGLfSK3WWSJYjsOrB-f0xVEzmRi0Pe2VunvuINu_Uo,10818
+opendatagen/utils.py,sha256=i5ZeQxBlM6zOFT_ff9oBMsheVAxaM8SN0xI7n0k7tjg,7395
+opendatagen-0.0.14.dist-info/LICENCE.md,sha256=o_4rRknblWGx13iMuKCQYyiLJibHdl7G5phIY4JpiBQ,718
+opendatagen-0.0.14.dist-info/METADATA,sha256=vkMlpTwbVXlRXvS8CzsRChlsdXhyRFdgN4a0RxnfjYY,3718
+opendatagen-0.0.14.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+opendatagen-0.0.14.dist-info/top_level.txt,sha256=zOBIFhZzSV9-h5NNrqLAgYcunnQlKjK48kdLeqW2ZCQ,12
+opendatagen-0.0.14.dist-info/RECORD,,
