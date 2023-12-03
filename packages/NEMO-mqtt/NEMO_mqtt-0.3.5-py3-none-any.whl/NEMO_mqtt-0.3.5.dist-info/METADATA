@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: NEMO-mqtt
+Version: 0.3.5
+Summary: MQTT plugin for NEMO
+Home-page: https://gitlab.com/r-xyz/nemo-mqtt
+Author: r-xyz
+Maintainer: r-xyz
+License: MIT
+Keywords: NEMO
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django :: 3.2
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: paho-mqtt
+Provides-Extra: nemo
+Requires-Dist: NEMO >=5.0.0 ; extra == 'nemo'
+Provides-Extra: nemo-ce
+Requires-Dist: NEMO-CE >=2.0.0 ; extra == 'nemo-ce'
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/NEMO-mqtt?label=python)](https://www.python.org/downloads/release/python-3110/)
+[![PyPI](https://img.shields.io/pypi/v/nemo-mqtt?label=pypi%20version)](https://pypi.org/project/NEMO-mqtt/)
+
+[![pipeline status](https://gitlab.com/r-xyz/nemo-mqtt/badges/main/pipeline.svg)](https://gitlab.com/r-xyz/nemo-mqtt/-/commits/main)
+[![Latest Release](https://gitlab.com/r-xyz/nemo-mqtt/-/badges/release.svg)](https://gitlab.com/r-xyz/nemo-mqtt/-/releases)
+
+
+# NEMO MQTT
+
+This plugin for [NEMO](https://github.com/usnistgov/NEMO) adds support for [MQTT](https://mqtt.org/) interlocks.
+
+# Compatibility:
+
+NEMO >= 5.0.0 ----> NEMO MQTT  >= 0.3
+
+NEMO-CE >= 2.0.0 -----> NEMO MQTT  >= 0.3
+
+
+
+# Installation
+
+
+- Install python module
+  
+   ```shell
+  pip install NEMO-mqtt[NEMO]
+  ```
+
+- Add `NEMO_mqtt` to `INSTALLED_APPS` in `settings.py`:
+
+   ```python
+   INSTALLED_APPS = [
+       '...',
+       'NEMO_mqtt', # This needs to be before NEMO
+       '...'
+       'NEMO',
+       '...'
+   ]
+   ```
+- Run migrations:
+
+  ```shell
+  python manage.py migrate
+   ```
+
+# Usage
+1. Navigate to the `Detailed Administration` page in the `Administration` menu.
+2. Go to `Interlock cards` admin page, create a new item with the following parameters:
+   - Name: `MQTT_0` (you can choose anything else meaningful and unique for each server, e.g. `MQTT_0, MQTT_1, etc`)
+   - Server: `localhost`
+   - Port: `0`
+   - Category*: `MQTT`
+   - Enabled: `tick`
+3. Go to `Mqtt interlock servers` admin page and add one item for each server you are willing to use:
+    - Under card, select the corresponding interlock card item: `MQTT_0:localhost`
+    - Fill other parameters according to your server authentication requirements.
+4. Go to `Interlocks` admin page and add an interlock:
+    - Card: `MQTT:localhost`
+    - Channel: select a non-null unique number.
+5. Go to `MQTT interlocks` admin page and add an MQTT interlock:
+    - Interlock: select the previously created interlock
+    - Fill the rest according to the parameters required by your interlock to operate
+6. Repeat 4 & 5 as needed
+7. Use as a normal interlock for doors/tools
+8. Enjoy!
+
+
+
