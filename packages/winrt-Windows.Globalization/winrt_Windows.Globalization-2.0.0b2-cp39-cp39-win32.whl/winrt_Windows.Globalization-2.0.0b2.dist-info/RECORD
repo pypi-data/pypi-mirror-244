@@ -1,0 +1,7 @@
+winrt/_winrt_windows_globalization.cp39-win32.pyd,sha256=HSES1Pj4URA83OGI0q86hFlicw4F8HzYXVR9dRacKOY,450560
+winrt/_winrt_windows_globalization.pyi,sha256=f58NDzVTOUrlaMFYp0RB_c56WVLEWi8UluK12G-asbM,24180
+winrt/windows/globalization/__init__.py,sha256=RmarmF4yy1dQIUtm56d1IWtY22M3aWERFyFvCFOJhbM,1479
+winrt_Windows.Globalization-2.0.0b2.dist-info/METADATA,sha256=Ds0YKM4H5qWKagXB3nyXmvtzyP5CyeyuzFLkmyhYZy4,1215
+winrt_Windows.Globalization-2.0.0b2.dist-info/WHEEL,sha256=f7KcxEC-t0Gqz4jsLWrEKtFkz8Ns4-1YqJU5A6LXwLY,96
+winrt_Windows.Globalization-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Globalization-2.0.0b2.dist-info/RECORD,,
