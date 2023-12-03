@@ -1,0 +1,10 @@
+pybind11_pixelmatch-0.1.3.dist-info/METADATA,sha256=1Bn3LKdyTocI7PxxYFUScMDDLjElrj-geS4UsvhIals,6288
+pybind11_pixelmatch-0.1.3.dist-info/RECORD,,
+pybind11_pixelmatch-0.1.3.dist-info/WHEEL,sha256=smdr2732RdZv3Vt0g_Aw8VjVh33pCooDiosypVj-8o4,113
+pybind11_pixelmatch-0.1.3.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybind11_pixelmatch-0.1.3.dist-info/licenses/LICENSE,sha256=nKECE7pyR1syjsHx5g0pt_mmt2f2r2AuadvcKLEokWQ,755
+pybind11_pixelmatch.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+pybind11_pixelmatch.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+pybind11_pixelmatch/__main__.py,sha256=raNIOKbcHntmZeLGGjKObZh5N6kYb8WcKLLrnIgF3-E,2545
+pybind11_pixelmatch/__init__.py,sha256=BQzKJdCLz3IGHNd7wHRX1nXP1TaMuTW_j72j9TPnQ_E,1527
+pybind11_pixelmatch/_core.cpython-37m-i386-linux-gnu.so,sha256=2gxW3a2cJB1VYwrl1eizmLuQAEI4Odd2fN7lOKWHX0A,238377
