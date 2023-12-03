@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}
+corpus annotation
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{url_for('static', filename='css/annotation.css')}}" />
+{% endblock %}
+
+{% block javascript %}
+    <script src="{{url_for('static', filename='js/annotation.js')}}"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+  $.get({
+    url: "/texts",
+    async: false,
+    success: function (textIDs) {
+      if (textIDs == "None") {
+          $("#textlist").append(
+            `<a class="list-group-item list-group-item-action list-group-item-light p-3 disabled">No texts to annotate, check your input directory.</a>`,
+          );
+      } else {
+        for (let i = 0; i < textIDs.length; i++) {
+          // $("#textlist").append('<a id='+textIDs[i]+' class="textLink list-group-item list-group-item-action list-group-item-light p-3" href="#!">'+textIDs[i]+'</a>')
+          $("#textlist").append(
+            `<a class="list-group-item list-group-item-light p-1" id="${textIDs[i]}" >${textIDs[i]}</a>`,
+          );
+        }
+        if ("{{text_id}}" != "") {
+          loadText("{{text_id}}");
+        } else {
+          loadText(textIDs[0]);
+        }
+      }
+    },
+  });
+
+  $("#dataExport").click(function () {
+    $.ajax({
+      url: "/export",
+    });
+  });
+});
+    </script>
+{% endblock %}
+
+{% block navbar %}
+                        <a class="nav-link active" aria-current="page" href="#">Annotation</a>
+                        <a class="nav-link" aria-current="page" href="/concordance">Concordance search</a>
+{% endblock %}
+
+
+{% block sidebar %}
+    <div class="list-group list-group-flush" id="textlist"></div>
+{% endblock %}
+
+{% block content %}
+            <!-- Page content-->
+            <div class="container-fluid h-100">
+                <div class="row h-100">
+                    <div class="col-10">
+                        <ol id="examples">
+                        </ol>
+                    </div>
+                </div>
+            </div>
+{% endblock %}

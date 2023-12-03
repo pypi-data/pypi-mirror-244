@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}
+concordance search
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/concordance.css')}}" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+{% endblock %}
+
+{% block javascript %}
+<!-- datatables -->
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+<script src="{{url_for('static', filename='js/concordance.js')}}"></script>
+{% endblock %}
+
+{% block navbar %}
+<a class="nav-link" aria-current="page" href="/annotation">Annotation</a>
+<a class="nav-link active" aria-current="page" href="#">Concordance search</a>
+{% endblock %}
+
+{% block sidebar %}
+    <div class="list-group list-group-flush" id="filelist"></div>
+{% endblock %}
+
+
+{% block content %}
+<!-- concordance view -->
+<div class="container-fluid h-100">
+    <div class="container-fluid h-20 m-2"> 
+        <div class="row">
+         <div class="col-lg-12">
+            <div class="input-group input-group-lg">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                <input type="text" class="form-control input-lg" id="query" placeholder="Query, e.g. [pos=n][pos=postp&obj!=ya]" aria-describedby="sizing-addon1">
+                <span class="input-group-btn">
+                    <button class="btn btn-dark btn-lg" type="submit">Search</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid h-20 mt-2" id="results"> {{ results | safe }} </div>
+{% endblock %}

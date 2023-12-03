@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: lingcorp
+Version: 0.1.3
+Summary: CSV-based linguistic corpus annotation and search.
+Home-page: https://fl.mt/lingcorp
+License: Apache-2.0
+Author: Florian Matter
+Author-email: flmt@mailbox.org
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bootstrap-flask (>=2.3.2,<3.0.0)
+Requires-Dist: cookiecutter (>=2.4.0,<3.0.0)
+Requires-Dist: flask (>=3.0.0,<4.0.0)
+Requires-Dist: humidifier (>=0.0.2,<0.0.3)
+Requires-Dist: pandas (>=2.0.1,<3.0.0)
+Requires-Dist: parsimonious (>=0.10.0,<0.11.0)
+Requires-Dist: pygraid (>=0.1.0,<0.2.0)
+Requires-Dist: pyigt (>=2.0.0,<3.0.0)
+Requires-Dist: pytest (>=7.4.2,<8.0.0)
+Requires-Dist: questionary (>=2.0.1,<3.0.0)
+Requires-Dist: segments (>=2.2.1,<3.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Requires-Dist: writio (>=0.1.0,<0.2.0)
+Project-URL: Bug tracker, https://github.com/fmatter/lingcorp/issues
+Project-URL: Repository, https://github.com/fmatter/lingcorp
+Description-Content-Type: text/markdown
+
+# lingcorp
+
+CSV-based linguistic corpus annotation and search.
+
+[![Versions](https://img.shields.io/pypi/pyversions/lingcorp)](https://www.python.org/)
+[![PyPI](https://img.shields.io/pypi/v/lingcorp.svg)](https://pypi.org/project/lingcorp)
+[![License](https://img.shields.io/github/license/fmatter/lingcorp)](https://www.apache.org/licenses/LICENSE-2.0)
