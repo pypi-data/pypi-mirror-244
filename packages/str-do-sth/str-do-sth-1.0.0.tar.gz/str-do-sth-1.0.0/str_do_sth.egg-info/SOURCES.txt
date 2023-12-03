@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sds/__init__.py
+sds/delStr/__init__.py
+sds/delStr/__init__.pyi
+sds/pic/__init__.py
+sds/str2e/__init__.py
+sds/str2e/__init__.pyi
+str_do_sth.egg-info/PKG-INFO
+str_do_sth.egg-info/SOURCES.txt
+str_do_sth.egg-info/dependency_links.txt
+str_do_sth.egg-info/top_level.txt

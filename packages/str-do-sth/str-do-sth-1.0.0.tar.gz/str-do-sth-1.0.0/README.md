@@ -1,0 +1,136 @@
+# First I want to say
+
+
+I am from China.
+
+Please email me if this article is not well written or the package has some bug.
+
+My Mail Number : 2119244804@qq.com
+
+
+# Download
+
+
+`pip install str-do-stn`
+
+
+# Package SDS(str-do-sth)
+
+
+This is a package. You can use
+
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+
+
+# str2e
+
+
+It can take your ***STR*** to other thing, for example, you can take a str to a list.
+
+First your should `from sds import str2e`
+
+
+# The `everyr(content)`
+
+
+Use `everyr(content)` to take ***STR*** to other thing.
+
+For example:
+
+```
+from sds import str2e
+a_v = str2e.everyr('["thing","thing"]')
+print(type(a_v), a_v)
+```
+
+`>>> <class 'list'> ['thing', 'thing']`
+
+![img_1.png](sds/pic/img_1.png)
+
+And:
+ 
+```
+from sds import str2e
+a_v = str2e.everyr('"thing"')
+print(type(a_v), a_v)
+```
+ 
+`>>> <class 'str'> thing`
+
+
+# Other method
+
+
+`strr(content)`
+`intr(content)`
+`floatr(content)`
+`boolr(content)`
+`listr(content)`
+
+For example:
+ 
+```
+from sds import str2e
+a_v = str2e.dictr('["thing","thing"]')
+print(type(a_v), a_v)
+```
+ 
+`>>> <class 'list'> ['thing_', 'thing']`
+
+
+# Can't get thing
+
+
+If the `everyr(codent)` or others can't get thing.
+
+They will return `None`
+
+For example:
+ 
+```
+from sds import str2e
+a_v = str2e.str('["thing"]')
+print(type(a_v), a_v)
+```
+ 
+`>>> <class 'NoneType'> None`
+
+Or:
+ 
+```
+from sds import str2e
+a_v = str2e.everyr(ddddd)
+print(type(a_v), a_v)
+```
+
+```
+>>> RTError: Can't Return [Return None]
+>>> <class 'NoneType'> None
+```
+ 
+![img.png](sds/pic/img.png)
+
+
+# str-do-sth
+
+
+The version is v1.0.1
+
+Use `sds.__version__` can get version.
+
+
+# Other
+
+
+`delStr`
+
+# Update log(Future plans)
+
+
+v1.0.0 Can take your STR to other thing
+
+v1.1.0`dictr` and `tupler`
+
+v1.2.0 `byter`
+
+v2.0.0 Use new way
