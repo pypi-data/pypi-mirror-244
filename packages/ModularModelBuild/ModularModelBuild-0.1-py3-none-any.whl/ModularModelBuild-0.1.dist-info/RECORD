@@ -1,0 +1,11 @@
+ModularBuilding/ModularBuilding.py,sha256=CMbFSFrfdbiobDceAGJ98zP2F7oAOJ66Sb_KuPHqJkk,28234
+ModularBuilding/__init__.py,sha256=5YdTwwQoP6maFB-_aV12Jf5cZJMLoUeunz-pb1XWKV0,14
+ModularBuilding/tests/__init__.py,sha256=5YdTwwQoP6maFB-_aV12Jf5cZJMLoUeunz-pb1XWKV0,14
+ModularBuilding/tests/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ModularBuilding/utils/__init__.py,sha256=5YdTwwQoP6maFB-_aV12Jf5cZJMLoUeunz-pb1XWKV0,14
+ModularBuilding/utils/helper.py,sha256=m_QGx0u2ZU5jnmrdulGXpWIo-Oj5VO0v6SdWUCZDmJQ,604
+ModularModelBuild-0.1.dist-info/LICENSE,sha256=1BtJw8eopOZeayIj0vOdLkjZM13N5RZ-C_kTkfi51BA,1077
+ModularModelBuild-0.1.dist-info/METADATA,sha256=AG7w515sTASAOddL3aHQxzKpSXecmdpW1l5ZjkP4zk4,1860
+ModularModelBuild-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ModularModelBuild-0.1.dist-info/top_level.txt,sha256=IH9VEnZoa9ZT1KHecGtlgvL3zzA7KgxLXlMWCWXfAjY,16
+ModularModelBuild-0.1.dist-info/RECORD,,
