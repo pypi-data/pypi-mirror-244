@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pt-pump-up
+Version: 2.1.3
+Summary: Hub for Portuguese NLP resources
+Author: Rúben Almeida
+Requires-Dist: beanie
+Requires-Dist: mechanize
+
