@@ -1,0 +1,4 @@
+ctranslate2>=3.22.0
+huggingface_hub
+setuptools
+tokenizers
