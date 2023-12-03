@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kicad-draw
+Version: 0.2.1
+Summary: 
+Author: t-sasatani
+Author-email: sasatani.dev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Description-Content-Type: text/markdown
+
+### Documentation
+https://kicad-draw.readthedocs.io/en/latest/
+
+### Install
+```
+pip install kicad-draw
+```
+
+### Examples
+[examples/kicad_helix_coil.ipynb
+](https://github.com/t-sasatani/KiCad-coil-maker/blob/master/examples/kicad_helix_coil.ipynb)
+<a href="https://colab.research.google.com/github/t-sasatani/KiCad-coil-maker/blob/master/examples/kicad_helix_coil.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+

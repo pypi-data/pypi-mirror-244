@@ -1,0 +1,7 @@
+kicad_draw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kicad_draw/config.py,sha256=tC7l7n5HtxkLJ7jleMkMxy2CVo9dJBVdVWCEUB-VpWk,230
+kicad_draw/PCBmodule.py,sha256=iOrRyuSNPbrwxYeNgXiulTQ_-l5esdvurLnbdL7OaqA,12543
+kicad_draw-0.2.1.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+kicad_draw-0.2.1.dist-info/METADATA,sha256=WTrEo0cQErLMrsXRCVpkbkWght25JlzhCtBgc5xcEXQ,901
+kicad_draw-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+kicad_draw-0.2.1.dist-info/RECORD,,
