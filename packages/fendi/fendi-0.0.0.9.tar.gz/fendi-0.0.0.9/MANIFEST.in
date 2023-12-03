@@ -1,0 +1,27 @@
+include *.rst
+include COPYING
+include README.rst
+include pyproject.toml
+include MANIFEST.in
+
+# exclude from sdist
+recursive-exclude asv_benchmarks *
+recursive-exclude benchmarks *
+recursive-exclude build_tools *
+recursive-exclude .idea *
+recursive-exclude maint_tools *
+recursive-exclude benchmarks *
+recursive-exclude .binder *
+recursive-exclude .circleci *
+exclude .cirrus.star
+exclude .codecov.yml
+exclude .git-blame-ignore-revs
+exclude .mailmap
+exclude .pre-commit-config.yaml
+exclude azure-pipelines.yml
+exclude CODE_OF_CONDUCT.md
+exclude CONTRIBUTING.md
+exclude SECURITY.md
+exclude bill.gig
+exclude proj.png
+exclude PULL_REQUEST_TEMPLATE.md
