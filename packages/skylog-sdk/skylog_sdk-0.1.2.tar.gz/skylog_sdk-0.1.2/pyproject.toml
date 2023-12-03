@@ -1,0 +1,27 @@
+[tool.black]
+line-length = 121
+target-version = ['py38']
+
+[tool.poetry]
+name = "skylog-sdk"
+version = "0.1.2"
+description = "skylog python sdk"
+authors = ["vahidtwo <vahidtwo@gmail.com>"]
+license = "beer-ware"
+readme = "README.md"
+repository = "https://github.com/vahidtwo/skylog-sdk"
+homepage = "https://github.com/vahidtwo/skylog-sdk"
+keywords = ["skylog", "log"]
+packages = [
+    { include = "skylog" },
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+requests = '2.27.1'
+python-decouple='3.6'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
