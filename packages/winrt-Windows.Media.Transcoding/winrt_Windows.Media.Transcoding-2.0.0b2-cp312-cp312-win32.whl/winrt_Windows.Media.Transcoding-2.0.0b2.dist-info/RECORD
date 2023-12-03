@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_transcoding.cp312-win32.pyd,sha256=kBYUNPteB9eqXVdLM3aa04wXtmKrYR_-SMZOvSFnf9M,96256
+winrt/_winrt_windows_media_transcoding.pyi,sha256=5SPTzvXu6_iNV33w02tbE0qXzM-RMUmCZNilk8my7jo,3787
+winrt/windows/media/transcoding/__init__.py,sha256=4nbwqIpuT2iX47kCWYusicB8E2RqhW0x9t0ctrKsB70,665
+winrt_Windows.Media.Transcoding-2.0.0b2.dist-info/METADATA,sha256=9o0tMLyY8fO3-FOKlMa1yN2ITp3VblSPnm4Il-WrJm0,1482
+winrt_Windows.Media.Transcoding-2.0.0b2.dist-info/WHEEL,sha256=4N7jptPh4OYjkcvBzbL_SyiQfKWhgnHPSC8E7zx3zFw,98
+winrt_Windows.Media.Transcoding-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Transcoding-2.0.0b2.dist-info/RECORD,,
