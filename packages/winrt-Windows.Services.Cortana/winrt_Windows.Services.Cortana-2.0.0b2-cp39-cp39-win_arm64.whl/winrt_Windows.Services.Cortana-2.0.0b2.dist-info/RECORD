@@ -1,0 +1,7 @@
+winrt/_winrt_windows_services_cortana.cp39-win_arm64.pyd,sha256=qL63PCzUJsKQ7c-zPnDY8IUB5MdqjZAk3dnQql-pZmg,145920
+winrt/_winrt_windows_services_cortana.pyi,sha256=nDBX9NgyYloFmfUeVBLzDnvcg3QXWsk31sq36NqwuOo,4580
+winrt/windows/services/cortana/__init__.py,sha256=w-asVlzDmUxebEK9_oq0qClyivsEp1asR4hkLa3GFPM,1095
+winrt_Windows.Services.Cortana-2.0.0b2.dist-info/METADATA,sha256=Cv3R3AE4WvpeKMyF5eGtf8HRSku9QBMGe9aeymyeVes,1407
+winrt_Windows.Services.Cortana-2.0.0b2.dist-info/WHEEL,sha256=K0ytBUYvJpo7izffVCQznpCYT6wuGezaHGHq-IGfKHs,100
+winrt_Windows.Services.Cortana-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Services.Cortana-2.0.0b2.dist-info/RECORD,,
