@@ -1,0 +1,10 @@
+nonebot_plugin_color-0.3.0.dist-info/METADATA,sha256=nmHouh2B9fW23bkGIRRdEzgYppWO6j2GW4Q5JDVaPI4,5953
+nonebot_plugin_color-0.3.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+nonebot_plugin_color-0.3.0.dist-info/licenses/LICENSE,sha256=01VbZn1pLC7SHHdreCOc89mIEO8txSbEb5AE5kpebH4,1067
+nonebot_plugin_color/__init__.py,sha256=_-PdKjUdpgKI3qWb91vBcNzN4VO0vdiys3X5uKhU7Xw,1598
+nonebot_plugin_color/__main__.py,sha256=7JBJTsrwWPDdGbleCQNIm5ru24SjCqG2uAuirki5XM0,3909
+nonebot_plugin_color/config.py,sha256=2zDBgszUv5jtJMBrHLdTTZuT_mUQLR8g9laWyiB8vC4,303
+nonebot_plugin_color/const.py,sha256=9zFGOwiSYy_DCcoUC2ws4eY05HP-EIFMD35CtJs_Uvg,4477
+nonebot_plugin_color/data_source.py,sha256=yB8zwZOzPSpm-fetvGuSK_ixEBGiq1Yoys0ZFTaTmDI,4386
+nonebot_plugin_color/res/HarmonyOS_Sans_Bold.ttf,sha256=f5c4YsQjU8nMNy3CrokdEsnqX-KgG0Sa2vHq3ptGm0c,145860
+nonebot_plugin_color-0.3.0.dist-info/RECORD,,
