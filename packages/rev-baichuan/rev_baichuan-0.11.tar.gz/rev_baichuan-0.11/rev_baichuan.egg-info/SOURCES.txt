@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+rev_Baichuan/__init__.py
+rev_Baichuan/chat.py
+rev_baichuan.egg-info/PKG-INFO
+rev_baichuan.egg-info/SOURCES.txt
+rev_baichuan.egg-info/dependency_links.txt
+rev_baichuan.egg-info/top_level.txt
