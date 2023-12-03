@@ -1,0 +1,2 @@
+[console_scripts]
+chatmysql = cmysql.cli:main
