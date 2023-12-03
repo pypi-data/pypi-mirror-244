@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_chat.cp312-win_arm64.pyd,sha256=OFsc4mzQ0_YvJA_0JYfrZfuoAsYjBMwjknlHb1AIj3Q,1020416
+winrt/_winrt_windows_applicationmodel_chat.pyi,sha256=t2ksocDOddVgoHDOrMdwMGNAnsCFBB2oKg66MVqnBkQ,30815
+winrt/windows/applicationmodel/chat/__init__.py,sha256=C_sxkoKmutnisNSP0oGxU39HS5YFGQ6svecGB7u5GAA,7283
+winrt_Windows.ApplicationModel.Chat-2.0.0b2.dist-info/METADATA,sha256=IXzt1Uvh-CQKYVmTQMZwN_ZdUxxA17f9kPPaQI6eIQQ,1433
+winrt_Windows.ApplicationModel.Chat-2.0.0b2.dist-info/WHEEL,sha256=WQX5S5G4PWm-PsXSWxNv7OPWII7hCf8pkMhg5KHb4hE,102
+winrt_Windows.ApplicationModel.Chat-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Chat-2.0.0b2.dist-info/RECORD,,
