@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rev-baichuan
+Version: 0.1
+Summary: 通过cookie信息快速访问百川智能大语言模型
+Home-page: https://github.com/HarcicYang/rev_Baichuan
+Author: Harcic
+Author-email: harcic@outlook.com
+License-File: LICENSE
