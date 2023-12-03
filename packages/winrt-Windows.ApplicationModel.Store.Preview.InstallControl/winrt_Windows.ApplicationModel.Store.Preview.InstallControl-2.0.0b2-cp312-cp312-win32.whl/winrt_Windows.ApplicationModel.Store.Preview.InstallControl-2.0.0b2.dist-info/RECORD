@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_store_preview_installcontrol.cp312-win32.pyd,sha256=640dKTTPkuFZ93Zoao7N5vE8wOB4-rWgwBe5cgurEiI,254464
+winrt/_winrt_windows_applicationmodel_store_preview_installcontrol.pyi,sha256=k5x6xqMHl02JzFrOj5jKmPqrxB-AsOIdqHV_XIIFpt4,17812
+winrt/windows/applicationmodel/store/preview/installcontrol/__init__.py,sha256=mP8zliVsYtzEbUlnvBfJ3elQ8DCXzMvNgk_wGqS54aM,2074
+winrt_Windows.ApplicationModel.Store.Preview.InstallControl-2.0.0b2.dist-info/METADATA,sha256=bEaw5t3ZfxM4iaHi2qzMHstKv4W64nOayo_Tiod72cI,1432
+winrt_Windows.ApplicationModel.Store.Preview.InstallControl-2.0.0b2.dist-info/WHEEL,sha256=4N7jptPh4OYjkcvBzbL_SyiQfKWhgnHPSC8E7zx3zFw,98
+winrt_Windows.ApplicationModel.Store.Preview.InstallControl-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Store.Preview.InstallControl-2.0.0b2.dist-info/RECORD,,
