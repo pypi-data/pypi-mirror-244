@@ -1,0 +1,8 @@
+winrt/_winrt.cp310-win_arm64.pyd,sha256=7O0sEhRSsI31YVlAnEKp5XWmAMJr9Qj2gJTPA-jg3qg,68608
+winrt/_winrt.pyi,sha256=ra9cNobLqr2MF5k7bcTd2YbTwB6n6PW8snQQR01DyHw,3991
+winrt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt/system/__init__.py,sha256=8D_CZILtY-60IQn02AFhd8e-SY9ys9TSoTZElnHicoc,4166
+winrt_runtime-2.0.0b2.dist-info/METADATA,sha256=2rJpzmrAGrnrD4yohs5vh4HJRfkkXKE00cO7pO8JXMc,735
+winrt_runtime-2.0.0b2.dist-info/WHEEL,sha256=LVuoUZTCm5wp9CHnwZT3VLLTBL13GoMriuXDwKvS-ZA,102
+winrt_runtime-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_runtime-2.0.0b2.dist-info/RECORD,,
