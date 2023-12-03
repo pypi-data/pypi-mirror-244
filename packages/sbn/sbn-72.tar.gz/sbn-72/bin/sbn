@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+#
+# pylint: disable=C,R,W0201,W0212,W0105,W0613,W0406,W0611,E0102
+
+
+"main"
+
+
+import os
+import readline
+import sys
+import termios
+import time
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from sbn.handle import Commands, command
+from sbn.object import Default, spl
+from sbn.errors import Errors, debug
+from sbn.events import Event
+from sbn.parser import parse
+from sbn.reacts import Reactor
+from sbn.locate import Storage
+from sbn.thread import launch
+
+
+Cfg = Default()
+Cfg.mod  = "cmd,err,mod,req,thr,ver"
+Cfg.name = "sbn"
+Cfg.version = "72"
+Storage.wd = os.path.expanduser(f"~/.{Cfg.name}")
+
+
+from sbn import modules
+
+
+class Console(Reactor):
+
+    def __init__(self):
+        Reactor.__init__(self)
+        self.register("command", Commands.handle)
+
+    def poll(self) -> Event:
+        evt = Event()
+        evt.orig = object.__repr__(self)
+        evt.txt = input("> ")
+        evt.type = "command"
+        return evt
+
+    def say(self, channel, txt):
+        txt = txt.encode('utf-8', 'replace').decode()
+        sys.stdout.write(txt)
+        sys.stdout.write("\n")
+        sys.stdout.flush()
+
+
+csl = Console()
+
+
+def forever():
+    while 1:
+        time.sleep(1.0)
+
+
+def scan(pkg, modstr, initer=False) -> []:
+    threads = []
+    for modname in spl(modstr):
+        module = getattr(pkg, modname, None)
+        if not module:
+            continue
+        Commands.scan(module)
+        Storage.scan(module)
+        if initer and "init" in dir(module):
+            threads.append(launch(module.init, name=f"init {modname}"))
+    return threads
+
+
+def wrap(func) -> None:
+    old = None
+    try:
+        old = termios.tcgetattr(sys.stdin.fileno())
+    except termios.error:
+        pass
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        sys.stdout.write("\n")
+        sys.stdout.flush()
+    finally:
+        if old:
+            termios.tcsetattr(sys.stdin.fileno(), termios.TCSADRAIN, old)
+
+
+def ver(event):
+    event.reply(f"{Cfg.name.upper()} {Cfg.version}")
+
+
+def main():
+    Errors.output = print
+    Commands.add(ver)
+    parse(Cfg, " ".join(sys.argv[1:]))
+    if "mod" in Cfg.set:
+        Cfg.mod += "," + Cfg.set.mod 
+    if "v" in Cfg.opts:
+        dte = time.ctime(time.time()).replace("  ", " ")
+        debug(f"{Cfg.name.upper()} started {Cfg.opts.upper()} started {dte}")
+    if "c" in Cfg.opts:
+        thrs = scan(modules, Cfg.mod, True)
+        if "w" in Cfg.opts:
+            for thr in thrs:
+                thr.join()
+        if "t" in Cfg.opts:
+            csl.threaded = True
+        csl.start()
+        forever()
+        return
+    scan(modules, Cfg.mod)
+    command(Cfg.otxt)
+
+
+if __name__ == "__main__":
+    wrap(main)
+    Errors.show()
