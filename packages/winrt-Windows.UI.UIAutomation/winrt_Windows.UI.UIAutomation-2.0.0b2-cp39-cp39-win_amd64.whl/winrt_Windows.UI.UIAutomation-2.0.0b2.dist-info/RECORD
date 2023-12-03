@@ -1,0 +1,7 @@
+winrt/_winrt_windows_ui_uiautomation.cp39-win_amd64.pyd,sha256=iW_LBoBlT7mXr-kaf3msp28M5PUxU78v8KKPkqzkLN0,46592
+winrt/_winrt_windows_ui_uiautomation.pyi,sha256=8x89PY2vN3tMkYgCPenidUPCOdBpZbcCOQ1OSr3JRg4,1355
+winrt/windows/ui/uiautomation/__init__.py,sha256=ZHwkU9SLY4xog6cLKT0bhpyZSZ5XXJeuUWdoNd7y-5U,606
+winrt_Windows.UI.UIAutomation-2.0.0b2.dist-info/METADATA,sha256=ZQ1AsFwFDdwqVx6sRPAPHnrgGfIihiGu-0mTTk-g1kE,960
+winrt_Windows.UI.UIAutomation-2.0.0b2.dist-info/WHEEL,sha256=2xSj8c4s_gFbWpcImYQptdXS3JLuzC2uK5Om8I_SEKg,100
+winrt_Windows.UI.UIAutomation-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.UIAutomation-2.0.0b2.dist-info/RECORD,,
