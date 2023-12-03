@@ -1,0 +1,13 @@
+README.md
+setup.py
+ConvoXML/AgentInterface.py
+ConvoXML/Agents.py
+ConvoXML/Context.py
+ConvoXML/ConvoXML.py
+ConvoXML/__init__.py
+ConvoXML/tests.py
+ConvoXML.egg-info/PKG-INFO
+ConvoXML.egg-info/SOURCES.txt
+ConvoXML.egg-info/dependency_links.txt
+ConvoXML.egg-info/requires.txt
+ConvoXML.egg-info/top_level.txt
