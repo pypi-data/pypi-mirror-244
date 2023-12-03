@@ -1,0 +1,7 @@
+winrt/_winrt_windows_networking_connectivity.cp311-win_arm64.pyd,sha256=Q926GHbmVrY0aHZuf7OPJ2JdbKe_gZNz_z0_GrLeqP0,672256
+winrt/_winrt_windows_networking_connectivity.pyi,sha256=AfbrzhAMEWDI2VEgDbd_I9VUlgjlwcTmjd_1PyLazRk,18330
+winrt/windows/networking/connectivity/__init__.py,sha256=wR_evGKCro6CiQLhRj2uk_UQ_R50EKLzAmHpiRWo9r4,5724
+winrt_Windows.Networking.Connectivity-2.0.0b2.dist-info/METADATA,sha256=ITnXeT-zX78cGpyIMQ-azQ1tVCPxlWPyEIVrHTkwFBE,1342
+winrt_Windows.Networking.Connectivity-2.0.0b2.dist-info/WHEEL,sha256=Qn6DjB4_JWLoPTwXpNiAThZMCaXLz2hkVOumgNpPUd8,102
+winrt_Windows.Networking.Connectivity-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.Connectivity-2.0.0b2.dist-info/RECORD,,
