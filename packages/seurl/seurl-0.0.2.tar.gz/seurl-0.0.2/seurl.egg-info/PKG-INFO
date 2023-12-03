@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: seurl
+Version: 0.0.2
+Summary: Retrieve domain URLs from Search Engines
+Home-page: https://gitlab.com/Zer1t0/seurl
+Author: Eloy Pérez González
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# seurl
+
+Retrieve domain URLs from Search Engines
+
+## Usage
+
+Specify one or several domains by stdin:
+```
+$ echo gitlab.com | seurl
+https://status.gitlab.com/
+https://design.gitlab.com/
+https://gitlab.com/piveau
+https://gitlab.com/dnsmichi
+...
+```
+
+You can also combine it with other tools:
+```
+$ echo gitlab.com | seurl | urld -f domain
+ERROR:seurl.__main__:Captcha in Duckduckgo
+status.gitlab.com
+design.gitlab.com
+gitlab.com
+gitlab.com
+about.gitlab.com
+...
+```
+
+
+## Supported Search Engines
+
+- Bing
+- Duckduckgo
+- Ecosia
+- Google
