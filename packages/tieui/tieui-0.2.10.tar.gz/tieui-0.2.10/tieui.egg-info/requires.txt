@@ -1,0 +1,12 @@
+flask_cors
+flask_socketio
+flask
+signal
+openai
+gunicorn
+eventlet
+stripe
+sendgrid
+websocket-client
+re
+tempfile
