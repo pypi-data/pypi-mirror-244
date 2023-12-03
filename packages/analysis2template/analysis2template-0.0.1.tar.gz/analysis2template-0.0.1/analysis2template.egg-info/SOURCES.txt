@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+analysis2template/__init__.py
+analysis2template/__main__.py
+analysis2template.egg-info/PKG-INFO
+analysis2template.egg-info/SOURCES.txt
+analysis2template.egg-info/dependency_links.txt
+analysis2template.egg-info/entry_points.txt
+analysis2template.egg-info/requires.txt
+analysis2template.egg-info/top_level.txt
