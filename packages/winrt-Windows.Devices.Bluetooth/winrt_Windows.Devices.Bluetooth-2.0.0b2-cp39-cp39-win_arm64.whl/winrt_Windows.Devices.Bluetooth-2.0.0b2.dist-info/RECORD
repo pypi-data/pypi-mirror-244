@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_bluetooth.cp39-win_arm64.pyd,sha256=U5ucMWPuZEpmVAUOo4NdRP9dgirZzJKtL7TibrKyvok,523264
+winrt/_winrt_windows_devices_bluetooth.pyi,sha256=54hhzd4e8h3S13KZ4qRgPH96Sy71Ixcq3Kv5xV6gcUs,23117
+winrt/windows/devices/bluetooth/__init__.py,sha256=4BuYsfyVLBi-km86x_mpFeh9MCPcRVRsZXyQysWK7VE,5763
+winrt_Windows.Devices.Bluetooth-2.0.0b2.dist-info/METADATA,sha256=nZCjQp_tApIPshyg3ybIQNjM6AI4tIHRU-tuHZLWO4M,1688
+winrt_Windows.Devices.Bluetooth-2.0.0b2.dist-info/WHEEL,sha256=K0ytBUYvJpo7izffVCQznpCYT6wuGezaHGHq-IGfKHs,100
+winrt_Windows.Devices.Bluetooth-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Bluetooth-2.0.0b2.dist-info/RECORD,,
