@@ -1,0 +1,11 @@
+pysplit/__init__.py,sha256=WtEFu94x0CMvPlk6FWwS0IyG9j8t46ypFfgFCfKroco,81
+pysplit/__main__.py,sha256=lLG9aqbZOF2VGq5VKCvOzctWVHLXhpmiLoWRjZL9l-4,1178
+pysplit/split.py,sha256=bewbn5eKQDm9cz99KTE2Pdlb_FK7zaPMiYyLvORPzEc,5153
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pysplit.py,sha256=Kunr5_EJkxyQgNwrwpRIya_N6QcDQWXnHUVw7pnGCLU,969
+tests/data/testsplitfile.py,sha256=An-q5kwOLi02ilzITqM5b8zHfHqgGwXwPpFcbGjMv_E,1188
+monosplit-0.1.0.dist-info/METADATA,sha256=Bm3E2Yo5IT7PmWooWpdunNbPkFoUX273YpjuGeooNMs,1310
+monosplit-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+monosplit-0.1.0.dist-info/entry_points.txt,sha256=coNxVSP0FmvwFdnB2Sc8iinLuLGmrfYrZW9uo29OFr0,50
+monosplit-0.1.0.dist-info/top_level.txt,sha256=1myD-l9cr3a-TK5jitW9HyyIq9YBMKe87VlRUcXmnMI,14
+monosplit-0.1.0.dist-info/RECORD,,
