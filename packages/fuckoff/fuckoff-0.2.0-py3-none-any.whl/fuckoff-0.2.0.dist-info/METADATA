@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: fuckoff
+Version: 0.2.0
+Summary: 
+Author: megahomyak
+Author-email: g.megahomyak@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mediapipe (>=0.10.8,<0.11.0)
+Requires-Dist: opencv-python (>=4.8.1.78,<5.0.0.0)
+Description-Content-Type: text/markdown
+
+# FuckOff
+
+Recognizes when you show a middle finger to the camera
+
+## Installation
+
+`pip install fuckoff`
+
+## Usage
+
+* Check out the [example.py](example.py) file for a usage example
+* Be aware that when using `FuckOff` and your camera is not working, a `CameraIsNotAccessible` exception will be thrown
+
