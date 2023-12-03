@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+MySchedule.py.egg-info/PKG-INFO
+MySchedule.py.egg-info/SOURCES.txt
+MySchedule.py.egg-info/dependency_links.txt
+MySchedule.py.egg-info/requires.txt
+MySchedule.py.egg-info/top_level.txt
+schedule/__init__.py
+schedule/api.py
+schedule/structures.py
