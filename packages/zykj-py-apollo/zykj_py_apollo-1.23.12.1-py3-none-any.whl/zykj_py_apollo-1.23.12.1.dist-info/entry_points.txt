@@ -1,0 +1,2 @@
+[console_scripts]
+pyApolloClient = pyApolloClient.main:main

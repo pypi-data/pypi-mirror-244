@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zykj-py-apollo
+Version: 1.23.12.1
+Summary: apollo 客户端
+Author: zykj
+Requires-Dist: PyYAML ~=6.0.1
+Requires-Dist: loguru ~=0.7.2
+Requires-Dist: setuptools ~=69.0.2
+
