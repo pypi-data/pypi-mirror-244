@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: project-generator-nibata
+Version: 0.0.3
+Summary: A CLI application for generating project scaffolding using Typer and Mako.
+Home-page: https://github.com/nibata/api-projects-cli-tool
+Author: Nicolás Bacquet
+Author-email: nibata@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# api-projects-cli-tool
+
+En la terminal usar para ver los usos:
+`test-api-gen --help`
