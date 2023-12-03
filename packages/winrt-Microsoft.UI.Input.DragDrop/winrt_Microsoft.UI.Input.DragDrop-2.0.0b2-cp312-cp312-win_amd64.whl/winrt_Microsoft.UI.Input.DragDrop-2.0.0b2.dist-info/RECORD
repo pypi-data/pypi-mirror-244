@@ -1,0 +1,7 @@
+winrt/_winrt_microsoft_ui_input_dragdrop.cp312-win_amd64.pyd,sha256=1y-a9yo7DBltRWAtHpS6lNup8_QM99lSK-QvIZMMR6g,113664
+winrt/_winrt_microsoft_ui_input_dragdrop.pyi,sha256=g2f-1aIqxxO5K6DxE_S2il4JzAsMeFMuNFSYBl8DZO8,5896
+winrt/microsoft/ui/input/dragdrop/__init__.py,sha256=bT0zpjCaEbpjRkbcfxaDvOb5jM_ZTTL3HJe_jBWq5Rg,1085
+winrt_Microsoft.UI.Input.DragDrop-2.0.0b2.dist-info/METADATA,sha256=_hmZ5dTWBJ47zK_AbyAjymFmbowv5DnLLm0SGFCCsfA,1414
+winrt_Microsoft.UI.Input.DragDrop-2.0.0b2.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+winrt_Microsoft.UI.Input.DragDrop-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.UI.Input.DragDrop-2.0.0b2.dist-info/RECORD,,
