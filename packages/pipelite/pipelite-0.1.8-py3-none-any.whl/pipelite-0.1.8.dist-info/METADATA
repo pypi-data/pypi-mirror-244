@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: pipelite
+Version: 0.1.8
+Summary: This solution build by design (configuration) simple of complex Data Pipelines
+Author-email: datacorner <admin@datacorner.fr>
+License: MIT License
+        
+        Copyright (c) 2023 Benoît Cayla
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Bug Tracker, https://github.com/datacorner/pipelite/issues
+Project-URL: Homepage, https://github.com/datacorner/pipelite/wiki
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: openpyxl ==3.1.2
+Requires-Dist: pyodbc ==4.0.39
+Requires-Dist: pyrfc ==3.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: xmltodict ==0.13.0
+Requires-Dist: jsonpath-ng ==1.6.0
+Requires-Dist: jsonschema ==4.19.1
+Requires-Dist: Jinja2 ==3.1.2
+
+![](logo_transp_med.png)
+# The pipelite Project
+The purpose of this solution is to build and execute Data Pipelines. Nothing new under the sun of course, however it aims to make this task very simple and by just using the configuration to build those pipelines.  
+**So in short ... pipelite is a Data Pipeline solution by design !**  
+The way this solution is built is also totally extensible and enables all developers to extend its capabilities by addin new Data connectors and/or data pipelite.transformers.  
+
+## Currently this solution provides data access and load from these data sources :  
+✅  [External file (csv)](https://github.com/datacorner/pipelite/wiki/csvFileDS)  
+✅  [External Excel Spreadsheet (xls, xlsx, xlsm, xlsb, odf, ods and odt) (read only)](https://github.com/datacorner/pipelite/wiki/excelFileDS)  
+✅  [External XES File (read only)](https://github.com/datacorner/pipelite/wiki/xesFileDS)  
+✅  [ODBC Data Sources (checked with SQL Server, SQLite) by using an configurable SQL query (Read Only)](https://github.com/datacorner/pipelite/wiki/odbcDS)  
+✅  [SAP Read Table via SAP RFC (Read Only)](https://github.com/datacorner/pipelite/wiki/sapDS)  
+✅  [ABBYY Timeline PI (write only in Repository)](https://github.com/datacorner/pipelite/wiki/piDS)  
+
+## And provides those transformers  
+✅ [Pass Through (Ex. just to change the Data Sources names IN-OUT)](https://github.com/datacorner/pipelite/wiki/passthroughTR)  
+✅ [Dataset Profiling](https://github.com/datacorner/pipelite/wiki/profileTR)  
+✅ [Concat 2 Data sources](https://github.com/datacorner/pipelite/wiki/concatTR)  
+✅ [Join data sources](https://github.com/datacorner/pipelite/wiki/joinTR)  
+✅ [SubString](https://github.com/datacorner/pipelite/wiki/extractstrTR)  
+✅ [Rename Column Name](https://github.com/datacorner/pipelite/wiki/renamecolTR)  
+✅ [Column Transformation](https://github.com/datacorner/pipelite/wiki/jinjaTR)  
+
+❓ [Jump to the wiki from here](https://github.com/datacorner/pipelite/wiki)❓
+
+# Installation
+
+just use pip by typing
+```
+    pip install pipelite
+```
+# ... and use it !
+
+[See here](https://github.com/datacorner/pipelite/wiki/run)
