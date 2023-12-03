@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pylnbits
+Version: 0.0.8
+Summary: Python library for LNBits.
+License: MIT
+Author: bitkarrot
+Author-email: info@bitkarrot.co
+Requires-Python: >=3.8.6,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: aiohttp (==3.9.1)
+Requires-Dist: lnbits (>=0.10,<0.11)
+Requires-Dist: lnurl (>=0.3.6,<0.4.0)
+Requires-Dist: mkdocs (==1.5.3)
+Requires-Dist: mkdocstrings (==0.24.0)
+Requires-Dist: pre-commit (==3.5.0)
