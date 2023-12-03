@@ -1,0 +1,11 @@
+colorama>=0.4.6
+prettytable>=3.9.0
+matplotlib>=3.8.1
+numpy>=1.26.2
+requests>=2.31.0
+Flask>=2.3.2
+KdnTools>=1.8.1
+setuptools>=68.2.2
+ping3>=4.0.4
+aiodns>=3.1.1
+werkzeug>=3.0.0
