@@ -1,0 +1,7 @@
+winrt/_winrt_windows_phone_system_profile.cp311-win_arm64.pyd,sha256=2dVDMjRoH7P6c7h6tY9XR_oqc56MqzWuHMVek_4lozA,31744
+winrt/_winrt_windows_phone_system_profile.pyi,sha256=BI5K-yuv0vn8CvlcAw25bn6j2aJuhwOZqBXqWOt8_SI,549
+winrt/windows/phone/system/profile/__init__.py,sha256=8nl7nSetLwl4X5YQXFWL4YD2Y-RPT66EDk3XHSC_gy8,256
+winrt_Windows.Phone.System.Profile-2.0.0b2.dist-info/METADATA,sha256=8ikIpwjfDbvQv_cNlS4BlAscrMcTvuLtwvGAu0hvzVs,980
+winrt_Windows.Phone.System.Profile-2.0.0b2.dist-info/WHEEL,sha256=Qn6DjB4_JWLoPTwXpNiAThZMCaXLz2hkVOumgNpPUd8,102
+winrt_Windows.Phone.System.Profile-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.System.Profile-2.0.0b2.dist-info/RECORD,,
