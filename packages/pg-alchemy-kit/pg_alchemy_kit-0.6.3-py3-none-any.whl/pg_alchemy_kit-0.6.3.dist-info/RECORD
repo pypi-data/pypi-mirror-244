@@ -1,0 +1,9 @@
+pg_alchemy_kit/PG.py,sha256=nqpgDSSiHAo_X8IUuS1UyYsAc7uZFf9m_B24bPbMtmc,3717
+pg_alchemy_kit/PGUtils.py,sha256=rivMJ00ArLAneHEa7sZNwhEDkqWgKRWBL3neaE8juSU,13541
+pg_alchemy_kit/PGUtilsBase.py,sha256=Lk7vLaT8mu1TVIOjTkl9QvOj1H4yQLyq5lKLgwl2UrE,5775
+pg_alchemy_kit/PGUtilsORM.py,sha256=NGIbTPNKfO1oQCF-wS-J48WNqPVTUBJ9t49MbObIbwQ,5713
+pg_alchemy_kit/__init__.py,sha256=eUkNOTymPs4eDyy7IjYd8LEZzS0Y68KBBYRdgR_O3V0,353
+pg_alchemy_kit/cacheStrategies.py,sha256=WZQT2HSjqnD_KJGefiwmPCaKZ2c6IJv9JCrmGfeOkHs,5840
+pg_alchemy_kit-0.6.3.dist-info/METADATA,sha256=bhkxGJQNCyElE-3j-TGSyy5oPKODZSpOqgg6hQSnhFg,5892
+pg_alchemy_kit-0.6.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pg_alchemy_kit-0.6.3.dist-info/RECORD,,
