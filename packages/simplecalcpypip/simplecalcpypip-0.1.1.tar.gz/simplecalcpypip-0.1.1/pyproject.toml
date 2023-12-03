@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "simplecalcpypip"
+version = "0.1.1"
+description = "Hands-on of packages documentation using pip"
+authors = ["TestPipDocs"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+matplotlib = ">=3.8.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+myst-nb = {version = "^1.0.0", python = "^3.9"}
+sphinx-autoapi = "^3.0.0"
+sphinx-rtd-theme = "^2.0.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
