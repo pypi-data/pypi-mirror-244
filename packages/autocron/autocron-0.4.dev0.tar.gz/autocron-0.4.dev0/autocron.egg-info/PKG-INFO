@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: autocron
+Version: 0.4.dev0
+Summary: Background task runner for Python 3 with no dependencies
+Home-page: https://github.com/kbr/autocron
+Author: Klaus Bremer
+Author-email: bremer@bremer-media.com
+License: MIT
+Project-URL: Homepage, https://github.com/kbr/autocron
+Project-URL: Code, https://github.com/kbr/autocron
+Project-URL: Issue tracker, https://github.com/kbr/autocron/issues
+Keywords: background tasks,django
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Background task manager
+=======================
+
+Python background task manager with no dependencies beside the standard library.
+
+(autocron is the successor of autotask. autotask is running since years in production without any problems. But it is just for django and coupled to the django-ORM. Also there is another (unrelated) project named "autotask" in the wild. Therfore the name-change.)
+
+**This project is in alpha-state**
+
+Please don't use it right now.
+
