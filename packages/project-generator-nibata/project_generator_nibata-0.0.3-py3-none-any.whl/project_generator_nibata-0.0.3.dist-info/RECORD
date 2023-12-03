@@ -1,0 +1,8 @@
+project_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project_generator/main.py,sha256=A4b6x8i5_Zod-HHxVFaYBqJtN-2GWA6uEFHIahXeaEQ,1430
+project_generator/templates/main.py.mako,sha256=_mLTWcfCA8v6h9HDErQXf6k8PsQW-YpDDrzasgufrw8,91
+project_generator_nibata-0.0.3.dist-info/METADATA,sha256=rfF-096O1mJrvJX15Bt2oQ0IbzOCxHBjstACODLb9qQ,581
+project_generator_nibata-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+project_generator_nibata-0.0.3.dist-info/entry_points.txt,sha256=DWXNgh3EAy09evu__1cpEbDH6Msm7yUck-LItgwT1rA,60
+project_generator_nibata-0.0.3.dist-info/top_level.txt,sha256=zYhimqBHT2PTdIR732Cz5udWO1bL0Umda2tLhS1_p-c,18
+project_generator_nibata-0.0.3.dist-info/RECORD,,
