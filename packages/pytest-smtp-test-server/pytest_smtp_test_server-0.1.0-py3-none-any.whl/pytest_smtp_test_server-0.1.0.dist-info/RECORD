@@ -1,0 +1,12 @@
+pytest_smtp_test_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_smtp_test_server/exceptions.py,sha256=lcqYpB2oIrKPF0zn8iJQk3iSpiPZkNH22G-4oCzlQhs,231
+pytest_smtp_test_server/fixture.py,sha256=suGjGPB_Mr5QSmPTsBLx2VtbX90RtsHfdXn-Gs_Y5kk,228
+pytest_smtp_test_server/init.py,sha256=K_hdN50RH6M8NU2FiCkz6GZaxnO1vCc8lD3d3Nuzbn0,692
+pytest_smtp_test_server/internal.py,sha256=uPoLgjm4ODGBx1mgAi_IMbQgGe1kpG-ZnZ-332i--oE,501
+pytest_smtp_test_server/plugin.py,sha256=TrHj89pdZ8eIg3hwGubln706b1tDrDIFBOn2CLvl-M8,771
+pytest_smtp_test_server/version_check.py,sha256=yxGEaPcn52vey-a9RIbvuIxd92-zgji3OsePv9AcvTw,1573
+pytest_smtp_test_server-0.1.0.dist-info/LICENSE.txt,sha256=wKUdRuR_JebeJA5bg3p_1qJxNRWiToU4lzKoG6Q-EAo,1099
+pytest_smtp_test_server-0.1.0.dist-info/METADATA,sha256=dhA_yjt0fTTjeUHIulwodIUpXjhpwjcYip08K9J-YQw,2991
+pytest_smtp_test_server-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pytest_smtp_test_server-0.1.0.dist-info/entry_points.txt,sha256=eYWRmon-fUEYH7n6zfNiAMaO4DSAqI_Nzn2i39LjT7k,60
+pytest_smtp_test_server-0.1.0.dist-info/RECORD,,

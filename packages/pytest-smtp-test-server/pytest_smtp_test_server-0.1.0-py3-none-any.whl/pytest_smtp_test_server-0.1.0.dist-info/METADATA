@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: pytest-smtp-test-server
+Version: 0.1.0
+Summary: pytest plugin for using `smtp-test-server` as a fixture
+Home-page: https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server
+License: MIT
+Keywords: py.test,pytest,pytest-plugin,mail,smtp,mock,fixture
+Author: Juergen Edelbluth
+Author-email: pytest-smtp-test-server@jued.de
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: smtp-test-server (>=0.1.0,<0.2.0)
+Project-URL: Changelog, https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server/CHANGELOG.md
+Project-URL: Documentation, https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server/
+Project-URL: Issue Tracker, https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server/issues
+Project-URL: Repository, https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server
+Project-URL: Releases, https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server/releases
+Project-URL: Wiki, https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server/wiki
+Description-Content-Type: text/markdown
+
+# pytest-smtp-test-server
+
+pytest plugin for using [`smtp-test-server`](https://git.codebau.dev/jed/smtp-test-server) as pytest mock fixtures.
+
+## Installation
+
+### Installation with "pip"
+
+```Bash
+pip install pytest-smtp-test-server
+```
+
+### Installation with "poetry"
+
+```Bash
+poetry add --group dev pytest-smtp-test-server
+```
+
+## Usage
+
+After installation, one could easily use one of the provided fixtures in your pytest test case:
+
+```Python
+def test_mail_sending(smtp_mock):
+    my_mail_sending_method(host=smtp_mock.host, port=smtp_mock.port)
+    assert len(smtp_mock.messages) == 1
+```
+
+## Scopes
+
+Fixtures are provided for different [pytest fixture scopes](https://docs.pytest.org/en/stable/explanation/fixtures.html)
+for your convenience:
+
+| fixture name          | pytest fixture scope |
+|-----------------------|----------------------|
+| `smtp_mock`           | function             |
+| `class_smtp_mock`     | class                |
+| `module_smtp_mock`    | module               |
+| `package_smtp_mock`   | package              |
+| `session_smtp_mock`   | session              |
+
+If you require more control over hosts and ports, consider using
+[`smtp-test-server`](https://git.codebau.dev/jed/smtp-test-server) directly.
+
