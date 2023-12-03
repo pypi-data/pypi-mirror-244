@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cross-platform-shutdown
+Version: 0.2.0
+Summary: 
+Author: megahomyak
+Author-email: g.megahomyak@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# cross\_platform\_shutdown
+
+Shuts the machine down immediately
+
+## Installation
+
+`pip install cross_platform_shutdown`
+
+## Usage
+
+* Check out the [russian\_roulette.py](russian_roulette.py) file for an example
+* Warning: an `OSNotSupported` exception will be thrown if the current OS is not supported by the library
+
