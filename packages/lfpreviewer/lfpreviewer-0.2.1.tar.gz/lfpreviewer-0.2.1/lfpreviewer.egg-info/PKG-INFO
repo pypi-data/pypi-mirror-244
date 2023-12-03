@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: lfpreviewer
+Version: 0.2.1
+Summary: Previewer for lfp
+Home-page: UNKNOWN
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6

@@ -1,0 +1,3 @@
+docopt
+attrs>=18.2.0
+pillow
