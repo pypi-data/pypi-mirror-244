@@ -1,0 +1,7 @@
+winrt/_winrt_windows_gaming_input.cp312-win_arm64.pyd,sha256=MwfQdO2hzK0xAFk6KR6QqCFk8FQncoqvCfIP5DvT7Q0,435712
+winrt/_winrt_windows_gaming_input.pyi,sha256=ITA21kI3LEEMXg0TD1I6NkQkpI11Au7Dpc1EOi-wJn0,21513
+winrt/windows/gaming/input/__init__.py,sha256=7v-atTfwgXEZgAHUSJZKzCixJWQJzNYubQAZJ8-MMc0,5205
+winrt_Windows.Gaming.Input-2.0.0b2.dist-info/METADATA,sha256=GYfa-9bWf02qmktBBlqujdgT8kzbrqKpei03cfD2EUM,1469
+winrt_Windows.Gaming.Input-2.0.0b2.dist-info/WHEEL,sha256=WQX5S5G4PWm-PsXSWxNv7OPWII7hCf8pkMhg5KHb4hE,102
+winrt_Windows.Gaming.Input-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Gaming.Input-2.0.0b2.dist-info/RECORD,,
