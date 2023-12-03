@@ -1,0 +1,5 @@
+setup.py
+dg_atulya_pkg.egg-info/PKG-INFO
+dg_atulya_pkg.egg-info/SOURCES.txt
+dg_atulya_pkg.egg-info/dependency_links.txt
+dg_atulya_pkg.egg-info/top_level.txt
