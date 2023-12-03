@@ -1,0 +1,7 @@
+winrt/_winrt_microsoft_ui_xaml_hosting.cp310-win32.pyd,sha256=JFyDRSFNr3DUqap9L3RbYVPXQ2zkY4rj46l-YXt6GaU,104960
+winrt/_winrt_microsoft_ui_xaml_hosting.pyi,sha256=B2MR8fqxJ4Ls7gTvX9IVZ3MYRKzbZWUeH85g__9PWe4,6631
+winrt/microsoft/ui/xaml/hosting/__init__.py,sha256=yLlSW9ik5kEH4aO2bfdXeEkxTzcEr6Nchf0fYzNgoD8,1369
+winrt_Microsoft.UI.Xaml.Hosting-2.0.0b2.dist-info/METADATA,sha256=3VbNDkw22chj9boZaBVeTeszLxwUaZ24Q8rrQbnGLBE,1549
+winrt_Microsoft.UI.Xaml.Hosting-2.0.0b2.dist-info/WHEEL,sha256=ctSO3Ng3VQXwM0FMF_gy60e4VosCkFDNxiZjJ18ulgA,98
+winrt_Microsoft.UI.Xaml.Hosting-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.UI.Xaml.Hosting-2.0.0b2.dist-info/RECORD,,
