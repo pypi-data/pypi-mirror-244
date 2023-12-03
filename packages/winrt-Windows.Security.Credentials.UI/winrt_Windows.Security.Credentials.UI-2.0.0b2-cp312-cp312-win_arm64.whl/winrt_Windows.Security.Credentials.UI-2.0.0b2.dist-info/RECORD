@@ -1,0 +1,7 @@
+winrt/_winrt_windows_security_credentials_ui.cp312-win_arm64.pyd,sha256=myZd0_La9tA8QNK31qYJSIzL88nEr9VQgV_5TDtVQwU,145920
+winrt/_winrt_windows_security_credentials_ui.pyi,sha256=sgX7XgN3VDZHF1qP8Rj7wR70Gv9dYIS5hCz5vhKC3vE,4325
+winrt/windows/security/credentials/ui/__init__.py,sha256=Xv6qTA0HuSY2w_ZLK-h9ntIjrBQ7XuB_W2U8qXXNTmg,1419
+winrt_Windows.Security.Credentials.UI-2.0.0b2.dist-info/METADATA,sha256=pXwCkC-3G2jHpb76dRj1CY6GImNpeYn76NpJAzBciwM,1174
+winrt_Windows.Security.Credentials.UI-2.0.0b2.dist-info/WHEEL,sha256=WQX5S5G4PWm-PsXSWxNv7OPWII7hCf8pkMhg5KHb4hE,102
+winrt_Windows.Security.Credentials.UI-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Credentials.UI-2.0.0b2.dist-info/RECORD,,
