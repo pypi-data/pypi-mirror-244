@@ -1,0 +1,7 @@
+README.md
+setup.py
+rone.egg-info/PKG-INFO
+rone.egg-info/SOURCES.txt
+rone.egg-info/dependency_links.txt
+rone.egg-info/top_level.txt
+tests/test_myfunctions.py
