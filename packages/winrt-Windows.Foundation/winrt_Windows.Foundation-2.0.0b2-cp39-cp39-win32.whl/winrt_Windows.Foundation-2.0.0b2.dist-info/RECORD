@@ -1,0 +1,7 @@
+winrt/_winrt_windows_foundation.cp39-win32.pyd,sha256=uitb10DQH9iSu98hkb8ge9BKYDlOUUkK6Az_Iy_zC04,296448
+winrt/_winrt_windows_foundation.pyi,sha256=DiPWBT1sGwO87U4PpflJDSDm2rNgAuZq836nYrmosKo,24161
+winrt/windows/foundation/__init__.py,sha256=KnHwvIDQmTtA2V8jZkbqeS6MlHBAxcQMmbrucd1peG0,4674
+winrt_Windows.Foundation-2.0.0b2.dist-info/METADATA,sha256=kCNeVpCEZWfjxy_xsa9K7apRoG-L7BKloaJRoskWtr8,1051
+winrt_Windows.Foundation-2.0.0b2.dist-info/WHEEL,sha256=f7KcxEC-t0Gqz4jsLWrEKtFkz8Ns4-1YqJU5A6LXwLY,96
+winrt_Windows.Foundation-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Foundation-2.0.0b2.dist-info/RECORD,,
