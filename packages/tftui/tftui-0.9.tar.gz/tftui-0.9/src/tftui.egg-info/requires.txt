@@ -1,0 +1,5 @@
+textual>=0.32.0
+textual-dev
+posthog>=3.0.2
+requests>=2.31.0
+pyperclip>=1.8.2
