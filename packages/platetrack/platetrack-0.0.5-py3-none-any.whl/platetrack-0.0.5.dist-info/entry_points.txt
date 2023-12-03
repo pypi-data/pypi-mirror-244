@@ -1,0 +1,2 @@
+[napari.manifest]
+platetrack = platetrack:napari.yaml

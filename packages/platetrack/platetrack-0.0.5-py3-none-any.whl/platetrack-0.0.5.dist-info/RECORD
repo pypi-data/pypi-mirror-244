@@ -1,0 +1,10 @@
+platetrack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+platetrack/dock_widgets.py,sha256=KceivmVitOxNShTi1PczstzjnH3dWvna0nBJInyd4NE,2542
+platetrack/napari.yaml,sha256=CHtLp-7h9jk4u-IXkn-xnv9SBsbskGiRllavOX12hs0,320
+platetrack/platelet_info.py,sha256=9rS-6xp0_VFZv3KVfvc9MjRNCRtsffofZsGPKJTJuBw,7056
+platetrack-0.0.5.dist-info/LICENSE,sha256=21NOqrnfa_Huh5MNlrLi70Tsn8Kq1mxXuPYRkIIMFLA,1503
+platetrack-0.0.5.dist-info/METADATA,sha256=1POa5U9afe_xXCg2OzWGduQEuagtmU1sv30QWm2yxuU,7621
+platetrack-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+platetrack-0.0.5.dist-info/entry_points.txt,sha256=7WyCwlpzjHMaM1y-up1ap-tcsIP8ar2j7EGG5gGnGQ8,54
+platetrack-0.0.5.dist-info/top_level.txt,sha256=2CniyInsPEK98eJ-aCH0R_x3IBLo-mnx8ZOtPNsL4fY,11
+platetrack-0.0.5.dist-info/RECORD,,
