@@ -1,0 +1,7 @@
+winrt/_winrt_windows_system_userprofile.cp310-win_amd64.pyd,sha256=hyE8T920E6W6INwoGaxve9NDwCqNVDyCyLfQi8kRehQ,263168
+winrt/_winrt_windows_system_userprofile.pyi,sha256=bilsqqT9KeZspA8Lzjnx-ZuHcvoWcv2J4Buvz2AKimk,9936
+winrt/windows/system/userprofile/__init__.py,sha256=biTLrpjBEEy1WLM2ruGIWno_XPLe49c0kYcboHrLI_k,1818
+winrt_Windows.System.UserProfile-2.0.0b2.dist-info/METADATA,sha256=r16Ma6QkOpahxkG61pfXwv06jxTlfEVIPRDLK12Bhhw,1474
+winrt_Windows.System.UserProfile-2.0.0b2.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+winrt_Windows.System.UserProfile-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.UserProfile-2.0.0b2.dist-info/RECORD,,
