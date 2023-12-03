@@ -1,0 +1,10 @@
+src/skylog/__init__.py,sha256=Hux6UeKNr1kVgizFRB6KKXm0HLurnNabSe3ZauWjuhc,135
+src/skylog/client.py,sha256=XONFMInuzrAJFHN0Gm0ziDDiAPkco_xY-bXZzwGcITM,7196
+src/skylog/exception.py,sha256=6zND8MQ4MAuhX80mORPK7z5DQqXOwpjmk9x6RSNHESg,2246
+src/skylog/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/skylog/integration/abc.py,sha256=POucdz_VYGNswUG9TtjriX21I9feVNqBTn7TP5fSvrM,2906
+src/skylog/integration/utils.py,sha256=DCUxCN96HdRL2V-a4h2kGb2aHBCr_rQ1BKTO32zK89I,2999
+skylog_sdk-0.1.0.dist-info/METADATA,sha256=j6FjTbbTndl182hDWg_NpD90bQMypS_cnxvRHhIVtyg,3403
+skylog_sdk-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+skylog_sdk-0.1.0.dist-info/licenses/LICENSE,sha256=xaLKwi9p2-zwqNPA0pbsP4onD2_dWLqbExpuBQ9zDag,412
+skylog_sdk-0.1.0.dist-info/RECORD,,
