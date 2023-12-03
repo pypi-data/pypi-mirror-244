@@ -1,0 +1,11 @@
+speedtest_ssh/__init__.py,sha256=TDMgg_5xPwwb0fBKWSZmnTJ7JWMD6vSeZYn_obIuuzY,66
+speedtest_ssh/_version.py,sha256=PWzwnLSFgqP4raZX5I9zt9_IN2D3NEcXMtzqA89ph24,27
+speedtest_ssh/data_transfer.py,sha256=6Wa64GjC7dMWtBq5g1LIECUWE8V4BwyMFUyzqpD3yV4,3694
+speedtest_ssh/py.typed,sha256=RA7As2lOH7eQPv5iX3k5Y1mOmlpXe_hxf0REB73oXt0,8
+speedtest_ssh/speedtest_ssh.py,sha256=xNbE21_K1m5Bt6RHJglgwFeAsnXvSHbbHuBparcabdU,6772
+speedtest_ssh-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+speedtest_ssh-2.0.0.dist-info/METADATA,sha256=atK9ZP-LiNEs3P2wXkwMzas2_KF3KxcteAkKYSZ8axo,1525
+speedtest_ssh-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+speedtest_ssh-2.0.0.dist-info/entry_points.txt,sha256=uHHliMfWq3fBHKUPEMQr8M4zncWzoncZGWVzqyNTDrI,52
+speedtest_ssh-2.0.0.dist-info/top_level.txt,sha256=yHE-qyA9KIkfa2q-E3VzAvPJk1JmDp73sLQe63R75Co,14
+speedtest_ssh-2.0.0.dist-info/RECORD,,
