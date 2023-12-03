@@ -1,0 +1,16 @@
+jupyterlab_courselevels/__init__.py,sha256=-5xg-mDAnS5LPm81aGy6w6bi8yA4HSt8EGNFtfyYgeU,166
+jupyterlab_courselevels/_version.py,sha256=6_Qg9na4nNbS4phiijcL0NfhIE4wz4aD3pG_umYr1wU,171
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/package.json,sha256=tLbzd13TKqIj1iEtqG8UGlbA3sa3v4zWWTFo3WuShWc,3762
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/schemas/jupyterlab-courselevels/package.json.orig,sha256=9s7eGfx2vY2JeyCKIUOUSwp8JifB_l9q7cYrzS8beLA,3620
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/schemas/jupyterlab-courselevels/plugin.json,sha256=Iea33-dVrHwp0K9d7Dxf4AWV5NWWoeQNdQTtdkJzYok,391
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/static/127.8ad3c40fd9931b31c227.js,sha256=itPED9mTGzHCJ1Lq7qHisWUTFC2SNFLup3P_NilkdlI,6065
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/static/606.9b0d8e09a6d2ad7c7ada.js,sha256=mw2OCabSrXx62hfdq49Jv5rW528CzvyABm0YsX3RnQw,5562
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/static/747.d451ccdabb6593af957e.js,sha256=1FHM2rtlk6-VflM8uL_-X-zFmerzJQ69yWPHkTuiXT4,4906
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/static/remoteEntry.f775066622bb7b0b8e94.js,sha256=93UGZiK7ewuOlGlEohXM3kUzn9gfPlyZWEEGl9wwxqo,7748
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/static/style.js,sha256=w4UzvkXKGYsI--9V2YOhgNmAe4iQIr6gcaN4Xa9k_CE,166
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/static/third-party-licenses.json,sha256=LpwmZA1vHmAhYP_7Ro8MNcuHA_tnrJapWfXFLl4D4xc,4158
+jupyterlab_courselevels-0.6.4.data/data/share/jupyter/labextensions/jupyterlab-courselevels/install.json,sha256=cp7Jadop1eo4kayoWbQS99Z7Fx_tYQHkBpvfDI6mD88,207
+jupyterlab_courselevels-0.6.4.dist-info/METADATA,sha256=oJb6H6oz6HbP0BJ8YD5_cTcbUOWpvb6Xv0R8IFnbqFE,8182
+jupyterlab_courselevels-0.6.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_courselevels-0.6.4.dist-info/licenses/LICENSE,sha256=62wm6VbtLaeUaNyeQm7asZIGu-IyhV_SMWV3kMByUkc,1527
+jupyterlab_courselevels-0.6.4.dist-info/RECORD,,
