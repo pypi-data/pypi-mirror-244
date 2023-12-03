@@ -1,0 +1,10 @@
+story_writer/__init__.py,sha256=3_dzmD5MC32awolT_UydFM9KfDMkO9kEPuzmE4ZUYB4,175
+story_writer/_machinery.py,sha256=tW2I76n2fiJdIb0BSwoTkYIa0mXhagjHVTlTXvlsSKU,4269
+story_writer/_make_pdf.py,sha256=O0HK61Gpq76elZqO2FDQVAMbM7Sc7G8aY2w-5WKphW8,3080
+story_writer/_streamlit_script.py,sha256=Xkg0VdzGV2L4YKGLFf8l8optHZNxDo49Bkqts9BPm_c,5222
+story_writer-0.1.1.dist-info/LICENSE,sha256=n7Ws4Uw2jnda4YoW-TgiGSefHRPlACAsH1Yg5YlTJx4,1557
+story_writer-0.1.1.dist-info/METADATA,sha256=9qrXrrFcxTVeC4JL-CSr2u3Y7JRIfKRJ4M2VtBWu7Fg,4137
+story_writer-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+story_writer-0.1.1.dist-info/entry_points.txt,sha256=hCnLzVlcI2GSpmRLbR7pqOw5kMafWjSNwJHQmuyObMA,69
+story_writer-0.1.1.dist-info/top_level.txt,sha256=nhOOCmIiqJB6QIvFc9xzEJ5-YBCBfn_wy-XLfFnnN6c,13
+story_writer-0.1.1.dist-info/RECORD,,
