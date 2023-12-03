@@ -1,0 +1,12 @@
+click
+google-api-python-client
+pyobjc-framework-Vision
+opencv-python
+pytube
+pyserde
+
+[dev]
+pre-commit
+
+[test]
+pytest
