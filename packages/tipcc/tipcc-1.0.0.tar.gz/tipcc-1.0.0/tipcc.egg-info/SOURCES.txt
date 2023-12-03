@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+tipcc.egg-info/PKG-INFO
+tipcc.egg-info/SOURCES.txt
+tipcc.egg-info/dependency_links.txt
+tipcc.egg-info/top_level.txt
