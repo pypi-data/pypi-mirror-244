@@ -1,0 +1,16 @@
+knewkarma/__init__.py,sha256=qaxspz8A_nxNBsmj81Gci0H99dKtyvnysdZtpaQIEjc,194
+knewkarma/_cli.py,sha256=qDbtNIRD17E5AYkV_-F0XXm9mEXa0vveVTo_cpDJmW0,5901
+knewkarma/_coreutils.py,sha256=byq01FPCrvQ9dVlXkXUUnq7n8C6IEMvesdsUsGQUfQ4,4773
+knewkarma/_parser.py,sha256=RBzV6APw6fcdrvlFDWLEKEMbowPJmsdTGOeE9YdO-XM,5109
+knewkarma/_project.py,sha256=Q7YZIXw4HbXU8qiZFoazk4raW1C4SXSF58dDc5QHzyk,2606
+knewkarma/api.py,sha256=8ToRK-YtSNJvVz-d8REK3nnx9yn_G5co9R7he6Fr404,10485
+knewkarma/base.py,sha256=0gkMR3TtvDtgQTUjZ_d2qiSDqM2tu7c3LLQRKqVZ8Bg,13490
+knewkarma/data.py,sha256=nDAkZQIpu2VlZ34fkJxHYzN1qeMH5kfpH2YRgYrM3ns,2019
+knewkarma/examples/posts.py,sha256=2O-t4mIuhGdDEJbaaseLliLGxBqywmCneG5b5I2HyJs,1134
+knewkarma/examples/subreddit.py,sha256=KfJIx_z3FHH-6BZYbqy8IrVxjoS8pphsv3_Eg3teefI,1166
+knewkarma/examples/user.py,sha256=bgdXEy07_rXIQCeDxkXzxyaqu8s0Oe-YYA_PciK-ZFk,1199
+knewkarma-3.2.0.0.dist-info/LICENSE,sha256=kTxN5txAxe0q-4go2BnfRSPECNrGeWodj2keQ0tF0zI,1091
+knewkarma-3.2.0.0.dist-info/METADATA,sha256=lSE8gGSHUAGLkBhVSoAIvccV71QtvaKZTyjX84xy35Y,6828
+knewkarma-3.2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+knewkarma-3.2.0.0.dist-info/entry_points.txt,sha256=wKhzQ1BVGXlIFM3VhxVy1_sLS0pM7HAKQU2AhVPhsa8,56
+knewkarma-3.2.0.0.dist-info/RECORD,,
