@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_resources_management.cp39-win_amd64.pyd,sha256=0nquKHYKputN6ut-9TqSVWL3pf27M-kUO9ALw9eEgHg,123904
+winrt/_winrt_windows_applicationmodel_resources_management.pyi,sha256=T20w3xYHd0cMmuO6h5uco_8MDFq3QyLoIWgVwSre49Y,2297
+winrt/windows/applicationmodel/resources/management/__init__.py,sha256=6CypQz53jpfseAvHJkQMZbQgZzJObXz0woPva8oVLy0,711
+winrt_Windows.ApplicationModel.Resources.Management-2.0.0b2.dist-info/METADATA,sha256=1jjuyVuJtBMsvVRZCAwF_iqNxdtgHdv-DuVw2AZOrRk,1237
+winrt_Windows.ApplicationModel.Resources.Management-2.0.0b2.dist-info/WHEEL,sha256=2xSj8c4s_gFbWpcImYQptdXS3JLuzC2uK5Om8I_SEKg,100
+winrt_Windows.ApplicationModel.Resources.Management-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Resources.Management-2.0.0b2.dist-info/RECORD,,
