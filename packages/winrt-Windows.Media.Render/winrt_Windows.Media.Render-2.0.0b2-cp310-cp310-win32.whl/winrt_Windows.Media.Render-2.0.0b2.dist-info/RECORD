@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_render.cp310-win32.pyd,sha256=dStOthcy1E1j3n99mWJaUWy41GuYIKdbqKzrtxL-7HU,9728
+winrt/_winrt_windows_media_render.pyi,sha256=TolKFuVBA3xrqwuoDgsO3hJmlNmjUsU7v55KuOc0Iug,339
+winrt/windows/media/render/__init__.py,sha256=Yr9MiSa_jT-2He1pVzIqawD6ExRPiesvToiP6bnODvE,492
+winrt_Windows.Media.Render-2.0.0b2.dist-info/METADATA,sha256=FCJNQMD9EqhSReN1mGfXsa6NSOZF624h979HGAN9og0,948
+winrt_Windows.Media.Render-2.0.0b2.dist-info/WHEEL,sha256=ctSO3Ng3VQXwM0FMF_gy60e4VosCkFDNxiZjJ18ulgA,98
+winrt_Windows.Media.Render-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Render-2.0.0b2.dist-info/RECORD,,
