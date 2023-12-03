@@ -1,0 +1,7 @@
+winrt/_winrt_windows_storage_bulkaccess.cp310-win32.pyd,sha256=Ii2ftXO9P9SpKcFl0_sVBmkA76s14JpeKJKPei8QKKo,439808
+winrt/_winrt_windows_storage_bulkaccess.pyi,sha256=MafqE6UZvEkWH8vXj2Hza4bDvI-IuKLgWMeGfamHipg,20970
+winrt/windows/storage/bulkaccess/__init__.py,sha256=Bv5MgShGbM3ZNbNdXxBsTS0_NZoVSNtK1U_OAnszbhs,591
+winrt_Windows.Storage.BulkAccess-2.0.0b2.dist-info/METADATA,sha256=dEXo_5e62pDe-uNL9dMgpEpklCduk-J3W3Qf16i4d-0,1491
+winrt_Windows.Storage.BulkAccess-2.0.0b2.dist-info/WHEEL,sha256=ctSO3Ng3VQXwM0FMF_gy60e4VosCkFDNxiZjJ18ulgA,98
+winrt_Windows.Storage.BulkAccess-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Storage.BulkAccess-2.0.0b2.dist-info/RECORD,,
