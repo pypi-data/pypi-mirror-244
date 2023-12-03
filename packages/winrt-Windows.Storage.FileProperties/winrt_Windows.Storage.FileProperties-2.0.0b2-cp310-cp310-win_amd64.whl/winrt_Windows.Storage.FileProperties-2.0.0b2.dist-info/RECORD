@@ -1,0 +1,7 @@
+winrt/_winrt_windows_storage_fileproperties.cp310-win_amd64.pyd,sha256=PyXpKiB2_ZiCbnEDYsBmMY2wz88uQhGwYr2c98Z25TU,382976
+winrt/_winrt_windows_storage_fileproperties.pyi,sha256=fiXe8C5sTcvwuTIA8TcTIE3n7bowfsTCCmihbkC21Y0,14025
+winrt/windows/storage/fileproperties/__init__.py,sha256=BvCY9oaQPguo5r82iX0CvxtvFcWTJIBnmG0KdSmxYh4,2163
+winrt_Windows.Storage.FileProperties-2.0.0b2.dist-info/METADATA,sha256=CE0wTfESJFVosCM8B47kD6L1QGa5sK_Xp0D42rs8Kc0,1422
+winrt_Windows.Storage.FileProperties-2.0.0b2.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+winrt_Windows.Storage.FileProperties-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Storage.FileProperties-2.0.0b2.dist-info/RECORD,,
