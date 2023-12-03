@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+test_sic_data_club.egg-info/PKG-INFO
+test_sic_data_club.egg-info/SOURCES.txt
+test_sic_data_club.egg-info/dependency_links.txt
+test_sic_data_club.egg-info/top_level.txt
