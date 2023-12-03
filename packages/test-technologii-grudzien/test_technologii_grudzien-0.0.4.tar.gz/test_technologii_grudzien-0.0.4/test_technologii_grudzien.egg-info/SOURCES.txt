@@ -1,0 +1,8 @@
+setup.py
+mp_summming/__init__.py
+mp_summming/add.py
+mp_summming/sub.py
+test_technologii_grudzien.egg-info/PKG-INFO
+test_technologii_grudzien.egg-info/SOURCES.txt
+test_technologii_grudzien.egg-info/dependency_links.txt
+test_technologii_grudzien.egg-info/top_level.txt
