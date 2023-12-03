@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_bluetooth_advertisement.cp311-win_amd64.pyd,sha256=4MF5g-4qFT9ouNp5BhPjV4tclwKFHgkTljkVC-uuozY,337920
+winrt/_winrt_windows_devices_bluetooth_advertisement.pyi,sha256=Q8B3QbDwxLiaBKeRwacEwv4FZBomkjjdxeubgohq67M,13945
+winrt/windows/devices/bluetooth/advertisement/__init__.py,sha256=gNwg00Qrb-IICMpc17eUX2JGuGNmSS5BvnqXd1nAm9o,3066
+winrt_Windows.Devices.Bluetooth.Advertisement-2.0.0b2.dist-info/METADATA,sha256=Bn4T4ydkhIdNMQ8HknsPpKldSGMCN_xFLgP97rs6Ne0,1381
+winrt_Windows.Devices.Bluetooth.Advertisement-2.0.0b2.dist-info/WHEEL,sha256=badvNS-y9fEq0X-qzdZYvql_JFjI7Xfw-wR8FsjoK0I,102
+winrt_Windows.Devices.Bluetooth.Advertisement-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Bluetooth.Advertisement-2.0.0b2.dist-info/RECORD,,
