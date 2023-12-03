@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sfdevtoolslight"
+version = "1.2.0"
+description = ""
+authors = ["SulfredLee <sflee1112@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4 = "^4.12.2"
+openpyxl = "^3.1.2"
+sqlalchemy = "^2.0.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
