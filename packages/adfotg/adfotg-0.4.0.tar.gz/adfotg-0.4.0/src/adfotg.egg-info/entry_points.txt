@@ -1,0 +1,3 @@
+[console_scripts]
+adfotg = adfotg.cli:main
+adfotg-xdftool = adfotg.amitools.tools.xdftool:main
