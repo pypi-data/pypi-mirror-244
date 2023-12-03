@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astropath"
+version = "1.0.0a1"
+authors = [
+  {name="Matiiss", email="matiiss@matiiss.com"},
+]
+description = "A bunch of * pathfinding algorithms written in C for that extra squeeze of speed."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Matiiss/astropath"
+Issues = "https://github.com/Matiiss/astropath/issues"
+
+[tool.setuptools.packages.find]
+where = ["stubs", "docs"]
