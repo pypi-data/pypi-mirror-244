@@ -1,0 +1,15 @@
+commitgpt/__init__.py,sha256=kkZGfvVupdce3LSwTmgPFq-BOUKwDkcEyahRZ0dNWV4,49
+commitgpt/__main__.py,sha256=6bV_hUeeA0icGTYSxDzf8PhsczEazJ-05wpwGIOhPog,49
+commitgpt/gitop.py,sha256=n8GmhdnLV7XBVIyBDrgDZ6N4fyFrjSzXk5JKq19T2s8,3147
+commitgpt/gpt.py,sha256=ykeGANCawHeeO6KXZXOllmhqOZXMqwPPMbzG32WfeZs,2938
+commitgpt/main.py,sha256=fmj9gDYZtNYWePTlpEZTSd4qGAJP-9kLUnb8QBDguDQ,8551
+commitgpt/prompts.py,sha256=L6WNj3cOtDl-fAikp2JMRj9Jv0Ufdubo-aeeqH-6cyo,2247
+commitgpt/test_gitop.py,sha256=PBtr2t_uBWlyMk3Q5RU-8rcSu72MIkNxgzFfiVKJJ8g,1774
+commitgpt/test_gpt.py,sha256=58MA7_RUlFR_Qo3BZZAD6LLEeXHqOv1kR2pGZEpoCUI,292
+commitgpt/test_update.py,sha256=Obb1KSOS9Pn5Rkjcv854mM0wgTYXzehqVMNt1t0VO0w,2442
+commitgpt/update.py,sha256=QOXHPjwygf3L7EBpAlw_yhsYjQxgzCXhjKFCt6EQp94,1710
+commitgpt-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+commitgpt-1.1.0.dist-info/METADATA,sha256=ztdAQbAeqzZcapTW3T5eWwm2tZD7fREIjC3i2DQep4Q,2319
+commitgpt-1.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+commitgpt-1.1.0.dist-info/entry_points.txt,sha256=Lkjwc2hZHRNIiOIllXiX4NrXWs2m1EQB2Hnsw8tEuqY,48
+commitgpt-1.1.0.dist-info/RECORD,,
