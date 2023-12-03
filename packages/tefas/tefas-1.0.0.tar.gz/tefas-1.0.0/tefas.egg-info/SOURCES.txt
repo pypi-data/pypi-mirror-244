@@ -1,0 +1,8 @@
+setup.py
+tefas/__init__.py
+tefas/program.py
+tefas.egg-info/PKG-INFO
+tefas.egg-info/SOURCES.txt
+tefas.egg-info/dependency_links.txt
+tefas.egg-info/requires.txt
+tefas.egg-info/top_level.txt
