@@ -1,0 +1,176 @@
+{
+    "name": "The app name",
+    "description": "A description of the app",
+    "entities": [
+        {
+            "name": "User",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "ID"
+                },
+                {
+                    "name": "username",
+                    "type": "String",
+                    "constraints": {
+                        "unique": true,
+                        "max_length": 50
+                    }
+                },
+                {
+                    "name": "email",
+                    "type": "Email",
+                    "constraints": {
+                        "unique": true,
+                        "max_length": 100
+                    }
+                },
+                {
+                    "name": "password",
+                    "type": "String",
+                    "constraints": {
+                        "min_length": 8,
+                        "max_length": 100
+                    }
+                },
+                {
+                    "name": "first_name",
+                    "type": "String",
+                    "constraints": {
+                        "max_length": 50
+                    }
+                },
+                {
+                    "name": "last_name",
+                    "type": "String",
+                    "constraints": {
+                        "max_length": 50
+                    }
+                },
+                {
+                    "name": "avatar",
+                    "type": "Image"
+                },
+                {
+                    "name": "bio",
+                    "type": "Text"
+                }
+            ]
+        },
+        {
+            "name": "Address",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "ID"
+                },
+                {
+                    "name": "street",
+                    "type": "String",
+                    "constraints": {
+                        "max_length": 100
+                    }
+                },
+                {
+                    "name": "city",
+                    "type": "String",
+                    "constraints": {
+                        "max_length": 50
+                    }
+                },
+                {
+                    "name": "zip_code",
+                    "type": "String",
+                    "constraints": {
+                        "max_length": 20
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Product",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "ID"
+                },
+                {
+                    "name": "name",
+                    "type": "String",
+                    "constraints": {
+                        "max_length": 100
+                    }
+                },
+                {
+                    "name": "description",
+                    "type": "Text"
+                },
+                {
+                    "name": "price",
+                    "type": "Float",
+                    "constraints": {
+                        "ge": 0.0
+                    }
+                },
+                {
+                    "name": "in_stock",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "image",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "name": "Order",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "ID"
+                },
+                {
+                    "name": "order_date",
+                    "type": "Date"
+                },
+                {
+                    "name": "total_amount",
+                    "type": "Float",
+                    "constraints": {
+                        "ge": 0.0
+                    }
+                },
+                {
+                    "name": "is_paid",
+                    "type": "Boolean"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "name": "User_Address",
+            "type": "ONE_TO_ONE",
+            "from": "User",
+            "to": "Address",
+            "field_name": "address",
+            "backref_field_name": "user"
+        },
+        {
+            "name": "User_Products",
+            "type": "ONE_TO_MANY",
+            "from": "User",
+            "to": "Product",
+            "field_name": "products",
+            "backref_field_name": "user"
+        },
+        {
+            "name": "Product_Orders",
+            "type": "MANY_TO_MANY",
+            "from": "Product",
+            "to": "Order",
+            "field_name": "orders",
+            "backref_field_name": "products"
+        }
+    ]
+}
