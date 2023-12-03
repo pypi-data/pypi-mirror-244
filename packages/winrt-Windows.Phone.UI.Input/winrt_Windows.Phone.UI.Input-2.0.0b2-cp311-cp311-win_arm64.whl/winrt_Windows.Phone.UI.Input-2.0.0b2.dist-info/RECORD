@@ -1,0 +1,7 @@
+winrt/_winrt_windows_phone_ui_input.cp311-win_arm64.pyd,sha256=v1q2vqURdzCae3_bjFXqBXYbeEc6k8JX345WQyCDLI8,67072
+winrt/_winrt_windows_phone_ui_input.pyi,sha256=Fz_JK1tmsrRXWZ491zt3j-HBUGfz3OIaUWv0fO6GAfM,2021
+winrt/windows/phone/ui/input/__init__.py,sha256=m0zw1Is8stfrwV0bcDsc177FNAEKNWAFBwSYnmGsImU,448
+winrt_Windows.Phone.UI.Input-2.0.0b2.dist-info/METADATA,sha256=_l4gf2Yb-HbPb-a2apcR9u0WNHPOPEzyfpwngEvAH38,1055
+winrt_Windows.Phone.UI.Input-2.0.0b2.dist-info/WHEEL,sha256=Qn6DjB4_JWLoPTwXpNiAThZMCaXLz2hkVOumgNpPUd8,102
+winrt_Windows.Phone.UI.Input-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.UI.Input-2.0.0b2.dist-info/RECORD,,
