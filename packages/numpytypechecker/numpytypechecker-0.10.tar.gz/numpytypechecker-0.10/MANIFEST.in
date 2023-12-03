@@ -1,0 +1,3 @@
+include numpytypechecker/requirements.txt
+include numpytypechecker/thirdparty.json
+include numpytypechecker/README.MD

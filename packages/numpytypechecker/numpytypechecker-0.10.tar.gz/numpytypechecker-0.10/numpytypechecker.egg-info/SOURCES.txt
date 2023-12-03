@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+numpytypechecker/README.MD
+numpytypechecker/__init__.py
+numpytypechecker/requirements.txt
+numpytypechecker/thirdparty.json
+numpytypechecker.egg-info/PKG-INFO
+numpytypechecker.egg-info/SOURCES.txt
+numpytypechecker.egg-info/dependency_links.txt
+numpytypechecker.egg-info/requires.txt
+numpytypechecker.egg-info/top_level.txt
