@@ -1,0 +1,7 @@
+winrt/_winrt_windows_system_diagnostics_deviceportal.cp310-win32.pyd,sha256=jYPP4XqqcIV1ALAoZHmQTF81kVnWHul6G5nIK85Rokg,81920
+winrt/_winrt_windows_system_diagnostics_deviceportal.pyi,sha256=dcC80vm1KZKRZQxGRxt_eItSVhptEwQ8mRa8x5UKACw,4208
+winrt/windows/system/diagnostics/deviceportal/__init__.py,sha256=M23iWOePhcPOp7DCcQhY68S8T1uRfN8N9rSSt31ObKA,940
+winrt_Windows.System.Diagnostics.DevicePortal-2.0.0b2.dist-info/METADATA,sha256=B-TXenxOuoNIsNQd29qf8vGXCtY3o9RImMkiSzIi0uQ,1470
+winrt_Windows.System.Diagnostics.DevicePortal-2.0.0b2.dist-info/WHEEL,sha256=ctSO3Ng3VQXwM0FMF_gy60e4VosCkFDNxiZjJ18ulgA,98
+winrt_Windows.System.Diagnostics.DevicePortal-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.Diagnostics.DevicePortal-2.0.0b2.dist-info/RECORD,,
