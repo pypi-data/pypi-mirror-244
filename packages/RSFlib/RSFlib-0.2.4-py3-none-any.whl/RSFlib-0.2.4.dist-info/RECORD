@@ -1,0 +1,17 @@
+RSFlib/CalcFunctions.py,sha256=qGteVGgFsyovMaoeYrIr7Xqxisos4XkA6J8-SrW3Dmc,3198
+RSFlib/ColorSearch.py,sha256=p91jZ2-dtnybEdT9jdN0fzgp-8gQDjY9gUo8ReUk584,1676
+RSFlib/Constants.py,sha256=v_3AzVH_DFyqHEGms2-0dzBPVvSfMD-asPKMf_OMkco,1120
+RSFlib/DataManagement.py,sha256=dsLMaZZzO4lOyrS5cDQUAZMetL70O0H2cbzlRw-QLAE,1163
+RSFlib/TkinterExtension.py,sha256=BLb8D34Me9l2h1RzdCd_Zy-EJkTvgRUfQvxua6v_H8Y,4580
+RSFlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RSFlib/pylipsometry.py,sha256=d_Ho8EJk55bX5sUdns724w-iQosN8dLwBFkaNmIrg1c,4785
+RSFlib/opt_data/Sb3O2_FL_fit.rsfile,sha256=w3iu7hNgz7-u1A13OMbnvhjOcxcnd_tf5hleXlQI2V4,2308
+RSFlib/opt_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RSFlib/opt_data/al2o3.rsfile,sha256=7I42hp4TdofKIHq4Mlq0J6VkE2K2PqW-Cb8YfR4HrWM,2603
+RSFlib/opt_data/si_jaw2.rsfile,sha256=t-aiHgxgYzRzkyRffdLTgR7b1pwQV4hkgfgpnrpLIsA,2273
+RSFlib/opt_data/sio2_fmetrix.rsfile,sha256=pccEoKCWv7-09zwci6SmuIa1IiN9017vYXKADiLq0Io,4400
+RSFlib/opt_data/sio2_jaw2.rsfile,sha256=SjvL_vs80u5LumGyUL4qVQhSsgyFlGQwkFJMnE9CUHA,1444
+RSFlib-0.2.4.dist-info/METADATA,sha256=rdjlkBo-YSlw9qpr_prbmjrI6D7g4b6nctAfgPnm1Ao,652
+RSFlib-0.2.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+RSFlib-0.2.4.dist-info/top_level.txt,sha256=YwnzgHqaoxAtFXZW3q4zvv8Na-Uto2J6xS8EMMRZbiw,7
+RSFlib-0.2.4.dist-info/RECORD,,
