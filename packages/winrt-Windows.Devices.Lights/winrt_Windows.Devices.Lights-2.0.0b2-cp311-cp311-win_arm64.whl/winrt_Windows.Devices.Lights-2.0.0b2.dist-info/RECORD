@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_lights.cp311-win_arm64.pyd,sha256=a52_Auy4HXmZg9YuUhxFTKhshBPpZvFD2CZNLLeSbKU,180736
+winrt/_winrt_windows_devices_lights.pyi,sha256=Ktlv_vWennGjz17qy12K85YAdYEquEqWRckiA1sVCcU,6339
+winrt/windows/devices/lights/__init__.py,sha256=OugzPgdw9TYEVPcXVsUVlW0g9jRzZjKmtqz8C8_ych0,969
+winrt_Windows.Devices.Lights-2.0.0b2.dist-info/METADATA,sha256=nOooLZJdNQU0FSafexsVJpM9xY4g_oKtudVhgQrWhxg,1369
+winrt_Windows.Devices.Lights-2.0.0b2.dist-info/WHEEL,sha256=Qn6DjB4_JWLoPTwXpNiAThZMCaXLz2hkVOumgNpPUd8,102
+winrt_Windows.Devices.Lights-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Lights-2.0.0b2.dist-info/RECORD,,
