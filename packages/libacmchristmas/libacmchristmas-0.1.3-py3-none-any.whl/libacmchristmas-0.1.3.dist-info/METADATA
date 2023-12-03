@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: libacmchristmas
+Version: 0.1.3
+Summary: Write Python code to control the ACM Christmas tree!
+Author: Amy Parker
+Author-email: amy@amyip.net
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: pillow (>=10.1.0,<11.0.0)
+Requires-Dist: protobuf (>=4.25.1,<5.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+# christmas-client-py
+Python library for ACM Christmas Tree
+

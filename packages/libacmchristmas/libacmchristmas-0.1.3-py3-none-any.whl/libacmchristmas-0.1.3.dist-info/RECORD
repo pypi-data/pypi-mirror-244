@@ -1,0 +1,9 @@
+libacmchristmas/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libacmchristmas/__init__.py,sha256=8tUvLQXTp1eStE9-yTr8MI4KXQx2T8VgdclmetVWHmc,84
+libacmchristmas/christmas_pb2.py,sha256=S1demA7TTxhmNWaALHHZI6eAJ1GPRwIkgMDbIzveOOM,6070
+libacmchristmas/image.py,sha256=MacVtAwyKXFF3VRTEcF6nD7nXFOawGBDkj-BzjdEuxc,535
+libacmchristmas/tree.py,sha256=shBVd6SrjZ2kaYnjie4ZmBIt9hCGgcegDHNkfOHKjK0,3137
+libacmchristmas-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+libacmchristmas-0.1.3.dist-info/METADATA,sha256=pUb-unTNE3lyadqsnz1A-0WOLfJkgg59qr0289_5-so,561
+libacmchristmas-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+libacmchristmas-0.1.3.dist-info/RECORD,,
