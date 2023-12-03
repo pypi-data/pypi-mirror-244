@@ -1,0 +1,7 @@
+astropath/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astropath/astar.cp310-win32.pyd,sha256=nHkyZUkOHvH1yYo7FuU80jxZuOiTKwZnoYKANEqEdAY,14336
+astropath/astar.pyi,sha256=nIl3G_YzLusHnEELfN_n6UxAf_7KKP7DVHgUy6VoU3s,316
+astropath-1.0.0a0.dist-info/METADATA,sha256=k2lJU16e04LSvr0gJz75i4hUBzU96lFFXxjjsaXWqpY,551
+astropath-1.0.0a0.dist-info/WHEEL,sha256=SvbexPgB2fL5qUzHDAKGjD_kVQodMqingL5QKUa4vEs,98
+astropath-1.0.0a0.dist-info/top_level.txt,sha256=D1MtFGzGtRXjwyBaH56wdciLITYpnPw5fmJIX-Ssh8k,10
+astropath-1.0.0a0.dist-info/RECORD,,
