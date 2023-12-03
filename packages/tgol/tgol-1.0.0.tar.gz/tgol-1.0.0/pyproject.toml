@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tgol"
+dynamic = ["version"]
+description = "Conway's Game of Life in terminal"
+readme = "README.md"
+authors = [{ name = "Ahmed Bin Nasser", email = "munnaa329@gmail.com" }]
+dependencies = ['tomli; python_version < "3.11"']
+
+[project.scripts]
+tgol = "tgol.__main__:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "tgol.__version__" }
+
+[tool.setuptools.package-data]
+'tgol' = ['*.toml']
