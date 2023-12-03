@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: simplecalcpypip
+Version: 0.1.1
+Summary: Hands-on of packages documentation using pip
+License: MIT
+Author: TestPipDocs
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.2)
+Description-Content-Type: text/markdown
+
+# simplecalcpypip
+
+Hands-on of packages documentation using pip
+
+## Installation
+
+```bash
+$ pip install simplecalcpypip
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`simplecalcpypip` was created by TestPipDocs. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`simplecalcpypip` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
