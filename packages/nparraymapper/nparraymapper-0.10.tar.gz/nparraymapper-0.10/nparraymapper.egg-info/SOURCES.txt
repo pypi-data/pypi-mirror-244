@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+nparraymapper/README.MD
+nparraymapper/__init__.py
+nparraymapper/requirements.txt
+nparraymapper/thirdparty.json
+nparraymapper.egg-info/PKG-INFO
+nparraymapper.egg-info/SOURCES.txt
+nparraymapper.egg-info/dependency_links.txt
+nparraymapper.egg-info/requires.txt
+nparraymapper.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+include nparraymapper/requirements.txt
+include nparraymapper/thirdparty.json
+include nparraymapper/README.MD
