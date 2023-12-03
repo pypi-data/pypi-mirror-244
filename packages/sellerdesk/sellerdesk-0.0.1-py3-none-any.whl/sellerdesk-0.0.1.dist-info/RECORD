@@ -1,0 +1,14 @@
+sellerdesk/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+sellerdesk/__init__.py,sha256=YGBri9mb0zIwbmc3OIwdlA486MjXp2K2Mc1T2jPVg8Q,85
+sellerdesk/__main__.py,sha256=zJOG1JwJEoc4cO4lDtWcAbML0EQmZiACabNCTYkaOtQ,80
+sellerdesk/apps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sellerdesk/cli/application.py,sha256=mVehX-HWlbA4MgEbzsqCJC17b8MTQLgUM-w-Mckhx4U,161
+sellerdesk/cli/info/application.py,sha256=-r2Zt82tJCSaSeNHlacIBhQHvni4PGV_cfu3MVjMul8,155
+sellerdesk/cli/info/info.py,sha256=hAoL6JKrWAubQ4Ujnw9y-dvkgIWpKUSNKXw5nHyVw9g,149
+sellerdesk/core/settings.py,sha256=p6WKb2wAJbDYGaOj5NbcPgQ-7zBJOYxQbLkyMGI0qjY,229
+sellerdesk/packages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sellerdesk/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sellerdesk-0.0.1.dist-info/METADATA,sha256=QCE9-O4Kyr5fl3OaUam4SUVt8RY5hc4vKVgv7Ip7wAY,1556
+sellerdesk-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sellerdesk-0.0.1.dist-info/entry_points.txt,sha256=iijaDAcHSEJk4LcKa9b7DnOJdCyZPmEHR48nGPffeio,53
+sellerdesk-0.0.1.dist-info/RECORD,,

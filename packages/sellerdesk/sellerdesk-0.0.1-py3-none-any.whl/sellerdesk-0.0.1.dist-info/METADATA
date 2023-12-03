@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sellerdesk
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/p141592/
+License: MIT
+Author: Nikolay Baryshnikov
+Author-email: root@k0d.ru
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: backoff (>=2.2.1,<3.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: psycopg2-binary (>=2.9.6,<3.0.0)
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.1.0,<3.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: twine (>=4.0.1,<5.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Requires-Dist: ujson (>=5.7.0,<6.0.0)
+Requires-Dist: validators (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# Seller Desk SDK
+
+Получение списка категорий
+Получение списка товаров категории
+Получение списка товаров по запросу
+Получение информации о объявлении
+Получение информации о профиле
+Получение информации о отзывах
+
+- [] Работа через proxy
+- [] Запись информации в базу
