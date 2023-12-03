@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_sms.cp39-win_arm64.pyd,sha256=aNu2Kshf_g19dU1UuEsfHLmDybPCTp9M201_3rTaAws,793600
+winrt/_winrt_windows_devices_sms.pyi,sha256=6Wrdgww_ebXeV-tOL5EyXxZAG12Vb7YmHbcjTHOPtvo,29782
+winrt/windows/devices/sms/__init__.py,sha256=TaAD9llU4iVKtsfs-tiEx9v1NnAS0u1Cs2GFrgb9AkU,5593
+winrt_Windows.Devices.Sms-2.0.0b2.dist-info/METADATA,sha256=7p_3WyibqI_iulyI_AXQeGQ8A_A7xFTiRxad9XMGc40,1216
+winrt_Windows.Devices.Sms-2.0.0b2.dist-info/WHEEL,sha256=K0ytBUYvJpo7izffVCQznpCYT6wuGezaHGHq-IGfKHs,100
+winrt_Windows.Devices.Sms-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Sms-2.0.0b2.dist-info/RECORD,,
