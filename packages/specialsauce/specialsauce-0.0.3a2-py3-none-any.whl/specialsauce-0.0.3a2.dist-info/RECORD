@@ -1,0 +1,14 @@
+specialsauce/__init__.py,sha256=h6Eirf66zEqf_teFxjnngtsdzozZW9jrMprkrPyStPU,24
+specialsauce/core.py,sha256=hpDXMvuzS7ykkMM-P5ju9bw4Oy8b5Gf_1bsZChH4FnA,2316
+specialsauce/util.py,sha256=EunADPowqf7uOhDD1tPijo-YRBMt75Sl-alcci7xQmo,4584
+specialsauce/datasets/__init__.py,sha256=OYbH55OuUsoguEtAAWA49R_swNSHqqyugwFq9Ivc6ag,599
+specialsauce/datasets/data/ngp_gap.csv,sha256=Pctr7MbTKK1mmKutFVDW_qwivFsIQwppoIUTX4w96zA,616
+specialsauce/sources/__init__.py,sha256=7qkopFUu-nPDhyUYH_E5HA4rb8Rxg_kQeLIe2RzCcKo,221
+specialsauce/sources/minetti.py,sha256=VVy9kZ2LVI8k_cO2Ni00bu7F42FF5WSk4xKNDDgbXh0,1957
+specialsauce/sources/strava.py,sha256=5o1B3weU_D8QSrcl8Vfy-cJv1S7eoh983LmcxKFP61g,2321
+specialsauce/sources/trainingpeaks.py,sha256=MyH-LD816-3Z8eBApwcXVq16KuL19FBUrooIHqTs8ds,4744
+specialsauce-0.0.3a2.dist-info/LICENSE,sha256=O5pwrkwlyA0yyHJPlufZMSYv7YZtRI9TvcmiRM2jLEk,1058
+specialsauce-0.0.3a2.dist-info/METADATA,sha256=zyqqgoibfzAULpPCU8x4LD-K_oprEL7O-eoijaH7g-I,631
+specialsauce-0.0.3a2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+specialsauce-0.0.3a2.dist-info/top_level.txt,sha256=zc6HMY5D5mQXGINzYwrtR0Jzw2XMe6RzLOy6NW0186M,13
+specialsauce-0.0.3a2.dist-info/RECORD,,
