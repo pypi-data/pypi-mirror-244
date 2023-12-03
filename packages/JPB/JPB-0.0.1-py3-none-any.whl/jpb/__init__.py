@@ -1,0 +1,1 @@
+from jpb import setup

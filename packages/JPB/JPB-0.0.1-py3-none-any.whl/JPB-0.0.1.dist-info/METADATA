@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: JPB
+Version: 0.0.1
+Summary: Automatization Bot For Jackbox Party Pack Games
+Author: Loamf
+Author-email: <loamf2@gmail.com>
+Keywords: python,jackbox,automatization,jackbox24
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: pyautogui
+Requires-Dist: datetime
+Requires-Dist: numpy
+
+
+# JackboxPartyBot
+
+Automatization bot for JackBox games
+
+
+
+#
+
+
+
+#### Example:
+
+```
+
+import jpb
+
+
+
+
+
+jpb.setup(
+
+    translate=[jpb.setup.TJPP1().whatif(5),
+
+               jpb.setup.TJPP2().whatif(5),
+
+               jpb.setup.TJPP3().whatif("full"),
+
+               jpb.setup.TJPP4().whatif("full"),
+
+               jpb.setup.TJPP5().whatif("full"),
+
+               jpb.setup.TJPP6().whatif(5.1),
+
+               jpb.setup.TJPP7().whatif(4),
+
+               jpb.setup.TJPP8().whatif("full"),
+
+               jpb.setup.TJPP9().whatif(3),
+
+               jpb.setup.TJPP10().loamf(2)
+
+               ],
+
+    server=True
+
+)
+
+```
+
