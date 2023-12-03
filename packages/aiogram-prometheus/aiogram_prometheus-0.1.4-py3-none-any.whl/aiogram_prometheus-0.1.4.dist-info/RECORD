@@ -1,0 +1,11 @@
+aiogram_prometheus/__init__.py,sha256=Hqqn3twjAdUNbDCs73AnkaeMT8ct9yi4B5ZzOzFvMg0,162
+aiogram_prometheus/collectors/__init__.py,sha256=mD_PLEj5YRnhR7xb_TohMeuWf7cUWWGtI8_2R4TVhcw,344
+aiogram_prometheus/collectors/base.py,sha256=1pXIfy5tpcjiTXs4MPk0asTSLSKGijpK3pGVc3dLmJs,333
+aiogram_prometheus/collectors/bot.py,sha256=QTMpRIWShorvKLB4uNCvumTFtwdq9TS7xF0Zmqrsmj4,4287
+aiogram_prometheus/collectors/dispatcher.py,sha256=F2yqY8i84dQ2r4aDyq01GU7bqPLnaHKTVKp-IKiUxJ4,4870
+aiogram_prometheus/exporter.py,sha256=M2OJ-mA-LW0IYivIz92OG6cW3N8Kra1_0SEftn5Z0bk,4898
+aiogram_prometheus/middlewares.py,sha256=QD9kzg0NqZgRv1hZp8sFpEV7MY7w9ue_qUXMsNUwvmc,3569
+aiogram_prometheus-0.1.4.dist-info/LICENSE,sha256=6UZxYEivrMurbnYH8vCOplVfWBqeFQFyHyqOOP8jO_o,1056
+aiogram_prometheus-0.1.4.dist-info/METADATA,sha256=OkqVwggQNG3XpYykmgt1x08gLdaa-FBavdbdmSgKkJc,2547
+aiogram_prometheus-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aiogram_prometheus-0.1.4.dist-info/RECORD,,
