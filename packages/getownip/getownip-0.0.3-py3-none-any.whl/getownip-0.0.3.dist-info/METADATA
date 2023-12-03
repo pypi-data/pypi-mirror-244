@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: getownip
+Version: 0.0.3
+Summary: Get your own ip address
+Project-URL: Homepage, https://gitlab.com/lfuerderer1/getownip
+Author-email: Lukas Fürderer <l.fuerderer@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# getownip - A python script to determine your ip address
+
+Example:
+
+```python
+import getownip
+print("public IPv4: " + getownip.get(getownip.Public, getownip.IPv4))
+print("local IPv6: " + getownip.get(getownip.Local, getownip.IPv6))
+```
+
+To retrieve a local ip address, a default route must exist. Otherwise, `None` is returned.
+
+When retrieving a public ip address, a random one of a list of servers is accessed.
+Currently, the following list of servers is used:
+
+| service       | IPv4 | IPv6 |
+|---------------|------|------|
+| getmyip.dev   |  yes |  yes |
+| icanhazip.com |  yes |  yes |
+| ident.me      |  yes |  yes |
+| ipaddress.com |  yes |      |
+| ipext.org     |  yes |  yes |
+| ipify.org     |  yes |  yes |
+| ipinfo.io     |  yes |      |
+| ipy.ch        |  yes |      |
+| l2.io         |  yes |      |
+| meineipv6.de  |  yes |  yes |
+| my-ip.io      |  yes |  yes |
+| seeip.org     |  yes |  yes |
+| tnedi.me      |  yes |  yes |
+
+If one of these services fails to answer, another one will be tried until every service has failed.
+In this case, the last occurred exception will be thrown.
