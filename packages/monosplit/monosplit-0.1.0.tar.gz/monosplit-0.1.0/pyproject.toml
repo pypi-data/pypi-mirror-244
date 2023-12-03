@@ -1,0 +1,20 @@
+[project]
+name = "monosplit"
+version = "0.1.0"
+description = "Split a single python file into a module with multiple files."
+authors = [{name = "Grayson Miller", email = "grayson.miller124@gmail.com"}]
+requires-python = ">=3.11"
+
+readme = "README.md"
+license = { text = "MIT" }
+urls = { "homepage" = "https://github.com/GRAYgoose124/pysplit" }
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
+
+[project.scripts]
+pysplit = "pysplit.__main__:main"
