@@ -1,0 +1,2 @@
+[console_scripts]
+pyApolloClient = pyApolloClient.py_http_client:main

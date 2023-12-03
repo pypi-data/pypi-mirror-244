@@ -1,0 +1,9 @@
+pyApolloClient/__init__.py,sha256=Q9-ryC1mJ2Sin5YcS98zGMdWNfCyV7FR21zIxW96lYM,49
+pyApolloClient/apollo_client.py,sha256=rBopFDap06HwRXDO2WelVuUfZMJZUsY2Qd5Egho6P24,12309
+pyApolloClient/py_http_client.py,sha256=jjhN4m-vr7Yi_FLIYtSjx5SemaB4MOuvMmkUxiCYwTU,611
+pyApolloClient/util.py,sha256=bkcI57PEIUDUZCTBS4Ggkobx_RBkBIElVYeMn3Lc92s,2348
+zykj_py_apollo-1.23.12.dist-info/METADATA,sha256=e2iA0gw9rgrU9zgjB4DSrNuZXukWgsXmAcia92xNSMQ,156
+zykj_py_apollo-1.23.12.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+zykj_py_apollo-1.23.12.dist-info/entry_points.txt,sha256=cUA09uLIO5mjpcHdfkV4dV4dDjtqp7BfIHRq5w5Gy04,70
+zykj_py_apollo-1.23.12.dist-info/top_level.txt,sha256=0N2FQOClJRLXgFQJkN4AKBCkPP88vhKWbgBEn0ha8-E,15
+zykj_py_apollo-1.23.12.dist-info/RECORD,,
