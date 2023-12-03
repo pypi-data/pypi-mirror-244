@@ -1,0 +1,7 @@
+rs_vector_db-0.1.2.dist-info/METADATA,sha256=QsSPfH5fae_bQeFy1K7Qbbgv3vrEizEZ6C39wK2z69o,1654
+rs_vector_db-0.1.2.dist-info/WHEEL,sha256=R9wVMmuk1ZynYCmStYUx0-Pf549uiu_tDMkv_8DiZSs,110
+rs_vector_db.libs/libssl-0fe501d2.so.3,sha256=qGUaRZlbeL-tzkWiOnmTAet9itKf_Zkf4MTIGt6R2y0,890144
+rs_vector_db.libs/libcrypto-53eaadd0.so.3,sha256=ApnRoQwE6Xd6j4ZZiaSreNVeKDcjAulLDphAacbDf28,5598400
+rs_vector_db/__init__.py,sha256=LS6S8f2n0sBH0EyyZdsNCd48Tk-rvGQ-hL24IzaBFsI,131
+rs_vector_db/rs_vector_db.cpython-311-x86_64-linux-gnu.so,sha256=IsCQkhfPNvHlpiN2kMvCt1uHXVdEfch2F8fe21_R4QA,3777000
+rs_vector_db-0.1.2.dist-info/RECORD,,
