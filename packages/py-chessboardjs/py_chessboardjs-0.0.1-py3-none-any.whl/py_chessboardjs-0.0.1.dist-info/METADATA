@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: py-chessboardjs
+Version: 0.0.1
+Summary: Chess GUI using pywebview and chessboard.js.
+Home-page: https://github.com/akuroiwa/py-chessboardjs
+Author: Akihiro Kuroiwa
+Author-email: akuroiwa@env-reform.com
+License: GNU/GPLv3+
+Keywords: evolutionary algorithms,genetic programming,gp,chess,fen,pgn
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7, !=3.10.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: chess
+Requires-Dist: chess-ant
+Requires-Dist: pywebview
+Provides-Extra: cef
+Requires-Dist: pywebview[cef] ; extra == 'cef'
+Provides-Extra: gtk
+Requires-Dist: pywebview[gtk] ; extra == 'gtk'
+Provides-Extra: qt
+Requires-Dist: pywebview[qt] ; extra == 'qt'
+
+# py-chessboardjs
+Chess GUI using pywebview and chessboard.js.
+
+[![Documentation Status](https://readthedocs.org/projects/chess-ant/badge/?version=latest)](https://chess-ant.readthedocs.io/en/latest/?badge=latest)
+This is a part of [Chess-Ant](https://github.com/akuroiwa/chess-ant) project.
+That manual will be updated soon.
+
+Chess-Ant is currently too slow to function as a chess engine.  To make matters worse, there is a glitch in the call to chess-ant.  It is possible to experiment by loading pgn and having it solve the problem.
+
+
+## Installation
+
+Please read the [pywebview](https://pywebview.flowrl.com/) and [PyGObject](https://pygobject.readthedocs.io/en/latest/) manuals, and install dependent packages before proceeding.
+
+If you are Ubuntu user:
+```bash
+sudo apt install python3-venv
+python3.11 -m venv ~/.venv3.11
+source ~/.venv3.11/bin/activate
+which pip
+pip install py-chessboardjs[gtk]
+```
+
+If you want to install it on local repository:
+
+```bash
+cd py-chessboardjs
+pip install .[gtk]
+```
+
+QT user:
+```bash
+pip install py-chessboardjs[qt]
+```
+
+CEF user:
+```bash
+pip install py-chessboardjs[cef]
+```
+
+Install your favorite UCI engine:
+```bash
+sudo apt install stockfish
+```
+
+
+## Usage
+
+```bash
+py-chessboardjs-gtk
+```
+
+```bash
+py-chessboardjs-qt
+```
+
+```bash
+py-chessboardjs-cef
+```
