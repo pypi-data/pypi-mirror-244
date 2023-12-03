@@ -1,0 +1,2 @@
+[console_scripts]
+splitcell-to-hidecell = jupyterlab_hidecell.splitcell_to_hidecell:main
