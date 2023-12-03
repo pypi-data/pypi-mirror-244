@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/__init__.py
+src/zella/__init__.py
+src/zella/_client.py
+src/zella/config.py
+src/zella.egg-info/PKG-INFO
+src/zella.egg-info/SOURCES.txt
+src/zella.egg-info/dependency_links.txt
+src/zella.egg-info/top_level.txt
+src/zella/resources/__init__.py
+src/zella/resources/chat/__init__.py
+src/zella/resources/chat/chat.py
+src/zella/resources/chat/completions.py
