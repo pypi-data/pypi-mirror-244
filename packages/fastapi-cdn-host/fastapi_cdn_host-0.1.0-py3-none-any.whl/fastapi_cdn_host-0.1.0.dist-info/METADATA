@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fastapi-cdn-host
+Version: 0.1.0
+Summary: 
+Author: Waket Zheng
+Author-email: waketzheng@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# FastAPI cdn host for docs ui
+
+Auto find swagger-ui in local files, if exist use them.
+Otherwise make concurrent http requests by httpx to find out which third part cdn host is the fastest one.
+
+## Install
+
+```bash
+pip install fastapi-cdn-host
+```
+
+## Usage::
+```py
+from fastapi import FastAPI
+from fastapi_cdn_host import monkey_patch_for_docs_ui
+
+app = FastAPI()
+# include_routes ...
+
+monkey_patch_for_docs_ui(app)
+```
+
