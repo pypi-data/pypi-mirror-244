@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: amp-flow
+Version: 0.0.0
+Summary: DeepMD-kit integration with Parsl workflow tools to accelerate development of Deep Potentials
+Author: Sudheesh Kumar Ethirajan
+Author-email: sethirajan@ucdavis.edu
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: chemiscope (>=0.6.0,<0.7.0)
+Requires-Dist: deepmd-kit[cu11,gpu,ipi,lmp] (>=2.2.7,<3.0.0)
+Requires-Dist: dpdata (>=0.2.17,<0.3.0)
+Requires-Dist: dscribe (>=2.1.0,<3.0.0)
+Requires-Dist: parsl (>=2023.03.13,<2024.0.0)
+Requires-Dist: pymatgen[ase] (>=2023.11.12,<2024.0.0)
+Requires-Dist: rdkit (>=2023.9.2,<2024.0.0)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: seaborn (>=0.13.0,<0.14.0)
+Requires-Dist: skmatter (>=0.2.0,<0.3.0)
+Description-Content-Type: text/markdown
+
+
