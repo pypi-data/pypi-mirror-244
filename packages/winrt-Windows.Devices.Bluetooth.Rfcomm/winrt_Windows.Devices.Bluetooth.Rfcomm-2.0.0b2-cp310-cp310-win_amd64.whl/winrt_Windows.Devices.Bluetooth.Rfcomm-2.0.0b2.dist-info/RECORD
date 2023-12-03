@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_bluetooth_rfcomm.cp310-win_amd64.pyd,sha256=9SNhlFKxx5_3f4u9b-isTr_9xSXHFCzQmu7f0WA94mM,195584
+winrt/_winrt_windows_devices_bluetooth_rfcomm.pyi,sha256=D-QUt-S2HQehLQZ4sJpcBDV5XdE0FUmUMIrytJfYbiQ,5937
+winrt/windows/devices/bluetooth/rfcomm/__init__.py,sha256=E0-lXV9FUyfbf_br1EzI06iyhUM5OxBxkS8m3yr88So,633
+winrt_Windows.Devices.Bluetooth.Rfcomm-2.0.0b2.dist-info/METADATA,sha256=EVsaSH4YV6WEkq79obK9A59SHoy6RkHacKMIR2BYeCo,1604
+winrt_Windows.Devices.Bluetooth.Rfcomm-2.0.0b2.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+winrt_Windows.Devices.Bluetooth.Rfcomm-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Bluetooth.Rfcomm-2.0.0b2.dist-info/RECORD,,
