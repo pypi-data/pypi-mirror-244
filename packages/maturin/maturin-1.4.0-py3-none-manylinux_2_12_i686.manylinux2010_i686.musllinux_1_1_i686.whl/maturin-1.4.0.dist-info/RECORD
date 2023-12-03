@@ -1,0 +1,7 @@
+maturin-1.4.0.dist-info/METADATA,sha256=HWd6-fAdyZTnZ1vSQVKvv6upCbhbvDrO_YkZLErcOr8,18382
+maturin-1.4.0.dist-info/WHEEL,sha256=qbxmV6lHR04QSf1XecgZB-EMGSyWjXWFmSt5zuDwOm4,141
+maturin/__main__.py,sha256=4CyZAGqzmFsCl0FMlxAcG4vHFepE2lRZiPu4MKXyY4Y,987
+maturin/__init__.py,sha256=aIJTh4e2q5Ixr3r7rZRKx6wz0iuPcGutvCqPaBCYVUA,6522
+maturin/import_hook.py,sha256=4Uwi4mBhMh3OlrWYpz2bwRU1mBG7HP2YObpo3vPcNYI,5602
+maturin-1.4.0.data/scripts/maturin,sha256=Jkup_5uo_045Ggr1ue__w1OMxarauzpw4wM9FDZqAx4,30133712
+maturin-1.4.0.dist-info/RECORD,,
