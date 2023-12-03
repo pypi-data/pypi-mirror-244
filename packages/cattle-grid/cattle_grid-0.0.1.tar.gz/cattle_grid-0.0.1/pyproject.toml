@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "cattle-grid"
+version = "0.0.1"
+description = ""
+authors = ["Helge <helge.krueger@gmail.com>"]
+readme = "README.md"
+repository = "https://codeberg.org/bovine/cattle_grid/"
+packages = [{include = "cattle_grid"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bovine = "^0.5.0"
+quart = "^0.19.0"
+gunicorn = "^21.2.0"
+uvicorn = "^0.23.2"
+fediverse-pasture = "^0.1.2"
+click = "^8.1.7"
+tortoise-orm = {extras = ["sqlite"], version = "^0.20.0"}
+mkdocs-click = "^0.8.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+pytest-asyncio = "^0.21.1"
+pytest-watch = "^4.2.0"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.4.7"
+mkdocstrings = "^0.23.0"
+mkdocstrings-python = "^1.7.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+asyncio_mode="auto"
+log_cli=1
+log_cli_level="info"
