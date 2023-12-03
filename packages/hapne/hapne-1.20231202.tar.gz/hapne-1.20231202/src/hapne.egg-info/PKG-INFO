@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hapne
+Version: 1.20231202
+Summary: Haplotype-based inference of recent effective population size in modern and ancient DNA samples
+Home-page: https://github.com/PalamaraLab/HapNe
+Author: Romain Fournier (PalamaraLab, Department of Statistics, Oxford University)
+Project-URL: Bug Tracker, https://github.com/PalamaraLab/HapNe/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas_plink
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Provides-Extra: pypi
+Requires-Dist: build; extra == "pypi"
+Requires-Dist: twine; extra == "pypi"
+
+# HapNe
+See https://github.com/palamaraLab/hapne for usage instructions.
