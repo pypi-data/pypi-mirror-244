@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pixelyai-serve
+Version: 0.0.8
+Summary: serve utilises of pixelyai in jax and torch
+Home-page: https://github.com/erfanzar/EasyDeL
+Author: Erfan Zare Chavoshi
+Author-email: erfanzare82@eyahoo.com
+Keywords: machine learning,deep learning,pytorch,jax,flax
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PixelyAI
+
+PixelyAI main AI Engine Python Package
+
+# Installation
+
+
+### Password
+
+Password ON PYPI : `PixelyAIServeJAXTORCH`
+
+## Linux
+
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip3 install jax pixelyai_serve
+```
+
+## Windows
+
+```sh
+pip3 install torch torchvision torchaudio
+pip3 install jax pixelyai_serve
+```
+
+## Mac
+
+```sh
+# MPS acceleration is available on MacOS 12.~+
+pip3 install torch torchvision torchaudio
+pip3 install jax pixelyai_serve
+```
