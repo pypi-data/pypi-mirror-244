@@ -1,0 +1,3 @@
+[console_scripts]
+fuck-shit-artifact=genshin_mummy.artifact_helper.unlock_shit_artifact:main
+
