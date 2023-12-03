@@ -1,0 +1,4 @@
+[console_scripts]
+py-chessboardjs-cef = py_chessboardjs.start:run_cef_gui
+py-chessboardjs-gtk = py_chessboardjs.start:run_gtk_gui
+py-chessboardjs-qt = py_chessboardjs.start:run_qt_gui

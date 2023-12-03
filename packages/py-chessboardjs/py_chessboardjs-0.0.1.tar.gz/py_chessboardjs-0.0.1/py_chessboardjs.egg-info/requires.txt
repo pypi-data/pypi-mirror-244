@@ -1,0 +1,12 @@
+chess
+chess-ant
+pywebview
+
+[cef]
+pywebview[cef]
+
+[gtk]
+pywebview[gtk]
+
+[qt]
+pywebview[qt]
