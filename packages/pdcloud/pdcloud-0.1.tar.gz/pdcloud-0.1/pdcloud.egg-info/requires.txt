@@ -1,0 +1,8 @@
+azure-storage-blob
+pyarrow
+pandas
+aiohttp
+
+[test]
+pytest
+pytest-asyncio
