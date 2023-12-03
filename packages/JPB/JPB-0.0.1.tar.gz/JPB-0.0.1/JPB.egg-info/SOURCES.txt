@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+JPB.egg-info/PKG-INFO
+JPB.egg-info/SOURCES.txt
+JPB.egg-info/dependency_links.txt
+JPB.egg-info/requires.txt
+JPB.egg-info/top_level.txt
+jpb/__init__.py
+jpb/jpb.py
