@@ -1,0 +1,11 @@
+bia_bob/__init__.py,sha256=DMpyONWsNyv_EmhJgSHCHFYZD-JHna8duWv55e7BgAE,254
+bia_bob/_bug_fixing.py,sha256=kqhGCbOFdYYvrKzHm9AneZlBjDwqmRx1yC8o81D33xU,1208
+bia_bob/_document.py,sha256=WuOAfOHxaCVWVgR6CF1OjCZMFRql7d4DnNmMr-CeNdQ,922
+bia_bob/_machinery.py,sha256=emNM8UwEcXiNreMrQxYuIp-58VDYUmymYVQzEzDVW_w,3862
+bia_bob/_utilities.py,sha256=3sQZJlfbvj49CVb4zIT0d7egJaepn7jnpqGVUQ3vRZU,9224
+bia_bob/_tests/__init__.py,sha256=QNSEDdZvE5B8NuVasnkmp4FJsr5Sxc6jDcDY4B8biNU,31
+bia_bob-0.6.1.dist-info/LICENSE,sha256=bmFnHRmtW9xWiREm-CsO3xgbidrU9tpAzzppMyTtiXg,1546
+bia_bob-0.6.1.dist-info/METADATA,sha256=8F7tcC91fI6rlzC1Hct2JRB0xaePIZjx3cfDjhG4PlI,5076
+bia_bob-0.6.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bia_bob-0.6.1.dist-info/top_level.txt,sha256=XsOEYj2eu4_lj5BBoCRWEUHq5hjSEC1Yavb66vMOS5s,8
+bia_bob-0.6.1.dist-info/RECORD,,
