@@ -1,0 +1,11 @@
+buildbot_gitea/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildbot_gitea/auth.py,sha256=o6fZTM7JVe9p4ndz1pinJgl43xnyqo6vSPYihHZPBdw,623
+buildbot_gitea/reporter.py,sha256=n1O12jSKxC13XOPdTlPscWhPmGmgdTy25OsouVNgVN8,9014
+buildbot_gitea/step_source.py,sha256=_ctBcTIsGpk1hH1PanIxIlrsUkXrBXIRjqwRNA-RT1w,1194
+buildbot_gitea/webhook.py,sha256=8swSdvsUZAvhmCIJYhp02Wuwt9WobBCPj4napbP6o74,7267
+buildbot_gitea-1.8.0.dist-info/LICENSE,sha256=IVrparLghSGnU6ixkp9-ljtnOGKbM6BbeHl48dfQa70,1063
+buildbot_gitea-1.8.0.dist-info/METADATA,sha256=RY2ffsTUzrFmCSsf-g4adHLGipTW8SSMR8aZhXKawow,7481
+buildbot_gitea-1.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+buildbot_gitea-1.8.0.dist-info/entry_points.txt,sha256=SJKtuORkWL7la6HtyBS72ocQJSf9aKUVQk7SGl7UoxM,255
+buildbot_gitea-1.8.0.dist-info/top_level.txt,sha256=bocaKX1lxbCeynku8upG7MRQjwN54fnitn5QibNYt3w,15
+buildbot_gitea-1.8.0.dist-info/RECORD,,
