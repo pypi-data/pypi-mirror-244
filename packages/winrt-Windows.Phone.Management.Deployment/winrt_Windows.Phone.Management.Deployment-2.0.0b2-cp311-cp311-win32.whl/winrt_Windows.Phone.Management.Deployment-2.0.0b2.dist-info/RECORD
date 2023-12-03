@@ -1,0 +1,7 @@
+winrt/_winrt_windows_phone_management_deployment.cp311-win32.pyd,sha256=xz3G3zTwRUYem8ftKidJkwhBDi4jweSq48CN0dmD5X8,158720
+winrt/_winrt_windows_phone_management_deployment.pyi,sha256=NNDgelkeoMO5Rd6bHpjYzV2MNAcNFu-qwu8sjpbCKxU,4724
+winrt/windows/phone/management/deployment/__init__.py,sha256=LT9giSLJ33fIYl6GANCCFGFC1fCRADg66MUIySuNYRA,1057
+winrt_Windows.Phone.Management.Deployment-2.0.0b2.dist-info/METADATA,sha256=q4rnkm7NkzDIvfQqRdQPSvOMte2fL46VZJQtFqA6UDE,1370
+winrt_Windows.Phone.Management.Deployment-2.0.0b2.dist-info/WHEEL,sha256=1hQMSMLa8wpOIN866ksgBSFaZ-xM7VQgzYiKWe8vFok,98
+winrt_Windows.Phone.Management.Deployment-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.Management.Deployment-2.0.0b2.dist-info/RECORD,,
