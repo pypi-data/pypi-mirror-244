@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_i2c_provider.cp312-win_arm64.pyd,sha256=k-AFYjTQLpsOTeHXGkXJp6VkUdmZYkKLLAjgDeuzlqk,116224
+winrt/_winrt_windows_devices_i2c_provider.pyi,sha256=fLL6J8rWD1xcrmKMWU3Tf_M9CTfcNYaHagWEYk-6hgM,3004
+winrt/windows/devices/i2c/provider/__init__.py,sha256=gSgwKGP4i9G1m6HVriDE-LbZnJrAD91Q1Nz_8Bu0YJo,1133
+winrt_Windows.Devices.I2c.Provider-2.0.0b2.dist-info/METADATA,sha256=SSPlpervuY_R85H0AcLQoTToK06C4VLlc5OjazqWPuU,1169
+winrt_Windows.Devices.I2c.Provider-2.0.0b2.dist-info/WHEEL,sha256=WQX5S5G4PWm-PsXSWxNv7OPWII7hCf8pkMhg5KHb4hE,102
+winrt_Windows.Devices.I2c.Provider-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.I2c.Provider-2.0.0b2.dist-info/RECORD,,
