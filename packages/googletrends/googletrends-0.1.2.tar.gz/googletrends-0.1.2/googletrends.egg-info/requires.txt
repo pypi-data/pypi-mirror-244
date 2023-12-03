@@ -1,0 +1,8 @@
+pytrends
+matplotlib
+numpy
+pandas
+worldmap
+scikit-learn
+colourmap
+scipy
