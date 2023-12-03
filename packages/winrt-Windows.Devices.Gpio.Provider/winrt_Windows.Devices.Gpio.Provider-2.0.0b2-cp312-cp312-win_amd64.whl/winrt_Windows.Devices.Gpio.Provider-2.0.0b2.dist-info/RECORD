@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_gpio_provider.cp312-win_amd64.pyd,sha256=a4GQ-kCxF1FSmIMPYw1HHlGy_9at-8MElnToLcxVeqI,86528
+winrt/_winrt_windows_devices_gpio_provider.pyi,sha256=QQR4K5C4ir27G7cIUbM-JfKMBcL2mmNp11do12bpAGs,2636
+winrt/windows/devices/gpio/provider/__init__.py,sha256=vKEcm8-NDSb4noO5-XVQ8r67HYT5uNhk5VMwSdxyyWk,1256
+winrt_Windows.Devices.Gpio.Provider-2.0.0b2.dist-info/METADATA,sha256=aPGW2DzSXM_4U4xiMJnunDR2D8JOpXN2OpUsaMvXhZw,1173
+winrt_Windows.Devices.Gpio.Provider-2.0.0b2.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+winrt_Windows.Devices.Gpio.Provider-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Gpio.Provider-2.0.0b2.dist-info/RECORD,,
