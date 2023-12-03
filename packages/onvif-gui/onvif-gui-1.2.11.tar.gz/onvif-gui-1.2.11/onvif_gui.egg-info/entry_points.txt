@@ -1,0 +1,3 @@
+[gui_scripts]
+onvif-gui = gui.main:run
+
