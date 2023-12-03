@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_closedcaptioning.cp312-win_arm64.pyd,sha256=_M4lYBsAvjIXAFHN-78HMwUcPUiqCiWdHRfNO1v25YA,62464
+winrt/_winrt_windows_media_closedcaptioning.pyi,sha256=qgK6dy3pXEpmefjiP9v2YpqTCFlHkA7wiNvkNyTR57U,1897
+winrt/windows/media/closedcaptioning/__init__.py,sha256=RPEI84aMastanojgDO2MWoViWcA1br-xwqQgTrjDmTQ,1338
+winrt_Windows.Media.ClosedCaptioning-2.0.0b2.dist-info/METADATA,sha256=58Op_qNOjOxGllfPkOq3NhIXbi8cNdUOh388jHUcLRk,1157
+winrt_Windows.Media.ClosedCaptioning-2.0.0b2.dist-info/WHEEL,sha256=WQX5S5G4PWm-PsXSWxNv7OPWII7hCf8pkMhg5KHb4hE,102
+winrt_Windows.Media.ClosedCaptioning-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.ClosedCaptioning-2.0.0b2.dist-info/RECORD,,
