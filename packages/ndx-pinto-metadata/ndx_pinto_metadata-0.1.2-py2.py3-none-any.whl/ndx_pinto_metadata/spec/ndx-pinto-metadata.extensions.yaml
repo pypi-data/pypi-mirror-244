@@ -1,0 +1,69 @@
+groups:
+- neurodata_type_def: LabMetaDataExtension
+  neurodata_type_inc: LabMetaData
+  doc: type for storing metadata for Pinto lab
+  attributes:
+  - name: experiment_name
+    dtype: text
+    doc: The name of experiment run in ViRMEN.
+  - name: experiment_code
+    dtype: text
+    doc: The name of the code of experiment run in ViRMEN.
+    required: false
+  - name: session_index
+    dtype: int
+    doc: The index of session.
+    required: false
+  - name: total_reward
+    dtype: float
+    doc: The total reward in milliliters.
+    required: false
+  - name: rig
+    dtype: text
+    doc: The name of the rig
+    required: false
+  - name: num_trials
+    dtype: int
+    doc: The number of total trials for this session.
+    required: false
+  - name: num_iterations
+    dtype: int
+    doc: The number of ViRMEN iterations for this session.
+    required: false
+  - name: session_duration
+    dtype: float
+    doc: The duration of session in seconds.
+    required: false
+  - name: advance
+    dtype: int
+    doc: Defines whether the overall performance of the animal in the current session
+      has met learning criteria to advance to the next maze.
+    required: false
+  - name: surface_quality
+    dtype: float
+    doc: Defines the surface quality of the treadmill. Metric for the quality of the
+      displacement readings.
+    required: false
+  groups:
+  - name: mazes
+    neurodata_type_inc: MazeExtension
+    doc: type for storing maze information
+  - name: stimulus_protocol
+    neurodata_type_inc: DynamicTable
+    doc: type for storing stimulus protocol information that varies from task to task
+    quantity: '?'
+- neurodata_type_def: MazeExtension
+  neurodata_type_inc: DynamicTable
+  doc: type for storing maze information
+- neurodata_type_def: SubjectExtension
+  neurodata_type_inc: Subject
+  doc: type for subject metadata for Pinto lab
+  attributes:
+  - name: zygosity
+    dtype: text
+    doc: The zygosity of the subject.
+    required: false
+  - name: ear_tag_id
+    dtype: text
+    doc: The text identification of the ear tag.
+    required: false

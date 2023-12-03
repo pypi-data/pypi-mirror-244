@@ -1,0 +1,16 @@
+namespaces:
+- author:
+  - Szonja Weigl
+  - Ben Dichter
+  contact:
+  - ben.dichter@catalystneuro.com
+  doc: type for storing metadata for Pinto lab
+  name: ndx-pinto-metadata
+  schema:
+  - namespace: core
+    neurodata_types:
+    - LabMetaData
+    - DynamicTable
+    - Subject
+  - source: ndx-pinto-metadata.extensions.yaml
+  version: 0.1.2
