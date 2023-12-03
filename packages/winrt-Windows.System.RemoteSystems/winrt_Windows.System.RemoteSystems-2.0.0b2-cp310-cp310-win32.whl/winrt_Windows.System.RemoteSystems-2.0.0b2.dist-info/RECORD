@@ -1,0 +1,7 @@
+winrt/_winrt_windows_system_remotesystems.cp310-win32.pyd,sha256=liXFVb16_DK2bs2dP2iT-i0piSOFmM7lJm7D_azkFAE,512512
+winrt/_winrt_windows_system_remotesystems.pyi,sha256=x_Itad4lAcaM0koaHBtlHth1VPH9vX7KBs5F9HJnjds,25017
+winrt/windows/system/remotesystems/__init__.py,sha256=bJ2EDlT-XCeScF0be8imas2fug2RVPGpHK4tKDtGQsA,8063
+winrt_Windows.System.RemoteSystems-2.0.0b2.dist-info/METADATA,sha256=erenr0sFS6Okb6fR-X3YDowVI7MDLWe8wpWTwdIyhUs,1504
+winrt_Windows.System.RemoteSystems-2.0.0b2.dist-info/WHEEL,sha256=ctSO3Ng3VQXwM0FMF_gy60e4VosCkFDNxiZjJ18ulgA,98
+winrt_Windows.System.RemoteSystems-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.RemoteSystems-2.0.0b2.dist-info/RECORD,,
