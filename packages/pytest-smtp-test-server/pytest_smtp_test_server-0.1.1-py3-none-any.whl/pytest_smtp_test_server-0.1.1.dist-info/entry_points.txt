@@ -1,0 +1,3 @@
+[pytest11]
+pytest-mail-mock=pytest_smtp_test_server.plugin
+
