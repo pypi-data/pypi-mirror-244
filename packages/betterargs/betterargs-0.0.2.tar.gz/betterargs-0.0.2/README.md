@@ -1,0 +1,180 @@
+# betterargs
+
+A tool to create a command-line interface for your app using python
+
+## Installation
+
+
+```bash
+pip install betterargs
+```
+
+- **Requirements**
+    - python3.10
+    - pip3
+
+## Releases
+Packaging and releases are handled in the packaging branch. MAIN BRANCH IS RESERVED FOR MAINTAINING CODE ONLY!!!
+- 
+- 
+
+
+## Usage
+
+- Create a command string in YAML format in a:
+    1. YAML file
+    2. Python dictionary
+    3. Python string
+
+- Convert the yaml file to command line namespace using appropriate function
+
+1. ### Using a YAML file
+- Create command tree in a [yaml file](https://github.com/danielmuringe/betterargs/tree/dev/testing/command_tree.yaml)
+```yaml
+git:
+    args:
+        path:
+            atype: flag
+            help: Path of the repo
+    subparsers:
+        parsers:
+            clone:
+                args:
+                    quiet-clone:
+                        atype: flag
+                        help: Operate quietly. Progress is not reported to the standard error stream.
+                    no-checkout:
+                        help: No checkout of HEAD is performed after the clone is complete
+            init:
+                args:
+                    quiet-init:
+                        atype: flag
+                        help: Operate quietly. Progress is not reported to the standard error stream.
+```
+
+- Convert the yaml file to command line namespace using [betterargs.format_path_tree function](https://github.com/danielmuringe/betterargs/blob/dev/betterargs/__init__.py#L137)
+
+```python
+import betterargs
+
+# Create command line namespace and get arguments
+command_tree_PATH = 'command_tree.yaml'
+
+args = betterargs.format_path_tree(command_tree_PATH)
+```
+
+2. ### Using Python Dictionary in YAML Format
+- Create command tree in a [python dictionary in YAML format](https://github.com/danielmuringe/betterargs/blob/dev/testing/format_dict_tree_test.py#L8)
+
+```python
+command_tree_DICT = {
+    "git": {
+        "args": {
+            "path": {
+                "atype": "flag",
+                "help": "Path of the repo",
+            },
+        },
+        "subparsers": {
+            "parsers": {
+                "clone": {
+                    "args": {
+                        "quiet-clone": {
+                            "atype": "flag",
+                            "help": "Operate quietly. Progress is not reported to the standard error stream.",
+                        },
+                        "no-checkout": {
+                            "help": "No checkout of HEAD is performed after the clone is complete"
+                        },
+                    },
+                },
+                "init": {
+                    "args": {
+                        "quiet-init": {
+                            "atype": "flag",
+                            "help": "Operate quietly. Progress is not reported to the standard error stream.",
+                        },
+                    },
+                },
+            },
+        },
+    },
+}
+
+```
+
+- Convert the dictionary to command line namespace using [betterargs.format_dict_tree function](https://github.com/danielmuringe/betterargs/blob/dev/betterargs/__init__.py#L147)
+
+```python
+import betterargs
+
+# Create command line namespace and get arguments
+args = betterargs.format_dict_tree(command_tree_DICT)
+```
+
+3. ### Using YAML Format string
+
+- Create command tree in a [python string in YAML format](https://github.com/danielmuringe/betterargs/blob/dev/testing/format_str_tree_test.py#L9)
+
+```python
+
+# Define command tree in YAML string format
+command_tree_STR = """
+git:
+    args:
+        path:
+            atype: flag
+            help: Path of the repo
+    subparsers:
+        parsers:
+            clone:
+                args:
+                    quiet-clone:
+                        atype: flag
+                        help: Operate quietly. Progress is not reported to the standard error stream.
+                    no-checkout:
+                        help: No checkout of HEAD is performed after the clone is complete
+            init:
+                args:
+                    quiet-init:
+                        atype: flag
+                        help: Operate quietly. Progress is not reported to the standard error stream.
+"""
+```
+
+- Convert the dictionary to command line namespace using [betterargs.format_str_tree function](https://github.com/danielmuringe/betterargs/blob/dev/betterargs/__init__.py#L156)
+
+```python
+import betterargs
+
+# Create command line namespace and get arguments
+args = betterargs.format_str_tree(command_tree_STR)
+```
+
+
+## Contribution
+
+You are more than welcome to contribute 😊
+It doe
+
+It's simple!!!
+
+- [ ] Fork the repo
+
+- [ ] Clone the repo
+
+```bash
+git clone https://github.com/danielmuringe/betterargs
+```
+
+- [ ] Make your modifications in the dev
+
+- [ ] Merge into main branch respecting the .gitignore of the main branch. **KEEP IT CLEAN** !!!
+
+- [ ] Create pull request
+
+- [ ] Wait for confirmation
+
+
+## Tests
+- Tests can be found in the [testing directory of dev branch](https://github.com/danielmuringe/betterargs/tree/dev/testing)
