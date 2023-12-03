@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+ipg/__init__.py
+ipg/art.py
+ipg/main.py
+ipg.egg-info/PKG-INFO
+ipg.egg-info/SOURCES.txt
+ipg.egg-info/dependency_links.txt
+ipg.egg-info/entry_points.txt
+ipg.egg-info/requires.txt
+ipg.egg-info/top_level.txt
+ipg/assets/ipg.wav
+ipg/assets/kitty.exe
