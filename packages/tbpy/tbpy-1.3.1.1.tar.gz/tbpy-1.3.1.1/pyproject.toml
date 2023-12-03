@@ -1,0 +1,18 @@
+[project]
+name = "tbpy"
+version = "1.3.1.1"
+authors = [
+  { name="Ellicode", email="ellicode22@gmail.com" },
+]
+description = "Welcome to terminalbreaker"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Ellicode/terminalbreaker"
+"Bug Tracker" = "https://github.com/Ellicode/terminalbreaker/issues"
