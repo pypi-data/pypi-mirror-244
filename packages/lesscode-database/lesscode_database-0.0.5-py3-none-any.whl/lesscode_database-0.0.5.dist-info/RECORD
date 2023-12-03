@@ -1,0 +1,12 @@
+lesscode_database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lesscode_database/connect_pool.py,sha256=w6qmo3Zj3aUmw8G83LMoMU3D-sz7rN6_QGcQqy39Y1w,39145
+lesscode_database/connection_info.py,sha256=HMlA-hA0LE7jGUS8crZAgrBMB-o6B9mxrWYEywgqXHg,1307
+lesscode_database/db_options.py,sha256=RIJdoZrw66pq4eHoj5rvQBMf85FInOrrjlzW8XIXtwU,1931
+lesscode_database/ds_helper.py,sha256=OtxUaP9rSwnFQx1wdnhzjPKt2fuQ2x57DJZFibwzdyY,1154
+lesscode_database/dynamic_import_package.py,sha256=J8hgGRHe6KrprOgOq-xbKHVAYHSjUBcNyTaSPvBmvIk,164
+lesscode_database/version.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+lesscode_database-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lesscode_database-0.0.5.dist-info/METADATA,sha256=klfsYm4eGReafvhZKaqoru2aE6j-vovVDxgMlloqVXo,10877
+lesscode_database-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lesscode_database-0.0.5.dist-info/top_level.txt,sha256=h6cg13be6kkDfNaX9nWeDcfducTb5bKG5iYRO2JPmAM,18
+lesscode_database-0.0.5.dist-info/RECORD,,
