@@ -1,0 +1,12 @@
+pykosinus/__init__.py,sha256=SbNyEU3LWC99nXMu2Ufc7H7gKPQabK11R0FLZeAXh8s,3326
+pykosinus/requirements.txt,sha256=p3jF20T4s_SX81aogBdUPe6XAgxEIZsIvF6zkIwklHk,90
+pykosinus/lib/__init__.py,sha256=sVJvbJ9Qnen1L_IbmOVapgaL-Npj7hyDdJQ0TbtP8ro,3388
+pykosinus/lib/cosine_similarity.py,sha256=eaI1ttBKbe9EJUw8Ua5CHlSusAdELsD3geLiR5jM5iA,5675
+pykosinus/lib/fuzzy_match.py,sha256=RJk7I-xtXppmBc2B72554hbBm7uZGI5ITbyXMba1bSw,3762
+pykosinus/lib/scoring.py,sha256=CEJAnYBSjXQ2vb_0Q1Nr3AuvhIqDM57WRKdw1zXvgQs,2928
+pykosinus/lib/spellcheck.py,sha256=-WHYe3HYdgsiSzarUmjQr0r6EsKDPu5QLk5ph0y8i44,4146
+pykosinus-0.2.0.dist-info/LICENSE,sha256=yBZaPGC7wdh0msRWapmKz9rpACrshIYLLfxRwJWhytQ,1066
+pykosinus-0.2.0.dist-info/METADATA,sha256=rfLVssngPT4bBGgoIbjSzokZzTM3qvzEpLcPzOBgD3g,4745
+pykosinus-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pykosinus-0.2.0.dist-info/top_level.txt,sha256=hPRHhx_X2FckhWPq77a1LYnZ2Waj8tPGXeS8lYUDnQE,10
+pykosinus-0.2.0.dist-info/RECORD,,
