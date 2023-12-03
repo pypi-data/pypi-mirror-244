@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/platetrack/__init__.py
+src/platetrack/dock_widgets.py
+src/platetrack/napari.yaml
+src/platetrack/platelet_info.py
+src/platetrack.egg-info/PKG-INFO
+src/platetrack.egg-info/SOURCES.txt
+src/platetrack.egg-info/dependency_links.txt
+src/platetrack.egg-info/entry_points.txt
+src/platetrack.egg-info/requires.txt
+src/platetrack.egg-info/top_level.txt
