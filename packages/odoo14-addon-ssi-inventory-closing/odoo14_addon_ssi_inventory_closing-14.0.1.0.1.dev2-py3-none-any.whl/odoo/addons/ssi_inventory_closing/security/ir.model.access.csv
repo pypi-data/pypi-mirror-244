@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_inventory_closing_type_configurator,inventory_closing_type - configurator,model_inventory_closing_type,inventory_closing_type_group,1,1,1,1
+access_inventory_closing_type_all,inventory_closing_type - all,model_inventory_closing_type,,1,0,0,0
+access_inventory_closing_all,inventory_closing - all,model_inventory_closing,,1,0,0,0
+access_inventory_closing_viewer,inventory_closing - viewer,model_inventory_closing,inventory_closing_viewer_group,1,0,0,0
+access_inventory_closing_user,inventory_closing - user,model_inventory_closing,inventory_closing_user_group,1,1,1,1

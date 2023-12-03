@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Copyright 2023 OpenSynergy Indonesia-->
+<!--Copyright 2023 PT. Simetri Sinergi Indonesia-->
+<!--License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).-->
+<odoo>
+<record id="inventory_closing_view_tree" model="ir.ui.view">
+    <field name="name">inventory_closing - Tree</field>
+    <field name="model">inventory_closing</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_tree" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='company_id']" position="after">
+            <field name="date" />
+            <field name="type_id" />
+            <field name="date_start" />
+            <field name="date_end" />
+        </xpath>
+    </field>
+</record>
+
+<record id="inventory_closing_view_search" model="ir.ui.view">
+    <field name="name">inventory_closing - Search</field>
+    <field name="model">inventory_closing</field>
+    <field
+            name="inherit_id"
+            ref="ssi_transaction_mixin.mixin_transaction_view_search"
+        />
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="inventory_closing_view_form" model="ir.ui.view">
+    <field name="name">inventory_closing - Form</field>
+    <field name="model">inventory_closing</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_form" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='user_id']" position="after">
+            <field name="type_id" />
+            <field name="allowed_product_ids" widget="many2many_tags" invisible="1" />
+            <field
+                    name="allowed_product_category_ids"
+                    widget="many2many_tags"
+                    invisible="1"
+                />
+            <field
+                    name="allowed_picking_type_ids"
+                    widget="many2many_tags"
+                    invisible="1"
+                />
+            <field
+                    name="allowed_picking_type_category_ids"
+                    widget="many2many_tags"
+                    invisible="1"
+                />
+            <field name="date" />
+        </xpath>
+        <xpath expr="//group[@name='header_right']" position="inside">
+            <field name="date_start" />
+            <field name="date_end" />
+        </xpath>
+        <xpath expr="//page[1]" position="before">
+            <page name="stock_move" string="Stock Move">
+                <button
+                        name="action_reload_stock_move"
+                        string="Reload"
+                        type="object"
+                        class="oe_highlight"
+                        icon="fa-refresh"
+                        attrs="{'invisible':[('state','!=','draft')]}"
+                    />
+                <field
+                        name="stock_move_ids"
+                        context="{'tree_view_ref':'stock.view_move_tree'}"
+                    />
+            </page>
+            <page name="stock_valuation_layer" string="Stock Valuation Layer">
+                <field name="stock_valuation_layer_ids" />
+            </page>
+            <page name="account_move" string="Accounting Entries">
+                <field name="account_move_ids" />
+            </page>
+        </xpath>
+    </field>
+</record>
+
+<record id="inventory_closing_action" model="ir.actions.act_window">
+    <field name="name">Inventory Closings</field>
+    <field name="res_model">inventory_closing</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="inventory_closing_menu"
+        name="Inventory Closings"
+        parent="stock.menu_stock_root"
+        action="inventory_closing_action"
+        groups="inventory_closing_viewer_group"
+        sequence="3"
+    />
+</odoo>
