@@ -1,0 +1,7 @@
+winrt/_winrt_windows_networking_networkoperators.cp39-win_amd64.pyd,sha256=awP2g7HWsW6LXc1eW9oGMXhmF-Q7m7fBB9IxNttZSOQ,1227264
+winrt/_winrt_windows_networking_networkoperators.pyi,sha256=3Kxfuz1rtgmTbAldE3kuEk5aSHUF_8NAZ5laQgeYLwM,59588
+winrt/windows/networking/networkoperators/__init__.py,sha256=OrJf78-0xbcvXa8NTINQWx6VLAyka-PN-kdXTdz4f14,18930
+winrt_Windows.Networking.NetworkOperators-2.0.0b2.dist-info/METADATA,sha256=CmJnHGgmAiq64GZI7Gi3ECXJsO_0SqJBgdfP_DFFT0I,1608
+winrt_Windows.Networking.NetworkOperators-2.0.0b2.dist-info/WHEEL,sha256=2xSj8c4s_gFbWpcImYQptdXS3JLuzC2uK5Om8I_SEKg,100
+winrt_Windows.Networking.NetworkOperators-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.NetworkOperators-2.0.0b2.dist-info/RECORD,,
