@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: platetrack
+Version: 0.0.3
+Classifier: Framework :: napari
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: napari
+Requires-Dist: numpy
+Requires-Dist: trackpy
+Requires-Dist: pandas
+Requires-Dist: plateletanalysis
+Requires-Dist: qtpy
+Requires-Dist: pyqt5
+
