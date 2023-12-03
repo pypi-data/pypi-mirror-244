@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/story_writer/__init__.py
+src/story_writer/_machinery.py
+src/story_writer/_make_pdf.py
+src/story_writer/_streamlit_script.py
+src/story_writer.egg-info/PKG-INFO
+src/story_writer.egg-info/SOURCES.txt
+src/story_writer.egg-info/dependency_links.txt
+src/story_writer.egg-info/entry_points.txt
+src/story_writer.egg-info/requires.txt
+src/story_writer.egg-info/top_level.txt
