@@ -1,0 +1,13 @@
+googletrends/__init__.py,sha256=CSMt_3bEUizuMXlGYOeAssnOq8yj3CistF4AhcubyHY,1294
+googletrends/examples.py,sha256=SNzTy8zsNXFBhZMqSFszVWQifM3rxSx0d3t2EvuJEcU,5192
+googletrends/googletrends.py,sha256=xqAb25Bc04T4Nlh__fIo1mYNr7tKwEQN1fX07uRcNow,35014
+googletrends/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googletrends/data/corona_all_countries.zip,sha256=wieb-Hf79_vj-ytkD-RUioIoh3JcfFyymk5xIA8WiI4,76684
+googletrends/data/country_and_code.zip,sha256=Fodsdk8MiVdTtP7hqNmUnB4d4Ni9G-Mvk0GO4ZBtdDs,1730
+googletrends/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googletrends/utils/check_connection.py,sha256=TXrzRGxX6sHeR6aU4R2_sZ0FEErql2u0xVjr-i1K80s,892
+googletrends-0.1.2.dist-info/LICENSE,sha256=WpYHfZLqV2N-BUYnkbBsXhoLWEyRI52mGW6LSJMHGTc,1125
+googletrends-0.1.2.dist-info/METADATA,sha256=ZyvIS_ffFvosj3WhZpiDsF3TMeYXwG3Wogl4vvIoBB0,5959
+googletrends-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+googletrends-0.1.2.dist-info/top_level.txt,sha256=MS_UcKPbjQYf-KP1HEXVSOP_j-W4vKERDNe8vqAcjRU,13
+googletrends-0.1.2.dist-info/RECORD,,
