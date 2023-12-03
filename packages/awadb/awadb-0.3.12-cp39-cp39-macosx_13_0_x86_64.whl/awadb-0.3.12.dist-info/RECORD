@@ -1,0 +1,16 @@
+awa.cpython-39-darwin.so,sha256=q_UHcLEE8NiSPcvSBF3xytPlUUa1-86k2PaKCwmckws,5811912
+awadb/__init__.py,sha256=egWxs3yQxoQvys1buIaAf9CAPRLUDWwkUbSWfd7ewvg,56562
+awadb/awadb_api.py,sha256=YmxzdzgRSsRZiuhhNred3cXT8NPVtdXrdITUl1avtPQ,6286
+awadb/library.py,sha256=qQ6qSzXoF3XqkZZaTz5cjNwi_-IcVMYgKR20KQs2xf0,56896
+awadb/punctuation_marks_en.py,sha256=iGKZzDqYLn4BGtcJ_i6FLVxL7R434eN72fhH0J7fEqo,99
+awadb/stop_words_en.py,sha256=uMRjtiGmBs2d6JqYXmFA3ICFbL74Oc5QLg-e2ZWhQns,11484
+awadb/words_stem_en.py,sha256=NteZaVk7mq15tYus3BDs9opb-LCybbOXeFFZDiik5jc,13236
+awadb/awa_embedding/clipembedding.py,sha256=h79nLdw0vJVy87ONt2PIohMXa4rLdOl0N4SkT-lisiA,1877
+awadb/awa_embedding/huggingface.py,sha256=gR5IjTawzsXMnJXoV-YWA_e-B1CmUSEjLL1QLhwJyEg,1160
+awadb/awa_embedding/openai.py,sha256=vLNNt5w9OMv4el5t16ohpvETiA5R4T8FJkgP_1e7Te4,1230
+awadb/llm_embedding/__init__.py,sha256=a0JzTo4LGtgJnsAhZU_Le5ULa0hb8YUQm7vddbGKRC4,1115
+awadb-0.3.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+awadb-0.3.12.dist-info/METADATA,sha256=L4t9eNjJlCKzaGu93IIMQ-Psj4yqcYo6XRxPNZCVvyU,368
+awadb-0.3.12.dist-info/WHEEL,sha256=co2Z6_rs67fFaD7du6QAtaH_4VzLoaFwxHgr2mgP5oI,113
+awadb-0.3.12.dist-info/top_level.txt,sha256=ZZiN74SXyPZTb-mYHlpTS950dK4saVYJ-xXHLZwjq74,10
+awadb-0.3.12.dist-info/RECORD,,
