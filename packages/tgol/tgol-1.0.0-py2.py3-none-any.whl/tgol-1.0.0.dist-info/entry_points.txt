@@ -1,0 +1,3 @@
+[console_scripts]
+tgol=tgol.__main__:main
+

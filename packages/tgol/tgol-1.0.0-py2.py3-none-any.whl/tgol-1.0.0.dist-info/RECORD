@@ -1,0 +1,11 @@
+tgol/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+tgol/__main__.py,sha256=KsgZHT0tHQEurgWH9-Hb9bVMBSXCYoxkGDGG6lvwJv4,600
+tgol/cli.py,sha256=utKWHYsCO0sQhsJndXX3JMAhKA3MPTQtALcB35F5l44,1334
+tgol/grid.py,sha256=R_h0n5kwMbGQ9--Dlmaqj_oPkDuT-ujiogKNM_XSUWE,1725
+tgol/patterns.py,sha256=atD8edQ_vwb2jdSHybjdYYQdZjaIy6zJEdlsS85WCYY,832
+tgol/patterns.toml,sha256=3bX-Nz_GNEKMn5Hqzk0djYJUK3JhqOl8cCWxSJASPY4,1870
+tgol/views.py,sha256=f5-mLk2KD91EkVw3zXMUjo_OIlzNsT7qX6uFsSJ-0hM,883
+tgol-1.0.0.dist-info/entry_points.txt,sha256=EVcUhGJ5kVe0P9b89js32AtfDUJLarK2RpkrK78BJ1Y,43
+tgol-1.0.0.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+tgol-1.0.0.dist-info/METADATA,sha256=tiHL-SHgY1GHvQUB5warXP0dOGiAVK63iHrNs0Ztz2w,817
+tgol-1.0.0.dist-info/RECORD,,
