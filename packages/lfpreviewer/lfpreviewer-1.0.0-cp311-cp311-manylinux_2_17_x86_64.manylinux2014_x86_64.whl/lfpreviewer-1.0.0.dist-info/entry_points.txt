@@ -1,0 +1,2 @@
+[console_scripts]
+lfpreviewer = lfpreviewer.__main__:main
