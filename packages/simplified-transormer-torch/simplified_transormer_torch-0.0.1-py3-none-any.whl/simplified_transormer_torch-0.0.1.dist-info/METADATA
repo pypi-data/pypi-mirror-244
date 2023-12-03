@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: simplified-transormer-torch
+Version: 0.0.1
+Summary: Paper - Pytorch
+Home-page: https://github.com/kyegomez/SimplifiedTransformers
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: einops
+Requires-Dist: local-attention
+Requires-Dist: torch
+Requires-Dist: zetascale
+Project-URL: Documentation, https://github.com/kyegomez/SimplifiedTransformers
+Project-URL: Repository, https://github.com/kyegomez/SimplifiedTransformers
+Description-Content-Type: text/markdown
+
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+# SimplifiedTransformers
+The author presents an implementation for Simplifying Transformer Blocks. The standard transformer blocks are complex and can lead to architecture instability. In this work, the author investigates how the standard transformer block can be simplified. Through signal propagation theory and empirical observations, the author proposes modifications that remove several components without sacrificing training speed or performance. The simplified transformers achieve the same training speed and performance as standard transformers, while being 15% faster in training throughput and using 15% fewer parameters.
+
+
+# Install
+```
+
+
+```
+
+--------
+
+## Usage
+```python
+
+import torch
+from simplified_transformers.main import SimplifiedTransformers
+
+model = SimplifiedTransformers(
+    dim=4096,
+    depth=6,
+    heads=8,
+    num_tokens=20000,
+)
+
+x = torch.randint(0, 20000, (1, 4096))
+
+out = model(x)
+print(out.shape)
+
+```
+
+
+
+
+
+
+# License
+MIT
+
+
+
+
