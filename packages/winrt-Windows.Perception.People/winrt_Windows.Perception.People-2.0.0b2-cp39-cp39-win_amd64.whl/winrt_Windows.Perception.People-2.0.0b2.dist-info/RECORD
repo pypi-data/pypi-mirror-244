@@ -1,0 +1,7 @@
+winrt/_winrt_windows_perception_people.cp39-win_amd64.pyd,sha256=pzdoNg6dLS_Gb8y73zBOEyfJg5meIpNHb6rJHi6d3j4,100864
+winrt/_winrt_windows_perception_people.pyi,sha256=98jpuGcnzDXwSg5izZSmkaNK1y5XVdsaIT-N5kaOXos,4533
+winrt/windows/perception/people/__init__.py,sha256=X6I-keYZdQbFl96_noK5vAy8BVOTYIiaTqlDScQNdYw,1495
+winrt_Windows.Perception.People-2.0.0b2.dist-info/METADATA,sha256=mcdLFlPhnDamNrDpIzvJba5h8Z-VubHp5xpSyPc1spE,1478
+winrt_Windows.Perception.People-2.0.0b2.dist-info/WHEEL,sha256=2xSj8c4s_gFbWpcImYQptdXS3JLuzC2uK5Om8I_SEKg,100
+winrt_Windows.Perception.People-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Perception.People-2.0.0b2.dist-info/RECORD,,
