@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.MD
+setup.py
+mintrans/__init__.py
+mintrans/mintrans.py
+mintrans.egg-info/PKG-INFO
+mintrans.egg-info/SOURCES.txt
+mintrans.egg-info/dependency_links.txt
+mintrans.egg-info/requires.txt
+mintrans.egg-info/top_level.txt
