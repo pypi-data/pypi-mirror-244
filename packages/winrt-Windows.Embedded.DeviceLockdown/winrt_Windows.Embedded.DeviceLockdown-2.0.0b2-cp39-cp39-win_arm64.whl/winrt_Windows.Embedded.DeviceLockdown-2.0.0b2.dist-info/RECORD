@@ -1,0 +1,7 @@
+winrt/_winrt_windows_embedded_devicelockdown.cp39-win_arm64.pyd,sha256=1tm0YW0eyklQcP3s-iCUWoq5K6KqLhdX2HxaCuqHMgE,66560
+winrt/_winrt_windows_embedded_devicelockdown.pyi,sha256=gPoZGYC3w3D5ei_83vc52x2C8G2BgYTZ6-wdarT5QtE,1272
+winrt/windows/embedded/devicelockdown/__init__.py,sha256=lcs5MYRG1wuY8_x975AICFX3Ys1kzz1PVc0SAFrjQ40,442
+winrt_Windows.Embedded.DeviceLockdown-2.0.0b2.dist-info/METADATA,sha256=zxhvTSXcaLmY8dfW3_kxLQCdGd2YDjj2yy3NyV3mUkE,1181
+winrt_Windows.Embedded.DeviceLockdown-2.0.0b2.dist-info/WHEEL,sha256=K0ytBUYvJpo7izffVCQznpCYT6wuGezaHGHq-IGfKHs,100
+winrt_Windows.Embedded.DeviceLockdown-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Embedded.DeviceLockdown-2.0.0b2.dist-info/RECORD,,
