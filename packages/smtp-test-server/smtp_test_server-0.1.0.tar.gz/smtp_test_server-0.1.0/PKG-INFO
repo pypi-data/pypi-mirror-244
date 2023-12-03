@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: smtp-test-server
+Version: 0.1.0
+Summary: Simple SMTP test server for running unit and integration tests.
+Home-page: https://git.codebau.dev/jed/smtp-test-server
+License: MIT
+Keywords: test,unittest,integrationtest,mail,smtp,mock
+Author: Juergen Edelbluth
+Author-email: smtp-test-server@jued.de
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Dist: aiosmtpd (>=1.4.4.post2,<2.0.0)
+Project-URL: Changelog, https://git.codebau.dev/jed/smtp-test-server/CHANGELOG.md
+Project-URL: Documentation, https://git.codebau.dev/jed/smtp-test-server
+Project-URL: Issue Tracker, https://git.codebau.dev/jed/smtp-test-server/issues
+Project-URL: Repository, https://git.codebau.dev/jed/smtp-test-server
+Project-URL: Releases, https://git.codebau.dev/jed/smtp-test-server/releases
+Project-URL: Wiki, https://git.codebau.dev/jed/smtp-test-server/wiki
+Description-Content-Type: text/markdown
+
+# smtp-test-server
+
+Based on the [`aiosmtpd`](https://github.com/aio-libs/aiosmtpd), this packages offers you a simple way to integrate
+a SMTP server into your test code.
+
+Currently, the server does not support authentication, TLS or anything special instead of sending mails.
+
+All mails are collected in the `messages` property of the mock and can be evaluated there.
+
+Looking for a `pytest` SMTP mock fixture? Take a look at this project:
+[git.codebau.dev/pytest-plugins/pytest-smtp-test-server](https://git.codebau.dev/pytest-plugins/pytest-smtp-test-server).
+
+## Installation
+
+### Installation with "pip"
+
+```Bash
+pip install smtp-test-server
+```
+
+### Installation with "poetry"
+
+```Bash
+poetry add --group dev smtp-test-server
+```
+
+## Usage
+
+Simple usage, with auto assigning a free port number on `127.0.0.1`:
+
+```Python
+from smtp_test_server.context import SmtpMockServer
+
+def test_send_mail():
+    with SmtpMockServer() as smtp_mock:
+        my_mail_method(smtp_host=smtp_mock.host, smtp_port=smtp_mock.port)
+    assert len(smtp_mock.messages) == 1
+    assert smtp_mock.messages[0]["from"] == "my-test@sender.org"
+```
+
+Want to have more control over host and port? Use it like this:
+
+```Python
+with SmtpMockServer(bind_host="223.12.9.177", bind_port=2525):
+    ...
+```
+
+Ports are automatically closed when leaving the context.
+

@@ -1,0 +1,85 @@
+[tool.poetry]
+name = "smtp-test-server"
+version = "0.1.0"
+description = "Simple SMTP test server for running unit and integration tests."
+authors = ["Juergen Edelbluth <smtp-test-server@jued.de>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://git.codebau.dev/jed/smtp-test-server"
+homepage = "https://git.codebau.dev/jed/smtp-test-server"
+packages = [
+    { include = "smtp_test_server", from = "." },
+]
+keywords = [
+    "test", "unittest", "integrationtest", "mail", "smtp", "mock",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Quality Assurance",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS :: MacOS X",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://git.codebau.dev/jed/smtp-test-server/issues"
+"Wiki" = "https://git.codebau.dev/jed/smtp-test-server/wiki"
+"Releases" = "https://git.codebau.dev/jed/smtp-test-server/releases"
+"Documentation" = "https://git.codebau.dev/jed/smtp-test-server"
+"Changelog" = "https://git.codebau.dev/jed/smtp-test-server/CHANGELOG.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiosmtpd = "^1.4.4.post2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-isort = "^3.1.0"
+pytest-black = "^0.3.12"
+pytest-pylint = "^0.21.0"
+pytest-sugar = "^0.9.7"
+pytest-cov = "^4.1.0"
+pyhamcrest = "^2.1.0"
+
+[tool.pytest.ini_options]
+addopts = "-vv --black --isort --pylint --pylint-rcfile=.pylintrc --cov --cov-report=html:test-reports/coverage/html --cov-report=xml:test-reports/coverage/coverage.xml --cov-report=json:test-reports/coverage/coverage.json --junitxml=test-reports/pytest_mail_mock.xml"
+junit_family = "xunit2"
+junit_logging = "all"
+junit_log_passing_tests = true
+junit_duration_report = "call"
+junit_suite_name = "pytest-mail-mock"
+python_files = ["test_*.py"]
+filterwarnings=[
+    "ignore:.*BlackItem.*:_pytest.warning_types.PytestDeprecationWarning",
+    "ignore:.*BlackItem.*:_pytest.warning_types.PytestRemovedIn8Warning",
+    "ignore:.*PyLintFile.*:_pytest.warning_types.PytestRemovedIn8Warning",
+    "ignore:.*BlackItem.*:_pytest.warning_types.PytestWarning",
+    "ignore:Using the __implements__ inheritance pattern for BaseReporter is no longer supported. Child classes should only inherit BaseReporter",
+    "ignore:.*zipimport.*",
+    "ignore:Creating a LegacyVersion has been deprecated and will be removed in the next major release",
+    "ignore:.*startdir.*:_pytest.warning_types.PytestRemovedIn8Warning",
+]
+
+[tool.coverage.run]
+data_file = "test-reports/coverage/.coverage"
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.isort]
+line_length = 120
+include_trailing_comma = true
+multi_line_output = 3
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
