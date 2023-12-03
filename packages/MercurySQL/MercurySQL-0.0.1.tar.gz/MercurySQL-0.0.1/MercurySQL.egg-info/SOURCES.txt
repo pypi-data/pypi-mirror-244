@@ -1,0 +1,8 @@
+README.md
+setup.py
+MercurySQL/__init__.py
+MercurySQL/base.py
+MercurySQL.egg-info/PKG-INFO
+MercurySQL.egg-info/SOURCES.txt
+MercurySQL.egg-info/dependency_links.txt
+MercurySQL.egg-info/top_level.txt
