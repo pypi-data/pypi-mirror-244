@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+har2csp/__init__.py
+har2csp/main.py
+har2csp.egg-info/PKG-INFO
+har2csp.egg-info/SOURCES.txt
+har2csp.egg-info/dependency_links.txt
+har2csp.egg-info/entry_points.txt
+har2csp.egg-info/top_level.txt
