@@ -1,0 +1,5 @@
+napari
+numpy
+trackpy
+pandas
+plateletanalysis
