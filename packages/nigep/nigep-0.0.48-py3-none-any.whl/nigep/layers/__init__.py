@@ -1,0 +1,1 @@
+from salt_and_pepper_noise import SaltAndPepperNoise
