@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "getownip"
+version = "0.0.3"
+authors = [
+  { name = "Lukas Fürderer", email = "l.fuerderer@gmail.com" },
+]
+description = "Get your own ip address"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/lfuerderer1/getownip"
