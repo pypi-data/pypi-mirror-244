@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pcfl"
+version = "1.0.0"
+description = "Pinao Compensator for FLstudio"
+authors = ["recoma <seokbong60@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/skywinz/pcfl"
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: End Users/Desktop",
+
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mido = "^1.3.0"
+pytest = "^7.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
