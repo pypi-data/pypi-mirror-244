@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+pyproject.toml
+setup.py
+pypibacic/__init__.py
+testprojcalculator.egg-info/PKG-INFO
+testprojcalculator.egg-info/SOURCES.txt
+testprojcalculator.egg-info/dependency_links.txt
+testprojcalculator.egg-info/top_level.txt
