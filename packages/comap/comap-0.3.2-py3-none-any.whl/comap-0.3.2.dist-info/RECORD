@@ -1,0 +1,9 @@
+comap/__init__.py,sha256=K23MJbHQf8EamSFAexw4ZFT9gGxaBkPjt1AWUZ4RSrc,48
+comap/api.py,sha256=0ZNX2wKXcNp9GXmG_DXjcWsDj80RR5OmNimgnzMIpSg,15585
+comap/api_async.py,sha256=fxYNsuGGfntx1zVkTZdPKZ4RS2Hbevvk_Y4e-jMlhgg,17062
+comap/constants.py,sha256=QRcrXJ15n_p75dzs0QruuVwq-UIJCodMdVqpMgSiS2U,3323
+comap-0.3.2.dist-info/LICENSE,sha256=0h9v_JFU9RshIPIDs_iu2Uto3Ul1GubDwZ_yMxW0GoU,1064
+comap-0.3.2.dist-info/METADATA,sha256=QfhIciZxLDyJ1151JUVxfN_-AIhsqHrT-lNxXXUE-vM,19088
+comap-0.3.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+comap-0.3.2.dist-info/top_level.txt,sha256=XLHo-RD9Gh6jZcSdTorXf0d9t5L_xidxkmxCTvsSGrc,6
+comap-0.3.2.dist-info/RECORD,,
