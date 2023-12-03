@@ -1,0 +1,6 @@
+docker_injector/__init__.py,sha256=cqgwXheFygWmfIUAC3X4kL2YWKfBq6utYaA1At9HHmA,5779
+docker_injector/requirements.txt,sha256=UTzCUQFLLeVgbv80x_hT6G1-TbAlv-iMMQTqSyl4LEk,13
+docker_injector-0.1.5.dist-info/METADATA,sha256=KcI_AooxuXrpL42Jz0T51LuYLCY63WabD4SA6ajciI4,3310
+docker_injector-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+docker_injector-0.1.5.dist-info/entry_points.txt,sha256=e88HWXxFwrJRZ5cNsqIGHf3_ZazDer8oX5cZsldgItM,54
+docker_injector-0.1.5.dist-info/RECORD,,
