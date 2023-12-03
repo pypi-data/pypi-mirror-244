@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: markdown-lineblocks
+Version: 1.0.0
+Summary: A Python-Markdown extension to render line blocks
+Project-URL: Documentation, https://github.com/mjayfrancis/markdown-lineblocks#readme
+Project-URL: Issues, https://github.com/mjayfrancis/markdown-lineblocks/issues
+Project-URL: Source, https://github.com/mjayfrancis/markdown-lineblocks
+Author-email: Matthew Francis <mjay.francis@gmail.com>
+License-Expression: MIT
+License-File: LICENCE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: markdown>=3.0.0
+Description-Content-Type: text/markdown
+
+# Markdown line block extension
+
+[![PyPI - Version](https://img.shields.io/pypi/v/markdown-lineblocks.svg)](https://pypi.org/project/markdown-lineblocks)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/markdown-lineblocks.svg)](https://pypi.org/project/markdown-lineblocks)
+
+A [Python-Markdown](https://python-markdown.github.io/) extension to render line blocks.
+
+Example:
+```
+| Normally these lines would
+| Run together. But here
+| They are separate
+```
+
+
+-----
+
+## Installation
+
+```console
+pip install markdown-lineblocks
+```
+
+## Usage
+
+```py
+import markdown
+text = ...  # your Markdown source
+html = markdown.markdown(text, extensions='lineblocks')
+```
+
+To use with [MkDocs](https://www.mkdocs.org/), add the following to `mkdocs.yml`:
+```yaml
+markdown_extensions:
+  - lineblocks
+```
+
+
+## Licence
+
+`markdown-lineblocks` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) licence.
