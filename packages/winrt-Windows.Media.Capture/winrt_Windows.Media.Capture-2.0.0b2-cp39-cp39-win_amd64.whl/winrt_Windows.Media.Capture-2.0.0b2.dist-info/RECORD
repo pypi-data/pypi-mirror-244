@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_capture.cp39-win_amd64.pyd,sha256=AsH_ZZAhjulOE9H-LgDP0mO3ILWsNz2DwpWPtQJiZ0M,1245184
+winrt/_winrt_windows_media_capture.pyi,sha256=0CLZQyFMT3_uvAYO-IglId7mUMFOjK34nBKQHBYal5o,85525
+winrt/windows/media/capture/__init__.py,sha256=42T6p4C5G0hfWgEwYbpM2IsXO1j39m-RwRw1BaNC0SY,17557
+winrt_Windows.Media.Capture-2.0.0b2.dist-info/METADATA,sha256=I983ES5zW1hXbTRAJDNWEobgjFVaaN5HDdP5nQnOLsM,2485
+winrt_Windows.Media.Capture-2.0.0b2.dist-info/WHEEL,sha256=2xSj8c4s_gFbWpcImYQptdXS3JLuzC2uK5Om8I_SEKg,100
+winrt_Windows.Media.Capture-2.0.0b2.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Capture-2.0.0b2.dist-info/RECORD,,
