@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thot-data"
+dynamic = ["version"]
+description = "Python library for Thot data analysis and management."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT or Apache-2.0"
+keywords = ["data management", "data analysis"]
+authors = [
+  { name="Brian Carlsen", email="carlsen.bri@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pyzmq"]
+
+[project.urls]
+Issues = "https://github.com/thot-data/thot-test/issues"
+Source = "https://github.com/thot-data/thot"
+Homepage = "https://thot.so"
+
+[tool.hatch.version]
+path = "src/thot/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/thot"]
