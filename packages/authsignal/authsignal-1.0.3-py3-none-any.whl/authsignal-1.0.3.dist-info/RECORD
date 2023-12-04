@@ -1,0 +1,8 @@
+authsignal/__init__.py,sha256=vejYxFp-tFRj9d1gG_AwUQA2l0JYTJ61d7t-hhTtQHc,41
+authsignal/client.py,sha256=889yYCxVAfwN_cOLKtySYwrx4K3upJdprFUytpWPIS0,9310
+authsignal/client_tests.py,sha256=nyj5SEjDzdTZReKNn-EyeNMG_mO4-7xTI4sS9jOqsJo,6070
+authsignal/version.py,sha256=msuIzd7adWPncT66zqQDw3I1nl5CinUh92LaScr6O5k,17
+authsignal-1.0.3.dist-info/LICENSE,sha256=Z7wXfcMoUt-U6vNcY4jjX_dPiOu8WrdKYeAi7UUwcMQ,1067
+authsignal-1.0.3.dist-info/METADATA,sha256=eZ_DYZkcSMwiYfVGANdbgfR5ywg2ktpPmg5TZDQQlbY,1715
+authsignal-1.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+authsignal-1.0.3.dist-info/RECORD,,
