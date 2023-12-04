@@ -1,0 +1,6 @@
+import contextlib
+
+from syndb_api.database.setup import get_cluster_db_write_async_session, get_db_write_async_session
+
+get_db_write_async_session_context = contextlib.asynccontextmanager(get_db_write_async_session)
+get_cluster_db_write_async_session_context = contextlib.asynccontextmanager(get_cluster_db_write_async_session)

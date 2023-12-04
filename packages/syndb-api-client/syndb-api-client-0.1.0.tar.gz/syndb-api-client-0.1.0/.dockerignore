@@ -1,0 +1,15 @@
+.mypy_cache
+.pytest_cache
+.ruff_cache
+alembic
+build
+dist
+local
+openapi_client
+script
+.gitignore
+alembic.ini
+docker-compose.yaml
+Dockerfile
+openapi.yaml
+README.md

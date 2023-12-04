@@ -1,0 +1,77 @@
+default:
+    just --list
+
+api_client_pkg_name := "syndb-api-client"
+api_gen_dir := "openapi_client"
+
+db-cleanup:
+    docker-compose down -v
+    @echo "Tore down local infrastructure, and cleaned the storage "
+
+db-start:
+    docker-compose up -d
+    @echo "Setup local infrastructure successfully 🏝️"
+
+run:
+    poetry run uvicorn syndb_api.main:app --host 127.0.0.1 --port 8180
+
+test-unit: db-start
+    poetry run pytest tests/unit
+
+test-integ:
+    poetry run uvicorn syndb_api.main:app --host 127.0.0.1 --port 8180 &
+    poetry run pytest tests/integration
+    kill uvicorn
+
+# Port-forward the production PostgreSQL HA-cluster on K8 to localhost
+sql-fw:
+    kubectl port-forward \
+    $( \
+        kubectl get pod -l cluster-name=core-fastapi,spilo-role=master \
+        -o jsonpath='{.items[0].metadata.name}' -n syndb \
+    ) \
+    -n syndb 15432:5432
+
+# Create DB migration with alembic
+sql-migrate:
+    #!/usr/bin/env bash
+    echo "Revision message: "
+    read rev_msg
+    poetry run alembic revision --autogenerate -m "$rev_msg" \
+        && echo "Please look over the auto generated code, and run: just sql-upgrade"
+
+# Push recent migrations to the production database
+sql-upgrade:
+    alembic upgrade head
+
+# Insert pre-defined data to PostgreSQL
+sql-data:
+    poetry run python ./script/sync_def_with_cluster_db.py
+
+psql:
+    PGPASSWORD=syndb psql -U syndb -d syndb_test -h localhost -p 5432
+
+# Generate a Python client with openapi-generator for the api
+api-gen:
+    poetry run python script/openapi_schema_gen.py
+    rm -r {{ api_gen_dir }}/*
+    openapi-generator generate \
+        --input-spec openapi.yaml \
+        --output {{ api_gen_dir }} \
+        --generator-name python \
+        --skip-validate-spec \
+        --additional-properties=packageName={{ api_client_pkg_name }},packageVersion=$(poetry version -s)
+
+api-upload: api-gen
+    python {{ api_gen_dir }}/setup.py sdist bdist_wheel
+    twine upload dist/{{ api_client_pkg_name }}*
+
+# Format code
+format:
+    poetry run black .
+    poetry run isort .
+    poetry run ruff check . --fix
+
+# Typecheck code
+typecheck:
+    poetry run mypy -p syndb_api

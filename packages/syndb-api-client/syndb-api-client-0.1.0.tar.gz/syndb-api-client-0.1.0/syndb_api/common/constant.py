@@ -1,0 +1,6 @@
+S3_SIGNED_LINK_TTL = 1800
+
+S3_BUCKET_NAME_PROFILE_PICTURE = "user_profile_picture"
+S3_PROFILE_PICTURE_FORMAT = "webp"
+
+S3_BUCKET_NAME_MESH = "neuro_data_mesh"

@@ -1,0 +1,1724 @@
+openapi: 3.0.3
+info:
+  title: Synapse DB
+  version: 0.1.0
+paths:
+  /user/auth/database/login:
+    post:
+      tags:
+      - user
+      - user
+      - auth
+      summary: Auth:Database.Login
+      operationId: auth_database_login_user_auth_database_login_post
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Body_auth_database_login_user_auth_database_login_post'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BearerResponse'
+              example:
+                access_token: 
+                  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiOTIyMWZmYzktNjQwZi00MzcyLTg2ZDMtY2U2NDJjYmE1NjAzIiwiYXVkIjoiZmFzdGFwaS11c2VyczphdXRoIiwiZXhwIjoxNTcxNTA0MTkzfQ.M10bjOe45I5Ncu_uXvOmVV8QxnL-nZfcH96U90JaocI
+                token_type: bearer
+        '400':
+          content:
+            application/json:
+              examples:
+                LOGIN_BAD_CREDENTIALS:
+                  summary: Bad credentials or the user is inactive.
+                  value:
+                    detail: LOGIN_BAD_CREDENTIALS
+                LOGIN_USER_NOT_VERIFIED:
+                  summary: The user is not verified.
+                  value:
+                    detail: LOGIN_USER_NOT_VERIFIED
+              schema:
+                $ref: '#/components/schemas/ErrorModel'
+          description: Bad Request
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/auth/database/logout:
+    post:
+      tags:
+      - user
+      - user
+      - auth
+      summary: Auth:Database.Logout
+      operationId: auth_database_logout_user_auth_database_logout_post
+      security:
+      - OAuth2PasswordBearer: []
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '401':
+          description: Missing token or inactive user.
+  /user/register:
+    post:
+      tags:
+      - user
+      summary: Register:Register
+      operationId: register_register_user_register_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserCreate'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserJustRead'
+        '400':
+          content:
+            application/json:
+              examples:
+                REGISTER_USER_ALREADY_EXISTS:
+                  summary: A user with this email already exists.
+                  value:
+                    detail: REGISTER_USER_ALREADY_EXISTS
+                REGISTER_INVALID_PASSWORD:
+                  summary: Password validation failed.
+                  value:
+                    detail:
+                      code: REGISTER_INVALID_PASSWORD
+                      reason: Password should beat least 3 characters
+              schema:
+                $ref: '#/components/schemas/ErrorModel'
+          description: Bad Request
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/request-verify-token:
+    post:
+      tags:
+      - user
+      summary: Verify:Request-Token
+      operationId: verify_request_token_user_request_verify_token_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Body_verify_request_token_user_request_verify_token_post'
+      responses:
+        '202':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/verify:
+    post:
+      tags:
+      - user
+      summary: Verify:Verify
+      operationId: verify_verify_user_verify_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Body_verify_verify_user_verify_post'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserJustRead'
+        '400':
+          content:
+            application/json:
+              examples:
+                VERIFY_USER_BAD_TOKEN:
+                  summary: Bad token, not existing user ornot the e-mail currently
+                    set for the user.
+                  value:
+                    detail: VERIFY_USER_BAD_TOKEN
+                VERIFY_USER_ALREADY_VERIFIED:
+                  summary: The user is already verified.
+                  value:
+                    detail: VERIFY_USER_ALREADY_VERIFIED
+              schema:
+                $ref: '#/components/schemas/ErrorModel'
+          description: Bad Request
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/profile/current:
+    get:
+      tags:
+      - user
+      summary: Current User Profile
+      operationId: current_user_profile_user_profile_current_get
+      security:
+      - OAuth2PasswordBearer: []
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserProfile'
+  /user/profile/{scientist_tag}:
+    get:
+      tags:
+      - user
+      - s3
+      summary: Profile From Scientist Tag
+      operationId: profile_from_scientist_tag_user_profile__scientist_tag__get
+      parameters:
+      - name: scientist_tag
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Scientist Tag
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserProfile'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/profile/current/set_scientist_tag:
+    post:
+      tags:
+      - user
+      summary: Set Scientist Tag
+      operationId: set_scientist_tag_user_profile_current_set_scientist_tag_post
+      security:
+      - OAuth2PasswordBearer: []
+      parameters:
+      - name: scientist_tag
+        in: query
+        required: true
+        schema:
+          type: string
+          title: Scientist Tag
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/profile/current/upload_url_profile_picture:
+    post:
+      tags:
+      - user
+      - s3
+      summary: Set Profile Picture
+      operationId: set_profile_picture_user_profile_current_upload_url_profile_picture_post
+      security:
+      - OAuth2PasswordBearer: []
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PreSignedS3Schema'
+  /neurodata/metadata/dataset/new_dataset:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - dataset
+      summary: Register New Dataset
+      operationId: register_new_dataset_neurodata_metadata_dataset_new_dataset_post
+      security:
+      - OAuth2PasswordBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDataset'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IdResponse'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/dataset/get_all:
+    get:
+      tags:
+      - neurodata
+      - metadata
+      - dataset
+      summary: Fetch All Datasets Id2Label
+      operationId: fetch_all_datasets_id2label_neurodata_metadata_dataset_get_all_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Id2LabelResponse'
+  /neurodata/metadata/dataset/{scientist_tag}:
+    get:
+      tags:
+      - neurodata
+      - metadata
+      - dataset
+      summary: Scientist Tag Datasets
+      description: Datasets belonging to scientist tag
+      operationId: scientist_tag_datasets_neurodata_metadata_dataset__scientist_tag__get
+      parameters:
+      - name: scientist_tag
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Scientist Tag
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Id2LabelResponse'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/dataset/modifiable:
+    get:
+      tags:
+      - neurodata
+      - metadata
+      - dataset
+      summary: Fetch Modifiable Datasets
+      operationId: fetch_modifiable_datasets_neurodata_metadata_dataset_modifiable_get
+      security:
+      - OAuth2PasswordBearer: []
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Id2LabelResponse'
+  /neurodata/metadata/dataset/dataset_tag_search:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - dataset
+      summary: Dataset Tag Search Endpoint
+      operationId: dataset_tag_search_endpoint_neurodata_metadata_dataset_dataset_tag_search_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DatasetSearchModel'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Id2LabelResponse'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/dataset/upload_complete:
+    put:
+      tags:
+      - neurodata
+      - metadata
+      - dataset
+      summary: Register Dataset Upload Completion
+      operationId: 
+        register_dataset_upload_completion_neurodata_metadata_dataset_upload_complete_put
+      parameters:
+      - name: dataset_id
+        in: query
+        required: true
+        schema:
+          type: string
+          format: uuid
+          title: Dataset Id
+      - name: upload_size
+        in: query
+        required: true
+        schema:
+          type: integer
+          title: Upload Size
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/dataset/new_dataset_collection:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - dataset
+      summary: New Dataset Collection
+      operationId: new_dataset_collection_neurodata_metadata_dataset_new_dataset_collection_post
+      security:
+      - OAuth2PasswordBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateReadDatasetCollectionModel'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/tag/get_all:
+    get:
+      tags:
+      - neurodata
+      - metadata
+      - tag
+      summary: Fetch All Tags Endpoint
+      operationId: fetch_all_tags_endpoint_neurodata_metadata_tag_get_all_get
+      parameters:
+      - name: cutoff_creation_datetime
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+            format: date-time
+          - type: 'null'
+          title: Cutoff Creation Datetime
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllTagsJustRead'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/tag/animal/create:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - tag
+      summary: Create Animal
+      operationId: create_animal_neurodata_metadata_tag_animal_create_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AnimalModelCreateRead'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/tag/brain_region/create:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - tag
+      summary: Create Brain Region
+      operationId: create_brain_region_neurodata_metadata_tag_brain_region_create_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BrainRegionCreateRead'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/tag/mutation/create:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - tag
+      summary: Create Mutation
+      operationId: create_mutation_neurodata_metadata_tag_mutation_create_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MutationModelCreateRead'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/tag/microscopy/create:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - tag
+      summary: Create Microscopy
+      operationId: create_microscopy_neurodata_metadata_tag_microscopy_create_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MicroscopyCreateRead'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/metadata/tag/publication/create:
+    post:
+      tags:
+      - neurodata
+      - metadata
+      - tag
+      summary: Create Publication
+      operationId: create_publication_neurodata_metadata_tag_publication_create_post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PublicationCreateRead'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/s3/upload/mesh:
+    post:
+      tags:
+      - neurodata
+      - s3
+      - s3
+      summary: Upload Mesh
+      operationId: upload_mesh_neurodata_s3_upload_mesh_post
+      security:
+      - OAuth2PasswordBearer: []
+      parameters:
+      - name: dataset_id
+        in: query
+        required: true
+        schema:
+          type: string
+          format: uuid
+          title: Dataset Id
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PreSignedS3Schema'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/s3/upload/swb:
+    post:
+      tags:
+      - neurodata
+      - s3
+      - s3
+      summary: Upload Swb
+      operationId: upload_swb_neurodata_s3_upload_swb_post
+      security:
+      - OAuth2PasswordBearer: []
+      parameters:
+      - name: dataset_id
+        in: query
+        required: true
+        schema:
+          type: string
+          format: uuid
+          title: Dataset Id
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PreSignedS3Schema'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /neurodata/upload_dataset_files:
+    post:
+      tags:
+      - neurodata
+      summary: Upload Dataset Files
+      description: SynDB neurodata imaging metrics data upload endpoint
+      operationId: upload_dataset_files_neurodata_upload_dataset_files_post
+      security:
+      - OAuth2PasswordBearer: []
+      parameters:
+      - name: dataset_id
+        in: query
+        required: true
+        schema:
+          type: string
+          format: uuid
+          title: Dataset Id
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Body_upload_dataset_files_neurodata_upload_dataset_files_post'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /:
+    get:
+      summary: Redirect
+      operationId: redirect__get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+components:
+  schemas:
+    AllTagsJustRead:
+      properties:
+        animal:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/AnimalModelJustRead'
+            type: array
+          - type: 'null'
+          title: Animal
+        brain_region:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/BrainRegionJustRead'
+            type: array
+          - type: 'null'
+          title: Brain Region
+        mutation:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/MutationModelJustRead'
+            type: array
+          - type: 'null'
+          title: Mutation
+        microscopy_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Microscopy Names
+        publication_dois:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Publication Dois
+      type: object
+      title: AllTagsJustRead
+    AnimalModelCreateRead:
+      properties:
+        species:
+          type: string
+          title: Species
+        cultural_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Cultural Name
+      type: object
+      required:
+      - species
+      - cultural_name
+      title: AnimalModelCreateRead
+    AnimalModelJustRead:
+      properties:
+        species:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Species
+        cultural_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Cultural Name
+      type: object
+      title: AnimalModelJustRead
+    BearerResponse:
+      properties:
+        access_token:
+          type: string
+          title: Access Token
+        token_type:
+          type: string
+          title: Token Type
+      type: object
+      required:
+      - access_token
+      - token_type
+      title: BearerResponse
+    Body_auth_database_login_user_auth_database_login_post:
+      properties:
+        grant_type:
+          anyOf:
+          - type: string
+            pattern: password
+          - type: 'null'
+          title: Grant Type
+        username:
+          type: string
+          title: Username
+        password:
+          type: string
+          title: Password
+        scope:
+          type: string
+          title: Scope
+          default: ''
+        client_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Client Id
+        client_secret:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Client Secret
+      type: object
+      required:
+      - username
+      - password
+      title: Body_auth_database_login_user_auth_database_login_post
+    Body_upload_dataset_files_neurodata_upload_dataset_files_post:
+      properties:
+        neurodata_files:
+          items:
+            type: string
+            format: binary
+          type: array
+          title: Neurodata Files
+          description: Parquet files storing SynDB neurodata
+      type: object
+      required:
+      - neurodata_files
+      title: Body_upload_dataset_files_neurodata_upload_dataset_files_post
+    Body_verify_request_token_user_request_verify_token_post:
+      properties:
+        email:
+          type: string
+          format: email
+          title: Email
+      type: object
+      required:
+      - email
+      title: Body_verify_request_token_user_request_verify_token_post
+    Body_verify_verify_user_verify_post:
+      properties:
+        token:
+          type: string
+          title: Token
+      type: object
+      required:
+      - token
+      title: Body_verify_verify_user_verify_post
+    BrainRegionCreateRead:
+      properties:
+        id:
+          anyOf:
+          - type: string
+            format: uuid
+          - type: 'null'
+          title: Id
+        brain_structure:
+          $ref: '#/components/schemas/BrainStructure'
+        direction:
+          $ref: '#/components/schemas/NeuroanatomicalDirection'
+      type: object
+      required:
+      - brain_structure
+      - direction
+      title: BrainRegionCreateRead
+    BrainRegionJustRead:
+      properties:
+        brain_structure:
+          anyOf:
+          - $ref: '#/components/schemas/BrainStructure'
+          - type: 'null'
+        direction:
+          anyOf:
+          - $ref: '#/components/schemas/NeuroanatomicalDirection'
+          - type: 'null'
+      type: object
+      title: BrainRegionJustRead
+    BrainStructure:
+      type: string
+      enum:
+      - amygdaloid complex
+      - ansa lenticularis
+      - arachnoid mater
+      - arbor vitae
+      - arcuate fasciculus
+      - astrocyte
+      - axon
+      - basilar artery
+      - basonucleus amygdala
+      - bergmann glia
+      - bernasconi vein
+      - blood brain barrier
+      - blood vessels
+      - body of fornix
+      - brachium conjunctivum
+      - brain barrier system
+      - ca1
+      - ca2
+      - ca3
+      - ca4
+      - calcarine sulcus
+      - callosal sulcus
+      - callosomarginal artery
+      - caudate
+      - caudate nucleus
+      - cavernosus sinus
+      - cave of retzius
+      - central artery
+      - central canal
+      - central lobule
+      - central nucleus amygdala
+      - cerebellar artery
+      - cerebellar cortex
+      - cerebellar nuclei
+      - cerebellar peduncles
+      - cerebellar peduncles middle
+      - cerebellar vessels
+      - cerebellar white matter
+      - cerebral aqueduct
+      - cerebral artery
+      - cerebral endothelial cell
+      - cerebral vein
+      - cerebral vessels
+      - cerebrospinal fluid
+      - choroidal artery
+      - choroid plexus
+      - choroid plexus epithelium
+      - choroid plexus vessels
+      - cingulate
+      - cingulum
+      - circle of willis
+      - circumflex fasciculus
+      - coliculus
+      - colsulcus
+      - column of fornix
+      - commissure
+      - commissure white matter
+      - commisure
+      - communicating artery
+      - corpus callosum body
+      - corpus callosum genu
+      - corpus callosum rostrum
+      - corpus callosum splenium
+      - cortex
+      - cortical nucleus amygdala
+      - corticospinal tract
+      - cruciate ligament
+      - crus cerebri
+      - crus of fornix
+      - culmen
+      - culmen vermis
+      - cuneus
+      - declive
+      - declive vermis
+      - dendrite
+      - dentate gyrus
+      - dentate gyrus sulcus
+      - dentate nucleus
+      - dg
+      - diagonal band of broca
+      - dura mater
+      - emboliform nucleus
+      - entorhinal cortex
+      - ependymal cell
+      - ependymoglia
+      - fastigial nucleus
+      - fastigium
+      - fibrous astrocyte
+      - fimbria
+      - fissure of sylvius
+      - flocculonodular lobe
+      - flocculus
+      - folliculi
+      - foramen of monro
+      - forceps major
+      - forceps minor
+      - fourth ventricle
+      - frontal asylum
+      - frontal gyrus
+      - frontal sulcus
+      - frontopolar artery
+      - funiculusis
+      - geniculate nucleus
+      - globose nucleus
+      - globus pallidus
+      - habenular commisure
+      - hippocampal sulcus
+      - hippocampus
+      - hypothalamic commissure
+      - hypothalamic commisure
+      - induseum grisium
+      - infundibulum
+      - insular asylum
+      - intercalated nucleus amygdala
+      - interior cerebral vein
+      - internal capsule genu
+      - internal capsule limb
+      - internal carotid artery
+      - interpeduncular fossa
+      - interpositus nucleus
+      - interventricular foramen
+      - intralaminar nucleus thalamus
+      - lamina terminalis
+      - lateronucleus
+      - lemniscus
+      - lenticular fasciculus
+      - lenticulostriate arteries
+      - lingual gyrus
+      - lingual sulcus
+      - lobe
+      - longitudinal fasciculus
+      - lushka foramen
+      - magendie foramen
+      - mammillary body
+      - mammillary recess
+      - massa intermedia
+      - medullary reticulospinal tract
+      - medullary velum
+      - meningeal vessels
+      - meninges
+      - microglia
+      - middle cerebral artery
+      - middle cerebral vein
+      - middle temporal gyrus
+      - midline nucleus thalamus
+      - mueller cell
+      - myelin
+      - neurofilament
+      - neuroglia
+      - neuron
+      - neuropil
+      - nissil body
+      - node of ranvier
+      - nodulus
+      - nucleus
+      - nucleus amygdala
+      - nucleus thalamus
+      - nuclues accumbens
+      - occipital asylum
+      - occipital gyrus
+      - occipital sinus
+      - occipital sulcus
+      - occipitotemporal gyrus
+      - occipitotemporal sulcus
+      - olfactory sulcus
+      - olfactory trigone
+      - oligodendrocyte
+      - olivary complex
+      - olivospinal tract
+      - ophthalmic artery
+      - optic chiasm
+      - optic nerve
+      - optic recess
+      - orbifrontal gyrus
+      - orbitofrontal artery
+      - orbitofrontal cortex
+      - paracentral lobule
+      - paraflocculus
+      - parahippocampal gyrus
+      - paraventricular nucleus thalamus
+      - parenchymal feet
+      - parietal asylum
+      - parietal bone
+      - parietal gyrus
+      - parietal lobe
+      - parietal lobule
+      - parietal operculum
+      - parieto occipital artery
+      - parieto occipital notch
+      - parieto occipital sulcus
+      - pars opercularis
+      - pars orbitalis
+      - pars triangularis
+      - pedunculopontine nucleus
+      - perforated substance
+      - pericallosal artery
+      - perirhinal cortex
+      - petrosal sinus
+      - piastrocyte
+      - pia mater
+      - pinealocyte
+      - pineal gyrus
+      - pineal recess
+      - pituicyte
+      - pituitary gyrus
+      - pons
+      - pontine fibers
+      - pontine reticulospinal tract
+      - postcentral artery
+      - postcentral gyrus
+      - precentral artery
+      - precentral gyrus
+      - precentral sulcus
+      - precuneus
+      - premotor cortex
+      - preoptic area
+      - prepyriform area
+      - presubiculum
+      - primary auditory cortex
+      - primary fissure
+      - primary motor cortex
+      - primary sensory cortex
+      - primary somatosensory cortex
+      - primary visual cortex
+      - primar visual cortex
+      - prosubiculum
+      - protoplasmic astrocyte
+      - pulvinar
+      - pulvinar nucleus
+      - putamen
+      - pyramidal cell
+      - pyramidal tract
+      - pyramis
+      - pyramis vermis
+      - radial glia
+      - recess
+      - recurrent artery of heberden
+      - red nucleus
+      - reticular formation
+      - reticular nucleus
+      - reticular nucleus thalamus
+      - retrolenficular part
+      - retrosplenial cortex
+      - rhinal sulcus
+      - rhombic lip
+      - rossenthal vein
+      - rubrospinal tract
+      - sagittal sinus
+      - satellite cell
+      - schwann cell
+      - secondary auditory cortex
+      - secondary somatosensory cortex
+      - secondary visual cortex
+      - septal nucleus
+      - septum
+      - septum pellucidum
+      - septum verum
+      - short cingulate gyrus
+      - short insular gyrus
+      - sigmoid sinus
+      - silvian fissure
+      - simple lobule
+      - singulate
+      - singulate gyrus
+      - singulate sulcus
+      - spinal arteries
+      - spinal artery
+      - spinal cord gray matter
+      - spinal cord white matter
+      - spino thalamic tract
+      - spledium
+      - straight gyrus
+      - straight sinus
+      - stratium
+      - striate arteries
+      - striate cortex
+      - striatum
+      - stria medullaris
+      - stria terminalis
+      - sts
+      - subcallosal area
+      - subcallosal gyrus
+      - subcalossal stria
+      - subcommissural organ
+      - subiculum
+      - substantia innominata
+      - substantia nigra
+      - subthalamic nucleus
+      - sulcus
+      - suprachiasmatic nucleus
+      - suprachiasmatic recess
+      - supramamillary nucleus
+      - supramarginal gyrus
+      - supraoptic commissure
+      - suprarhinal gyrus
+      - synapse
+      - taenia fornix
+      - taenia septi pellucidi
+      - taenia thalami
+      - tail of caudate nucleus
+      - tanicytes
+      - taniglia
+      - tapetum
+      - tectal commissure
+      - tectospinal tract
+      - tegmental area
+      - tela choroidea
+      - temporal arteries
+      - temporal arteries middle
+      - temporal asylum
+      - temporal bone
+      - temporal cortex
+      - temporal gyrus
+      - temporal lobe
+      - temporal pole
+      - temporal stem
+      - temporal sulcus
+      - thalamic fasciculus
+      - thalamus
+      - third ventricle
+      - thlamus
+      - tonsil
+      - torcular herophili
+      - transverse sinus
+      - trapezoid body
+      - trigeminal nerve
+      - trochlear nerve
+      - tuber
+      - tuberomamillary nucleus
+      - tuber cinereum
+      - tuber vermis
+      - uncinate fasciculus
+      - uncinate gyrus
+      - unduse oris
+      - upituitary
+      - uvula
+      - uvula vermis
+      - vagus nerve
+      - vein of galen
+      - vein of labbe
+      - vein of septum pellucidum
+      - vein of trolard
+      - ventricle
+      - ventricular epithelium
+      - ventricular system
+      - ventronucleus
+      - vermis
+      - vertebral artery
+      - vertical gyrus
+      - vestibulocerebellum
+      - vestibulospinal tract
+      - visual association cortex
+      - visual cortex
+      - vpl nucleus
+      - white matter
+      - wing of central lobule
+      - zahn arteries
+      - zona incerta
+      title: BrainStructure
+    CreateDataset:
+      properties:
+        authorized_group_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Authorized Group Names
+        dataset_collection_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Dataset Collection Names
+        syndb_tables:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/SyndbTable'
+            type: array
+            uniqueItems: true
+          - type: 'null'
+          title: Syndb Tables
+        publication_dois:
+          anyOf:
+          - items:
+              type: string
+            type: array
+            uniqueItems: true
+          - type: 'null'
+          title: Publication Dois
+        id:
+          anyOf:
+          - type: string
+            format: uuid
+          - type: 'null'
+          title: Id
+        label:
+          type: string
+          maxLength: 120
+          title: Label
+        notes:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Notes
+        animal:
+          $ref: '#/components/schemas/AnimalModelCreateRead'
+        mutations:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/MutationModelCreateRead'
+            type: array
+            uniqueItems: true
+          - type: 'null'
+          title: Mutations
+        brain_region:
+          $ref: '#/components/schemas/BrainRegionCreateRead'
+        microscopy:
+          $ref: '#/components/schemas/MicroscopyCreateRead'
+      type: object
+      required:
+      - label
+      - animal
+      - brain_region
+      - microscopy
+      title: CreateDataset
+    CreateReadDatasetCollectionModel:
+      properties:
+        authorized_group_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Authorized Group Names
+        name:
+          type: string
+          title: Name
+        dataset_ids:
+          anyOf:
+          - items:
+              type: string
+              format: uuid
+            type: array
+          - type: 'null'
+          title: Dataset Ids
+        notes:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Notes
+      type: object
+      required:
+      - name
+      title: CreateReadDatasetCollectionModel
+    DatasetSearchModel:
+      properties:
+        include:
+          $ref: '#/components/schemas/FilterDataset'
+        exclude:
+          anyOf:
+          - $ref: '#/components/schemas/FilterDataset'
+          - type: 'null'
+      type: object
+      required:
+      - include
+      title: DatasetSearchModel
+    ErrorModel:
+      properties:
+        detail:
+          anyOf:
+          - type: string
+          - additionalProperties:
+              type: string
+            type: object
+          title: Detail
+      type: object
+      required:
+      - detail
+      title: ErrorModel
+    FilterDataset:
+      properties:
+        authorized_group_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Authorized Group Names
+        dataset_collection_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Dataset Collection Names
+        syndb_tables:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/SyndbTable'
+            type: array
+            uniqueItems: true
+          - type: 'null'
+          title: Syndb Tables
+        publication_dois:
+          anyOf:
+          - items:
+              type: string
+            type: array
+            uniqueItems: true
+          - type: 'null'
+          title: Publication Dois
+        owner_id:
+          anyOf:
+          - items:
+              type: string
+              format: uuid
+            type: array
+          - type: 'null'
+          title: Owner Id
+        animal_species:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Animal Species
+        animal_cultural_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Animal Cultural Names
+        microscopy_names:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Microscopy Names
+        mutations:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/MutationModelJustRead'
+            type: array
+          - type: 'null'
+          title: Mutations
+        brain_regions:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/BrainRegionJustRead'
+            type: array
+          - type: 'null'
+          title: Brain Regions
+        microscopies:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/MicroscopyJustRead'
+            type: array
+          - type: 'null'
+          title: Microscopies
+      type: object
+      title: FilterDataset
+    GeneExpression:
+      type: string
+      enum:
+      - knock-out
+      - knock-in
+      - knock-down
+      - knock-sideways
+      - overexpression
+      title: GeneExpression
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    Id2LabelResponse:
+      properties:
+        uuid_to_label:
+          additionalProperties:
+            type: string
+          type: object
+          title: Uuid To Label
+      type: object
+      required:
+      - uuid_to_label
+      title: Id2LabelResponse
+    IdResponse:
+      properties:
+        id:
+          type: string
+          format: uuid
+          title: Id
+      type: object
+      required:
+      - id
+      title: IdResponse
+    MicroscopyCreateRead:
+      properties:
+        name:
+          type: string
+          title: Name
+      type: object
+      required:
+      - name
+      title: MicroscopyCreateRead
+    MicroscopyJustRead:
+      properties:
+        name:
+          type: string
+          title: Name
+      type: object
+      required:
+      - name
+      title: MicroscopyJustRead
+    MutationModelCreateRead:
+      properties:
+        id:
+          anyOf:
+          - type: string
+            format: uuid
+          - type: 'null'
+          title: Id
+        gene:
+          type: string
+          title: Gene
+        expression:
+          $ref: '#/components/schemas/GeneExpression'
+      type: object
+      required:
+      - gene
+      - expression
+      title: MutationModelCreateRead
+    MutationModelJustRead:
+      properties:
+        gene:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Gene
+        expression:
+          anyOf:
+          - $ref: '#/components/schemas/GeneExpression'
+          - type: 'null'
+      type: object
+      title: MutationModelJustRead
+    NeuroanatomicalDirection:
+      type: string
+      enum:
+      - anterior
+      - anterior dorsal
+      - anterior ventral
+      - caudal
+      - distal
+      - distal caudal
+      - distal rostral
+      - dorsal
+      - dorsal lateral
+      - dorsal medial
+      - inferior
+      - inferior distal
+      - inferior proximal
+      - lateral
+      - lateral inferior
+      - lateral superior
+      - medial
+      - medial inferior
+      - medial superior
+      - posterior
+      - posterior dorsal
+      - posterior ventral
+      - proximal
+      - proximal caudal
+      - proximal rostral
+      - rostral
+      - superior
+      - superior distal
+      - superior proximal
+      - ventral
+      - ventral lateral
+      - ventral medial
+      - 'null'
+      title: NeuroanatomicalDirection
+    PreSignedS3Schema:
+      properties:
+        upload_url:
+          type: string
+          title: Upload Url
+        fields:
+          type: object
+          title: Fields
+      type: object
+      required:
+      - upload_url
+      - fields
+      title: PreSignedS3Schema
+    PublicationCreateRead:
+      properties:
+        doi:
+          type: string
+          title: Doi
+      type: object
+      required:
+      - doi
+      title: PublicationCreateRead
+    SyndbTable:
+      type: integer
+      enum:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      title: SyndbTable
+    UserCreate:
+      properties:
+        email:
+          type: string
+          format: email
+          title: Email
+        password:
+          type: string
+          title: Password
+        is_active:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Is Active
+          default: true
+        is_superuser:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Is Superuser
+          default: false
+        is_verified:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Is Verified
+          default: false
+      type: object
+      required:
+      - email
+      - password
+      title: UserCreate
+    UserJustRead:
+      properties:
+        id:
+          type: string
+          format: uuid
+          title: Id
+        email:
+          type: string
+          format: email
+          title: Email
+        is_active:
+          type: boolean
+          title: Is Active
+          default: true
+        is_superuser:
+          type: boolean
+          title: Is Superuser
+          default: false
+        is_verified:
+          type: boolean
+          title: Is Verified
+          default: false
+      type: object
+      required:
+      - id
+      - email
+      title: UserJustRead
+    UserProfile:
+      properties:
+        id:
+          type: string
+          format: uuid
+          title: Id
+        scientist_tag:
+          type: string
+          title: Scientist Tag
+        profile_picture_link:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Profile Picture Link
+        is_superuser:
+          type: boolean
+          title: Is Superuser
+      type: object
+      required:
+      - id
+      - scientist_tag
+      - is_superuser
+      title: UserProfile
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError
+  securitySchemes:
+    OAuth2PasswordBearer:
+      type: oauth2
+      flows:
+        password:
+          scopes: {}
+          tokenUrl: user/auth/database/login

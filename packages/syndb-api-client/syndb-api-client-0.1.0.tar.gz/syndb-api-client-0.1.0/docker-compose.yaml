@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:alpine
+    environment:
+      POSTGRES_DB: syndb_test
+      POSTGRES_USER: syndb
+      POSTGRES_PASSWORD: syndb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./local/postgres:/docker-entrypoint-initdb.d/
+
+  scylla:
+    image: scylladb/scylla:latest
+    container_name: test-scylla
+    command: --overprovisioned 1
+    volumes:
+      - ./local/scylla:/var/lib/scylla
+    ports:
+      - "9042:9042"
+      - "7000:7000"
+      - "7001:7001"
+      - "7199:7199"
+      - "9160:9160"
+      - "9180:9180"
+      - "10000:10000"
