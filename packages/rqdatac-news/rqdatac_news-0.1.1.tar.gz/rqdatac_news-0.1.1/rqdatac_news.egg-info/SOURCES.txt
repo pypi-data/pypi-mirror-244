@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+rqdatac_news/__init__.py
+rqdatac_news/_version.py
+rqdatac_news/api.py
+rqdatac_news.egg-info/PKG-INFO
+rqdatac_news.egg-info/SOURCES.txt
+rqdatac_news.egg-info/dependency_links.txt
+rqdatac_news.egg-info/not-zip-safe
+rqdatac_news.egg-info/requires.txt
+rqdatac_news.egg-info/top_level.txt
