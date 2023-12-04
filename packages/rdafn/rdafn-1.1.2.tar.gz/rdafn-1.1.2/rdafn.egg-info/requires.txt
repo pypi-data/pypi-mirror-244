@@ -1,0 +1,5 @@
+fiona
+pytest
+rdadata
+rdapy
+shapely
