@@ -1,0 +1,9 @@
+-c requirements.txt
+black
+build
+flake8
+isort
+pre-commit
+setuptools
+setuptools-scm
+wheel

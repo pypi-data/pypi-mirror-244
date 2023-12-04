@@ -1,0 +1,11 @@
+prometheus_client
+environs
+
+[all]
+co2mini[homekit,mqtt]
+
+[homekit]
+hap-python
+
+[mqtt]
+paho-mqtt

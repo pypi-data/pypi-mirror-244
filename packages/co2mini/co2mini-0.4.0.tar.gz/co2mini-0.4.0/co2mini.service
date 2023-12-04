@@ -1,0 +1,16 @@
+[Unit]
+Description=CO2 Monitoring via Prometheus
+After=multi-user.target
+
+[Service]
+User=pi
+Type=idle
+WorkingDirectory=/home/pi
+ExecStart=/home/pi/.local/bin/co2mini /dev/co2mini0
+Restart=on-failure
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/etc/co2mini.env
+
+[Install]
+WantedBy=multi-user.target
