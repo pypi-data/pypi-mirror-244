@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+xarray
+netcdf4
+scikit-learn
+statsmodels
+joblib
+tqdm
