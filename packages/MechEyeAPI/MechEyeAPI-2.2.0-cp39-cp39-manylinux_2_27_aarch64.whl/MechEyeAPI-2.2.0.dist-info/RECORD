@@ -1,0 +1,10 @@
+mecheye/__init__.py,sha256=pBagsOU_KQUZV2P7Pjy1GipiXNQV4WNXfTM6yZX06W0,1763
+mecheye/area_scan_3d_camera.py,sha256=hcPGABf_PrLnjCQYxUu832HpjCdKp8G6AObY5deV0O0,124187
+mecheye/area_scan_3d_camera_utils.py,sha256=uGqAoRwUDnY9buvfK8oytA5xUGTs02pY-0UPErwQ78U,5675
+mecheye/libMechEyeApi.so,sha256=4OWaplaNnQauBfG25G9_SWaAcEbfKV9twsU8dVU6ZPQ,24329856
+mecheye/shared.py,sha256=MGqdgTNceNsdMX2ShTnVu4sfNdyt_b-xjp_w8anK_L0,77468
+MechEyeAPI-2.2.0.dist-info/LICENSE,sha256=UptAPtNdLZqjH7kVxXOcRA_0MbYE_gEQdrxJIhF79CY,1531
+MechEyeAPI-2.2.0.dist-info/METADATA,sha256=G5y2H5mvSl8GsxXzp0JTqrlWRF5mljSeapy9kEkFTIw,3411
+MechEyeAPI-2.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+MechEyeAPI-2.2.0.dist-info/top_level.txt,sha256=8CWFUhUR-AAFKHJMyZUB6n4rmpBJE9c42xS5AcXbw5s,8
+MechEyeAPI-2.2.0.dist-info/RECORD,,
