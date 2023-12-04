@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: 2017 Mattia Verga <mattia.verga@tiscali.it>
+#
+# SPDX-License-Identifier: MIT
+
+[build-system]
+requires = [
+    "setuptools>=60",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyOngc"
+version = "1.1.0"
+description = "Python interface to OpenNGC database data"
+readme = "README.rst"
+authors = [
+  {email = "mattia.verga@tiscali.it"},
+  {name = "Mattia Verga"}
+]
+requires-python = ">=3.8"
+keywords = ["astronomy", "database"]
+license = {text = "MIT AND CC-BY-SA-4.0"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Database",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+dependencies = [
+    "Click",
+    "numpy",
+]
+
+[project.optional-dependencies]
+data = ["pandas"]
+development = ["pytest", "pytest-cov", "pytest-doctestplus", "ruff"]
+docs = [
+    "pandas",
+    "sphinx>=4.0",
+    "sphinx_rtd_theme>=1.0"
+]
+
+[project.scripts]
+ongc = "pyongc.scripts.ongc:cli"
+
+[project.urls]
+homepage = "https://github.com/mattiaverga/PyOngc"
+
+[tool.setuptools.packages]
+find = {where = ["src"]}
+
+[tool.ruff]
+line-length = 100

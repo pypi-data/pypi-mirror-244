@@ -1,0 +1,16 @@
+Click
+numpy
+
+[data]
+pandas
+
+[development]
+pytest
+pytest-cov
+pytest-doctestplus
+ruff
+
+[docs]
+pandas
+sphinx>=4.0
+sphinx_rtd_theme>=1.0
