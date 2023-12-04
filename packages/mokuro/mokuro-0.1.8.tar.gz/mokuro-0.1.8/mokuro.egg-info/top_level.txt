@@ -1,0 +1,4 @@
+comic_text_detector
+mokuro
+mokuro_server
+tests
