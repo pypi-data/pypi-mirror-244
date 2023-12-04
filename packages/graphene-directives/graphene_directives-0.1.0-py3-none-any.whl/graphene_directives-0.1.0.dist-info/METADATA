@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: graphene-directives
+Version: 0.1.0
+Summary: Schema Directives implementation for graphene
+Author: Strollby
+Author-email: developers@strollby.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: graphene (>=3)
+Description-Content-Type: text/markdown
+
+# graphene-directives
+Schema Directives implementation for graphene
+
