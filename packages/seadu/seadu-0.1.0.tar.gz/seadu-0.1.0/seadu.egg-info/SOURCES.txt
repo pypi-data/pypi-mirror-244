@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+seadu/__init__.py
+seadu/__main__.py
+seadu/common.py
+seadu/download.py
+seadu/upload.py
+seadu.egg-info/PKG-INFO
+seadu.egg-info/SOURCES.txt
+seadu.egg-info/dependency_links.txt
+seadu.egg-info/entry_points.txt
+seadu.egg-info/requires.txt
+seadu.egg-info/top_level.txt

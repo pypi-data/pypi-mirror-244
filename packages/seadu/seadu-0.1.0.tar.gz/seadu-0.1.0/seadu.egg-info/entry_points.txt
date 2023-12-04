@@ -1,0 +1,2 @@
+[console_scripts]
+seadu = seadu.__main__:main
