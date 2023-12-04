@@ -1,0 +1,9 @@
+pymavlink
+pyserial
+python-pcapng
+
+[dev]
+build
+wheel
+pytest
+twine
