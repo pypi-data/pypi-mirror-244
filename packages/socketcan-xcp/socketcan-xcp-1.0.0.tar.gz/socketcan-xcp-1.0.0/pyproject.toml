@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "socketcan-xcp"
+version = "1.0.0"
+authors = [
+  { name="Patrick Menschel", email="menschel.p@posteo.de" },
+]
+description = "A python 3 interface to Universal Measurement and Calibration Protocol XCP"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "License :: Free for non-commercial use",
+    "Operating System :: POSIX :: Linux",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Embedded Systems",
+
+]
+dependencies = [
+    "socketcan",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/menschel/socketcan-xcp"
+"Bug Tracker" = "https://gitlab.com/menschel/socketcan-xcp/issues"
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine"
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "tox"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+source = ["src/socketcan_xcp"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=socketcan_xcp --cov-report xml --cov-report term-missing"
