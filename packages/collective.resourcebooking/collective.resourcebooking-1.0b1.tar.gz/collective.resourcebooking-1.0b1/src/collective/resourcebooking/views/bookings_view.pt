@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="collective.resourcebooking"
+      metal:use-macro="context/main_template/macros/master">
+<body>
+
+  <metal:content-core fill-slot="style_slot">
+    <link rel="stylesheet" type="text/css" href="++plone++collective.resourcebooking/resourcebooking.css"/>
+  </metal:content-core>
+
+<metal:block
+  fill-slot="top_slot"
+     tal:define="disable_column_one python:request.set('disable_plone.leftcolumn',1);
+                 disable_column_two python:request.set('disable_plone.rightcolumn',1);" />
+
+  <metal:content-core fill-slot="content-core">
+  <metal:block define-macro="content-core">
+
+
+  <div class="booking_actions">
+    <ul>
+      <li><a
+        href="${python: f'{context_state.canonical_object_url()}?date={view.prev_target_date.isoformat()}'}"
+        class="action"
+        ><tal:icon replace="structure python: icons.tag('arrow-left-circle')" /> <span i18n:translate="label_previous_week" class="label">previous week</span></a></li>
+      <li class="calendar_week">
+        <span i18n:translate="label_calendar_week">Calendar week</span> ${python: view.calendar_week}
+      </li>
+      <li><a
+        href="${python: f'{context_state.canonical_object_url()}?date={view.next_target_date.isoformat()}'}"
+        class="action"
+        ><span i18n:translate="label_next_week" class="label">next week</span> <tal:icon replace="structure python: icons.tag('arrow-right-circle')" /></a></li>
+    </ul>
+  </div>
+
+  <div class="booking_matrix">
+
+    <div class="header">
+      <div class="header_cell">
+        Resource
+      </div>
+      <div class="header_cell"
+        tal:repeat="date_of_week python: view.dates_of_week">
+        <span tal:replace="python: date_of_week.strftime('%a %d.%m.')" />
+      </div>
+    </div>
+    <div class="resource"
+      tal:repeat="resource python: view.available_ressources">
+      <metal:resourceblock tal:define="booking_resource python: view.get_booking_by_resource_id(resource.id)">
+        <div class="resource_label">
+          ${python: resource.Title}
+        </div>
+        <div class="day" tal:repeat="day view/weekdays">
+          <div class="timeslot"
+            tal:repeat="timeslot python: range(view.timeslots_count)"
+            >
+            <div class="booking"
+              tal:define="booking python: booking_resource and booking_resource[day][timeslot + 1];
+                          url python: booking and booking['url'];">
+              <div class="booked"
+                tal:condition="booking|nothing"
+                >
+                <a tal:omit-tag="python: not can_delete"
+                  tal:define="can_delete python: checkPermission('Delete objects', booking['obj'])"
+                  href="${python: view.add_token_to_url(f'{url}/@@cancel-resource-booking-view')}">
+                  <svg
+                    title="${python: booking['resource_title']} - ${python: plone_view.toLocalizedTime(booking['day'])} / ${python: booking['timeslot_title']}"
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-calendar2-check ${python: can_delete and 'my_booking' or ''}"
+                    viewBox="0 0 16 16">
+                    <path d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+                    <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="free"
+                tal:condition="not: booking|nothing">
+                <a
+                  title="Book this ${python: view.available_timeslots.getTerm(timeslot+1).title}"
+                  href="${python: view.add_token_to_url(f'{context_state.canonical_object_url()}/bookings/@@book-resource-view?date={view.target_date}&resource={resource.id}&wday={day}&timeslot={timeslot+1}')}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-plus" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+                  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM8 8a.5.5 0 0 1 .5.5V10H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V11H6a.5.5 0 0 1 0-1h1.5V8.5A.5.5 0 0 1 8 8z"/>
+                </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </metal:resourceblock>
+    </div>
+  </div>
+  </metal:block>
+  </metal:content-core>
+</body>
+</html>

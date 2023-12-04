@@ -1,0 +1,63 @@
+.booking_matrix {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1em;
+}
+.booking_matrix .resource,
+.booking_matrix .header {
+    display: contents;
+}
+.booking_matrix .day{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    padding: 0.5em;
+    background-color: transparent;
+}
+.booking_matrix .day:nth-child(odd){
+    background-color: #eeeeee;
+}
+.booking_matrix .timeslot{
+    /* gap: 1em; */
+
+}
+.booking_matrix .booking svg{
+    height: 2.5rem;
+    width: auto;
+}
+.booking_matrix .booking .booked svg{
+    color: red;
+}
+.booking_matrix .booking .booked svg.my_booking{
+    color: orange;
+}
+.booking_matrix .booking .free svg{
+    color: green;
+}
+.booking_actions{
+    display: grid;
+    justify-items: center;
+    color: var(--booking_actions_color, #666);
+    font-size: 2rem;
+}
+.booking_actions a{
+    color: var(--booking_actions_color, #666);
+}
+.booking_actions svg{
+    height: 1.5rem;
+    width: auto;
+}
+.booking_actions ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+}
+.booking_actions li{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.booking_actions ul .action .label{
+    display:none;
+}

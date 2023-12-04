@@ -1,0 +1,9 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <adapter factory=".resource.dummy"
+    name="resource" />
+
+  <adapter factory=".resource.resource"
+    name="resource" />
+
+</configure>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<registry>
+  <records interface="Products.CMFPlone.interfaces.controlpanel.INavigationSchema" prefix="plone">
+    <value key="displayed_types" purge="false">
+      <element>ResourceBooking</element>
+      <element>Resources</element>
+      <element>Bookings</element>
+    </value>
+  </records>
+</registry>

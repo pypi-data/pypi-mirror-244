@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="collective.resourcebooking">
+
+ <!-- -*- extra stuff goes here -*- -->
+
+  <include file="timeslot.zcml" />
+
+  <include file="resource.zcml" />
+
+
+</configure>

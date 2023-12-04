@@ -1,0 +1,25 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:gs="http://namespaces.zope.org/genericsetup">
+
+  <gs:registerProfile name="1003"
+    title="load config to enable plone.eventbasic behavior for Booking CT"
+    directory="1003"
+    description='Configuration for version 1003'
+    for="Products.CMFPlone.interfaces.IMigratingPloneSiteRoot"
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <gs:upgradeSteps source="1002"
+    destination="1003"
+    profile="collective.resourcebooking:default">
+
+    <gs:upgradeStep title="load config to enable plone.eventbasic behavior for Booking CT"
+      description=""
+      handler=".v1003.upgrade" />
+
+    <gs:upgradeDepends title="load config to enable plone.eventbasic behavior for Booking CT (GS profile)"
+      description=""
+      import_profile="collective.resourcebooking.upgrades:1003" />
+
+  </gs:upgradeSteps>
+
+</configure>

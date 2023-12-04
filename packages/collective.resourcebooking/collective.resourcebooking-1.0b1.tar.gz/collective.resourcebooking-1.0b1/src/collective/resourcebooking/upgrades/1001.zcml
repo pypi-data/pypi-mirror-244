@@ -1,0 +1,25 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:gs="http://namespaces.zope.org/genericsetup">
+
+  <gs:registerProfile name="1001"
+    title="Load profile to enable new CT's"
+    directory="1001"
+    description='Configuration for version 1001'
+    for="Products.CMFPlone.interfaces.IMigratingPloneSiteRoot"
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <gs:upgradeSteps source="1000"
+    destination="1001"
+    profile="collective.resourcebooking:default">
+
+    <gs:upgradeStep title="Load profile to enable new CT's"
+      description=""
+      handler=".v1001.upgrade" />
+
+    <gs:upgradeDepends title="Load profile to enable new CT's (GS profile)"
+      description=""
+      import_profile="collective.resourcebooking.upgrades:1001" />
+
+  </gs:upgradeSteps>
+
+</configure>

@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.resourcebooking">
+
+ <!-- -*- extra stuff goes here -*- -->
+
+  <browser:page
+    name="cancel-resource-booking-view"
+    for="collective.resourcebooking.content.booking.IBooking"
+    class=".cancel_resource_booking_view.CancelResourceBookingView"
+    permission="zope2.DeleteObjects"
+    layer="collective.resourcebooking.interfaces.ICollectiveResourcebookingLayer"
+    />
+
+  <browser:page
+    name="book-resource-view"
+    for="collective.resourcebooking.content.bookings.IBookings"
+    class=".book_resource_view.BookResourceView"
+    permission="cmf.AddPortalContent"
+    layer="collective.resourcebooking.interfaces.ICollectiveResourcebookingLayer"
+    />
+
+  <browser:page
+    name="view"
+    for="collective.resourcebooking.content.resource_booking.IResourceBooking"
+    class=".bookings_view.BookingsView"
+    template="bookings_view.pt"
+    permission="zope2.View"
+    layer="collective.resourcebooking.interfaces.ICollectiveResourcebookingLayer"
+    />
+</configure>

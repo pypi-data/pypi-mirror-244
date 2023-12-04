@@ -1,0 +1,9 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <adapter factory=".timeslot.dummy"
+    name="timeslot" />
+
+  <adapter factory=".timeslot.timeslot"
+    name="timeslot" />
+
+</configure>

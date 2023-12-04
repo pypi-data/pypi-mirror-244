@@ -1,0 +1,5 @@
+==========================
+collective.resourcebooking
+==========================
+
+User documentation

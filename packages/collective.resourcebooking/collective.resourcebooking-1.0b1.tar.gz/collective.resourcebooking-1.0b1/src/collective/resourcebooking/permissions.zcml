@@ -1,0 +1,42 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  i18n_domain="plone">
+
+  <configure zcml:condition="installed AccessControl.security">
+  <!-- -*- extra stuff goes here -*- -->
+
+    <permission
+        id="collective.resourcebooking.AddBooking"
+        title="collective.resourcebooking: Add Booking"
+    />
+
+
+    <permission
+        id="collective.resourcebooking.AddResource"
+        title="collective.resourcebooking: Add Resource"
+    />
+
+
+    <permission
+        id="collective.resourcebooking.AddBookings"
+        title="collective.resourcebooking: Add Bookings"
+    />
+
+
+    <permission
+        id="collective.resourcebooking.AddResources"
+        title="collective.resourcebooking: Add Resources"
+    />
+
+
+    <permission
+        id="collective.resourcebooking.AddResourceBooking"
+        title="collective.resourcebooking: Add ResourceBooking"
+    />
+
+
+
+  </configure>
+
+</configure>

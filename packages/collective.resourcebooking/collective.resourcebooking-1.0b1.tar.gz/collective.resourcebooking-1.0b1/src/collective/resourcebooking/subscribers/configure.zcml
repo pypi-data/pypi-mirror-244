@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="collective.resourcebooking">
+
+ <!-- -*- extra stuff goes here -*- -->
+
+  <subscriber for="collective.resourcebooking.content.resource_booking.IResourceBooking
+                   zope.lifecycleevent.interfaces.IObjectAddedEvent"
+              handler=".create_resources_and_bookings_container.handler"
+              />
+
+
+</configure>

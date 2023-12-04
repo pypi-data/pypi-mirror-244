@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-09 11:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: collective/resourcebooking/vocabularies/available_timeslots.py:27
+msgid "---"
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/Resource.xml
+msgid "A bookable resource."
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/Bookings.xml
+msgid "A container holding resources bookings."
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/ResourceBooking.xml
+msgid "A container to hold available resources and there bookings"
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/Booking.xml
+msgid "A resource booking."
+msgstr ""
+
+#: collective/resourcebooking/vocabularies/available_timeslots.py:29
+msgid "Afternoon"
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/Booking.xml
+msgid "Booking"
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/Bookings.xml
+msgid "Bookings"
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:98
+msgid "Choose a resource to book"
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:87
+msgid "Computed Title"
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/Resources.xml
+msgid "Container holding available resources to book."
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:109
+msgid "Day"
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:138
+msgid "End"
+msgstr ""
+
+#: collective/resourcebooking/configure.zcml:27
+msgid "Installs the collective.resourcebooking add-on."
+msgstr ""
+
+#: collective/resourcebooking/vocabularies/available_timeslots.py:28
+msgid "Morning"
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:95
+#: collective/resourcebooking/profiles/default/types/Resource.xml
+msgid "Resource"
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/ResourceBooking.xml
+msgid "ResourceBooking"
+msgstr ""
+
+#: collective/resourcebooking/profiles/default/types/Resources.xml
+msgid "Resources"
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:130
+msgid "Start"
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:76
+msgid "The choosen timeslot is not available on that day!"
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:165
+msgid "The timeslot is not available on that day."
+msgstr ""
+
+#: collective/resourcebooking/content/booking.py:118
+msgid "Timeslot"
+msgstr ""
+
+#: collective/resourcebooking/configure.zcml:52
+msgid "Uninstalls the collective.resourcebooking add-on."
+msgstr ""
+
+#: collective/resourcebooking/configure.zcml:27
+msgid "collective.resourcebooking"
+msgstr ""
+
+#: collective/resourcebooking/configure.zcml:52
+msgid "collective.resourcebooking (uninstall)"
+msgstr ""
+
+#. Default: "Calendar week"
+#: collective/resourcebooking/views/bookings_view.pt:22
+msgid "label_calendar_week"
+msgstr ""
+
+#. Default: "next week"
+#: collective/resourcebooking/views/bookings_view.pt:30
+msgid "label_next_week"
+msgstr ""
+
+#. Default: "previous week"
+#: collective/resourcebooking/views/bookings_view.pt:26
+msgid "label_previous_week"
+msgstr ""
