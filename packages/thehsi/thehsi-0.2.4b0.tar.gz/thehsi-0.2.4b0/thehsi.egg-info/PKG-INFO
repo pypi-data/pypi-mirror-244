@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: thehsi
+Version: 0.2.4b0
+Summary: A Python Package for coding a custom TheHSI Hub integrated Application
+Home-page: https://github.com/hstoreinteractive/thehsi-python
+Download-URL: https://github.com/hstoreinteractive/thehsi-python/archive/refs/tags/v0.2.4b.tar.gz
+Author: TheHSI
+Author-email: central.thehsi@gmail.com
+License: MIT
+Keywords: thehsi,application
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: requests
