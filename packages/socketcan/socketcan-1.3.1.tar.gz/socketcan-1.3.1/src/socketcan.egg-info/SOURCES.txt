@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/socketcan/__init__.py
+src/socketcan/socketcan.py
+src/socketcan.egg-info/PKG-INFO
+src/socketcan.egg-info/SOURCES.txt
+src/socketcan.egg-info/dependency_links.txt
+src/socketcan.egg-info/requires.txt
+src/socketcan.egg-info/top_level.txt
+tests/test_socketcan.py
