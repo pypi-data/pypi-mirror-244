@@ -1,0 +1,14 @@
+lesscode_database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lesscode_database/connect_pool.py,sha256=LtUoBzZoMpg3Pm_jqhiY3MdyZFeZnlM5lVJyTs5P298,41144
+lesscode_database/connection_info.py,sha256=HMlA-hA0LE7jGUS8crZAgrBMB-o6B9mxrWYEywgqXHg,1307
+lesscode_database/db_options.py,sha256=Z8Iy3pqDYW5YVVfvoFSsAYecK9LfiwRasYc3fzqIBt8,1928
+lesscode_database/db_request.py,sha256=siZGXIdPuTlY4NwVLnU8098bVM_6jgQzSzeO4BzkDrA,4832
+lesscode_database/ds_helper.py,sha256=W3VrTe_l0mGX0uEbN7UI6NlQbruLpr2WXgO7AexzQ-k,4845
+lesscode_database/dynamic_import_package.py,sha256=J8hgGRHe6KrprOgOq-xbKHVAYHSjUBcNyTaSPvBmvIk,164
+lesscode_database/mongo_base_model.py,sha256=cKHNmi5GJBGRxCtqsggEcrzIZK7__Z_4cVaIHxmqZsc,6406
+lesscode_database/version.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+lesscode_database-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lesscode_database-0.0.8.dist-info/METADATA,sha256=k1cZ8BZ980WP-kg1TuLLsYxjEMGvdWOHIqWxL8pEevE,11692
+lesscode_database-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lesscode_database-0.0.8.dist-info/top_level.txt,sha256=h6cg13be6kkDfNaX9nWeDcfducTb5bKG5iYRO2JPmAM,18
+lesscode_database-0.0.8.dist-info/RECORD,,
