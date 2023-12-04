@@ -1,0 +1,12 @@
+embreex.dylibs/libembree.2.dylib,sha256=zhdDsuZxwBsGfWaJAwRCFIGgltOwwvoy38nF3dzA2oo,24751312
+embreex.dylibs/libtbbmalloc.dylib,sha256=ctb8G00LaRQI1DR2sc2QVT9ufmlujvmRngtPk4j4nNA,477648
+embreex.dylibs/libtbb.dylib,sha256=3bwzxADA_bmfNKImCfaNPIKUucgm4Ak5eXoAsn5cV2c,954784
+embreex/rtcore.cpython-36m-darwin.so,sha256=5t5PAGdGurj4cH2nAFUWEiF1VQCVkEPZY94V4j2Zj5I,90160
+embreex/mesh_construction.cpython-36m-darwin.so,sha256=7JIqdIIrI2q6lRwG1feAMFMPDsNBrQrSsIalL1DXOG0,91296
+embreex/triangles.cpython-36m-darwin.so,sha256=iR-xn402huFwiToKHUNujs7xwvPc7a56H4kL8nrjPgo,61328
+embreex/rtcore_scene.cpython-36m-darwin.so,sha256=5dkt8gwykYcTYSuw_IOF5cMmarSvSMOa9lVClavrXZY,138560
+embreex-2.17.7.post4.dist-info/RECORD,,
+embreex-2.17.7.post4.dist-info/LICENSE,sha256=_xuYAn05ET9sP82cOw68xgsUW5orgvVnD0RL4wKKkA4,1299
+embreex-2.17.7.post4.dist-info/WHEEL,sha256=ye8A2lA8pjGNe7-ueOpggarJAhczq3EZGqnLZzzfQYQ,110
+embreex-2.17.7.post4.dist-info/top_level.txt,sha256=fB9vEUuy_aahgn1vzf73EKCJDS4_hgqOSZhrTSnpHxo,8
+embreex-2.17.7.post4.dist-info/METADATA,sha256=rI_0Y3BL1GdxullACsmIySDVKkBPapV5CdZzxN8bi9g,1388
