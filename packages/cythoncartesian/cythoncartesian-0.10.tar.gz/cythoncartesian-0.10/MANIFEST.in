@@ -1,0 +1,3 @@
+include cythoncartesian/requirements.txt
+include cythoncartesian/thirdparty.json
+include cythoncartesian/README.MD

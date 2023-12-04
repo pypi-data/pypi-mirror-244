@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cythoncartesian/README.MD
+cythoncartesian/__init__.py
+cythoncartesian/requirements.txt
+cythoncartesian/thirdparty.json
+cythoncartesian.egg-info/PKG-INFO
+cythoncartesian.egg-info/SOURCES.txt
+cythoncartesian.egg-info/dependency_links.txt
+cythoncartesian.egg-info/requires.txt
+cythoncartesian.egg-info/top_level.txt
