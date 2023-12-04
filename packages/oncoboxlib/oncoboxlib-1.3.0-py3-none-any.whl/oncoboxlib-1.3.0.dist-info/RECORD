@@ -1,0 +1,16 @@
+oncoboxlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oncoboxlib/calculate_scores.py,sha256=9e-afH_Tc1Ig8NQ4cu7lw5qkpBPmSOfjcjGwCdJvZwc,6576
+oncoboxlib/common/math/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oncoboxlib/common/math/stat.py,sha256=eY3exGWIlD57rhzAKoGr0ToLAoLkJoLxe_1n-WJAI48,328
+oncoboxlib/quant/database/__init__.py,sha256=wYAanGMU_57_2Y6NTOJi8ZrM3j65ZfYvstN-Hrh-ETk,146
+oncoboxlib/quant/database/database.py,sha256=10zUE7c86HmxRDVGoyxyCb4e1dpkWeuZwfi9S6paTrA,3328
+oncoboxlib/quant/database/interfaces.py,sha256=05TNzy8llQ5UZxRCYY4VURJDZMVNXk2DJ2ETZzMA9kk,5052
+oncoboxlib/quant/scoring/__init__.py,sha256=boujJlg6C0AjducIJMpAoQHh42hLDmkNQjayemIzyDI,115
+oncoboxlib/quant/scoring/samples.py,sha256=WKOG1OWGR6_1Bu_9jRbiVD8E50zNb6j3xI1us4P5Y0k,5028
+oncoboxlib/quant/scoring/scores.py,sha256=ukQlSS4ykOX0zJtc7JmBd45ASrNr0eDol9LRro_m2Ls,540
+oncoboxlib-1.3.0.dist-info/LICENSE,sha256=kiES__y3Cb-mczlB86WW3sxZFV_le8TA3jEkLxlafGQ,1082
+oncoboxlib-1.3.0.dist-info/METADATA,sha256=CA2QXcQb5CFKn76ASa7rz1u2jkUcqd3lA8Aoj0Sos10,7645
+oncoboxlib-1.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+oncoboxlib-1.3.0.dist-info/entry_points.txt,sha256=YzSyMb9bLtwtEafMZgNEANiCPL8lNtRYEvqdLOdgXjY,81
+oncoboxlib-1.3.0.dist-info/top_level.txt,sha256=72gPF-8NppWx5fmNgUeZkbioOKxOVnv_cIgaLE6-4GE,11
+oncoboxlib-1.3.0.dist-info/RECORD,,
