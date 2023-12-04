@@ -1,0 +1,11 @@
+README.md
+setup.py
+chemgraph.egg-info/PKG-INFO
+chemgraph.egg-info/SOURCES.txt
+chemgraph.egg-info/dependency_links.txt
+chemgraph.egg-info/entry_points.txt
+chemgraph.egg-info/requires.txt
+chemgraph.egg-info/top_level.txt
+package/__init__.py
+package/plot_module.py
+test/__init__.py
