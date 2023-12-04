@@ -1,0 +1,10 @@
+spacy>=3.5.0
+wasabi>=0.9.1
+typer>=0.4.2
+
+[dev]
+black>=23.1.0
+isort>=5.0.0
+ruff>=0.0.272
+mypy>=1.0.0
+pytest
