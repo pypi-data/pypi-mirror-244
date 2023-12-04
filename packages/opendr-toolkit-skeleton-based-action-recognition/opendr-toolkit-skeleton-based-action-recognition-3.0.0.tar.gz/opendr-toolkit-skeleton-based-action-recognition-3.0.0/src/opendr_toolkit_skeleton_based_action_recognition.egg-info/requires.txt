@@ -1,0 +1,12 @@
+continual-inference>=1.0.2
+matplotlib>=2.2.2
+onnx==1.8.0
+onnxruntime==1.3.0
+opendr-toolkit-engine
+pandas
+protobuf<=3.20.0
+pytorch-lightning==1.2.3
+tensorboardX>=2.0
+torch==1.13.1
+torchvision==0.14.1
+tqdm
