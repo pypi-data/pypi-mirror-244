@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Gossomer/__init__.py
+Gossomer.egg-info/PKG-INFO
+Gossomer.egg-info/SOURCES.txt
+Gossomer.egg-info/dependency_links.txt
+Gossomer.egg-info/top_level.txt
