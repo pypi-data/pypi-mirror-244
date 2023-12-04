@@ -1,0 +1,13 @@
+stsci.imagestats-1.7.0.dist-info/LICENSE.txt,sha256=Cw1SWGUCnoeCHzVTVKuEFm_2anWwA3dhwPmtMyTAEjg,1557
+stsci.imagestats-1.7.0.dist-info/METADATA,sha256=3nL2II0qvGG635PtpV1BhD5q6yBfk9E5XXi25QRk_8g,2502
+stsci.imagestats-1.7.0.dist-info/RECORD,,
+stsci.imagestats-1.7.0.dist-info/top_level.txt,sha256=kADs_Oz1DHTIsb2X6EGoSffkEZ0gGHPJX4vK7GLkOMo,6
+stsci.imagestats-1.7.0.dist-info/WHEEL,sha256=v2ucvL99XA7ccrDdBw0EHPMkFkfMWyZCg_bQDOt1Jsk,217
+stsci/imagestats/_version.py,sha256=2fEqxujmrV2dsREie2BmOYFLu66FowyHtZT2AoLuIzU,411
+stsci/imagestats/histogram1d.py,sha256=VzPyt4FIiBFP2UU9R1c3pmS5q43KsiCRptUh3v2Wlks,2936
+stsci/imagestats/buildHistogram.cpython-38-x86_64-linux-gnu.so,sha256=N06cJCEZsroYefSQcTUjcOmcNlMcWIpWjXIoNJddT3U,38040
+stsci/imagestats/__init__.py,sha256=qd8mMlQPgvmKUsJILWxEnw3K8Hd6NormRyXIGL7URqQ,14213
+stsci/imagestats/computeMean.cpython-38-x86_64-linux-gnu.so,sha256=HwXudhFSeF1m3OJ7b_fqvrL0XAbEwabdsEvNc2DhuNY,37976
+stsci/imagestats/tests/test_imagestats.py,sha256=7gWjCDmYCUfu8wVhVcw6mk9f6JM0AAJ0nhyT7lynDb4,9221
+stsci/imagestats/tests/test_histogram1d.py,sha256=KF2BZbQd4h9ZRYxdlf-VErVRSguddTcV-7zX8hufFm4,2215
+stsci/imagestats/tests/conftest.py,sha256=Z0fCWLHecgM4FoC6wCeRBXtzLNPWOX2nwtmrYP2weoI,1249
