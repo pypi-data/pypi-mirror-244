@@ -1,0 +1,14 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/django/apps.py,sha256=kp2rt3ndwb09pP1r4cydnvEKfiO1rHKiQy-4RIilsRw,143
+jsend2/django/exception.py,sha256=B7ahDPRjokYlujCAr7x93xzWSpOLPjTo2UujA0TvNoc,1667
+jsend2/django/utils.py,sha256=25-Xhvj8UK-wR89u5qCkGDUs-SxD2JJ6Ra7eQGdjSUo,1606
+jsend2/jfast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/jfast/exception.py,sha256=JPa3ONjWOVzI9UR8UfRinHugCJIN00O-kDhtp5GONqk,1079
+jsend2/jfast/pagination.py,sha256=I25WcguTPvxO6zJPFPzyvWmpcS-bm__ArA65QrENANU,1120
+jsend2/jfast/response.py,sha256=830JkC_wP_ne-yCco3ilY45dVX6Vml07oqrbQo6ygA8,2290
+jsend2-0.0.4.dist-info/METADATA,sha256=byTpPRo69GL4BEDszfhQ98xUTR5bqi1Aku49-wdhjAw,3246
+jsend2-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+jsend2-0.0.4.dist-info/top_level.txt,sha256=8eB-zSQaUY1oq_4RpqcAwpgtXhszClE0HwofYwUOVqU,16
+jsend2-0.0.4.dist-info/RECORD,,
