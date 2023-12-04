@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+verify_nigerian_number.egg-info/PKG-INFO
+verify_nigerian_number.egg-info/SOURCES.txt
+verify_nigerian_number.egg-info/dependency_links.txt
+verify_nigerian_number.egg-info/top_level.txt
