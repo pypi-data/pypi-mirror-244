@@ -1,0 +1,9 @@
+render-engine>=2023.12.1b2
+jinja2
+
+[dev]
+pytest
+pytest-mock
+gazpacho
+pip-tools
+ruff
