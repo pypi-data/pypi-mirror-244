@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Bugbyte/__init__.py
+Bugbyte.egg-info/PKG-INFO
+Bugbyte.egg-info/SOURCES.txt
+Bugbyte.egg-info/dependency_links.txt
+Bugbyte.egg-info/top_level.txt
