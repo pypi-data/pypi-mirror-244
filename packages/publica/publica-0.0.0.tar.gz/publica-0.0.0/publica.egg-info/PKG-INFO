@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: publica
+Version: 0.0.0
+Summary: Yet another library server for home
+Author: Rain Star
+Author-email: Rain Star <3488229708@qq.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Publica

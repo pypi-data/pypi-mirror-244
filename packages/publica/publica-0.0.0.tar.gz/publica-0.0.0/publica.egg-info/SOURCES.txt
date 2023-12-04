@@ -1,0 +1,10 @@
+LICENSE
+README.MD
+pyproject.toml
+setup.py
+publica/__init__.py
+publica/__main__.py
+publica.egg-info/PKG-INFO
+publica.egg-info/SOURCES.txt
+publica.egg-info/dependency_links.txt
+publica.egg-info/top_level.txt
