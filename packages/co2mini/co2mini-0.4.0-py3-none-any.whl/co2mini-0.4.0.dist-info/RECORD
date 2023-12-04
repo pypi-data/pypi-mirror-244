@@ -1,0 +1,12 @@
+co2mini/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+co2mini/config.py,sha256=hhQEYJ6hk6GO3kMFbFvbX0aPZ3c-QjbMNWFch5LcuvA,735
+co2mini/homekit.py,sha256=N5Q5GhDmPS4WNiwM6FATL9J_ykkfZ1FTFa2tVip19AU,2073
+co2mini/main.py,sha256=xGRTiX6KvxseB00o5LXruIb5mfp4pU8xjIoZNFRdvOc,2276
+co2mini/meter.py,sha256=KxAWaE1yJgC1tOljf7cjMtrjoET3USsOGdUwM-l7qsQ,4932
+co2mini/mqtt.py,sha256=gRemEnWQHmmEXEmIvKy7pRv2441wv5y8VtVvIarm3xg,2577
+co2mini-0.4.0.dist-info/LICENSE,sha256=iUildTEhumSPSXCptxm8mbe1U-FJyQAr3P9fUBQtVVc,1071
+co2mini-0.4.0.dist-info/METADATA,sha256=ASXibjSIYdzWls2bxcZlgwC3gsEwfc5F1_ATBGxlrlE,5849
+co2mini-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+co2mini-0.4.0.dist-info/entry_points.txt,sha256=1636BbFHCf37q1pbyg7xxyH0RBaIGSI5bIy3BNKhDPo,46
+co2mini-0.4.0.dist-info/top_level.txt,sha256=PiriA27km259Jn7uqgRPgzLhZTpyXH5NWUKeTDkAvMQ,8
+co2mini-0.4.0.dist-info/RECORD,,
