@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: arasmas
+Version: 0.0.1
+Summary: Frame workf of Generative Learning for MLFF
+Home-page: https://github.com/MyKnu/Samsara
+Download-URL: https://github.com/MyKnu/Samsara/
+Author: Knu
+Author-email: minu928@snu.ac.kr
+Keywords: MLFF,LAMMPS,CP2K
+Requires-Python: >=3.7
+License-File: LICENSE
+
