@@ -1,0 +1,3 @@
+[console_scripts]
+pg_db_active = zar.scripts.pg_db_active:main
+
