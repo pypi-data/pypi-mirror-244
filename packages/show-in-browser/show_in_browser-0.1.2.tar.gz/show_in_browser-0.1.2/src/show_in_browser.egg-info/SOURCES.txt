@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+src/show_in_browser/__init__.py
+src/show_in_browser/show_in_browser.py
+src/show_in_browser.egg-info/PKG-INFO
+src/show_in_browser.egg-info/SOURCES.txt
+src/show_in_browser.egg-info/dependency_links.txt
+src/show_in_browser.egg-info/requires.txt
+src/show_in_browser.egg-info/top_level.txt
+tests/test_1.py
+tests/test_2.py
+tests/test_3.py
+tests/test_4.py
