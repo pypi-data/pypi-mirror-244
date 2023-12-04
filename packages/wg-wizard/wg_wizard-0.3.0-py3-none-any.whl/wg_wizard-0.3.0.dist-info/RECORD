@@ -1,0 +1,13 @@
+wg_wizard/__init__.py,sha256=bqWoF0XMYJDZnTXn_Pt_QCdB055VA--A7K6iewYkAjY,75
+wg_wizard/__main__.py,sha256=5jJg_JaIEERcyB_qxTSjD7cMlR4iBwlkLHBaWJbBd6U,65
+wg_wizard/cli.py,sha256=-ywHXTF63mIz-5KazESyc_v-hUiQGGzzsxQ3WZKNnU0,10348
+wg_wizard/core.py,sha256=-u6E6841QhhI5Bbnq9KQldF2cdGN_iFf2INO5uVJGx0,12996
+wg_wizard/paths.py,sha256=BlFxvvSHfTaZvgGwmCADoUzyEI3wdszxJeTGmTR2SC8,237
+wg_wizard/utils.py,sha256=9CrrbaCFuAEeWBumBXo7yrSQZbwsU1amxQwyAx3t9d8,3971
+wg_wizard/wg.py,sha256=z6GHcJu-pRf_vir2hEl2VzJTpSNC0_iQU93kKV9N_os,610
+wg_wizard/wg_quick.py,sha256=_OhNoSZDTHxAVsxpQ_SgOIb1l0b5QqJJ8Is3pi2p9uA,1807
+wg_wizard-0.3.0.dist-info/LICENSE,sha256=MpwQx1w3Rbi_MShugdhDtRq-A7VIq4qXjVPX0Ra_xGk,1064
+wg_wizard-0.3.0.dist-info/METADATA,sha256=2TEBAvuLRCUghmUK3nxYh9Urfej2_VtfB-wHQiKPGmc,9988
+wg_wizard-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+wg_wizard-0.3.0.dist-info/entry_points.txt,sha256=CosIiLpkpAV2HTi0GLSWnW_X0DQVtqJNVS24vkruf_I,48
+wg_wizard-0.3.0.dist-info/RECORD,,
