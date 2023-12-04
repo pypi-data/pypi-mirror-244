@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: PyPlanning
+Version: 1.5.10
+Summary: Manage team schedules and quickly create simple project plannings
+Author-email: Codra <p.raybaut@codra.fr>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2023, Codra
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/Codra-Ingenierie-Informatique/PyPlanning/
+Project-URL: Documentation, https://PyPlanning.readthedocs.io/en/latest/
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt5
+Requires-Dist: PyQtWebEngine
+Requires-Dist: guidata >=3.1
+Requires-Dist: svgwrite
+Requires-Dist: python-dateutil
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: Coverage ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx >6 ; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme ; extra == 'doc'
+
+![PyPlanning](https://raw.githubusercontent.com/Codra-Ingenierie-Informatique/PyPlanning/master/planning/data/planning.png)
+
+[![pypi version](https://img.shields.io/pypi/v/PyPlanning.svg)](https://pypi.org/project/PyPlanning/)
+[![PyPI status](https://img.shields.io/pypi/status/PyPlanning.svg)](https://github.com/Codra-Ingenierie-Informatique/PyPlanning/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/PyPlanning.svg)](https://pypi.python.org/pypi/PyPlanning/)
+[![download count](https://img.shields.io/conda/dn/conda-forge/PyPlanning.svg)](https://www.anaconda.com/download/)
+
+ℹ️ Created in 2022 by [Pierre Raybaut](https://github.com/PierreRaybaut), developed and maintained by the [PyPlanning](https://github.com/Codra-Ingenierie-Informatique/PyPlanning) project team with the support of [Codra](https://codra.net/).
+
+PyPlanning is a small planning tool initially developed for internal use at [Codra](https://codra.net/). The main goal of this project is to provide a simple and easy-to-use planning tool for small teams or small projects, i.e. in cases where using a full-featured project management software is overkill.
+
+# Examples
+
+## Team schedule (daily view)
+
+![Team schedule](https://raw.githubusercontent.com/Codra-Ingenierie-Informatique/PyPlanning/master/doc/images/shots/team_schedule-daily.png)
+
+## Team schedule (tasks view)
+
+![Team schedule / Tasks](https://raw.githubusercontent.com/Codra-Ingenierie-Informatique/PyPlanning/master/doc/images/shots/team_schedule-tasks.png)
+
+## Simple project planning
+
+![Simple project planning](https://raw.githubusercontent.com/Codra-Ingenierie-Informatique/PyPlanning/master/doc/images/shots/project_planning.png)
+
+# Future plans
+
+## High-priority tasks
+
+Fix the following issues:
+
+[ ] FIXME: Sometimes, task color combox box is not shown in the tree widget (a line edit is shown instead)
+[ ] TODO: Performance: process only gantt objects affected by changes
+[ ] TODO: Performance: update only visible chart? (this is it!)
+[ ] TODO: Performance: run chart update in a thread?
+[ ] TODO: New feature: custom chart names (instead of automatic indexed names)
+
+## Medium-priority tasks
+
+Implement the following features:
+
+[ ] TODO: Add support for hidden time frames in charts, for improving readability in case of long tasks
+[ ] TODO: Task: add "duplicate" action
+[ ] TODO: Task tree widget: add sub-context-menu "Bind to": resources
+[ ] TODO: Chart tree widget: add multiple checkboxes to select projects
+[ ] TODO: Chart tree widget: add QComboBox for editing the "project" field
+
+## Low-priority tasks
+
+Implement the following features:
+
+[ ] TODO: Vacation: add the possibility to set duration in days
+[ ] TODO: Add "percent_done" support for tasks
+[ ] TODO: Performance: add an option to update on demand?
+[ ] TODO: Replace python-gantt (planning/gantt.py) by an alternative with less
+    restrictive license terms (no GPL!)
+
+# License
+
+PyPlanning is licensed under the terms of the GPL v3 license. This is prescribed by
+the library upon which PyPlanning depends on for generating SVG Gantt plannings
+(see GPL-based library code ([python-gantt](https://pypi.org/project/python-gantt/)).
+The code of this library has been drastically patched and adapted to PyPlanning needs.
