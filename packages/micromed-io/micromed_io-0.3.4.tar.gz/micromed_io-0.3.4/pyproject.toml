@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "micromed-io"
+version = "0.3.4"
+description = "A library to read, emulate, and forward Micromed data in standard formats"
+authors = ["Etienne de MONTALIVET <etienne.demontalivet@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mne = "^1.0.0"
+click = "^8.1.7"
+pylsl = "^1.16.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+mmio_emulate_trc = "micromed_io.scripts.emulate_online_trc:run"
+mmio_tcp_to_lsl = "micromed_io.scripts.tcp_to_lsl:run"
+mmio_rename_trc = "micromed_io.scripts.rename_trc:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
