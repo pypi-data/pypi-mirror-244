@@ -1,0 +1,12 @@
+cohesion_tools/__init__.py,sha256=7RidHe70eQgkJeK8K4OQ7Bi4MGK1-HrCdRFoUED0I04,114
+cohesion_tools/evaluation.py,sha256=zUk426W22bUXNBpEQ3eyT9eP0XvvZFHBF6EFK45jKuw,29844
+cohesion_tools/extractors/__init__.py,sha256=wPTBe7dh8qGllo2Huc7k3rktj-9SAPBGcaTz9EeLwxA,264
+cohesion_tools/extractors/base.py,sha256=T0bcXzLCqcgx_pss1nSBOqNL-oEmAzpOasU9XQGjyiw,970
+cohesion_tools/extractors/bridging.py,sha256=uPQbER6H8FxsK-Z3MUOXxeoOGduxbE48-4vQ42mSY8c,2084
+cohesion_tools/extractors/coreference.py,sha256=IcDfVDse33HMBMxseLMaEcmUUpoBHu2fFcokSWFGuxU,1479
+cohesion_tools/extractors/pas.py,sha256=SWpguVm-Xtt8_aItnQNdaHBapVARJtkE32AfST0KAWg,5474
+cohesion_tools/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cohesion_tools-0.6.0.dist-info/LICENSE,sha256=3M2AvLntVw9PKqksOGLUHBboheyXNKZBG3CJjOCH6b0,1070
+cohesion_tools-0.6.0.dist-info/METADATA,sha256=b4AvmMhB8XCQTjOozvaByNHkNGtrOSdaBvZ-4yONNNI,7091
+cohesion_tools-0.6.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cohesion_tools-0.6.0.dist-info/RECORD,,
