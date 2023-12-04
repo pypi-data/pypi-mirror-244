@@ -1,0 +1,9 @@
+miksisdk/__init__.cp310-win32.pyd,sha256=Yxt1GgJLQj75hjcr3zJTYXhM4q8e2lrfSc5QqYwtJKY,15872
+miksisdk/agent.cp310-win32.pyd,sha256=2jPlckD_vYEbGC4AgHEja6GlpHE1r0sga2LWJO94ofs,65024
+miksisdk/api.cp310-win32.pyd,sha256=W8osjlUsFYk9j4pg-n9JGq2eOlsQKf1BlQfywjTi25M,60416
+miksisdk/base.cp310-win32.pyd,sha256=9gfcSxbcYDWJp8Lqw8uNbiXwG7fgfm_79q968UM872s,57856
+miksisdk/forecast_tool.cp310-win32.pyd,sha256=wMSty614kX-YFDj-IKjJq4WRsHhkbGGiLFNwf1GSxR8,81920
+miksisdk-0.0.7.dist-info/METADATA,sha256=s9mCPVMpe9yyCFwhght4B5cH2q-soGRnS16IcL2iP9M,345
+miksisdk-0.0.7.dist-info/WHEEL,sha256=ctSO3Ng3VQXwM0FMF_gy60e4VosCkFDNxiZjJ18ulgA,98
+miksisdk-0.0.7.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.7.dist-info/RECORD,,
