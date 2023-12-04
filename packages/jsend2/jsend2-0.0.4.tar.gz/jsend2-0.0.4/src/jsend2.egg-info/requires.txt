@@ -1,0 +1,5 @@
+fastapi
+pydantic
+bson
+django
+fastapi_pagination
