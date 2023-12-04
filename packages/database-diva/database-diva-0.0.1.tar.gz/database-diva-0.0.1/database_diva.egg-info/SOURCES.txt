@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+database-diva/__init__.py
+database_diva.egg-info/PKG-INFO
+database_diva.egg-info/SOURCES.txt
+database_diva.egg-info/dependency_links.txt
+database_diva.egg-info/top_level.txt
