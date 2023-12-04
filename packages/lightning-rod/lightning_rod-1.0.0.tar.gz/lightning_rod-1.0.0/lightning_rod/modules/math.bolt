@@ -1,0 +1,69 @@
+from wicked_expressions:api import copy_args, Scoreboard, qIntSource, Var, StaticVar, qInt, ExpressionNode
+from ./config import Config
+from ./utils import binary_progression
+
+@copy_args(min=StaticVar[qInt], max=StaticVar[qInt])
+def random(min: int | ExpressionNode, max: int | ExpressionNode) -> qIntSource:
+    SETUP_PATH = f"{Config.GLOBAL_DIR}/math/random_setup"
+    STATIC_PATH = f"{Config.LOCAL_DIR}/math/random"
+    lcg = Scoreboard(Config.SCOREBOARD_ROOT)['.random.math.lcg']
+    output = Var(qInt)
+
+    merge function_tag minecraft:load {"values": [SETUP_PATH]}
+    function SETUP_PATH:
+        if not lcg.exists():
+            with lcg.store():
+                seed
+
+    LCG_A = 1630111353
+    LCG_C = 1623164762
+    LCG_M = 2147483647
+
+    execute function STATIC_PATH:
+        size = StaticVar(qInt)
+        temp = StaticVar(qInt)
+
+        size = max - min + 1
+        lcg = (lcg * LCG_A + LCG_C) % LCG_M
+        temp = lcg / 8 % size + min
+
+    output = temp
+    return output
+
+@copy_args(value=StaticVar[qInt], exponent=StaticVar[qInt])
+def power(value: int | ExpressionNode, exponent: int | ExpressionNode) -> qIntSource:
+    STATIC_PATH = f"{Config.LOCAL_DIR}/math/power"
+    temp = StaticVar(qInt)
+    output = Var(qInt)
+
+    temp = value
+
+    execute function STATIC_PATH:
+        temp *= value
+        exponent -= 1
+
+        if exponent > 1:
+            function STATIC_PATH
+
+    output = temp
+    return output
+
+@copy_args(value=StaticVar[qInt])
+def sqrt(value: int | ExpressionNode) -> qIntSource:
+    STATIC_PATH = f"{Config.LOCAL_DIR}/math/sqrt"
+    temp = StaticVar(qInt)
+    temp2 = StaticVar(qInt)
+    output = Var(qInt)
+
+    execute function STATIC_PATH:
+        temp2 = 0
+
+        for binary_increment in binary_progression(16, reversed=True):
+            temp = temp2 + binary_increment
+            temp *= temp
+
+            if temp <= value:
+                temp2 += binary_increment
+
+    output = temp2
+    return output

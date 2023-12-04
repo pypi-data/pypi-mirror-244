@@ -1,0 +1,50 @@
+from wicked_expressions:api import Var, StaticVar, qInt, qIntSource, copy_args, ExprOnly, ExpressionNode
+from ./config import Config
+from ./utils import binary_progression
+
+def get_daytime() -> qIntSource:
+    output = Var(qInt)
+
+    with output.store():
+        time query daytime
+    return output
+
+def get_gametime() -> qIntSource:
+    output = Var(qInt)
+
+    with output.store():
+        time query gametime
+    return output
+
+def get_day() -> qIntSource:
+    output = Var(qInt)
+
+    with output.store():
+        time query day
+    return output
+
+@copy_args(value=ExprOnly(StaticVar[qInt]))
+def add_daytime(value: int | ExpressionNode):
+    if not isinstance(value, ExpressionNode):
+        time set value
+        return
+    return _add_daytime_from_expression()
+
+@copy_args(value=ExprOnly(StaticVar[qInt]))
+def set_daytime(value: int | ExpressionNode):
+    if not isinstance(value, ExpressionNode):
+        time set value
+        return
+    set_daytime(0)
+    return _add_daytime_from_expression()
+
+@copy_args(value=StaticVar[qInt])
+def _add_daytime_from_expression(value: ExpressionNode):
+    STATIC_PATH = f"{Config.LOCAL_DIR}/time/set_daytime"
+    
+    execute function STATIC_PATH:
+        for increment in binary_progression(16, reversed=True):
+            if value >= increment:
+                execute function ~/{increment}:
+                    set_daytime(increment)
+                    value -= increment
