@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hcscom"
+version = "0.6.0"
+authors = [
+  { name="Patrick Menschel", email="menschel.p@posteo.de" },
+]
+description = "An interface class to manson hcs lab power supplies"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "Development Status :: 5 - Production/Stable",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+        "License :: Free for non-commercial use",
+        "Intended Audience :: Science/Research",
+        "Intended Audience :: Developers",
+        "Topic :: Scientific/Engineering",
+        "Topic :: Software Development :: Embedded Systems",
+        "Topic :: Utilities",
+]
+dependencies = [
+    "pyserial",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/menschel/hcscom"
+"Bug Tracker" = "https://gitlab.com/menschel/hcscom/issues"
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine"
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "tox"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report xml --cov-report term-missing"

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hcscom/__init__.py
+src/hcscom/hcscom.py
+src/hcscom.egg-info/PKG-INFO
+src/hcscom.egg-info/SOURCES.txt
+src/hcscom.egg-info/dependency_links.txt
+src/hcscom.egg-info/requires.txt
+src/hcscom.egg-info/top_level.txt
+tests/test_hcscom.py
