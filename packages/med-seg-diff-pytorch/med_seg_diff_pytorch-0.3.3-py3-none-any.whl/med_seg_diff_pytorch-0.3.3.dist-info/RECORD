@@ -1,0 +1,8 @@
+med_seg_diff_pytorch/__init__.py,sha256=o5ya-Fj70d7y-z3lZWUHWjgcNqvKXGdcoVcWJ2MN9B4,71
+med_seg_diff_pytorch/dataset.py,sha256=q5gZwoIsUIEZRnAdxvo4pjACgxbqnSfjZL4vbpfSE2w,3398
+med_seg_diff_pytorch/med_seg_diff_pytorch.py,sha256=byjfLI_XwSiBCgMenN3XA5HNCmRGav9Mc4ZkCBFpocE,29664
+med_seg_diff_pytorch-0.3.3.dist-info/LICENSE,sha256=xZDkKtpHE2TPCAeqKe1fjdpKernl1YW-d01j_1ltkAU,1066
+med_seg_diff_pytorch-0.3.3.dist-info/METADATA,sha256=OZ3kC5ASOGi7nz-gsQ5ZagrfRCGVN2GDm7FshrMXcSc,865
+med_seg_diff_pytorch-0.3.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+med_seg_diff_pytorch-0.3.3.dist-info/top_level.txt,sha256=U_0CfyWe_Gm4DxB6xuZ1-jcpEpCKLkof1rokP1aAkf4,21
+med_seg_diff_pytorch-0.3.3.dist-info/RECORD,,
