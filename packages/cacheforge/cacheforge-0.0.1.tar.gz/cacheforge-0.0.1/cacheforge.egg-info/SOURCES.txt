@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cacheforge/__init__.py
+cacheforge.egg-info/PKG-INFO
+cacheforge.egg-info/SOURCES.txt
+cacheforge.egg-info/dependency_links.txt
+cacheforge.egg-info/top_level.txt
