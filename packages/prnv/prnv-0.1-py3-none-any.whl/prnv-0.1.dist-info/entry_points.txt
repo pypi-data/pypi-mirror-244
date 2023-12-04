@@ -1,0 +1,2 @@
+[console_scripts]
+prnv = prnv.main:main
