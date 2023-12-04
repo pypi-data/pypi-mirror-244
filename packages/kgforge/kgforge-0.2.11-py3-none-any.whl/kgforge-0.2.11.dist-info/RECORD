@@ -1,0 +1,14 @@
+kgforge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgforge/config/__init__.py,sha256=Lf2OKM1mGz6sTSJJopOWgwkB0cryapV7CCWoVG7htFs,67
+kgforge/config/config.py,sha256=HTpaJG0seHKIEELW-lPbQfPlWe2XDHHf2mOqTEYbRYU,599
+kgforge/data_models/__init__.py,sha256=B476zateYFrY7agSZ9-jD7cQCjYDwQROSgP4Y28RbgM,725
+kgforge/data_models/data_models.py,sha256=xYRWTBA5F4h_TSTY_ZWhFFk9mE-LPAUtPf5gabjl0G8,6886
+kgforge/kg/__init__.py,sha256=_DECKZuCb2aETakH7Q0Jr0c_tnI2EFWcdx80Pr2a-UA,81
+kgforge/kg/kg_construct.py,sha256=ib_JbBzdoniN8OpJict83K6CMtimc32f9sUkQJqE3wo,8796
+kgforge/utils/__init__.py,sha256=MH2oig8YlRrZTtoS8rXgpyN-6DI4w79rYJHCdo_EQtc,142
+kgforge/utils/openalex_util.py,sha256=iufcFPR6hBGQ3mORtSpPyxJRNtKmNmcfHBtkqJkTklQ,3141
+kgforge/utils/pdfreader.py,sha256=rz1RIOIQhoUHWVakcZdaT5jgdheJlFM3_kLlXyLDRRM,3636
+kgforge-0.2.11.dist-info/LICENSE,sha256=EeobPVAgNsW0qTQy6LRmVHpN2ylcm4j0n8OpsPzQCKU,1078
+kgforge-0.2.11.dist-info/METADATA,sha256=hOghlzeWeZhaR6-91C2VBZhvwmp5MM71XDtz17z7uuM,3830
+kgforge-0.2.11.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kgforge-0.2.11.dist-info/RECORD,,
