@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Snoozebox/__init__.py
+Snoozebox.egg-info/PKG-INFO
+Snoozebox.egg-info/SOURCES.txt
+Snoozebox.egg-info/dependency_links.txt
+Snoozebox.egg-info/top_level.txt
