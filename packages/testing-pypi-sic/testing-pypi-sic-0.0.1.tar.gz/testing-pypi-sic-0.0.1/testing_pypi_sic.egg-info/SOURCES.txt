@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+testing_pypi_sic/__init__.py
+testing_pypi_sic/factorial.py
+testing_pypi_sic.egg-info/PKG-INFO
+testing_pypi_sic.egg-info/SOURCES.txt
+testing_pypi_sic.egg-info/dependency_links.txt
+testing_pypi_sic.egg-info/top_level.txt
