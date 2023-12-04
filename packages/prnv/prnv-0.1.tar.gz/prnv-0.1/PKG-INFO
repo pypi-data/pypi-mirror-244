@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: prnv
+Version: 0.1
+Summary: A package for my friend.
+Home-page: https://github.com/arpy8/prnv
+Author: Masti Khor
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pranav
+### A package for my friend
+
+Install pikmin using:
+
+`
+pip install prnv && prnv
+`
