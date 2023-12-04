@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: clickclickclick
+Version: 0.0.2
+Summary: clickclickclick
+Home-page: https://projects.om-office.de/frans/clickclickclick.git
+Author: Frans Fürst
+Author-email: frans.fuerst@protonmail.com
+Requires-Python: >=3.10,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyqt5
+Requires-Dist: pyqt5-qt5 (==5.15.2)
+Requires-Dist: scipy (>=1.11.4,<2.0.0)
+Project-URL: Repository, https://projects.om-office.de/frans/clickclickclick.git
+Description-Content-Type: text/markdown
+
+
