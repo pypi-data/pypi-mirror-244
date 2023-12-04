@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: contactbook
+Version: 0.0.2
+Summary: contactbook + notebook + filesort + calculator
+Home-page: https://github.com/VadimTrubay/contactbook
+Author: TrubayVadim
+Author-email: vadnetvadnet@ukr.net
+License: MIT
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: numexpr
+
