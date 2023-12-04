@@ -1,0 +1,16 @@
+geode_background/__init__.py,sha256=ZiWaNNKFnYl2kPUXNm9QVAx84vLbfgB7pldlbTSpUns,216
+geode_background/brep.py,sha256=M_Vf6-xgndueM-iPCMbFLnMVHqxHcPYkkf_Pdt0-40U,199
+geode_background/solid.py,sha256=DMeE_kcPihrhANbHWVJLkRmXJNV60SmALzozbU9AsXY,199
+geode_background/surface.py,sha256=KNExP1n53P95lYbgU7GJXKaZqKakt1kUzkCj3LDs4mw,203
+geode_background/bin/Geode-Background_brep.dll,sha256=N8pT9tk9-T_1BAGxk1uY2C0xnVEppWhd6lQz43JTyLk,3764224
+geode_background/bin/Geode-Background_common.dll,sha256=QE2O39QcV0cZ4ZOjldBa0QgOZ1V92b0hopBMIR9-lw8,53760
+geode_background/bin/Geode-Background_solid.dll,sha256=Wa1AzTaBiTfSApO6DobPUjqI3Cu3rHDlQj2m7AFF-uo,4000768
+geode_background/bin/Geode-Background_surface.dll,sha256=n4eHV6MeccBdZXS125alRTnkc5RUo5JKEB05atStz_c,3813888
+geode_background/bin/geode_background_py_brep.cp310-win_amd64.pyd,sha256=QCu6W88WZUh4E3MmgVyaNvMSyK7vVGo_ZipFOKRxT0s,126464
+geode_background/bin/geode_background_py_common.cp310-win_amd64.pyd,sha256=6QNWvdL1i1b2r3zFuSAUTwtAMZg8wr36tdm36mHQhpE,126464
+geode_background/bin/geode_background_py_solid.cp310-win_amd64.pyd,sha256=rQkHqF08F0vB26VwOmclT9a6-Yyu9aU1zfPjI33MJ5k,126464
+geode_background/bin/geode_background_py_surface.cp310-win_amd64.pyd,sha256=_N52ocjBen_pWy6wLCehzysXdRszqTOwjqtzh1b8wW0,126464
+Geode_Background-7.4.6rc1.dist-info/METADATA,sha256=_0tIe1yrDz6wLjc-wYN8qwr4QLI31mDoRh-g7AlfDHc,1085
+Geode_Background-7.4.6rc1.dist-info/WHEEL,sha256=5JPYeYl5ZdvdSkrGS4u21mmpPzpFx42qrXOSIgWf4pg,102
+Geode_Background-7.4.6rc1.dist-info/top_level.txt,sha256=Zrf1AIA63yPEiQFwdZwLsHzGAE3soNFO7AVs5NdN_r4,17
+Geode_Background-7.4.6rc1.dist-info/RECORD,,
