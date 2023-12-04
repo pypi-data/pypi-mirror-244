@@ -1,0 +1,13 @@
+sangmyung_univ_auth/__init__.py,sha256=dOGU0UXE_-NJ8FFuXoC4KGOd6FF9gixzVhJSkl_9kZs,75
+sangmyung_univ_auth/auth.py,sha256=H0C_zZ1YvYFh7Nzk-9IZestFiNWKH26-QWyOl8tywZw,483
+sangmyung_univ_auth/response.py,sha256=eK0mIGcJfqNlOSSSuwNee3qibCQ0A_uZHlk6MeSCkpk,879
+sangmyung_univ_auth/authenticator/__init__.py,sha256=Gk7BkbglMcirJ25MkfEgjRYUSKK5WaPUzSfGEKJtBY4,56
+sangmyung_univ_auth/authenticator/ecampus_session.py,sha256=BhtkQ2mXh56ImZctlDhWNso5rlw4ye9iRM68cgL2ncM,761
+sangmyung_univ_auth/authenticator/portal_ssotoken.py,sha256=Jau2ePtCRZ9TG_ohwPzn3RNn-PkrKUUUGCCqAl8JbEA,833
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auth.py,sha256=1WCl62xqQIgxrpYxBQLNh6p0-GBbmEja3rShFDUBi7Y,555
+sangmyung_univ_auth-1.0.3.dist-info/LICENSE,sha256=cvE02q5eZIXOuKjzoreVIFardbNqfTdumxDhv-D9zWc,1070
+sangmyung_univ_auth-1.0.3.dist-info/METADATA,sha256=PPPrH_bxMC1sdxxnuo8reuvbe_2SMhvrl44katJ3tlU,3190
+sangmyung_univ_auth-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sangmyung_univ_auth-1.0.3.dist-info/top_level.txt,sha256=YVa4bZ9a2F7yQG_N_e2QlO5dNpTVFBUmR7l3hrMJYWI,26
+sangmyung_univ_auth-1.0.3.dist-info/RECORD,,
