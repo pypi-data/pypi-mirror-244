@@ -1,0 +1,9 @@
+miksisdk/base.cpython-310-i386-linux-gnu.so,sha256=tyW6mYUhv4HwlqkZXmebk2HHFOdULwJM8G_7I2G6Xf8,515472
+miksisdk/forecast_tool.cpython-310-i386-linux-gnu.so,sha256=tJdu-k7GPi2lbTQ7lgeN19YQLM5aCIY0Eja1Y9IfBBc,657788
+miksisdk/agent.cpython-310-i386-linux-gnu.so,sha256=JUGAIClzz6vp5uH7-I1e5rFfFlFhS2xl_RAxGmv-qrI,521648
+miksisdk/api.cpython-310-i386-linux-gnu.so,sha256=yrFvNoV9p6f0E1Ng9mflnCrhkcewnBaMjVCzpUcw-qA,553592
+miksisdk/__init__.cpython-310-i386-linux-gnu.so,sha256=HMa5l_kzRHzx-SKmSo8p6l7MjxLqCV30nbhSHq7F9rU,67608
+miksisdk-0.0.7.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.7.dist-info/WHEEL,sha256=POAWaITYRJ3Wom25yjK7N-cS2g56uhAplwun4aFyPzs,111
+miksisdk-0.0.7.dist-info/METADATA,sha256=PhpzqtZ2zKswmVxhzXDZEgV8FPT8EU6IiXGnz-zEsDk,330
+miksisdk-0.0.7.dist-info/RECORD,,
