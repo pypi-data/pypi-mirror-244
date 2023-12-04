@@ -1,0 +1,13 @@
+
+# Change PYTHON=python3 if this is required to access python version.
+PYTHON=python
+
+##### ----- Do not edit below this line ------- #######
+
+CONFIG=<RUNTIME_CONFIG_FILE>
+PIPELINE=<PIPELINE>
+CREDENTIALS=<CREDENTIALS>
+PKG_DIR=<PKG_DIR>
+LOCPY=${PKG_DIR}/panpipelines
+
+${PYTHON} ${LOCPY}/group_subjects.py $CONFIG $PIPELINE $CREDENTIALS
