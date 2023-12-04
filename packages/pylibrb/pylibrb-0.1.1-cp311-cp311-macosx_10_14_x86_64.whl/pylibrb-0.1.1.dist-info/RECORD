@@ -1,0 +1,9 @@
+pylibrb-0.1.1.dist-info/RECORD,,
+pylibrb-0.1.1.dist-info/WHEEL,sha256=4i28aWORkA4JtnQ7WBun6q5MxsXIo8-7byUgQPaXRsU,115
+pylibrb-0.1.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylibrb-0.1.1.dist-info/METADATA,sha256=RA1iaInuDyUWMEGsdT13NJDHZvjjeZ75M4jfv5SksA0,2849
+pylibrb-0.1.1.dist-info/licenses/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+pylibrb/__init__.py,sha256=jMPaxYNmvtJd02I2RrF8Oi3YFYLXw5wP5N_gqNFVfnI,2352
+pylibrb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylibrb/pylibrb_ext.pyi,sha256=8ikHqKmuS-5lIhQBUsYtByJZFsEciKnX0-kf_Lyfpcc,38555
+pylibrb/pylibrb_ext.cpython-311-darwin.so,sha256=42gPnfGyBNkyOlGvZMrz5t6rBNTkCy4IG_1kMZj49ow,2039896
