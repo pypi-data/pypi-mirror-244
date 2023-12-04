@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/autopack_python.egg-info/PKG-INFO
+src/autopack_python.egg-info/SOURCES.txt
+src/autopack_python.egg-info/dependency_links.txt
+src/autopack_python.egg-info/top_level.txt
