@@ -1,0 +1,5 @@
+setup.py
+resdb_cli.egg-info/PKG-INFO
+resdb_cli.egg-info/SOURCES.txt
+resdb_cli.egg-info/dependency_links.txt
+resdb_cli.egg-info/top_level.txt
