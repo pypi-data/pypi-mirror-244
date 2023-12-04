@@ -1,0 +1,13 @@
+qrlew_datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qrlew_datasets/build.py,sha256=3R4B68m3C74Q-H5QgL6taZ2cRbEtb5GMkMDl3pz9s64,461
+qrlew_datasets/database.py,sha256=3b-0YVWRyOHy-o3p2LmpNR51KZIjfJhl-SHLk68T5E0,3014
+qrlew_datasets/databases/__init__.py,sha256=nKZ4zjKd3dqe0UBvbOJ4GC_2bcW4behDUcruga3-qss,111
+qrlew_datasets/databases/mariadb.py,sha256=EyiOL3r_h0LMKEQxP0l2NmrOuYtKO7bWxeW0evFsLjs,3190
+qrlew_datasets/databases/postgresql.py,sha256=WeHEYdoXdFlkVlq6ENOxvx-YGUN7x1iTDP4gOBC9HKQ,3832
+qrlew_datasets/files.py,sha256=IhmziuI0akP9OgVZIAw5Fx1lol0IY_HuRTFLDv7axOk,1328
+qrlew_datasets/network.py,sha256=rdrX5qK2zKSyGY8tPe3xauFeRV9SUvcpUbLPq8BhCn4,310
+qrlew_datasets/sources.py,sha256=Z7CNqMCtS6_uyhD00anS9waaBC9C5R6dmFJLTJMwthA,1740
+qrlew_datasets-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qrlew_datasets-0.5.0.dist-info/METADATA,sha256=hX3m0f9Q81ao13XxGjI0fhP_HLiZ8UpPlSGDT0rLzTQ,2750
+qrlew_datasets-0.5.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+qrlew_datasets-0.5.0.dist-info/RECORD,,
