@@ -1,0 +1,11 @@
+nico/Annotations.py,sha256=1ow_Pksf-J1K0IehI0V-ghW5pPmvhe-RHZv4oRPCrEo,56437
+nico/Covariations.py,sha256=s7gYV9PHp8D0O-ku9S9fC-DBy2VBPWx9qMMh23E9Uf4,110692
+nico/Interactions.py,sha256=DYFSSmTEJGvoP_Unh7bEKuNNX7W1FdcEbBe7yFn9lhg,55708
+nico/__init__.py,sha256=mNsGE2qfSvzd046T1HJKyxDiSnHAHtEeE4CrtWoHYXw,4570
+nico/utils/SCTransform.py,sha256=6FUantPA73URrpR1n7-WwCDt3Z4DJEchjW5ckk1qa98,9494
+nico/utils/__init__.py,sha256=8ratv6pwkiHlcRas0I9fH5kA2Y9_dpOj8AaX95Rnds4,987
+nico/utils/pyliger_utilities.py,sha256=ypJCJaugCIA1jFE54YFWBB8Ql0tqPF7TVW8aXFgbC10,17782
+nico_sc_sp-0.0.6.dist-info/METADATA,sha256=f5XIZIReauSyfsTiONhQ5xS9vwGlWGPWQZ5a7kqx1i0,2235
+nico_sc_sp-0.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nico_sc_sp-0.0.6.dist-info/top_level.txt,sha256=dM_GoN9gL8w8gsJAA7_JoHtEgUGghIZ6ubczEjL6718,5
+nico_sc_sp-0.0.6.dist-info/RECORD,,
