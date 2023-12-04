@@ -1,0 +1,4 @@
+globus-sdk<4,>=3.20.1
+
+[kafka-python]
+kafka-python
