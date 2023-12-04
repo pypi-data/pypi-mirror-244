@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: deepdraw
+Version: 1.5.0
+Summary: Binary Segmentation Benchmark Package
+Author-email: Tim Laibacher <tim.laibacher@idiap.ch>, Andre Anjos <andre.anjos@idiap.ch>, Maxime Delitroz <maxime.delitroz@idiap.ch>, Oscar Jimenez <oscar.jimenez@idiap.ch>, Daniel Carron <daniel.carron@idiap.ch>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: documentation, https://www.idiap.ch/software/biosignal/docs/biosignal/software/deepdraw/v1.5.0/sphinx/
+Project-URL: homepage, https://pypi.org/project/deepdraw
+Project-URL: repository, https://gitlab.idiap.ch/biosignal/software/deepdraw
+Project-URL: changelog, https://gitlab.idiap.ch/biosignal/software/deepdraw/-/releases
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Requires-Dist: clapper
+Requires-Dist: click
+Requires-Dist: click-plugins
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: h5py
+Requires-Dist: pillow
+Requires-Dist: psutil
+Requires-Dist: setuptools
+Requires-Dist: tabulate
+Requires-Dist: torch >=1.13
+Requires-Dist: torchvision >0.13
+Requires-Dist: tqdm
+Requires-Dist: scikit-image
+Requires-Dist: tensorboard
+Requires-Dist: tomli-w
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: furo ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Requires-Dist: auto-intersphinx ; extra == 'doc'
+Requires-Dist: sphinx-copybutton ; extra == 'doc'
+Requires-Dist: sphinx-inline-tabs ; extra == 'doc'
+Requires-Dist: sphinx-click ; extra == 'doc'
+Requires-Dist: graphviz ; extra == 'doc'
+Provides-Extra: qa
+Requires-Dist: pre-commit ; extra == 'qa'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+<!--
+SPDX-FileCopyrightText: Copyright © 2023 Idiap Research Institute <contact@idiap.ch>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+[![latest-docs](https://img.shields.io/badge/docs-v1.5.0-orange.svg)](https://www.idiap.ch/software/biosignal/docs/biosignal/software/deepdraw/v1.5.0/sphinx/)
+[![build](https://gitlab.idiap.ch/biosignal/software/deepdraw/badges/v1.5.0/pipeline.svg)](https://gitlab.idiap.ch/biosignal/software/deepdraw/commits/v1.5.0)
+[![coverage](https://gitlab.idiap.ch/biosignal/software/deepdraw/badges/v1.5.0/coverage.svg)](https://www.idiap.ch/software/biosignal/docs/biosignal/software/deepdraw/v1.5.0/coverage/index.html)
+[![repository](https://img.shields.io/badge/gitlab-project-0000c0.svg)](https://gitlab.idiap.ch/biosignal/software/deepdraw)
+
+
+# Semantic Segmentation Benchmarks on Public Datasets
+
+Package to benchmark and evaluate a range of neural network architectures for
+semantic segmentation tasks. For installation and usage instructions, check-out
+our documentation.
