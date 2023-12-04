@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cohere-haystack
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/cohere-haystack#readme
+Project-URL: Issues, https://github.com/unknown/cohere-haystack/issues
+Project-URL: Source, https://github.com/unknown/cohere-haystack
+Author-email: deepset GmbH <info@deepset.ai>
+License-Expression: Apache-2.0
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: cohere
+Requires-Dist: haystack-ai
+Description-Content-Type: text/markdown
+
+# cohere-haystack
+
+[![PyPI - Version](https://img.shields.io/pypi/v/cohere-haystack.svg)](https://pypi.org/project/cohere-haystack)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cohere-haystack.svg)](https://pypi.org/project/cohere-haystack)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install cohere-haystack
+```
+
+## License
+
+`cohere-haystack` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.
