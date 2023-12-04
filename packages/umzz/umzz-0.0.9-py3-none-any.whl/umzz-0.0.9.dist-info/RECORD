@@ -1,0 +1,17 @@
+umzz/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+umzz/argue.py,sha256=2WulNsyHDawDahdYPh0qZTIBgfTPK9MLAyZVaBnPGIg,2537
+umzz/chunky.py,sha256=Ph3N_9GO1pU4nXIFEnZIg1bWY9bHQJ6qXkoknTBuNWQ,779
+umzz/cli.py,sha256=_Vc1t9v1pZOIGjgiGIvE3sb7aoqaCZPsrWHbxiBRycY,801
+umzz/sliding.py,sha256=R-WJ66hEi6_MLlHpatR6fYJ7fLAl2kuAtgs1gXnHjxc,1190
+umzz/timer.py,sha256=fMaGHl5_w3jjqqUlSGpNZvT3TAHE5LxFm0wVs9VkD-E,1262
+umzz/umzz.py,sha256=srZg0h0kDNybvv9jzWsuCVba4hCXvmCYlP8YnzOYz2Q,4286
+umzz/umzz2.py,sha256=zRpJ0GNkqrajXujgfH_l8A_DzWNPzVrMX_bLUdWCyOc,6570
+umzz/version.py,sha256=6Owg5WO0PhWHm1jNpefgLRhOEwjGFORXI3Cin87x8Co,16
+umzz/x9mp.py,sha256=vQ4uFy3Akijtu4iU_pg_ZtYsWzJyN7CcDpqNml4TYqs,11630
+umzz-0.0.9.data/scripts/umzz,sha256=59wQJDVQcxO0c5gEybvE66AHoR_rKsYnVDB9fJT841s,43
+umzz-0.0.9.data/scripts/umzz2,sha256=-_O66EyXD4r_PlQqkhcdyy1dZed65bYGxgSwkhfOuQI,44
+umzz-0.0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+umzz-0.0.9.dist-info/METADATA,sha256=B0iWMfpscSlIScBIG91Ljfc1vsUjLCis6ggng4N_MMY,7571
+umzz-0.0.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+umzz-0.0.9.dist-info/top_level.txt,sha256=Po8j5WKBZxyWVviXLqr9-Ygo7hHkm--LyRfKOWE3B9w,5
+umzz-0.0.9.dist-info/RECORD,,
