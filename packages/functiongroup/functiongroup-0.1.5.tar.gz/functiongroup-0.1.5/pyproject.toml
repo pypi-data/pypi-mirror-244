@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "functiongroup"
+version = "v0.1.5"
+description = "Python utility to implement protocols with pure functions"
+authors = ["Dennis Rall <dennis.rall@web.de>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["functional", "protocol", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/dennisrall/functiongroup"
+Documentation = "https://github.com/dennisrall/functiongroup"
+Repository = "https://github.com/dennisrall/functiongroup"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
