@@ -1,0 +1,89 @@
+{
+  debug
+	admin 0.0.0.0:2019
+	local_certs
+	ocsp_stapling off
+	auto_https disable_redirects
+}
+(_proxy) {
+	handle_errors {
+		header Content-Type text/plain
+		header Server "ingress"
+		respond "{http.error.status_code} {http.error.status_text}"
+	}
+	log {
+		output stderr
+	}
+	reverse_proxy {args.0}
+}
+(authelia) {
+	forward_auth authelia:9091 {
+		uri /api/verify?rd=https://auth.0-main.de
+		copy_headers Remote-User Remote-Groups Remote-Name Remote-Email
+	}
+}
+(proxy) {
+	{args.0}:80 {
+		import _proxy {args.1}
+	}
+	{args.0}:443 {
+		tls internal
+		import _proxy {args.1}
+	}
+}
+(authed) {
+	{args.0}:80 {
+		import authelia {args.0}
+		import _proxy {args.1}
+	}
+	{args.0}:443 {
+		import authelia {args.0}
+		tls internal
+		import _proxy {args.1}
+	}
+}
+# ----------------------------------------------------------------------------
+
+import proxy docs.imx.0-main.de 0859b12ecd38:80
+
+import proxy flower.imx.0-main.de 1ea597e4fd00:443
+
+import proxy node-exporter.imx.0-main.de f27f1e23932e:9100
+
+import proxy service.imx.0-main.de 148929d0f0e0:5000
+
+import proxy solr.imx.0-main.de 4f3b6f4f321c:8983
+
+import proxy app.imx.0-main.de 638b5eca8a07:80
+
+import proxy a.0-main.de 57014948484d:8080
+
+import authed b.0-main.de 8df0ca7f1170:7331
+
+import proxy fog.0-main.de e046513e7a50:8000
+
+import proxy auth.0-main.de f11e888fde8a:9091
+
+import proxy grafana.dev.0-main.de e941a9969c60:3000
+
+import proxy odoo.0-main.de eefbb5df54f8:8069
+
+import proxy grafana.puddl.x dabc85de2f7d:3000
+
+import proxy pgadmin.puddl.x cefef6f092b0:80
+
+import proxy grafana.apm.x f1faacec6dd0:3000
+
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# default server
+:443 {
+	tls internal {
+		on_demand
+	}
+	respond 502 {
+		body "502 Bad Gateway
+"
+		close
+	}
+}
