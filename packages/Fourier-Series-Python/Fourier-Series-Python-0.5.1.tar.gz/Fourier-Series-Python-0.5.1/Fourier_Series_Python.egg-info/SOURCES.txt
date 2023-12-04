@@ -1,0 +1,15 @@
+Fourier.py
+FunctionDefinitions.py
+FunctionOperatons.py
+Generate.py
+MANIFEST.in
+Plot.py
+README.md
+manifest.in
+modules.py
+setup.py
+Fourier_Series_Python.egg-info/PKG-INFO
+Fourier_Series_Python.egg-info/SOURCES.txt
+Fourier_Series_Python.egg-info/dependency_links.txt
+Fourier_Series_Python.egg-info/requires.txt
+Fourier_Series_Python.egg-info/top_level.txt
