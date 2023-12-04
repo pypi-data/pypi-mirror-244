@@ -1,0 +1,7 @@
+{
+  "mypy-type-checker.reportingScope": "workspace",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+  },
+}
