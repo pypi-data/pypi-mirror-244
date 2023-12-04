@@ -1,0 +1,42 @@
+stages:
+  - Static Analysis
+  - Unit test
+  - Release
+
+default:
+  image: python:3.11
+  before_script:
+    - python --version
+    - pip --version
+    - python -m pip install --upgrade pip
+
+flake8:
+  stage: Static Analysis
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+  script:
+    - pip install tox
+    - tox -e lint
+
+test:
+  stage: Unit test
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+  script:
+    - pip install tox
+    - tox -e test
+
+release:
+  stage: Release
+  rules:
+    - if: $CI_COMMIT_TAG   # Run this job when a tag is created
+  script:
+    - rm -rf build
+    - pip install build twine
+    - python -m build
+    - python -m twine upload --username=__token__ --password=$PYPI_RNAMOIP_TOKEN --repository pypi dist/*
+  release:
+    tag_name: '$CI_COMMIT_TAG'
+    description: '$CI_COMMIT_TAG'
