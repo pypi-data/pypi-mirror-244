@@ -1,0 +1,7 @@
+README.md
+setup.py
+Fourier_Series_Python.egg-info/PKG-INFO
+Fourier_Series_Python.egg-info/SOURCES.txt
+Fourier_Series_Python.egg-info/dependency_links.txt
+Fourier_Series_Python.egg-info/requires.txt
+Fourier_Series_Python.egg-info/top_level.txt
