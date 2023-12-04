@@ -1,0 +1,15 @@
+Cython
+numpy<=1.23.5
+omegaconf>=2.0.1
+onnx
+opencv-python
+opendr-toolkit-engine
+opendr-toolkit-object-detection-2d
+protobuf<=3.20.0
+pyaml
+pycocotools
+pytorch-lightning==1.2.3
+tabulate
+tensorboard
+torch==1.13.1
+torchvision
