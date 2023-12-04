@@ -1,0 +1,106 @@
+[project]
+name = 'scanpydoc'
+dynamic = ['version']
+description = 'A series of Sphinx extensions to get maintainable numpydoc style documentation.'
+authors = [
+    { name = 'Philipp Angerer', email = 'phil.angerer@gmail.com' },
+]
+urls.Source = 'https://github.com/theislab/scanpydoc/'
+urls.Documentation = 'https://icb-scanpydoc.readthedocs-hosted.com/'
+readme = 'README.rst'
+license = 'GPL-3.0-or-later'
+classifiers = [
+    'Intended Audience :: Developers',
+    'Programming Language :: Python :: 3',
+    'Topic :: Documentation :: Sphinx',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Framework :: Sphinx :: Extension',
+    'Typing :: Typed',
+]
+requires-python = '>=3.9'
+dependencies = [
+    'sphinx>=7.0',
+    'get-annotations; python_version < "3.10"',
+]
+
+[project.optional-dependencies]
+dev = [
+    'pre-commit',
+]
+test = [
+    'pytest',
+    'coverage',
+    'coverage-rich',
+    'toml',  # coverage-rich’s dep anyconfig 0.13 needs this
+]
+doc = [
+    'scanpydoc[typehints,theme]',
+    'sphinx',
+]
+typehints = ['sphinx-autodoc-typehints>=1.15.2']
+theme = [
+    'sphinx-book-theme>=1.1.0rc1',
+]
+
+[project.entry-points.'sphinx.html_themes']
+scanpydoc = 'scanpydoc.theme'
+
+[tool.ruff]
+select = ['ALL']
+allowed-confusables = ['’', '×', 'l']
+ignore = [
+    'ANN101', # No type annotating `self`
+    'E741',   # Ambiguous variable name
+    'C408',   # `dict` calls are useful
+    'D203',   # No blank lines before class body
+    'D213',   # Docstring summary on first line
+    'D407',   # We’re not using Numpydoc style
+    'FIX002', # TODOs are OK
+    'PD',     # False positives
+]
+[tool.ruff.per-file-ignores]
+'example.py' = ['ALL']
+'docs/conf.py' = [
+    'INP001', # `docs` is not a namespace package
+]
+'tests/**/*.py' = [
+    'INP001', # test directories are not namespace packages
+    'D103', # Test functions don’t need docstrings
+    'S101', # Pytest tests use `assert`
+]
+
+[tool.ruff.isort]
+lines-after-imports = 2
+known-first-party = ['scanpydoc']
+
+[tool.hatch.version]
+source = 'vcs'
+[tool.hatch.build.hooks.vcs]
+version-file = 'src/scanpydoc/_version.py'
+
+[tool.hatch.envs.docs]
+python = '3.11'
+features = ['doc']
+[tool.hatch.envs.docs.scripts]
+build = 'sphinx-build -M html docs docs/_build'
+
+[[tool.hatch.envs.test.matrix]]
+python = ['3.9', '3.10', '3.11', '3.12']
+[tool.hatch.envs.test]
+features = ['test', 'typehints']
+[tool.hatch.envs.test.scripts]
+run = 'pytest -vv {args}'
+cov = [
+    'coverage run -m pytest -vv {args}',
+    'coverage-rich report',
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    '--import-mode=importlib',
+    '-psphinx.testing.fixtures',
+]
+
+[build-system]
+requires = ['hatchling', 'hatch-vcs']
+build-backend = 'hatchling.build'
