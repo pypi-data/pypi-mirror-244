@@ -1,0 +1,42 @@
+[project]
+name = "sketching"
+version = "0.0.1"
+authors = [
+  { name="A Samuel Pottinger", email="samp@gleap.org" }
+]
+description = "Tools for quick creative programmig."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Topic :: Multimedia",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Scientific/Engineering :: Visualization",
+  "Topic :: Games/Entertainment"
+]
+dependencies = []
+
+[tool.setuptools.package-data]
+sketching = ["py.typed"]
+
+[project.urls]
+"Homepage" = "https://sketchingpy.org"
+"Documentation" = "https://sketchingpy.org/reference"
+"Source" = "https://gitlab.com/skteching/Sketchingpy"
+"Issue Tracker" = "https://gitlab.com/skteching/Sketchingpy/-/issues"
+"Changelog" = "https://gitlab.com/skteching/Sketchingpy/-/commits/main"
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = [
+  "examples"
+]
