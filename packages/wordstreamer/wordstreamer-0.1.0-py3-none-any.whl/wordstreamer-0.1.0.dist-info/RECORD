@@ -1,0 +1,12 @@
+wordstreamer/__init__.py,sha256=UkR3veZOOvWK9eG9tdls4JDm0KBS4WtNpQLGvhE2PVY,199
+wordstreamer/core.py,sha256=cKEW-d2lYh6DR0l70uyU7yb_fCz5ZCXegYRESr3yfGU,7689
+wordstreamer/functional.py,sha256=QwONq8NDvBhth_Klty9Qz5cDnC6QyWDzHM1v6NR0Q6E,786
+wordstreamer/internal_types.py,sha256=odIyQbjWkRI1iamIUTYj1wiB36yZUOkj5nixF2sJ4Sk,508
+wordstreamer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordstreamer/startkit.py,sha256=UJlN4fQklwF6daDpFrvpNcDyo8wHXSQspuqPuEBuH0Q,2307
+wordstreamer/stream_utils.py,sha256=TuRBoSyiuLojwz3fG7SZ4oQi-W1z-tyoQPw2R4JlPis,2551
+wordstreamer/utils.py,sha256=Ijbe2aUMcsJF-GEvtD0WolDRQj-Wx_dZkITe_M0TCPM,885
+wordstreamer-0.1.0.dist-info/LICENSE,sha256=nuh1Z6_O2G2IwIGn8xay0SnQZPXL4P0gAnnW2LRy2Mw,1073
+wordstreamer-0.1.0.dist-info/METADATA,sha256=TYCIPIHRKBdhq5yvzsqC3Ji7SbJA3czWN2mxQGeONOA,18405
+wordstreamer-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+wordstreamer-0.1.0.dist-info/RECORD,,
