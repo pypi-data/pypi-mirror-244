@@ -1,0 +1,222 @@
+Metadata-Version: 2.1
+Name: ontolearn
+Version: 0.6.1
+Summary: Ontolearn is an open-source software library for structured machine learning in Python. Ontolearn includes modules for processing knowledge bases, inductive logic programming and ontology engineering.
+Home-page: https://github.com/dice-group/Ontolearn
+Author: Caglar Demir
+Author-email: caglardemir8@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn >=0.24.1
+Requires-Dist: matplotlib >=3.3.4
+Requires-Dist: owlready2 >=0.40
+Requires-Dist: torch >=1.7.1
+Requires-Dist: rdflib >=6.0.2
+Requires-Dist: pandas >=1.5.0
+Requires-Dist: sortedcontainers >=2.4.0
+Requires-Dist: flask >=1.1.2
+Requires-Dist: deap >=1.3.1
+Requires-Dist: httpx >=0.21.1
+Requires-Dist: parsimonious >=0.8.1
+Requires-Dist: tqdm >=4.64.0
+Requires-Dist: tokenizers >=0.12.1
+Requires-Dist: transformers >=4.19.2
+Requires-Dist: pytest >=7.2.2
+Requires-Dist: owlapy >=0.1.0
+Provides-Extra: dev
+Requires-Dist: build >=0.6.0 ; extra == 'dev'
+Requires-Dist: pytest >=6.2.4 ; extra == 'dev'
+Requires-Dist: pytest-codeblocks >=0.11.2 ; extra == 'dev'
+Requires-Dist: tox >=3.24.3 ; extra == 'dev'
+Requires-Dist: tox-run-before >=0.1 ; extra == 'dev'
+Requires-Dist: sphinx >=4.0.2 ; extra == 'dev'
+Requires-Dist: sphinxext-autox >=0.0.2 ; extra == 'dev'
+Requires-Dist: sphinx-theme >=1.0 ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme >=0.5.1 ; extra == 'dev'
+Requires-Dist: sphinxcontrib-plantuml >=0.21 ; extra == 'dev'
+Requires-Dist: plantuml-local-client >=1.2021.10 ; extra == 'dev'
+Requires-Dist: myst-parser >=0.15.2 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx >=4.0.2 ; extra == 'docs'
+Requires-Dist: sphinxext-autox >=0.0.2 ; extra == 'docs'
+Requires-Dist: sphinx-theme >=1.0 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme >=0.5.1 ; extra == 'docs'
+Requires-Dist: sphinxcontrib-plantuml >=0.21 ; extra == 'docs'
+Requires-Dist: plantuml-local-client >=1.2021.10 ; extra == 'docs'
+Requires-Dist: myst-parser >=0.15.2 ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: flake8 >=3.9.2 ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest >=6.2.4 ; extra == 'test'
+Requires-Dist: pytest-codeblocks >=0.11.2 ; extra == 'test'
+Requires-Dist: tox >=3.24.3 ; extra == 'test'
+Requires-Dist: tox-run-before >=0.1 ; extra == 'test'
+
+# Ontolearn
+
+*Ontolearn* is an open-source software library for description logic learning problem.
+Find more in the [Documentation](https://ontolearn-docs-dice-group.netlify.app/usage/01_introduction).
+
+Learning algorithms: 
+- **Drill** &rarr; [Neuro-Symbolic Class Expression Learning](https://www.ijcai.org/proceedings/2023/0403.pdf)
+- **EvoLearner** &rarr; [EvoLearner: Learning Description Logics with Evolutionary Algorithms](https://dl.acm.org/doi/abs/10.1145/3485447.3511925)
+- **NCES2** &rarr; (soon) [Neural Class Expression Synthesis in ALCHIQ(D)](https://papers.dice-research.org/2023/ECML_NCES2/NCES2_public.pdf)
+- **NCES** &rarr; [Neural Class Expression Synthesis](https://link.springer.com/chapter/10.1007/978-3-031-33455-9_13) 
+- **NERO** &rarr; (soon) [Learning Permutation-Invariant Embeddings for Description Logic Concepts](https://link.springer.com/chapter/10.1007/978-3-031-30047-9_9)
+- **CLIP** &rarr; (soon) [Learning Concept Lengths Accelerates Concept Learning in ALC](https://link.springer.com/chapter/10.1007/978-3-031-06981-9_14)
+- **CELOE** &rarr; [Class Expression Learning for Ontology Engineering](https://www.sciencedirect.com/science/article/abs/pii/S1570826811000023)
+- **OCEL** &rarr; A limited version of CELOE
+
+## Installation
+
+```shell
+pip install ontolearn 
+```
+or
+```shell
+git clone https://github.com/dice-group/Ontolearn.git && conda create --name onto python=3.8.18 && conda activate onto 
+pip3 install -e . && python -c "import ontolearn"
+wget https://files.dice-research.org/projects/Ontolearn/KGs.zip -O ./KGs.zip && unzip KGs.zip
+```
+```shell
+pytest -p no:warnings -x # Running 158 tests takes ~ 3 mins
+```
+
+## Description Logic Concept Learning 
+```python
+from ontolearn.concept_learner import CELOE
+from ontolearn.knowledge_base import KnowledgeBase
+from ontolearn.learning_problem import PosNegLPStandard
+from ontolearn.search import EvoLearnerNode
+from owlapy.model import OWLClass, OWLClassAssertionAxiom, OWLNamedIndividual, IRI, OWLObjectProperty, OWLObjectPropertyAssertionAxiom
+from owlapy.render import DLSyntaxObjectRenderer
+# (1) Load a knowledge graph.
+kb = KnowledgeBase(path='KGs/father.owl')
+# (2) Initialize a learner.
+model = CELOE(knowledge_base=kb)
+# (3) Define a description logic concept learning problem.
+lp = PosNegLPStandard(pos={OWLNamedIndividual(IRI.create("http://example.com/father#stefan")),
+                           OWLNamedIndividual(IRI.create("http://example.com/father#markus")),
+                           OWLNamedIndividual(IRI.create("http://example.com/father#martin"))},
+                      neg={OWLNamedIndividual(IRI.create("http://example.com/father#heinz")),
+                           OWLNamedIndividual(IRI.create("http://example.com/father#anna")),
+                           OWLNamedIndividual(IRI.create("http://example.com/father#michelle"))})
+# (4) Learn description logic concepts best fitting (3).
+dl_classifiers=model.fit(learning_problem=lp).best_hypotheses(2)
+
+# (5) Inference over unseen individuals
+namespace = 'http://example.com/father#'
+# (6) New Individuals
+julia = OWLNamedIndividual(IRI.create(namespace, 'julia'))
+julian = OWLNamedIndividual(IRI.create(namespace, 'julian'))
+thomas = OWLNamedIndividual(IRI.create(namespace, 'thomas'))
+# (7) OWLClassAssertionAxiom  about (6)
+male = OWLClass(IRI.create(namespace, 'male'))
+female = OWLClass(IRI.create(namespace, 'female'))
+axiom1 = OWLClassAssertionAxiom(individual=julia, class_expression=female)
+axiom2 = OWLClassAssertionAxiom(individual=julian, class_expression=male)
+axiom3 = OWLClassAssertionAxiom(individual=thomas, class_expression=male)
+# (8) OWLObjectPropertyAssertionAxiom about (6)
+has_child = OWLObjectProperty(IRI.create(namespace, 'hasChild'))
+# Existing Individuals
+anna = OWLNamedIndividual(IRI.create(namespace, 'anna'))
+markus = OWLNamedIndividual(IRI.create(namespace, 'markus'))
+michelle = OWLNamedIndividual(IRI.create(namespace, 'michelle'))
+axiom4 = OWLObjectPropertyAssertionAxiom(subject=thomas, property_=has_child, object_=julian)
+axiom5 = OWLObjectPropertyAssertionAxiom(subject=julia, property_=has_child, object_=julian)
+
+# 4. Use loaded class expressions for predictions
+predictions = model.predict(individuals=[julia, julian, thomas, anna, markus, michelle],
+                            axioms=[axiom1, axiom2, axiom3, axiom4, axiom5],
+                            hypotheses=dl_classifiers)
+print(predictions)
+"""
+          (¬female) ⊓ (∃ hasChild.⊤)  male
+julia                            0.0   0.0
+julian                           0.0   1.0
+thomas                           1.0   1.0
+anna                             0.0   0.0
+markus                           1.0   1.0
+michelle                         0.0   0.0
+"""
+```
+
+Fore more please refer to  the [examples](https://github.com/dice-group/Ontolearn/tree/develop/examples) folder.
+
+
+## Deployment 
+
+```shell
+pip install gradio
+```
+
+To deploy **EvoLearner** on the **Family** knowledge graph. Available models to deploy: **EvoLearner**, **NCES**, **CELOE** and **OCEL**.
+```shell
+python deploy_cl.py --model evolearner --path_knowledge_base KGs/Family/family-benchmark_rich_background.owl
+```
+Run the help command to see the description on this script usage:
+
+```shell
+python deploy_cl.py --help
+```
+
+### Citing
+Currently, we are working on our manuscript describing our framework. 
+If you find our work useful in your research, please consider citing the respective paper:
+```
+# DRILL
+@inproceedings{demir2023drill,
+  author = {Demir, Caglar and Ngomo, Axel-Cyrille Ngonga},
+  booktitle = {The 32nd International Joint Conference on Artificial Intelligence, IJCAI 2023},
+  title = {Neuro-Symbolic Class Expression Learning},
+  url = {https://www.ijcai.org/proceedings/2023/0403.pdf},
+ year={2023}
+}
+
+# NCES2
+@inproceedings{kouagou2023nces2,
+author={Kouagou, N'Dah Jean and Heindorf, Stefan and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+title={Neural Class Expression Synthesis in ALCHIQ(D)},
+url = {https://papers.dice-research.org/2023/ECML_NCES2/NCES2_public.pdf},
+booktitle={Machine Learning and Knowledge Discovery in Databases},
+year={2023},
+publisher={Springer Nature Switzerland},
+address="Cham"
+}
+
+# NCES
+@inproceedings{kouagou2023neural,
+  title={Neural class expression synthesis},
+  author={Kouagou, N’Dah Jean and Heindorf, Stefan and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+  booktitle={European Semantic Web Conference},
+  pages={209--226},
+  year={2023},
+  publisher={Springer Nature Switzerland}
+}
+
+# EvoLearner
+@inproceedings{heindorf2022evolearner,
+  title={Evolearner: Learning description logics with evolutionary algorithms},
+  author={Heindorf, Stefan and Bl{\"u}baum, Lukas and D{\"u}sterhus, Nick and Werner, Till and Golani, Varun Nandkumar and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+  booktitle={Proceedings of the ACM Web Conference 2022},
+  pages={818--828},
+  year={2022}
+}
+
+
+# CLIP
+@inproceedings{kouagou2022learning,
+  title={Learning Concept Lengths Accelerates Concept Learning in ALC},
+  author={Kouagou, N’Dah Jean and Heindorf, Stefan and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+  booktitle={European Semantic Web Conference},
+  pages={236--252},
+  year={2022},
+  publisher={Springer Nature Switzerland}
+}
+```
+
+In case you have any question, please contact:  ```onto-learn@lists.uni-paderborn.de```
