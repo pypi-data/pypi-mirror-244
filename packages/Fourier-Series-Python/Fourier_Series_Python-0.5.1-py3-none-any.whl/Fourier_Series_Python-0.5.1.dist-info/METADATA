@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Fourier-Series-Python
+Version: 0.5.1
+Summary: A Fourier Series and Signal Generation Libary to generate coefficients to function
+Author: Abbass Srour
+Author-email: abbasss@umich.edu
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: plotly
+Requires-Dist: numpy
+
+# Fourier-Series-Python
+
+This library is able to generate and plot any number of coefficients passed by the user of any function.
+In addition, functionality for generating 1-D signals is added. (for machine learning use cases)
+
+Paper can be found [here](https://drive.google.com/file/d/1qCV_bS05ocZtUJVro-OqHE7ys68Yv-Mi/view?usp=sharing)
