@@ -1,0 +1,15 @@
+jsend2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/django/apps.py,sha256=kp2rt3ndwb09pP1r4cydnvEKfiO1rHKiQy-4RIilsRw,143
+jsend2/django/exception.py,sha256=B7ahDPRjokYlujCAr7x93xzWSpOLPjTo2UujA0TvNoc,1667
+jsend2/django/utils.py,sha256=25-Xhvj8UK-wR89u5qCkGDUs-SxD2JJ6Ra7eQGdjSUo,1606
+jsend2/fastapi-example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/fastapi-example/main.py,sha256=RJqqWpaCfuI9s1wcaBUaOqM8zKd8YNwPoax3JTLW3ek,933
+jsend2/jfast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsend2/jfast/exception.py,sha256=JPa3ONjWOVzI9UR8UfRinHugCJIN00O-kDhtp5GONqk,1079
+jsend2/jfast/pagination.py,sha256=I25WcguTPvxO6zJPFPzyvWmpcS-bm__ArA65QrENANU,1120
+jsend2/jfast/response.py,sha256=NJ1M0MTRkNEtPV8zf5PPdAVAjm5WLkQ54k9PIhUmOmU,1689
+jsend2-0.0.2.dist-info/METADATA,sha256=6cQejIqHTWqEdxR4XcvcRNjEkWvoov3xOXRJP8wFLGk,3226
+jsend2-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+jsend2-0.0.2.dist-info/top_level.txt,sha256=RDcye5jxmKGWim8uEiLcSTBIIB0s2ZY-83OE4VKO2II,7
+jsend2-0.0.2.dist-info/RECORD,,
