@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Logweaver/__init__.py
+Logweaver.egg-info/PKG-INFO
+Logweaver.egg-info/SOURCES.txt
+Logweaver.egg-info/dependency_links.txt
+Logweaver.egg-info/top_level.txt
