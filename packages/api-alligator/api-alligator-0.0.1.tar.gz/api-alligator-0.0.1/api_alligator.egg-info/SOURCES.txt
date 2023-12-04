@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+api-alligator/__init__.py
+api_alligator.egg-info/PKG-INFO
+api_alligator.egg-info/SOURCES.txt
+api_alligator.egg-info/dependency_links.txt
+api_alligator.egg-info/top_level.txt
