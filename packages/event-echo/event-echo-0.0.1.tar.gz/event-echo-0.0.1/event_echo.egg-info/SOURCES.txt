@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+event-echo/__init__.py
+event_echo.egg-info/PKG-INFO
+event_echo.egg-info/SOURCES.txt
+event_echo.egg-info/dependency_links.txt
+event_echo.egg-info/top_level.txt
