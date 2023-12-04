@@ -1,0 +1,9 @@
+miksisdk-0.0.7.dist-info/RECORD,,
+miksisdk-0.0.7.dist-info/WHEEL,sha256=ibpuXsV-axunL8b2sngpgJRqeQ8Bnju1KEXkaJUfvZU,116
+miksisdk-0.0.7.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.7.dist-info/METADATA,sha256=PhpzqtZ2zKswmVxhzXDZEgV8FPT8EU6IiXGnz-zEsDk,330
+miksisdk/agent.pypy38-pp73-darwin.so,sha256=OOGW4R_Bewv7tNZcCY9cNb34loCnUVRd_Q18pwL8xkU,95360
+miksisdk/__init__.pypy38-pp73-darwin.so,sha256=XCcsGHGnYBhPdnJFMNTuGIppIbURCuXwjYzCtmFMZa4,36848
+miksisdk/forecast_tool.pypy38-pp73-darwin.so,sha256=SMCbgOaybZMo7UfL9uXq5XiMRwFuq9Ugrqg8mpA8ckc,116592
+miksisdk/base.pypy38-pp73-darwin.so,sha256=oFrCckv8ocJyDz27llf0P61RW_6ePEkr1oo1pm_LtLg,78008
+miksisdk/api.pypy38-pp73-darwin.so,sha256=gV1wC5q97Ml7fabDZ3M7AjEqFT0AYpSvVpML7L3Cp9Y,77888
