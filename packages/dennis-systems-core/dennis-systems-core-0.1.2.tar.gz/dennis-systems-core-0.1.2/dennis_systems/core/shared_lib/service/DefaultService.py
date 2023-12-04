@@ -1,0 +1,23 @@
+from typing import List, Optional
+
+from django.db.models import Model
+
+from dennis_systems.core.shared_lib.entity.BaseModel import BaseModel
+
+
+class DefaultService:
+    def list(self, limit: int, page: int) -> List[Model]:
+        pass
+
+    def save(self, item: Model) -> Model:
+        pass
+
+    def delete(self, item: Model) -> Model:
+        pass
+
+    def get(self, id: int) -> Optional[Model]:
+        pass
+
+    def save_item(self, item: Model) -> Model:
+        item.save()
+        return item
