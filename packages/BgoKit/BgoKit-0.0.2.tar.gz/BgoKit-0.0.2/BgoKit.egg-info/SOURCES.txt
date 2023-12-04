@@ -1,0 +1,9 @@
+README.md
+setup.py
+BgoKit/ToolKit.py
+BgoKit/__init__.py
+BgoKit.egg-info/PKG-INFO
+BgoKit.egg-info/SOURCES.txt
+BgoKit.egg-info/dependency_links.txt
+BgoKit.egg-info/requires.txt
+BgoKit.egg-info/top_level.txt

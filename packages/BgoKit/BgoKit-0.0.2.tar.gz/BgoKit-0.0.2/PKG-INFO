@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: BgoKit
+Version: 0.0.2
+Summary: A tool package for Bgolearn
+Home-page: https://github.com/Bin-Cao/Bgolearn
+Author: CaoBin
+Author-email: binjacobcao@gmail.com
+Maintainer: CaoBin
+Maintainer-email: binjacobcao@gmail.com
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+
+__description__ = 'BgoKit, A tool package for Bgolearn'
+__documents__ = 'https://bgolearn.netlify.app/'
+__author__ = 'Bin Cao, Advanced Materials Thrust, Hong Kong University of Science and Technology (Guangzhou)'
+__author_email__ = 'binjacobcao@gmail.com'
+__url__ = 'https://github.com/Bin-Cao/Bgolearn'
