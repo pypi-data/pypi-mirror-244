@@ -1,0 +1,1 @@
+recursive-include kdtest *.txt *.json *.yaml *.py *.js *.css *.html *.ico *.ttf *.woff *.ini *.xls *.xlsx

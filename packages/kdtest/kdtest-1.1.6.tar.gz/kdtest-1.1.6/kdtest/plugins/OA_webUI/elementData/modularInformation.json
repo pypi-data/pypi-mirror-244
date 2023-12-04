@@ -1,0 +1,1984 @@
+{
+    "personalAffairs": {
+        "selfLocatin": ["xpath", "//div[@id='m0001']"],
+        "subordinate": {
+            "E_Mail": {
+                "iframe": "tabs_1_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f1']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Message": {
+                "iframe": "tabs_3_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f3']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_3']/a[contains(@action,'msg_center')]"], 
+                    ["xpath", "//div[@id='second_tabs_3']/a[contains(@action,'remind_center')]"], 
+                    ["xpath", "//div[@id='second_tabs_3']/a[contains(@action,'offline_file')]"], 
+                    ["xpath", "//div[@id='second_tabs_3']/a[contains(@action,'im_group')]"],
+                    ["xpath", "//div[@id='second_tabs_3']/a[contains(@action,'ls_group')]"]
+                ]
+            },
+            "SMS": {
+                "iframe": "tabs_42_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f42']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_42']/a[contains(@action,'new')]"],
+                    ["xpath", "//div[@id='second_tabs_42']/a[contains(@action,'send_manage')]"],
+                    ["xpath", "//div[@id='second_tabs_42']/a[contains(@action,'receive_manage')]"]
+                ]
+            },
+            "Task_management": {
+                "iframe": "tabs_634_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f634']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Announcement_Notice": {
+                "iframe": "tabs_4_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f4']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_4']/a[contains(@action,'new.php')]"],
+                    ["xpath", "//div[@id='second_tabs_4']/a[contains(@action,'notify.php')]"],
+                    ["xpath", "//div[@id='second_tabs_4']/a[contains(@action,'query.php')]"]
+                ]
+            },
+            "Journalism": {
+                "iframe": "tabs_147_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f147']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_147']/a[contains(@action,'new.php')]"],
+                    ["xpath", "//div[@id='second_tabs_147']/a[contains(@action,'news.php')]"],
+                    ["xpath", "//div[@id='second_tabs_147']/a[contains(@action,'query.php')]"]
+                ]
+            },
+            "Vote": {
+                "iframe": "tabs_148_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f148']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_148']/a[contains(@action,'current.php')]"],
+                    ["xpath", "//div[@id='second_tabs_148']/a[contains(@action,'history.php')]"]
+                ]
+            },
+            "Personal_attendance": {
+                "iframe": "tabs_7_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f7']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Schedule": {
+                "iframe": "tabs_8_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f8']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_8']/a[contains(@action,'calendarArrange.php')]"],
+                    ["xpath", "//div[@id='second_tabs_8']/a[contains(@action,'task')]"]
+                ]
+            },
+            "Work_log": {
+                "iframe": "tabs_9_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f9']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_9']/a[contains(@action,'index')]"]
+                ]
+            },
+            "Address_book": {
+                "iframe": "tabs_10_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f10']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Wallet": {
+                "iframe": "tabs_140_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f140']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Personal_filing_cabinet": {
+                "iframe": "tabs_16_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f16']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Control_panel": {
+                "iframe": "tabs_11_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0001']/..//div[@id='f11']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "Project_Management": {
+        "selfLocatin": ["xpath", "//div[@id='m0003']"],
+        "subordinate": {
+            "Project_List": {
+                "iframe": "tabs_15815_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15815']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Project_Hangup": {
+                "iframe": "tabs_15816_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15816']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "My_Task": {
+                "iframe": "tabs_15817_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15817']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Project_ENA": {
+                "iframe": "tabs_15818_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15818']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Task_Change": {
+                "iframe": "tabs_15819_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15819']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Weekly_Project_Report": {
+                "iframe": "tabs_15820_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15820']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Issue_List": {
+                "iframe": "tabs_15821_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15821']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Project_SS": {
+                "iframe": "tabs_15822_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15822']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Permission_Setting": {
+                "iframe": "tabs_15823_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0003']/..//div[@id='f15823']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "processCenter": {
+        "selfLocatin": ["xpath", "//div[@id='m0005']"],
+        "subordinate": {
+            "New_Job": {
+                "iframe": "tabs_313_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f313']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "My_Job": {
+                "iframe": "tabs_301_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f301']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Work_Query": {
+                "iframe": "tabs_302_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f302']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Work_Monitoring": {
+                "iframe": "tabs_303_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f303']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Timeout_Statistics": {
+                "iframe": "tabs_314_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f314']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Work_Entrustment": {
+                "iframe": "tabs_315_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f315']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Work_Destruction": {
+                "iframe": "tabs_316_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f316']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Process_Log_Query": {
+                "iframe": "tabs_317_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f317']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Data_Archiving": {
+                "iframe": "tabs_335_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f335']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Data_Report": {
+                "iframe": "tabs_350_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f350']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Workflow_Settings": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0005']/..//div[@id='f310']"],
+                "submodule": {
+                    "Design_Form": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f333']"],
+                        "thisIframe": "tabs_333_iframe",
+                        "thisTag": null
+                    },
+                    "Design_Process": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f311']"],
+                        "thisIframe": "tabs_311_iframe",
+                        "thisTag": null
+                    },
+                    "Classification_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f312']"],
+                        "thisIframe": "tabs_312_iframe",
+                        "thisTag": null
+                    },
+                    "Parameter_Setting": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f318']"],
+                        "thisIframe": "tabs_318_iframe",
+                        "thisTag": null
+                    },
+                    "Engine_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f319']"],
+                        "thisIframe": "tabs_319_iframe",
+                        "thisTag": null
+                    },
+                    "Report_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f349']"],
+                        "thisIframe": "tabs_349_iframe",
+                        "thisTag": null
+                    },
+                    "Management_Log": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f320']"],
+                        "thisIframe": "tabs_320_iframe",
+                        "thisTag": null
+                    },
+                    "Source_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f310']//div[@id='f334']"],
+                        "thisIframe": "tabs_334_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_334']/a[1]"],
+                            ["xpath", "//div[@id='second_tabs_334']/a[2]"]
+                        ]
+                    }
+                },
+                "tagPage": null
+            }
+        }
+    },
+    "administrativeOffice": {
+        "selfLocatin": ["xpath", "//div[@id='m0020']"],
+        "subordinate": {
+            "Announcement_Management": {
+                "iframe": "tabs_24_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f24']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_24']/a[contains(@action,'index')]"], 
+                    ["xpath", "//div[@id='second_tabs_24']/a[contains(@action,'new')]"], 
+                    ["xpath", "//div[@id='second_tabs_24']/a[contains(@action,'query')]"], 
+                    ["xpath", "//div[@id='second_tabs_24']/a[contains(@action,'statistics')]"]
+                ]
+            },
+            "Announcement_Approval": {
+                "iframe": "tabs_196_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f196']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_196']/a[contains(@action,'unaudited')]"], 
+                    ["xpath", "//div[@id='second_tabs_196']/a[contains(@action,'auditing/audited.php')]"]
+                ]
+            },
+            "Journalism_Management": {
+                "iframe": "tabs_105_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f105']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_105']/a[contains(@action,'index1.php')]"], 
+                    ["xpath", "//div[@id='second_tabs_105']/a[contains(@action,'new.php')]"], 
+                    ["xpath", "//div[@id='second_tabs_105']/a[contains(@action,'query.php')]"], 
+                    ["xpath", "//div[@id='second_tabs_105']/a[contains(@action,'statistics.php')]"]
+                ]
+            },
+            "Vote_Management": {
+                "iframe": "tabs_119_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f119']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_119']/a[contains(@action,'index1.php')]"], 
+                    ["xpath", "//div[@id='second_tabs_119']/a[contains(@action,'new.php')]"]
+                ]
+            },
+            "Work_Plan": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f96']"],
+                "submodule": {
+                    "Work_Plan_Query": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f96']//div[@id='f97']"],
+                        "thisIframe": "tabs_97_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_97']/a[contains(@action,'work_plan')][1]"],
+                            ["xpath", "//div[@id='second_tabs_97']/a[contains(@action,'work_plan')][2]"],
+                            ["xpath", "//div[@id='second_tabs_97']/a[contains(@action,'work_plan')][3]"],
+                            ["xpath", "//div[@id='second_tabs_97']/a[contains(@action,'work_plan')][4]"]
+                        ]
+                    },
+                    "Work_Plan_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f96']//div[@id='f98']"],
+                        "thisIframe": "tabs_98_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_98']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_98']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_98']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Work_Plan_Type": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f96']//div[@id='f114']"],
+                        "thisIframe": "tabs_114_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Office_Supplies": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f126']"],
+                "submodule": {
+                    "AFOS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f179']"],
+                        "thisIframe": "tabs_179_iframe",
+                        "thisTag": null
+                    },
+                    "AOOS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f607']"],
+                        "thisIframe": "tabs_607_iframe",
+                        "thisTag": null
+                    },
+                    "OSCS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f238']"],
+                        "thisIframe": "tabs_238_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_238']/a[contains(@action,'index.php')]"],
+                            ["xpath", "//div[@id='second_tabs_238']/a[contains(@action,'classification.php')]"]
+                        ]
+                    },
+                    "IM": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f127']"],
+                        "thisIframe": "tabs_127_iframe",
+                        "thisTag": null
+                    },
+                    "WM": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f139']"],
+                        "thisIframe": "tabs_139_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_139']/a[contains(@action,'inlibrary/index')]"],
+                            ["xpath", "//div[@id='second_tabs_139']/a[contains(@action,'allot/index')]"]
+                        ]
+                    },
+                    "OM": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f539']"],
+                        "thisIframe": "tabs_539_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_539']/a[contains(@action,'outlibrary/index')]"],
+                            ["xpath", "//div[@id='second_tabs_539']/a[contains(@action,'allot/index')]"]
+                        ]
+                    },
+                    "OSIM": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f128']"],
+                        "thisIframe": "tabs_128_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_128']/a[contains(@action,'check/index')]"],
+                            ["xpath", "//div[@id='second_tabs_128']/a[contains(@action,'maintain/index')]"],
+                            ["xpath", "//div[@id='second_tabs_128']/a[contains(@action,'allot/index')]"]
+                        ]
+                    },
+                    "OSS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f126']//div[@id='f251']"],
+                        "thisIframe": "tabs_251_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Management_Meetings": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f85']"],
+                "submodule": {
+                    "Meeting_Schedule": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f85']//div[@id='f355']"],
+                        "thisIframe": "tabs_355_iframe",
+                        "thisTag": null
+                    },
+                    "Meeting_Application": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f85']//div[@id='f86']"],
+                        "thisIframe": "tabs_86_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_86']/a[contains(@action,'select1')]"],
+                            ["xpath", "//div[@id='second_tabs_86']/a[contains(@action,'index1')]"]
+                        ]
+                    },
+                    "Meeting_Minutes": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f85']//div[@id='f138']"],
+                        "thisIframe": "tabs_138_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_138']/a[contains(@action,'summary_look')]"],
+                            ["xpath", "//div[@id='second_tabs_138']/a[contains(@action,'summary_new')]"],
+                            ["xpath", "//div[@id='second_tabs_138']/a[contains(@action,'summary_manage')]"]
+                        ]
+                    },
+                    "Meeting_Room_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f85']//div[@id='f89']"],
+                        "thisIframe": "tabs_89_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_89']/a[contains(@action,'meetApproval')]"],
+                            ["xpath", "//div[@id='second_tabs_89']/a[contains(@action,'meetRoomConfigList')]"]
+                        ]
+                    },
+                    "Basic_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f85']//div[@id='f354']"],
+                        "thisIframe": "tabs_354_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_354']/a[contains(@action,'newMeetingRoom')]"],
+                            ["xpath", "//div[@id='second_tabs_354']/a[contains(@action,'deviceManagement')]"],
+                            ["xpath", "//div[@id='second_tabs_354']/a[contains(@action,'inviteTemplate')]"],
+                            ["xpath", "//div[@id='second_tabs_354']/a[contains(@action,'outMail')]"]
+                        ]
+                    },
+                    "Conference_Statistics": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f85']//div[@id='f358']"],
+                        "thisIframe": "tabs_358_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Vehicle_Application_Arrangement": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f90']"],
+                "submodule": {
+                    "Vehicle_Use_Application": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f91']"],
+                        "thisIframe": "tabs_91_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_91']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_91']/a[2]"],
+                            ["xpath", "//div[@id='second_tabs_91']/a[3]"],
+                            ["xpath", "//div[@id='second_tabs_91']/a[4]"],
+                            ["xpath", "//div[@id='second_tabs_91']/a[5]"]
+                        ]
+                    },
+                    "Vehicle_Use_Query": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f92']"],
+                        "thisIframe": "tabs_92_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_92']/a[1]"],
+                            ["xpath", "//div[@id='second_tabs_92']/a[2]"],
+                            ["xpath", "//div[@id='second_tabs_92']/a[3]"],
+                            ["xpath", "//div[@id='second_tabs_92']/a[4]"],
+                            ["xpath", "//div[@id='second_tabs_92']/a[5]"],
+                            ["xpath", "//div[@id='second_tabs_92']/a[6]"]
+                        ]
+                    },
+                    "Department_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f152']"],
+                        "thisIframe": "tabs_152_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_152']/a[1]"],
+                            ["xpath", "//div[@id='second_tabs_152']/a[2]"],
+                            ["xpath", "//div[@id='second_tabs_152']/a[3]"]
+                        ]
+                    },
+                    "Use_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f93']"],
+                        "thisIframe": "tabs_93_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_93']/a[1]"],
+                            ["xpath", "//div[@id='second_tabs_93']/a[2]"],
+                            ["xpath", "//div[@id='second_tabs_93']/a[3]"],
+                            ["xpath", "//div[@id='second_tabs_93']/a[4]"],
+                            ["xpath", "//div[@id='second_tabs_93']/a[5]"],
+                            ["xpath", "//div[@id='second_tabs_93']/a[6]"],
+                            ["xpath", "//div[@id='second_tabs_93']/a[7]"],
+                            ["xpath", "//div[@id='second_tabs_93']/a[8]"]
+                        ]
+                    },
+                    "Maintenance_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f94']"],
+                        "thisIframe": "tabs_94_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_94']/a[contains(@action,'query')]"],
+                            ["xpath", "//div[@id='second_tabs_94']/a[contains(@action,'new')]"]
+                        ]
+                    },
+                    "Information_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f95']"],
+                        "thisIframe": "tabs_95_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_95']/a[contains(@action,'manage.php')]"],
+                            ["xpath", "//div[@id='second_tabs_95']/a[contains(@action,'new.php')]"],
+                            ["xpath", "//div[@id='second_tabs_95']/a[contains(@action,'/oilcard.php')]"],
+                            ["xpath", "//div[@id='second_tabs_95']/a[contains(@action,'newoilcard.php')]"],
+                            ["xpath", "//div[@id='second_tabs_95']/a[contains(@action,'import.php')]"]
+                        ]
+                    },
+                    "Dispatcher_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f118']"],
+                        "thisIframe": "tabs_118_iframe",
+                        "thisTag": null
+                    },
+                    "Statistics": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f90']//div[@id='f237']"],
+                        "thisIframe": "tabs_237_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Fixed_Assets": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f108']"],
+                "submodule": {
+                    "Parameter_Setting": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f108']//div[@id='f109']"],
+                        "thisIframe": "tabs_109_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_109']/a[contains(@action,'param')]"],
+                            ["xpath", "//div[@id='second_tabs_109']/a[contains(@action,'type')]"],
+                            ["xpath", "//div[@id='second_tabs_109']/a[contains(@action,'import')]"]
+                        ]
+                    },
+                    "Asset_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f108']//div[@id='f110']"],
+                        "thisIframe": "tabs_110_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_110']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_110']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_110']/a[contains(@action,'import')]"],
+                            ["xpath", "//div[@id='second_tabs_110']/a[contains(@action,'dpct')]"]
+                        ]
+                    },
+                    "Asset_Query": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f108']//div[@id='f112']"],
+                        "thisIframe": "tabs_112_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Library_Management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f51']"],
+                "submodule": {
+                    "Book_Entry": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f51']//div[@id='f53']"],
+                        "thisIframe": "tabs_53_iframe",
+                        "thisTag": null
+                    },
+                    "Book_Search": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f51']//div[@id='f54']"],
+                        "thisIframe": "tabs_54_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_54']/a[contains(@action,'search')]"],
+                            ["xpath", "//div[@id='second_tabs_54']/a[contains(@action,'query')][2]"],
+                            ["xpath", "//div[@id='second_tabs_54']/a[contains(@action,'query')][3]"],
+                            ["xpath", "//div[@id='second_tabs_54']/a[contains(@action,'query')][4]"]
+                        ]
+                    },
+                    "Administration": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f51']//div[@id='f153']"],
+                        "thisIframe": "tabs_153_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_153']/a[contains(@action,'borrow/')]"],
+                            ["xpath", "//div[@id='second_tabs_153']/a[contains(@action,'return/')]"],
+                            ["xpath", "//div[@id='second_tabs_153']/a[contains(@action,'query/')]"]
+                        ]
+                    },
+                    "Manage_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f51']//div[@id='f217']"],
+                        "thisIframe": "tabs_217_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_217']/a[contains(@action,'type')]"],
+                            ["xpath", "//div[@id='second_tabs_217']/a[contains(@action,'set_manager')]"]
+                        ]
+                    }
+                },
+                "tagPage": null
+            },
+            "Resource_Management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f150']"],
+                "submodule": {
+                    "Application_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f150']//div[@id='f239']"],
+                        "thisIframe": "tabs_239_iframe",
+                        "thisTag": null
+                    },
+                    "Resource_Arrangement": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f150']//div[@id='f240']"],
+                        "thisIframe": "tabs_240_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Language_Filtering": {
+                "iframe": "tabs_218_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f218']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_218']/a[contains(@action,'manage')]"], 
+                    ["xpath", "//div[@id='second_tabs_218']/a[contains(@action,'new')]"], 
+                    ["xpath", "//div[@id='second_tabs_218']/a[contains(@action,'query')]"], 
+                    ["xpath", "//div[@id='second_tabs_218']/a[contains(@action,'module')]"]
+                ]
+            },
+            "Information_Filtering": {
+                "iframe": "tabs_219_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f219']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_219']/a[contains(@action,'/email')]"], 
+                    ["xpath", "//div[@id='second_tabs_219']/a[contains(@action,'/sms')]"], 
+                    ["xpath", "//div[@id='second_tabs_219']/a[contains(@action,'/mobile_sms')]"]
+                ]
+            },
+            "Organization": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0020']/..//div[@id='f43']"],
+                "submodule": {
+                    "Company": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f43']//div[@id='f17']"],
+                        "thisIframe": "tabs_17_iframe",
+                        "thisTag": null
+                    },
+                    "Department": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f43']//div[@id='f18']"],
+                        "thisIframe": "tabs_18_iframe",
+                        "thisTag": null
+                    },
+                    "User": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f43']//div[@id='f19']"],
+                        "thisIframe": "tabs_19_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            }
+        }
+    },
+    "knowledgeManagement": {
+        "selfLocatin": ["xpath", "//div[@id='m0030']"],
+        "subordinate": {
+            "Public_Filing_Cabinet": {
+                "iframe": "tabs_15_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0030']/..//div[@id='f15']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_15']/a[contains(@action,'file_folder')]"],
+                    ["xpath", "//div[@id='second_tabs_15']/a[contains(@action,'knowledge_maps')]"],
+                    ["xpath", "//div[@id='second_tabs_15']/a[contains(@action,'learning_center')]"]
+                ]
+            },
+            "Cabinet_Settings": {
+                "iframe": "tabs_36_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0030']/..//div[@id='f36']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Network_Hard_Disk": {
+                "iframe": "tabs_76_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0030']/..//div[@id='f76']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Hard_Disk_Settings": {
+                "iframe": "tabs_77_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0030']/..//div[@id='f77']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Picture_Browsing": {
+                "iframe": "tabs_115_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0030']/..//div[@id='f115']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Browse_Settings": {
+                "iframe": "tabs_116_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0030']/..//div[@id='f116']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "supervision": {
+        "selfLocatin": ["xpath", "//div[@id='m0035']"],
+        "subordinate": {
+            "Project_Approval": {
+                "iframe": "tabs_368_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0035']/..//div[@id='f368']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_368']/a[contains(@action,'undertakeItems')]"],
+                    ["xpath", "//div[@id='second_tabs_368']/a[contains(@action,'approvalList')]"],
+                    ["xpath", "//div[@id='second_tabs_368']/a[contains(@action,'myApplyList')]"]
+                ]
+            },
+            "Supervision_Approval": {
+                "iframe": "tabs_369_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0035']/..//div[@id='f369']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Supervision_Handling": {
+                "iframe": "tabs_370_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0035']/..//div[@id='f370']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_370']/a[contains(@action,'undertakeList')]"],
+                    ["xpath", "//div[@id='second_tabs_370']/a[contains(@action,'approvalList')]"],
+                    ["xpath", "//div[@id='second_tabs_370']/a[contains(@action,'myApplyList')]"]
+                ]
+            },
+            "Formula_Notification": {
+                "iframe": "tabs_371_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0035']/..//div[@id='f371']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Supervision_Supervision": {
+                "iframe": "tabs_372_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0035']/..//div[@id='f372']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Supervision_Setting": {
+                "iframe": "tabs_373_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0035']/..//div[@id='f373']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_373']/a[contains(@action,'setup')]"],
+                    ["xpath", "//div[@id='second_tabs_373']/a[contains(@action,'business_engine')]"]
+                ]
+            },
+            "Appraisal_Indicator": {
+                "iframe": "tabs_374_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0035']/..//div[@id='f374']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "smartPortal": {
+        "selfLocatin": ["xpath", "//div[@id='m0040']"],
+        "subordinate": {
+            "My_Portal": {
+                "iframe": "tabs_59_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0040']/..//div[@id='f59']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Portal_Management": {
+                "iframe": "tabs_133_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0040']/..//div[@id='f133']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Portal_Log": {
+                "iframe": "tabs_64_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0040']/..//div[@id='f64']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Portal_Content": {
+                "iframe": "tabs_257_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0040']/..//div[@id='f257']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "applicationCenter": {
+        "selfLocatin": ["xpath", "//div[@id='m0048']"],
+        "subordinate": {
+            "My_Apps": {
+                "iframe": "tabs_550_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0048']/..//div[@id='f550']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Design_Application": {
+                "iframe": "tabs_322_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0048']/..//div[@id='f322']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Basic_Code": {
+                "iframe": "tabs_323_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0048']/..//div[@id='f323']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Recycle_Bin": {
+                "iframe": "tabs_324_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0048']/..//div[@id='f324']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Operation_Log": {
+                "iframe": "tabs_325_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0048']/..//div[@id='f325']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Maintenance_Tools": {
+                "iframe": "tabs_329_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0048']/..//div[@id='f329']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "reportCenter": {
+        "selfLocatin": ["xpath", "//div[@id='m0049']"],
+        "subordinate": {
+            "My_Reports": {
+                "iframe": "tabs_336_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0049']/..//div[@id='f336']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Report_Management": {
+                "iframe": "tabs_337_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0049']/..//div[@id='f337']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Type_Management": {
+                "iframe": "tabs_338_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0049']/..//div[@id='f338']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Data_Management": {
+                "iframe": "tabs_339_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0049']/..//div[@id='f339']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Recycle_Bin": {
+                "iframe": "tabs_340_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0049']/..//div[@id='f340']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "humanResources": {
+        "selfLocatin": ["xpath", "//div[@id='m0050']"],
+        "subordinate": {
+            "Personnel_Management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f27']"],
+                "submodule": {
+                    "Personnel_Files": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f60']"],
+                        "thisIframe": "tabs_60_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_60']/a[contains(@action,'index')][1]"],
+                            ["xpath", "//div[@id='second_tabs_60']/a[contains(@action,'index')][2]"],
+                            ["xpath", "//div[@id='second_tabs_60']/a[contains(@action,'query')]"],
+                            ["xpath", "//div[@id='second_tabs_60']/a[contains(@action,'search1')]"]
+                        ]
+                    },
+                    "File_Query": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f61']"],
+                        "thisIframe": "tabs_61_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_61']/a[contains(@action,'in_service')]"],
+                            ["xpath", "//div[@id='second_tabs_61']/a[contains(@action,'retired')]"]
+                        ]
+                    },
+                    "Contract_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f481']"],
+                        "thisIframe": "tabs_481_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_481']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_481']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_481']/a[contains(@action,'/query.php')]"],
+                            ["xpath", "//div[@id='second_tabs_481']/a[contains(@action,'in_out_index')]"],
+                            ["xpath", "//div[@id='second_tabs_481']/a[contains(@action,'due_query.php')]"],
+                            ["xpath", "//div[@id='second_tabs_481']/a[contains(@action,'due_query1.php')]"],
+                            ["xpath", "//div[@id='second_tabs_481']/a[contains(@action,'no_contract')]"]
+                        ]
+                    },
+                    "Reward_Punishment": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f482']"],
+                        "thisIframe": "tabs_482_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_482']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_482']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_482']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_482']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "License_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f483']"],
+                        "thisIframe": "tabs_483_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_483']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_483']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_483']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_483']/a[contains(@action,'/query')]"],
+                            ["xpath", "//div[@id='second_tabs_483']/a[contains(@action,'due_query')]"]
+                        ]
+                    },
+                    "Learning_Experience": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f484']"],
+                        "thisIframe": "tabs_484_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_484']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_484']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_484']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_484']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Work_Experience": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f485']"],
+                        "thisIframe": "tabs_485_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_485']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_485']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_485']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_485']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Labor_Skills": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f486']"],
+                        "thisIframe": "tabs_486_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_486']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_486']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_486']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_486']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Social_Relations": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f487']"],
+                        "thisIframe": "tabs_487_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_487']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_487']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_487']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_487']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Personnel_Transfer": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f488']"],
+                        "thisIframe": "tabs_488_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_488']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_488']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_488']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_488']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Leave_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f489']"],
+                        "thisIframe": "tabs_489_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_489']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_489']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_489']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_489']/a[contains(@action,'query.php')]"],
+                            ["xpath", "//div[@id='second_tabs_489']/a[contains(@action,'query_current_month')]"],
+                            ["xpath", "//div[@id='second_tabs_489']/a[contains(@action,'blacklist')]"]
+                        ]
+                    },
+                    "Resumption_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f490']"],
+                        "thisIframe": "tabs_490_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_490']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_490']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_490']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_490']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Professional_Evaluation": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f491']"],
+                        "thisIframe": "tabs_491_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_491']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_491']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_491']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_491']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Employee_Care": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f492']"],
+                        "thisIframe": "tabs_492_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_492']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_492']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_492']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_492']/a[contains(@action,'query')]"],
+                            ["xpath", "//div[@id='second_tabs_492']/a[contains(@action,'care_remind')]"],
+                            ["xpath", "//div[@id='second_tabs_492']/a[contains(@action,'card_module_list')]"]
+                        ]
+                    },
+                    "Personnel_Analysis": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f27']//div[@id='f120']"],
+                        "thisIframe": "tabs_120_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Recruitment_Management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f494']"],
+                "submodule": {
+                    "Recruitment_Needs": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f494']//div[@id='f495']"],
+                        "thisIframe": "tabs_495_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_495']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_495']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_495']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Recruitment_Plan": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f494']//div[@id='f496']"],
+                        "thisIframe": "tabs_496_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_496']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_496']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_496']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Plan_Approval": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f494']//div[@id='f497']"],
+                        "thisIframe": "tabs_497_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_497']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_497']/a[contains(@action,'pass_app')]"],
+                            ["xpath", "//div[@id='second_tabs_497']/a[contains(@action,'failed_app')]"]
+                        ]
+                    },
+                    "Talent_Pool": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f494']//div[@id='f498']"],
+                        "thisIframe": "tabs_498_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_498']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_498']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_498']/a[contains(@action,'query')]"],
+                            ["xpath", "//div[@id='second_tabs_498']/a[contains(@action,'import')]"]
+                        ]
+                    },
+                    "Recruitment_Screening": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f494']//div[@id='f499']"],
+                        "thisIframe": "tabs_499_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_499']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_499']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_499']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Recruitment": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f494']//div[@id='f500']"],
+                        "thisIframe": "tabs_500_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_500']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_500']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_500']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Talent_Analysis": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f494']//div[@id='f501']"],
+                        "thisIframe": "tabs_501_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Training_Management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f502']"],
+                "submodule": {
+                    "Training_Plan": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f502']//div[@id='f503']"],
+                        "thisIframe": "tabs_503_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_503']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_503']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_503']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Plan_Approval": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f502']//div[@id='f505']"],
+                        "thisIframe": "tabs_505_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_505']/a[contains(@action,'index')][1]"],
+                            ["xpath", "//div[@id='second_tabs_505']/a[contains(@action,'index')][2]"],
+                            ["xpath", "//div[@id='second_tabs_505']/a[contains(@action,'index')][3]"],
+                            ["xpath", "//div[@id='second_tabs_505']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Training_Records": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f502']//div[@id='f504']"],
+                        "thisIframe": "tabs_504_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_504']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_504']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_504']/a[contains(@action,'query')]"]
+                        ]
+                    }
+                },
+                "tagPage": null
+            },
+            "Attendance_management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f26']"],
+                "submodule": {
+                    "Attendance_Approval": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f26']//div[@id='f506']"],
+                        "thisIframe": "tabs_506_iframe",
+                        "thisTag": null
+                    },
+                    "Attendance_Record": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f26']//div[@id='f507']"],
+                        "thisIframe": "tabs_507_iframe",
+                        "thisTag": null
+                    },
+                    "Attendance_Statistics": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f26']//div[@id='f508']"],
+                        "thisIframe": "tabs_508_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_508']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_508']/a[contains(@action,'index2')]"]
+                        ]
+                    },
+                    "Shift_Scheduling": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f26']//div[@id='f515']"],
+                        "thisIframe": "tabs_515_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_515']/a[contains(@action,'pbgl')]"],
+                            ["xpath", "//div[@id='second_tabs_515']/a[contains(@action,'query')]"]
+                        ] 
+                    },
+                    "Post_Check_Registration": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f26']//div[@id='f537']"],
+                        "thisIframe": "tabs_537_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_537']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_537']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_537']/a[contains(@action,'query')]"]
+                        ] 
+                    }
+                },
+                "tagPage": null
+            },
+            "Performance_Appraisal": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f122']"],
+                "submodule": {
+                    "Project_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f122']//div[@id='f123']"],
+                        "thisIframe": "tabs_123_iframe",
+                        "thisTag": null
+                    },
+                    "Task_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f122']//div[@id='f124']"],
+                        "thisIframe": "tabs_124_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_124']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_124']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_124']/a[contains(@action,'scoredate')]"]
+                        ]
+                    },
+                    "Self_Assessment": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f122']//div[@id='f628']"],
+                        "thisIframe": "tabs_628_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_628']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_628']/a[contains(@action,'index2')]"],
+                            ["xpath", "//div[@id='second_tabs_628']/a[contains(@action,'main')]"]
+                        ]
+                    },
+                    "Conduct_Assessment": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f122']//div[@id='f125']"],
+                        "thisIframe": "tabs_125_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Points_Management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f630']"],
+                "submodule": {
+                    "Point_Entry": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f630']//div[@id='f631']"],
+                        "thisIframe": "tabs_631_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_631']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_631']/a[contains(@action,'auto')]"],
+                            ["xpath", "//div[@id='second_tabs_631']/a[contains(@action,'manage')]"]
+                        ]
+                    },
+                    "Point_Query": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f630']//div[@id='f632']"],
+                        "thisIframe": "tabs_632_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_632']/a[contains(@action,'query.php')]"],
+                            ["xpath", "//div[@id='second_tabs_632']/a[contains(@action,'rank.php')]"]
+                        ]
+                    },
+                    "Points_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f630']//div[@id='f633']"],
+                        "thisIframe": "tabs_633_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Salary_Management": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f55']"],
+                "submodule": {
+                    "Salary_Items": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f55']//div[@id='f514']"],
+                        "thisIframe": "tabs_514_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_514']/a[contains(@action,'sal_item')]"],
+                            ["xpath", "//div[@id='second_tabs_514']/a[contains(@action,'index1')]"]
+                        ]
+                    },
+                    "Salary_Base": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f55']//div[@id='f509']"],
+                        "thisIframe": "tabs_509_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_509']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_509']/a[contains(@action,'set_all')]"]
+                        ]
+                    },
+                    "Salary_Process": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f55']//div[@id='f29']"],
+                        "thisIframe": "tabs_29_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_29']/a[contains(@action,'sal_flow')][1]"],
+                            ["xpath", "//div[@id='second_tabs_29']/a[contains(@action,'sal_flow')][2]"]
+                        ]
+                    },
+                    "Salary_Entry": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f55']//div[@id='f28']"],
+                        "thisIframe": "tabs_28_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_28']/a[contains(@action,'run')]"],
+                            ["xpath", "//div[@id='second_tabs_28']/a[contains(@action,'history')]"],
+                            ["xpath", "//div[@id='second_tabs_28']/a[contains(@action,'pass_check_common')]"]
+                        ]
+                    },
+                    "Salary_Reporting": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f55']//div[@id='f129']"],
+                        "thisIframe": "tabs_129_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_129']/a[contains(@action,'run')]"],
+                            ["xpath", "//div[@id='second_tabs_129']/a[contains(@action,'history')]"]
+                        ]
+                    },
+                    "Welfare_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f55']//div[@id='f510']"],
+                        "thisIframe": "tabs_510_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_510']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_510']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_510']/a[contains(@action,'pre_import')]"],
+                            ["xpath", "//div[@id='second_tabs_510']/a[contains(@action,'query')]"]
+                        ]
+                    }
+                },
+                "tagPage": null
+            },
+            "Selfservice_Query": {
+                "iframe": "tabs_511_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f511']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_511']/a[contains(@action,'index1')]"],
+                    ["xpath", "//div[@id='second_tabs_511']/a[contains(@action,'integral')]"],
+                    ["xpath", "//div[@id='second_tabs_511']/a[contains(@action,'experts')]"]
+                ]
+            },
+            "HR_Settings": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f224']"],
+                "submodule": {
+                    "Attendance_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f224']//div[@id='f39']"],
+                        "thisIframe": "tabs_39_iframe",
+                        "thisTag": null
+                    },
+                    "HR_Administrators": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f224']//div[@id='f512']"],
+                        "thisIframe": "tabs_512_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_512']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_512']/a[contains(@action,'set_all')]"],
+                            ["xpath", "//div[@id='second_tabs_512']/a[contains(@action,'open')]"],
+                            ["xpath", "//div[@id='second_tabs_512']/a[contains(@action,'archives')]"],
+                            ["xpath", "//div[@id='second_tabs_512']/a[contains(@action,'prompt')]"],
+                            ["xpath", "//div[@id='second_tabs_512']/a[contains(@action,'licence')]"],
+                            ["xpath", "//div[@id='second_tabs_512']/a[contains(@action,'set_other')]"]
+                        ]
+                    },
+                    "HRMS_Settings": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f224']//div[@id='f513']"],
+                        "thisIframe": "tabs_513_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Online_Examination": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0050']/..//div[@id='f252']"],
+                "submodule": {
+                    "Itembank_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f252']//div[@id='f230']"],
+                        "thisIframe": "tabs_230_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_230']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_230']/a[contains(@action,'new')]"]
+                        ]
+                    },
+                    "Question_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f252']//div[@id='f231']"],
+                        "thisIframe": "tabs_231_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_231']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_231']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_231']/a[contains(@action,'pre_import')]"]
+                        ]
+                    },
+                    "Paper_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f252']//div[@id='f232']"],
+                        "thisIframe": "tabs_232_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_232']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_232']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_232']/a[contains(@action,'pre_import')]"]
+                        ]
+                    },
+                    "Subjective_Questions": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f252']//div[@id='f629']"],
+                        "thisIframe": "tabs_629_iframe",
+                        "thisTag": null
+                    },
+                    "Examination_Information": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f252']//div[@id='f233']"],
+                        "thisIframe": "tabs_233_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_233']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_233']/a[contains(@action,'new')]"],
+                            ["xpath", "//div[@id='second_tabs_233']/a[contains(@action,'index.php')]"]
+                        ]
+                    },
+                    "Participate_In": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f252']//div[@id='f234']"],
+                        "thisIframe": "tabs_234_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            }
+        }
+    },
+    "documentManagement": {
+        "selfLocatin": ["xpath", "//div[@id='m0065']"],
+        "subordinate": {
+            "DOD": {
+                "iframe": "tabs_359_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f359']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "MOD": {
+                "iframe": "tabs_360_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f360']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "COOD": {
+                "iframe": "tabs_361_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f361']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "OD": {
+                "iframe": "tabs_362_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f362']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "QS": {
+                "iframe": "tabs_363_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f363']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "DM": {
+                "iframe": "tabs_364_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f364']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "DTM": {
+                "iframe": "tabs_365_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f365']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "DCM": {
+                "iframe": "tabs_366_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f366']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "BSOOD": {
+                "iframe": "tabs_367_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0065']/..//div[@id='f367']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "fileManagement": {
+        "selfLocatin": ["xpath", "//div[@id='m0070']"],
+        "subordinate": {
+            "VLM": {
+                "iframe": "tabs_200_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0070']/..//div[@id='f200']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_200']/a[contains(@action,'index1')]"],
+                    ["xpath", "//div[@id='second_tabs_200']/a[contains(@action,'new')]"]
+                ]
+            },
+            "SOTR": {
+                "iframe": "tabs_202_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0070']/..//div[@id='f202']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_202']/a[contains(@action,'index1')]"],
+                    ["xpath", "//div[@id='second_tabs_202']/a[contains(@action,'new')]"],
+                    ["xpath", "//div[@id='second_tabs_202']/a[contains(@action,'query')]"]
+                ]
+            },
+            "FM": {
+                "iframe": "tabs_201_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0070']/..//div[@id='f201']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_201']/a[contains(@action,'index1')]"],
+                    ["xpath", "//div[@id='second_tabs_201']/a[contains(@action,'new')]"],
+                    ["xpath", "//div[@id='second_tabs_201']/a[contains(@action,'query')]"]
+                ]
+            },
+            "FB": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0070']/..//div[@id='f203']"],
+                "submodule": {
+                    "File_Borrowing": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f203']//div[@id='f204']"],
+                        "thisIframe": "tabs_204_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_204']/a[contains(@action,'search')]"],
+                            ["xpath", "//div[@id='second_tabs_204']/a[contains(@action,'index1')]"],
+                            ["xpath", "//div[@id='second_tabs_204']/a[contains(@action,'query')]"]
+                        ]
+                    },
+                    "Borrowing_Approval": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f203']//div[@id='f205']"],
+                        "thisIframe": "tabs_205_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "AS": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m0070']/..//div[@id='f206']"],
+                "submodule": {
+                    "Borrowing_Statistics": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f206']//div[@id='f207']"],
+                        "thisIframe": "tabs_207_iframe",
+                        "thisTag": null
+                    },
+                    "File_Statistics": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f206']//div[@id='f208']"],
+                        "thisIframe": "tabs_208_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "AD": {
+                "iframe": "tabs_209_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m0070']/..//div[@id='f209']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_209']/a[contains(@action,'index1')]"]
+                ]
+            }
+        }
+    },
+    "exchangeField": {
+        "selfLocatin": ["xpath", "//div[@id='m00b0']"],
+        "subordinate": {
+            "Community": {
+                "iframe": "tabs_73_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00b0']/..//div[@id='f73']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Discussion_Area": {
+                "iframe": "tabs_62_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00b0']/..//div[@id='f62']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Discussion_Area_Settings": {
+                "iframe": "tabs_34_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00b0']/..//div[@id='f34']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "openPlatform": {
+        "selfLocatin": ["xpath", "//div[@id='m00m0']"],
+        "subordinate": {
+            "SSOP": {
+                "iframe": "tabs_326_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00m0']/..//div[@id='f326']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "UWTBD": {
+                "iframe": "tabs_327_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00m0']/..//div[@id='f327']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_327']/a[contains(@action,'index1')]"],
+                    ["xpath", "//div[@id='second_tabs_327']/a[contains(@action,'index2')]"],
+                    ["xpath", "//div[@id='second_tabs_327']/a[contains(@action,'index3')]"]
+                ]
+            },
+            "MOP": {
+                "iframe": "tabs_72_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00m0']/..//div[@id='f72']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "accessories": {
+        "selfLocatin": ["xpath", "//div[@id='m00y0']"],
+        "subordinate": {
+            "Instant_Messaging": {
+                "iframe": "tabs_227_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00y0']/..//div[@id='f227']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Control_Download": {
+                "iframe": "tabs_386_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00y0']/..//div[@id='f386']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    },
+    "systemManagement": {
+        "selfLocatin": ["xpath", "//div[@id='m00z0']"],
+        "subordinate": {
+            "Organization_Setting": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f56']"],
+                "submodule": {
+                    "Unit_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f56']//div[@id='f30']"],
+                        "thisIframe": "tabs_30_iframe",
+                        "thisTag": null
+                    },
+                    "Department_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f56']//div[@id='f31']"],
+                        "thisIframe": "tabs_31_iframe",
+                        "thisTag": null
+                    },
+                    "User_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f56']//div[@id='f33']"],
+                        "thisIframe": "tabs_33_iframe",
+                        "thisTag": null
+                    },
+                    "Role_Management": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f56']//div[@id='f32']"],
+                        "thisIframe": "tabs_32_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_32']/a[contains(@action,'manage1')]"],
+                            ["xpath", "//div[@id='second_tabs_32']/a[contains(@action,'edit')]"],
+                            ["xpath", "//div[@id='second_tabs_32']/a[contains(@action,'priv_no')]"],
+                            ["xpath", "//div[@id='second_tabs_32']/a[contains(@action,'/priv.php')]"],
+                            ["xpath", "//div[@id='second_tabs_32']/a[contains(@action,'other_priv.php')]"],
+                            ["xpath", "//div[@id='second_tabs_32']/a[contains(@action,'super_pass')]"],
+                            ["xpath", "//div[@id='second_tabs_32']/a[contains(@action,'rolemanagement')]"]
+                        ]
+                    },
+                    "External_Agencies": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f56']//div[@id='f605']"],
+                        "thisIframe": "tabs_605_iframe",
+                        "thisTag": null
+                    }
+                },
+                "tagPage": null
+            },
+            "Administrative_Office_Settings": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f57']"],
+                "submodule": {
+                    "PUS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f57']//div[@id='f103']"],
+                        "thisIframe": "tabs_103_iframe",
+                        "thisTag": null
+                    },
+                    "WLS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f57']//div[@id='f146']"],
+                        "thisIframe": "tabs_146_iframe",
+                        "thisTag": null
+                    },
+                    "ABS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f57']//div[@id='f107']"],
+                        "thisIframe": "tabs_107_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_107']/a[contains(@action,'manage')]"]
+                        ]
+                    },
+                    "ANS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f57']//div[@id='f197']"],
+                        "thisIframe": "tabs_197_iframe",
+                        "thisTag": null
+                    },
+                    "TMS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f57']//div[@id='f321']"],
+                        "thisIframe": "tabs_321_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_321']/a[contains(@action,'index1')]"]
+                        ]
+                    },
+                    "TM": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f57']//div[@id='f228']"],
+                        "thisIframe": "tabs_228_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_228']/a[contains(@action,'html')]"],
+                            ["xpath", "//div[@id='second_tabs_228']/a[contains(@action,'word')]"]
+                        ]
+                    },
+                    "THM": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f57']//div[@id='f141']"],
+                        "thisIframe": "tabs_141_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_141']/a[contains(@action,'setup')]"],
+                            ["xpath", "//div[@id='second_tabs_141']/a[contains(@action,'invoice_oauth')]"]
+                        ]
+                    }
+                },
+                "tagPage": null
+            },
+            "Information_Exchange_Settings": {
+                "iframe": null,
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f58']"],
+                "submodule": {
+                    "EMS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f58']//div[@id='f538']"],
+                        "thisIframe": "tabs_538_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_538']/a[contains(@action,'name_set')]"],
+                            ["xpath", "//div[@id='second_tabs_538']/a[contains(@action,'email_tag')]"]
+                        ]
+                    },
+                    "MRS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f58']//div[@id='f151']"],
+                        "thisIframe": "tabs_151_iframe",
+                        "thisTag": null
+                    },
+                    "SMSS": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f58']//div[@id='f6']"],
+                        "thisIframe": "tabs_6_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_6']/a[contains(@action,'receive_manage')]"],
+                            ["xpath", "//div[@id='second_tabs_6']/a[contains(@action,'send_manage')]"],
+                            ["xpath", "//div[@id='second_tabs_6']/a[contains(@action,'type_priv')]"],
+                            ["xpath", "//div[@id='second_tabs_6']/a[contains(@action,'/remind_priv.php')]"],
+                            ["xpath", "//div[@id='second_tabs_6']/a[contains(@action,'/out_priv.php')]"],
+                            ["xpath", "//div[@id='second_tabs_6']/a[contains(@action,'/sms2_remind_priv.php')]"]
+                        ]
+                    },
+                    "IMM": {
+                        "locatinExpression": ["xpath", "//ul[@id='third-menulist-f58']//div[@id='f534']"],
+                        "thisIframe": "tabs_534_iframe",
+                        "thisTag": [
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/update/')]"],
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/update_augmenter/')]"],
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/android_update/')]"],
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/mac_update/')]"],
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/cluster/')]"],
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/group/')]"],
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/discuss/')]"],
+                            ["xpath", "//div[@id='second_tabs_534']/a[contains(@action,'/down_center/')]"]
+                        ]
+                    }
+                },
+                "tagPage": null
+            },
+            "WeCom_DingDing_Integrate": {
+                "iframe": "tabs_71_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f71']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_71']/a[contains(@action,'index')][1]"],
+                    ["xpath", "//div[@id='second_tabs_71']/a[contains(@action,'index')][2]"]
+                ]
+            },
+            "Number_Management": {
+                "iframe": "tabs_142_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f142']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Seal_Management": {
+                "iframe": "tabs_223_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f223']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_223']/a[contains(@action,'index')][1]"],
+                    ["xpath", "//div[@id='second_tabs_223']/a[contains(@action,'index')][2]"],
+                    ["xpath", "//div[@id='second_tabs_223']/a[contains(@action,'index')][3]"]
+                ]
+            },
+            "MPSM": {
+                "iframe": "tabs_639_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f639']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_639']/a[contains(@action,'make_seal')]"],
+                    ["xpath", "//div[@id='second_tabs_639']/a[contains(@action,'/manage')]"],
+                    ["xpath", "//div[@id='second_tabs_639']/a[contains(@action,'mobile_device_manage')]"]
+                ]
+            },
+            "Watermark_Management": {
+                "iframe": "tabs_347_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f347']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "FMC": {
+                "iframe": "tabs_69_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f69']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "STM": {
+                "iframe": "tabs_225_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f225']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "ESI": {
+                "iframe": "tabs_385_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f385']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_385']/a[contains(@action,'dj')]"],
+                    ["xpath", "//div[@id='second_tabs_385']/a[contains(@action,'qys')]"],
+                    ["xpath", "//div[@id='second_tabs_385']/a[contains(@action,'sms_gateway')]"]
+                ]
+            },
+            "ENS": {
+                "iframe": "tabs_236_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f236']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Interface_Settings": {
+                "iframe": "tabs_78_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f78']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_78']/a[contains(@action,'title')]"],
+                    ["xpath", "//div[@id='second_tabs_78']/a[contains(@action,'mytable')]"],
+                    ["xpath", "//div[@id='second_tabs_78']/a[contains(@action,'/page')]"],
+                    ["xpath", "//div[@id='second_tabs_78']/a[contains(@action,'/font_size')]"],
+                    ["xpath", "//div[@id='second_tabs_78']/a[contains(@action,'/counttime')]"],
+                    ["xpath", "//div[@id='second_tabs_78']/a[contains(@action,'/homepage')]"]
+                ]
+            },
+            "SBS": {
+                "iframe": "tabs_178_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f178']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Menu_Settings": {
+                "iframe": "tabs_104_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f104']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "SCS": {
+                "iframe": "tabs_121_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f121']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "CFS": {
+                "iframe": "tabs_149_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f149']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Database_Management": {
+                "iframe": "tabs_84_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f84']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_84']/a[contains(@action,'list')]"],
+                    ["xpath", "//div[@id='second_tabs_84']/a[contains(@action,'backup')]"],
+                    ["xpath", "//div[@id='second_tabs_84']/a[contains(@action,'import')]"],
+                    ["xpath", "//div[@id='second_tabs_84']/a[contains(@action,'/user')]"],
+                    ["xpath", "//div[@id='second_tabs_84']/a[contains(@action,'/online_user')]"]
+                ]
+            },
+            "SLM": {
+                "iframe": "tabs_99_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f99']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_99']/a[contains(@action,'summary')]"],
+                    ["xpath", "//div[@id='second_tabs_99']/a[contains(@action,'year')]"],
+                    ["xpath", "//div[@id='second_tabs_99']/a[contains(@action,'hour')]"],
+                    ["xpath", "//div[@id='second_tabs_99']/a[contains(@action,'manage')]"],
+                    ["xpath", "//div[@id='second_tabs_99']/a[contains(@action,'set')]"]
+                ]
+            },
+            "SRM": {
+                "iframe": "tabs_100_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f100']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_100']/a[contains(@action,'monitor')]"],
+                    ["xpath", "//div[@id='second_tabs_100']/a[contains(@action,'/manage')]"]
+                ]
+            },
+            "Attachment_Management": {
+                "iframe": "tabs_533_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f533']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_533']/a[contains(@action,'position')]"],
+                    ["xpath", "//div[@id='second_tabs_533']/a[contains(@action,'module')]"],
+                    ["xpath", "//div[@id='second_tabs_533']/a[contains(@action,'security')]"],
+                    ["xpath", "//div[@id='second_tabs_533']/a[contains(@action,'reading')]"]
+                ]
+            },
+            "SAC": {
+                "iframe": "tabs_101_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f101']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_101']/a[contains(@action,'ip')]"],
+                    ["xpath", "//div[@id='second_tabs_101']/a[contains(@action,'user')]"]
+                ]
+            },
+            "SPS": {
+                "iframe": "tabs_113_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f113']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_113']/a[contains(@action,'security.php')]"],
+                    ["xpath", "//div[@id='second_tabs_113']/a[contains(@action,'service.php')]"],
+                    ["xpath", "//div[@id='second_tabs_113']/a[contains(@action,'email.php')]"]
+                ]
+            },
+            "SIS": {
+                "iframe": "tabs_198_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f198']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_198']/a[contains(@action,'manage')]"],
+                    ["xpath", "//div[@id='second_tabs_198']/a[contains(@action,'new')]"]
+                ]
+            },
+            "TDOA": {
+                "iframe": "tabs_328_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f328']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "Server_Monitoring": {
+                "iframe": "tabs_540_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f540']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_540']/a[contains(@action,'monitor_all.php')]"],
+                    ["xpath", "//div[@id='second_tabs_540']/a[contains(@action,'server_config.php')]"],
+                    ["xpath", "//div[@id='second_tabs_540']/a[contains(@action,'monitor_http.php')]"]
+                ]
+            },
+            "MDBM": {
+                "iframe": "tabs_290_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f290']"],
+                "submodule": null,
+                "tagPage": [
+                    ["xpath", "//div[@id='second_tabs_290']/a[contains(@action,'dev_binding')]"],
+                    ["xpath", "//div[@id='second_tabs_290']/a[contains(@action,'dev_log')]"]
+                ]
+            },
+            "DSM": {
+                "iframe": "tabs_638_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f638']"],
+                "submodule": null,
+                "tagPage": null
+            },
+            "System_Information": {
+                "iframe": "tabs_38_iframe",
+                "locatingNodes": ["xpath", "//div[@id='m00z0']/..//div[@id='f38']"],
+                "submodule": null,
+                "tagPage": null
+            }
+        }
+    }
+}

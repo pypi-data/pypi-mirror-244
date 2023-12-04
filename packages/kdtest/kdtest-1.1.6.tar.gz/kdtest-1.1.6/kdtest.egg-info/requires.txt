@@ -1,0 +1,11 @@
+colorama==0.4.4
+dominate==2.6.0
+pipreqs==0.4.11
+selenium==3.141.0
+msedge-selenium-tools==3.141.4
+requests==2.27.1
+Eel==0.15.2
+openpyxl>=3.0.7
+pywinauto>=0.6.8
+ruamel.yaml>=0.17.21
+tqdm>=4.63.0
