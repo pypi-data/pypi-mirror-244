@@ -1,0 +1,2 @@
+[console_scripts]
+template = setuptools_template.main:main

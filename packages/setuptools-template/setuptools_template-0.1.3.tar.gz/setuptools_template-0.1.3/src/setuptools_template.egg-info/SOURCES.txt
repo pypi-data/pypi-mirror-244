@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/setuptools_template/__init__.py
+src/setuptools_template/__main__.py
+src/setuptools_template/__version__.py
+src/setuptools_template/main.py
+src/setuptools_template.egg-info/PKG-INFO
+src/setuptools_template.egg-info/SOURCES.txt
+src/setuptools_template.egg-info/dependency_links.txt
+src/setuptools_template.egg-info/entry_points.txt
+src/setuptools_template.egg-info/requires.txt
+src/setuptools_template.egg-info/top_level.txt
+tests/test_main.py
