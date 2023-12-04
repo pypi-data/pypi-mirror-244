@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyjust
+Version: 1.16.0a1
+Summary:
+Description-Content-Type: text/markdown
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.5
+
