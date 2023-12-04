@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "skylog-sdk"
+version = "0.1.9.1"
+description = "skylog python sdk"
+authors = ["vahidtwo <vahidtwo@gmail.com>"]
+repository = "https://github.com/vahidtwo/skylog-sdk"
+documentation = "https://vahidtwo.github.io/skylog-sdk/"
+readme = "README.md"
+packages = [
+  {include = "skylog"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "2.27.1"
+python-decouple = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.2"
+mkdocs-material = "^9.2.7"
+mkdocstrings = {extras = ["python"], version = "^0.23.0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+preview = true
+
+[tool.coverage.report]
+skip_empty = true
+
+[tool.coverage.run]
+branch = true
+source = ["skylog"]
