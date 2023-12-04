@@ -1,0 +1,4 @@
+[console_scripts]
+git-olincs=overlincs_git.cli:cli
+olincs=overlincs_git.cli:cli
+

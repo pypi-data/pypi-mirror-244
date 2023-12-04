@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: overlincs-git
+Version: 0.1.0
+Summary: Unofficial fork of python-sharelatex to manage overleaf.lincs.fr
+Home-page: https://github.com/balouf/overlincs-git
+Author: Fabien Mathieu
+Author-email: loufab@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: filetype (>=1.2.0,<2.0.0)
+Requires-Dist: gitpython (>=3.1.40,<4.0.0)
+Requires-Dist: keyring (>=24.3.0,<25.0.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: pymongo (>=4.6.1,<5.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: socketio-client (==0.5.7.4)
+Project-URL: Documentation, https://balouf.github.io/overlincs-git
+Project-URL: Repository, https://github.com/balouf/overlincs-git
+Description-Content-Type: text/markdown
+
+# OverLINCS Git
+
+![OLG logo](https://github.com/balouf/overlincs-git/blob/main/docs/olincs-logo.png?raw=true)\
+
+[![PyPI Status](https://img.shields.io/pypi/v/overlincs-git.svg)](https://pypi.python.org/pypi/overlincs-git)
+[![Build Status](https://github.com/balouf/overlincs-git/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/balouf/overlincs-git/actions?query=workflow%3Abuild)
+[![Documentation Status](https://github.com/balouf/overlincs-git/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/balouf/overlincs-git/actions?query=workflow%3Adocs)
+[![License](https://img.shields.io/github/license/balouf/overlincs-git)](https://github.com/balouf/overlincs-git/blob/main/LICENSE)
+[![Code Coverage](https://codecov.io/gh/balouf/overlincs-git/branch/main/graphs/badge.svg)](https://codecov.io/gh/balouf/overlincs-git/tree/main)
+
+[OverLincs Git][OLG] is a git-bridge for the [LINCS][LINCS] [Overleaf server][OL].
+
+It allows to clone, push, and pull between a local repository and the [Overleaf server][OL].
+
+Under the hood, [OverLincs Git][OLG] is an unofficial fork of the great
+[python-sharelatex][SLX] module that has been patched for [Overleaf CE v4][OCE].
+
+
+- Free software: GNU General Public License v3
+- Documentation: https://balouf.github.io/overlincs-git/.
+
+
+## Features
+
+Provides a `olincs` CLI for interaction with the [LINCS][LINCS] [Overleaf server][OL].
+
+- `olincs clone remote_url local_repo_name`
+- `olincs pull`
+- `olincs push`
+
+## Credits
+
+This package was created with [Cookiecutter][CC] and the [Package Helper 3][PH3] project template.
+
+It is based on [python-sharelatex][SLX].
+
+[CC]: https://github.com/audreyr/cookiecutter
+[PH3]: https://balouf.github.io/package-helper-3/
+[OCE]: https://github.com/overleaf/overleaf
+[SLX]: https://gitlab.inria.fr/sed-rennes/sharelatex/python-sharelatex
+[OL]: https://overleaf.lincs.fr
+[OLG]: https://balouf.github.io/overlincs-git/
+[LINCS]: https://www.lincs.fr/
+
