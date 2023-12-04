@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: odd
+Version: 1.0.1
+Summary: Is this number odd?
+Home-page: https://github.com/tomhea/odd
+License: BSD-2-Clause-Simplified
+Keywords: math,int
+Author: Tom Herman
+Author-email: flipjumpproject@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Project-URL: Repository, https://github.com/tomhea/odd
+Description-Content-Type: text/markdown
+
+# odd
+
+Test if a number is odd.
+
+```python
+>> from odd import is_odd
+>> is_odd(9)
+True
+>> is_odd(10)
+False
+```
+
+### How to Download
+
+```
+pip install odd
+```
+
