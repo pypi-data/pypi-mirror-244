@@ -1,0 +1,5 @@
+recursive-include . *.md
+recursive-include . *.csv
+recursive-include . *.typed
+recursive-include . *.jpeg
+recursive-include . *.png
