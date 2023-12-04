@@ -1,0 +1,15 @@
+capellambse>=0.5.39
+click
+diff-match-patch>=20230430
+
+[docs]
+furo
+sphinx
+sphinx-copybutton
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest
+pytest-cov
