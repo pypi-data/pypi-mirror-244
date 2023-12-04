@@ -1,0 +1,24 @@
+# applications configuartion
+
+main:
+  type:   app
+  desc:   main application
+  src:
+    - $(SRC_PATH)/main/main.c
+  cflags:
+    - all:  -DMAIN
+  libs:
+    - mod11
+    - mod12
+
+main2:
+  type:   app
+  desc:   main2 application
+  opt:    CONFIG_MAIN2
+  src:
+    - $(SRC_PATH)/main/main2.c
+  cflags:
+    all:  -DMAIN2
+  libs:
+    - mod2
+
