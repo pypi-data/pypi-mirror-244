@@ -1,0 +1,10 @@
+client_libs/__init__.py,sha256=HGX8C3UeYFMP5y2MgZTKuULAviF_nQe7WTkddtPwZMg,95
+client_libs/exception.py,sha256=ub4tXCjyWGKbc9kPuU0aS6doYbur5Sxq8Mmj-La6Z8U,115
+client_libs/schemes/__init__.py,sha256=5zw_IEjHMoAq9gazA6WUORq658XKbA6aL5_ElQjhxCY,79
+client_libs/schemes/secrets.py,sha256=t-vkySCDVu30w5RwPAJ-nxaGA6rR2JE3mICmwJHZmak,575
+client_libs/schemes/servers.py,sha256=2r7dNRZYX1fVlPqwvd0r4HX-T-eMp7TMYpo7w872SSg,1680
+client_libs/schemes/systems.py,sha256=AL0m1jz8loV2ZWfzzskQEoJ88drNdEE19NawpPAm5ko,760
+client_libs/service.py,sha256=L0dhzGybl0zpVDhvZK463JAcrYapDJzjxWL6sDnmQIY,1551
+settings_manager_client_libs-0.1.0.dist-info/METADATA,sha256=hLi3TSueISC1BG3kaThkyHau7ybR6FJO3Tz7RPBnpqE,328
+settings_manager_client_libs-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+settings_manager_client_libs-0.1.0.dist-info/RECORD,,
