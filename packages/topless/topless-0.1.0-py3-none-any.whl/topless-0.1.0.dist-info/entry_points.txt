@@ -1,0 +1,3 @@
+[console_scripts]
+topless=cli.main:app
+
