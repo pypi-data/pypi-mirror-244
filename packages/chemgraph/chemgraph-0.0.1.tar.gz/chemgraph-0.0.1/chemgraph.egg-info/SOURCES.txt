@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+chemgraph.egg-info/PKG-INFO
+chemgraph.egg-info/SOURCES.txt
+chemgraph.egg-info/dependency_links.txt
+chemgraph.egg-info/requires.txt
+chemgraph.egg-info/top_level.txt
+package/plot_from_csv.py
