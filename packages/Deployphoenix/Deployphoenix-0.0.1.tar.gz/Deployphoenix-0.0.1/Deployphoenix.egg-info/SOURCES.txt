@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Deployphoenix/__init__.py
+Deployphoenix.egg-info/PKG-INFO
+Deployphoenix.egg-info/SOURCES.txt
+Deployphoenix.egg-info/dependency_links.txt
+Deployphoenix.egg-info/top_level.txt
