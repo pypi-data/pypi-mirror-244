@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+codeweaver/__init__.py
+codeweaver.egg-info/PKG-INFO
+codeweaver.egg-info/SOURCES.txt
+codeweaver.egg-info/dependency_links.txt
+codeweaver.egg-info/top_level.txt
