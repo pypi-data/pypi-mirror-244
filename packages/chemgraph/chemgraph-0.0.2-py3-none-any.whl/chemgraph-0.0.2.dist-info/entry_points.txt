@@ -1,0 +1,3 @@
+[console_scripts]
+chemgraph = chemgraph.plot_module:plot_from_csv
+
