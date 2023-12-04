@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: django-tours
+Version: 0.0.3
+Summary: Django app to display tours with shepherdjs
+Home-page: https://github.com/wilmerm/django-tours
+Author: Wilmer Martinez
+Author-email: info@wilmermartinez.dev
+License: MIT
+Keywords: django,tours,django-tours,shepherdjs
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-tours
+
+Django app to display tours with shepherdjs
+
+## Instalation
+
+```bash
+pip install django-tours
+```
+
+## Use
+
+### Add to installed applications
+
+```py
+# settings.py
+
+INSTALLED_APPS = [
+    # ...
+    'tours',
+    # ...
+]
+```
+
+### Optional configuration:
+
+**If you want to set default variables, you can add the following in your settings.py file:**
+
+```py
+# settings.py
+
+DEFAULT_SHEPHERD_JS = 'https://cdn.jsdelivr.net/npm/shepherd.js@latest/dist/js/shepherd.min.js'
+DEFAULT_SHEPHERD_CSS = 'https://cdn.jsdelivr.net/npm/shepherd.js@latest/dist/css/shepherd.css'
+```
+
+### Add the URLs
+
+```py
+urlpatterns = [
+    # ...
+    path('tours/', include('tours.urls')),
+    # ...
+]
+```
+
+### Run the migrations
+
+```py
+python manage.py migrate
+```
+
+### Load tours into the template
+
+```django
+{% load tours %}
+
+{% load_tours request %}
+```
+
+
+## Licence
+
+This project is licensed under the MIT License.
+
+## Proyect Status
+
+This project is under development
+
+## Contribution 💗
+
+If you find value in this project and would like to show your support, please consider making a donation via PayPal:
+
+[Donate on PayPal](https://paypal.me/martinezwilmer?country.x=DO&locale.x=es_XC)
+
+Your generosity helps us to continue improving and maintaining this project. We appreciate every contribution, however small. Thanks for being part of our community!
