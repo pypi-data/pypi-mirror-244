@@ -1,0 +1,9 @@
+macdesigner/__init__.py,sha256=7crp0FNXVQ_ULz2O7oosBmrXd7_OIUFswqqY3BhIelo,132
+macdesigner/cli.py,sha256=fA-kPzHF9xu_JvM-6QE69nKp2WWSdhRF8k7ykJkFw-U,427
+macdesigner/macdesigner.py,sha256=w2FrW6zcx2MZvHiqfKQ-rVcI2ncL33lAdJcABI0v4LM,21129
+macdesigner/svg/b_harmonics.svg,sha256=wXTCFv_oXnNq8DZqQvUzvx1hiid7PKfQH1kpB9YSg-o,52480
+macdesigner/svg/plane_x_b.svg,sha256=8xInxJcoQOt6qAjw9EbDzH2oXsD2Wwu5kk30xQzCwz0,87887
+macdesigner-0.1.0.dist-info/LICENSE,sha256=inEt2HxrULSXBIGa70fyvMpreoalJI8pfSPGZRfa24U,1084
+macdesigner-0.1.0.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+macdesigner-0.1.0.dist-info/METADATA,sha256=wzSrQ2_rrnDN_hprq-zRL_cykNwIeHocl2VyHmtVzFE,292
+macdesigner-0.1.0.dist-info/RECORD,,
