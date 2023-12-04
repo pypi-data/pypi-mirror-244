@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+jsonofabitch/__init__.py
+jsonofabitch/jsonofabitch.lark
+jsonofabitch/jsonofabitch.py
+jsonofabitch.egg-info/PKG-INFO
+jsonofabitch.egg-info/SOURCES.txt
+jsonofabitch.egg-info/dependency_links.txt
+jsonofabitch.egg-info/top_level.txt
+tests/test_jsob.py
+tests/test_uqspecial.py
