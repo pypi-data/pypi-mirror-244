@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: DdlGeneratorTool
+Version: 1.2
+Summary: DDL文件解析程序
+Home-page: https://gitee.com/visonforcoding/code-template-tools
+Author: visonforcoding
+Author-email: visonforcoding@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: python-string-utils
+Requires-Dist: jinja2
+
+# ddl code generation tool
+
+Currently, only supports generating Java objects.
+
+## Installation
+
+```shell
+pip3 install DdlGeneratorTool
+```
+
+## ddl2Pojo Usage
+
+1. 从文件创建
+
+```shell
+DdlGeneratorTool kaquan_user_dicount.sql
+```
+
+2. 从粘贴板直接创建
+
+```shell
+ DdlGeneratorTool --p true   
+```
+
+- By default, the result will be printed to the current terminal window.
+- If you want to save it to a file, you can use the `--ddl_file` parameter.
+
+## 效果
+
+![](https://vison-blog.oss-cn-beijing.aliyuncs.com/20231201111616.png)
+
+## development
+
+```shell
+python3 setup.py sdist bdist_wheel 
+twine upload dist/*
+```
