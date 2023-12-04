@@ -1,0 +1,17 @@
+juicenet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+juicenet/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+juicenet/cli.py,sha256=6FYqsl4ofHBpM9plMEyt0x_TaAolDiGL_fpcT8fd6I4,2979
+juicenet/compat.py,sha256=z9-Iob5SIeVoB5HNnkkX1l13EWxjOsG2wwk_wdJgGOY,460
+juicenet/config.py,sha256=QjemKgHHVpDr2uasOtZ0E3gle48TSjZ7N385Ro2JlIo,1015
+juicenet/enums.py,sha256=BN7qq7kuTZxQdhiMEpqhfDxX37OFpS0ScqVUJwO7-0U,540
+juicenet/files.py,sha256=i7PUNXxXuGllDKS6_awB6IOEFxPesBgmA-izoVoWuAw,2510
+juicenet/juicenet.py,sha256=0cDkRzWiJRDl6LG1-PO2H_KAMQKSKMu79yPzjpF5Vjg,7113
+juicenet/nyuu.py,sha256=0yuEcPOhXNopW9fYv6fZ_MYYP_fesiyTv3chFmMU_Wc,4965
+juicenet/parpar.py,sha256=l6hNxpTZGAbBX3CXDAqd10CcLW6hhgLBnF9LX_DYbZc,2603
+juicenet/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+juicenet/types.py,sha256=9qG3-vs3eGrpXjBulj8oUVEWTBIZ9jaOLxkNc_HlicU,1085
+juicenet/version.py,sha256=PLx9AEVZMwQFtSAjNnDL78ohz6C6GkVzu3GzixiiieY,422
+juicenet_cli-0.24.0.dist-info/METADATA,sha256=GsdqhMwMa-tIh7GzRkUgK7Sfdsikmfst8smfMy-R9II,6054
+juicenet_cli-0.24.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+juicenet_cli-0.24.0.dist-info/entry_points.txt,sha256=Hxd9Fq3P9R9ciqeWx0sNXgS65DmxfxQRK--xq_yH_fI,50
+juicenet_cli-0.24.0.dist-info/RECORD,,
