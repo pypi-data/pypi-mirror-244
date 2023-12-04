@@ -1,0 +1,2 @@
+[console_scripts]
+apix = apixdev.cli.main:cli
