@@ -1,0 +1,32 @@
+[project]
+name = "doxa-cli"
+version = "0.1.5"
+authors = [{ name = "Jeremy Lo Ying Ping", email = "jeremy@doxaai.com" }]
+description = "The CLI for interacting with DOXA, a powerful platform for running engaging online artificial intelligence competitions."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "typer[all] >= 0.9.0",
+  "halo ~= 0.0.31, >= 0.0.31",
+  "requests ~= 2.26.0",
+  "requests_toolbelt ~= 0.10.1",
+  "platformdirs >= 4.0.0",
+  "pyyaml >= 6.0",
+]
+
+[project.scripts]
+doxa = "doxa_cli:main"
+
+[project.urls]
+"Homepage" = "https://github.com/DoxaAI/cli"
+"Bug Tracker" = "https://github.com/DoxaAI/cli/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
