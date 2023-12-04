@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyramid_csp/__init__.py
+pyramid_csp.egg-info/PKG-INFO
+pyramid_csp.egg-info/SOURCES.txt
+pyramid_csp.egg-info/dependency_links.txt
+pyramid_csp.egg-info/requires.txt
+pyramid_csp.egg-info/top_level.txt
