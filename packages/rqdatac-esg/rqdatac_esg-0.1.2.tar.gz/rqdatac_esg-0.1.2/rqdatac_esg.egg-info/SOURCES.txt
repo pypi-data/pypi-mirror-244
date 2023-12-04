@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+rqdatac_esg/__init__.py
+rqdatac_esg/_version.py
+rqdatac_esg/api.py
+rqdatac_esg/utils.py
+rqdatac_esg.egg-info/PKG-INFO
+rqdatac_esg.egg-info/SOURCES.txt
+rqdatac_esg.egg-info/dependency_links.txt
+rqdatac_esg.egg-info/not-zip-safe
+rqdatac_esg.egg-info/requires.txt
+rqdatac_esg.egg-info/top_level.txt

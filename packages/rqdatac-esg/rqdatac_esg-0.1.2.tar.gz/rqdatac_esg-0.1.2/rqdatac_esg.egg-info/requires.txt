@@ -1,0 +1,3 @@
+pandas
+python-dateutil
+rqdatac>=2.9.48.3
