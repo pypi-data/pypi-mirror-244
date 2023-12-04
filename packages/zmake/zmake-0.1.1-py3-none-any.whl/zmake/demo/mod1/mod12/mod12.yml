@@ -1,0 +1,12 @@
+# moudle12 configuartion
+
+mod12:
+  type:     lib
+  desc:     moudle12 library
+  opt:      CONFIG_MODULE12
+  src:
+    - $(SRC_PATH)/mod1/mod12
+  hdrdirs:
+    - $(SRC_PATH)/mod1/mod12
+  cflags:
+    all:  -I$(SRC_PATH)/mod1/mod12 -DMOD12

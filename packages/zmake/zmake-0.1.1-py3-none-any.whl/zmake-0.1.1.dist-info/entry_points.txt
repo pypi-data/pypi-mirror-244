@@ -1,0 +1,4 @@
+[console_scripts]
+zmake = zmake.cli:generator
+zmake-demo = zmake.cli:demo_create
+
