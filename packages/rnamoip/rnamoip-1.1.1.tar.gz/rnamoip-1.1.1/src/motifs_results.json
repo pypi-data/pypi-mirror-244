@@ -1,0 +1,27 @@
+{
+  "0.0": {
+    "motifs_count_in_pdb": 0,
+    "motifs_count_in_pdb_no_canonique": 0,
+    "motifs_count_in_pdb_no_non_canonique": 0
+  },
+  "0.05": {
+    "motifs_count_in_pdb": 827,
+    "motifs_count_in_pdb_no_canonique": 380,
+    "motifs_count_in_pdb_no_non_canonique": 725
+  },
+  "0.1": {
+    "motifs_count_in_pdb": 910,
+    "motifs_count_in_pdb_no_canonique": 432,
+    "motifs_count_in_pdb_no_non_canonique": 810
+  },
+  "0.15": {
+    "motifs_count_in_pdb": 928,
+    "motifs_count_in_pdb_no_canonique": 450,
+    "motifs_count_in_pdb_no_non_canonique": 828
+  },
+  "1.0": {
+    "motifs_count_in_pdb": 910,
+    "motifs_count_in_pdb_no_canonique": 491,
+    "motifs_count_in_pdb_no_non_canonique": 820
+  }
+}
