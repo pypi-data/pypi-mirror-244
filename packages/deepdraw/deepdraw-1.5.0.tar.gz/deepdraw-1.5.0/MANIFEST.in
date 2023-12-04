@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: Copyright © 2023 Idiap Research Institute <contact@idiap.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+recursive-include doc *.rst
+recursive-include tests *.py *.png *.csv *.json *.zip
+recursive-include src/deepdraw/data *.json *.csv *.png *.jpg

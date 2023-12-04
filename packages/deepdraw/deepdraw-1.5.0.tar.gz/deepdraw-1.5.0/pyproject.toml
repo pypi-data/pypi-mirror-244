@@ -1,0 +1,219 @@
+# SPDX-FileCopyrightText: Copyright © 2023 Idiap Research Institute <contact@idiap.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[build-system]
+    requires = ["setuptools>=61.0.0", "wheel"]
+    build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepdraw"
+version = "1.5.0"
+requires-python = ">=3.9"
+description = "Binary Segmentation Benchmark Package"
+dynamic = ["readme"]
+license = {text = "GNU General Public License v3 (GPLv3)"}
+authors = [
+    {name = "Tim Laibacher", email = "tim.laibacher@idiap.ch"},
+    {name = "Andre Anjos", email = "andre.anjos@idiap.ch"},
+    {name = "Maxime Delitroz", email = "maxime.delitroz@idiap.ch"},
+    {name = "Oscar Jimenez", email = "oscar.jimenez@idiap.ch"},
+    {name = "Daniel Carron", email = "daniel.carron@idiap.ch"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "clapper",
+    "click",
+    "click_plugins",
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "pandas",
+    "h5py",
+    "pillow",
+    "psutil",
+    "setuptools",
+    "tabulate",
+    "torch>=1.13",
+    "torchvision>0.13",
+    "tqdm",
+    "scikit-image",
+    "tensorboard",
+    "tomli_w",
+]
+
+[project.urls]
+documentation = "https://www.idiap.ch/software/biosignal/docs/biosignal/software/deepdraw/v1.5.0/sphinx/"
+homepage = "https://pypi.org/project/deepdraw"
+repository = "https://gitlab.idiap.ch/biosignal/software/deepdraw"
+changelog = "https://gitlab.idiap.ch/biosignal/software/deepdraw/-/releases"
+
+[project.optional-dependencies]
+qa = ["pre-commit"]
+doc = [
+    "sphinx",
+    "furo",
+    "sphinx-autodoc-typehints",
+    "auto-intersphinx",
+    "sphinx-copybutton",
+    "sphinx-inline-tabs",
+    "sphinx-click",
+    "graphviz",
+    ]
+test = [
+    "pytest",
+    "pytest-cov",
+    "coverage",
+    ]
+
+[project.scripts]
+deepdraw = "deepdraw.script.cli:cli"
+
+[project.entry-points."deepdraw.config"]
+# models
+driu = "deepdraw.configs.models.driu"
+driu-bn = "deepdraw.configs.models.driu_bn"
+driu-od = "deepdraw.configs.models.driu_od"
+hed = "deepdraw.configs.models.hed"
+m2unet = "deepdraw.configs.models.m2unet"
+unet = "deepdraw.configs.models.unet"
+resunet = "deepdraw.configs.models.resunet"
+lwnet = "deepdraw.configs.models.lwnet"
+# example datasets
+csv-dataset-example = "deepdraw.configs.datasets.csv"
+# drive dataset - retinography
+drive = "deepdraw.configs.datasets.drive.default"
+drive-768 = "deepdraw.configs.datasets.drive.default_768"
+drive-1024 = "deepdraw.configs.datasets.drive.default_1024"
+drive-2nd = "deepdraw.configs.datasets.drive.second_annotator"
+drive-xtest = "deepdraw.configs.datasets.drive.xtest"
+drive-mtest = "deepdraw.configs.datasets.drive.mtest"
+drive-covd = "deepdraw.configs.datasets.drive.covd"
+# drhagis dataset - retinography
+drhagis = "deepdraw.configs.datasets.drhagis.default"
+# stare dataset - retinography
+stare = "deepdraw.configs.datasets.stare.ah"
+stare-768 = "deepdraw.configs.datasets.stare.ah_768"
+stare-1024 = "deepdraw.configs.datasets.stare.ah_1024"
+stare-2nd = "deepdraw.configs.datasets.stare.vk"
+stare-xtest = "deepdraw.configs.datasets.stare.xtest"
+stare-mtest = "deepdraw.configs.datasets.stare.mtest"
+stare-covd = "deepdraw.configs.datasets.stare.covd"
+# iostar - retinography
+iostar-vessel = "deepdraw.configs.datasets.iostar.vessel"
+iostar-vessel-768 = "deepdraw.configs.datasets.iostar.vessel_768"
+iostar-vessel-xtest = "deepdraw.configs.datasets.iostar.vessel_xtest"
+iostar-vessel-mtest = "deepdraw.configs.datasets.iostar.vessel_mtest"
+iostar-disc = "deepdraw.configs.datasets.iostar.optic_disc"
+iostar-disc-512 = "deepdraw.configs.datasets.iostar.optic_disc_512"
+iostar-disc-768 = "deepdraw.configs.datasets.iostar.optic_disc_768"
+iostar-vessel-covd = "deepdraw.configs.datasets.iostar.covd"
+# hrf - retinography
+hrf = "deepdraw.configs.datasets.hrf.default"
+hrf-768 = "deepdraw.configs.datasets.hrf.default_768"
+hrf-1024 = "deepdraw.configs.datasets.hrf.default_1024"
+hrf-xtest = "deepdraw.configs.datasets.hrf.xtest"
+hrf-mtest = "deepdraw.configs.datasets.hrf.mtest"
+hrf-highres = "deepdraw.configs.datasets.hrf.default_fullres"
+hrf-covd = "deepdraw.configs.datasets.hrf.covd"
+# chase-db1 - retinography
+chasedb1 = "deepdraw.configs.datasets.chasedb1.first_annotator"
+chasedb1-768 = "deepdraw.configs.datasets.chasedb1.first_annotator_768"
+chasedb1-1024 = "deepdraw.configs.datasets.chasedb1.first_annotator_1024"
+chasedb1-2nd = "deepdraw.configs.datasets.chasedb1.second_annotator"
+chasedb1-xtest = "deepdraw.configs.datasets.chasedb1.xtest"
+chasedb1-mtest = "deepdraw.configs.datasets.chasedb1.mtest"
+chasedb1-covd = "deepdraw.configs.datasets.chasedb1.covd"
+# drionsdb - retinography
+drionsdb = "deepdraw.configs.datasets.drionsdb.expert1"
+drionsdb-512 = "deepdraw.configs.datasets.drionsdb.expert1_512"
+drionsdb-768 = "deepdraw.configs.datasets.drionsdb.expert1_768"
+drionsdb-2nd = "deepdraw.configs.datasets.drionsdb.expert2"
+drionsdb-2nd-512 = "deepdraw.configs.datasets.drionsdb.expert2_512"
+# drishti-gs1 - retinography
+drishtigs1-disc = "deepdraw.configs.datasets.drishtigs1.disc_all"
+drishtigs1-disc-512 = "deepdraw.configs.datasets.drishtigs1.disc_all_512"
+drishtigs1-disc-768 = "deepdraw.configs.datasets.drishtigs1.disc_all_768"
+drishtigs1-cup = "deepdraw.configs.datasets.drishtigs1.cup_all"
+drishtigs1-cup-512 = "deepdraw.configs.datasets.drishtigs1.cup_all_512"
+drishtigs1-cup-768 = "deepdraw.configs.datasets.drishtigs1.cup_all_768"
+drishtigs1-disc-any = "deepdraw.configs.datasets.drishtigs1.disc_any"
+drishtigs1-cup-any = "deepdraw.configs.datasets.drishtigs1.cup_any"
+# refuge - retinography
+refuge-cup = "deepdraw.configs.datasets.refuge.cup"
+refuge-cup-512 = "deepdraw.configs.datasets.refuge.cup_512"
+refuge-cup-768 = "deepdraw.configs.datasets.refuge.cup_768"
+refuge-disc = "deepdraw.configs.datasets.refuge.disc"
+refuge-disc-512 = "deepdraw.configs.datasets.refuge.disc_512"
+refuge-disc-768 = "deepdraw.configs.datasets.refuge.disc_768"
+# rim one r3 - retinography
+rimoner3-cup = "deepdraw.configs.datasets.rimoner3.cup_exp1"
+rimoner3-disc = "deepdraw.configs.datasets.rimoner3.disc_exp1"
+rimoner3-cup-512 = "deepdraw.configs.datasets.rimoner3.cup_exp1_512"
+rimoner3-cup-768 = "deepdraw.configs.datasets.rimoner3.cup_exp1_768"
+rimoner3-disc-512 = "deepdraw.configs.datasets.rimoner3.disc_exp1_512"
+rimoner3-disc-768 = "deepdraw.configs.datasets.rimoner3.disc_exp1_768"
+rimoner3-cup-2nd = "deepdraw.configs.datasets.rimoner3.cup_exp2"
+rimoner3-disc-2nd = "deepdraw.configs.datasets.rimoner3.disc_exp2"
+# combined vessels - retinography
+combined-vessels = "deepdraw.configs.datasets.combined.vessel"
+# combined discs - retinography
+combined-disc = "deepdraw.configs.datasets.combined.od"
+# combined cups - retinography
+combined-cup = "deepdraw.configs.datasets.combined.oc"
+# montgomery county - cxr
+montgomery = "deepdraw.configs.datasets.montgomery.default"
+montgomery-gt = "deepdraw.configs.datasets.montgomery.default_gtcrop"
+montgomery-xtest = "deepdraw.configs.datasets.montgomery.xtest"
+montgomery-gt-xtest = "deepdraw.configs.datasets.montgomery.gt_xtest"
+# shenzhen - cxr
+shenzhen = "deepdraw.configs.datasets.shenzhen.default"
+shenzhen-small = "deepdraw.configs.datasets.shenzhen.default_256"
+shenzhen-gt = "deepdraw.configs.datasets.shenzhen.default_gtcrop"
+shenzhen-xtest = "deepdraw.configs.datasets.shenzhen.xtest"
+shenzhen-gt-xtest = "deepdraw.configs.datasets.shenzhen.gt_xtest"
+# jsrt - cxr
+jsrt = "deepdraw.configs.datasets.jsrt.default"
+jsrt-gt = "deepdraw.configs.datasets.jsrt.default_gtcrop"
+jsrt-xtest = "deepdraw.configs.datasets.jsrt.xtest"
+jsrt-gt-xtest = "deepdraw.configs.datasets.jsrt.gt_xtest"
+# cxr8 - cxr
+cxr8 = "deepdraw.configs.datasets.cxr8.default"
+cxr8-gt = "deepdraw.configs.datasets.cxr8.default_gtcrop"
+cxr8-xtest = "deepdraw.configs.datasets.cxr8.xtest"
+cxr8-gt-xtest = "deepdraw.configs.datasets.cxr8.gt_xtest"
+
+[tool.setuptools]
+zip-safe = true
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+readme = {file = "README.md"}
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.isort]
+profile = "black"
+line_length = 80
+order_by_type = true
+lines_between_types = 1
+
+[tool.black]
+line-length = 80
+
+[tool.pytest.ini_options]
+addopts = [
+    "--cov=deepdraw",
+    "--cov-report=term-missing",
+    "--import-mode=append",
+]
+junit_logging = "all"
+junit_log_passing_tests = false
