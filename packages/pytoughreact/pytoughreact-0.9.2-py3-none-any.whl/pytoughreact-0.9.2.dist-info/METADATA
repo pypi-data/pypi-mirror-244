@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pytoughreact
+Version: 0.9.2
+Summary: Python Library for automating reaction simulations using TOUGHREACT, TMVOC and TMVOC-BIO
+Home-page: https://github.com/temmy222/PyTOUGHREACT/tree/master
+Author: Temitope Ajayi
+Author-email: ajayi_temmy@yahoo.com
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy >=1
+Requires-Dist: scipy >=1
+Requires-Dist: vtk >=1
+Requires-Dist: matplotlib >=3
+Requires-Dist: pandas >=1
+Provides-Extra: testing
+Requires-Dist: pytest >=6.0 ; extra == 'testing'
+Requires-Dist: pytest-cov >=2.0 ; extra == 'testing'
+Requires-Dist: mypy >=0.910 ; extra == 'testing'
+Requires-Dist: flake8 >=3.9 ; extra == 'testing'
+Requires-Dist: tox >=3.24 ; extra == 'testing'
+
