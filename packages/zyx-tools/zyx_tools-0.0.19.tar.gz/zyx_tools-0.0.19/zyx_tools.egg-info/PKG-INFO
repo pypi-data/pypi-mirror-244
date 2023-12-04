@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: zyx-tools
+Version: 0.0.19
+Summary: tool
+Home-page: 
+Author: yuxin.zhang
+Author-email: whyzi@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# usage
+
+# install
+
+```
+pip install zyx_tools
+
+```
+
+# logprint
+
+```
+from zyx_tools import OtherTool
+
+```
+
+## init logprint
+
+must in main start
+
+```
+OtherTool.init_log()
+```
+
+## start print log file
+
+```
+tail = logprint.Tail(log_name,"build_log")
+tail.daemon = True
+tail.start()
+
+
+```
+
+## close print log thread
+
+```
+tail.stop()
+```
