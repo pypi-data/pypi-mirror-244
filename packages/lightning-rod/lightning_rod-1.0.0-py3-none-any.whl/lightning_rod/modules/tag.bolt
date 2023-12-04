@@ -1,0 +1,5 @@
+def add_tag(id: str):
+    tag @s add id
+
+def remove_tag(id: str):
+    tag @s remove id

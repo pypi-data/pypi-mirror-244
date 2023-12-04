@@ -1,0 +1,42 @@
+from nbtlib import List, String
+from ./config import Config
+
+# summon override to allow nesting
+SUMMON_INIT_TAG = f"{Config.LIBRARY_NAME}.summon.init"
+incr = -1
+
+macro
+    summon
+        entity=minecraft:entity_summon
+        pos=minecraft:vec3
+        nbt=minecraft:nbt_compound_tag
+        body=mecha:nested_root:
+
+    global incr
+
+    incr += 1
+
+    nbt = nbt.evaluate()
+    nbt.setdefault("Tags", List[String]()).append(String(SUMMON_INIT_TAG))
+    summon entity pos nbt
+    as @e[type=entity.get_canonical_value(), tag=SUMMON_INIT_TAG]:
+        execute function ~/summon_helper/nested_{incr}:
+            yield body
+            tag @s remove SUMMON_INIT_TAG
+
+# Overload to make nbt optional 
+macro
+    summon
+        entity=minecraft:entity_summon
+        pos=minecraft:vec3
+        body=mecha:nested_root:
+    summon entity pos {}:
+        yield body
+
+# Overload to make pos optional 
+macro
+    summon
+        entity=minecraft:entity_summon
+        body=mecha:nested_root:
+    summon entity ~ ~ ~:
+        yield body
