@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: stream-localhost
+Version: 0.0.0rc0
+Summary: Python module to, stream videos via authenticated sessions using FastAPI
+Author-email: Vignesh Rao <svignesh1793@gmail.com>
+Project-URL: Homepage, https://github.com/thevickypedia/pystream
+Project-URL: Docs, https://thevickypedia.github.io/pystream/
+Project-URL: Source, https://github.com/thevickypedia/pystream
+Project-URL: Bug Tracker, https://github.com/thevickypedia/pystream/issues
+Project-URL: Release Notes, https://github.com/thevickypedia/pystream/blob/main/release_notes.rst
+Keywords: video-streaming,localhost
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles ==23.2.1
+Requires-Dist: fastapi ==0.104.1
+Requires-Dist: itsdangerous ==2.1.2
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: pydantic ==2.5.2
+Requires-Dist: pydantic-settings ==2.1.0
+Requires-Dist: pydantic-core ==2.14.5
+Requires-Dist: pyngrok ==7.0.2
+Requires-Dist: python-multipart ==0.0.6
+Requires-Dist: requests ==2.31.0
+Requires-Dist: uvicorn ==0.24.0.post1
+Requires-Dist: websockets ==12.0
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+
+# Video Streaming
+Video streaming using FastAPI
+
+### Env Variables
+**Mandatory**
+- **USERNAME**: Any username of choice.
+- **PASSWORD**: Any password of choice.
+- **VIDEO_SOURCE**: Source path for videos.
+
+**Optional**
+- **IP_HOSTED**: Boolean flag to specify if the API is hosted via public IP
+- **VIDEO_HOST**: IP address to host the video. Defaults to `127.0.0.1`
+- **VIDEO_PORT**: Port number to host the application. Defaults to `8000`
+- **WEBSITE**: Website to add to CORS configuration.
+- **WORKERS**: Number of workers to spin up the `uvicorn` server. Defaults to 1.
+
+> - `IP_HOSTED` is typically set to `True` if port forwarding is used to expose the API
+> - This will allow the application to host the API on local IP instead of `localhost` (if `VIDEO_HOST` is `None`)
+> - This can also be done by specifying the local IP for the env var `VIDEO_HOST` manually
