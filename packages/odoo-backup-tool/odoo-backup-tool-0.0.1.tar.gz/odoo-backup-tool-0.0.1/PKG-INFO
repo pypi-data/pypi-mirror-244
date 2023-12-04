@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: odoo-backup-tool
+Version: 0.0.1
+Summary: Odoo Backup Tool
+Home-page: https://github.com/royaurelien/odoo-backup-tool
+Author: Aurelien ROY
+Author-email: roy.aurelien@gmail.com
+License: BSD 2-clause
