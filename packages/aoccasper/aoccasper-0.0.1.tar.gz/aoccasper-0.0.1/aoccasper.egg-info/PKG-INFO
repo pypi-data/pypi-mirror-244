@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aoccasper
+Version: 0.0.1
+Author: Casper Chris Adriaan Bekkers
+Author-email: casperbekkers@hotmail.com
+Requires-Dist: requests
+
+# About
+
+A way to solve AOC. Coded by Casper.
+
+# How to use
+
+Set the session cookies
+~~~
+from aoccasper import set_session_cookies
+set_session_cookies("whatever your session cookies are for aoc")
+~~~
+
+If you don't do this, you will use a random aoc session's cookies which won't corespond to your own session cookies.
+
+~~~
+from aoccasper.day1 import part_1, part_2
+
+# test_input = ...
+
+part_1(test_input)
+part_1()  # This will automatically pull your input based on the session_cookies that you have imported.
+~~~

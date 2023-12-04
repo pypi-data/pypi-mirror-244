@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+aoccasper/__init__.py
+aoccasper/test.py
+aoccasper.egg-info/PKG-INFO
+aoccasper.egg-info/SOURCES.txt
+aoccasper.egg-info/dependency_links.txt
+aoccasper.egg-info/requires.txt
+aoccasper.egg-info/top_level.txt
+aoccasper/day1/__init__.py
+aoccasper/day1/main.py
+aoccasper/day2/__init__.py
+aoccasper/day2/main.py
+aoccasper/utils/__init__.py
+aoccasper/utils/autoinput.py
+aoccasper/utils/session_cookies_handler.py
