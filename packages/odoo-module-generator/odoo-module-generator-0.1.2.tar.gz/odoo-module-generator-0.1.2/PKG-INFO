@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: odoo-module-generator
+Version: 0.1.2
+Summary: Odoo Module Generator
+Home-page: https://github.com/royaurelien/odoo-module-generator
+Author: Aurelien ROY
+Author-email: roy.aurelien@gmail.com
+License: BSD 2-clause
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1.6
+Requires-Dist: platformdirs>=3.5.1
+Requires-Dist: pydantic>=2.1.1
+Requires-Dist: pydantic_settings>=2.0.2
+Requires-Dist: black>=23.1.0
+Requires-Dist: jinja2>=3.1.1
+Requires-Dist: requests>=2.28.1
+Requires-Dist: gitpython>=3.1.27
+
+
+# Odoo Module Generator
+
+_**OMG** Command Line Tool_
+
+![PyPI](https://img.shields.io/pypi/v/odoo-module-generator) ![PyPI](https://img.shields.io/pypi/pyversions/odoo-module-generator)
+
+
+## Installation
+
+Install from PyPI:
+```bash
+pip install odoo-module-generator
+```
+
+## Quickstart
+
+
+### Scaffold
+#### Module
+
+```bash
+omg scaffold module <path>
+```
+
+#### Repository
+
+```bash
+omg scaffold repo <path>
+```
+
+### Update Manifest
+```bash
+omg update manifest <path>
+```

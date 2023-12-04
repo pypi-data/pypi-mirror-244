@@ -1,0 +1,2 @@
+[console_scripts]
+omg = omg.cli.main:cli
