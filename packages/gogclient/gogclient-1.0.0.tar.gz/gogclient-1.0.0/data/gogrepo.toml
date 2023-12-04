@@ -1,0 +1,6 @@
+[gogrepo]
+repo-base-dir = "/wad/0/public/GOG"
+log-base-dir = "/tmp"
+prefered-languages = ["English", ]
+prefered-manual-languages = ["English", "EN", ]
+prefered-os = ["linux", ]

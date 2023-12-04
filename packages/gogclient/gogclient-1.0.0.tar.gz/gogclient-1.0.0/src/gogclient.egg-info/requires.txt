@@ -1,0 +1,15 @@
+requests
+tqdm
+lxml
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+build
+twine
+
+[test]
+pytest
+pytest-cov
+tox

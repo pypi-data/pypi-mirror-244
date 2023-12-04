@@ -1,0 +1,212 @@
+#!/usr/bin/env python
+
+import sqlite3
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Optional
+
+from rich.console import Console
+from gogclient.client import GOGClient
+from gogclient.db_handler import DataBaseHandler
+from gogclient.utils import get_url_from_product_data, normalize_gog_url
+
+
+def print_console(url, title, final_amount, discount, currency, max_discount, max_discount_oldest_date, is_bookmarked,
+                  stable_discount,
+                  console) -> None:
+    """
+    A more or less sophisticated Console based print function for discounts.
+    :param url: The url of the product.
+    :param title: The title of the product.
+    :param final_amount: The price with discount.
+    :param discount: The discount.
+    :param currency: The currency.
+    :param max_discount: The max discount known.
+    :param max_discount_oldest_date: The date when this discount occurred first.
+    :param console: The console to print to.
+    :return: Nothing.
+    """
+    timedelta_since_first_discount = datetime.now() - max_discount_oldest_date
+    discount_increased = (discount > max_discount)
+    discount_decreased = (discount < max_discount)
+
+    # conditional style
+    style = "white"
+    if discount >= 0.8:
+        style = "green"  # 90% is all ok
+    elif discount >= 0.7:
+        style = "yellow"  # less than 70% is usually not the best possible discount at GOG
+
+    # override in case discount became better
+    if discount_increased:
+        style = "purple"
+    elif discount_decreased:
+        style = "red"
+    if is_bookmarked:
+        console.print("vvvvvvvvvv Bookmarked vvvvvvvvvvv", style="blink")
+    console.print("{0} -{1:.0%} ({2} {3})".format(title, discount, final_amount, currency), style=style)
+    # inform about discount increases
+    if discount_increased:
+        console.print("Discount {0} --> {1}".format(max_discount, discount), style=style)
+    elif discount_decreased:
+        console.print("Not the best discount {0} > {1}".format(max_discount, discount), style=style)
+    elif stable_discount:
+        console.print("Discount stable since {0} days".format(timedelta_since_first_discount.days), style=style)
+    console.print("{0}".format(url))
+    console.print("")
+
+
+def get_names_and_urls_bookmarks(search="%GOG%"):
+    firefox_places_db = list(Path.home().glob(".mozilla/firefox/*/places.sqlite"))[0]
+    with sqlite3.connect(firefox_places_db) as conn:
+        c = conn.cursor()
+        r = c.execute("""
+        SELECT moz_places.title, moz_places.url
+        FROM moz_places INNER JOIN moz_bookmarks on moz_places.id=moz_bookmarks.fk
+        WHERE moz_places.url LIKE '{0}'""".format(search)).fetchall()
+        titles_with_urls = list(r)
+    return titles_with_urls
+
+
+def update_db_and_print_interesting_discounts(client: GOGClient,
+                                              repo_db_path: Path,
+                                              discount_db_path: Path,
+                                              console: Console,
+                                              locale: str = "de_AT",
+                                              min_discount_for_print: float = 0.7,
+                                              bookmarked_urls: Optional[list] = None,
+                                              timespan: timedelta = timedelta(hours=8),
+                                              dont_print_non_best_discounts: bool = True,
+                                              dont_print_dlc: bool = True,
+                                              dont_print_stable_discounts: bool = True,
+                                              ) -> None:
+    """
+    Update the database with the latest discounts and print discounts where the url matches
+    an entry in browser bookmarks (firefox).
+    :param timespan:
+    :param bookmarked_urls: A list of bookmarks
+    :param console: the console to use
+    :param client: the client to use
+    :param repo_db_path: The path to the repo database.
+    :param discount_db_path: The path to the discount database.
+    :param locale: The locale to use for online catalog queries.
+    :param min_discount_for_print: The minimal discount to print.
+    :return: Nothing
+    """
+
+    repo_dbh = DataBaseHandler(db_path=repo_db_path)
+    dbh = DataBaseHandler(db_path=discount_db_path)
+
+    with repo_dbh:
+        owned_products = repo_dbh.get_owned_products()
+        print("Owned Products {0}".format(len(owned_products)))
+
+    with dbh:
+        current_discounts = dbh.get_current_discounts(locale=locale, since=(datetime.now() - timespan))
+        if not current_discounts:
+            reference_locale = "de_DE"
+            print("GOG - No current discounts")
+            new_discounts_for_locale = client.get_catalog_products(locale=locale)
+            print("products for {0} {1}".format(locale, len(new_discounts_for_locale)))
+            new_discounts_for_locale_reference = client.get_catalog_products(locale=reference_locale)
+            print("products for {0} {1}".format(reference_locale, len(new_discounts_for_locale_reference)))
+            # austria does not block stuff that nazi germany blocks
+
+            different_product_ids = set(new_discounts_for_locale) ^ set(new_discounts_for_locale_reference)
+            print("Found difference in product_ids for different locales {0}".format(different_product_ids))
+
+            different_products_dict = {
+                product_id: new_discounts_for_locale.get(product_id) or new_discounts_for_locale_reference.get(
+                    product_id) for
+                product_id in different_product_ids}
+
+            for product_id, product_data in different_products_dict.items():
+                additional_product_data = gog_client.get_product_data(product_id=product_id)
+                url = get_url_from_product_data(additional_product_data)
+                print("check {0} {1}".format(product_id, url))
+                if dbh.get_geo_blocked_info(product_id=product_id) is None:
+                    dbh.add_geo_blocked_entry(product_id=product_id, is_blocked=None, locale=None)
+
+            print("Got {0} new discounts".format(len(new_discounts_for_locale)))
+            for product_id, product_data in new_discounts_for_locale.items():
+                dbh.add_new_product_or_discount_from_catalog_dict(product_id=product_id,
+                                                                  product_data=product_data,
+                                                                  client=client,
+                                                                  locale=locale)
+            current_discounts = dbh.get_current_discounts(locale=locale, since=(datetime.now() - timedelta(minutes=5)))
+
+        bookmarked_discounted_products = 0
+        not_printed_discounted_products = 0
+        printed_discounted_products = 0
+        for product_id, product_data in current_discounts.items():
+            max_discount, max_discount_oldest_date = dbh.get_max_discount_and_date_for_product(
+                product_id=product_id)
+            url = product_data.get("url")
+            title = product_data.get("title")
+            final_amount = product_data.get("final_amount")
+
+            discount = product_data.get("discount")
+            currency = product_data.get("currency")
+            is_bookmarked = (url in [normalize_gog_url(x) for x in bookmarked_urls])
+            if product_id in owned_products:
+                if is_bookmarked:
+                    org_gog_url = [x for x in bookmarked_urls if normalize_gog_url(x) == url][0]
+                    print("already owned check your bookmarks {0}".format(org_gog_url))
+            else:
+                timedelta_since_first_discount = datetime.now() - max_discount_oldest_date
+                stable_discount = (max_discount and (timedelta_since_first_discount > timedelta(days=90)))
+
+                if (discount > min_discount_for_print) \
+                        or is_bookmarked \
+                        or (discount > max_discount):
+
+                    if is_bookmarked:
+                        bookmarked_discounted_products += 1
+
+                    if (discount < max_discount) and dont_print_non_best_discounts:
+                        not_printed_discounted_products += 1
+                        continue
+                    if stable_discount and dont_print_stable_discounts and not is_bookmarked:
+                        not_printed_discounted_products += 1
+                        continue
+                    pid, url, slug, ptype, ts = dbh.get_product_data_for_product_id(product_id=product_id)
+                    if ptype == "DLC" and dont_print_dlc:
+                        not_printed_discounted_products += 1
+                        continue
+                    print_console(url=url, title=title, final_amount=final_amount, discount=discount,
+                                  currency=currency,
+                                  max_discount=max_discount, max_discount_oldest_date=max_discount_oldest_date,
+                                  is_bookmarked=is_bookmarked, stable_discount=stable_discount, console=console)
+                    printed_discounted_products += 1
+                else:
+                    not_printed_discounted_products += 1
+        print("Statistics Current {0} NotPrinted {1} Printed {2} Bookmarked {3}".format(len(current_discounts),
+                                                                                        not_printed_discounted_products,
+                                                                                        printed_discounted_products,
+                                                                                        bookmarked_discounted_products))
+
+
+if __name__ == "__main__":
+    from argparse import ArgumentParser
+
+    parser = ArgumentParser()
+    parser.add_argument("-m", dest="min_discount", default=0.7, type=float)
+    parser.add_argument("-r", dest="repo_db_path", default=Path("gog_repo.db3"), type=Path)
+    parser.add_argument("-d", dest="discount_db_path", default=Path("gog_discount_history.db3"), type=Path)
+
+    args = parser.parse_args()
+
+    gog_client = GOGClient()
+    LOCALE = "de_AT"
+    console = Console()
+    timespan = timedelta(minutes=60)
+    bookmarked_urls_gog = [x[-1] for x in get_names_and_urls_bookmarks()]
+    update_db_and_print_interesting_discounts(client=gog_client,
+                                              repo_db_path=args.repo_db_path,
+                                              discount_db_path=args.discount_db_path,
+                                              locale=LOCALE,
+                                              min_discount_for_print=args.min_discount,
+                                              bookmarked_urls=bookmarked_urls_gog,
+                                              console=console,
+                                              timespan=timespan,
+                                              )

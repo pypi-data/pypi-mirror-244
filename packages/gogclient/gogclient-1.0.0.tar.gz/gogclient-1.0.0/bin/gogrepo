@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+
+
+if __name__ == "__main__":
+    from gogclient.client import GogClientException
+    from gogclient.repo import GOGRepo
+    from pathlib import Path
+    from argparse import ArgumentParser
+    try:
+        import tomllib as toml
+    except ImportError:
+        import tomli as toml
+
+    parser = ArgumentParser()
+    parser.add_argument("-c",
+                        dest="config_file",
+                        type=Path,
+                        default=(Path.home() / "gogrepo.toml"),
+                        help="Path to Config File")
+    args = parser.parse_args()
+
+    config_file: Path = args.config_file
+    if config_file.exists():
+        with config_file.open("rb") as fp:
+            config_contents = toml.load(fp)
+    repo_config = config_contents.get("gogrepo")
+    assert repo_config is not None
+    try:
+        with GOGRepo(config=repo_config) as repo:
+            try:
+                print("logged in")
+                repo.lazy_download(product_count=5,
+                                   force_update=False,
+                                   update_specific=[1432297044, ],
+                                   )
+                print("complete")
+            except KeyboardInterrupt:
+                print("Quitting")
+    except GogClientException:
+        print("Cannot login due to Recaptcha")
