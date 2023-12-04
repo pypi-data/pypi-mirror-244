@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Deploynaut/__init__.py
+Deploynaut.egg-info/PKG-INFO
+Deploynaut.egg-info/SOURCES.txt
+Deploynaut.egg-info/dependency_links.txt
+Deploynaut.egg-info/top_level.txt
