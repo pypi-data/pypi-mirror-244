@@ -1,0 +1,14 @@
+unidep/__init__.py,sha256=VOUVV4A3POSUbGPH8NYd8jfaBNnS0g56ZUm66PovyGA,822
+unidep/_conda_env.py,sha256=HSlk9XAMHrXg4sn-E2sY74hikOkJzFpljqfVM2nrAfs,9369
+unidep/_conda_lock.py,sha256=Gpzj0sIBXQ-cehSkngyVLyg2QwR4IBjqe64q5YrRN-M,19484
+unidep/_conflicts.py,sha256=lPHQ5D2OfooLTUgdEkLywr-hlPT95fgwVoNhBLGcTZ0,4577
+unidep/_version.py,sha256=DxtMZD542lg_xb6icrE2d5JOY8oUi-v34i2Ar63ddvs,23
+unidep/base.py,sha256=reyaUyWkIdLYRB7ZVQkChJjEK8dx37aMtWXb65u0iWE,19689
+unidep/cli.py,sha256=isepnj-T1iuprlDnchFt9KnKrI-yH9ArVXGBLUag3aY,16459
+unidep/pytest_plugin.py,sha256=HQFSzqMqSfNny0o-83JYT8zqT1bDldYOZsYlq68DURw,2964
+unidep-0.24.0.dist-info/LICENSE,sha256=lnbTrlUFtkUfPcX8bMHiLbpEP8UIxvVWVA7zZAZL1O8,1511
+unidep-0.24.0.dist-info/METADATA,sha256=wZMW4n5lgxLLjU66SuxcbCXlKnF3-rKhIEsbK62vXwA,19875
+unidep-0.24.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+unidep-0.24.0.dist-info/entry_points.txt,sha256=qhns5vFh1SWf9vJMOuTIp8qjWjP5uv7VOK085sx-7Y4,168
+unidep-0.24.0.dist-info/top_level.txt,sha256=ZjE2oeOUpjdT-FyXaF9ZzqwgahM-zfXoVUj6TJZ2-8o,7
+unidep-0.24.0.dist-info/RECORD,,

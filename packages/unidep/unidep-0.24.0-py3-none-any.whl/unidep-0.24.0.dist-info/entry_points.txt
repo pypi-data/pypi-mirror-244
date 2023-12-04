@@ -1,0 +1,8 @@
+[console_scripts]
+unidep = unidep:cli.main
+
+[pytest11]
+affected = unidep.pytest_plugin
+
+[setuptools.finalize_distribution_options]
+unidep = unidep:setuptools_finalizer
