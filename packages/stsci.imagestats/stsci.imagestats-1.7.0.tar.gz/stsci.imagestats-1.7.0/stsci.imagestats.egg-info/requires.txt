@@ -1,0 +1,12 @@
+numpy>=1.16
+
+[docs]
+numpydoc
+sphinx
+sphinx-automodapi
+sphinx-rtd-theme
+stsci_rtd_theme
+graphviz
+
+[test]
+pytest>=6.0

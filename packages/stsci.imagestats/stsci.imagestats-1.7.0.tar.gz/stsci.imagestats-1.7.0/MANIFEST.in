@@ -1,0 +1,5 @@
+recursive-include docs *
+global-include *.py *.md *.notes *.yml *.rst *.toml
+global-include *.c *.h
+prune .eggs
+prune .git
