@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "module-hot-loading"
+version = "0.0.1"
+authors = [
+  { name="kanadeblisst", email="kanade@blisst.cn" },
+]
+description = "python module hot loading code"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "watchdog == 3.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kanadeblisst00/module_hot_loading"
+"Bug Tracker" = "https://github.com/kanadeblisst00/module_hot_loading/issues"
