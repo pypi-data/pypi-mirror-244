@@ -1,0 +1,6 @@
+PyLTSpice
+build
+dist
+doc
+examples
+unittests
