@@ -1,0 +1,15 @@
+htmldate==1.6.*
+dateparser==1.2.*
+tldextract==5.1.*
+url-normalize==1.4.*
+furl==2.1.*
+py3langid==0.2.*
+newspaper3k==0.2.*
+goose3==3.1.*
+BeautifulSoup4<4.13,>=4.11
+readability-lxml==0.8.*
+trafilatura<1.7,>=1.4
+boilerpy3==1.0.*
+requests
+faust-cchardet==2.1.*
+surt==0.3.1
