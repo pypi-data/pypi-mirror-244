@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: fastapi-prometheus-exporter
+Version: 0.2.2
+Summary: FastAPI Prometheus Exporter
+License: BSD-3-Clause
+Author: Yibu Ma
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.104.1,<0.105.0)
+Requires-Dist: prometheus-client (>=0.19.0,<0.20.0)
+Description-Content-Type: text/markdown
+
+# fastapi-prometheus-exporter
+[![codecov](https://codecov.io/gh/yibuma/fastapi-prometheus-exporter/graph/badge.svg?token=QDbwB7a9kP)](https://codecov.io/gh/yibuma/fastapi-prometheus-exporter)  
+FastAPI Prometheus Exporter is a simple Prometheus exporter for FastAPI applications. It provides a set of metrics by default and allows you to add your own metrics as well.
+
+## Installation
+```bash
+pip install fastapi-prometheus-exporter
+```
+or
+```bash
+poetry add fastapi-prometheus-exporter
+```
+
+## Usage
+```python
+from fastapi import FastAPI
+from fastapi_prometheus_exporter import PrometheusExporterMiddleware
+app = FastAPI()
+
+PrometheusExporterMiddleware.setup(
+    app=app,
+    metrics_path="/metrics",
+    # ignore_paths=["/healthz", "/metrics"],
+)
+```
+### Parameters
+- `app`: FastAPI application instance
+- `ignore_paths`: List of paths to ignore. Default: `[]`
+- `metrics_path`: Path to expose metrics. Default: `/metrics`
+- `metrics_registry`: Prometheus registry to use. Default: `prometheus_client.CollectorRegistry`
+- `request_latency_name`: Name of the request latency metric. Default: `http_request_duration_seconds`
+- `request_latency_doc`: Description of the request latency metric. Default: `HTTP Request Latency`
+- `request_latency_buckets`: Buckets for the request latency metric. Default: `prometheus_client.Histogram.DEFAULT_BUCKETS`
+- `request_latency_labels`: Labels for the request latency metric. Default: `["method", "endpoint", "http_status"]`
+- `request_count_name`: Name of the request count metric. Default: `http_requests_total`
+- `request_count_doc`: Description of the request count metric. Default: `Total HTTP Requests`
+- `request_count_labels`: Labels for the request count metric. Default: `["method", "endpoint", "http_status"]`
+
+## Metrics
+### Default Metrics
+- `http_request_duration_seconds`: HTTP request latency in seconds
+- `http_requests_total`: Total HTTP requests
+
