@@ -1,0 +1,16 @@
+kernel_killer/__init__.py,sha256=fyvAZuNjEIL2OBIiKD1RSixH3EM61qgmkm4d0BQNfVE,821
+kernel_killer/_version.py,sha256=vYZ6rLVUw05xbWIGie5W7cVk18sWwVN72cGSZ2ngSYU,171
+kernel_killer/handlers.py,sha256=z-xQO59MCt1ZfD0IahkJ70O4Mh80Ub116YVS6a4_fIo,784
+kernel_killer-0.1.2.data/data/etc/jupyter/jupyter_notebook_config.d/kernel_killer.json,sha256=mlQei-fDYoonXGlVV0f6rL-M6h3KVUlfR1lzCa6GCk0,90
+kernel_killer-0.1.2.data/data/etc/jupyter/jupyter_server_config.d/kernel_killer.json,sha256=YPYSlxyiT72NGrM_46w51gwVODbx-CTBsmXT7hq_6JM,88
+kernel_killer-0.1.2.data/data/share/jupyter/labextensions/kernel_killer/package.json,sha256=qc6G-vSIKxlj1l9ckmKwAE0MDV_wzTS4OOgrAuYjEGQ,5783
+kernel_killer-0.1.2.data/data/share/jupyter/labextensions/kernel_killer/static/568.b4a9ee55c19f93910367.js,sha256=tKnuVcGfk5EDZ7zsWbHa3rG1p0gNomBi048yipqlauY,1635
+kernel_killer-0.1.2.data/data/share/jupyter/labextensions/kernel_killer/static/747.213725e83c76da646665.js,sha256=ITcl6Dx22mRmZW9czHzlxYi7-euVIjNgV7lVISkUh58,4006
+kernel_killer-0.1.2.data/data/share/jupyter/labextensions/kernel_killer/static/remoteEntry.836d352aff1a1f7dad46.js,sha256=g201Kv8aH32tRgc9nmmatZo5SgobLM1xjlikeDFTwu4,6651
+kernel_killer-0.1.2.data/data/share/jupyter/labextensions/kernel_killer/static/style.js,sha256=dhx3tK5N6720u44LPeqALq97mOv1yqq-rX9JnhdN8Cg,156
+kernel_killer-0.1.2.data/data/share/jupyter/labextensions/kernel_killer/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+kernel_killer-0.1.2.data/data/share/jupyter/labextensions/kernel_killer/install.json,sha256=bIksJYTJuMn4ulIU1zF4e6g18K7wexQae_9_cOrQsRI,187
+kernel_killer-0.1.2.dist-info/METADATA,sha256=DfwZeY1fSpWMaLA3C6zdjTVC1QAB5a9sZypKEiFHVSk,5995
+kernel_killer-0.1.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+kernel_killer-0.1.2.dist-info/licenses/LICENSE,sha256=ekDfY-J8h-Dps1Wd5xpLT6kHEaMlc92n9bJifWgmq2M,1523
+kernel_killer-0.1.2.dist-info/RECORD,,
