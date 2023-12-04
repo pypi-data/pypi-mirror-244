@@ -1,0 +1,9 @@
+miksisdk/__init__.cpython-36m-darwin.so,sha256=GpyP3hFSUJu5Y3bOTMU8oztAV2oMboGxPXdanvIUu6A,38392
+miksisdk/agent.cpython-36m-darwin.so,sha256=pFIus3K20MKGVJ8BFcFTI75SUa3_3UfVgadJsNK52TE,115232
+miksisdk/api.cpython-36m-darwin.so,sha256=26K09feFRotfLxK2dbViDZ1a38Cda6B4oY7yNC1H7T0,111656
+miksisdk/base.cpython-36m-darwin.so,sha256=bYqwcydfOpQUE3YpD3Tx_Yr3OmDmSC03H2X33b3GNrE,105168
+miksisdk/forecast_tool.cpython-36m-darwin.so,sha256=ut2MEai4tUjTkpzxjBw-aZsmJ_iGsH8JNfbuvOZBnxs,137864
+miksisdk-0.0.7.dist-info/METADATA,sha256=2NgKlv0QBM70AMvxsThWl3SGqyA9JyuPxvWPVkH9ccw,410
+miksisdk-0.0.7.dist-info/WHEEL,sha256=ye8A2lA8pjGNe7-ueOpggarJAhczq3EZGqnLZzzfQYQ,110
+miksisdk-0.0.7.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.7.dist-info/RECORD,,
