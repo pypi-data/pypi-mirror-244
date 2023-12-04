@@ -1,0 +1,10 @@
+yoloboros/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yoloboros/client.py,sha256=Reis6kiesg8s_rHbGeOtsH1kihRa6-qE9kNH_6Z0qu0,2492
+yoloboros/grammar.py,sha256=LkwK-bOWyjdLAEMv3ct8ptGUNjk1sH1X700oyqK7YfA,17580
+yoloboros/prelude.js,sha256=BJKseVJd3PpoM8_er05Oyh1OxM1MGNoi3pEFJ8y6cBg,2963
+yoloboros/test.py,sha256=W2N3Xk5jQ_oq8zUG2K0ZOvG553iPst2KcileVgBrwp8,1921
+yoloboros/transformer.py,sha256=4VwpHltMzllSuZ7vrrgToy6zATZ6QVuV-wbJgGayvGk,12189
+yoloboros-0.0.1.dist-info/LICENSE,sha256=4EuRQzAuWmQ2YiiD5lX4DkD5pC5TjdfIu_MOZStnj-c,1087
+yoloboros-0.0.1.dist-info/METADATA,sha256=RKrAY0WLfDK2_2Tn-BkMZGz017HuBzjdwDdHUY545_M,510
+yoloboros-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+yoloboros-0.0.1.dist-info/RECORD,,
