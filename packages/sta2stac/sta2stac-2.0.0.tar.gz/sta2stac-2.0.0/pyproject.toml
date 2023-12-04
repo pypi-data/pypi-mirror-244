@@ -1,0 +1,125 @@
+# SPDX-FileCopyrightText: 2023 KIT - Karlsruher Institut für Technologie
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = ['setuptools >= 61.0', 'versioneer[toml]']
+
+[project]
+name = "sta2stac"
+dynamic = ["version"]
+description = "A Python Ecosystem for Harvesting Time Series data information from SensorthingsAPI (STA) and Cultivating STAC-Metadata."
+
+readme = "README.md"
+authors = [
+    { name = 'Mostafa Hadizadeh', email = 'mostafa.hadizadeh@kit.edu' },
+]
+maintainers = [
+    { name = 'Mostafa Hadizadeh', email = 'mostafa.hadizadeh@kit.edu' },
+]
+license = { text = 'EUPL-1.2' }
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Typing :: Typed",
+]
+
+requires-python = '>= 3.9'
+dependencies = [
+    "pystac",
+    "tqdm",
+    "pytz",
+    "urllib3==1.26.6",
+    "requests",
+    "shapely==2.0.1",
+]
+
+[project.urls]
+Homepage = 'https://codebase.helmholtz.cloud/cat4kit/ds2stac/sta2stac'
+Documentation = "https://sta2stac.readthedocs.io/en/latest/"
+Source = "https://codebase.helmholtz.cloud/cat4kit/ds2stac/sta2stac"
+Tracker = "https://codebase.helmholtz.cloud/cat4kit/ds2stac/sta2stac/issues/"
+
+
+[project.optional-dependencies]
+testsite = [
+    "tox",
+    "isort==5.12.0",
+    "black==23.1.0",
+    "blackdoc==0.3.8",
+    "flake8==6.0.0",
+    "pre-commit",
+    "mypy",
+    "pytest-cov",
+    "reuse",
+    "cffconvert",
+    "types-requests",
+    "types-pytz",
+]
+docs = [
+    "autodocsumm",
+    "sphinx-rtd-theme",
+    "hereon-netcdf-sphinxext",
+    "sphinx-design",
+
+]
+dev = [
+    "sta2stac[testsite]",
+    "sta2stac[docs]",
+    "PyYAML",
+    "types-PyYAML",
+    "types-requests",
+    "types-pytz",
+]
+
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.setuptools]
+zip-safe = false
+license-files = ["LICENSES/*"]
+
+[tool.setuptools.package-data]
+sta2stac = ["py.typed"]
+
+[tool.setuptools.packages.find]
+namespaces = false
+exclude = [
+    'docs',
+    'tests*',
+    'examples'
+]
+
+[tool.pytest.ini_options]
+addopts = '-v'
+
+[tool.versioneer]
+VCS = 'git'
+style = 'pep440'
+versionfile_source = 'sta2stac/_version.py'
+versionfile_build = 'sta2stac/_version.py'
+tag_prefix = ''
+parentdir_prefix = ''
+
+[tool.isort]
+profile = "black"
+line_length = 79
+src_paths = ["sta2stac"]
+float_to_top = true
+known_first_party = "sta2stac"
+
+[tool.black]
+line-length = 79
+target-version = ['py39']
+
+[tool.coverage.run]
+omit = ["sta2stac/_version.py"]

@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2023 KIT - Karlsruher Institut für Technologie
+#
+# SPDX-License-Identifier: CC0-1.0
+
+include versioneer.py
+include sta2stac/_version.py
