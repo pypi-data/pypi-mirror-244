@@ -1,0 +1,17 @@
+opstats/__init__.py,sha256=7K11TVNKCPsvuHxZ56ifZ0tSC747-DnuVr5NICJcaow,297
+opstats/covariance.py,sha256=8IH7gqQh-hWQ6RYnX9_gA44mXxAnMAAqf-gpRZ2hQJw,6187
+opstats/extended.py,sha256=5SPB6_I39LOynrgEcG0haIJOc7aAW2sEo5uJXkBbCCE,8621
+opstats/moments.py,sha256=J9cpEdxV8-q9MGKOEeYJhTg8pihdQZwc992DdjsafNA,9260
+opstats/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opstats/tests/base.py,sha256=W3YjUIazdfc1H4auu6PD9X-DRdcIDlDEImEbDk-EVSM,6762
+opstats/tests/test_covariance.py,sha256=8x39QFhmcQ52EeNgUvmsqGdbWuFQ6vxVCbD3sTUvL0o,2871
+opstats/tests/test_covariance_agg.py,sha256=D0U6xD8DJl0rKEql3wscbhspBIJfuLa3sLtpmv_Lf_w,4298
+opstats/tests/test_extended.py,sha256=1aL1-cpeRY-qOODWx0ok_gWqBQPSGWwmpZOgpzkS0Dc,4357
+opstats/tests/test_extended_agg.py,sha256=hImGALXrlWw_StntdEJQd8pIU5diMberUkFmiNV6PA8,5695
+opstats/tests/test_moment_agg.py,sha256=3uzfYcfcWeDU1hVWZ1POk8oyUWZacGSEivrfvqN-OuA,5255
+opstats/tests/test_moments.py,sha256=Y27FHi19Vvd8XCxyDO-xRLflf-AG-7lMhrTTDQOV1pY,4189
+opstats-1.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+opstats-1.2.0.dist-info/METADATA,sha256=9St6kEYzfSBaxM1Mu3-w_sMNTN3u-6nNKx5x9NFamw8,44818
+opstats-1.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+opstats-1.2.0.dist-info/top_level.txt,sha256=L7JlkcJ0U2RcZrAPpufPjOgg1Z1PV0aQH2advs_VnKo,8
+opstats-1.2.0.dist-info/RECORD,,
