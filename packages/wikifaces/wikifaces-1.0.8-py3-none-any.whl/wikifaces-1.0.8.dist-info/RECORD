@@ -1,0 +1,9 @@
+wikifaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikifaces/downloader.py,sha256=5C2y4YoZxH4TuplcfyNs8gHFQfpnFM8IS4WgwAPeCYg,15212
+wikifaces/test.py,sha256=R2XGA1ouT2But6k_edvL7fG4_v7l8v7-finXFuPgIBQ,508
+wikifaces/utilities.py,sha256=CfJJIws5hdtcCA2Iz3RecDqI9Ts9600QFHJFzVNaoik,4397
+wikifaces-1.0.8.dist-info/LICENSE,sha256=w9DeBrTgGpFmh_SDX0fEmh6DJTtGLjhSrqnTYvTY_4Y,1072
+wikifaces-1.0.8.dist-info/METADATA,sha256=pQv_jFhyJDWfsJMszIE-GpLd7lF0esgcFGpdxUG2vJ8,5112
+wikifaces-1.0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+wikifaces-1.0.8.dist-info/top_level.txt,sha256=F3OAC2VFRvBF6osT9qyKMIeA4J21IbmkoEghYBNmkjg,10
+wikifaces-1.0.8.dist-info/RECORD,,
