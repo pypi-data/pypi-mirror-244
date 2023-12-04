@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: LargeVis
+Version: 0.0.0.1
+Summary: NMF for single cell dataset  .
+Home-page: https://github.com/wangzichenbioinformatics/singlecell-NMF
+Author: Wangchen
+Author-email: wch_bioinformatics@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+====================================
+LargeVis Python
+====================================
+
+|PyPI| |Conda| |Python| |License|
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/forceatlas2-python.svg
+    :target: https://pypi.org/project/forceatlas2-python
+
+.. |Conda| image:: https://img.shields.io/conda/v/bioconda/forceatlas2-python
+    :target: https://anaconda.org/bioconda/forceatlas2-python
+
+.. |Python| image:: https://img.shields.io/pypi/pyversions/forceatlas2-python.svg
+    :target: https://pypi.org/project/forceatlas2-python
+
+.. |License| image:: https://img.shields.io/github/license/klarman-cell-observatory/forceatlas2-python
+   :target: https://github.com/klarman-cell-observatory/forceatlas2-python/blob/master/LICENSE
+
+Pip installable forceatlas2, where source code is at https://github.com/klarman-cell-observatory/forceatlas2.
+
+
