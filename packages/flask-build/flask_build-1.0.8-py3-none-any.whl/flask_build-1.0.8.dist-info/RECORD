@@ -1,0 +1,8 @@
+flask_build/__init__.py,sha256=Jua7-uW5Bz7NR4Ad8Rm5q2d1zaD4s88PVPkBR2WXHPo,23
+flask_build/build.py,sha256=yRnYcMXq1VSN6SflzC9GddoUpS6hLDpjfRRybrkBmEg,4855
+flask_build/gunicorn.conf.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_build-1.0.8.dist-info/METADATA,sha256=ioaq0YR1fShKQaqC4bK1_uAqTX-Ia7ZPNqyRluXdltI,60
+flask_build-1.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+flask_build-1.0.8.dist-info/entry_points.txt,sha256=t11KOM_NYhaOcM5sZFiMp2bQuZQKq6EKLcBi8lfJTQw,43
+flask_build-1.0.8.dist-info/top_level.txt,sha256=gYoJzzbw68k1jY44dEV1e4z3sL7Tz_W_6CE8STBAfAo,12
+flask_build-1.0.8.dist-info/RECORD,,
