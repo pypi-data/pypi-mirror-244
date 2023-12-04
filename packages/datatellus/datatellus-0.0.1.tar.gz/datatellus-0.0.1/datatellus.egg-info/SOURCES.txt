@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+datatellus/__init__.py
+datatellus.egg-info/PKG-INFO
+datatellus.egg-info/SOURCES.txt
+datatellus.egg-info/dependency_links.txt
+datatellus.egg-info/top_level.txt
