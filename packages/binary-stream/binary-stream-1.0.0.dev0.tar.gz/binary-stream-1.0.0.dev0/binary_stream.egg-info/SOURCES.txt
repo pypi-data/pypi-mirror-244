@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+binary_stream/__init__.py
+binary_stream/binary_stream.py
+binary_stream.egg-info/PKG-INFO
+binary_stream.egg-info/SOURCES.txt
+binary_stream.egg-info/dependency_links.txt
+binary_stream.egg-info/top_level.txt
+tests/test_main.py

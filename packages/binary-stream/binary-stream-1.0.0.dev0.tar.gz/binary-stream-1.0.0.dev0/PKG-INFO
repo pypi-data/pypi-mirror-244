@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: binary-stream
+Version: 1.0.0.dev0
+Home-page: https://github.com/TheMade4/BinaryStream
+Author: TheMade4
+License: MIT License
+Keywords: utils,binary,binary-stream,python3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BinaryStream
+BinaryStream library for python
