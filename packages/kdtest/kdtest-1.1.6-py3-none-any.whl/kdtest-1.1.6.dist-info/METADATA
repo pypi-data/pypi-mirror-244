@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: kdtest
+Version: 1.1.6
+Summary: A keyword-driven automated testing framework
+Home-page: https://gitee.com/wang_qiao123/kdtest.git
+Author: Qiao Wang
+Author-email: 1603938216@qq.com
+License: MIT License
+Keywords: kdtest selenium request
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: dominate (==2.6.0)
+Requires-Dist: pipreqs (==0.4.11)
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: msedge-selenium-tools (==3.141.4)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: Eel (==0.15.2)
+Requires-Dist: openpyxl (>=3.0.7)
+Requires-Dist: pywinauto (>=0.6.8)
+Requires-Dist: ruamel.yaml (>=0.17.21)
+Requires-Dist: tqdm (>=4.63.0)
+
+# keyWordTest (kdtest)
+
+### 介绍
+* 基于“python + 关键字驱动技术”的一套以降低使用者学习成本为目地的自动化测试框架；
+* 支持“接口请求”和“UI元素操作”的“混合”处理， 使用者可以根据实际的测试场景来选择；
+* 此外框架会将一些必要的object对象、装饰器和变量暴露给开发者；
+* 开发者可以根据实际情况，开发除现有功能关键字之外的“自定义插件方法”，且框架支持对这些自定义的插件方法进行安装、更新、卸载、显示等操作。
+### 安装教程
+你可以通过pip包管理工具键入“框架名称” 或者 “框架.whl文件的绝对路径(存放在仓库的dist文件夹下)”完成框架的安装，详情如下:
+
+* [正式版] `pip install kdtest==1.1.6`
+* [测试版] `pip install -i https://test.pypi.org/simple/ kdtest==1.1.6`
+* `pip install  C:/xxxxxx/kdtest-1.1.6-py3-none-any.whl`
+
+你可以在控制台中键入 `kdtest -v` 来验证是否安装成功。
+> 1.1.6为当前框架最新版本；推荐安装正式版
+
+### 说明文档
+<a href="http://wang_qiao123.gitee.io/kdtest_pages" target="_blank"> 框架说明文档 >></a>
+
+### 亮点
+灵活、易用、成本低
+
+### 框架特点
+* 采用关键字驱动，使用者不需要考虑功能如何实现，只需要按照需求在用例中堆叠关键字即可。
+* 用例书写采用“excel工作表”的形式，上手简单，学习成本低。
+* 框架整体独立，在控制台中输入启动命令即可运行，不需要代码编译器的参与。
+* 支持接口自动化，简化requests库的使用，使用者只需要按照要求书写接口数据即可完成接口的请求和断言。
+* 支持自定义插件开发，使用者可以根据自身测试需求开发一些独立与框架之外的插件方法，框架支持对这些方法进行“安装”、“卸载”、“更新”、“显示”。
+* 框架内部所有的对象、关键字方法、参数变量，全部支持外部调用。
+* 框架中共有43个功能强大关键字可供使用，功能覆盖面广，从基础的“元素定位”、“元素操作”到“接口请求”再到复杂的“获取数据缓存断言”等均有覆盖。
+* 框架所生成的测试报告内容更加详细直观，且支持将一些自定义的内容打印到框架的“测试报告”和“运行日志”中。
+* 框架所有的必要文件和文件夹，均支持通过命令创建，减少使用者工作量。

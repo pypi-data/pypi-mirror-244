@@ -1,0 +1,215 @@
+# WebUI公共逻辑节点数据
+
+
+#login:  # 登录，userLogin() 函数数据
+login:
+  userName:
+    - id
+    - name  # 用户名
+  password:
+    - id
+    - password  # 密码
+  submit:
+    - id
+    - submit  # 登录按钮
+
+
+#frame:  # frame跳转，jumpFrame() 函数数据
+
+
+# 错误处理，errorHandle() 函数数据
+error:
+  TIPS: div.msg-content  # 系统提示信息元素节点
+  BOUNCED: ul.msg-list p.msg-content  # 系统右上角消息弹框元素节点
+  TIPS_BTN_ELE:  # “系统提示信息处理” 操作按钮[返回、关闭..]元素节点暂存
+    BTN_ONE:
+      - css_selectors
+      - '[value="返回"]'
+    BTN_TWO:
+      - css_selectors
+      - '[value="关闭"]'
+    BTN_THREE:
+      - css_selectors
+      - center>[type="button"]
+    BTN_FOUR:
+      - css_selectors
+      - div.error a.btn
+
+
+# 文本弱提示处理【弱提示】WeakHint() 函数数据
+WeakHint:
+  Weak: '//div[@class="formErrorContent"]/../../*[self::div[contains(@class,"formError") and contains(@style,"opacity: 1")]]'  # 弱提示框 元素节点
+
+
+# CaseSetUp:  # 用例初始化，CaseSetUp() 函数数据
+
+
+# 关闭顶部选项卡，closeTab() 函数数据
+closeTab:  
+  tabs: 
+  - css_selectors
+  - '#tabs_container > div > .tab'  # 顶部Tab选项卡节点 css
+  close: 
+  - css_selectors
+  - '#tabs_container > div > .close'  # 选项卡关闭按钮节点 css
+
+
+# inspectMenu:   # 子菜单项检查，inspectMenu() 函数数据
+
+
+# 子菜单项可以性，inspectAvailable() 函数数据
+submenu:  
+  tabs: 
+  - css_selectors
+  - '#tabs_container > div > .tab'  # 顶部Tab选项卡节点 css
+
+
+# independentMenu:  #打开单独子菜单, independentMenu() 函数数据
+
+
+# 人员选择，personnelChoice() 函数数据
+personnel:
+  TARGETING: 'xpath'
+  TYPEIDEN_ITEM:
+    '3': 
+      title: 在线人员
+      location:
+        - xpath
+        - //*[@id="block_online"]//div[contains(@class,"item") and contains(@item_name,"INSERT")]  # 在线方式人员按钮节点
+    '4': 
+      title: 查询人员
+      location:
+        - xpath
+        - //*[@id="block_query"]//div[contains(@class,"item") and contains(@item_name,"INSERT")]  # 检索方式人员按钮节点
+    '5': 
+      title: 已选人员
+      location:
+        - xpath
+        - //*[@id="block_selected"]//div[contains(@class,"item") and contains(@item_name,"INSERT")]  # 已选方式人员按钮节点
+  NAV_ITEM:
+    '0':
+      - xpath
+      - //div[@id='north']//div[@id='navMenu']/a[@block='dept']
+    '1':
+      - xpath
+      - //div[@id='north']//div[@id='navMenu']/a[@block='priv']
+    '2':
+      - xpath
+      - //div[@id='north']//div[@id='navMenu']/a[@block='group']
+    '3':
+      - xpath
+      - //div[@id='north']//div[@id='navMenu']/a[@block='online']
+    '4':
+      - xpath
+      - //div[@id='navRight']//input[@id="keyword"]
+    '5':
+      - xpath
+      - //div[@id='north']//div[@id='navMenu']/a[@block='selected']
+  ALL_ADD:
+    - xpath
+    - "//div[@class='alert-modal-box-text-box']//div[contains(@id,'block') and contains(@style,'display: block')]//div[@title='INSERT']/../div[@class='block-right-add']"  # 全部添加
+    # - "//div[@class='alert-modal-box-text-box']//div[contains(@id,'block') and contains(@style,'display: block')]//div[contains(@id,'item_') and not(contains(@style,'display: none;'))]//div[@class='block-right-add']"
+  ALL_REMOVE:
+    - xpath
+    - "//div[@class='alert-modal-box-text-box']//div[contains(@id,'block') and contains(@style,'display: block')]//div[@title='INSERT']/../div[@class='block-right-remove']"  # 全部删除
+    # - "//div[@class='alert-modal-box-text-box']//div[contains(@id,'block') and contains(@style,'display: block')]//div[contains(@id,'item_') and not(contains(@style,'display: none;'))]//div[@class='block-right-remove']"
+  DEPT_MENU:
+    '0': //div[@id='dept_menu']//a[@title='INSERT']  # 组件左侧“部门”菜单列表
+    '1': //div[@id='priv_menu']//div[@title='INSERT']  # 组件左侧“角色”菜单列表
+    '2': //div[@id='group_menu']//div[@title='INSERT']  # 组件左侧“分组”菜单列表
+  DEPT_ITEM:
+    '0': //div[@id='dept_item']/div[not(contains(@style,'display'))]/div[@item_id and @item_name='INSERT']  # 组件右侧“部门人员”子项列表
+    '1': //div[@id='priv_item']/div[not(contains(@style,'display'))]/div[@item_id and @item_name='INSERT']  # 组件右侧“角色人员”子项列表
+    '2': //div[@id='group_item']/div[not(contains(@style,'display'))]/div[@item_id and @item_name='INSERT']  # 组件右侧“分组人员”子项列表
+  CHECKBOX: //div[@id="dept_menu"]//a[@title="INSERT"]/../span[@class="dynatree-checkbox"]  # 部门复选按钮
+  # MASK: //div[@id="dept_item"]//div[contains(@id,"ept_item_children")][not(@style)]/div[@title="INSERT"]  # 组件右侧子项列表 “部门title” 【用于判定“组件遮罩层”是否关闭】
+  MASK: //div[@id="dept_item"]//div[contains(@id,"dept_item_")][@style="" or not(@style)]//div[(@item_name="INSERT" and contains(@class,"active")) or @title="INSERT"]  # 组件右侧子项列表 “部门title” 【用于判定“组件遮罩层”是否关闭】
+  list: 
+    - xpaths
+    - //div[@class="alert-modal-box-text-box"]/div[not(contains(@id,"block"))]/div//*[self::a or self::input]  # 人员添加列表节点
+  online: 
+    - xpath
+    - //*[@id="block_online"]//div[contains(@class,"item") and contains(@item_name,"INSERT")]  # 在线方式人员按钮节点
+  selected:
+    - xpath
+    - //*[@id="block_selected"]//div[contains(@class,"item") and contains(@item_name,"INSERT")]  # 已选方式人员按钮节点
+  search: 
+    - id
+    - keyword  # 检索输入框节点  id
+  resultOld:
+    - xpath
+    - //*[@id="block_query"]//div[contains(@class,"item")][@item_name]  # 检索结果人员按钮节点 - 旧逻辑 - 不限制姓名
+  result:
+    - xpath
+    - //*[@id="block_query"]//div[contains(@class,"item") and contains(@item_name,"INSERT")]  # 检索结果人员节点按钮节点
+  confirm: div[class="alert-modal-box-text-box"] div[id="south"]>input.BigButtonA  # 确定按钮节点值
+
+
+# 日期设置, setDate() 函数数据
+setDate:
+  today:
+    - id
+    - dpTodayInput  # 【今天】按钮节点
+  confirm_Btn: dpOkInput  # 【确定】按钮节点
+  frameSrc: /My97DatePicker.htm  # 日期选择对话框frame src属性值
+  Y_Select_Box:
+    - css_selector
+    - div.menuSel.YMenu  # 年份下拉列表框，这里用来判断下拉列表框是否展开
+  action_Day:
+    - class_name
+    - Wselday  # 当前选中日期
+  YLeft:
+    - css_selector
+    - div.navImg.NavImgll>a  # 年份左侧箭头按钮节点值
+  YRight:
+    - css_selector
+    - div.navImg.NavImgrr>a  # 年份右侧箭头按钮节点值
+  MLeft:
+    - css_selector
+    - div.navImg.NavImgl>a  # 月份左侧箭头按钮节点值
+  MRight:
+    - css_selector
+    - div.navImg.NavImgr>a  # 月份右侧箭头按钮节点值
+
+
+# 消息弹框处理
+TSFrame:
+  tispElements: div.msg-wrapper  # 所有弹框节点
+  tispItem:
+    - css_selector
+    - div.msg-op  # 单独弹框节点
+  exitButton:
+    - class_name
+    - msg-close  # 弹框右上角"关闭"按钮
+  markAll:
+    - css_selector
+    - .msg-op-btns .mark-all  # 按钮组 "已阅全部"
+  ignoreAll:
+    - css_selector
+    - .msg-op-btns .ignore-all  # 按钮组 "忽略全部"
+
+
+# 复杂表单输入
+FormInput:
+  input:
+    - css_selectors
+    - 'input[type="text"]'  # 所有“普通文本”输入框节点
+  pass:
+    - css_selectors
+    - 'input[type="password"]'  # 所有“密码”文本输入框节点
+  textarea:
+    - tag_names
+    - textarea  # 所有多行文本输入框节点
+  checkbox:
+    - css_selectors
+    - 'input[type="checkbox"]' # 所有复选按钮节点
+  radio:
+    - css_selectors
+    - 'input[type="radio"]' # 所有单选按钮节点
+
+
+# 全局系统模块菜单跳转
+gotoModular:
+  taskbar:
+    - xpaths
+    - //div[@id="taskbar"]/div[@id="tabs_container"]/div[@id and @class="selected"]/a[@class="close"]
