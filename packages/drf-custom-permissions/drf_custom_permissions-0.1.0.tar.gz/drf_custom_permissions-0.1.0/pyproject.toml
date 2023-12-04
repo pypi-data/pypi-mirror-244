@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "drf-custom-permissions"
+version = "0.1.0"
+description = "Django Rest Framework custom permissions classes"
+authors = ["kovalevme <kovalevme14@gmail.com>"]
+readme = "README.md"
+packages = [{include = "drf_permissions"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
