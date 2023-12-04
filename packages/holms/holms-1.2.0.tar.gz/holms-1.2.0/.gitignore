@@ -1,0 +1,6 @@
+.env.build
+dist
+.hatch
+venv*
+.coverage
+coverage.json
