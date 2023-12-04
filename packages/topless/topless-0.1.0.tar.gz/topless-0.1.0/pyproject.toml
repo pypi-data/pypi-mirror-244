@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "topless"
+version = "0.1.0"
+description = "Tailored OPerations for serverLESS"
+authors = ["Rafael Izidoro <izidoro.me@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aws-lambda-powertools = "^2.26.0"
+boto3 = "^1.28.67"
+requests = "^2.31.0"
+uuid6 = "^2023.5.2"
+requests-aws-sign = "^0.1.6"
+strenum = "^0.4.15"
+pluralizer = "^1.2.0"
+stringcase = "^1.2.0"
+sqlalchemy = "^2.0.23"
+typer = "^0.9.0"
+tomli = "^2.0.1"
+pg8000 = "^1.30.3"
+alembic = "^1.12.1"
+marshmallow = "^3.20.1"
+marshmallow-dataclass = {extras = ["enum", "union"], version = "^8.6.0"}
+ruamel-yaml = "^0.18.5"
+rich = "^13.7.0"
+jinja2 = "^3.1.2"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.16.1"
+black = "^23.10.0"
+isort = "^5.12.0"
+mypy = "^1.6.1"
+pytest = "^7.4.2"
+import-deps = "^0.2.0"
+safety = "^2.3.5"
+bandit = "^1.7.5"
+flake8 = "^6.1.0"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.scripts]
+topless = 'cli.main:app'
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
