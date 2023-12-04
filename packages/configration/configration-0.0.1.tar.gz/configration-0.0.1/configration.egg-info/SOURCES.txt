@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+configration.egg-info/PKG-INFO
+configration.egg-info/SOURCES.txt
+configration.egg-info/dependency_links.txt
+configration.egg-info/top_level.txt
+simpletkinter/__init__.py
+simpletkinter/_version.py
+simpletkinter/src/__init__.py
+simpletkinter/src/tkframes.py
+simpletkinter/src/tkwidgets.py
