@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cmc_unofficial_wyt
+Version: 1.0
+Summary: cmc wrapper
+Home-page: https://github.com/wytxty/cmc_unofficial_wyt
+Author: wytxty
+Author-email: yvettewkkaa@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# cmc_unofficial
+cmc wrapper

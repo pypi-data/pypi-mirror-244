@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+cmc_unofficial_wyt/__init__.py
+cmc_unofficial_wyt/core.py
+cmc_unofficial_wyt/utils.py
+cmc_unofficial_wyt.egg-info/PKG-INFO
+cmc_unofficial_wyt.egg-info/SOURCES.txt
+cmc_unofficial_wyt.egg-info/dependency_links.txt
+cmc_unofficial_wyt.egg-info/top_level.txt
