@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cocoon-data
+Version: 0.1.1
+Summary: Cocoon is an open-source project that aims to free analysts from tedious data transformations with LLM.
+Home-page: https://github.com/Cocoon-Data-Transformation/cocoon/
+Author: Zachary Huang
+Author-email: zh2408@columbia.edu
+License-File: LICENSE
+Requires-Dist: faiss-cpu ==1.7.4
+Requires-Dist: graphviz ==0.20.1
+Requires-Dist: heapq ==1.0.0
+Requires-Dist: ipywidgets ==8.1.0
+Requires-Dist: matplotlib ==3.7.2
+Requires-Dist: networkx ==3.1
+Requires-Dist: numpy ==1.23.5
+Requires-Dist: openai ==0.27.8
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: plotly ==5.15.0
+Requires-Dist: seaborn ==0.12.2
+Requires-Dist: tqdm ==4.64.0
+
