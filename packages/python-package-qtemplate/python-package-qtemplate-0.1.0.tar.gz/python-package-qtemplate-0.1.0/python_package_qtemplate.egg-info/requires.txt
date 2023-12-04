@@ -1,0 +1,6 @@
+
+[dev]
+bump2version
+hypothesis
+pre-commit
+pytest
