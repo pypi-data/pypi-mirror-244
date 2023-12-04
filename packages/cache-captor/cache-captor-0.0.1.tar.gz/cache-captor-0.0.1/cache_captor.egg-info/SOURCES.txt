@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cache-captor/__init__.py
+cache_captor.egg-info/PKG-INFO
+cache_captor.egg-info/SOURCES.txt
+cache_captor.egg-info/dependency_links.txt
+cache_captor.egg-info/top_level.txt
