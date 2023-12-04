@@ -1,0 +1,15 @@
+geostats/Kriging.py,sha256=0fUxFnFoHg1NZxurYrbnPKYaoS0gktyPaHairCFdQB8,4243
+geostats/__init__.py,sha256=hP1tJ8V9bnGHDmrJpCBekbKbmrk7JBxxSQ5xLJNBEp4,899
+geostats/build_Mrho/build_Mrho.c,sha256=qTS6BDSsw119FD0PVZwavUKIKvWfvUcZws5a6lZ8F0A,1061979
+geostats/build_Mrho/build_Mrho.cp39-win_amd64.pyd,sha256=vWGsY_9oOz3xynHcysLNB8tJtmo7KX0ZzIm4UbZp3Uc,196096
+geostats/build_Mrho/build_Mrho.cpython-39-x86_64-linux-gnu.so,sha256=hWAXp2beyCF-Sjuq3JnxOEhGXgEa4rlqqcHnAnq772c,336400
+geostats/build_Mrho/build_Mrho.pyx,sha256=GNWbFsTvhw9R9Eek82zlqzjooV_xWN_A8NJ0B2Bed4w,13672
+geostats/geostats_tools/geostats_tools.c,sha256=cm0Lb9g6IAFoDeAcOvEVWXVVckfnp8Fh_lyAM53xQlI,941180
+geostats/geostats_tools/geostats_tools.cp39-win_amd64.pyd,sha256=nQYf2wEibKCSEfweWkgnxr9VuGPFby5v8oiQUIL1GWA,151040
+geostats/geostats_tools/geostats_tools.cpython-39-x86_64-linux-gnu.so,sha256=Mz_2WwhAFvSWTRx9EvBGjyKkrYBzYjqSyA_nFQ-jOfs,265232
+geostats/geostats_tools/geostats_tools.pyx,sha256=tEPy6hRAhphe0zxKb_ztNOHIzNL0QIZ7KUe05sB-GHI,7139
+geostats-0.1.0.dist-info/LICENSE,sha256=O0si6I1miWXWkvwmKVYdjIPh-LxIvf8NkJ3vBdotOuA,1122
+geostats-0.1.0.dist-info/METADATA,sha256=NmAPtrSVIU5taiUvHazRqLIzqhbtGo56KBKeYZGz3Ig,2002
+geostats-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+geostats-0.1.0.dist-info/top_level.txt,sha256=Dr6mg5W3NDj9n-T-YGJAQjXaQxyw7Fe9zO0WX5SfXAY,9
+geostats-0.1.0.dist-info/RECORD,,
