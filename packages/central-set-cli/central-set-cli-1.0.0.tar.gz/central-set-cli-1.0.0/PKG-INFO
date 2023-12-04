@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: central-set-cli
+Version: 1.0.0
+Summary: A python cli for 
+Author-email: Real Data-Driven <real.datadriven@gmail.com>
+Project-URL: Homepage, https://github.com/realdatadriven/central-set-cli
+Project-URL: Bug Tracker, https://github.com/realdatadriven/central-set-cli/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# central set cli
