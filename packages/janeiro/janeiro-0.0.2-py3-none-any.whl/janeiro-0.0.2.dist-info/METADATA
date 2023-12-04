@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: janeiro
+Version: 0.0.2
+Summary: Python framework that cleanly takes care of micro-service technical details and let you focus on building high value software.
+Author-email: Sylvan Le Deunff <sylvan.ledeunff@gmail.com>
+License: BSD-3-Clause
+Project-URL: Source, https://github.com/sylvanld/python-janeiro
+Keywords: janeiro,framework
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Provides-Extra: dev
+Requires-Dist: black ==23.11.0 ; extra == 'dev'
+Requires-Dist: isort ==5.12.0 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# Python Janeiro
+
+Python framework that cleanly takes care of micro-service technical details and let you focus on building high value software.
+
+[![Rio de Janeiro](https://raw.githubusercontent.com/sylvanld/python-janeiro/main/docs/img/janeiro.jpg)](https://www.youtube.com/watch?v=2GZwbKnjRyE)
+
+## Features
+
+* [Configuration management](./docs/configuration.md)
+* [Configurable logging](./docs/logging.md)
