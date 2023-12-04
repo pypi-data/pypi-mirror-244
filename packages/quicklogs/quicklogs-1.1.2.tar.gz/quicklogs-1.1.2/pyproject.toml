@@ -1,0 +1,23 @@
+[project]
+name = "quicklogs"
+version = "1.1.2"
+description = "Easily configure Python loggers."
+authors = [{ name = "Dan Kelleher", email = "kelleherjdan@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Logging",
+]
+keywords = ["logs", "logger", "loggers", "logging"]
+
+[project.optional-dependencies]
+dev = ["black", "pytest"]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"

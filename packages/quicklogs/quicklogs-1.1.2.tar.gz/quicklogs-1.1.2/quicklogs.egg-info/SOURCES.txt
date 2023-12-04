@@ -1,0 +1,11 @@
+.gitignore
+README.md
+pyproject.toml
+quicklogs/__init__.py
+quicklogs/quicklogs.py
+quicklogs.egg-info/PKG-INFO
+quicklogs.egg-info/SOURCES.txt
+quicklogs.egg-info/dependency_links.txt
+quicklogs.egg-info/requires.txt
+quicklogs.egg-info/top_level.txt
+tests/test_logger.py
