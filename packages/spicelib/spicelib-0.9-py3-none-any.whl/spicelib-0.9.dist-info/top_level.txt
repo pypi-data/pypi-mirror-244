@@ -1,0 +1,6 @@
+dist
+doc
+examples
+spicelib
+tests
+unittests
