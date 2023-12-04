@@ -1,0 +1,10 @@
+LICENSE
+README.md
+lipandas.py
+setup.py
+lipandas.egg-info/PKG-INFO
+lipandas.egg-info/SOURCES.txt
+lipandas.egg-info/dependency_links.txt
+lipandas.egg-info/entry_points.txt
+lipandas.egg-info/requires.txt
+lipandas.egg-info/top_level.txt
