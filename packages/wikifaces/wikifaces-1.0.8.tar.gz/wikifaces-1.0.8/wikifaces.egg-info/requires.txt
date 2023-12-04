@@ -1,0 +1,12 @@
+requests
+facenet-pytorch
+pymediawiki
+tqdm
+numpy
+pillow
+opencv-python
+
+[dev]
+pylint~=2.14.0
+toml~=0.10.2
+yapf~=0.32.0
