@@ -1,0 +1,7 @@
+setup.py
+fluent_pipelines/__init__.py
+fluent_pipelines/pipe.py
+fluentpipelines.egg-info/PKG-INFO
+fluentpipelines.egg-info/SOURCES.txt
+fluentpipelines.egg-info/dependency_links.txt
+fluentpipelines.egg-info/top_level.txt
