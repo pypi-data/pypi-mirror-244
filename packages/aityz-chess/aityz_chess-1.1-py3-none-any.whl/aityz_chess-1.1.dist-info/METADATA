@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aityz-chess
+Version: 1.1
+Summary: A Python package for analysing chess.com games.
+Home-page: https://github.com/Aityz/Chess
+License: MIT
+Requires-Python: >=3.6
+Requires-Dist: chess
+Requires-Dist: matplotlib
+Requires-Dist: requests
+Requires-Dist: stockfish
+Requires-Dist: pillow
+
+# Aityz Chess
+Aityz Chess is a library for analysis chess games. It is ergonomic, with compatability for creating matplotlib plots, and stunning displays of data extracted from the chess.com Public API.
