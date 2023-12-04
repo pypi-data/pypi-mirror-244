@@ -1,0 +1,8 @@
+jiwer
+numpy>=1.19.4
+openai-whisper
+opendr-toolkit-engine
+pandas
+torch==1.13.1
+tqdm
+vosk
