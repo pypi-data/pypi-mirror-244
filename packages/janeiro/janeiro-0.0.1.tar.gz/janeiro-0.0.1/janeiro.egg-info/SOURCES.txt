@@ -1,0 +1,17 @@
+.gitignore
+Makefile
+README.md
+pyproject.toml
+.github/workflows/release.yml
+docs/configuration.md
+docs/logging.md
+docs/img/janeiro.jpg
+janeiro/__init__.py
+janeiro/config.py
+janeiro/logging.py
+janeiro.egg-info/PKG-INFO
+janeiro.egg-info/SOURCES.txt
+janeiro.egg-info/dependency_links.txt
+janeiro.egg-info/requires.txt
+janeiro.egg-info/top_level.txt
+tests/test_config.py
