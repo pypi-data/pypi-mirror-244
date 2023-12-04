@@ -1,0 +1,9 @@
+miksisdk/base.pypy37-pp73-x86-linux-gnu.so,sha256=RsQsxvLA97LdkOwVDDCOLoWURtHFLXNAxCNQhVJtmjc,83484
+miksisdk/api.pypy37-pp73-x86-linux-gnu.so,sha256=fgeWrLpiA77FS6wvvzc4ArGKI8jEx8yuuTklBdC17p8,91288
+miksisdk/agent.pypy37-pp73-x86-linux-gnu.so,sha256=gvqxGDn8B9SULy7h7DBAx7XnIEsoQXn13KyRV89m2vc,88876
+miksisdk/forecast_tool.pypy37-pp73-x86-linux-gnu.so,sha256=7d0s3ipM5cn70y7-kVaalVZvSYPbnvI3oic8RQJ1gbY,122272
+miksisdk/__init__.pypy37-pp73-x86-linux-gnu.so,sha256=CCmhiPnl-s7Lmb-KTFLYx68DbWRP4a_h8CfWy4udafY,21468
+miksisdk-0.0.7.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.7.dist-info/WHEEL,sha256=MaSdypS94EH6RzO3PvwCsQRe9mVpQP_pNoQ419NEvdQ,237
+miksisdk-0.0.7.dist-info/METADATA,sha256=PhpzqtZ2zKswmVxhzXDZEgV8FPT8EU6IiXGnz-zEsDk,330
+miksisdk-0.0.7.dist-info/RECORD,,
