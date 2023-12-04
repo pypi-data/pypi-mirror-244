@@ -1,0 +1,166 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exspy"
+description = "EELS and EDS analysis with the HyperSpy framework"
+requires-python = ">=3.8"
+readme = "README.md"
+keywords=[
+    "data analysis",
+    "microscopy",
+    "electron microscopy",
+    "electron energy loss spectroscopy",
+    "X-ray energy-dispersive spectroscopy"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Physics",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX",
+  "Operating System :: Unix",
+  "Operating System :: MacOS",
+]
+dependencies = [
+  "dask[array]",
+  "hyperspy>=2.0rc0",
+  "matplotlib",
+  "numexpr",
+  "numpy",
+  "pint",
+  "pooch",
+  "prettytable",
+  "requests",
+  "scipy",
+  "traits",
+]
+dynamic = ["version"]
+
+[project.entry-points."hyperspy.extensions"]
+exspy = "exspy"
+
+[project.license]
+file = "LICENSE"
+
+[project.optional-dependencies]
+"gui-jupyter" = ["hyperspy_gui_ipywidgets>=2.0"]
+"gui-traitsui" = ["hyperspy_gui_traitsui>=2.0"]
+"doc" = [
+  "numpydoc",
+  "pydata-sphinx-theme>=0.13",
+  "sphinx",
+  "sphinx-copybutton",
+  "sphinx-design",
+  "sphinx-favicon",
+  "sphinx-gallery",
+  "sphinxcontrib-towncrier",
+  "towncrier",
+]
+"tests" = [
+  "pytest     >= 5.0",
+  "pytest-mpl",
+  "pytest-cov >= 2.8.1",
+  "pytest-xdist",
+  "setuptools-scm",
+]
+"dev" = ["black"]
+"all" = [
+  "exspy[gui-jupyter]",
+  "exspy[gui-traitsui]"
+]
+
+[project.urls]
+"Homepage" = "https://hyperspy.org/exspy"
+"Bug Reports" = "https://github.com/hyperspy/exspy/issues"
+"Source" = "https://github.com/hyperspy/exspy"
+
+[tool.black]
+force-exclude = '''
+  exspy/misc/eds/ffast_mac.py
+  | exspy/misc/elements.py
+'''
+
+[tool.coverage.run]
+branch = true
+source = ["hyperspy"]
+omit = [
+  "hyperspy/tests/*",
+  "prepare_release.py",
+  ]
+
+[tool.coverage.report]
+precision = 2
+
+[tool.pytest.ini_options]
+addopts = "-ra -n auto --dist loadfile"
+testpaths = ["exspy/tests", ]
+
+[tool.setuptools.packages.find]
+include = ["exspy*"]
+# Excluding rsciio.tests.data folder is done in MANIFEST.in
+# because setuptools doesn't support it in pyproject.toml
+
+[tool.setuptools.package-data]
+"*" = [
+  "*hspy",
+  "*.yaml"
+  ]
+
+[tool.setuptools_scm]
+# Presence enables setuptools_scm, the version will be determine at build time from git
+# The version will be updated by the `prepare_release.py` script
+fallback_version = "0.2.dev0"
+
+
+[tool.towncrier]
+package_dir = "exspy"
+filename = "CHANGES.rst"
+directory = "upcoming_changes/"
+title_format = "{version} ({project_date})"
+issue_format = "`#{issue} <https://github.com/hyperspy/exspy/issues/{issue}>`_"
+
+  [[tool.towncrier.type]]
+  directory = "new"
+  name = "New features"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "bugfix"
+  name = "Bug Fixes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "doc"
+  name = "Improved Documentation"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "deprecation"
+  name = "Deprecations"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "enhancements"
+  name = "Enhancements"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "api"
+  name = "API changes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "maintenance"
+  name = "Maintenance"
+  showcontent = true
