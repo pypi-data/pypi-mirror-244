@@ -1,0 +1,42 @@
+import os
+from setuptools import setup, find_packages
+
+version = "2.0.0a5"
+
+with open("README.md", "r", encoding="utf-8") as readme_file:
+    long_description = readme_file.read()
+
+if os.path.isfile("vscode/extcode.js"):
+    with open("vscode/extcode.js", "r", encoding="utf-8") as js_file:
+        data = f"'''{js_file.read()}'''"
+
+    with open("vscode/extcode.py", "w", encoding="utf-8") as data_py:
+        data_py.write(data)
+
+setup(
+    name="vscode.py",
+    version=version,
+    description="Create VSCode Extensions with python",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    author="Swas.py",
+    author_email="cwswas.py@gmail.com",
+    packages=find_packages(),
+    url="https://github.com/CodeWithSwastik/vscode-ext",
+    project_urls={
+        "Issue tracker": "https://github.com/CodeWithSwastik/vscode-ext/issues",
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Topic :: Internet",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Utilities",
+    ],
+    install_requires=["websockets"],
+    python_requires=">=3.8",
+)
