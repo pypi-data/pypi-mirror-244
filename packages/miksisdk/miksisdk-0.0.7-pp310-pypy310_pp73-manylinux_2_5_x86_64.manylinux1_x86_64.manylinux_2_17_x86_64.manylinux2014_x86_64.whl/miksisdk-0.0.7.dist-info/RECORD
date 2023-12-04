@@ -1,0 +1,9 @@
+miksisdk/api.pypy310-pp73-x86_64-linux-gnu.so,sha256=z3rXHOz8UH_NCZ5QnstoRnhWpK24jiytIE3vdb1Fy6s,87656
+miksisdk/forecast_tool.pypy310-pp73-x86_64-linux-gnu.so,sha256=BSJjMnJJZDywQWMxdYOUGVc57QJSo5Qj1ZZfZQgkbnU,120672
+miksisdk/__init__.pypy310-pp73-x86_64-linux-gnu.so,sha256=v_bAwIeuc9ehJ22KfqkZTwMBkXX0ptQpUAs9u17X12I,23496
+miksisdk/base.pypy310-pp73-x86_64-linux-gnu.so,sha256=nw9R3j0g2Rof9c99XyuvBBt8-1Pe_VXGKubHbVG3kms,79200
+miksisdk/agent.pypy310-pp73-x86_64-linux-gnu.so,sha256=eoG52wopeJW9mFkVebYg9-GYajbNzRHbaCJ55lXLQd0,89288
+miksisdk-0.0.7.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.7.dist-info/WHEEL,sha256=50e1NuXR70j7SyZl7HZEFQVrpptbEpEAfBktvPRxUUo,253
+miksisdk-0.0.7.dist-info/METADATA,sha256=PhpzqtZ2zKswmVxhzXDZEgV8FPT8EU6IiXGnz-zEsDk,330
+miksisdk-0.0.7.dist-info/RECORD,,
