@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+async-anomaly/__init__.py
+async_anomaly.egg-info/PKG-INFO
+async_anomaly.egg-info/SOURCES.txt
+async_anomaly.egg-info/dependency_links.txt
+async_anomaly.egg-info/top_level.txt
