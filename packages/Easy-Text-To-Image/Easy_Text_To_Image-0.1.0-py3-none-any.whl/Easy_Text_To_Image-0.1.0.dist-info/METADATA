@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Easy-Text-To-Image
+Version: 0.1.0
+Summary: A Python library to simplify creating images that display text. 
+Home-page: https://github.com/Drakovek/EasyTextToImage
+Author: Drakovek
+Author-email: DrakovekMail@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: Metadata-Magic
+
+# EasyTextToImage
+
+A Python library to simplify creating images that display text. 

@@ -1,0 +1,9 @@
+easy_text_to_image/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+easy_text_to_image/text_to_image.py,sha256=KQUe_ZZI1L208r-ajfsSYV7LY9uNNkVTiRsgdSK6vMo,18622
+easy_text_to_image/test/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+easy_text_to_image/test/test_text_to_image.py,sha256=aYRKFcUWTCnixobzrNMAJ2_dezj7FsZtejSzdMnz7GU,10977
+Easy_Text_To_Image-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Easy_Text_To_Image-0.1.0.dist-info/METADATA,sha256=EG-0v4kb_vNlB8AXtZvrQ3iwhXiRu3pASlIIPcRfyag,639
+Easy_Text_To_Image-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Easy_Text_To_Image-0.1.0.dist-info/top_level.txt,sha256=bSmSLL5jYMrtVuNRarpNLU1m-XcxhNNaRpY-KXo38dg,19
+Easy_Text_To_Image-0.1.0.dist-info/RECORD,,
