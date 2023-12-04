@@ -1,0 +1,29 @@
+    ?start: value
+
+    ?value: object
+          | array
+          | tuple
+          | string
+          | SIGNED_NUMBER      -> number
+          | "true"             -> true
+          | "false"            -> false
+          | "null"             -> null
+
+    array  : "[" [value ( (","|";" )value )*] [","|";"]"]"
+    tuple  : "(" [value ( (","|";" ) value )*] [","|";"]")"
+    object : ["{"] [pair ( (","|";" ) pair )*] [","|";"] ["}"]
+    pair   : string (":" | "=") value 
+    
+    UQSPECIAL : "_" | "-" | "~" | "$" | "@" | "&" | "?" | "." | "%" | ">" | "<" | "#" | "!" | "^" | "+" | "/" | "*"
+    UQSTRING : (UQSPECIAL|LETTER) (UQSPECIAL|LETTER|DIGIT)*
+    string : ESCAPED_STRING|UQSTRING
+    %import common.CNAME
+    %import common.DIGIT
+    %import common.LETTER
+    %import common.ESCAPED_STRING
+    %import common.SIGNED_NUMBER
+    %import common.WS
+
+    %ignore WS
+
+
