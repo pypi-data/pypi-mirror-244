@@ -1,0 +1,3 @@
+[console_scripts]
+denz=denz.cli:app
+
