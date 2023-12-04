@@ -1,0 +1,16 @@
+doxa_cli/__init__.py,sha256=mx7AWAmeR5nlpNhrhG-2yILlnUFq_-7Vkg-OHp0NKz0,740
+doxa_cli/__main__.py,sha256=nHzsUCec-UvxRtmSnf5H_phE0rOwCmQFL0RqkOcdxDw,69
+doxa_cli/constants.py,sha256=8jiZCGSBufHODWBuD_1yIuvg1pT8RL0t_l4BV-zWIk8,2880
+doxa_cli/errors.py,sha256=3eAryE8fXo_rX3WLrPbtPm6wtXhSfMPANm71OsCHSCw,592
+doxa_cli/utils.py,sha256=xzOmrP6-5gULk86JzR5A1HgEdHFXkrXPP9zYnWc4um4,3720
+doxa_cli/commands/config.py,sha256=2SxvNyOFAry5L_HxIGIpAenSUu7uc9d0I_C76qZU0HM,2223
+doxa_cli/commands/login.py,sha256=SplxQ8bpIQjX8KXXr5QqS2pSHydlMLH3J7ry321EJhw,3954
+doxa_cli/commands/logout.py,sha256=VcfrLORriOW5GsFjyqfY1ykBzDRZSyBdX9liRYgV0Yw,366
+doxa_cli/commands/surprise.py,sha256=DBi6WZSX1ONl_vq1d4I_77guMqQZyV7-PTGF-U16UcA,723
+doxa_cli/commands/upload.py,sha256=Ml86nJH7PuGxnltLxKVHY2Arw7_G480jwfz7n7pRHIg,11802
+doxa_cli/commands/user.py,sha256=tTLAx-8NjbS4jV62t5xKihGGRKdZlzkPwOX_0NEuLBU,1755
+doxa_cli-0.1.5.dist-info/METADATA,sha256=jhbMb89ePghNIM7x2VzEwl2U9WpZXLq65Nm70V-zhRI,4488
+doxa_cli-0.1.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+doxa_cli-0.1.5.dist-info/entry_points.txt,sha256=B3vzgSwmtyMuN0KduhoTfy7vh7bHtvbDQlNNrhWANJk,39
+doxa_cli-0.1.5.dist-info/licenses/LICENSE,sha256=zNUZOaOW3CVU5abz2OXBS676GNd2xyZXH5V5oFGkHig,1061
+doxa_cli-0.1.5.dist-info/RECORD,,
