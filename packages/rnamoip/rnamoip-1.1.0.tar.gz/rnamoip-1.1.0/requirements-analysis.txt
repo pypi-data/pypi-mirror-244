@@ -1,0 +1,16 @@
+-r requirements.txt
+# Analysis
+kaleido==0.2.1
+matplotlib==3.5.1
+plotly==5.7.0
+varnaapi
+pandas==1.5.0
+colorcet==3.0.1
+
+# Forgi stuff
+forgi==2.2.2
+
+# Rin Import stuff
+networkx==2.8.2
+cloudpickle==2.1.0
+tqdm==4.64.1

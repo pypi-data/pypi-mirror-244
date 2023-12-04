@@ -1,0 +1,59 @@
+# Log files
+*.log
+*.lp
+*.mps
+*.mps.gz
+my_results/
+pdbs_results*.json
+pdbs.json
+pdb_interaction_infos.json
+pdb_interaction_infos_filtered.json
+motif_interaction_infos.json
+figure/
+z_output/
+backup_paper/
+current_results/
+generation/
+Roman/
+chains/
+
+# Latex files
+*.aux
+*.fdb_latexmk
+*.files
+*.fls
+*.synctex.gz
+*.pdf
+rnamoip_tex/
+
+# Motifs Database
+CATALOGUE/
+
+# Compiled Python files
+RNAMoIP_venv
+.tox/
+.coverage
+htmlcov/
+*.egg-info/
+*.pyc
+__pycache__/
+build/
+dist/
+
+# Tool folders
+.vscode/
+*.code-workspace
+.pytest_cache/
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+.python-version
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes

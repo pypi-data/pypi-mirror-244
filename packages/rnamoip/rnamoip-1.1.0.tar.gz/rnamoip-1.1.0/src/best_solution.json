@@ -1,0 +1,7909 @@
+[
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 4,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 4,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 3,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 15,
+    "total_motifs_interactions": 8,
+    "total_motifs_interactions_can": 5,
+    "total_motifs_interactions_non_can": 3
+  },
+  {
+    "interactions_ratio": 0.3333333333333333,
+    "interactions_ratio_can": 0.3333333333333333,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.3333333333333333,
+    "generous_interactions_ratio_can": 0.3333333333333333,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 3,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "356",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "7",
+          0
+        ],
+        332
+      ]
+    ],
+    "total_pdb_interactions": 13,
+    "total_motifs_interactions": 5,
+    "total_motifs_interactions_can": 4,
+    "total_motifs_interactions_non_can": 1
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 2,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 2,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "64",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "538",
+          0
+        ],
+        193
+      ]
+    ],
+    "total_pdb_interactions": 10,
+    "total_motifs_interactions": 7,
+    "total_motifs_interactions_can": 3,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.5714285714285714,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.5714285714285714,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 8,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 7,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 4,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "479",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "325",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "320",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "242",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "345",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 20,
+    "total_motifs_interactions": 16,
+    "total_motifs_interactions_can": 11,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.2727272727272727,
+    "interactions_ratio_can": 0.2727272727272727,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.2727272727272727,
+    "generous_interactions_ratio_can": 0.2727272727272727,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 11,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 11,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "16",
+    "best_generous_pdb_model": "16",
+    "best_occurence_list": [
+      [
+        [
+          "378",
+          0
+        ],
+        284
+      ],
+      [
+        [
+          "75",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "202",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "362",
+          0
+        ],
+        211
+      ],
+      [
+        [
+          "604",
+          0
+        ],
+        249
+      ]
+    ],
+    "total_pdb_interactions": 22,
+    "total_motifs_interactions": 15,
+    "total_motifs_interactions_can": 9,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 2,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 2,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 12,
+    "total_motifs_interactions": 7,
+    "total_motifs_interactions_can": 5,
+    "total_motifs_interactions_non_can": 2
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 0,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 0,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 6,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 8,
+    "total_motifs_interactions": 16,
+    "total_motifs_interactions_can": 13,
+    "total_motifs_interactions_non_can": 3
+  },
+  {
+    "interactions_ratio": 0.6666666666666666,
+    "interactions_ratio_can": 0.6666666666666666,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.6666666666666666,
+    "generous_interactions_ratio_can": 0.6666666666666666,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 3,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 2,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 4,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "79",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "31",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "498",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "98",
+          0
+        ],
+        380
+      ]
+    ],
+    "total_pdb_interactions": 12,
+    "total_motifs_interactions": 11,
+    "total_motifs_interactions_can": 8,
+    "total_motifs_interactions_non_can": 3
+  },
+  {
+    "interactions_ratio": 0.2,
+    "interactions_ratio_can": 0.3333333333333333,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.2,
+    "generous_interactions_ratio_can": 0.3333333333333333,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 5,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "34",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "348",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "719",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "252",
+          0
+        ],
+        278
+      ]
+    ],
+    "total_pdb_interactions": 21,
+    "total_motifs_interactions": 12,
+    "total_motifs_interactions_can": 9,
+    "total_motifs_interactions_non_can": 3
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 3,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 18,
+    "total_motifs_interactions": 14,
+    "total_motifs_interactions_can": 8,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0.6666666666666666,
+    "interactions_ratio_can": 0.6666666666666666,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.6666666666666666,
+    "generous_interactions_ratio_can": 0.6666666666666666,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 3,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 2,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "653",
+          0
+        ],
+        265
+      ],
+      [
+        [
+          "514",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "557",
+          0
+        ],
+        398
+      ],
+      [
+        [
+          "90",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "230",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "166",
+          0
+        ],
+        390
+      ],
+      [
+        [
+          "680",
+          0
+        ],
+        353
+      ]
+    ],
+    "total_pdb_interactions": 10,
+    "total_motifs_interactions": 18,
+    "total_motifs_interactions_can": 12,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.42857142857142855,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.42857142857142855,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 8,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 7,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 3,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "4",
+          0
+        ],
+        160
+      ],
+      [
+        [
+          "449",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "840",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "672",
+          0
+        ],
+        184
+      ]
+    ],
+    "total_pdb_interactions": 19,
+    "total_motifs_interactions": 14,
+    "total_motifs_interactions_can": 8,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 3,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 0,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 3,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 18,
+    "total_motifs_interactions": 12,
+    "total_motifs_interactions_can": 6,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0.8,
+    "interactions_ratio_can": 0.8,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.8,
+    "generous_interactions_ratio_can": 0.8,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 5,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 5,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "253",
+          0
+        ],
+        299
+      ],
+      [
+        [
+          "713",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "1044",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "284",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "576",
+          0
+        ],
+        377
+      ],
+      [
+        [
+          "561",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "529",
+          0
+        ],
+        399
+      ]
+    ],
+    "total_pdb_interactions": 22,
+    "total_motifs_interactions": 18,
+    "total_motifs_interactions_can": 13,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 2,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 2,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 8,
+    "total_motifs_interactions": 6,
+    "total_motifs_interactions_can": 4,
+    "total_motifs_interactions_non_can": 2
+  },
+  {
+    "interactions_ratio": 0.5384615384615384,
+    "interactions_ratio_can": 0.5384615384615384,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5384615384615384,
+    "generous_interactions_ratio_can": 0.5384615384615384,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 13,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 13,
+    "correct_can_count_of_motifs": 7,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "481",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "146",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "16",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "545",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "612",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "540",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "211",
+          0
+        ],
+        263
+      ]
+    ],
+    "total_pdb_interactions": 18,
+    "total_motifs_interactions": 22,
+    "total_motifs_interactions_can": 16,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 1.0,
+    "interactions_ratio_can": 1.0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 1.0,
+    "generous_interactions_ratio_can": 1.0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 4,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 4,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "248",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "456",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "540",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "488",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "263",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "36",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "201",
+          0
+        ],
+        390
+      ]
+    ],
+    "total_pdb_interactions": 14,
+    "total_motifs_interactions": 19,
+    "total_motifs_interactions_can": 14,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.6,
+    "interactions_ratio_can": 0.75,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.6,
+    "generous_interactions_ratio_can": 0.75,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 5,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 4,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "558",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "180",
+          0
+        ],
+        281
+      ],
+      [
+        [
+          "651",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "129",
+          0
+        ],
+        280
+      ],
+      [
+        [
+          "706",
+          0
+        ],
+        258
+      ],
+      [
+        [
+          "366",
+          0
+        ],
+        351
+      ]
+    ],
+    "total_pdb_interactions": 21,
+    "total_motifs_interactions": 19,
+    "total_motifs_interactions_can": 14,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.47058823529411764,
+    "interactions_ratio_can": 0.47058823529411764,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.47058823529411764,
+    "generous_interactions_ratio_can": 0.47058823529411764,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 17,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 0,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "8",
+    "best_generous_pdb_model": "8",
+    "best_occurence_list": [
+      [
+        [
+          "927",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "632",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "337",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1175",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "966",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "151",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "447",
+          0
+        ],
+        263
+      ]
+    ],
+    "total_pdb_interactions": 26,
+    "total_motifs_interactions": 22,
+    "total_motifs_interactions_can": 15,
+    "total_motifs_interactions_non_can": 7
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 2,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 2,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "733",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "85",
+          0
+        ],
+        176
+      ],
+      [
+        [
+          "740",
+          0
+        ],
+        248
+      ],
+      [
+        [
+          "286",
+          0
+        ],
+        151
+      ],
+      [
+        [
+          "604",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 27,
+    "total_motifs_interactions": 17,
+    "total_motifs_interactions_can": 8,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.5263157894736842,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.5263157894736842,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 20,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 19,
+    "correct_can_count_of_motifs": 10,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "751",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "333",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "444",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "332",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "298",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "78",
+          0
+        ],
+        176
+      ],
+      [
+        [
+          "1036",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "221",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "545",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 33,
+    "total_motifs_interactions": 26,
+    "total_motifs_interactions_can": 17,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 0,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 0,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 11,
+    "motifs_count_without_non_canonique": 11,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 31,
+    "total_motifs_interactions": 33,
+    "total_motifs_interactions_can": 25,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.75,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.75,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 4,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 2,
+    "can_count_of_pdb_in_motifs": 2,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 4,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "560",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "591",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "407",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "661",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "549",
+          0
+        ],
+        398
+      ],
+      [
+        [
+          "789",
+          0
+        ],
+        383
+      ]
+    ],
+    "total_pdb_interactions": 17,
+    "total_motifs_interactions": 17,
+    "total_motifs_interactions_can": 12,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.38461538461538464,
+    "interactions_ratio_can": 0.4166666666666667,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.38461538461538464,
+    "generous_interactions_ratio_can": 0.4166666666666667,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 13,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 12,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1066",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "988",
+          0
+        ],
+        184
+      ],
+      [
+        [
+          "622",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "196",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "69",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1124",
+          0
+        ],
+        276
+      ]
+    ],
+    "total_pdb_interactions": 25,
+    "total_motifs_interactions": 18,
+    "total_motifs_interactions_can": 14,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 1,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 1,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 20,
+    "total_motifs_interactions": 12,
+    "total_motifs_interactions_can": 8,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 0,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 0,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 6,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 16,
+    "total_motifs_interactions": 19,
+    "total_motifs_interactions_can": 11,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 3,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 32,
+    "total_motifs_interactions": 15,
+    "total_motifs_interactions_can": 9,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0.29411764705882354,
+    "interactions_ratio_can": 0.29411764705882354,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.29411764705882354,
+    "generous_interactions_ratio_can": 0.29411764705882354,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 17,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "736",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "876",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "357",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "356",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "754",
+          0
+        ],
+        213
+      ],
+      [
+        [
+          "77",
+          0
+        ],
+        176
+      ],
+      [
+        [
+          "632",
+          0
+        ],
+        355
+      ],
+      [
+        [
+          "664",
+          0
+        ],
+        362
+      ]
+    ],
+    "total_pdb_interactions": 32,
+    "total_motifs_interactions": 24,
+    "total_motifs_interactions_can": 16,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0.5,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0.5,
+    "interactions_count_of_pdb_in_motifs": 10,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 8,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "270",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "497",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "6",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "485",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "287",
+          0
+        ],
+        167
+      ],
+      [
+        [
+          "650",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "185",
+          0
+        ],
+        390
+      ]
+    ],
+    "total_pdb_interactions": 24,
+    "total_motifs_interactions": 21,
+    "total_motifs_interactions_can": 11,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0.5833333333333334,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.5833333333333334,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 12,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 2,
+    "can_count_of_pdb_in_motifs": 10,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 0,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "849",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "222",
+          0
+        ],
+        280
+      ],
+      [
+        [
+          "310",
+          0
+        ],
+        151
+      ],
+      [
+        [
+          "281",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1077",
+          0
+        ],
+        260
+      ],
+      [
+        [
+          "264",
+          0
+        ],
+        314
+      ]
+    ],
+    "total_pdb_interactions": 24,
+    "total_motifs_interactions": 21,
+    "total_motifs_interactions_can": 13,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.5833333333333334,
+    "interactions_ratio_can": 0.5454545454545454,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.5833333333333334,
+    "generous_interactions_ratio_can": 0.5454545454545454,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 12,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 11,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 10,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "348",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "286",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "609",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "64",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "64",
+          1
+        ],
+        313
+      ],
+      [
+        [
+          "791",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "553",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "30",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "809",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "358",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "446",
+          0
+        ],
+        351
+      ]
+    ],
+    "total_pdb_interactions": 35,
+    "total_motifs_interactions": 33,
+    "total_motifs_interactions_can": 24,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0.631578947368421,
+    "interactions_ratio_can": 0.6111111111111112,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.631578947368421,
+    "generous_interactions_ratio_can": 0.6111111111111112,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 19,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 18,
+    "correct_can_count_of_motifs": 11,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "285",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "960",
+          0
+        ],
+        327
+      ],
+      [
+        [
+          "650",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "386",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "292",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "933",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "437",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "894",
+          0
+        ],
+        265
+      ],
+      [
+        [
+          "523",
+          0
+        ],
+        261
+      ]
+    ],
+    "total_pdb_interactions": 34,
+    "total_motifs_interactions": 26,
+    "total_motifs_interactions_can": 21,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.45,
+    "interactions_ratio_can": 0.47058823529411764,
+    "interactions_ratio_non_can": 0.3333333333333333,
+    "generous_interactions_ratio": 0.45,
+    "generous_interactions_ratio_can": 0.47058823529411764,
+    "generous_interactions_ratio_non_can": 0.3333333333333333,
+    "interactions_count_of_pdb_in_motifs": 20,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "454",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "47",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "728",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "788",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "882",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "879",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "139",
+          0
+        ],
+        176
+      ],
+      [
+        [
+          "883",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "796",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 35,
+    "total_motifs_interactions": 26,
+    "total_motifs_interactions_can": 15,
+    "total_motifs_interactions_non_can": 11
+  },
+  {
+    "interactions_ratio": 0.2727272727272727,
+    "interactions_ratio_can": 0.3333333333333333,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.2727272727272727,
+    "generous_interactions_ratio_can": 0.3333333333333333,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 11,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 9,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1314",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "745",
+          0
+        ],
+        229
+      ],
+      [
+        [
+          "1323",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "427",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "700",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "886",
+          0
+        ],
+        163
+      ],
+      [
+        [
+          "414",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "733",
+          0
+        ],
+        384
+      ],
+      [
+        [
+          "747",
+          0
+        ],
+        270
+      ]
+    ],
+    "total_pdb_interactions": 33,
+    "total_motifs_interactions": 29,
+    "total_motifs_interactions_can": 17,
+    "total_motifs_interactions_non_can": 12
+  },
+  {
+    "interactions_ratio": 0.35,
+    "interactions_ratio_can": 0.4117647058823529,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.35,
+    "generous_interactions_ratio_can": 0.4117647058823529,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 20,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 7,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "505",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "522",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1308",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1607",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "760",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "820",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "152",
+          0
+        ],
+        176
+      ],
+      [
+        [
+          "918",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "828",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 36,
+    "total_motifs_interactions": 26,
+    "total_motifs_interactions_can": 18,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.47058823529411764,
+    "interactions_ratio_non_can": 0.6666666666666666,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.47058823529411764,
+    "generous_interactions_ratio_non_can": 0.6666666666666666,
+    "interactions_count_of_pdb_in_motifs": 20,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 2,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1102",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "825",
+          0
+        ],
+        209
+      ],
+      [
+        [
+          "395",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "167",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "1361",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "800",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "1397",
+          0
+        ],
+        150
+      ],
+      [
+        [
+          "568",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "720",
+          0
+        ],
+        367
+      ],
+      [
+        [
+          "723",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "1144",
+          0
+        ],
+        276
+      ]
+    ],
+    "total_pdb_interactions": 31,
+    "total_motifs_interactions": 33,
+    "total_motifs_interactions_can": 23,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0.42857142857142855,
+    "interactions_ratio_can": 0.42857142857142855,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.42857142857142855,
+    "generous_interactions_ratio_can": 0.42857142857142855,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 7,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 7,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 4,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "172",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "96",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "24",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "557",
+          0
+        ],
+        220
+      ]
+    ],
+    "total_pdb_interactions": 14,
+    "total_motifs_interactions": 11,
+    "total_motifs_interactions_can": 7,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0.8333333333333334,
+    "interactions_ratio_can": 0.8333333333333334,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.8333333333333334,
+    "generous_interactions_ratio_can": 0.8333333333333334,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 6,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 6,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "744",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "290",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "283",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "810",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "503",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 12,
+    "total_motifs_interactions": 15,
+    "total_motifs_interactions_can": 13,
+    "total_motifs_interactions_non_can": 2
+  },
+  {
+    "interactions_ratio": 0.75,
+    "interactions_ratio_can": 0.75,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.75,
+    "generous_interactions_ratio_can": 0.75,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 4,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 4,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 3,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "382",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "174",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "291",
+          0
+        ],
+        362
+      ]
+    ],
+    "total_pdb_interactions": 13,
+    "total_motifs_interactions": 8,
+    "total_motifs_interactions_can": 7,
+    "total_motifs_interactions_non_can": 1
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 0,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 0,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 7,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 19,
+    "total_motifs_interactions": 22,
+    "total_motifs_interactions_can": 14,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 1.0,
+    "interactions_ratio_can": 1.0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 1.0,
+    "generous_interactions_ratio_can": 1.0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 1,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 1,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "409",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "356",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "391",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "467",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "448",
+          0
+        ],
+        398
+      ]
+    ],
+    "total_pdb_interactions": 14,
+    "total_motifs_interactions": 14,
+    "total_motifs_interactions_can": 10,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0.4,
+    "interactions_ratio_can": 0.4,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.4,
+    "generous_interactions_ratio_can": 0.4,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 5,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 5,
+    "correct_can_count_of_motifs": 2,
+    "motifs_count_without_canonique": 0,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": "11",
+    "best_generous_pdb_model": "11",
+    "best_occurence_list": [
+      [
+        [
+          "307",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "487",
+          0
+        ],
+        308
+      ]
+    ],
+    "total_pdb_interactions": 13,
+    "total_motifs_interactions": 6,
+    "total_motifs_interactions_can": 4,
+    "total_motifs_interactions_non_can": 2
+  },
+  {
+    "interactions_ratio": 0.4,
+    "interactions_ratio_can": 0.4,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.4,
+    "generous_interactions_ratio_can": 0.4,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 15,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 0,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "353",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1002",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1197",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "880",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1213",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1059",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1033",
+          0
+        ],
+        265
+      ]
+    ],
+    "total_pdb_interactions": 31,
+    "total_motifs_interactions": 22,
+    "total_motifs_interactions_can": 18,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 0,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 0,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 3,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 13,
+    "total_motifs_interactions": 11,
+    "total_motifs_interactions_can": 6,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.7142857142857143,
+    "interactions_ratio_can": 0.7142857142857143,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.7142857142857143,
+    "generous_interactions_ratio_can": 0.7142857142857143,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 7,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 7,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "9",
+    "best_generous_pdb_model": "9",
+    "best_occurence_list": [
+      [
+        [
+          "992",
+          0
+        ],
+        258
+      ],
+      [
+        [
+          "288",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1027",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "646",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "504",
+          0
+        ],
+        367
+      ]
+    ],
+    "total_pdb_interactions": 17,
+    "total_motifs_interactions": 14,
+    "total_motifs_interactions_can": 10,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0.5263157894736842,
+    "interactions_ratio_can": 0.5294117647058824,
+    "interactions_ratio_non_can": 0.5,
+    "generous_interactions_ratio": 0.5263157894736842,
+    "generous_interactions_ratio_can": 0.5294117647058824,
+    "generous_interactions_ratio_non_can": 0.5,
+    "interactions_count_of_pdb_in_motifs": 19,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 9,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 7,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1034",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "63",
+          0
+        ],
+        177
+      ],
+      [
+        [
+          "390",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1331",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "182",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "554",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "895",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "444",
+          0
+        ],
+        345
+      ],
+      [
+        [
+          "776",
+          0
+        ],
+        362
+      ]
+    ],
+    "total_pdb_interactions": 31,
+    "total_motifs_interactions": 26,
+    "total_motifs_interactions_can": 17,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 1,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 1,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 12,
+    "total_motifs_interactions": 14,
+    "total_motifs_interactions_can": 10,
+    "total_motifs_interactions_non_can": 4
+  },
+  {
+    "interactions_ratio": 0.3125,
+    "interactions_ratio_can": 0.35714285714285715,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.3125,
+    "generous_interactions_ratio_can": 0.35714285714285715,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 16,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 14,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 6,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "627",
+          0
+        ],
+        183
+      ],
+      [
+        [
+          "769",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "399",
+          0
+        ],
+        241
+      ],
+      [
+        [
+          "515",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "302",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "289",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "428",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "639",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 27,
+    "total_motifs_interactions": 28,
+    "total_motifs_interactions_can": 19,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0.7142857142857143,
+    "interactions_ratio_can": 0.7142857142857143,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.7142857142857143,
+    "generous_interactions_ratio_can": 0.7142857142857143,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 7,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 7,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "6",
+    "best_generous_pdb_model": "6",
+    "best_occurence_list": [
+      [
+        [
+          "1149",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "10",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "354",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "853",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "705",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "51",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "56",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "238",
+          0
+        ],
+        380
+      ]
+    ],
+    "total_pdb_interactions": 21,
+    "total_motifs_interactions": 21,
+    "total_motifs_interactions_can": 15,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0.4666666666666667,
+    "interactions_ratio_can": 0.42857142857142855,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.4666666666666667,
+    "generous_interactions_ratio_can": 0.42857142857142855,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 15,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 14,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "318",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "464",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "872",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "584",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "565",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "609",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "862",
+          0
+        ],
+        359
+      ],
+      [
+        [
+          "740",
+          0
+        ],
+        398
+      ],
+      [
+        [
+          "35",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "410",
+          0
+        ],
+        263
+      ]
+    ],
+    "total_pdb_interactions": 31,
+    "total_motifs_interactions": 28,
+    "total_motifs_interactions_can": 16,
+    "total_motifs_interactions_non_can": 12
+  },
+  {
+    "interactions_ratio": 0.6666666666666666,
+    "interactions_ratio_can": 0.6666666666666666,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.6666666666666666,
+    "generous_interactions_ratio_can": 0.6666666666666666,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 3,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 2,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "0",
+          0
+        ],
+        396
+      ],
+      [
+        [
+          "120",
+          0
+        ],
+        261
+      ]
+    ],
+    "total_pdb_interactions": 14,
+    "total_motifs_interactions": 6,
+    "total_motifs_interactions_can": 3,
+    "total_motifs_interactions_non_can": 3
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.5333333333333333,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.5333333333333333,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 16,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "477",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "1026",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "365",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "366",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "749",
+          0
+        ],
+        341
+      ],
+      [
+        [
+          "423",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "71",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "76",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "80",
+          0
+        ],
+        332
+      ]
+    ],
+    "total_pdb_interactions": 27,
+    "total_motifs_interactions": 25,
+    "total_motifs_interactions_can": 18,
+    "total_motifs_interactions_non_can": 7
+  },
+  {
+    "interactions_ratio": 0.45,
+    "interactions_ratio_can": 0.47058823529411764,
+    "interactions_ratio_non_can": 0.3333333333333333,
+    "generous_interactions_ratio": 0.45,
+    "generous_interactions_ratio_can": 0.47058823529411764,
+    "generous_interactions_ratio_non_can": 0.3333333333333333,
+    "interactions_count_of_pdb_in_motifs": 20,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "364",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1010",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "766",
+          0
+        ],
+        209
+      ],
+      [
+        [
+          "582",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "357",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1234",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1264",
+          0
+        ],
+        150
+      ],
+      [
+        [
+          "516",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "655",
+          0
+        ],
+        367
+      ],
+      [
+        [
+          "658",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "1049",
+          0
+        ],
+        276
+      ]
+    ],
+    "total_pdb_interactions": 31,
+    "total_motifs_interactions": 33,
+    "total_motifs_interactions_can": 24,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.625,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.625,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 10,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 8,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 5,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "583",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "294",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "400",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "888",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "394",
+          0
+        ],
+        126
+      ],
+      [
+        [
+          "535",
+          0
+        ],
+        367
+      ]
+    ],
+    "total_pdb_interactions": 21,
+    "total_motifs_interactions": 20,
+    "total_motifs_interactions_can": 11,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0.5714285714285714,
+    "interactions_ratio_can": 0.5714285714285714,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5714285714285714,
+    "generous_interactions_ratio_can": 0.5714285714285714,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 14,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 14,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 12,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1524",
+          0
+        ],
+        119
+      ],
+      [
+        [
+          "1309",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1144",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1166",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "439",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1576",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "65",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1061",
+          0
+        ],
+        398
+      ],
+      [
+        [
+          "1061",
+          1
+        ],
+        398
+      ],
+      [
+        [
+          "490",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "1597",
+          0
+        ],
+        383
+      ],
+      [
+        [
+          "306",
+          0
+        ],
+        390
+      ]
+    ],
+    "total_pdb_interactions": 36,
+    "total_motifs_interactions": 33,
+    "total_motifs_interactions_can": 25,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.375,
+    "interactions_ratio_can": 0.375,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.375,
+    "generous_interactions_ratio_can": 0.375,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 8,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 8,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 4,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "493",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "919",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "348",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "622",
+          0
+        ],
+        298
+      ]
+    ],
+    "total_pdb_interactions": 18,
+    "total_motifs_interactions": 12,
+    "total_motifs_interactions_can": 9,
+    "total_motifs_interactions_non_can": 3
+  },
+  {
+    "interactions_ratio": 0.3333333333333333,
+    "interactions_ratio_can": 0.3333333333333333,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.3333333333333333,
+    "generous_interactions_ratio_can": 0.3333333333333333,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 6,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 6,
+    "correct_can_count_of_motifs": 2,
+    "motifs_count_without_canonique": 2,
+    "motifs_count_without_non_canonique": 4,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "120",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "368",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "15",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "266",
+          0
+        ],
+        284
+      ]
+    ],
+    "total_pdb_interactions": 13,
+    "total_motifs_interactions": 10,
+    "total_motifs_interactions_can": 9,
+    "total_motifs_interactions_non_can": 1
+  },
+  {
+    "interactions_ratio": 0.47368421052631576,
+    "interactions_ratio_can": 0.47368421052631576,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.47368421052631576,
+    "generous_interactions_ratio_can": 0.47368421052631576,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 19,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 19,
+    "correct_can_count_of_motifs": 9,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "314",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "299",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "321",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1152",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "344",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "664",
+          0
+        ],
+        282
+      ],
+      [
+        [
+          "838",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "1234",
+          0
+        ],
+        383
+      ],
+      [
+        [
+          "230",
+          0
+        ],
+        314
+      ]
+    ],
+    "total_pdb_interactions": 29,
+    "total_motifs_interactions": 25,
+    "total_motifs_interactions_can": 20,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.5454545454545454,
+    "interactions_ratio_can": 0.5454545454545454,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5454545454545454,
+    "generous_interactions_ratio_can": 0.5454545454545454,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 11,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 11,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "290",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "15",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "745",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "745",
+          1
+        ],
+        208
+      ],
+      [
+        [
+          "213",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "635",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "23",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "647",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "298",
+          0
+        ],
+        263
+      ]
+    ],
+    "total_pdb_interactions": 35,
+    "total_motifs_interactions": 28,
+    "total_motifs_interactions_can": 21,
+    "total_motifs_interactions_non_can": 7
+  },
+  {
+    "interactions_ratio": 1.0,
+    "interactions_ratio_can": 1.0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 1.0,
+    "generous_interactions_ratio_can": 1.0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 1,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 1,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 7,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "493",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "393",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "392",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1191",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "9",
+          0
+        ],
+        393
+      ],
+      [
+        [
+          "455",
+          0
+        ],
+        167
+      ],
+      [
+        [
+          "1019",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1223",
+          0
+        ],
+        251
+      ]
+    ],
+    "total_pdb_interactions": 24,
+    "total_motifs_interactions": 25,
+    "total_motifs_interactions_can": 15,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0.3,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.3,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 10,
+    "non_can_count_of_pdb_in_motifs": 4,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 6,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 2,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "521",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "3",
+          0
+        ],
+        244
+      ],
+      [
+        [
+          "403",
+          0
+        ],
+        183
+      ],
+      [
+        [
+          "486",
+          0
+        ],
+        269
+      ]
+    ],
+    "total_pdb_interactions": 22,
+    "total_motifs_interactions": 16,
+    "total_motifs_interactions_can": 10,
+    "total_motifs_interactions_non_can": 6
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 8,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 7,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 3,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 20,
+    "total_motifs_interactions": 13,
+    "total_motifs_interactions_can": 8,
+    "total_motifs_interactions_non_can": 5
+  },
+  {
+    "interactions_ratio": 0.4,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.4,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 5,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 4,
+    "correct_can_count_of_motifs": 2,
+    "motifs_count_without_canonique": 8,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1534",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "967",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "765",
+          0
+        ],
+        267
+      ],
+      [
+        [
+          "455",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1559",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1446",
+          0
+        ],
+        265
+      ],
+      [
+        [
+          "1175",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "639",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "1556",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1671",
+          0
+        ],
+        208
+      ]
+    ],
+    "total_pdb_interactions": 32,
+    "total_motifs_interactions": 30,
+    "total_motifs_interactions_can": 20,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0.4666666666666667,
+    "interactions_ratio_can": 0.4666666666666667,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.4666666666666667,
+    "generous_interactions_ratio_can": 0.4666666666666667,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 15,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 7,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1018",
+          0
+        ],
+        184
+      ],
+      [
+        [
+          "1145",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1179",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "479",
+          0
+        ],
+        167
+      ],
+      [
+        [
+          "1152",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "162",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "60",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "72",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "722",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 35,
+    "total_motifs_interactions": 26,
+    "total_motifs_interactions_can": 19,
+    "total_motifs_interactions_non_can": 7
+  },
+  {
+    "interactions_ratio": 0.5,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 2,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 2,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 0,
+    "motifs_count_without_non_canonique": 1,
+    "best_pdb_model": "8",
+    "best_generous_pdb_model": "8",
+    "best_occurence_list": [
+      [
+        [
+          "440",
+          0
+        ],
+        265
+      ]
+    ],
+    "total_pdb_interactions": 14,
+    "total_motifs_interactions": 3,
+    "total_motifs_interactions_can": 2,
+    "total_motifs_interactions_non_can": 1
+  },
+  {
+    "interactions_ratio": 0.4,
+    "interactions_ratio_can": 0.42857142857142855,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.4,
+    "generous_interactions_ratio_can": 0.42857142857142855,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 15,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 14,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 10,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1196",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "1369",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1240",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1698",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "526",
+          0
+        ],
+        167
+      ],
+      [
+        [
+          "1473",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "64",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1445",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1603",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "787",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "1699",
+          0
+        ],
+        383
+      ]
+    ],
+    "total_pdb_interactions": 34,
+    "total_motifs_interactions": 33,
+    "total_motifs_interactions_can": 23,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0.5333333333333333,
+    "interactions_ratio_can": 0.5333333333333333,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5333333333333333,
+    "generous_interactions_ratio_can": 0.5333333333333333,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 15,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 12,
+    "best_pdb_model": "6",
+    "best_generous_pdb_model": "6",
+    "best_occurence_list": [
+      [
+        [
+          "1652",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1472",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "297",
+          0
+        ],
+        280
+      ],
+      [
+        [
+          "933",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "125",
+          0
+        ],
+        312
+      ],
+      [
+        [
+          "284",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "664",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "793",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1654",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1105",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "819",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "971",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 20,
+    "total_motifs_interactions": 37,
+    "total_motifs_interactions_can": 22,
+    "total_motifs_interactions_non_can": 15
+  },
+  {
+    "interactions_ratio": 0.4444444444444444,
+    "interactions_ratio_can": 0.4444444444444444,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.4444444444444444,
+    "generous_interactions_ratio_can": 0.4444444444444444,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 18,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 18,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 12,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "407",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "444",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "412",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "618",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "84",
+          0
+        ],
+        177
+      ],
+      [
+        [
+          "200",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "415",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "58",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1472",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "405",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1304",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "899",
+          0
+        ],
+        359
+      ]
+    ],
+    "total_pdb_interactions": 33,
+    "total_motifs_interactions": 35,
+    "total_motifs_interactions_can": 27,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.6666666666666666,
+    "interactions_ratio_can": 0.75,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.6666666666666666,
+    "generous_interactions_ratio_can": 0.75,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 9,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 8,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 8,
+    "motifs_count_without_non_canonique": 10,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "294",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "631",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1530",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "1501",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "384",
+          0
+        ],
+        221
+      ],
+      [
+        [
+          "616",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "103",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1262",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1822",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1539",
+          0
+        ],
+        387
+      ],
+      [
+        [
+          "83",
+          0
+        ],
+        332
+      ]
+    ],
+    "total_pdb_interactions": 37,
+    "total_motifs_interactions": 33,
+    "total_motifs_interactions_can": 24,
+    "total_motifs_interactions_non_can": 9
+  },
+  {
+    "interactions_ratio": 0.2777777777777778,
+    "interactions_ratio_can": 0.3125,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.2777777777777778,
+    "generous_interactions_ratio_can": 0.3125,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 18,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 16,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 0,
+    "motifs_count_without_non_canonique": 6,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "361",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1232",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "1139",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1424",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "27",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "1013",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "264",
+          0
+        ],
+        314
+      ],
+      [
+        [
+          "773",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 35,
+    "total_motifs_interactions": 25,
+    "total_motifs_interactions_can": 17,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.5833333333333334,
+    "interactions_ratio_can": 0.6,
+    "interactions_ratio_non_can": 0.5,
+    "generous_interactions_ratio": 0.5833333333333334,
+    "generous_interactions_ratio_can": 0.6,
+    "generous_interactions_ratio_non_can": 0.5,
+    "interactions_count_of_pdb_in_motifs": 12,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 10,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "994",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "430",
+          0
+        ],
+        167
+      ],
+      [
+        [
+          "1266",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "395",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1004",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1004",
+          1
+        ],
+        276
+      ],
+      [
+        [
+          "717",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "59",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "70",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "638",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 34,
+    "total_motifs_interactions": 28,
+    "total_motifs_interactions_can": 21,
+    "total_motifs_interactions_non_can": 7
+  },
+  {
+    "interactions_ratio": 0.4444444444444444,
+    "interactions_ratio_can": 0.4666666666666667,
+    "interactions_ratio_non_can": 0.3333333333333333,
+    "generous_interactions_ratio": 0.4444444444444444,
+    "generous_interactions_ratio_can": 0.4666666666666667,
+    "generous_interactions_ratio_non_can": 0.3333333333333333,
+    "interactions_count_of_pdb_in_motifs": 18,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 7,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "370",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "592",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "224",
+          0
+        ],
+        187
+      ],
+      [
+        [
+          "21",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "663",
+          0
+        ],
+        213
+      ],
+      [
+        [
+          "61",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "111",
+          0
+        ],
+        176
+      ],
+      [
+        [
+          "626",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "313",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "232",
+          0
+        ],
+        390
+      ],
+      [
+        [
+          "618",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 44,
+    "total_motifs_interactions": 36,
+    "total_motifs_interactions_can": 19,
+    "total_motifs_interactions_non_can": 17
+  },
+  {
+    "interactions_ratio": 0.6470588235294118,
+    "interactions_ratio_can": 0.6,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.6470588235294118,
+    "generous_interactions_ratio_can": 0.6,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 17,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 2,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 9,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 6,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "251",
+          0
+        ],
+        221
+      ],
+      [
+        [
+          "5",
+          0
+        ],
+        396
+      ],
+      [
+        [
+          "359",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "276",
+          0
+        ],
+        262
+      ],
+      [
+        [
+          "1045",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "851",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "1177",
+          0
+        ],
+        205
+      ]
+    ],
+    "total_pdb_interactions": 36,
+    "total_motifs_interactions": 23,
+    "total_motifs_interactions_can": 16,
+    "total_motifs_interactions_non_can": 7
+  },
+  {
+    "interactions_ratio": 0.5555555555555556,
+    "interactions_ratio_can": 0.6,
+    "interactions_ratio_non_can": 0.3333333333333333,
+    "generous_interactions_ratio": 0.5555555555555556,
+    "generous_interactions_ratio_can": 0.6,
+    "generous_interactions_ratio_non_can": 0.3333333333333333,
+    "interactions_count_of_pdb_in_motifs": 18,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 9,
+    "motifs_count_without_canonique": 7,
+    "motifs_count_without_non_canonique": 12,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "166",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "397",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1346",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1153",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "434",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "79",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1273",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "1268",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "1353",
+          0
+        ],
+        265
+      ],
+      [
+        [
+          "942",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "73",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "753",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "793",
+          0
+        ],
+        377
+      ]
+    ],
+    "total_pdb_interactions": 41,
+    "total_motifs_interactions": 38,
+    "total_motifs_interactions_can": 26,
+    "total_motifs_interactions_non_can": 12
+  },
+  {
+    "interactions_ratio": 0.45454545454545453,
+    "interactions_ratio_can": 0.6,
+    "interactions_ratio_non_can": 0.14285714285714285,
+    "generous_interactions_ratio": 0.45454545454545453,
+    "generous_interactions_ratio_can": 0.6,
+    "generous_interactions_ratio_non_can": 0.14285714285714285,
+    "interactions_count_of_pdb_in_motifs": 22,
+    "non_can_count_of_pdb_in_motifs": 7,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 15,
+    "correct_can_count_of_motifs": 9,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "489",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1162",
+          0
+        ],
+        213
+      ],
+      [
+        [
+          "1460",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1080",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "99",
+          0
+        ],
+        177
+      ],
+      [
+        [
+          "1149",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "1116",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "1172",
+          0
+        ],
+        213
+      ],
+      [
+        [
+          "384",
+          0
+        ],
+        390
+      ],
+      [
+        [
+          "389",
+          0
+        ],
+        314
+      ],
+      [
+        [
+          "1294",
+          0
+        ],
+        398
+      ],
+      [
+        [
+          "1722",
+          0
+        ],
+        392
+      ]
+    ],
+    "total_pdb_interactions": 42,
+    "total_motifs_interactions": 36,
+    "total_motifs_interactions_can": 25,
+    "total_motifs_interactions_non_can": 11
+  },
+  {
+    "interactions_ratio": 0.5135135135135135,
+    "interactions_ratio_can": 0.5135135135135135,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5135135135135135,
+    "generous_interactions_ratio_can": 0.5135135135135135,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 37,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 37,
+    "correct_can_count_of_motifs": 19,
+    "motifs_count_without_canonique": 1,
+    "motifs_count_without_non_canonique": 15,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "414",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1367",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "781",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "254",
+          0
+        ],
+        300
+      ],
+      [
+        [
+          "837",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1063",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "335",
+          0
+        ],
+        299
+      ],
+      [
+        [
+          "1078",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1460",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "402",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1229",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "174",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "792",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "372",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "71",
+          0
+        ],
+        332
+      ]
+    ],
+    "total_pdb_interactions": 47,
+    "total_motifs_interactions": 46,
+    "total_motifs_interactions_can": 38,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.6666666666666666,
+    "interactions_ratio_can": 0.6666666666666666,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.6666666666666666,
+    "generous_interactions_ratio_can": 0.6666666666666666,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 9,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 9,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 10,
+    "motifs_count_without_non_canonique": 14,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "492",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "907",
+          0
+        ],
+        341
+      ],
+      [
+        [
+          "1716",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "931",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "52",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "467",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "87",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1463",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "459",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "130",
+          0
+        ],
+        212
+      ],
+      [
+        [
+          "460",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "782",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "360",
+          0
+        ],
+        390
+      ],
+      [
+        [
+          "845",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 27,
+    "total_motifs_interactions": 40,
+    "total_motifs_interactions_can": 27,
+    "total_motifs_interactions_non_can": 13
+  },
+  {
+    "interactions_ratio": 0.6785714285714286,
+    "interactions_ratio_can": 0.7391304347826086,
+    "interactions_ratio_non_can": 0.4,
+    "generous_interactions_ratio": 0.6785714285714286,
+    "generous_interactions_ratio_can": 0.7391304347826086,
+    "generous_interactions_ratio_non_can": 0.4,
+    "interactions_count_of_pdb_in_motifs": 28,
+    "non_can_count_of_pdb_in_motifs": 5,
+    "correct_non_can_count_of_motifs": 2,
+    "can_count_of_pdb_in_motifs": 23,
+    "correct_can_count_of_motifs": 17,
+    "motifs_count_without_canonique": 0,
+    "motifs_count_without_non_canonique": 8,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "775",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "574",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1709",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "466",
+          0
+        ],
+        262
+      ],
+      [
+        [
+          "1292",
+          0
+        ],
+        213
+      ],
+      [
+        [
+          "1254",
+          0
+        ],
+        163
+      ],
+      [
+        [
+          "73",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "614",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "626",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1700",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "642",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "809",
+          0
+        ],
+        263
+      ]
+    ],
+    "total_pdb_interactions": 48,
+    "total_motifs_interactions": 40,
+    "total_motifs_interactions_can": 23,
+    "total_motifs_interactions_non_can": 17
+  },
+  {
+    "interactions_ratio": 0.2608695652173913,
+    "interactions_ratio_can": 0.3,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.2608695652173913,
+    "generous_interactions_ratio_can": 0.3,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 23,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 20,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 12,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1812",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1588",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1939",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "986",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "1461",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1080",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "354",
+          0
+        ],
+        243
+      ],
+      [
+        [
+          "1933",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1439",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1584",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1171",
+          0
+        ],
+        382
+      ],
+      [
+        [
+          "884",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "1131",
+          0
+        ],
+        389
+      ],
+      [
+        [
+          "1747",
+          0
+        ],
+        374
+      ]
+    ],
+    "total_pdb_interactions": 44,
+    "total_motifs_interactions": 41,
+    "total_motifs_interactions_can": 28,
+    "total_motifs_interactions_non_can": 13
+  },
+  {
+    "interactions_ratio": 0.5625,
+    "interactions_ratio_can": 0.6428571428571429,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.5625,
+    "generous_interactions_ratio_can": 0.6428571428571429,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 32,
+    "non_can_count_of_pdb_in_motifs": 4,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 28,
+    "correct_can_count_of_motifs": 18,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 14,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1118",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "1138",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "573",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "2099",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "579",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "589",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "113",
+          0
+        ],
+        177
+      ],
+      [
+        [
+          "91",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1046",
+          0
+        ],
+        211
+      ],
+      [
+        [
+          "134",
+          0
+        ],
+        168
+      ],
+      [
+        [
+          "525",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "576",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1243",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "416",
+          0
+        ],
+        314
+      ],
+      [
+        [
+          "1000",
+          0
+        ],
+        367
+      ],
+      [
+        [
+          "1303",
+          0
+        ],
+        389
+      ]
+    ],
+    "total_pdb_interactions": 55,
+    "total_motifs_interactions": 48,
+    "total_motifs_interactions_can": 32,
+    "total_motifs_interactions_non_can": 16
+  },
+  {
+    "interactions_ratio": 0.4,
+    "interactions_ratio_can": 0.46153846153846156,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.4,
+    "generous_interactions_ratio_can": 0.46153846153846156,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 15,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 13,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 9,
+    "motifs_count_without_non_canonique": 14,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1151",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "1426",
+          0
+        ],
+        304
+      ],
+      [
+        [
+          "1607",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "790",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "2040",
+          0
+        ],
+        318
+      ],
+      [
+        [
+          "1845",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "663",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "614",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1821",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "107",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "832",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "1471",
+          0
+        ],
+        184
+      ],
+      [
+        [
+          "554",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "92",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1043",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "2273",
+          0
+        ],
+        383
+      ]
+    ],
+    "total_pdb_interactions": 35,
+    "total_motifs_interactions": 47,
+    "total_motifs_interactions_can": 33,
+    "total_motifs_interactions_non_can": 14
+  },
+  {
+    "interactions_ratio": 0.5806451612903226,
+    "interactions_ratio_can": 0.5666666666666667,
+    "interactions_ratio_non_can": 1.0,
+    "generous_interactions_ratio": 0.5806451612903226,
+    "generous_interactions_ratio_can": 0.5666666666666667,
+    "generous_interactions_ratio_non_can": 1.0,
+    "interactions_count_of_pdb_in_motifs": 31,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 30,
+    "correct_can_count_of_motifs": 17,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 16,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1878",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1635",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1205",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "615",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "657",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1445",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "1766",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1447",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "1817",
+          0
+        ],
+        207
+      ],
+      [
+        [
+          "481",
+          0
+        ],
+        262
+      ],
+      [
+        [
+          "1331",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "531",
+          0
+        ],
+        158
+      ],
+      [
+        [
+          "113",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "2132",
+          0
+        ],
+        239
+      ],
+      [
+        [
+          "2019",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "1085",
+          0
+        ],
+        384
+      ],
+      [
+        [
+          "1094",
+          0
+        ],
+        367
+      ]
+    ],
+    "total_pdb_interactions": 38,
+    "total_motifs_interactions": 52,
+    "total_motifs_interactions_can": 33,
+    "total_motifs_interactions_non_can": 19
+  },
+  {
+    "interactions_ratio": 0.34782608695652173,
+    "interactions_ratio_can": 0.38095238095238093,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.34782608695652173,
+    "generous_interactions_ratio_can": 0.38095238095238093,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 23,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 21,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 11,
+    "motifs_count_without_non_canonique": 18,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "697",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "663",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "455",
+          0
+        ],
+        262
+      ],
+      [
+        [
+          "1649",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1835",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "626",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1767",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "622",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "2274",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1705",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "328",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "1894",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "259",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "609",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "867",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "1571",
+          0
+        ],
+        298
+      ],
+      [
+        [
+          "1058",
+          0
+        ],
+        384
+      ],
+      [
+        [
+          "1071",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "2054",
+          0
+        ],
+        353
+      ]
+    ],
+    "total_pdb_interactions": 45,
+    "total_motifs_interactions": 56,
+    "total_motifs_interactions_can": 43,
+    "total_motifs_interactions_non_can": 13
+  },
+  {
+    "interactions_ratio": 0.46153846153846156,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.46153846153846156,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 13,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 12,
+    "correct_can_count_of_motifs": 6,
+    "motifs_count_without_canonique": 9,
+    "motifs_count_without_non_canonique": 13,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "635",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "657",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "565",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "488",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1201",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "332",
+          0
+        ],
+        280
+      ],
+      [
+        [
+          "521",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "94",
+          0
+        ],
+        177
+      ],
+      [
+        [
+          "1122",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "75",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1262",
+          0
+        ],
+        398
+      ],
+      [
+        [
+          "896",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "873",
+          0
+        ],
+        384
+      ],
+      [
+        [
+          "1143",
+          0
+        ],
+        359
+      ]
+    ],
+    "total_pdb_interactions": 45,
+    "total_motifs_interactions": 41,
+    "total_motifs_interactions_can": 22,
+    "total_motifs_interactions_non_can": 19
+  },
+  {
+    "interactions_ratio": 0.2,
+    "interactions_ratio_can": 0.3333333333333333,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.2,
+    "generous_interactions_ratio_can": 0.3333333333333333,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 5,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 3,
+    "correct_can_count_of_motifs": 1,
+    "motifs_count_without_canonique": 13,
+    "motifs_count_without_non_canonique": 14,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "436",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "474",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "457",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1306",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1081",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "1005",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "85",
+          0
+        ],
+        177
+      ],
+      [
+        [
+          "506",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "506",
+          1
+        ],
+        255
+      ],
+      [
+        [
+          "360",
+          0
+        ],
+        262
+      ],
+      [
+        [
+          "59",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "980",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "846",
+          0
+        ],
+        170
+      ],
+      [
+        [
+          "219",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "798",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 46,
+    "total_motifs_interactions": 45,
+    "total_motifs_interactions_can": 32,
+    "total_motifs_interactions_non_can": 13
+  },
+  {
+    "interactions_ratio": 0.47368421052631576,
+    "interactions_ratio_can": 0.5714285714285714,
+    "interactions_ratio_non_can": 0.2,
+    "generous_interactions_ratio": 0.47368421052631576,
+    "generous_interactions_ratio_can": 0.5714285714285714,
+    "generous_interactions_ratio_non_can": 0.2,
+    "interactions_count_of_pdb_in_motifs": 19,
+    "non_can_count_of_pdb_in_motifs": 5,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 14,
+    "correct_can_count_of_motifs": 8,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 6,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "446",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "908",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "1224",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "1243",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "35",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "1054",
+          0
+        ],
+        161
+      ],
+      [
+        [
+          "890",
+          0
+        ],
+        284
+      ],
+      [
+        [
+          "343",
+          0
+        ],
+        243
+      ],
+      [
+        [
+          "310",
+          0
+        ],
+        380
+      ],
+      [
+        [
+          "821",
+          0
+        ],
+        384
+      ],
+      [
+        [
+          "1010",
+          0
+        ],
+        389
+      ]
+    ],
+    "total_pdb_interactions": 39,
+    "total_motifs_interactions": 31,
+    "total_motifs_interactions_can": 20,
+    "total_motifs_interactions_non_can": 11
+  },
+  {
+    "interactions_ratio": 0.5555555555555556,
+    "interactions_ratio_can": 0.5555555555555556,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5555555555555556,
+    "generous_interactions_ratio_can": 0.5555555555555556,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 9,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 9,
+    "correct_can_count_of_motifs": 5,
+    "motifs_count_without_canonique": 11,
+    "motifs_count_without_non_canonique": 15,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1405",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1728",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "456",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "521",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "21",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "911",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "783",
+          0
+        ],
+        397
+      ],
+      [
+        [
+          "720",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "505",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1343",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "821",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "857",
+          0
+        ],
+        377
+      ],
+      [
+        [
+          "655",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "819",
+          0
+        ],
+        367
+      ],
+      [
+        [
+          "1237",
+          0
+        ],
+        387
+      ]
+    ],
+    "total_pdb_interactions": 42,
+    "total_motifs_interactions": 42,
+    "total_motifs_interactions_can": 34,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.2857142857142857,
+    "interactions_ratio_can": 0.3333333333333333,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.2857142857142857,
+    "generous_interactions_ratio_can": 0.3333333333333333,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 14,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 12,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 8,
+    "motifs_count_without_non_canonique": 12,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1554",
+          0
+        ],
+        46
+      ],
+      [
+        [
+          "1943",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1221",
+          0
+        ],
+        161
+      ],
+      [
+        [
+          "76",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1422",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "521",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1162",
+          0
+        ],
+        389
+      ],
+      [
+        [
+          "710",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "1166",
+          0
+        ],
+        305
+      ],
+      [
+        [
+          "221",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "783",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "910",
+          0
+        ],
+        384
+      ],
+      [
+        [
+          "1112",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 51,
+    "total_motifs_interactions": 41,
+    "total_motifs_interactions_can": 29,
+    "total_motifs_interactions_non_can": 12
+  },
+  {
+    "interactions_ratio": 0.48148148148148145,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.48148148148148145,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 27,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 26,
+    "correct_can_count_of_motifs": 13,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 14,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "2483",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1734",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "1974",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "728",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "136",
+          0
+        ],
+        177
+      ],
+      [
+        [
+          "659",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1241",
+          0
+        ],
+        341
+      ],
+      [
+        [
+          "671",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "454",
+          0
+        ],
+        259
+      ],
+      [
+        [
+          "632",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1150",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "747",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "450",
+          0
+        ],
+        380
+      ],
+      [
+        [
+          "1152",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "2196",
+          0
+        ],
+        353
+      ]
+    ],
+    "total_pdb_interactions": 58,
+    "total_motifs_interactions": 43,
+    "total_motifs_interactions_can": 33,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0.5142857142857142,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0.5555555555555556,
+    "generous_interactions_ratio": 0.5142857142857142,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0.5555555555555556,
+    "interactions_count_of_pdb_in_motifs": 35,
+    "non_can_count_of_pdb_in_motifs": 9,
+    "correct_non_can_count_of_motifs": 5,
+    "can_count_of_pdb_in_motifs": 26,
+    "correct_can_count_of_motifs": 13,
+    "motifs_count_without_canonique": 5,
+    "motifs_count_without_non_canonique": 12,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "601",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "378",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "374",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "368",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1055",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "1470",
+          0
+        ],
+        329
+      ],
+      [
+        [
+          "1192",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1304",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "355",
+          0
+        ],
+        151
+      ],
+      [
+        [
+          "379",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1348",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1269",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "383",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "661",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "283",
+          0
+        ],
+        117
+      ],
+      [
+        [
+          "666",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "698",
+          0
+        ],
+        377
+      ]
+    ],
+    "total_pdb_interactions": 62,
+    "total_motifs_interactions": 53,
+    "total_motifs_interactions_can": 38,
+    "total_motifs_interactions_non_can": 15
+  },
+  {
+    "interactions_ratio": 0.38461538461538464,
+    "interactions_ratio_can": 0.36363636363636365,
+    "interactions_ratio_non_can": 0.5,
+    "generous_interactions_ratio": 0.38461538461538464,
+    "generous_interactions_ratio_can": 0.36363636363636365,
+    "generous_interactions_ratio_non_can": 0.5,
+    "interactions_count_of_pdb_in_motifs": 13,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 11,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 6,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "749",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "1781",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1753",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1946",
+          0
+        ],
+        143
+      ],
+      [
+        [
+          "652",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1775",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1222",
+          0
+        ],
+        183
+      ],
+      [
+        [
+          "834",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "878",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "1046",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "1225",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 50,
+    "total_motifs_interactions": 41,
+    "total_motifs_interactions_can": 23,
+    "total_motifs_interactions_non_can": 18
+  },
+  {
+    "interactions_ratio": 0.36363636363636365,
+    "interactions_ratio_can": 0.4,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.36363636363636365,
+    "generous_interactions_ratio_can": 0.4,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 11,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 10,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 11,
+    "motifs_count_without_non_canonique": 15,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1284",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1293",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "35",
+          0
+        ],
+        274
+      ],
+      [
+        [
+          "689",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "1030",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "167",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "557",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "1051",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "63",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "77",
+          0
+        ],
+        171
+      ],
+      [
+        [
+          "1182",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "941",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "331",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "620",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "640",
+          0
+        ],
+        211
+      ],
+      [
+        [
+          "847",
+          0
+        ],
+        373
+      ]
+    ],
+    "total_pdb_interactions": 45,
+    "total_motifs_interactions": 49,
+    "total_motifs_interactions_can": 31,
+    "total_motifs_interactions_non_can": 18
+  },
+  {
+    "interactions_ratio": 0.48,
+    "interactions_ratio_can": 0.5454545454545454,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.48,
+    "generous_interactions_ratio_can": 0.5454545454545454,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 25,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 22,
+    "correct_can_count_of_motifs": 12,
+    "motifs_count_without_canonique": 4,
+    "motifs_count_without_non_canonique": 10,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "852",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "1009",
+          0
+        ],
+        183
+      ],
+      [
+        [
+          "1207",
+          0
+        ],
+        269
+      ],
+      [
+        [
+          "500",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "505",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "499",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1222",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "446",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "538",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "1284",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "13",
+          0
+        ],
+        393
+      ],
+      [
+        [
+          "1820",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1011",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 42,
+    "total_motifs_interactions": 41,
+    "total_motifs_interactions_can": 31,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 2,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 1,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 14,
+    "motifs_count_without_non_canonique": 14,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 22,
+    "total_motifs_interactions": 50,
+    "total_motifs_interactions_can": 27,
+    "total_motifs_interactions_non_can": 23
+  },
+  {
+    "interactions_ratio": 0.17391304347826086,
+    "interactions_ratio_can": 0.2222222222222222,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.17391304347826086,
+    "generous_interactions_ratio_can": 0.2222222222222222,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 23,
+    "non_can_count_of_pdb_in_motifs": 5,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 18,
+    "correct_can_count_of_motifs": 4,
+    "motifs_count_without_canonique": 3,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "482",
+          0
+        ],
+        73
+      ],
+      [
+        [
+          "432",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "593",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "1274",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1102",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "695",
+          0
+        ],
+        397
+      ],
+      [
+        [
+          "415",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "415",
+          1
+        ],
+        278
+      ],
+      [
+        [
+          "924",
+          0
+        ],
+        213
+      ],
+      [
+        [
+          "330",
+          0
+        ],
+        314
+      ],
+      [
+        [
+          "323",
+          0
+        ],
+        390
+      ],
+      [
+        [
+          "595",
+          0
+        ],
+        263
+      ]
+    ],
+    "total_pdb_interactions": 42,
+    "total_motifs_interactions": 39,
+    "total_motifs_interactions_can": 29,
+    "total_motifs_interactions_non_can": 10
+  },
+  {
+    "interactions_ratio": 0.2857142857142857,
+    "interactions_ratio_can": 0.2727272727272727,
+    "interactions_ratio_non_can": 0.3333333333333333,
+    "generous_interactions_ratio": 0.2857142857142857,
+    "generous_interactions_ratio_can": 0.2727272727272727,
+    "generous_interactions_ratio_non_can": 0.3333333333333333,
+    "interactions_count_of_pdb_in_motifs": 14,
+    "non_can_count_of_pdb_in_motifs": 3,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 11,
+    "correct_can_count_of_motifs": 3,
+    "motifs_count_without_canonique": 8,
+    "motifs_count_without_non_canonique": 9,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "2200",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "2416",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1267",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "2282",
+          0
+        ],
+        308
+      ],
+      [
+        [
+          "681",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "159",
+          0
+        ],
+        171
+      ],
+      [
+        [
+          "654",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "2322",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "2376",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1547",
+          0
+        ],
+        184
+      ],
+      [
+        [
+          "1128",
+          0
+        ],
+        371
+      ],
+      [
+        [
+          "1565",
+          0
+        ],
+        398
+      ]
+    ],
+    "total_pdb_interactions": 49,
+    "total_motifs_interactions": 36,
+    "total_motifs_interactions_can": 28,
+    "total_motifs_interactions_non_can": 8
+  },
+  {
+    "interactions_ratio": 0.4583333333333333,
+    "interactions_ratio_can": 0.5,
+    "interactions_ratio_non_can": 0.0,
+    "generous_interactions_ratio": 0.4583333333333333,
+    "generous_interactions_ratio_can": 0.5,
+    "generous_interactions_ratio_non_can": 0.0,
+    "interactions_count_of_pdb_in_motifs": 24,
+    "non_can_count_of_pdb_in_motifs": 2,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 22,
+    "correct_can_count_of_motifs": 11,
+    "motifs_count_without_canonique": 7,
+    "motifs_count_without_non_canonique": 15,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1122",
+          0
+        ],
+        267
+      ],
+      [
+        [
+          "1314",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "950",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "726",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "658",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "851",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "703",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "2199",
+          0
+        ],
+        143
+      ],
+      [
+        [
+          "1368",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "651",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1144",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "1280",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "104",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "118",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "118",
+          1
+        ],
+        332
+      ],
+      [
+        [
+          "447",
+          0
+        ],
+        380
+      ],
+      [
+        [
+          "1367",
+          0
+        ],
+        273
+      ]
+    ],
+    "total_pdb_interactions": 56,
+    "total_motifs_interactions": 49,
+    "total_motifs_interactions_can": 31,
+    "total_motifs_interactions_non_can": 18
+  },
+  {
+    "interactions_ratio": 0,
+    "interactions_ratio_can": 0,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0,
+    "generous_interactions_ratio_can": 0,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 1,
+    "non_can_count_of_pdb_in_motifs": 1,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 0,
+    "correct_can_count_of_motifs": 0,
+    "motifs_count_without_canonique": 21,
+    "motifs_count_without_non_canonique": 20,
+    "best_pdb_model": null,
+    "best_generous_pdb_model": null,
+    "best_occurence_list": [],
+    "total_pdb_interactions": 30,
+    "total_motifs_interactions": 67,
+    "total_motifs_interactions_can": 48,
+    "total_motifs_interactions_non_can": 19
+  },
+  {
+    "interactions_ratio": 0.5882352941176471,
+    "interactions_ratio_can": 0.5882352941176471,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.5882352941176471,
+    "generous_interactions_ratio_can": 0.5882352941176471,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 17,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 17,
+    "correct_can_count_of_motifs": 10,
+    "motifs_count_without_canonique": 10,
+    "motifs_count_without_non_canonique": 18,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "2065",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "692",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "374",
+          0
+        ],
+        300
+      ],
+      [
+        [
+          "96",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "14",
+          0
+        ],
+        393
+      ],
+      [
+        [
+          "1736",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "1161",
+          0
+        ],
+        273
+      ],
+      [
+        [
+          "135",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "607",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "721",
+          0
+        ],
+        199
+      ],
+      [
+        [
+          "317",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "549",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "1507",
+          0
+        ],
+        276
+      ],
+      [
+        [
+          "88",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "100",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1377",
+          0
+        ],
+        184
+      ],
+      [
+        [
+          "1069",
+          0
+        ],
+        355
+      ],
+      [
+        [
+          "1120",
+          0
+        ],
+        381
+      ]
+    ],
+    "total_pdb_interactions": 34,
+    "total_motifs_interactions": 53,
+    "total_motifs_interactions_can": 36,
+    "total_motifs_interactions_non_can": 17
+  },
+  {
+    "interactions_ratio": 0.4482758620689655,
+    "interactions_ratio_can": 0.4482758620689655,
+    "interactions_ratio_non_can": 0,
+    "generous_interactions_ratio": 0.4482758620689655,
+    "generous_interactions_ratio_can": 0.4482758620689655,
+    "generous_interactions_ratio_non_can": 0,
+    "interactions_count_of_pdb_in_motifs": 29,
+    "non_can_count_of_pdb_in_motifs": 0,
+    "correct_non_can_count_of_motifs": 0,
+    "can_count_of_pdb_in_motifs": 29,
+    "correct_can_count_of_motifs": 13,
+    "motifs_count_without_canonique": 8,
+    "motifs_count_without_non_canonique": 19,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1286",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "691",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "657",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "2102",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "1697",
+          0
+        ],
+        272
+      ],
+      [
+        [
+          "695",
+          0
+        ],
+        255
+      ],
+      [
+        [
+          "882",
+          0
+        ],
+        263
+      ],
+      [
+        [
+          "1939",
+          0
+        ],
+        205
+      ],
+      [
+        [
+          "208",
+          0
+        ],
+        176
+      ],
+      [
+        [
+          "1277",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "722",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "625",
+          0
+        ],
+        151
+      ],
+      [
+        [
+          "2213",
+          0
+        ],
+        144
+      ],
+      [
+        [
+          "630",
+          0
+        ],
+        278
+      ],
+      [
+        [
+          "101",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "104",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "132",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "1212",
+          0
+        ],
+        377
+      ],
+      [
+        [
+          "1315",
+          0
+        ],
+        362
+      ]
+    ],
+    "total_pdb_interactions": 55,
+    "total_motifs_interactions": 57,
+    "total_motifs_interactions_can": 36,
+    "total_motifs_interactions_non_can": 21
+  },
+  {
+    "interactions_ratio": 0.25,
+    "interactions_ratio_can": 0.25,
+    "interactions_ratio_non_can": 0.25,
+    "generous_interactions_ratio": 0.25,
+    "generous_interactions_ratio_can": 0.25,
+    "generous_interactions_ratio_non_can": 0.25,
+    "interactions_count_of_pdb_in_motifs": 12,
+    "non_can_count_of_pdb_in_motifs": 4,
+    "correct_non_can_count_of_motifs": 1,
+    "can_count_of_pdb_in_motifs": 8,
+    "correct_can_count_of_motifs": 2,
+    "motifs_count_without_canonique": 11,
+    "motifs_count_without_non_canonique": 14,
+    "best_pdb_model": "1",
+    "best_generous_pdb_model": "1",
+    "best_occurence_list": [
+      [
+        [
+          "1046",
+          0
+        ],
+        309
+      ],
+      [
+        [
+          "1021",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "222",
+          0
+        ],
+        320
+      ],
+      [
+        [
+          "799",
+          0
+        ],
+        313
+      ],
+      [
+        [
+          "1006",
+          0
+        ],
+        261
+      ],
+      [
+        [
+          "1659",
+          0
+        ],
+        220
+      ],
+      [
+        [
+          "19",
+          0
+        ],
+        76
+      ],
+      [
+        [
+          "972",
+          0
+        ],
+        341
+      ],
+      [
+        [
+          "1887",
+          0
+        ],
+        208
+      ],
+      [
+        [
+          "1771",
+          0
+        ],
+        271
+      ],
+      [
+        [
+          "1360",
+          0
+        ],
+        387
+      ],
+      [
+        [
+          "84",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "93",
+          0
+        ],
+        332
+      ],
+      [
+        [
+          "912",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "909",
+          0
+        ],
+        351
+      ],
+      [
+        [
+          "921",
+          0
+        ],
+        371
+      ]
+    ],
+    "total_pdb_interactions": 41,
+    "total_motifs_interactions": 47,
+    "total_motifs_interactions_can": 28,
+    "total_motifs_interactions_non_can": 19
+  }
+]
