@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: macdesigner
+Version: 0.1.1
+Summary: Top-level package for macdesigner.
+Author-email: DICORCA <jmmauricio6@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# macdesigner
+Tools for designing electrical machines
+
