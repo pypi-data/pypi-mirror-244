@@ -1,0 +1,25 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "Running-Calculator"
+version = "1.7.0"
+authors = [
+  { name="willtheorangeguy" },
+]
+description = "A running distance and speed command line interface. Measures in metric and imperial units, as well as marathons and half-marathons."
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.9"
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Topic :: Scientific/Engineering :: Mathematics',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/willtheorangeguy/Running-Calculator"
+"Bug Tracker" = "https://github.com/willtheorangeguy/Running-Calculator/issues"

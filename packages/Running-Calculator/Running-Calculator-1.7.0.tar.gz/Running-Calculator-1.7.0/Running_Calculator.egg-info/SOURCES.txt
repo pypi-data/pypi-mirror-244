@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+main.py
+pyproject.toml
+setup.cfg
+setup.py
+Running_Calculator.egg-info/PKG-INFO
+Running_Calculator.egg-info/SOURCES.txt
+Running_Calculator.egg-info/dependency_links.txt
+Running_Calculator.egg-info/top_level.txt
+tests/test_main.py
