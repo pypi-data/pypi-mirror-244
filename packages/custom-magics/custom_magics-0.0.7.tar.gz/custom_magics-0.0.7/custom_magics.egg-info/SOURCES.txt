@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+custom_magics/__init__.py
+custom_magics/custom_magics.py
+custom_magics.egg-info/PKG-INFO
+custom_magics.egg-info/SOURCES.txt
+custom_magics.egg-info/dependency_links.txt
+custom_magics.egg-info/requires.txt
+custom_magics.egg-info/top_level.txt

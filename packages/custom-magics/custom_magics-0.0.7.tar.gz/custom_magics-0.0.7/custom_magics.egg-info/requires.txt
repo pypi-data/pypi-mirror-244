@@ -1,0 +1,4 @@
+jupyterlab
+sphinx
+python-dotenv
+openai
