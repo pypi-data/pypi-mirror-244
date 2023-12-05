@@ -1,0 +1,9 @@
+gem/__init__.py,sha256=j_AQkjMLC75pkjDxUJRvUKI07Ib76pX9gKBUUmP6R58,19
+gem/gem.py,sha256=NC6g9Iaj8aQuJFaa-ij-nmNQoRd0nfqJYR6kGHLzuIM,6583
+gem/gem_utils.py,sha256=Iqq1DykJ3UERtTI-1XFXG8v4ywH93oPNlVtVnqTrNpE,6817
+gem/gem_wrapper.py,sha256=YJYyB_4FXFhiMdwziUkpZn_ZCs6knxYuFHKP8GyWvvI,5950
+gem_torch-1.0.dist-info/LICENSE,sha256=w0hrKVLOvKw6Bfw2_s9kl2YyWtnUmT5yaIivY2kExAw,1121
+gem_torch-1.0.dist-info/METADATA,sha256=ihM0_7uwVa6MVQHe3LOPKTxe3oHS1rtejCdjWjYN53M,11239
+gem_torch-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gem_torch-1.0.dist-info/top_level.txt,sha256=lerF0Ya1kM1KnVZ_zUv_bFnjIt17f-rCGV4AhIRGt5w,4
+gem_torch-1.0.dist-info/RECORD,,
