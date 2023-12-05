@@ -1,0 +1,10 @@
+chroma_haystack/__about__.py,sha256=KYK1EtmhETuf1Etxkfig9pu2l9vujYZgMPnAblHl68Y,132
+chroma_haystack/__init__.py,sha256=x9LIWQO6xJ4hM8TguI5jggBWGfYR2VLQO5MusPryg_s,203
+chroma_haystack/document_store.py,sha256=wZw3Or-jaLda9-V0RTkE8uwdQMATF55wkaXGjkQLTiE,12540
+chroma_haystack/errors.py,sha256=1XC6udBXnLmG0TDktoMYNYQ1wP-s_1S0Fymrl4s5Y8U,420
+chroma_haystack/retriever.py,sha256=2o7kP92TTdxbSX9C5P6g-TYB7QT0bDUFkV96Gbjb1wk,3622
+chroma_haystack/utils.py,sha256=Bn9lcD4ljcwQ1VjOuy3itRh79KIxwbx3kNELMkK_kGk,1503
+chroma_haystack-0.8.0.dist-info/METADATA,sha256=-f5H9i2rwRd3Siy4cWga-BoFheCe-eRQkF_SQn0QhLg,1922
+chroma_haystack-0.8.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+chroma_haystack-0.8.0.dist-info/licenses/LICENSE,sha256=_M2kulivnaiTHiW-5CRlZrPmH47tt04pBgAgeDvfYi4,11342
+chroma_haystack-0.8.0.dist-info/RECORD,,
