@@ -1,0 +1,10 @@
+kennard_stone/__init__.py,sha256=AV9ZHtOfR68a5B27OEJOo-BECYWQ2-n1GEEypI-51Ek,384
+kennard_stone/_deprecated.py,sha256=xbrTTPpy7mxor2MbSC2CX2nJB_xBksReGxEs-568WWk,3511
+kennard_stone/_test.py,sha256=qeUr2T30FLGylcWV5g2K9_KJrKqd4VrJ9dGjaXBsgv8,724
+kennard_stone/kennard_stone.py,sha256=IyDipj4cjhv5Yq1s0jQzsZ0ds3fjeXZ7mcuxL3J-tBA,20577
+kennard_stone/utils.py,sha256=P__F8drtGb475D5AGwKew6157d_KmihKg0e8MKWrfRE,5386
+kennard_stone-2.2.1.dist-info/LICENSE,sha256=RNcYpdZhxXjfl-re6XsdD_sR1jl9cQKaY5z6a2C_dbM,1063
+kennard_stone-2.2.1.dist-info/METADATA,sha256=1yY5OIyt04H6kDQwGAxyeh46PCgJJhoDQfgstU9Q0qg,8996
+kennard_stone-2.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kennard_stone-2.2.1.dist-info/top_level.txt,sha256=1gH9oRlnfCXkGIPsFmPGt01Z6OFlLNtsQSQHHrUYkos,14
+kennard_stone-2.2.1.dist-info/RECORD,,
