@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../causaljet"
+		},
+		{
+			"path": "../exp_research/oneweb-ie-power"
+		}
+	],
+	"settings": {}
+}
