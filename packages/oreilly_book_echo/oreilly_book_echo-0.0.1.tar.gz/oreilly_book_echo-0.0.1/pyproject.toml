@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "oreilly_book_echo"
+version = "0.0.1"
+description = "Description of your package"
+authors = ["ithingv34 <ithingv34@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/ithingv34/oreilly-book-echo"
+repository = "https://github.com/ithingv34/oreilly-book-echo"
+packages = [{include = "oreilly_book_echo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
