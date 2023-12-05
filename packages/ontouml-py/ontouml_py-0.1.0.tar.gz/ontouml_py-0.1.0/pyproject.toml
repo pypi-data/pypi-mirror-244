@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "ontouml-py"
+version = "0.1.0"
+description = "OntoUML Python Library"
+license = "Apache-2.0"
+authors = ["Pedro Paulo F. Barcelos <p.p.favatobarcelos@utwente.nl>"]
+readme = "README.md"
+homepage = "https://w3id.org/ontouml/ontouml-py"
+repository = "https://w3id.org/ontouml/ontouml-py"
+documentation = "https://w3id.org/ontouml/ontouml-py/docs"
+keywords = [
+    "conceptual-model",
+    "ontology",
+    "ontology-driven-development",
+    "ontouml",
+    "ontouml-metamodel",
+    "unified-foundational-ontology"
+]
+packages = [{ include = "ontouml_py" }]
+
+[tool.poetry.urls]
+"PyPi Project" = "https://pypi.org/project/ontouml-py/"
+
+[tool.poetry.dependencies]
+langstring = "^1.0.0"
+python = "^3.09"
+pydantic = "^2.5.2"
+
+[tool.poetry.group.dev.dependencies]
+loguru = "^0.7.2"
+myst-parser = "^2.0.0"
+poetry = "^1.7.1"
+pre-commit = "^3.4.0"
+pytest = "^7.4.2"
+sphinx = "^7.2.6"
+sphinx-autoapi = "^3.0.0"
+sphinx-rtd-size = "^0.2.0"
+sphinx-rtd-theme = "^2.0.0"
+sphinx-toolbox = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.vulture]
+paths = ["."]
+exclude = ["docs/", "sphinx/", "ontouml_py/classes/enumerations/", "venv/"]
+
+[tool.mypy]
+exclude= '^tests'
+strict = true
+plugins = "pydantic.mypy"
+
+[tool.pylint]
+ignore-paths= '^(tests|docs|sphinx)'
+max-line-length=120
+disable= 'E0401'
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+extend-plugins = "flake8-unused-arguments"
