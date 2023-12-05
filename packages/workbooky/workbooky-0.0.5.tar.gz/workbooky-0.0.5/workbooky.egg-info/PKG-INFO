@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: workbooky
+Version: 0.0.5
+Summary: """A collection of modules that supports workbooks with openpyxl."""
+Home-page: https://psionman@bitbucket.org/psionman/workbooky.git
+Download-URL: https://pypi.org/project/workbooky/
+Author: jeff watkins
+Author-email: support@bidforgame.com
+License: MIT
+Keywords: cli,input
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# workbooky
+
+A module providing utilities to work with EXce; workbooks and worksheets.
+
+## Installation
+
+```bash
+pip install workbooky
+```
+
+## Usage
+
+```python
+from workbooky import Workbook
+
+workbook = Workbook(path)
+```
+
+## Methods
+
+```python
+get_worksheet(sheet_name)
+```
+
+```python
+save()
+```
+
+
+
+# Version History
+
+Version 0.0.5 4 Dec 2023
+
+1. Expose Worksheet
+
+------
+
+Version 0.0.4 4 Dec 2023
+
+1. Add asyncio and worksheet errors
+
+------
+
+Version 0.0.3 10 May 2023
+
+1. Refactor
+2. Added tests
+
+------
+
+Version 0.0.2 10 May 2023
+
+1. Added path to save()
+
+------
+
+Version 0.0.1 10 May 2023
+
+1. Added workbook save
+
+------
+
+Version 0.0.0 10 May 2023
+
+1. Initial version
+
+------

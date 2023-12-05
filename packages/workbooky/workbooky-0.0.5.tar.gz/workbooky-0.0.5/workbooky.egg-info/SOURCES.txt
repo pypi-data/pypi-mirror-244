@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+workbooky/__init__.py
+workbooky/_version.py
+workbooky.egg-info/PKG-INFO
+workbooky.egg-info/SOURCES.txt
+workbooky.egg-info/dependency_links.txt
+workbooky.egg-info/top_level.txt
+workbooky/src/__init__.py
+workbooky/src/workbook.py
+workbooky/tests/__init__.py
+workbooky/tests/test_workbook.py
+workbooky/tests/test_data/invalid_workbook.xlsx
+workbooky/tests/test_data/valid_workbook.xlsx
