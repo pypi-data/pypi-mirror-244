@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: cyberchipped
+Version: 0.0.1
+Summary: The best library to create OpenAI Assistants
+Home-page: https://github.com/bevanhunt/cyberchipped
+License: Apache-2.0
+Keywords: ai,openai
+Author: Bevan Hunt
+Author-email: bevan@bevanhunt.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: fastapi
+Requires-Dist: httpx (>=0.24.1)
+Requires-Dist: jinja2 (>=3.1.2)
+Requires-Dist: jsonpatch (>=1.33)
+Requires-Dist: openai (>=1.1.0)
+Requires-Dist: pydantic (>=2.4.2)
+Requires-Dist: pydantic_settings
+Requires-Dist: rich (>=12)
+Requires-Dist: tiktoken (>=0.4.0)
+Requires-Dist: typer (>=0.9.0)
+Requires-Dist: tzdata (>=2023.3)
+Requires-Dist: uvicorn (>=0.22.0)
+Description-Content-Type: text/markdown
+
+## CyberChipped
+
+### Docs upcoming...
+
+### Source
+* This is a hard fork of Marvin pre-release
+
+### Platform Support
+* Mac and Linux
+
+### Requirements
+* Python 3.11.6
+
