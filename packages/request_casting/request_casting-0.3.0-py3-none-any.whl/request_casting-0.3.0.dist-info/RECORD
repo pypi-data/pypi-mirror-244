@@ -1,0 +1,12 @@
+request_casting/__init__.py,sha256=6u8oW3Fdn5smPdVSq2pif4uKUuZ2SsLxsWX3M8cMcSY,146
+request_casting/locale/en/LC_MESSAGES/request_casting.mo,sha256=-5Hgff2pmCFFbfqMcHAYXFXkXlPdLpoT0F_kuCmmPwM,424
+request_casting/locale/en.po,sha256=iQd3zNctpjlvAm1LA1MxAq2imsN7GQKqcEPdk9gdXpY,738
+request_casting/locale/es/LC_MESSAGES/request_casting.mo,sha256=CV5BQaCXd9S8Zhyb-OCBIEv--d2K5-JqbKzM-GzC-XE,704
+request_casting/locale/es.po,sha256=mjvTJRJTcIJ4hoDdj1BHBQ2_eyP2JrF9NHqDXxAb8ko,1786
+request_casting/locale/request_casting.pot,sha256=zMmcqLLDZMwnRZABnBtlhFR-nFQK9mHFOcQ94tGsLoE,1520
+request_casting/poethepoet.py,sha256=AiUpQXYm8Pm1aZXVDh0kgRDVoj-3qhyJHvebXDYOfSY,1382
+request_casting/request_casting.py,sha256=8d5CaVJj2maER94ZbzP71wvUmWJuGJ4zdeTHQuEPz1o,8528
+request_casting-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+request_casting-0.3.0.dist-info/METADATA,sha256=QK969Pj52WbBHGTg6Xn7FYhBSwROpzbpcKQSZYmw-ZE,6928
+request_casting-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+request_casting-0.3.0.dist-info/RECORD,,
