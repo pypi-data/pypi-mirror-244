@@ -1,0 +1,2 @@
+[console_scripts]
+macrel = macrel.main:main
