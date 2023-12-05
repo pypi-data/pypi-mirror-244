@@ -1,0 +1,7 @@
+panda3d>=1.10.8
+typing_extensions~=4.7
+
+[test]
+pytest
+pylint~=3.0.0
+pytest-pylint
