@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mlx
+Version: 0.0.2
+Summary: A framework for machine learning on Apple Silicon.
+Author: MLX Contributors
+Author-email: mlx@group.apple.com
+Requires-Python: >=3.7
+License-File: LICENSE
+
