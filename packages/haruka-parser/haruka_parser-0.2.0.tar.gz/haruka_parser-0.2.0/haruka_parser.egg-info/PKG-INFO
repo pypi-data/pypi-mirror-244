@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: haruka-parser
+Version: 0.2.0
+Summary: A simple HTML Parser
+Author: papersnake
+Author-email: prnake@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
