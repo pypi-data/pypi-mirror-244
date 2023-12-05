@@ -1,0 +1,6 @@
+setup.py
+walmart_parafin.egg-info/PKG-INFO
+walmart_parafin.egg-info/SOURCES.txt
+walmart_parafin.egg-info/dependency_links.txt
+walmart_parafin.egg-info/requires.txt
+walmart_parafin.egg-info/top_level.txt
