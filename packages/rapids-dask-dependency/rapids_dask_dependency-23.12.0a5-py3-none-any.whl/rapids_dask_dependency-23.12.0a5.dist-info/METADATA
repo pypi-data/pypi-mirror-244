@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rapids-dask-dependency
+Version: 23.12.0a5
+Summary: Dask and Distributed version pinning for RAPIDS
+License-File: LICENSE
+Requires-Dist: dask ==2023.11.0
+Requires-Dist: distributed ==2023.11.0
+
