@@ -1,0 +1,11 @@
+graphcompress/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphcompress/builders.py,sha256=Esc04ivUvtjdRIqf8EfUQZB4_Pzr8MBXq0GpkIM3mMQ,7673
+graphcompress/make_subsets.py,sha256=G7Cn6a3QpL1E--NusYTyVHkfu00rceGKS11EoivOgfM,1157
+graphcompress/maxEdgeSize.py,sha256=7lsjwlw4eb_GnxolPwZMRahpEYQhWrL-F06zRpJEBe0,533
+graphcompress/parsers.py,sha256=3FdgBA_gvZ4nBX6YP6_A9kgyi3fvs3RUqwmZ2VimU-I,860
+graphcompress/readers.py,sha256=sIPWHluU3X-U7t8CGOVkxxDwVTr7D-pzBN-SchaQ1jw,1679
+graph_compress-0.0.1.dist-info/LICENSE,sha256=R1iHKTepUi0DwmFTkyZXPV6vY4ebX-N3mYjq4dd_BuA,1074
+graph_compress-0.0.1.dist-info/METADATA,sha256=L1J9HVuJ12-HgD2-bEgKLRgz_mPevS8zksZnBrub5jw,2062
+graph_compress-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+graph_compress-0.0.1.dist-info/top_level.txt,sha256=_yI507NywS35_EuKvHyevgEyZClIdoLW0T3BhKGBKF8,14
+graph_compress-0.0.1.dist-info/RECORD,,
