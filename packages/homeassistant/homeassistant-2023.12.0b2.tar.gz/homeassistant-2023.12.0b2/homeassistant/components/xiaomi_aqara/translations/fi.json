@@ -1,0 +1,26 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Laite on jo m\u00e4\u00e4ritetty",
+            "already_in_progress": "M\u00e4\u00e4ritysprosessi on jo k\u00e4ynniss\u00e4"
+        },
+        "error": {
+            "invalid_host": "Virheellinen is\u00e4nt\u00e4nimi tai IP-osoite, katso https://www.home-assistant.io/integrations/xiaomi_aqara/#connection-problem.",
+            "invalid_mac": "Virheellinen Mac-osoite"
+        },
+        "flow_title": "{name}",
+        "step": {
+            "select": {
+                "data": {
+                    "select_ip": "IP-osoite"
+                }
+            },
+            "user": {
+                "data": {
+                    "host": "IP-osoite (valinnainen)",
+                    "mac": "Mac-osoite (valinnainen)"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "config": {
+        "step": {
+            "discovery_confirm": {
+                "description": "Ar norite nustatyti {name} \u2013 {model} ( {host} )?"
+            }
+        }
+    }
+}

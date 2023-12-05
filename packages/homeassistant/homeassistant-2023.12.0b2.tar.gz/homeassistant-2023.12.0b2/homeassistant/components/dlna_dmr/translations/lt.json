@@ -1,0 +1,31 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u012erenginys jau sukonfig\u016bruotas",
+            "alternative_integration": "\u012erengin\u012f geriau palaiko kita integracija",
+            "cannot_connect": "Nepavyko prisijungti",
+            "discovery_error": "Nepavyko rasti atitinkan\u010dio DLNA \u012frenginio"
+        },
+        "error": {
+            "cannot_connect": "Nepavyko prisijungti"
+        },
+        "step": {
+            "import_turn_on": {
+                "description": "\u012ejunkite \u012frengin\u012f ir spustel\u0117kite Pateikti, kad t\u0119stum\u0117te perk\u0117lim\u0105"
+            },
+            "manual": {
+                "description": "URL \u012f \u012frenginio apra\u0161o XML fail\u0105",
+                "title": "Rankinis DLNA DMR \u012frenginio prijungimas"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "browse_unfiltered": "Nar\u0161ant rodyti nesuderinam\u0105 medij\u0105"
+                }
+            }
+        }
+    }
+}

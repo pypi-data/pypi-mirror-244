@@ -1,0 +1,14 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                },
+                "data_description": {
+                    "host": "J\u016bs\u0173 KMtronic \u012frenginio pagrindinio kompiuterio pavadinimas arba IP adresas."
+                }
+            }
+        }
+    }
+}

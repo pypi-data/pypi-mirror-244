@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "no_udn": "SSDP atradimo informacija neturi UDN",
+            "not_keenetic_ndms2": "Atrastas elementas n\u0117ra \u201eKeenetic\u201c mar\u0161rutizatorius"
+        },
+        "flow_title": "{name} ({host})",
+        "step": {
+            "user": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                },
+                "data_description": {
+                    "host": "J\u016bs\u0173 Keenetic mar\u0161rutizatoriaus pagrindinio kompiuterio pavadinimas arba IP adresas."
+                }
+            }
+        }
+    }
+}

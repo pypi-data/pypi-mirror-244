@@ -1,0 +1,13 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis",
+                    "timeout": "Laikas baig\u0117si"
+                },
+                "title": "Prisijunkite prie savo Sense Energy Monitor"
+            }
+        }
+    }
+}

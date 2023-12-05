@@ -1,0 +1,23 @@
+{
+    "state": {
+        "climacell__health_concern": {
+            "good": "Geras",
+            "hazardous": "Pavojingas",
+            "moderate": "Vidutinis",
+            "unhealthy": "Nesveika",
+            "unhealthy_for_sensitive_groups": "Nesveika jautrioms grup\u0117ms",
+            "very_unhealthy": "Labai nesveika"
+        },
+        "climacell__pollen_index": {
+            "high": "Auk\u0161tas",
+            "low": "\u017demas",
+            "medium": "Vidutinis"
+        },
+        "climacell__precipitation_type": {
+            "ice_pellets": "Ledo granul\u0117s",
+            "none": "Joks",
+            "rain": "Lietus",
+            "snow": "Sniegas"
+        }
+    }
+}
