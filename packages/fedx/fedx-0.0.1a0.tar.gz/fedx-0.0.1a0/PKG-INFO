@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fedx
+Version: 0.0.1a0
+Summary: FedX: A federated learning framework based on PyTorch
+Home-page: http://github.com/beiyuouo/fedx
+Author: Bingjie Yan
+Author-email: bj.yan.pa@qq.com
+License: Apache-2.0 License
+Keywords: configuration,config
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ezkfg
+
+# fedx

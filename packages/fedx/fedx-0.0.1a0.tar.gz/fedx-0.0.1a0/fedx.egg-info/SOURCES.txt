@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fedx/__init__.py
+fedx.egg-info/PKG-INFO
+fedx.egg-info/SOURCES.txt
+fedx.egg-info/dependency_links.txt
+fedx.egg-info/requires.txt
+fedx.egg-info/top_level.txt
