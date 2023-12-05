@@ -1,0 +1,10 @@
+
+ file 10.version_check.sql, step 1
+SELECT 
+	'Default connection sqlite '||sqlite_version() as dbversion
+	,'SCRIPT{gblvar_label}' as label
+	,SCRIPT{gblvar_rundate} as dtm
+
+dbversion,label,dtm
+Default connection sqlite 3.42.0,all fruits,2023-12-04
+

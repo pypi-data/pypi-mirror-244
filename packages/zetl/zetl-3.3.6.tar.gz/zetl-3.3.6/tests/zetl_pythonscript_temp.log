@@ -1,0 +1,36 @@
+Begin Logging
+usage: 
+py -m zetl.run [etl_name] 
+py -m zetl.view [etl_name] 
+ 
+py -m zetl.postgres_import [csv_filename] [tablename] [WithTruncate]
+py -m zetl.postgres_export [tablename] [csvfilename] [delimiter] 
+ 
+py -m zetl.mysql_import [csv_filename] [tablename] [WithTruncate]
+py -m zetl.mysql_export [tablename] [csvfilename] [delimiter] 
+-----------
+ backup
+ demo2
+ demo3
+ empty_log
+ view_log
+Running demo2
+
+ file 1.somethings.sql, step 1
+DROP TABLE IF EXISTS thistable
+dsn=default; usr=root; svr=localhost; port=3306; DB Name=atlas
+
+ file 1.somethings.sql, step 2
+CREATE TABLE thistable AS
+SELECT CURRENT_DATE as rightnow
+WHERE 1 = 1
+dsn=default; usr=root; svr=localhost; port=3306; DB Name=atlas
+
+ file 1.somethings.sql, step 3
+SELECT *
+FROM thistable
+dsn=default; usr=root; svr=localhost; port=3306; DB Name=atlas
+
+rightnow
+2023-12-04
+
