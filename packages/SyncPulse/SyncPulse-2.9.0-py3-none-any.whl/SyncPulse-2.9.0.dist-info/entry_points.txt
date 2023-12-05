@@ -1,0 +1,2 @@
+[console_scripts]
+SyncPulse = SyncPulse.__main__:main
