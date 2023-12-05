@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.8 (04/12/2023) 
+------------------  
+- removed @classmethod annotation. 
