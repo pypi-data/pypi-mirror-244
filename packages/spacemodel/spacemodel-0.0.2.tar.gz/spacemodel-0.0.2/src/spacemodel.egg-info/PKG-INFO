@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spacemodel
+Version: 0.0.2
+Summary: Provides Active-Record style wrappers to Deta Base using Pydantic.
+Home-page: https://github.com/Jay184/spacemodel
+Author: Jay
+Author-email: Jay184@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Jay184/spacemodel/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
