@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+DWL5500XY/DWL5500XY.py
+DWL5500XY/__init__.py
+DWL5500XY.egg-info/PKG-INFO
+DWL5500XY.egg-info/SOURCES.txt
+DWL5500XY.egg-info/dependency_links.txt
+DWL5500XY.egg-info/requires.txt
+DWL5500XY.egg-info/top_level.txt
