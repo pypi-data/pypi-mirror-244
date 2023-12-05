@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: LargeVis
+Version: 0.0.0.0.1
+Summary: LargeVis: A mainfold method for visualizing single-cell data .
+Home-page: https://github.com/wangzichenbioinformatics/LargeVis
+Author: Wangchen
+Author-email: wch_bioinformatics@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+
+# LargeVis 
+
+You can use it.
+https://github.com/wangzichenbioinformatics/LargeVis
+
+
