@@ -1,0 +1,40 @@
+[project]
+name = "py-usda-fdc"
+version = "0.2.0"
+authors = [
+    { name = "Patrick Stephane Tawil" },
+    { name = "Patrick S. Tawil", email = "patricktawil1@hotmail.com" },
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "pyhumps>=3.8.0",
+]
+
+[project.license]
+text = "GPL"
+
+[project.urls]
+Homepage = "https://github.com/ghostiek/py-fdc"
+Issues = "https://github.com/ghostiek/py-fdc/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = "src"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "sphinx>=7.2.6",
+    "twine>=4.0.2",
+]
