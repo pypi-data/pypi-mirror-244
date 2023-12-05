@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: st_kaggle_connector
+Version: 0.1.3
+Summary: Kaggle dataset connector for Streamlit
+Home-page: https://github.com/arsentievalex/kaggle-streamlit-data-connector/tree/main
+Author: Oleksandr Arsentiev
+Author-email: <arsentiev9393@gmail.com>
+License: MIT
+Keywords: streamlit,custom,component,kaggle,dataset,connector
+Description-Content-Type: text/markdown
+
+[![Open Demo App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kaggle-data-connector.streamlit.app/)
+
+Custom component that allows to import Kaggle datasets to Streamlit apps.
+
+[Kaggle](https://www.kaggle.com/) is the world's largest data science community. It enables users to explore and analyze a wide variety of public datasets.
+This app demonstrates a simple `KaggleDatasetConnection` which was built by extending the 
+[built-in BaseConnection](https://docs.streamlit.io/library/api-reference/connections/st.connections.experimentalbaseconnection)
+You can view the connection source code
+[here](https://github.com/arsentievalex/kaggle-streamlit-data-connector/blob/main/connection.py).
+
+While Kaggle offers datasets in different formats, this connector ONLY supports CSV files.
+
+A user can connect to a Kaggle dataset by providing the dataset path and filename.
+The path is the part of the dataset URL after the domain name, the structure is following: username/dataset-name.
+For example, for the dataset https://www.kaggle.com/shivamb/netflix-shows, the path is `shivamb/netflix-shows`,
+and the file name is `netflix_titles.csv`.
+
+Using this example, the code to connect to the dataset would look like this:
+
+```
+from st_kaggle_connector import KaggleDatasetConnection
+import streamlit as st
+
+conn = st.connection("kaggle_datasets", type=KaggleDatasetConnection)
+df = conn.get(path='shivamb/netflix-shows', filename='netflix_titles.csv', ttl=3600)
+```
+
+KaggleDatasetConnection` class assumes that you have secrets set up in the following format:
+
+```
+[connections.kaggle_datasets]
+ KAGGLE_USERNAME = "insert your Kaggle username"
+ KAGGLE_KEY = "insert your Kaggle API key"
+```
+
+
