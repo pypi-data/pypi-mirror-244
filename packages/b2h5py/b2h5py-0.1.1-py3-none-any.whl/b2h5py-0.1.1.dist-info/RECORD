@@ -1,0 +1,10 @@
+b2h5py/__init__.py,sha256=W9vO2vk57huuEDHBGOF5pbhu1XhEkdZ9pPhE6AvPW7o,717
+b2h5py/blosc2.py,sha256=cvkbWKipMvRK4aSNegBVttPW0uphrQJ4pr3ydr6BFcU,9644
+b2h5py/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b2h5py/tests/test_dataset_patching.py,sha256=WzX43zwulVc-ZM_wcRcPBm8gjaTzJ1dnGU3Ov54nQmY,2687
+b2h5py/tests/test_slicing_blosc2.py,sha256=djRo-8OaRoMgGPimk9AWG9zmkaG-6YmiiBohKM_VxCo,9410
+b2h5py-0.1.1.dist-info/LICENSE,sha256=d6x4N0_jAPy2a9yH4DVxMGY3Aql0sHvJPuiE_mC2lEw,1508
+b2h5py-0.1.1.dist-info/METADATA,sha256=k0076nddq4ha_CMZHKrFOrotPjNuhng57qsxJv3RdWw,5036
+b2h5py-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+b2h5py-0.1.1.dist-info/top_level.txt,sha256=LtIXYPISxyVqJlOJevhvwkCevP-QuuQZpsgZtr9o1Ds,7
+b2h5py-0.1.1.dist-info/RECORD,,
