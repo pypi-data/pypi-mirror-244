@@ -1,0 +1,11 @@
+__pycache__
+.DS_Store
+dist/
+examples/static/.ipynb_checkpoints
+website_build/*.html
+website_build/community
+website_build/css
+website_build/examples
+website_build/guides
+website_build/img
+website_build/js

@@ -1,0 +1,116 @@
+{
+    "pages": [
+        {
+            "url": "/",
+            "section": "home",
+            "label": "Home",
+            "src": "index.html",
+            "pyscript": true,
+            "index": true
+        },
+        {
+            "url": "/guides.html",
+            "section": "guides",
+            "label": "Guides",
+            "src": "guides.html",
+            "pyscript": false,
+            "index": true
+        },
+        {
+            "url": "/guides/why.html",
+            "section": "guides",
+            "label": "Why",
+            "src": "guides/why.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/guides/start.html",
+            "section": "guides",
+            "label": "Start",
+            "src": "guides/start.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/guides/deploy.html",
+            "section": "guides",
+            "label": "Deploy",
+            "src": "guides/deploy.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/examples.html",
+            "section": "examples",
+            "label": "Examples",
+            "src": "examples.html",
+            "pyscript": false,
+            "index": true
+        },
+        {
+            "url": "/reference.html",
+            "section": "reference",
+            "label": "Reference",
+            "src": "reference.html",
+            "pyscript": false,
+            "index": true
+        },
+        {
+            "url": "/community.html",
+            "section": "community",
+            "label": "Community",
+            "src": "community.html",
+            "pyscript": false,
+            "index": true
+        },
+        {
+            "url": "/community/code.html",
+            "section": "community",
+            "label": "Code",
+            "src": "community/code.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/community/discord.html",
+            "section": "community",
+            "label": "Discord",
+            "src": "community/discord.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/community/document.html",
+            "section": "community",
+            "label": "Document",
+            "src": "community/document.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/community/issue.html",
+            "section": "community",
+            "label": "Issue",
+            "src": "community/issue.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/community/showcase.html",
+            "section": "community",
+            "label": "Showcase",
+            "src": "community/showcase.html",
+            "pyscript": false,
+            "index": false
+        },
+        {
+            "url": "/editor.html",
+            "section": "editor",
+            "label": "Editor",
+            "src": "editor.html",
+            "pyscript": false,
+            "index": true
+        }
+    ]
+}

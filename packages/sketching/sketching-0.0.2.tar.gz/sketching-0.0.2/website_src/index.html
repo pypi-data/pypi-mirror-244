@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="/css/index.css" />
+{% endblock %}
+
+{% block main %}
+<div class="catch">
+    Make <span class="word" id="use-case">data visualization</span> in Python for <span class="word" id="platform">web</span>.
+</div>
+<div class="split-view">
+    <section class="code-holder">
+        <div>
+            <span class="loading" id="loading-msg">Please wait...</span>
+            <span class="loading" id="loaded-msg"><button class="button" id="run-button">Run in your Browser</button></span>
+            <span><a href="/guides.html">Learn More</a></span>
+        </div>
+        <div>
+            <div id="editor">import sketching
+import time
+
+# Make the sketch
+sketch = sketching.Sketch2DWeb(500, 500, 'example-canvas')
+sketch.clear('#F0F0F0')
+sketch.clear_fill()
+sketch.set_angle_mode('degrees')
+start_time = time.time()
+
+def draw():
+  """Draw sketch"""
+  mouse = sketch.get_mouse()
+  x = mouse.get_x()
+  y = mouse.get_y()
+  
+  # Draw from center to the user's mouse (or location of tap on mobile)
+  sketch.set_stroke_weight(1)
+  sketch.set_stroke('#33333350')
+  sketch.draw_line(x, y, 250, 250)
+  
+  # Draw arc
+  sketch.set_stroke_weight(10)
+  sketch.set_stroke('#A0A0C010')
+  start_angle = (time.time() - start_time) * 30
+  sketch.draw_arc(250, 250, 200, 200, start_angle, start_angle + 2)
+
+# Register the draw method and show
+sketch.on_step(draw)
+sketch.show()
+            </div>
+        </div>
+    </section>
+    <section class="canvas-holder">
+        <canvas class="example-canvas" id="example-canvas-0" tabindex="1"></canvas>
+    </section>
+</div>
+<div id="main-script"></div>
+<pre id="runtime-error-display"></pre>
+{% endblock %}
+
+{% block script %}
+<script src="/third_party/ace.min.js"></script>
+<script src="/third_party/theme-textmate.js"></script>
+<script src="/third_party/theme-textmate-css.js"></script>
+<script src="/js/index.js"></script>
+{% endblock %}

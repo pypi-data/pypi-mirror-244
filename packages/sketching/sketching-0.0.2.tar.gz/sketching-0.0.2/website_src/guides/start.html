@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block main %}
+<section>
+    <h2>Getting started</h2>
+    <div>
+        Sketching.py offers multiple pathways depending on where you want to start coding first.
+    </div>
+
+    <section class="subsection" id="web">
+        <h3>Web</h3>
+        <div>
+            For the easiest place to get started, we have an <a href="/editor.html">online editor</a> where you can build your sketchbook without installing any software. All you need is a browser! Two sketches to get you started:
+
+            <ul>
+                <li><a href="/examples/web/example.html?sketch=hello_static">Hello World: Static</a></li>
+                <li><a href="/examples/web/example.html?sketch=hello_interactive">Hello World: Interactive</a></li>
+            </ul>
+
+            Looking for more inspiration? Check out the <a href="/examples.html">examples</a>. Once you've tried your first bits of code, learn how to <a href="/guides/deploy.html#web">deploy your sketches or embed them in larger web pages</a>. This uses the <a href="/reference/Sketch2DWeb.html">Sketch2DWeb renderer</a> which is built on top of <a href="https://webassembly.org/">WebAssembly</a> and <a href="https://pyscript.net/">PyScript</a>.
+        </div>
+    </section>
+
+    <section class="subsection" id="local">
+        <h3>Desktop</h3>
+        <div>
+            You can use Sketching.py locally on your own machine like a laptop or desktop using plain old Python programs in ".py" files. The bare minimum install:
+
+            <pre>pip install sketching pillow</pre>
+
+            Try making a simple image in this <a href="https://gitlab.com/skteching/Sketchingpy/-/blob/main/examples/static/hello_static.py?ref_type=heads">static renderer example</a>. If you want to make interactive or animated sketches:
+
+            <pre>pip install pygame</pre>
+
+            After pip is done, try an <a href="https://gitlab.com/skteching/Sketchingpy/-/blob/main/examples/local/hello_interactive.py?ref_type=heads">interactive example</a> or explore how to make <a href="/guides/deploy.html#desktop">stand-alone executables</a>. The larger <a href="/examples.html">examples</a> section may be a good next stop as well. Note that this type of usage for Sketching.py uses the <a href="/reference/Sketch2DWeb.html">Sketch2D renderer</a> and <a href="/reference/Sketch2DWeb.html">Sketch2DStatic renderer</a> built on top of <a href="https://www.pygame.org/news">Pygame</a> and <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a>.
+        </div>
+    </section>
+
+    <section class="subsection" id="notebook">
+        <h3>Notebook</h3>
+        <div>
+            Pair the power of scientific programming with the expressiveness and flexibility of creative coding. Get started by installing:
+
+            <pre>pip install sketching matplotlib pillow</pre>
+
+            Then, take a look at an example <a href="https://gitlab.com/skteching/Sketchingpy/-/blob/main/examples/static/example_notebook.ipynb?ref_type=heads">Jupyter Notebook</a> that uses pyplot to embed your sketches. We recommend using the <a href="/reference/Sketch2DWeb.html">Sketch2D renderer</a> with Jupyter. Learn more about what you can do with Sketching.py by reading through the <a href="/examples.html">examples</a>.
+        </div>
+    </section>
+
+    <section class="subsection" id="mobile">
+        <h3>Mobile</h3>
+        <div>
+            More details on mobile coming soon. Until then, try taking a look at Sketching.py's <a href="#web">web option</a> which is also intended to work for mobile browsers.
+        </div>
+    </section>
+
+    <section class="subsection" id="static">
+        <h3>Other (static)</h3>
+        <div>
+            You can run Sketching.py just about anywhere you can execute Python. This includes servers which don't have desktop environments. The minimum install:
+
+            <pre>pip install sketching pillow</pre>
+
+            This will enable use of the <a href="/reference/Sketch2DWeb.html">Sketch2DStatic renderer</a> built on top of <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> and it can be used in headless environments. Need more help getting started? See the <a href="/examples.html">examples</a>.
+        </div>
+    </section>
+    
+</section>
+{% endblock %}
