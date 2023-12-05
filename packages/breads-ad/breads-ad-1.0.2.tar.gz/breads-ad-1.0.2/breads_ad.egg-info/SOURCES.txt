@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+breads_ad.egg-info/PKG-INFO
+breads_ad.egg-info/SOURCES.txt
+breads_ad.egg-info/dependency_links.txt
+breads_ad.egg-info/requires.txt
+breads_ad.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/data/__init__.py
+src/helpers/__init__.py
+src/helpers/user.py
+src/modules/__init__.py
+src/ui/__init__.py
+src/ui/banner.py
