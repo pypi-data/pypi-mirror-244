@@ -1,0 +1,11 @@
+vegas.pxd,sha256=Hstt3Zn9l2EbTBGScAtED9bGaH49j02_Owj5IEbCD0Y,659
+vegas/__init__.py,sha256=2oiR6-Y0eAKdxWvD2fGN8Eg9utKRZaCq196Dgv0KAAg,32057
+vegas/_vegas.c,sha256=qE6XdwHfVfOwBHHjNv1MlRJ4MWns9pqEPcfMnTyxDlw,4958007
+vegas/_vegas.cp310-win_amd64.pyd,sha256=M2rsFXYCv4QlSQm2OSHK4EhAPB-hsGc2iDc-ymTZXbk,963072
+vegas/_vegas.pxd,sha256=xdG0aOeo2oLEvZxhYpMLoozQpS8giF9zDI2ZmJzrwgc,3083
+vegas/_version.py,sha256=OZjgivoWJ0DAxVKzgZFrRYYTcdiy6iKalUVZmBQKvUU,23
+vegas-5.5.2.dist-info/LICENSE.txt,sha256=SffL3Z2yLgIZmbJvF_bGtpv4LN7Pl8Hc2DD0KcL6kUI,32541
+vegas-5.5.2.dist-info/METADATA,sha256=f-bCTecfFDw9NcUuFxUHWi9GxRuU5gGO4wkrPXqvIUo,1888
+vegas-5.5.2.dist-info/WHEEL,sha256=5JPYeYl5ZdvdSkrGS4u21mmpPzpFx42qrXOSIgWf4pg,102
+vegas-5.5.2.dist-info/top_level.txt,sha256=rnAmsIvsHyplln9ev-uw4hM7slW7VUdBQu9VgX8knkE,6
+vegas-5.5.2.dist-info/RECORD,,
