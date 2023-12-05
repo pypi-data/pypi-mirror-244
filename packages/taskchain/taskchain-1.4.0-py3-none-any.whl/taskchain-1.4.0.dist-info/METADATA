@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: taskchain
+Version: 1.4.0
+Summary: Utility for running data and ML pipelines
+Home-page: https://flowerchecker.github.io/taskchain/
+License: MIT
+Author:  Jiří Thran Řihák
+Author-email: exthran@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: filelock (==3.12.2)
+Requires-Dist: h5py (>=3.7.0,<4.0.0)
+Requires-Dist: icecream (>=2.1.3,<3.0.0)
+Requires-Dist: networkx (>=2.8.7,<3.0.0)
+Requires-Dist: orjson (>=3.8.7,<4.0.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Requires-Dist: seaborn (>=0.12.1,<0.13.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Project-URL: Documentation, https://flowerchecker.github.io/taskchain/
+Project-URL: Repository, https://github.com/flowerchecker/taskchain
+Description-Content-Type: text/markdown
+
+# TaskChain
+
+[Documentation](https://flowerchecker.github.io/taskchain/)
+
+
+## Install
+
+```bash
+pip install taskchain
+```
+
+#### From source
+```bash
+git clone https://github.com/flowerchecker/taskchain
+cd taskchain
+poetry install
+```
+
+## Changelog
+
+#### unpublished
+- allow to define multiple input task using regexp 
+
+#### 1.2.1
+- fixes
+
+
+#### 1.2.0
+- remove redundant module `taskchain.task`
+- add support for task exclusion, just use `exluded_tasks` in your config
+- add tools for testing, check `taskchain.utils.testing`
+- finish documentation
+- remove some redundant methods
+
+#### 1.1.1
+- improve chain representation in jupyter
+- add `tasks_df` parameter to chains
+- add support for `uses` in contexts (same syntax as in configs)
+- improve create_readable_filenames
+  - use config name as default name
+  - better verbose mode
+- `force` method of both Chain and Task now supports `delete_data` parameter which delete persisted data 
+  - it defaults to `False`
+  - be careful with this
+- add [Makefile](Makefile)
+
+#### 1.1.0
+- release to PIP
+
+#### 1.0.3
+- more types can be used for `run` method, e.g. `dict` or `Dict[str, int]`
+- forbid some names of parameters with special meaning in configs (`uses`, `tasks`, ...)
+- you should import from `taskchain` instead of `taskchain.taks`, later is deprecated and will be removed
+  - use `from taskchain import Task, Config, Chain` or `import taskchain as tc; tc.Task`
+- MultiChain are now more robust, you can use them with configs with context, and it will work correctly 
+
+## Development
+
+#### Release new version to PIP
+
+```bash
+make version-patch
+# OR
+make version-minor
+
+make publish
+```
+
+#### Develop docs
+run server which dynamically serves docs web.
+```bash
+make docs-develop
+```
+
+#### Build docs
+
+Create documentation as static files. 
+```bash
+make docs-build
+```
+
+
+#### Build docs
+
+Builds documentation and deploys it to GitHub Pages
+```bash
+make make docs-publish
+```
+
