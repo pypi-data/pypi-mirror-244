@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Total alimentari: {{total}}[€]
+    </div>
+    <div class="col-6">
+      Total Benzina: {{tot_benz}}[€]
+    </div>
+    <div class="col">
+      Total Electric: {{tot_el}}[€]
+    </div>
+  </div>
+</div>
+<br>
+
+
+<!--Filter-->
+<form method="post" action="/masina">
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                Date From
+            </div>
+            <div class="col">
+                <input type="date" name="dataFrom"/>
+            </div>
+            <div class="col">
+                Date Bis
+            </div>
+            <div class="col">
+                <input type="date" name="dataBis"/>
+            </div>
+            <div class="col">
+                Type
+            </div>
+            <div class="col">
+                <select id="alim_type" name="type">
+                    <option value="all">all</option>
+                    <option value="SWM">SWM</option>
+                    <option value="eCharge">eCharge</option>
+                    <option value="EnBW">EnBW+</option>
+                    <option value="MyHyundai">MyHyundai</option>
+                    <option value="benzina">benzina</option>
+                    <option value="intretinere">intretinere</option>
+                </select>
+            </div>
+            <div class="col">
+                Monthly
+            </div>
+            <div class="col">
+                <select id="ffff" name="month">
+                    <option value="interval">interval</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+            <div class="col">
+                <input type="submit" name="submit_request"/>
+            </div>
+        </div>
+    </div>
+    <br>
+</form>
+<br>
+
+<!--Date Fraom Date Bis-->
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
+            Data From: {{dataFrom}}
+        </div>
+        <div class="col">
+            Data Bis: {{dataBis}}
+        </div>
+    </div>
+</div>
+<br>
+
+
+<!--TABLE-->
+<table class="table" id="masinaTable"  border="1">
+    <script src="{{ url_for('static', filename='js/myfile.cs') }}"></script>
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortMasinaTable(0)">#</th>
+            <th scope="col" onclick="sortMasinaTable(1)">Date</th>
+            <th scope="col" onclick="sortMasinaTable(2)">Type</th>
+            <th scope="col" onclick="sortMasinaTable(3)">Brutto</th>
+            <th scope="col" onclick="sortMasinaTable(4)">Quantity</th>
+            <th scope="col" onclick="sortMasinaTable(5)">PPU</th>
+            <th scope="col" onclick="sortMasinaTable(6)">km</th>
+        </tr>
+    </thead>
+
+    {% for user in userDetails %}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+        <td>{{user[3]}}</td>
+        <td>{{user[4]}}</td>
+        <td>{{user[5]}}</td>
+        <td>{{user[6]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<br>
+<br>
+<head>Adauga o alimentare</head>
+
+<form method="post" action="/masina">
+    <br>
+    <label>Date</label>
+    <input type="date" name="data"/>
+
+    <label>Type</label>
+    <select id="cars" name="type">
+        <option value="SWM">SWM</option>
+        <option value="eCharge">eCharge</option>
+        <option value="EnBW">EnBW+</option>
+        <option value="MyHyundai">MyHyundai</option>
+        <option value="benzina">benzina</option>
+        <option value="intretinere">intretinere</option>
+    </select>
+
+    <label>Brutto</label>
+    <input type="number" name="brutto" step="any" required/>
+    <label>[e]</label>
+
+    <label>Amount</label>
+    <input type="number" name="amount" step="any" required/>
+    <label>[L/KwH]</label>
+
+    <label>Km stand</label>
+    <input type="number" name="km"/>
+
+    <input type="submit" name="add_alim"/>
+</form>
+<br>
+<br>
+{% endblock %}

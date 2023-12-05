@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if current_user.is_authenticated %}
+  Hi {{ current_user.name }}!
+<br>
+<a href=" {{ url_for('logout')}} ">Logout</a>
+
+{% else %}
+    Please log in
+<br>
+<form method="post" action="/">
+    <br>
+    <div class="row">
+        <div class="col">
+            User Name
+        </div>
+        <div class="col">
+            <input type="text" name="username" required/>
+        </div>
+        <div class="col">
+            Password
+        </div>
+        <div class="col">
+            <input type="password" name="password" required/>
+        </div>
+        <div class="col">
+            <input type="submit"/>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div>
+            <a class="nav-link active" aria-current="page" href="{{url_for('register')}}">Register</a>
+        </div>
+    </div>
+
+</form>
+<br>
+
+{% endif %}
+
+<!--{% if iniFile %}-->
+<!--  <h2>ini file : {{ iniFile }}</h2>-->
+
+{% else %}
+  <h2> Please select the initial file</h2>
+  <br/>
+  <form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.iniFile.label }}
+    {{ form.iniFile }}
+    <br/>
+    {{ form.submit() }}
+  </form>
+{% endif %}
+
+
+{% endblock %}

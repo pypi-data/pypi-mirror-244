@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Date</th>
+            <th scope="col">Type</th>
+            <th scope="col">Brutto</th>
+            <th scope="col">Quantity</th>
+        </tr>
+    </thead>
+
+    {% for user in userDetails %}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+        <td>{{user[3]}}</td>
+        <td>{{user[4]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}
