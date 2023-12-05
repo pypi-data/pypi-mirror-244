@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: configmate
+Version: 0.1.1
+Summary: A universal configuration parser for Python.
+License: Apache 2.0
+Keywords: configuration,config,parser,config-parser
+Author: arthur böök
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: pydantic
+Provides-Extra: toml
+Provides-Extra: yaml
+Requires-Dist: pydantic (>=2.3.0,<3.0.0) ; extra == "pydantic"
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0) ; extra == "yaml"
+Requires-Dist: toml (>=0.10.2,<0.11.0) ; extra == "toml"
+Project-URL: repository, https://github.com/ArthurBook/configmate
+Description-Content-Type: text/markdown
+
+# configmate: universal, practical configuration parser for Python. 
+With support for multiple file format backends, this package provides robust validation and allows for configuration overrides. Engineered for straightforward and reliable integration into Python applications.
+
