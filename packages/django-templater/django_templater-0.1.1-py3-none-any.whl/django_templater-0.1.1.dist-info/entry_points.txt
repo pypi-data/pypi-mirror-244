@@ -1,0 +1,3 @@
+[console_scripts]
+dt=django_templater.__main__:main
+
