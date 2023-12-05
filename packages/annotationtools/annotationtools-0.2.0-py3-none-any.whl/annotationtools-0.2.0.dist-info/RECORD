@@ -1,0 +1,7 @@
+annotationtools/__init__.py,sha256=FGzTjU0MARdEHIWB1bDWSpft60WfEYy6YTM-8lv-wI4,721
+annotationtools/cvat.py,sha256=lmV_lyJKI-DQXfT7oaRjEP1hkU_S-6982EyyW9yeuMM,12721
+annotationtools/dataset.py,sha256=KnidlODJ9Mq4_ISAStJGUskZ0E7ZXzEqFMYDDnQqceo,7479
+annotationtools-0.2.0.dist-info/METADATA,sha256=aw3eK1VzCTbxk3-fu6R8phJK-TyrHpB6ZHHle91hKf8,796
+annotationtools-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+annotationtools-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+annotationtools-0.2.0.dist-info/RECORD,,
