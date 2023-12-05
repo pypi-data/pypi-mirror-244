@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+polyrot/__init__.py
+polyrot/helpers.py
+polyrot/newton.py
+polyrot/pltstr.py
+polyrot/poly1d.py
+polyrot/pseudo.py
+polyrot/rotpot.py
+polyrot/star.py
+polyrot.egg-info/PKG-INFO
+polyrot.egg-info/SOURCES.txt
+polyrot.egg-info/dependency_links.txt
+polyrot.egg-info/requires.txt
+polyrot.egg-info/top_level.txt
