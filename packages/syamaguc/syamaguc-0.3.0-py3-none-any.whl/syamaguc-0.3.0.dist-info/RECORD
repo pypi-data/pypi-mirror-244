@@ -1,0 +1,16 @@
+Makefile,sha256=zPVRSmCCD4JGBI3qQKcj3LNeLfDsxKdRgP2sR4WFASA,481
+syamaguc/__init__.py,sha256=pprtaZYjD0CiiiSw6kpBwhReAk1jwM07bALku5ySw14,35
+syamaguc/gyazo/__init__.py,sha256=Yap01PUp7cTDUNYh3az-UClYBdvLwHUUOett35sRq0E,142
+syamaguc/gyazo/api.py,sha256=0bZBoVPbMrpro-NDvkfl-QAqGwV9TDy9YcfFTGgZzb8,7593
+syamaguc/gyazo/error.py,sha256=nzuMUqFAzeU-UKo5DNI8_XnjfaQaNon733u8NYTeRiU,78
+syamaguc/gyazo/image.py,sha256=4qf8jhYxgyAbTOjHIVqO2JN92qd5PnQTAOPu0wXHQhc,9408
+syamaguc/gyazo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syamaguc/kvs/__init__.py,sha256=dILatbcNeXDnSpQew3tRi4N8TxVVbDw4ycS-8P_QiOs,40
+syamaguc/kvs/kvs.py,sha256=047VWmSNf2AAsH8LhWMXqUAFzow98xyzmAY0O0KoWls,1198
+syamaguc/scraping/__init__.py,sha256=ze0aZPC6ivgT9_IDc14QC8b-pB6rybvIWQA6ecsSmjM,78
+syamaguc/scraping/tor.py,sha256=UGWUQQ8nxPOgcfbjhz-S6ti3VCs-21pQ5tqhSbpNTPg,639
+tox.ini,sha256=eSaVubjtBR50_qvYLii9WOw8eUogFgBhWBvdtxdj4O8,793
+syamaguc-0.3.0.dist-info/LICENSE,sha256=ZSix0S_XAzr0X8D366SIXE2T7yfmezwhZlsE4dlpUEA,1077
+syamaguc-0.3.0.dist-info/METADATA,sha256=Yr1l2jCqdmog6g14VuKX5JR91zDRwf0fW29qduH-T6M,1066
+syamaguc-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+syamaguc-0.3.0.dist-info/RECORD,,
