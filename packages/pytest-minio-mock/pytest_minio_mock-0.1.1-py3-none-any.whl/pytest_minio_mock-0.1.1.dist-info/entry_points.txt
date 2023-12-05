@@ -1,0 +1,2 @@
+[pytest11]
+minio_mock = pytest_minio_mock
