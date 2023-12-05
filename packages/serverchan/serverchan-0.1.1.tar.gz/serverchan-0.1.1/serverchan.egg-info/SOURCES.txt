@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+serverchan/__init__.py
+serverchan/__version__.py
+serverchan/channel.py
+serverchan/main.py
+serverchan.egg-info/PKG-INFO
+serverchan.egg-info/SOURCES.txt
+serverchan.egg-info/dependency_links.txt
+serverchan.egg-info/top_level.txt
+test/__init__.py
+test/test.py
