@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+TalkGTTS/__init__.py
+TalkGTTS/other_module.py
+TalkGTTS.egg-info/PKG-INFO
+TalkGTTS.egg-info/SOURCES.txt
+TalkGTTS.egg-info/dependency_links.txt
+TalkGTTS.egg-info/requires.txt
+TalkGTTS.egg-info/top_level.txt

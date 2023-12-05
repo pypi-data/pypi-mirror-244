@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: TalkGTTS
+Version: 0.1
+Summary: Uses GTTS to make it talk.
+Home-page: https://github.com/Talklet123/Talk-Module
+Author: Talklet123
+Author-email: developer1234567890234@yahoo.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a module that formats gTTS into talkGTTS.say("YOUR TEXT HERE"). I will 
+say those words and then leave no trace.
+
+
