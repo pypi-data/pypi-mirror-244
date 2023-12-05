@@ -1,0 +1,24 @@
+Sphinx>=4.4
+docutils
+
+[:python_version < "3.8.0"]
+importlib-metadata
+
+[dev]
+sphinx-api-relink[sty]
+
+[format]
+black
+
+[lint]
+ruff
+sphinx-api-relink[mypy]
+
+[mypy]
+mypy
+types-docutils
+
+[sty]
+pre-commit>=1.4.0
+sphinx-api-relink[format]
+sphinx-api-relink[lint]
