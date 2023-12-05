@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+esfinge/__init__.py
+esfinge.egg-info/PKG-INFO
+esfinge.egg-info/SOURCES.txt
+esfinge.egg-info/dependency_links.txt
+esfinge.egg-info/entry_points.txt
+esfinge.egg-info/top_level.txt
