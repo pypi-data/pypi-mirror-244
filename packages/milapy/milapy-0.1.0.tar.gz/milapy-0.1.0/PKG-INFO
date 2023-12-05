@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: milapy
+Version: 0.1.0
+Summary: 
+Author: pyk
+Author-email: gm@pyk.sh
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (==0.25.2)
+Description-Content-Type: text/markdown
+
+# milapy
+
+milapy is an extensible Python 3 interface designed for Ethereum and various
+EVM-based chains. It offers a command-line interface, supports multiple chains,
+and provides synchronous and asynchronous APIs.
+
+## Getting started
+
+Install milapy using pip:
+
+```sh
+pip install milapy
+```
+
+Now, let's get started:
+
+```sh
+>>> from milapy import Chain
+>>> mainnet = Chain(id=1)
+>>> mainnet.get_block_number()
+18719286
+```
+
+## Acknowledgements
+
+milapy were inspired by or directly modified from many sources, primarily:
+
+- [viem](https://viem.sh/)
+- [web3.py](https://web3py.readthedocs.io/en/stable/)
+- [ethers.js](https://docs.ethers.org/v5/)
+
