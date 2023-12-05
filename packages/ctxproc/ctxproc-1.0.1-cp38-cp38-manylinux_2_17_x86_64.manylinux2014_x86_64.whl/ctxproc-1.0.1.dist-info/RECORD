@@ -1,0 +1,8 @@
+ctxproc/single_process.cpython-38-x86_64-linux-gnu.so,sha256=IIGox_0BAPbE32YQ03ON16w5SkjzE3fTGsVfMyjvkXw,723096
+ctxproc/multi_process.cpython-38-x86_64-linux-gnu.so,sha256=9Gvgwf39rB2m_zhJ3f31A4iCJvSqM1X6Gj4UAdT8UEM,680576
+ctxproc/zmq_process.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ctxproc/__init__.py,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+ctxproc-1.0.1.dist-info/RECORD,,
+ctxproc-1.0.1.dist-info/WHEEL,sha256=DgQvvKA86YjCyJV3iTqGdSoWyA7CZxlosDclWBwlEKg,148
+ctxproc-1.0.1.dist-info/METADATA,sha256=pYKzTBdDYBoHbmTTkZhTEDZ031Sqf0SVyDCcFCuJa-M,767
+ctxproc-1.0.1.dist-info/top_level.txt,sha256=YBj2-59k7ndHgNOeVQT_m64QhvDYH3POHrAMkIjNtUE,8
