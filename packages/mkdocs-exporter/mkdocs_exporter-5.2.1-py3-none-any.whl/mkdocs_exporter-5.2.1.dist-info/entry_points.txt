@@ -1,0 +1,8 @@
+[mkdocs.plugins]
+exporter=mkdocs_exporter.plugin:Plugin
+exporter-extras=mkdocs_exporter.plugins.extras.plugin:Plugin
+exporter-pdf=mkdocs_exporter.plugins.pdf.plugin:Plugin
+mkdocs/exporter=mkdocs_exporter.plugin:DeprecatedPlugin
+mkdocs/exporter/extras=mkdocs_exporter.plugins.extras.plugin:DeprecatedPlugin
+mkdocs/exporter/pdf=mkdocs_exporter.plugins.pdf.plugin:DeprecatedPlugin
+
