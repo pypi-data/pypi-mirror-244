@@ -1,0 +1,2 @@
+[console_scripts]
+yamlpipe = yaml_pipe.main:main

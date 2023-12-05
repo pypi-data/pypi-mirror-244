@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pipeyaml.egg-info/PKG-INFO
+pipeyaml.egg-info/SOURCES.txt
+pipeyaml.egg-info/dependency_links.txt
+pipeyaml.egg-info/entry_points.txt
+pipeyaml.egg-info/requires.txt
+pipeyaml.egg-info/top_level.txt
