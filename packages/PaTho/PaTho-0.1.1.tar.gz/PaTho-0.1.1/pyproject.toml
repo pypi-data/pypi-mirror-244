@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PaTho"
+version = "0.1.1"
+authors = [{name = "Mian Bruel"}]
+description = "A package to download images from URLs."
+dependencies = ["requests"]
+
+[project.scripts]
+PaTho = "PaTho.downloader:main"
