@@ -1,0 +1,4 @@
+[console_scripts]
+e = editor.editor:execute
+webeditor = editor.editor:execute
+webvim = editor.editor:execute
