@@ -1,0 +1,13 @@
+LICENSE
+setup.py
+invg/src/invg.egg-info/PKG-INFO
+invg/src/invg.egg-info/SOURCES.txt
+invg/src/invg.egg-info/dependency_links.txt
+invg/src/invg.egg-info/requires.txt
+invg/src/invg.egg-info/top_level.txt
+invg/src/invg.py
+invg/src/invg.egg-info/PKG-INFO
+invg/src/invg.egg-info/SOURCES.txt
+invg/src/invg.egg-info/dependency_links.txt
+invg/src/invg.egg-info/requires.txt
+invg/src/invg.egg-info/top_level.txt

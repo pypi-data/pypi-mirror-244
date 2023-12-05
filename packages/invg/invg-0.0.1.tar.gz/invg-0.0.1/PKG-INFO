@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: invg
+Version: 0.0.1
+Summary: Python api wrapper for INVG busstop information
+Author: Moritz Schirmer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: requests
+
+INVG (INgolstÃ¤dter VerkehrsGesellschaft) api wrapper
+
+This is a reverse engineering of the INVG realtime bus information api.
+It is using a mix of api and web crawler to get all its information.
+
+Functions
+
+get_station_data(str)
+
+    this function takes a string of a bus stop's name and returns the Busstation shortcode aswell as the Busstation ID.
+
+get_timetable(str, str)
+
+    this function takes the Busstation shortcode and Busstation ID and returns the timetale as JSON array.
+
+get_timtable_by_name(str)
+
+    this function merges the two above and takes the Name and returns the JSON array.
+
+IF you run this from the commandline it will Visualize the requested Station Data.
