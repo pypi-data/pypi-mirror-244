@@ -1,0 +1,22 @@
+name: bmcs_env
+channels:
+- conda-forge
+dependencies:
+- appmode
+- jupyter_contrib_nbextensions
+- traits
+- matplotlib-base
+- numpy
+- scipy
+- sympy
+- k3d
+- ipywidgets
+- ipympl
+- gmsh
+- pip
+- pip:
+  - -e .
+  - bmcs-utils
+  - bmcs-ibvpy
+  - gmsh
+  - pygmsh
