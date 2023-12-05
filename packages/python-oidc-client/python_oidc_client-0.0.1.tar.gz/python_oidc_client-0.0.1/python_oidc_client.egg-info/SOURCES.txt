@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+idpartner/__init__.py
+python_oidc_client.egg-info/PKG-INFO
+python_oidc_client.egg-info/SOURCES.txt
+python_oidc_client.egg-info/dependency_links.txt
+python_oidc_client.egg-info/requires.txt
+python_oidc_client.egg-info/top_level.txt
+test/test_idpartner.py

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python_oidc_client
+Version: 0.0.1
+Summary: A Python client for interacting with OpenID Connect providers.
+Home-page: https://github.com/idpartner-app/python_oidc_client
+Author: IDPartner
+Author-email: engineering-external@idpartner.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+The IDPartner gem offers a Python client for OpenID Connect providers, streamlining
+                        authorization, token acquisition, and user information retrieval. It supports various
+                        authentication methods and handles endpoint discovery via well-known configuration. The
+                        package simplifies JWT generation, signing, and verifying, making OpenID Connect integration
+                        straightforward and secure.
