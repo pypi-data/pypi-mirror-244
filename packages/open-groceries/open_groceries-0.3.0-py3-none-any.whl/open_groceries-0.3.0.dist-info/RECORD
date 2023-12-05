@@ -1,0 +1,14 @@
+open_groceries/__init__.py,sha256=J6_Pz1rbb0HeAkLhKy_YX_Sc1VlVU4LrKImdWtbBcqQ,6724
+open_groceries/adapters/__init__.py,sha256=v1PGdi_pVeclUQ1vltR2SFGCo3pjU2PHaYhAxQbYSBk,55
+open_groceries/adapters/costco.py,sha256=TFMX72xioWN7ym9iY1Afb48GHhmKb0sOE5mSxKW6Ngw,9291
+open_groceries/adapters/wegmans.py,sha256=TRj42IZa96EYnYyAlRS2rjsMS3hg3qm8MpDLy0BcBp8,6558
+open_groceries/exceptions.py,sha256=Y3EOqNwL9Qn7hqpjo60axTerHaSBHivqS07MQqH8pBw,436
+open_groceries/models/__init__.py,sha256=vkPpcdnVg0HEKcnDgL_RIFTWnciDykamFOu4XgC7yJA,128
+open_groceries/models/adapter.py,sha256=GiE_Qy9BPt3liT9a0xnzSVY7zoGSlWE8D7r0gGcgxmU,620
+open_groceries/models/groceries.py,sha256=uVH27kSbOpmmTtIyv-bq4nufoNEssD9D4NRqlkmeCNQ,359
+open_groceries/models/location.py,sha256=bWcbgwCBRHuxotK7kr7IYQHgRcCQw9EIRF5mWNbyHZ8,1383
+open_groceries/models/store.py,sha256=u6zvOipyLwe8-83Lu9eKoqSUQlNogZMrjlb9re29GCE,1026
+open_groceries-0.3.0.dist-info/LICENSE,sha256=d3NLvLDEnvVagL6MK4vZwVG4JeSfSj9ZpoElp2pcXBs,1067
+open_groceries-0.3.0.dist-info/METADATA,sha256=OJTozMMLbY2XG6PvSAIHR_Yx6Wh-nnaNhyj5DRX2GdA,5928
+open_groceries-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+open_groceries-0.3.0.dist-info/RECORD,,
