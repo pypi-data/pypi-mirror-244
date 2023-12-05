@@ -1,0 +1,8 @@
+rgx/__init__.py,sha256=7fZP3mx4fqO1BflUZkjkgvW0zohmhS39MM1mgVrAqA4,193
+rgx/entities.py,sha256=2fqjZ_AtcLLvPJqBVbu7pSUl0MFZD01WWhezqxCFtwg,35448
+rgx/meta.py,sha256=O9-zgOwT4966pGHJZqG9lXYG3lVEM1upULE457C-UJY,933
+rgx/unicode_meta.py,sha256=P4ER0dbPPoJQp5hjXHLzKyWRTgUeHJh85ajG-BCq78s,663
+rgx-2.0.0.dist-info/LICENSE,sha256=nuh1Z6_O2G2IwIGn8xay0SnQZPXL4P0gAnnW2LRy2Mw,1073
+rgx-2.0.0.dist-info/METADATA,sha256=IHmOTiJtHYkuNOhF7oj01Moe-7BhSsjsNlrZEPu4a8Y,17404
+rgx-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+rgx-2.0.0.dist-info/RECORD,,
