@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: rustedpy-maybe
+Version: 0.0.0
+Summary: A Rust-like option type for Python
+Home-page: https://github.com/rustedpy/maybe
+Author: francium
+Author-email: francium@francium.cc
+Maintainer: rustedpy github org members (https://github.com/rustedpy)
+License: MIT
+Keywords: rust,option,maybe,enum
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: typing-extensions ; python_version < "3.10"
+
+======
+Maybe
+======
+
+.. image:: https://img.shields.io/github/actions/workflow/status/rustedpy/maybe/ci.yml?branch=master
+    :alt: GitHub Workflow Status (branch)
+    :target: https://github.com/rustedpy/maybe/actions/workflows/ci.yml?query=branch%3Amaster
+
+.. image:: https://codecov.io/gh/rustedpy/maybe/branch/master/graph/badge.svg
+    :alt: Coverage
+    :target: https://codecov.io/gh/rustedpy/maybe
+
+A simple Maybe (Option) type for Python 3 `inspired by Rust
+<https://doc.rust-lang.org/std/option/>`__, fully type annotated.
+
+Installation
+============
+
+Not yet available on PyPI. PyPI package coming soon.
+
+Latest GitHub ``master`` branch version:
+
+.. sourcecode:: sh
+
+   $ pip install git+https://github.com/rustedpy/maybe
+
+Summary
+=======
+
+**Experimental. API subject to change.**
+
+The idea is that a possible value can be either ``Some(value)`` or
+``Nothing()``, with a way to differentiate between the two. ``Some`` and
+``Nothing`` are both classes encapsulating a possible value.
+
+Example usage,
+
+.. sourcecode:: Python
+
+    from rustedpy-maybe import Nothing, Some
+
+    o = Some('yay')
+    n = Nothing()
+    assert o.unwrap_or_else(str.upper) == 'yay'
+    assert n.unwrap_or_else(lambda: 'default') == 'default'
+
+
+License
+=======
+
+MIT License
