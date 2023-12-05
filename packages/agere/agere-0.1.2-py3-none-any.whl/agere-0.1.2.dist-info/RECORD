@@ -1,0 +1,14 @@
+agere/__init__.py,sha256=oNAd7UILN9NEy2P2DaESBu_MD8YU3tZBNKxivFjuwOw,96
+agere/_version.py,sha256=4mJxuAmQ4I0lnlDrQ8kDqOCdd0EAnXfFbRryQsQo7KI,42
+agere/commander/__init__.py,sha256=iAGKVKq8MIH1gaUZtVmCwaJZD-uJL4AiNhOEeV8tkk4,642
+agere/commander/_commander.py,sha256=v-EN1cIWbz4ASk6jDY-YuntTcCOaCkfvb5L7d_YXPTw,43386
+agere/commander/_exceptions.py,sha256=QpSRMZbX7RbiaAHkjeTuRSjix_prLuqWROPXawWX84w,1292
+agere/commander/_null_logger.py,sha256=xnvJlA3IQuQLOooks7MwHAJMi4x0WTLxfTcTDSWVbBk,261
+agere/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agere/utils/dispatcher.py,sha256=-byFMJjAeOQONBbIBMmfDu9GLtXFeAZzIa6VFxEZSoo,9268
+agere/utils/llm_async_converters.py,sha256=X0-l-dVU7m6IN4pxK9EAakcW7TbmMg-2mnZPrU--6fA,3319
+agere-0.1.2.dist-info/LICENSE,sha256=qvlnteELlpBudFDhJqPQVdlZb-Dxru4NH5HkvVvGQmQ,1067
+agere-0.1.2.dist-info/METADATA,sha256=oNA_8RLxUEx7KlWttft-CfaLNMOn1BvPnbN_PkXeJ3E,7141
+agere-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+agere-0.1.2.dist-info/top_level.txt,sha256=svy1moXe0Dx2myMauErr34CcR2IUs9rvL5cPsP_MsWA,6
+agere-0.1.2.dist-info/RECORD,,
