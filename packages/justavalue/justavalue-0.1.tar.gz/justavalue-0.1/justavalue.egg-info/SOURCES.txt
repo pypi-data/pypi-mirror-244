@@ -1,0 +1,7 @@
+setup.py
+justaval/__init__.py
+justavalue.egg-info/PKG-INFO
+justavalue.egg-info/SOURCES.txt
+justavalue.egg-info/dependency_links.txt
+justavalue.egg-info/requires.txt
+justavalue.egg-info/top_level.txt
