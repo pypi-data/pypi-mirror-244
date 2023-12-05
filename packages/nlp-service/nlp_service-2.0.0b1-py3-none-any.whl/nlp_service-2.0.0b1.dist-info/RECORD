@@ -1,0 +1,15 @@
+nlp_service/__init__.py,sha256=o8r00akHNkVh4JakJ9ouBInIemvIJ0nkxB2ONKvrix0,526
+nlp_service/__main__.py,sha256=8u0Gbx0AZlHRzpNggbITO-L3rOuH6mfUzOudDu1dGPY,39
+nlp_service/cli.py,sha256=P_daM-GsU_zctPCCMCdmGZcGq8W-xp81pb14iQvrAKI,3236
+nlp_service/client.py,sha256=DEVQr3zLFODVeKrIDGOsr8XWAHxoSGPZvbM2eoDs_bc,2092
+nlp_service/lib.py,sha256=z8nLX8wlbueCnqP5TpDG-QBqUTxnUzdXsQtezW6S_pQ,16461
+nlp_service/nlp_pb.py,sha256=UJL7ATksT6lWA56fOXQ0ot7HnyXmVLLrPpvF8VXlsD8,15492
+nlp_service/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_service/server.py,sha256=08zWUp0z0QwK4iLSYiuHrFeesFpnXKTvo4XPJCW9ORU,3493
+nlp_service/sim_funcs.py,sha256=MCf1inrSilGfAUMhxuynTslGn_C1v6iNH-w4APdNwCM,8946
+nlp_service/typing.py,sha256=avgTiIOyG-OkQTa3Q35hmjkqgQCMiJH-iaFHuHy8qBU,317
+nlp_service-2.0.0b1.dist-info/LICENSE,sha256=Iyex6K90z0mFRMnooRrc43cgYg0Zg-7YrFpz92-XvwQ,1067
+nlp_service-2.0.0b1.dist-info/METADATA,sha256=_wBaZVtnqSoKgGO8aSOkebPHUObMaei7hsRX_8d1424,9303
+nlp_service-2.0.0b1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+nlp_service-2.0.0b1.dist-info/entry_points.txt,sha256=xZsOcmJr8QhHVirYLocTBwLvxIiswJ7h8LAJ2tedPIo,51
+nlp_service-2.0.0b1.dist-info/RECORD,,

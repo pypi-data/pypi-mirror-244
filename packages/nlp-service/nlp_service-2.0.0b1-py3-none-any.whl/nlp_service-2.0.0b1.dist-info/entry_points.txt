@@ -1,0 +1,3 @@
+[console_scripts]
+nlp-service=nlp_service.cli:app
+
