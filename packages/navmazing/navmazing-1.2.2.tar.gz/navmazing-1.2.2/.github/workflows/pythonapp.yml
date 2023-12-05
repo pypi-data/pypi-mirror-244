@@ -1,0 +1,67 @@
+name: "python tests+artifacts+release"
+
+on:
+  pull_request:
+  push:
+    branches:
+    - main
+    tags:
+    - "v*"
+  release:
+    types: [published]
+
+
+jobs:
+  dist:
+    runs-on: ubuntu-latest
+    name: Python sdist/wheel
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - uses: hynek/build-and-inspect-python-package@v1
+
+  test:
+    runs-on: ubuntu-latest
+    needs: [dist]
+    strategy:
+      matrix:
+        # todo: extract from source
+        python-version: [3.8, 3.9, '3.10', '3.11', '3.12']
+        install-from: ["dist/*.whl"]
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: actions/cache@v3
+      with:
+        path: ${{ env.pythonLocation }}
+        key: ${{ env.pythonLocation }}
+    - name: Install pytest
+      run: pip install pytest
+    - uses: actions/download-artifact@v3
+      with:
+        name: Packages
+        path: dist
+    - name: install ${{ matrix.install-from }}
+      run: pip install ${{ matrix.install-from }}
+    - name: pytest
+      run: pytest
+
+  dist_upload:
+    permissions:
+      id-token: write
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') }}
+    needs: [test]
+    steps:
+    - uses: actions/download-artifact@v2
+      with:
+        name: Packages
+        path: dist
+    - name: Publish package to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
