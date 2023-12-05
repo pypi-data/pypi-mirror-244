@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: bloxlink.py
+Version: 0.0.2
+Summary: Bloxlink.py is a lightweight wrapper for the [Bloxlink](https://blox.link) API.
+Author-email: Redacted_Nac <nacinkc08@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Redacted-Nac
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Bug Reports, https://github.com/Redacted-Nac/bloxlink.py/issues
+Project-URL: Source, https://github.com/Redacted-Nac/bloxlink.py/
+Keywords: bloxlink,roblox,discord
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# bloxlink.py
+
+## Overview
+Bloxlink.py is a lightweight wrapper for the [Bloxlink](https://blox.link) API.
+
+## Installation
+To install the latest stable version of bloxlink.py, run the following command:
+
+`python3 -m pip install bloxlink.py`
+
+To install the latest **unstable** version of bloxlink.py, install [git-scm](https://git-scm.com/downloads) and run the following:
+
+`python3 -m pip install git+https://github.com/Redacted-Nac/bloxlink.py.git`
+
+## Basic Usage
+
+### Fetch ROBLOX user ID from Discord ID with the guild API
+
+```python
+
+from src import bloxlink
+
+client = bloxlink.Bloxlink(token="YOUR TOKEN HERE", guild=GUILDIDHERE)
+
+userid = client.guild_discord_to_roblox(userid=IDHERE)
+
+print(userid)
+```
+
+### Fetch Discord user ID from ROBLOX ID with the guild API
+
+```python
+
+from src import bloxlink
+
+client = bloxlink.Bloxlink(token="YOUR TOKEN HERE", guild=DISCORDGUILDIDHERE)
+
+userid = client.guild_roblox_to_discord(userid=IDHERE)
+
+print(userid)
+```
