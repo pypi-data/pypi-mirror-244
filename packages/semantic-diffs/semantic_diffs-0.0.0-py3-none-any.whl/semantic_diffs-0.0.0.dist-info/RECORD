@@ -1,0 +1,8 @@
+semantic_diffs/__init__.py,sha256=EBFmuOOCVJWHktdQXl7cpUDb_-kAoTz732XAzab0JxI,117
+semantic_diffs/action.py,sha256=dqrdPTBsFAR1vXYVbVaieAxWUF00NCN0h6X066mMKUw,93
+semantic_diffs/nodes.py,sha256=nKelqz8fcLp-kKsAhASpcQtW7lyoj9hmcuNicsQ6n7s,23
+semantic_diffs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_diffs-0.0.0.dist-info/LICENSE,sha256=bx8I3dVGrNok18sRtFhlS82hbfbrVDF9UdaMhcNki8g,1092
+semantic_diffs-0.0.0.dist-info/METADATA,sha256=LB5BZ6RHEXtIDyP7KzeBB4t9jm6MbsC5D0QnXCWDOnE,4892
+semantic_diffs-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+semantic_diffs-0.0.0.dist-info/RECORD,,
