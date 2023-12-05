@@ -1,0 +1,8 @@
+pyocto/__init__.py,sha256=gH8j_RQGvgSBAuxlknrW0Ctr8NJqKh9PZRNDUb9bOJw,149
+pyocto/_core.cp310-win_amd64.pyd,sha256=nQw-SgEJLAxsu8PHezjIlOxllzb3-ToSq5sfNL9IN-E,223232
+pyocto/associator.py,sha256=vqMlFe764xmkUQb0XiuQgqtc9Vtadi0uRyscZBIij6U,36611
+pyocto-0.1.1.dist-info/METADATA,sha256=NRw9tjjW71kCeANtL5_9l95v-wQKGuagxBbh4NUYU74,3937
+pyocto-0.1.1.dist-info/WHEEL,sha256=kczLKSa-k-atHXR8xFCQSYokN5euEJMd2JnNfXD0x2o,105
+pyocto-0.1.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyocto-0.1.1.dist-info/licenses/LICENSE,sha256=MS6fbrCBYZCMkfWkFwOjmOWzsJr4TbARq5WYCw-_jYg,1096
+pyocto-0.1.1.dist-info/RECORD,,
