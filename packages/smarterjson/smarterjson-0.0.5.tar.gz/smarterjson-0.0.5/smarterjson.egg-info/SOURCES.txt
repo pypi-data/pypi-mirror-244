@@ -1,0 +1,9 @@
+README
+setup.py
+smarterjson/__init__.py
+smarterjson/basic.py
+smarterjson.egg-info/PKG-INFO
+smarterjson.egg-info/SOURCES.txt
+smarterjson.egg-info/dependency_links.txt
+smarterjson.egg-info/requires.txt
+smarterjson.egg-info/top_level.txt

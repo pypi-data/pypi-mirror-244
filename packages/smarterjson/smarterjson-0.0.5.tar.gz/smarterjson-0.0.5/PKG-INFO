@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: smarterjson
+Version: 0.0.5
+Summary: A smart json tools
+Home-page: https://github.com/0x22f1a6543a0/custom-json
+Author: Zhang Jiaqi
+Author-email: 2953911716@qq.com
+License: MIT
+Keywords: TODO
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
