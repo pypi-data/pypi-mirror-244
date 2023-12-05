@@ -1,0 +1,100 @@
+epochs:
+  default: 200
+  help: "Number of epochs to train."
+
+saif_epochs:
+  default: 200
+  help: "Number of epochs to saif train."
+
+ae_epochs:
+  default: 50
+  help: "Number of epochs to ae train."
+
+igae_epochs:
+  default: 50
+  help: "Number of epochs to igae train."
+
+lr:
+  type: float
+  default: 1e-4
+  help: "Learning rate. Defaults to 1e-4."
+
+gamma_value:
+  default: 0.1
+  help: "parameter for IGAE Loss. Default is 0.1."
+
+lambda_value:
+  default: 2.0
+  help: "parameter for Joint loss. Default is 2."
+
+batch_size:
+  default: 256
+  help: "batch_size for AE. Default is 256."
+
+shuffle:
+  default: True
+  help: "parameter for AE. Default is True."
+
+ae_n_enc_1:
+  default: 128
+  help: ""
+
+ae_n_enc_2:
+  default: 256
+  help: ""
+
+ae_n_enc_3:
+  default: 512
+  help: ""
+
+ae_n_dec_1:
+  default: 512
+  help: ""
+
+ae_n_dec_2:
+  default: 256
+  help: ""
+
+ae_n_dec_3:
+  default: 128
+  help: ""
+
+gae_n_enc_1:
+  default: 128
+  help: ""
+
+gae_n_enc_2:
+  default: 256
+  help: ""
+
+gae_n_enc_3:
+  default: 20
+  help: ""
+
+gae_n_dec_1:
+  default: 20
+  help: ""
+
+gae_n_dec_2:
+  default: 256
+  help: ""
+
+gae_n_dec_3:
+  default: 128
+  help: ""
+
+n_input:
+  default: 50
+  help: "Number of DFCN input. Default is 100."
+
+n_z:
+  default: 20
+  help: "Number of Z's dimensions. Default is 20."
+
+freedom_degree:
+  default: 1.0
+  help: "freedom degree"
+
+early_stop:
+  default: 15
+  help: "Number of early_stop steps. Default is 10."

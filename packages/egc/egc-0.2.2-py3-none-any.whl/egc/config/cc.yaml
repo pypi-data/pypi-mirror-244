@@ -1,0 +1,42 @@
+out_feats_list:
+  nargs: '+'
+  type: int
+  default: [1024, 512]
+  help: "List of hidden units dimensions. Defaults to [1024, 512]."
+aggregator_type:
+  default: "gcn"
+  help: "Aggregator type to use (``mean``, ``gcn``, ``pool``, ``lstm``). Defaults to 'gcn'."
+bias:
+  default: True
+  help: "If True, adds a learnable bias to the output. Defaults to True."
+batch_size:
+  default: 1024
+  help: "Batch size. Defaults to 1024."
+instance_temperature:
+  default: 0.5
+  help: "Instance Contrastive Head temperature. Defaults to 0.5."
+cluster_temperature:
+  default: 1.0
+  help: "Cluster Contrastive Head temperature. Defaults to 1.0."
+aug_types:
+  nargs: '+'
+  type: 'str'
+  help: "Augmentation types list. Defaults to ['random_mask','random_mask']. e.g. random_mask:p=0.2  node_shuffle:is_use=True"
+drop_percent:
+  default: 0.2
+  help: "Percentage for dropping or addition of augmentation. Defaults to 0.2."
+n_epochs:
+  default: 1000
+  help: "Maximum training epochs. Defaults to 1000."
+lr:
+  default: 0.001
+  help: "Learning Rate. Defaults to 0.001."
+l2_coef:
+  default: 0.0
+  help: "Weight decay. Defaults to 0.0."
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."
+model_filename:
+  default: "cc"
+  help: "Path to store model parameters. Defaults to 'cc'."

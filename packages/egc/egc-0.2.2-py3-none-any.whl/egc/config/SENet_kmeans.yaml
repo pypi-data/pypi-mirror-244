@@ -1,0 +1,27 @@
+n_iter:
+  default: 3
+  help: "the number of convolution for imporved features"
+
+hidden0:
+  default: 16
+  help: "the width of layer1"
+
+hidden1:
+  default: 16
+  help: "the width of layer2"
+
+lr:
+  default: 0.03
+  help: "learing rate"
+
+weight_decay:
+  default: 0.0
+  help: "weight of l2 regularization"
+
+epochs:
+  default: 50
+  help: "the number of epochs"
+
+lam:
+  default: 1.0
+  help: "ratio between output dim and class number"

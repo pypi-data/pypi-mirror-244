@@ -1,0 +1,16 @@
+hidden1:
+  default: 256
+  help: 'Number of units in hidden layer 1'
+
+hidden2:
+  default: 64
+  help: 'Number of units in hidden layer 2'
+
+
+lr:
+  default: 0.0001
+  help: "learning rate"
+
+epochs:
+  default: 300
+  help: "times of training model"

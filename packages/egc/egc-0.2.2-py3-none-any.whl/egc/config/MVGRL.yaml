@@ -1,0 +1,36 @@
+n_h:
+  type: "int"
+  default: 512
+  help: "hidden units dimension. Defaults to 512."
+model_filename:
+  type: "str"
+  default: "mvgrl"
+  help: "model filename of MVGRL. Defaults to 'mvgrl'."
+sparse:
+  type: "bool"
+  default: False
+  help: "if sparse. Defaults to False."
+nb_epochs:
+  type: "int"
+  default: 3000
+  help: "Epoch number of MVGRL . Defaults to 3000."
+patience:
+  type: "int"
+  default: 20
+  help: "update interval of MVGRL. Defaults to 20."
+lr:
+  type: "float"
+  default: 0.001
+  help: "Learning rate of MVGRL. Defaults to 0.001."
+weight_decay:
+  type: "float"
+  default: 0.0
+  help: "weight decay of MVGRL. Defaults to 0.0."
+sample_size:
+  type: "int"
+  default: 2000
+  help: "sample size of MVGRL. Defaults to 2000."
+batch_size:
+  type: "int"
+  default: 4
+  help: "batch size of MVGRL. Defaults to 4."

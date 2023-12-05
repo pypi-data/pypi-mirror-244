@@ -1,0 +1,7 @@
+epochs:
+  default: 60
+  help: "times of training model"
+
+rep:
+  default: 10
+  help: "times of calculate intra(c) in a epochs"

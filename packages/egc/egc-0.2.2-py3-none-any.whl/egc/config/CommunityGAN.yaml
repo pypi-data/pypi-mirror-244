@@ -1,0 +1,71 @@
+max_value:
+  default: 1000
+  help: "Max value of embedding. Defaults to 1000."
+
+update_ratio:
+  default: 1.0
+  help: "Update ratio. Defaults to 1.0."
+
+n_sample_gen:
+  default: 5
+  help: "Num of samples of generator. Defaults to 5."
+
+n_sample_dis:
+  default: 5
+  help: "Num of samples of discriminator. Defaults to 5."
+
+lr_gen:
+  default: 0.001
+  help: "Learning rate of generator. Defaults to 0.001."
+
+lr_dis:
+  default: 0.001
+  help: "Learning rate of discriminator. Defaults to 0.001."
+
+batch_size_gen:
+  default: 64
+  help: "Batch size of generator. Defaults to 64."
+
+batch_size_dis:
+  default: 64
+  help: "Batch size of discriminator. Defaults to 64."
+
+l2_coef:
+  default: 0.0
+  help: "Weight decay. Defaults to 0.0."
+
+motif_size:
+  default: 3
+  help: "motif size. Defaults to 3."
+
+pretrain:
+  default: "agm"
+  help: "pretrain methods, agm or VGAEKmeans is supported. Defaults to agm."
+
+n_epochs_gen:
+  default: 3
+  help: "Maximum training epochs for generator. Defaults to 3."
+
+n_epochs_dis:
+  default: 3
+  help: "Maximum training epochs for discriminator. Defaults to 3."
+
+gen_interval:
+  default: 3
+  help: "Interval of generator. Defaults to 3."
+
+dis_interval:
+  default: 3
+  help: "Interval of discriminator. Defaults to 3."
+
+n_epochs:
+  default: 10
+  help: "Maximum epochs to train."
+
+lr:
+  default: 0.01
+  help: "Learning rate. Defaults to 0.001."
+
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."

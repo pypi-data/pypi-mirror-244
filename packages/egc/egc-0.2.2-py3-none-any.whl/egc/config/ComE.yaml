@@ -1,0 +1,51 @@
+num_walks:
+  default: 10
+  help: 'number of walks for each node.'
+
+walk_length:
+  default: 80
+  help: 'length of each walk.'
+
+representation_size:
+  default: 128
+  help: 'size of the embedding.'
+
+num_workers:
+  default: 10
+  help: 'number of thread.'
+
+num_iter:
+  default: 1
+  help: 'number of overall iteration.'
+
+reg_covar:
+  default: 0.00001
+  help: 'regularization coefficient to ensure positive covar.'
+
+batch_size:
+  default: 20
+  help: 'batch size.'
+
+window_size:
+  default: 10
+  help: 'windows size used to compute the context embedding.'
+
+negative:
+  default: 5
+  help: 'number of negative sample.'
+
+lr:
+  default: 0.025
+  help: 'learning rate.'
+
+alpha:
+  default: 0.1
+  help: 'alpha，balance parameter.'
+
+beta:
+  default: 0.1
+  help: 'beta， balance parameter.'
+
+down_sampling:
+  default: 0.0
+  help: 'down sampling.'

@@ -1,0 +1,43 @@
+hidden_units:
+  default: 512
+  help: "Size of Hidden units of gcn. Defaults to 512."
+
+alpha:
+  default: 0.8
+  help: "Coefficient for I(h_i; x_i). Defaults to 0.8."
+
+beta:
+  default: 1.0
+  help: "Coefficient for I(h_i; x_j). Defaults to 1.0."
+
+gamma:
+  default: 1.0
+  help: "Coefficient for I(w_ij; a_ij). Defaults to 1.0."
+
+gcn_depth:
+  default: 2
+  help: " GCN layer num. Defaults to 2."
+
+activation:
+  default: "prelu"
+  help: "Activation of gcn layers. Defaults to 'prelu'."
+
+batch_size:
+  default: 1
+  help: "Batch size. Defaults to 1."
+
+n_epochs:
+  default: 400
+  help: "Maximum training epochs. Defaults to 400."
+
+lr:
+  default: 0.001
+  help: "Learning rate. Defaults to 0.001."
+
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."
+
+l2_coef:
+  default: 0.0
+  help: "Weight decay. Defaults to 0.0."

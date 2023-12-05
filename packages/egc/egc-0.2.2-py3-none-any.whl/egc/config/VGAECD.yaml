@@ -1,0 +1,39 @@
+alpha:
+  default: 25.0
+  help: "Coefficient of adj reconstruction loss. Defaults to 25.0"
+
+beta:
+  default: 1.0
+  help: "Coefficient of the loss except adj reconstruction. Defaults to 1.0"
+
+hidden1:
+  default: 128
+  help: "Number of units in hidden layer 1."
+
+hidden2:
+  default: 64
+  help: "Number of units in hidden layer 2."
+
+activation:
+  default: "relu"
+  help: "Activation of gcn layer1. Defaults to 'relu'."
+
+dropout:
+  default: 0.0
+  help: "Dropout rate (1 - keep probability). Defaults to 0.0."
+
+n_epochs_pretrain:
+  default: 200
+  help: "Number of epochs to pretrain."
+
+n_epochs:
+  default: 800
+  help: "Maximum epochs to train."
+
+lr:
+  default: 0.01
+  help: "Learning rate. Defaults to 0.001."
+
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."

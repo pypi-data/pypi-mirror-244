@@ -1,0 +1,56 @@
+gnnlayers:
+  default: 8
+  help: "Number of gnn layers"
+
+linlayers:
+  default: 1
+  help: "Number of hidden layers"
+
+epochs:
+  default: 400
+  help: "Number of epochs to train."
+
+dims:
+  type: int
+  default: [500]
+  help: "Number of units in hidden layer 1."
+
+lr:
+  default: 0.001
+  help: Initial learning rate.
+
+upth_st:
+  default: 0.0110
+  help: Upper Threshold start.
+
+lowth_st:
+  default: 0.1
+  help: "Lower Threshold start."
+
+upth_ed:
+  default: 0.0010
+  help: "Upper Threshold end."
+
+lowth_ed:
+  default: 0.5
+  help: "Lower Threshold end."
+
+upd:
+  default: 10
+  help: "Update epoch."
+
+bs:
+  default: 10000
+  help: "Batchsize."
+
+norm:
+  default: 'sym'
+  help: normalize mode of Laplacian matrix
+
+renorm:
+  default: True
+  help: "If with the renormalization trick"
+
+estop_steps:
+  default: 15
+  help: "Number of early_stop steps. Default is 15."
