@@ -1,0 +1,10 @@
+stmp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stmp/formatter_factory.py,sha256=KciG9Ui9ea56AnOvGdQEijDuY9t412EcoVU1_tEVLMk,3478
+stmp/main.py,sha256=Vkuk5SOkTp4qtPjTNu-foHeP1LgNVfzTuSMZv2-T3Cs,7464
+stmp/sql/create_work_hours_view.sql,sha256=dxDHS2BmqRtgTmf9rIm63RVRgHp2m4U8cA1XNneLgg0,700
+stmp/stmp.py,sha256=uHk-oFRC1KGXkeTCAZVl2EeyyJXnzcuTjMVBZUcKxAM,24633
+stmp-0.3.0.dist-info/LICENSE,sha256=2EDBYwmOogt6a8Jd-33-0FqYEMnR4ibscb9v0P_53G0,1100
+stmp-0.3.0.dist-info/METADATA,sha256=9SGiwK6P4LFdcC2VANTr7QKtqst2k0tT0TNqHPgyL8U,4731
+stmp-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+stmp-0.3.0.dist-info/entry_points.txt,sha256=Obdf6vUlPAbUrf7miPb1Gkz6idQtON-FK24jXpwfqx0,39
+stmp-0.3.0.dist-info/RECORD,,
