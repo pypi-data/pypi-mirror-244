@@ -1,0 +1,8 @@
+/.idea
+/.pypirc
+/dist
+/llmp.egg-info
+/_notebooks
+/data
+/tests/data
+
