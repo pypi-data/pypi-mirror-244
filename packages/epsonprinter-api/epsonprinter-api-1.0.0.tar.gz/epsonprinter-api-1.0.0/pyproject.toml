@@ -1,0 +1,18 @@
+[project]
+name = "epsonprinter-api"
+version = "1.0.0"
+authors = [
+  { name="cociweb", email="author@example.com" },
+]
+description = "Communication package for Epson Workforce printer"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/cociweb/epsonprinter-api"
+Issues = "https://github.com/cociweb/epsonprinter-api/issues"
