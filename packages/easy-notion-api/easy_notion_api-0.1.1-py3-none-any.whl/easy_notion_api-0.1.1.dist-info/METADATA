@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: easy-notion-api
+Version: 0.1.1
+Summary: Unofficial Python API client for Notion
+Home-page: https://github.com/Hans97a/easy-notion-api
+Author: Hans97a
+Author-email: byby8992@naver.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: importlib-resources ==6.1.1 ; python_version >= "3.8" and python_version < "3.9"
+Requires-Dist: typing-extensions ==4.8.0 ; python_version >= "3.8" and python_version < "3.9"
+Requires-Dist: certifi ==2023.11.17 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: charset-normalizer ==3.3.2 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: docutils ==0.20.1 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: idna ==3.6 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: importlib-metadata ==7.0.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: jaraco-classes ==3.3.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: keyring ==24.3.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: markdown-it-py ==3.0.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: mdurl ==0.1.2 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: more-itertools ==10.1.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: nh3 ==0.2.14 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: pkginfo ==1.9.6 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: pygments ==2.17.2 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: readme-renderer ==42.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: requests-toolbelt ==1.0.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: requests ==2.31.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: rfc3986 ==2.0.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: rich ==13.7.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: setuptools ==69.0.2 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: twine ==4.0.2 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: urllib3 ==2.1.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: wheel ==0.42.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: zipp ==3.17.0 ; python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: cffi ==1.16.0 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "linux"
+Requires-Dist: cryptography ==41.0.7 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "linux"
+Requires-Dist: jeepney ==0.8.0 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "linux"
+Requires-Dist: pycparser ==2.21 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "linux"
+Requires-Dist: secretstorage ==3.3.3 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "linux"
+Requires-Dist: pywin32-ctypes ==0.2.2 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "win32"
+
+# easy-notion-api
+Use __easy-notion-api__ for handy Notion API!<br/>
+Unofficial Python 3 client for Notion API
+
+# English
+## Installation
+```
+pip install easy-notion-api
+```
+
+## Before Start
+To use Notion API, you must get api key from [notion integrations page](https://www.notion.so/my-integrations).<br/>
+And then, create new database in your notion workspace.<br/>
+Click the database's setting and click 'copy link to view'<br/>
+Get database id from copied link before '?v='
+
+`https://www.notion.so/__here_is_database_id__?v=uuid&pvs=4`
+
+
+## Usage
+### Start
+```
+from notion import Notion
+
+client = Notion("your_api_key", "database_id")
+```
+
+### Create new page in your db
+```
+data = {
+    "school": "maycan_school", # school column type in notion is title
+    "message": "example message" # message column type in notion is rich_text
+    "students": ["Hans", "Woody"] # students column type in notion is people
+}
+client.create_page_in_db(data)
+```
+
+create_page_in_db method returns dictionary like
+```
+{
+    is_created: bool,
+    page_id: str, # if is_created is False, then page_id is not given and 'detail' key returned with error message
+}
+```
+
+- data format
+
+    - title, rich_text, number, selecet, status
+        - key: value
+        - Be careful! status value must be predefined in notion app.
+
+    - multi_select, people
+        - key: [value1, value2 ...]   (value must be user's nickname if people)
+
+    - date
+        - key: [value1, value2]
+        - The second value(value2) means the end date. If None, only the start date is registered.
+        - value format -> "YYYY-MM-DD" or "YYYY-MM-DD hh:mm:ss"
+
+### Update page
+```
+data = {
+    "message": "i want to go home"
+}
+client.update_page("page_id", data)
+```
+
+update_page method returns True (when success), else raise Error with message from Notion
+
+### Retrieve page properties
+```
+client.get_page_properties("page_id") # returns dictionary
+```
+
+
+## Features
+- [X] Create page in Database
+- [X] Update page
+- [X] Retrieve page properties
+- [ ] Query Database
+
