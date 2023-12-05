@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+gem/__init__.py
+gem/gem.py
+gem/gem_utils.py
+gem/gem_wrapper.py
+gem_torch.egg-info/PKG-INFO
+gem_torch.egg-info/SOURCES.txt
+gem_torch.egg-info/dependency_links.txt
+gem_torch.egg-info/requires.txt
+gem_torch.egg-info/top_level.txt
