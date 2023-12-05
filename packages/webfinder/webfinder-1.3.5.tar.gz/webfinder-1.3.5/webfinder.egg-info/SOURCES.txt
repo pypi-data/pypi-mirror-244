@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+requirements.txt
+finder/__init__.py
+finder/cmdline.py
+finder/daemon.py
+finder/server.py
+finder/utils.py
+finder/version.py
+finder/zipstream/__init__.py
+finder/zipstream/compat.py
+webfinder.egg-info/PKG-INFO
+webfinder.egg-info/SOURCES.txt
+webfinder.egg-info/dependency_links.txt
+webfinder.egg-info/entry_points.txt
+webfinder.egg-info/requires.txt
+webfinder.egg-info/top_level.txt
