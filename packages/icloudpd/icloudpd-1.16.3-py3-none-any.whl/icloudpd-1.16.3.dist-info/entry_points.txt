@@ -1,0 +1,4 @@
+[console_scripts]
+icloud = pyicloud_ipd.cmdline:main
+icloudpd = icloudpd.base:main
+icloudpd_ex = starters.icloudpd_ex:main
