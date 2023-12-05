@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+requirements.txt
+editor/__init__.py
+editor/editor.py
+webvim.egg-info/PKG-INFO
+webvim.egg-info/SOURCES.txt
+webvim.egg-info/dependency_links.txt
+webvim.egg-info/entry_points.txt
+webvim.egg-info/requires.txt
+webvim.egg-info/top_level.txt
