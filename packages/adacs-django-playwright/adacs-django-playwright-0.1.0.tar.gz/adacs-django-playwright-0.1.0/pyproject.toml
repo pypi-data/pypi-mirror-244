@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "adacs-django-playwright"
+version = "0.1.0"
+description = ""
+authors = ["Asher <jasherleslie@gmail.com>", "Lewis Lakerink <llakerink@swin.edu.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pytest-playwright = ">=0.4.3"
+django = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
