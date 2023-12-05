@@ -1,0 +1,15 @@
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/download.py,sha256=i9gEiLCfmBfIvCFYNN9HYdsRjFdKK-wuKJER2bjDpfA,3361
+core/synthesis.py,sha256=VoDSMMR8icbq_NOUbkSyGBhxy3TQWCte0fncOSw7sIM,2930
+core/tokenize.py,sha256=OdskQjaCFddXspfI2tstN6ECcWdQ_xGfCd6EmFbqFJs,3134
+core/transcribe.py,sha256=hHexzFfyd4BeOEvbnZcMr2mm5JqsnFe-GVVdu2J1s7s,931
+core/turnvoice.py,sha256=8fQ7utmqSwC3hPgRBj9cu9tQEvXIrDC1rU0uU9Heo3w,5479
+core/videocut.py,sha256=USJNngMuZhhoGV4MtkiAA-vkmR2MIcQWQR6TeQfCBrM,2869
+core/word.py,sha256=iOK0IId6RTtzB4YVlSRnitics8PvanDTmizvjEiKEFY,565
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=FUh_aWIQc8vyO0wI53TutvgsS0FH9KBa47yhzsdTSZY,5249
+TurnVoice-0.0.1.dist-info/METADATA,sha256=wz6awDUNYLxjFRU-TrGwCx4SCvJIlMAyZWI_6axO0bk,3997
+TurnVoice-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+TurnVoice-0.0.1.dist-info/entry_points.txt,sha256=fiPvA8Wr-XTRrrRizLDNl2iJyw0fhTogh7jjWANwQ7w,50
+TurnVoice-0.0.1.dist-info/top_level.txt,sha256=eyuCk3Zl_omFYPFxIXu-OEzynFUKdaG5bfZpOqT518I,11
+TurnVoice-0.0.1.dist-info/RECORD,,
