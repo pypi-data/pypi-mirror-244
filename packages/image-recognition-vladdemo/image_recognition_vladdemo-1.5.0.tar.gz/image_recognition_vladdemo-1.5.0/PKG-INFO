@@ -1,0 +1,183 @@
+Metadata-Version: 2.1
+Name: image_recognition_vladdemo
+Version: 1.5.0
+Summary: Package about image recognition
+Home-page: https://github.com/vladdemo1/image_recognition
+Author: vladdemo
+Author-email: vladdemo140@gmail.com
+Project-URL: Bug Tracker, https://github.com/vladdemo1/image_recognition/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# _Python package with image recognition functionality by vladdemo_
+
+```
+This package was developed for scientific purposes, the use of which is available to everyone
+```
+
+## _How to install_
+```
+The package will be installed using pip
+```
+
+### _Set up a virtual environment for your new Python project_
+
+```
+python3 -m venv image_recognition_venv
+```
+#### _After that, go to your project and open the virtual environment directory, activate it._
+
+```
+source <path_to_venv>/bin/activate
+```
+
+### _Installing the package_
+
+```
+pip install image-recognition-vladdemo
+```
+
+## _Using functionality in a project_
+
+### _Imports_
+
+```python
+from image_recognition_vladdemo.main import ImageRecognition
+```
+#### _This import allows you to get the main class_
+
+### _Main Variables_
+
+```python
+image_path = "new.png"
+language = "eng"
+```
+
+_The path to the image can be specified direct or relative. Next we indicate the language._
+
+### Creating an Object
+
+```python
+image = ImageRecognition(image_path, language)
+```
+
+### Getting text from an image
+
+```python
+text = image.get_text_from_photo()
+```
+
+#### Congratulations. You got the text from the image.
+
+```python
+author = "Vlad Demchenko"
+```
+
+## _Additional instructions for creating your own Python package and uploading to PyPI_
+
+#### _Linux_
+```
+python3 -m pip install --upgrade pip
+```
+
+### _Create a project with the following structure_
+```
+image_recognition/
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── setup.cfg
+├── src/
+│   └── image_recognition_demo_test/
+│       ├── __init__.py
+│       └── main.py
+└── tests/
+```
+
+```
+touch pyproject.toml
+touch setup.cfg
+mkdir src
+mkdir src/image_recognition_demo_test
+touch src/image_recognition_demo_test/__init__.py
+touch src/image_recognition_demo_test/main.py
+mkdir tests
+```
+
+### _pyproject.toml_
+
+#### _This file tells tools like pip and build how to create your project_
+
+```
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+```
+_build-system.requires gives a list of packages that are needed to build your package. Listing something here will only make it available during the build, not after it is installed._
+
+_build-system.build-backend is the name of Python object that will be used to perform the build. If you were to use a different build system, such as flit or poetry, those would go here, and the configuration details would be completely different than the setuptools configuration described below._
+
+
+### _Setup.cfg setup_
+#### _Using setup.cfg is a best practice, but you could have a dynamic setup file using setup.py_
+
+```
+[metadata]
+name = example-pkg-YOUR-USERNAME-HERE
+version = 0.0.1
+author = Example Author
+author_email = author@example.com
+description = A small example package
+long_description = file: README.md
+long_description_content_type = text/markdown
+url = https://github.com/pypa/sampleproject
+project_urls =
+    Bug Tracker = https://github.com/pypa/sampleproject/issues
+classifiers =
+    Programming Language :: Python :: 3
+    License :: OSI Approved :: MIT License
+    Operating System :: OS Independent
+
+[options]
+package_dir =
+    = src
+packages = find:
+python_requires = >=3.6
+
+[options.packages.find]
+where = src
+
+```
+## _Running the build_
+### _Make sure your build tool is up to date_
+
+#### _Linux_
+```
+python3 -m pip install --upgrade build
+```
+
+### _Create the build_
+```
+python -m build
+```
+
+### _Uploading - pre_
+
+#### _Linux_
+```
+python3 -m pip install --upgrade twine
+```
+
+### _Upload_
+
+#### _Linux_
+```
+python3 -m twine upload --repository pypi dist/*
+```
