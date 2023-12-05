@@ -1,0 +1,17 @@
+ddc_utility/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ddc_utility/__version__.py,sha256=oyhzj6TSqsw4so-XUNSuGbvYxITFEVPNrc2-pPJ1gLc,18
+ddc_utility/auth.py,sha256=1PYjXVyO1NEh2RpHouW5gen88XlYDYEokxcZgkpkPAU,412
+ddc_utility/client.py,sha256=eyaosD1nxeJ5pszomL2Ujm8A4yC-AyRuhSapHDXoUqw,33170
+ddc_utility/constants.py,sha256=phA6dCAFH6V5zwn_sLhZ7q-ewTm9NkJNa0VlSUVXHxk,141
+ddc_utility/cube.py,sha256=LP7zYPl9czJnA3moEOK8fsDePX2sSno2Jx1aKV0dOCQ,412
+ddc_utility/data_collections.py,sha256=NzOx4GU3I37uXM8hGVexd6j5dW6-4lNeBPAJQEVyxpQ,2379
+ddc_utility/errors.py,sha256=K3sCx96RTMSkGywwZvthuIrZdK1gJ4G2KMuQGZMxUoY,3187
+ddc_utility/fs.py,sha256=_rofaULXRnhd3pNixcAjDXykXklF5tlqUxWod1xF9Wk,6283
+ddc_utility/metadata.py,sha256=qoowyUnK6ai__8fZKB14qCYeNgyGRwyfIwhqzJncuEo,10441
+ddc_utility/store.py,sha256=FI6aBDSjJLtbeykjHVvdJsM5rILbeg6tGsL4RIyrVkg,2925
+ddc_utility/utils.py,sha256=eKJcSdmq5yR0DsG5r_XDw2agJ8oO4UUxImFvZGOjTT0,10799
+ddc_utility-1.3.1.dist-info/LICENSE,sha256=ZJbjfrRocazZ_-cg95saWMBmUzg9s69Xm1Cc0DJ9gsc,1086
+ddc_utility-1.3.1.dist-info/METADATA,sha256=bWhJvtMMKnOCwEdRXVBMLch6NPd61GZRZPjGMWGGEAM,1749
+ddc_utility-1.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ddc_utility-1.3.1.dist-info/top_level.txt,sha256=I8bPoAYL1Cy5qBitRQOtEjCOU7v0bSvtD6NKK0fd0zY,12
+ddc_utility-1.3.1.dist-info/RECORD,,
