@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: worklogi
+Version: 0.1.0
+Summary: A simple automatic worklog tracking tool
+License: GPL
+Author: Grzegorz Koperwas
+Author-email: admin@grzegorzkoperwas.site
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Description-Content-Type: text/markdown
+
+
