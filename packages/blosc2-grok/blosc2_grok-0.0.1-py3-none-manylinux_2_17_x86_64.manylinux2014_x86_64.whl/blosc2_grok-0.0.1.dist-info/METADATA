@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: blosc2_grok
+Version: 0.0.1
+Summary: Grok plugin for Blosc2. jpeg2000 for grayscale.
+Keywords: plugin blosc2
+Author-Email: Blosc Development Team <contact@blosc.org>
+License: GNU Affero General Public License version 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Requires-Dist: blosc2
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Blosc2 grok
