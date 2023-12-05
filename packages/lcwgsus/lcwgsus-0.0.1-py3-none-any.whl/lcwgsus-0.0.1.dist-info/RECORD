@@ -1,0 +1,11 @@
+lcwgsus/__init__.py,sha256=5g6Es3FvFePEElEVwn7bAtGf4My5mQRme_o4mNOyTGE,187
+lcwgsus/auxiliary.py,sha256=0G_kI-k26BKjoTWNswT4SVF7eobnlDTonoYH47sqo2E,3228
+lcwgsus/calculate.py,sha256=49kkPKvd-swfNz9rz10TSyx3JJBk0XK3LfeREzylh5Q,4004
+lcwgsus/plot.py,sha256=Gactt_s4PThKwfRGufTlwQvCHzecYqvbpdLj2tzP9Oo,5385
+lcwgsus/process.py,sha256=gQivSINsZodxKNdG0NQiEO2ymKhc4e-cikD71cIxlZ0,5479
+lcwgsus/read.py,sha256=r8E3s5Tr0sQM5R4AvIm212m0YIIzKgJJsiFQ9v1tPTY,5289
+lcwgsus/save.py,sha256=plwIAJi4ETH1ArrzY634nqdf7dVNc-d8OXqDS0rqlrU,1573
+lcwgsus-0.0.1.dist-info/LICENSE.md,sha256=AP_qeicj8j_e7Qrm_-XsBnnoiXvNvTHZ6rgJ_0R3y5s,1051
+lcwgsus-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+lcwgsus-0.0.1.dist-info/METADATA,sha256=qEMefSzzqV9zcQnRykLfaHgt8KmQj_x5Ss0AFdOGVj4,2262
+lcwgsus-0.0.1.dist-info/RECORD,,
