@@ -1,0 +1,9 @@
+README.md
+setup.py
+sendiniran/__init__.py
+sendiniran/main.py
+sendiniran.egg-info/PKG-INFO
+sendiniran.egg-info/SOURCES.txt
+sendiniran.egg-info/dependency_links.txt
+sendiniran.egg-info/requires.txt
+sendiniran.egg-info/top_level.txt
