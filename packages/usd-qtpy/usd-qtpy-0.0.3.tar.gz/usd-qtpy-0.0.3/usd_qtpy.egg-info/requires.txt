@@ -1,0 +1,7 @@
+qtpy
+
+[usd]
+usd-core
+
+[usdview]
+PyOpenGL
