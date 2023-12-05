@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datateam-moss
+Version: 0.0.10
+Summary: Functions needed for datateam MOSS (municipality of Amsterdam)
+Author-email: Robbin Breeuwer <r.j.breeuwer@amsterdam.nl>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction 
+Functions for datateam MOSS+
+
+DISCLAIMER: Repo is in PoC phase \n
+DISCLAIMER: The functions can run on Databricks using a Personal Compute Cluster
