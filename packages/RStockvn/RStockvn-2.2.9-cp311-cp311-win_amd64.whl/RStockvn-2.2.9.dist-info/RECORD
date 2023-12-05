@@ -1,0 +1,16 @@
+RStockvn/__init__.cp311-win_amd64.pyd,sha256=QjJnHap8VFhTyq9P4GVhB4snrMXSrdd3d24B9c6G1G4,46080
+RStockvn/cafef_test.cp311-win_amd64.pyd,sha256=__0aQXkgx_6x3ZsZR88th6F80hwjRO4s_KzsbmFp400,120320
+RStockvn/ls_cafef.cp311-win_amd64.pyd,sha256=i6lLEgClJNssyC-7WPdPMgboU0oFdsbqtuWTFBBYb5w,53760
+RStockvn/report_vnd.cp311-win_amd64.pyd,sha256=LcR_8YV4LINc9Ogs0bhQR_KjrvuYSXw-JL08s8y4p8s,67584
+RStockvn/stockvn.cp311-win_amd64.pyd,sha256=GnKWMR1vp_m0jLv83Of1fV1fzJbHaALuUGML13x46GU,189440
+RStockvn/update_package.cp311-win_amd64.pyd,sha256=LRRlLf55nfn4YsOixy1B2YLoQm13Ph4HkgMoUI6bHHE,51200
+RStockvn/user_agent.cp311-win_amd64.pyd,sha256=1Us-6XDRugl8Wt-WBiKIrWAqOvbF_sZl719a-djbRdY,325632
+RStockvn/chrome_driver/__init__.cp311-win_amd64.pyd,sha256=1nNHHf39_VouXEDZAdmjiHQUr7mCmk7nE-8N1mUAnC8,20992
+RStockvn/chrome_driver/chromedriver_setup.cp311-win_amd64.pyd,sha256=-pnHz6BzszRA9xGsXZNPbEjpeEOW2W9CehF_-_8n7bI,107520
+RStockvn/data/__init__.cp311-win_amd64.pyd,sha256=3hLwosKe5KmcAZWPxelzWpWHwKqC_q1cNHy4Uy9PKXg,20992
+RStockvn/data/ds_company.cp311-win_amd64.pyd,sha256=ftrsxeEz-iWAoBKJae5dzTNrQz4EUThWWkeOOfRojN4,101888
+RStockvn-2.2.9.dist-info/LICENSE,sha256=JCqCoa4UiX0iKaqXRShKwd6GPsOeC98wrwQy-uFHppo,1090
+RStockvn-2.2.9.dist-info/METADATA,sha256=zCqFlWZ95t7Y01UPgMGsIxjKv8bFPOu5NWlmqycZemE,10793
+RStockvn-2.2.9.dist-info/WHEEL,sha256=badvNS-y9fEq0X-qzdZYvql_JFjI7Xfw-wR8FsjoK0I,102
+RStockvn-2.2.9.dist-info/top_level.txt,sha256=TRLl-sz_RCnwlF9LHYuPi3vjl7FKLf7eSkW1vkn6TP8,9
+RStockvn-2.2.9.dist-info/RECORD,,
