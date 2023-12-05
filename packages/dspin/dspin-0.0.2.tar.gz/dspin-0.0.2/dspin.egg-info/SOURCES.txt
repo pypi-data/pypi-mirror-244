@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+dspin/__init__.py
+dspin/compute.py
+dspin/dspin_abstract.py
+dspin/gpt.py
+dspin/metadata_drug.py
+dspin/plot.py
+dspin.egg-info/PKG-INFO
+dspin.egg-info/SOURCES.txt
+dspin.egg-info/dependency_links.txt
+dspin.egg-info/requires.txt
+dspin.egg-info/top_level.txt
