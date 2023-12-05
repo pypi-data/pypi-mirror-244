@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: file-checksum-signer
+Version: 1.1.0
+Summary: simple creator for signed checksum files
+Project-URL: Homepage, https://git.fearvel.de/tools/python/file-checksum-signer
+Author-email: Andreas Schreiner <fearvel@proton.me>
+License-File: LICENSE
+Requires-Dist: python-gnupg

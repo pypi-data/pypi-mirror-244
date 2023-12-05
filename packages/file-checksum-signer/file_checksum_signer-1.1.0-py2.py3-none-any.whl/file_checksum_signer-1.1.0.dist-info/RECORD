@@ -1,0 +1,7 @@
+fcsigner/__init__.py,sha256=NpfQimR6qr5JTET2u2aMYBjf3vYHIbIInoPETBe27GU,26
+fcsigner/__main__.py,sha256=POH60AqIJE2vDrhUIFKfhf5vYvcxR0AtYDIKljcp2Hg,341
+fcsigner/fcsigner.py,sha256=zY8UqeQ2DY-Xa2IftHLYAl8OcaBOqzuKGwOfx6FtxnY,2028
+file_checksum_signer-1.1.0.dist-info/METADATA,sha256=alb76tA1zf-ACdwUFOab98XMnm19NF3DjbGAQf20NuQ,296
+file_checksum_signer-1.1.0.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+file_checksum_signer-1.1.0.dist-info/licenses/LICENSE,sha256=05E-pFa2O2VPLEFv0Pm3cWsD34a95DoOYUHTG2IVaS8,1083
+file_checksum_signer-1.1.0.dist-info/RECORD,,
