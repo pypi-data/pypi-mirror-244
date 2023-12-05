@@ -1,0 +1,2 @@
+[console_scripts]
+PaTho = PaTho.downloader:main
