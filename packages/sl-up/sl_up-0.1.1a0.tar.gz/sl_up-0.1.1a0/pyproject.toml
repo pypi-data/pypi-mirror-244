@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "sl-up"
+version = "0.1.1a0"
+description = "Interactive Sapling SCM smartlog cli tool"
+license = "GPL-3.0-or-later"
+authors = ["Roy Rothenberg <royrothenberg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+sl-up = 'sl_up.main:run'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.12.2"
+pytest = "^7.4.3"
+mypy = "^1.7.1"
+black = "^23.11.0"
+flake8 = "^6.1.0"
+
+[tool.taskipy.tasks]
+test = { cmd = "pytest tests",  help = "runs all unit tests" }
+pr_test = "task lint"
+fmt = { cmd = "black tests sl_up",  help = "format code" }
+lint = { cmd = "task lint_black && task lint_flake8 && task lint_mypy",  help = "exec lint" }
+lint_flake8 = "flake8 --max-line-length=88 tests sl_up"
+lint_mypy = "mypy tests sl_up"
+lint_black = "black --check tests sl_up"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
