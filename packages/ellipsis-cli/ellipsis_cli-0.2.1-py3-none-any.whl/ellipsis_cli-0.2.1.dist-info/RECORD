@@ -1,0 +1,17 @@
+ellipsis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellipsis/_listener.py,sha256=knqcbLx0goF9BUUB-n12-zWJ6rZZ3n2U1zCQodVXQjs,432
+ellipsis/cli.py,sha256=stgVd6ufwIDEPojftrddONzLgrkTpvZPWaX5rd7RFo8,3086
+ellipsis/ellipsis_api_client.py,sha256=qPsvE_P_o_f-3ngrSBgCT0qK0G-SqUiZ35FSIZu21xo,1457
+ellipsis/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellipsis/src/listener/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellipsis/src/listener/cloud_dev_env_listener.py,sha256=Z4mCNa1NKZ7m6RhMdbxl0j_3Q7FDTc3N4Y3ZJYPMUnM,8012
+ellipsis/src/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellipsis/src/models/workspaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellipsis/src/models/workspaces/command.py,sha256=azPYoS9Tm2b46vkeCjcL4kr_XQYPkEzmN7qjGAz2GVo,581
+ellipsis/src/models/workspaces/constants.py,sha256=P9u6I8iEeDftpjlQ1joH-yG_py9Sg4ysmFC51kcXKtU,289
+ellipsis/src/models/workspaces/models.py,sha256=lF9f47djDi7aDhCMvK63gkD0wfAPcFm4Pg-IUrUfdkE,1783
+ellipsis_cli-0.2.1.dist-info/entry_points.txt,sha256=tg2xtFyYzpBDIHsnXS86_6D5DLF2Qc6Pul-hIQuQo98,45
+ellipsis_cli-0.2.1.dist-info/LICENSE,sha256=GG6AhRLkRGhbygizdMuwGzEstdyd0lTarZPeaFqixzU,92
+ellipsis_cli-0.2.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ellipsis_cli-0.2.1.dist-info/METADATA,sha256=AWZrawBzRYesxMmKR5ygmEBlnvc7RvJaWwrymC4dx-8,551
+ellipsis_cli-0.2.1.dist-info/RECORD,,
