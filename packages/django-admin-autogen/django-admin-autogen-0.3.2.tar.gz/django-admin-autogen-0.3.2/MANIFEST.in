@@ -1,0 +1,2 @@
+include django-admin-autogen/*.py
+include README.md
