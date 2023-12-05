@@ -1,0 +1,2 @@
+[console_scripts]
+goreverselookup = goreverselookup.main_cli:main
