@@ -1,0 +1,3 @@
+[console_scripts]
+novasystem=novasystem.main:main
+

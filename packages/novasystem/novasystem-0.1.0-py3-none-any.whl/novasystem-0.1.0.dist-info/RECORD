@@ -1,0 +1,14 @@
+novasystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novasystem/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novasystem/cli/main.py,sha256=MDd9RTbwpqZQiL4AE4Ny7voFdk_87mYy4xAoeO3gC5Q,575
+novasystem/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novasystem/core/app.py,sha256=OA0PiKOoiZB5v6wnXHzbjo7NoEhzDPxq6eV75cGu8io,7467
+novasystem/core/logic.py,sha256=H1S0Usa3oYCcOIMzrEK5-mmtP6Y6iphNf7RNVEUtIxk,159
+novasystem/core/setup.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novasystem/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novasystem/gui/main.py,sha256=C62HcJm1lkN5RVI1-PxsGHTg4ZXx8QwuZ3sqb57yIro,7945
+novasystem/main.py,sha256=D1O3Ysuf-QOjESoMK-lSDjVFCV4VSUrjSggCS9cEMdg,406
+novasystem-0.1.0.dist-info/METADATA,sha256=d8CjoJohveYMuPt7ppLMQDe6VfZzxcc-384JMVMsVks,2180
+novasystem-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+novasystem-0.1.0.dist-info/entry_points.txt,sha256=od7bAbowlOHPDEUnZtZDBJRQo7mn_NFhtn9KPBQQ9ks,51
+novasystem-0.1.0.dist-info/RECORD,,
