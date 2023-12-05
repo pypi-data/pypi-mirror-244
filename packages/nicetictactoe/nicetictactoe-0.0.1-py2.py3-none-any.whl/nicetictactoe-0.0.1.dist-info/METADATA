@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nicetictactoe
+Version: 0.0.1
+Home-page: https://github.com/iamkhosrojerdi/nicetictactoe
+Author: Alex Khosrojerdi
+Author-email: alex.khosrojerdi@gmail.com
+License: MIT
+Keywords: nicetictactoe python tictactoe game
+License-File: LICENCE.txt
+Requires-Dist: pygame (==2.5.2)
+
