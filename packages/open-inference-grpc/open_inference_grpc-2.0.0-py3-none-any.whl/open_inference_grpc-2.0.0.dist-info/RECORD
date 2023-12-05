@@ -1,0 +1,7 @@
+open_inference/grpc/protocol.py,sha256=4HVXxmRMCiy9o_laGOJkVBw2_sQHnFf93It_nICvuwg,10945
+open_inference/grpc/protocol.pyi,sha256=XJMTmCfrmFzWZgJO9cEJueux5-5TyrLK0rvTp0B43-g,13787
+open_inference/grpc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_inference/grpc/service.py,sha256=Ls3Azm16KOjcNlFGolLPqbPjqd0RmyaKwFh-RhLLQqA,12268
+open_inference_grpc-2.0.0.dist-info/METADATA,sha256=ChaVBV06j_i2S-nhxGkjM30Yfqrd415YXAEJX5WBCuk,5615
+open_inference_grpc-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+open_inference_grpc-2.0.0.dist-info/RECORD,,
