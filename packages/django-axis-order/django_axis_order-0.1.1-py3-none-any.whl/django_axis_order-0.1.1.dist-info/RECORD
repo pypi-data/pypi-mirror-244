@@ -1,0 +1,12 @@
+axis_order_cache/__init__.py,sha256=U1hO7CYFLZBr1yARGpPd_9SnGvI0XR-VN9SgH6ZuCkw,55
+axis_order_cache/apps.py,sha256=Oh-LtF0FX5sjagbYL5AgsIZe2LzI5mTqM_MZEA3E0HI,110
+axis_order_cache/exceptions.py,sha256=lnk0_X73hKIhebZFALpRdK3A4ASLN5zkji4jMIBWJ-Y,48
+axis_order_cache/models.py,sha256=WVy0f3ECPdTMb5kErbWQodhE8Yew8ii0KdU0kv-EgdI,2292
+axis_order_cache/registry.py,sha256=kR_fSuxgAbVkSJW8V0LazTGZxgoaQ6kwPOGf9FGZTKE,3601
+axis_order_cache/settings.py,sha256=-bGoV-lYrgDKaZP13IRZSkP3SLaosYYae72EEFrK0tw,598
+axis_order_cache/utils.py,sha256=sp_zxbYQ8EE1TnrTrGiUhObMHzmMGECJSpmUIuse-X8,4628
+django_axis_order-0.1.1.dist-info/LICENSE,sha256=8Dw3Knz86V7kukgl-gzm9-MTcMfgw0_HguGqpNzjbwE,1072
+django_axis_order-0.1.1.dist-info/METADATA,sha256=Lk-TuPrIRpZD1A4Hz1wO-SHTmydAAQCyKoC6N6ghqUs,2297
+django_axis_order-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_axis_order-0.1.1.dist-info/top_level.txt,sha256=N73iyuGCSZh2e49iwxNADgfVkBBkJrSDSFELjdM0YSI,17
+django_axis_order-0.1.1.dist-info/RECORD,,

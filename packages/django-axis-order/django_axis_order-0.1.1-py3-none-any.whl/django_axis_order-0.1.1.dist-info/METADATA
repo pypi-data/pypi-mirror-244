@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: django-axis-order
+Version: 0.1.1
+Summary: Small django app to cache reference systems from the epsg registry and provide the correct axis order.
+Home-page: https://github.com/mrmap-community/django-axis-order
+Author: mrmap-commuity
+Author-email: jonas.kiefer@live.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: django (>=3.2)
+Requires-Dist: requests (>=2.23.0)
+
+.. image:: https://readthedocs.org/projects/django-axis-order/badge/?version=latest
+    :target: https://django-axis-order.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://badge.fury.io/py/django-axis-order.svg
+    :target: https://pypi.org/project/django-axis-order/
+    :alt: PyPi version
+
+django-axis-order
+=================
+
+In geo applications `coordinate tuples <https://wiki.osgeo.org/wiki/Axis_Order_Confusion>`_ can be ordered either (x,y) or (y,x) or (x,y) but meant as (y,x). 
+Based on this problem and on some geo spatial standards which requires to retreive the correct axis order from the `epsg registry <https://epsg.org/API_UsersGuide.html>`_, we developed this simple django app to cache the spatial reference objects.
+
+Quick-Start
+-----------
+
+Install it as any other django app to your project:
+
+.. code-block:: bash
+
+    $ pip install django-axis-order
+
+.. warning::
+    As pre requirement you will need to install the `gdal and geos binaries <https://docs.djangoproject.com/en/4.2/ref/contrib/gis/install/geolibs/>`_ on your system first.
+    
+See the `documentation <https://django-axis-order.readthedocs.io/en/latest/index.html>`_ for details.
+
+
