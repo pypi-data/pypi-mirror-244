@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pcm_player
+Version: 0.1.0
+Summary: 
+Author: MattEqualsCoder
+Author-email: mattequalscoder@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.24.0)
+Requires-Dist: sounddevice (>=0.4.6)
+Requires-Dist: soundfile (>=0.12.1)
+Description-Content-Type: text/markdown
+
+
