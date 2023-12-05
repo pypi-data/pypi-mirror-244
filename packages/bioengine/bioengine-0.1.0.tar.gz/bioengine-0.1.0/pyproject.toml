@@ -1,0 +1,15 @@
+[project]
+name = "bioengine"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dwpeng", email = "dwpeng1122@foxmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
