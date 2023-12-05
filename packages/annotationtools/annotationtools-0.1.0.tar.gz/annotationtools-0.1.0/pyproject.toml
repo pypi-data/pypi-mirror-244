@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "annotationtools"
+version = "0.1.0"
+description = "Library for working with annotations (labels) used to train machine learning models"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "python-dateutil",
+    "shapely"
+]
+
+[project.urls]
+Homepage = "https://github.com/go-geospatial/annotation-tools"
+Issues = "https://github.com/go-geospatial/annotation-tools/issues"
