@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.5 (04/12/2023) 
+------------------  
+- Added Wallet Seed generating functions
