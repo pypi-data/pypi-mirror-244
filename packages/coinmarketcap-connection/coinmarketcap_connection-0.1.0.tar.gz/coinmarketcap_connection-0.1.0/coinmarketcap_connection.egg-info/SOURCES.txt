@@ -1,0 +1,7 @@
+README.md
+setup.py
+coinmarketcap_connection.egg-info/PKG-INFO
+coinmarketcap_connection.egg-info/SOURCES.txt
+coinmarketcap_connection.egg-info/dependency_links.txt
+coinmarketcap_connection.egg-info/requires.txt
+coinmarketcap_connection.egg-info/top_level.txt
