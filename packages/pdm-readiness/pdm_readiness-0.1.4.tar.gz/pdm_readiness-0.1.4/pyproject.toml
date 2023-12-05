@@ -1,0 +1,52 @@
+[project]
+name = "pdm-readiness"
+version = "0.1.4"
+description = "A pdm plugin to check if your project dependencies support specific Python version."
+authors = [
+    { name = "Andrii Kohut", email = "kogut.andriy@gmail.com" },
+]
+dependencies = [
+    "pdm>=2.9.0",
+    "requests",
+]
+requires-python = ">=3.9.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.entry-points.pdm]
+readiness = "pdm_readiness:readiness"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+plugins = [
+    "-e file:///${PROJECT_ROOT}",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.1.6",
+    "mypy>=1.7.1",
+    "black>=23.11.0",
+    "types-requests>=2.31.0.10",
+    "pytest>=7.4.3",
+    "responses>=0.24.1",
+    "pytest-cov>=4.1.0",
+]
+
+[tool.pdm.scripts]
+test = "pytest --cov=src tests/"
+lint = "pre-commit run --all-files"
