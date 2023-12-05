@@ -1,0 +1,16 @@
+turnvoice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turnvoice/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turnvoice/core/download.py,sha256=i9gEiLCfmBfIvCFYNN9HYdsRjFdKK-wuKJER2bjDpfA,3361
+turnvoice/core/synthesis.py,sha256=VoDSMMR8icbq_NOUbkSyGBhxy3TQWCte0fncOSw7sIM,2930
+turnvoice/core/tokenize.py,sha256=OdskQjaCFddXspfI2tstN6ECcWdQ_xGfCd6EmFbqFJs,3134
+turnvoice/core/transcribe.py,sha256=hHexzFfyd4BeOEvbnZcMr2mm5JqsnFe-GVVdu2J1s7s,931
+turnvoice/core/turnvoice.py,sha256=8fQ7utmqSwC3hPgRBj9cu9tQEvXIrDC1rU0uU9Heo3w,5479
+turnvoice/core/videocut.py,sha256=USJNngMuZhhoGV4MtkiAA-vkmR2MIcQWQR6TeQfCBrM,2869
+turnvoice/core/word.py,sha256=iOK0IId6RTtzB4YVlSRnitics8PvanDTmizvjEiKEFY,565
+turnvoice/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turnvoice/tests/tests.py,sha256=WIwmlIgY4CTUbxykKAGf37q6jAMatDCrwdNnTZkyO6M,5319
+TurnVoice-0.0.12.dist-info/METADATA,sha256=iRjI3QEhtoZSWV6CGIj0_QGHkGbjHm8I0M0W4oN9g6Q,3689
+TurnVoice-0.0.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+TurnVoice-0.0.12.dist-info/entry_points.txt,sha256=SOQL_-Vf2xVwzWw1UOPpVOZ1oopdnh7_rNGFVHF1YXg,60
+TurnVoice-0.0.12.dist-info/top_level.txt,sha256=4FuZz__w7A-ta-Ykt9pEdgXiQZst1c-GD0gM5lqM7JU,10
+TurnVoice-0.0.12.dist-info/RECORD,,
