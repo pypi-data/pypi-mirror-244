@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: xontrib-brace-expansion
+Version: 0.1.0
+Summary: Implements brace expansion in xonsh.
+Home-page: https://pypi.org/project/xontrib-brace-expansion
+License: MIT
+Author: Ryan Delaney
+Author-email: ryan.patrick.delaney+pypi@proton.me
+Requires-Python: >=3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: System :: Shells
+Project-URL: Repository, https://github.com/rpdelaney/xontrib-brace-expansion
+Description-Content-Type: text/x-rst
+
+xontrib-brace-expansion
+=======================
+|VERSION|
+
+.. |VERSION| image:: https://img.shields.io/pypi/v/xontrib-brace-expansion
+   :target: https://pypi.org/project/xontrib-brace-expansion
+
+Implements simple brace expansion:
+
+.. code:: console
+
+   @ echo a{d,c,b}e
+   ade ace abe
+
+Nested expansion is not supported:
+
+.. code:: console
+
+   @ echo /usr/{ucb/{ex,edit},lib/{ex?.?*,how_ex}}
+   SyntaxError: Unmatched "}" at line 1, column 16
+
+See also:
+
+* https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html
+
+Usage
+-----
+
+.. code-block :: console
+
+    xpip install xontrib-brace-expansion
+    xontrib load brace_expansion
+
