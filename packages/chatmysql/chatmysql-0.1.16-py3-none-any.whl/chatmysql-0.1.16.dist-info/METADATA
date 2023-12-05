@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: chatmysql
+Version: 0.1.16
+Summary: A simple chat cli based on mysql cli.
+Home-page: https://github.com/DataMini/cmysql
+Author: lele
+Description-Content-Type: text/markdown
+Requires-Dist: langchain (==0.0.340)
+Requires-Dist: prettytable (~=3.7.0)
+Requires-Dist: pydantic (~=1.10.9)
+Requires-Dist: neo4j (~=5.12.0)
+Requires-Dist: qdrant-client (~=1.6.4)
+Requires-Dist: SQLAlchemy (~=2.0.22)
+Requires-Dist: httpx (~=0.23.3)
+Requires-Dist: Jinja2 (~=3.1.2)
+Requires-Dist: openai (~=1.2.2)
+Requires-Dist: setuptools (~=65.7.0)
+
+
+# cmysql
+本项目是一个MySQL客户端(CLI），它的功能是在普通的MySQL客户端的基础上增加了一个chat功能，可以在MySQL客户端上进行对话聊天，以完成更复杂的任务。
+
+## 依赖
+- MySQL 标准客户端 CLI
+- 一个OpenAI的账号，用于调用OpenAI的API
+- 其他 python 依赖库，请参考 requirements.txt
+
+## 安装
+```bash
+pip install cmysql
+```
+
+## 使用
+```bash
+cmysql -h127.0.0.1 -uroot 
+cmysql> select 1;
++---+
+| 1 |
++---+
+| 1 |
++---+
+1 row in set (0.00 sec)
+
+cmysql> 这个库是干嘛的？
+
+这个是一个电商系统的数据库，用于存储用户的信息，订单信息，商品信息等等。
+
+cmysql> 有多大？
+
+总共有40GB。
+
+SQL:
+select count(*) from information_schema.tables where table_schema='test';
++----------+
+| count(*) |
++----------+
+|       10 |
++----------+
+1 row in set (0.00 sec)
+
+cmysql> 
+
+
+cmysql> 帮我造1000个订单数据吧
+
+好的，马上开始造数据。
+
+写入中...
+10%
+50%
+100%
+
+完成！
+
+cmysql> 帮我导出一份订单数据，用csv格式存储
+
+文件导出中...
+90%
+100%
+导出完成，文件路径：/tmp/orders.csv
+
+cmysql> 上周的订单量是多少？
+
+总共 1342 个订单。
+```
+
+
+## 目标
+- 打造 一个 MySQL Client Copilot，背后是一个 AI Agent
+- 基于人的反馈，来构建一个有记忆的 Database Copilot，需要用到符号化存储（Vector&Graph Database）
+- 除了是一个MySQL Client，还能支持以对话的方式完成以下操作：
+  - 数据的导入和导出
+  - 数据的查询和可视化
+    - 数据字典的管理，可自动识别，可基于HF更新
+  - 测试数据的构造
+- 因为是一个mysql客户端的增强，因此只考虑单实例、单并发（对异构数据源、多实例、多人并发的支持会放在后续版本中）
+
+## 架构设计
+
+
+![img.png](img.png)
+
+
