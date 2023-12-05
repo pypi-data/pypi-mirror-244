@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+AkimFindLibrary/AkimFindLibrary.py
+AkimFindLibrary/__init__.py
+AkimFindLibrary.egg-info/PKG-INFO
+AkimFindLibrary.egg-info/SOURCES.txt
+AkimFindLibrary.egg-info/dependency_links.txt
+AkimFindLibrary.egg-info/requires.txt
+AkimFindLibrary.egg-info/top_level.txt
