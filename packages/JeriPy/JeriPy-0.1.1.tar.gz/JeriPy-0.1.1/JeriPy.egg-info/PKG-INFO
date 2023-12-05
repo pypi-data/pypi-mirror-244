@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: JeriPy
+Version: 0.1.1
+Summary: JeriPy es una libreria que permite la traducción de espanol a Jerigonzo y de jerigonzo a espanol.
+Home-page: https://github.com/Felipe1401/JeriPy.git
+Author: Felipe Gomez
+Author-email: felipenicolasgomezmolina@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JeriPy
+
+JeriPy es una librería que permite la traducción de español a jerigonzo y de jerigonzo a español.
+
+Para más información sobre el jerigonzo consultar [aquí](https://es.wikipedia.org/wiki/Jerigonza).
+
+## Índice
+
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Licencia](#licencia)
+
+## Requisitos
+
+Los requisitos necesarios para la utilización de la librería son:
+
+- Python >= 3.6
+- pyphen
+
+Para instalar los requisitos ejecutar el siguiente comando en terminal.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Instalación
+
+Para instalar la librería ejecutar el siguiente comando en terminal.
+
+```bash
+pip install JeriPy
+```
+
+## Uso
+
+Ejemplos:
+
+```python
+espanol_a_jeringozo("Hola")
+> Hopolapa
+```
+
+```python
+jeringozo_a_espanol("Hopolapa")
+> Hola
+```
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Ve el archivo `LICENSE` para más detalles.

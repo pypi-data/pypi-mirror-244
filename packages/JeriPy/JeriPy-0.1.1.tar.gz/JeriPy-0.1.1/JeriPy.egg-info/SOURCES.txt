@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Code/Espanol_Jerigonzo.py
+Code/Jerigonzo_Espanol.py
+Code/__init__.py
+Code/variables.py
+JeriPy.egg-info/PKG-INFO
+JeriPy.egg-info/SOURCES.txt
+JeriPy.egg-info/dependency_links.txt
+JeriPy.egg-info/requires.txt
+JeriPy.egg-info/top_level.txt
