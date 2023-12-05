@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: Pikachu-Kit
+Version: 0.0.4
+Summary: Pikachu_Kit
+Author: JHC
+Author-email: JHC000abc@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome ==3.19.0
+Requires-Dist: bce-python-sdk ==0.8.97
+Requires-Dist: cup ==3.2.32
+Requires-Dist: unrar ==0.4
+Requires-Dist: PyMySQL ==1.1.0
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: opencv-python ==4.8.1.78
+Requires-Dist: selenium-wire ==5.1.0
+Requires-Dist: selenium ==4.15.2
+Requires-Dist: lxml ==4.9.1
+Requires-Dist: python-dotenv ==1.0.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: rarfile ==4.1
+Requires-Dist: XlsxWriter ==3.1.9
+Requires-Dist: xlrd ==2.0.1
+Requires-Dist: chardet ==5.2.0
+Requires-Dist: numpy ==1.26.2
+Requires-Dist: nb-log ==10.6
+Requires-Dist: urllib3 ==2.1.0
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: zhconv ==1.4.3
+Requires-Dist: pypinyin ==0.49.0
+Requires-Dist: pydub ==0.25.1
+
+# PythonDevelopmentTools
+
+#### Description
+PythonDevelopmentTools
+
+#### Software Architecture
+Software architecture description
+
+#### Installation
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### Instructions
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### Contribution
+
+1.  Fork the repository
+2.  Create Feat_xxx branch
+3.  Commit your code
+4.  Create Pull Request
+
+
+#### Gitee Feature
+
+1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
+2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
+3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
+4.  The most valuable open source project [GVP](https://gitee.com/gvp)
+5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
+6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
