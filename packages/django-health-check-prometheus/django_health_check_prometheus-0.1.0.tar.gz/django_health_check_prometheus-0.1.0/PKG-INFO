@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: django-health-check-prometheus
+Version: 0.1.0
+Summary: This is a prometheus adapter for django health check
+Author: MrLYC
+Author-email: fimyikong@gmai.com
+Requires-Python: >=3.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django-health-check (>=3.16.0)
+Description-Content-Type: text/markdown
+
+# django-health-check-prometheus
+
+This is a prometheus adapter for django health check, it will expose the health check results as prometheus metrics.
+
+## Usage
+```shell
+pip install django-health-check-prometheus
+```
+
+```python
+# settings.py
+INSTALLED_APPS = [
+    ...
+    'django_health_check_prometheus',
+    ...
+]
+```
