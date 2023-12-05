@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: minuix
+Version: 0.1.0
+Summary: Minuit with JAX.
+Home-page: https://github.com/riga/minuix
+Author: Marcel Rieger
+Author-email: github.riga@icloud.com
+License: BSD-3-Clause
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Requires-Python: >=3.7, <4
+License-File: LICENSE
+
+minuix
+
+Minuit with JAX.

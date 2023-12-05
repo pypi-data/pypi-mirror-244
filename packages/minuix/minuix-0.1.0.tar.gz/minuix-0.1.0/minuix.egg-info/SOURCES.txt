@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+minuix/__init__.py
+minuix/__version__.py
+minuix.egg-info/PKG-INFO
+minuix.egg-info/SOURCES.txt
+minuix.egg-info/dependency_links.txt
+minuix.egg-info/not-zip-safe
+minuix.egg-info/top_level.txt
