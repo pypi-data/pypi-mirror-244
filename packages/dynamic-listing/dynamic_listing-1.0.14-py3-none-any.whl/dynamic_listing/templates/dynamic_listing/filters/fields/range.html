@@ -1,0 +1,27 @@
+{% load i18n %}
+<div class="d-flex flex-column">
+  <div class="d-flex mb-3">
+    <div class="me-3">
+      <label for="filter-id-{{ attrs.name }}-min"
+             class="form-label">{% trans "Min" %}</label>
+      <input type="number"
+             class="form-control"
+             id="filter-id-{{ attrs.name }}-min"
+             name="{{ attrs.name }}_min"
+             value="{{ attrs.value.range_min }}">
+    </div>
+
+    <div>
+      <label class="form-label"
+             for="filter-id-{{ attrs.name }}-max">{% trans "Max" %}</label>
+      <input type="number"
+             class="form-control"
+             id="filter-id-{{ attrs.name }}-max"
+             name="{{ attrs.name }}_max"
+             value="{{ attrs.value.range_max }}">
+    </div>
+  </div>
+  <div class="w-100 d-flex">
+    <button type="submit" class="btn btn-sm btn-primary ms-auto">{% trans "Submit" %}</button>
+  </div>
+</div>
