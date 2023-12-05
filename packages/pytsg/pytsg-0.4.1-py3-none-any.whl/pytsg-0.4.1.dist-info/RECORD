@@ -1,0 +1,7 @@
+pytsg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytsg/feature.py,sha256=0G3Z6n5hQXZFrswAG6G7KdF4Zr_bQT0EFWt4YNq5ejo,5271
+pytsg/parse_tsg.py,sha256=8xlUqEn5Bvj3Du_nF6T8dtF17OTP8DUpb69DTzrec0Q,37926
+pytsg-0.4.1.dist-info/LICENSE,sha256=hKnXWDIbUEtxM4IoVkCqshRYlkbZOsw2d7OQh9Sg-Ac,1076
+pytsg-0.4.1.dist-info/METADATA,sha256=OY9KYKAQwriGySM0jp6yPls_fm0isNMPlxOR5nGCGI8,2248
+pytsg-0.4.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pytsg-0.4.1.dist-info/RECORD,,
