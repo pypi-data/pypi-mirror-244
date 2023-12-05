@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: openwakeword-pruned
+Version: 0.5.1
+Summary: A pruned version of the open source framework 'openwakeword' by David Scripka
+Home-page: https://github.com/siranshen/openWakeWord-Pruned
+Author: David Scripka, Siran Shen
+Project-URL: Homepage, https://github.com/siranshen/openWakeWord-Pruned
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: onnxruntime <2,>=1.10.0
+Requires-Dist: tqdm <5.0,>=4.0
+Requires-Dist: requests <3,>=2.0
+Requires-Dist: tflite-runtime <3,>=2.8.0 ; platform_system == "Linux"
+Provides-Extra: test
+Requires-Dist: pytest <8,>=7.2.0 ; extra == 'test'
+Requires-Dist: pytest-cov <3,>=2.10.1 ; extra == 'test'
+Requires-Dist: pytest-flake8 <2,>=1.1.1 ; extra == 'test'
+Requires-Dist: flake8 <4.1,>=4.0 ; extra == 'test'
+Requires-Dist: pytest-mypy <1,>=0.10.0 ; extra == 'test'
+Requires-Dist: types-requests ; extra == 'test'
+Requires-Dist: types-PyYAML ; extra == 'test'
+Requires-Dist: mock <6,>=5.1 ; extra == 'test'
+Requires-Dist: types-mock <6,>=5.1 ; extra == 'test'
+Requires-Dist: types-requests <3,>=2.0 ; extra == 'test'
+
+# Intro
+
+openWakeWord is an open-source wakeword library that can be used to create voice-enabled applications and interfaces.
+It includes pre-trained models for common words & phrases that work well in real-world environments.
+
+This is forked repo. See [original repo](https://github.com/dscripka/openWakeWord) for details.
+
+# Changes in this fork
+
+This fork prunes code related to custom model training and verification.
+By avoiding importing modules related to custom models such as `sklearn`, it saves ~33MB of memory.
+It proves to be useful on memory constrained devices, such as the Raspberry Pi Zero series.
+
+# Installation
+
+Run:
+```commandline
+pip install openwakeword-pruned
+```
+Check out other configs in the [original repo](https://github.com/dscripka/openWakeWord#installation).
