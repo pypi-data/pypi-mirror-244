@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SyncPulse
+Version: 2.5.7
+Summary: A versatile CLI tool for various conversions and tasks
+Home-page: https://github.com/Devang2304/SyncPulse
+Author: Devang Vartak
+Author-email: devangvartak2304@gmail.com
+Requires-Dist: docx2pdf
+Requires-Dist: pdf2docx
+Requires-Dist: pytube
+Requires-Dist: youtube-transcript-api
+Requires-Dist: gtts
+Requires-Dist: pyfiglet
+Requires-Dist: wheel
+
