@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fedbone/__init__.py
+fedbone.egg-info/PKG-INFO
+fedbone.egg-info/SOURCES.txt
+fedbone.egg-info/dependency_links.txt
+fedbone.egg-info/requires.txt
+fedbone.egg-info/top_level.txt
