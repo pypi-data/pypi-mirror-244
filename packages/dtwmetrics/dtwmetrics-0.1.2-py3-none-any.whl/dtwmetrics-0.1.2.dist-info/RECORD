@@ -1,0 +1,9 @@
+dtwmetrics/__init__.py,sha256=m6UekKftTahNJ3W5K3mZSz4Y4ZZpHRxF_ZAxuaKYL7o,12
+dtwmetrics/dtwmetrics.py,sha256=wmizZCICPzfD07mR7zK2CJsWMgLrnSRyZNgtDtnfPks,13314
+dtwmetrics/dtwutils.py,sha256=HOya6cjtD3lGOCr2YNo_lZxklipMIDzjiPGtOlokz3I,6466
+dtwmetrics/utils.py,sha256=bljlMcjcYLA6c7FWcQi6Ivio2CBi0g94N8b7qGO6WHo,717
+dtwmetrics/version.py,sha256=ItB2wGT6gg4JIel5UjeWCxeuA4WObhLxrRfHwcgrd2g,49
+dtwmetrics-0.1.2.dist-info/LICENSE,sha256=sT_sxHhUlCfxfF7a7qupgBCSbIKwxYE_7QSoEQTgYpg,1070
+dtwmetrics-0.1.2.dist-info/METADATA,sha256=tdnbDmga6cweMLDTSRkX5IxbAboLiVygJ3yvCwvjdWE,4521
+dtwmetrics-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dtwmetrics-0.1.2.dist-info/RECORD,,
