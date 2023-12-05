@@ -1,0 +1,2 @@
+trytond<7.1,>=7.0
+trytond_account_statement<7.1,>=7.0
