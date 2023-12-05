@@ -1,0 +1,17 @@
+signalsnap/.DS_Store,sha256=ZynEi0f5GM1XGQogrgqDZrx67j0oAa6Pxcjw-YZ94BU,6148
+signalsnap/__init__.py,sha256=3-vJKoyM0h2RP2PmHP6Li7slnuxHW80UGaEjFSnqPMs,518
+signalsnap/analysis.py,sha256=bnSC_G06aj_7Yeb4NnyLSKFJO6kZIlBbcE2mM6TdrhY,68144
+signalsnap/plot_config.py,sha256=pnkzWBUTe8Mg2NMUytfTt0S5e6K5_W7xmpkW6fSFxgY,6001
+signalsnap/spectrum_calculator.py,sha256=62P2YBNCWSlBFnY62Awam0Jah1-1wD2EHjF3gcBQE10,71864
+signalsnap/spectrum_config.py,sha256=r3twHawd-G-YdTSNuNQxGaKbKgtPDhvcJt593L_YXRw,10597
+signalsnap/spectrum_plotter.py,sha256=4j6g-OEG0p1lp-v1ufrFuV3mezGvaLT54rYoZVEc_NQ,23305
+signalsnap/tests/.DS_Store,sha256=77-p_TYZMj1GKtfS-mBwWYjOTqOcYgQ1aUDdLh9V4z8,6148
+signalsnap/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signalsnap/tests/generate_test_data.ipynb,sha256=cLVCAhfsHfJpNrkrDu0J50OvRWgBekfxPn0J0xMGjek,61799
+signalsnap/tests/test.ipynb,sha256=lE8YGj1gwX3hrMfm84_bmqOD4gfryOLqH6PSP7iPAN0,2689
+signalsnap/tests/test_calc_spec.py,sha256=Akn_Jj69_e1nsYDksOs8FB4LTGei0X-Nu4fIFNZS9z0,1220
+signalsnap/tests/data/data_for_test_calc_spec.pkl,sha256=R0bxAfPZj-XznV-VWJkSNijRMoNuaAZO8icsPIpUO2I,412111
+signalsnap-1.0.3.dist-info/METADATA,sha256=DXdJ3_Gsh7kZ9qti_K4j5kfvWLIAMeJPydB45ifNrJc,9124
+signalsnap-1.0.3.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+signalsnap-1.0.3.dist-info/licenses/LICENSE,sha256=0wLo86wr4OpzZiQoV6H3_87OIVF4M7lT6D4daNXCFIA,1624
+signalsnap-1.0.3.dist-info/RECORD,,
