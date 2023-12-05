@@ -1,0 +1,388 @@
+Metadata-Version: 2.1
+Name: fincookie
+Version: 0.1.4
+Summary: 大智慧远程获取Cookies集群API
+Home-page: https://gitee.com/yl153977/finchina-remote-cookies
+Author: 胡永乐
+Author-email: huyl3@finchina.com
+License: MIT
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+
+# 大智慧 Playwright远程cookies获取集群
+
+## 项目介绍
+
+* 基于Playwright的远程获取cookies集群，创建可以访问集群的接口，用户可通过请求接口API对创建和操作浏览器，然后获取浏览器Cookies和UA等信息
+* 版本号 V1.1.2
+
+## 认证与权限
+
+本API为公司内部使用，未设置认证及权限控制机制
+
+## 请求地址
+* 本地环境  
+POST：http://hive.finchina.local/api/hwy/cookieService/
+* 华为云环境
+POST：http://10.55.3.250/cookieService/
+
+## 请求函数
+使用时可直接将以下函数复制后使用
+```python
+def get_cookies(appid, **kwargs) -> dict:
+    """
+    :param appid: appid
+    :param kwargs: 可用参数范围在params中
+    :return: response
+    """
+    import requests, socket
+    ip = socket.gethostbyname(socket.gethostname())
+    if ip[:5] == '10.55':  # cloud
+        api = 'http://10.55.3.250/cookieService/'
+    else:  # '10.17' local
+        api = "http://hive.finchina.local/api/hwy/cookieService/"
+    post_data = kwargs.update(appid=appid)
+    json_data = requests.post(api, data=post_data).json()
+    return json_data
+```
+
+## 请求参数
+* appid
+  * type: string
+  * required: true
+  * description: 浏览器标识,服务器根据该参数为请求分配浏览器，结合renew_interval参数，同一appid的请求在renew_interval时限内会在同一浏览器上继续操作，直到renew_interval过期后关闭该appid的浏览器
+  * default: None
+  * example: "feqf7ae7f86gg6a7"
+* get_last
+  * type: int
+  * required: false
+  * description:
+    * `0` 通过操作浏览器获取结果
+    * `1` 不进行浏览器操作，直接返回appid的上次cookies结果，如果没有则重新获取(其他并发的get_last为1或者2的线程等待)
+    * `2` 清除并重新获取历史结果，其他get_last为1或者2的线程等待结果获取完成之后直接使用
+  * default: 0
+* block_timeout
+  * type: int
+  * required: false
+  * description: 等待浏览器可用的时间（ms）,如果为空或者0则不等待，若浏览器正在使用直接返回`浏览器繁忙`错误
+  * default: 0
+* url
+  * type: string
+  * required: false
+  * description: 用户请求网址，如果用户需要请求网址，可传入该参数
+  * default: none
+  * example: "https://www.baidu.com"
+* url_timeout
+  * type: int
+  * required: false
+  * description: 用户请求网址的超时时间（ms），如果在该时间内浏览器未完成请求，则请求失败
+  * default: 30000
+  * example: 1000, 6000
+* script
+    * type: string
+    * required: false
+    * description: 用户需要在浏览器中执行的JavaScript代码
+    * default: none
+    * example: 'document.querySelector("#kw").click()'
+* wait_for
+    * type: string
+    * required: false
+    * description: 用户需要等待的操作，可选
+        * `timeout`为等待一定时间
+        * `selector`等待元素选择器出现响应
+        * `url`等待指定url被请求
+    * default: None
+* wait_timeout
+    * type: int
+    * required: false
+    * description: 等待时间（ms），结合wait_for参数使用
+        * wait_for参数为`timeout`,则该参数为页面等待时间
+        * wait_for参数为`selector`,则该参数为响应选择器的等待时间，若超过该时间，请求超时
+        * wait_for参数为`url`,则该参数为浏览器等待指定url被请求的时间，若超过该时间，请求超时
+    * default: 30000
+* selector
+    * type: string
+    * required: wait_for参数为`selector`时为必填项，否则响应出错
+    * description:
+        * wait_for参数为`selector`时对应的元素CSS选择器或者XPath，用于选择需要等待或获取的元素
+        * wait_for参数为`url`时为需要等待的url
+    * default: none
+    * example: "#id"，".className", '//div[@class="className"]'
+* state
+    * type: string
+    * required: false
+    * description: wait_for参数为selector时对应的元素等待状态，参数值有：
+        * `visible`: 等待元素在页面中可见
+        * `hidden`: 等待元素在页面中隐藏
+        * `attached`: 等待选择器附加到 DOM 上
+        * `detached`: 等待选择器从 DOM 上分离
+    * default: `visible`
+* action
+    * type: string
+    * required: false
+    * description: 等待元素之后对元素进行的操作，可选
+        * `click`: 单击
+        * `dblclick`: 双击
+        * `type`: 输入文字或按键
+    * default: none
+* type_string
+    * type: string
+    * required: false
+    * description: `action`为`type`时输入的字符
+    * default: ""
+* renew_interval
+    * type: int
+    * required: false
+    * description: appid对应浏览器的保留时间（ms），在保留时间内appid相同的请求会由同一浏览器继续执行后返回，每次请求后刷新
+    * default: 3000
+
+## 响应内容
+
+* type: json
+* 响应的json数据包含如下字段：
+  * `appid`: appid
+  * `message`: string, 响应消息，请求成功时该字段为`success`, 请求失败时，该字段为失败或者错误原因
+  * `cookies`: dict, 请求成功时浏览器的cookies信息
+  * `user-agent`: string, 请求成功时浏览器的UA信息
+  * `proxy`: string, 浏览器当前代理
+  * `server_id`: int, 响应请求的服务器ID
+  * `server_ip`: string, 响应请求的服务器IP
+  * `request_id`: string, 用户发起请求的唯一标识
+
+## 示例代码
+
+* 示例一
+
+```python
+cookie_data = get_cookies(
+    appid="1236",  # appid
+    url="https://www.baidu.com",  # 请求百度网址
+    url_timeout=2000,  # 网址请求等待时间为 2,000 ms
+    wait_for='timeout',  # 请求完成后页面等待 1,000 ms
+    timeout=1000,
+    renew_interval=20000  # 页面于响应完成后保留 20,000 ms, 在这个时间内appid相同的请求仍由该浏览器执行
+)
+print(cookie_data)
+```
+
+响应内容为：
+
+```json
+{
+    "appid": "1236",
+    "cookies": {
+        "BAIDUID": "6D8BBDE49D736F8CA84E7F5A352F4EF6:FG=1",
+        "BAIDUID_BFESS": "6D8BBDE49D736F8CA84E7F5A352F4EF6:FG=1",
+        "BA_HECTOR": "21a40g21ah80052ha02h2g221iltm2i1r",
+        "BDORZ": "B490B5EBF6F3CD402E515D22BCDA1598",
+        "BD_UPN": "12314753",
+        "BIDUPSID": "6D8BBDE49D736F8C58A4D3480B07E0E1",
+        "PSTM": "1700714577",
+        "ZFY": "OuUTzYxX3kQKhLM54iIJ4ftlIVEZDvkOVxbVO7HihEU:C"
+    },
+    "message": "success",
+    "proxy": null,
+    "request_id": "0714456187",
+    "server_id": 0,
+    "server_ip": "10.55.3.41",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0"
+}
+```
+
+* 示例二：
+
+```python
+cookie_data = get_cookies(
+        appid= 'g7gs897g',  # appid
+        url= "https://www.bilibili.com",  # 请求B站网址
+        wait_for= "selector",  # 等待class为'nav-search-input'的元素在页面中显示，等待时间为2,000 ms
+        selector= ".nav-search-input",
+        state= "visible",
+        timeout= "2000",
+        action= 'type',  # 获取到元素后向该元素中输入文字："ChatGPT未来将如何发展"
+        type_string= "ChatGPT未来将如何发展",
+        renew_interval= 30000  # 页面为该appid保留30,000 ms
+)
+print(cookie_data)
+```
+
+响应如下：
+
+```json
+{
+    "appid": "g7gs897g",
+    "cookies": {
+        "_uuid": "1CDBC3910-6A8E-A105C-6291-D9A103FAEDFB131358infoc",
+        "b_lsid": "101094859B_18BFA80DDE8",
+        "b_nut": "1700714830",
+        "b_ut": "7",
+        "browser_resolution": "1784-654",
+        "buvid3": "F14BBBEA-DD24-E88F-8840-BD93EC6424B430997infoc",
+        "buvid4": "4338D23B-31B4-3131-4C33-01C59E7D90FE31805-023112304-",
+        "buvid_fp": "76d1e39d25dbfac9b40d4711787b1fba",
+        "enable_web_push": "DISABLE",
+        "header_theme_version": "null",
+        "home_feed_column": "5",
+        "i-wanna-go-back": "-1",
+        "innersign": "0"
+    },
+    "message": "success",
+    "proxy": null,
+    "request_id": "0714028372",
+    "server_id": 0,
+    "server_ip": "10.55.3.41",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0"
+}
+```
+* 示例三: 直接获取appid=3016762514514704的上次历史
+```python
+cookie_data = get_cookies(
+    appid='3016762514514704',
+    get_last=1,
+    url='https://fzgg.gansu.gov.cn/fzgg/c106094/202310/173782640.shtml',
+    renew_interval=3000
+)
+print(cookie_data)
+```
+```json
+{
+    "appid": "3016762514514704",
+    "server_id": 0,
+    "request_id": "0792208800",
+    "server_ip": "10.17.214.105",
+    "proxy": null,
+    "message": "success",
+    "cookies": {
+        "enable_4hP44ZykCTt5": "true",
+        "4hP44ZykCTt5O": "60f7aSeaEhktcJlgi41GMHZbf.FowOULbOotZxmN9iqDFHDGyzCG1yxNN0tKNfJAwNepJf0RVpDtg39qX_Q4Ukbq",
+        "7d0f4f97e8317b129e": "9aa103edd849aa2ee90db4924883ab51",
+        "4hP44ZykCTt5P": "0h9ROBZdvWz1Szc1IAY.WIQqFiUePgxfC.lYHf9Vcy7IRuxFdng72TeBQmosw.aKFVsumjEf_d.xZKhd7DrSL04fAPFq1meMxB2eOmp3F3_FYRufA98CmT57sZyp4xMR4oC0F2lYw_GEHuIwju29dUw2qaF5arioCkxfMLgOyR3dSyEFUnL12VFDPXpZuW0Mw3XxckmLw3SOcCSfYP623Lk1t7hiFx_tmPRuIEOZ4mNxQ6cTmZ1O65T3peZRcRDwE"
+    },
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0"
+}
+```
+
+## 限制与配额
+
+* 同一appid在响应完成前无法同时操作浏览器
+* 未设置配额
+
+# 远程Cookies获取集群删除历史响应API
+并发情况下，删除历史数据后重新等待获取同一新的cookie
+## 请求地址
+GET: http://hive.finchina.local/api/hwy/cookieService/del_history
+
+## 请求参数
+* `appid`: 请求的程序id
+
+## 请求示例
+```python
+import requests
+res = requests.get(
+    url='http://hive.finchina.local/api/hwy/cookieService/del_history?appid=g7gs897g'
+)
+```
+
+
+# 远程Cookies获取集群日志获取API(每次请求操作日志保留7天)
+
+## 请求地址
+
+GET: http://hive.finchina.local/api/hwy/cookieService/get_logs
+
+## 请求参数
+
+* `appid`: 请求的程序id
+* `request`: 请求的request_id
+* `from`: 起始日期，格式:yyyy-mm-dd
+
+## 请求示例
+
+* 示例1: 获取appid为g7gs897g在2023年11月17日及之后的日志
+
+```python
+import requests
+
+res = requests.get(
+    url='http://hive.finchina.local/api/hwy/cookieService/get_logs',
+    params={
+        'appid': 'g7gs897g',
+        'from': '2023-11-17'
+    }
+)
+[print(x) for x in res.text.split("<br>")]
+```
+
+```text
+2023-11-17 19:44:56 |  INFO  | main-appid:g7gs897g-request:221496000-选择服务器：server_id:1, ip:10.55.3.205
+2023-11-17 19:44:56 |  INFO  | main-appid:g7gs897g-request:221496000-请求数据流已发送: {"appid":"g7gs897g","url":"www.baidu.com","wait_for":"selector","selector":"#kw","state":"visible","timeout":2000,"action":"type","type_string":"ChatGPT\u672a\u6765\u5c06\u5982\u4f55\u53d1\u5c55","renew_interval":30000,"request_id":"221496000","url_prefix":"https://","server_id":1,"server_ip":"10.55.3.205"}
+2023-11-17 19:44:56 |  INFO  | server:1-appid:g7gs897g-request:221496000-开始请求stream: {"appid":"g7gs897g","url":"www.baidu.com","wait_for":"selector","selector":"#kw","state":"visible","timeout":2000,"action":"type","type_string":"ChatGPT\u672a\u6765\u5c06\u5982\u4f55\u53d1\u5c55","renew_interval":30000,"request_id":"221496000","url_prefix":"https://","server_id":1,"server_ip":"10.55.3.205"}
+2023-11-17 19:44:56 |  INFO  | server:1-appid:g7gs897g-request:221496000-正在初始化context...
+2023-11-17 19:44:56 |  INFO  | server:1-appid:g7gs897g-request:221496000-CONTEXT页面不存在，新建页面
+2023-11-17 19:45:02 |  INFO  | server:1-appid:g7gs897g-request:221496000-Playwright初始化context成功
+2023-11-17 19:45:02 |  INFO  | server:1-appid:g7gs897g-request:221496000-操作控制发送--访问页面:https://www.baidu.com timeout:30000 ms
+2023-11-17 19:45:03 |  INFO  | server:1-appid:g7gs897g-request:221496000-操作控制发送--wait_for_selector:#kw timeout:2000 ms state:visible element get success
+2023-11-17 19:45:03 |  INFO  | server:1-appid:g7gs897g-request:221496000-操作控制发送--type string `ChatGPT未来将如何发展` to element
+2023-11-17 19:45:04 |  INFO  | server:1-appid:g7gs897g-request:221496000-页面操作结束--cookies和UA获取成功
+2023-11-17 19:45:04 |  INFO  | server:1-appid:g7gs897g-request:221496000-请求结束输出结果: {"server_id":1,"request_id":"221496000","server_ip":"10.55.3.205","proxy":"10.55.9.238:808","message":"success","cookies":{"BIDUPSID":"26964F781C8948E6DD9D8260344EA23D","PSTM":"1700221502","BAIDUID":"26964F781C8948E6978325D054E6EC1C:FG=1","BAIDUID_BFESS":"26964F781C8948E6978325D054E6EC1C:FG=1","BD_UPN":"12314753","BA_HECTOR":"2801248h80a08h0g8g8ha4al1ilekhv1q","ZFY":"tnGyBkNordfkm:A0eWVPu3T:B54:BxmSjduNsiFV71G9VE:C","BDORZ":"B490B5EBF6F3CD402E515D22BCDA1598","BD_CK_SAM":"1","PSINO":"2","H_PS_PSSID":"39633_39663_39676_39678_39712_39780_39790_39787","delPer":"0","H_PS_645EC":"f966cVtfLbsRMipAGlIp7BUsOtnfLiqtdCUydLNrXwZwGviEbPcPbAPEuUE"},"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+2023-11-17 19:45:04 |  INFO  | main-appid:g7gs897g-request:221496000-获取到请求结果: {"server_id":1,"request_id":"221496000","server_ip":"10.55.3.205","proxy":"10.55.9.238:808","message":"success","cookies":{"BIDUPSID":"26964F781C8948E6DD9D8260344EA23D","PSTM":"1700221502","BAIDUID":"26964F781C8948E6978325D054E6EC1C:FG=1","BAIDUID_BFESS":"26964F781C8948E6978325D054E6EC1C:FG=1","BD_UPN":"12314753","BA_HECTOR":"2801248h80a08h0g8g8ha4al1ilekhv1q","ZFY":"tnGyBkNordfkm:A0eWVPu3T:B54:BxmSjduNsiFV71G9VE:C","BDORZ":"B490B5EBF6F3CD402E515D22BCDA1598","BD_CK_SAM":"1","PSINO":"2","H_PS_PSSID":"39633_39663_39676_39678_39712_39780_39790_39787","delPer":"0","H_PS_645EC":"f966cVtfLbsRMipAGlIp7BUsOtnfLiqtdCUydLNrXwZwGviEbPcPbAPEuUE"},"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+2023-11-17 19:45:34 |  INFO  | server:1-appid:g7gs897g-浏览器页面到期,已关闭
+2023-11-17 20:03:40 |  INFO  | main-appid:g7gs897g-request:222620581-选择服务器：server_id:0, ip:10.55.3.41
+2023-11-17 20:03:40 |  INFO  | main-appid:g7gs897g-request:222620581-请求数据流已发送: {"appid":"g7gs897g","url":"www.baidu.com","wait_for":"selector","selector":"#kw","state":"visible","timeout":2000,"action":"type","type_string":"ChatGPT\u672a\u6765\u5c06\u5982\u4f55\u53d1\u5c55","renew_interval":30000,"request_id":"222620581","url_prefix":"https://","server_id":0,"server_ip":"10.55.3.41"}
+2023-11-17 20:03:40 |  INFO  | server:0-appid:g7gs897g-request:222620581-开始请求stream: {"appid":"g7gs897g","url":"www.baidu.com","wait_for":"selector","selector":"#kw","state":"visible","timeout":2000,"action":"type","type_string":"ChatGPT\u672a\u6765\u5c06\u5982\u4f55\u53d1\u5c55","renew_interval":30000,"request_id":"222620581","url_prefix":"https://","server_id":0,"server_ip":"10.55.3.41"}
+2023-11-17 20:03:40 |  INFO  | server:0-appid:g7gs897g-request:222620581-正在初始化context...
+2023-11-17 20:03:40 |  INFO  | server:0-appid:g7gs897g-request:222620581-CONTEXT页面不存在，新建页面
+2023-11-17 20:03:41 |  INFO  | server:0-appid:g7gs897g-request:222620581-Playwright初始化context成功
+2023-11-17 20:03:41 |  INFO  | server:0-appid:g7gs897g-request:222620581-操作控制发送--访问页面:https://www.baidu.com timeout:30000 ms
+2023-11-17 20:03:42 |  INFO  | server:0-appid:g7gs897g-request:222620581-操作控制发送--wait_for_selector:#kw timeout:2000 ms state:visible element get success
+2023-11-17 20:03:42 |  INFO  | server:0-appid:g7gs897g-request:222620581-操作控制发送--type string `ChatGPT未来将如何发展` to element
+2023-11-17 20:03:42 |  INFO  | server:0-appid:g7gs897g-request:222620581-页面操作结束--cookies和UA获取成功
+2023-11-17 20:03:42 |  INFO  | server:0-appid:g7gs897g-request:222620581-请求结束输出结果: {"server_id":0,"request_id":"222620581","server_ip":"10.55.3.41","proxy":"10.55.9.206:808","message":"success","cookies":{"BIDUPSID":"EC3559F07A02C882E40A600165586AC6","PSTM":"1700222621","BAIDUID":"EC3559F07A02C882353B8DAA43CC63AD:FG=1","BD_UPN":"12314753","BAIDUID_BFESS":"EC3559F07A02C882353B8DAA43CC63AD:FG=1","BA_HECTOR":"090h2gah8k0g0ha4840581801ilelku1q","ZFY":"dmRcPURBatUfwJtiTrCOFa6nNRW2k3hBpODUudsXc30:C","BDORZ":"B490B5EBF6F3CD402E515D22BCDA1598","BD_CK_SAM":"1","PSINO":"2","BDSVRTM":"7"},"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+2023-11-17 20:03:42 |  INFO  | main-appid:g7gs897g-request:222620581-获取到请求结果: {"server_id":0,"request_id":"222620581","server_ip":"10.55.3.41","proxy":"10.55.9.206:808","message":"success","cookies":{"BIDUPSID":"EC3559F07A02C882E40A600165586AC6","PSTM":"1700222621","BAIDUID":"EC3559F07A02C882353B8DAA43CC63AD:FG=1","BD_UPN":"12314753","BAIDUID_BFESS":"EC3559F07A02C882353B8DAA43CC63AD:FG=1","BA_HECTOR":"090h2gah8k0g0ha4840581801ilelku1q","ZFY":"dmRcPURBatUfwJtiTrCOFa6nNRW2k3hBpODUudsXc30:C","BDORZ":"B490B5EBF6F3CD402E515D22BCDA1598","BD_CK_SAM":"1","PSINO":"2","BDSVRTM":"7"},"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+2023-11-17 20:04:13 |  INFO  | server:0-appid:g7gs897g-浏览器页面到期,已关闭
+```
+
+* 实例2： 获取request_id为223273588的请求日志
+
+```python
+import requests
+
+res = requests.get(
+    url='http://hive.finchina.local/api/hwy/cookieService/get_logs',
+    params={
+        'request': '223273588'
+    }
+)
+[print(x) for x in res.text.split("<br>")]
+```
+
+```text
+2023-11-17 20:14:33 |  INFO  | main-request:223273588-获取到请求流：{"appid":"1234","url":"www.bilibili.com","renew_interval":30000,"request_id":"223273588","url_prefix":"https://"}
+2023-11-17 20:14:33 |  INFO  | main-appid:1234-request:223273588-选择服务器：server_id:0, ip:10.55.3.41
+2023-11-17 20:14:33 |  INFO  | main-appid:1234-request:223273588-请求数据流已发送: {"appid":"1234","url":"www.bilibili.com","renew_interval":30000,"request_id":"223273588","url_prefix":"https://","server_id":0,"server_ip":"10.55.3.41"}
+2023-11-17 20:14:33 |  INFO  | server:0-appid:1234-request:223273588-开始请求stream: {"appid":"1234","url":"www.bilibili.com","renew_interval":30000,"request_id":"223273588","url_prefix":"https://","server_id":0,"server_ip":"10.55.3.41"}
+2023-11-17 20:14:33 |  INFO  | server:0-appid:1234-request:223273588-正在初始化context...
+2023-11-17 20:14:33 |  INFO  | server:0-appid:1234-request:223273588-CONTEXT页面不存在页面已存在，页面等待中
+2023-11-17 20:14:33 |  INFO  | server:0-appid:1234-request:223273588-Playwright初始化context成功
+2023-11-17 20:14:33 |  INFO  | server:0-appid:1234-request:223273588-操作控制发送--访问页面:https://www.bilibili.com timeout:30000 ms
+2023-11-17 20:14:35 |  INFO  | server:0-appid:1234-request:223273588-页面操作结束--cookies和UA获取成功
+2023-11-17 20:14:36 |  INFO  | server:0-appid:1234-request:223273588-请求结束输出结果: {"server_id":0,"request_id":"223273588","server_ip":"10.55.3.41","proxy":"10.55.9.206:808","message":"success","cookies":{"BIDUPSID":"BF2EFDBAA4050AA5C3D0330BC52D85A0","PSTM":"1700223243","BAIDUID":"BF2EFDBAA4050AA5E5409F5DC2BB17DE:FG=1","BD_UPN":"12314753","BAIDUID_BFESS":"BF2EFDBAA4050AA5E5409F5DC2BB17DE:FG=1","BA_HECTOR":"29a52g8g8ha5250k202h8l8n1ilem8c1r","ZFY":"JGfl1TFfDO8YFrcxiaqLOIT:ABsZIBwSAJ:AVwWun:AF9Y:C","BDORZ":"B490B5EBF6F3CD402E515D22BCDA1598","BD_CK_SAM":"1","PSINO":"2","H_PS_PSSID":"39633_39647_39668_39663_39682_39695_39676_39678_39713_39741_39765_39779_39791","delPer":"0","H_PS_645EC":"8e79kyLFTcxVdTqbRbyOyRFLorI%2BKCW0bjbZJg26FcWBQ9814EUPwyLBiDc","innersign":"0","buvid3":"B7A7C16A-29D4-A794-7DFB-EDEF014B1BCB61725infoc","b_nut":"1700223261","i-wanna-go-back":"-1","b_ut":"7","b_lsid":"3DDBBAF2_18BDD341DB5","_uuid":"84DA7B4B-537F-A7FF-B1EC-191A1082E764D62160infoc","enable_web_push":"DISABLE","buvid4":"C1BCC8C4-42C9-B2B1-119B-ECF9B068F4EE62532-023111712-","home_feed_column":"5","browser_resolution":"1792-651","buvid_fp":"baf3b0336c5bb200769a6a13e324f6a5","bmg_af_switch":"1","bmg_src_def_domain":"i2.hdslb.com","header_theme_version":"CLOSE"},"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+2023-11-17 20:14:36 |  INFO  | main-appid:1234-request:223273588-获取到请求结果: {"server_id":0,"request_id":"223273588","server_ip":"10.55.3.41","proxy":"10.55.9.206:808","message":"success","cookies":{"BIDUPSID":"BF2EFDBAA4050AA5C3D0330BC52D85A0","PSTM":"1700223243","BAIDUID":"BF2EFDBAA4050AA5E5409F5DC2BB17DE:FG=1","BD_UPN":"12314753","BAIDUID_BFESS":"BF2EFDBAA4050AA5E5409F5DC2BB17DE:FG=1","BA_HECTOR":"29a52g8g8ha5250k202h8l8n1ilem8c1r","ZFY":"JGfl1TFfDO8YFrcxiaqLOIT:ABsZIBwSAJ:AVwWun:AF9Y:C","BDORZ":"B490B5EBF6F3CD402E515D22BCDA1598","BD_CK_SAM":"1","PSINO":"2","H_PS_PSSID":"39633_39647_39668_39663_39682_39695_39676_39678_39713_39741_39765_39779_39791","delPer":"0","H_PS_645EC":"8e79kyLFTcxVdTqbRbyOyRFLorI%2BKCW0bjbZJg26FcWBQ9814EUPwyLBiDc","innersign":"0","buvid3":"B7A7C16A-29D4-A794-7DFB-EDEF014B1BCB61725infoc","b_nut":"1700223261","i-wanna-go-back":"-1","b_ut":"7","b_lsid":"3DDBBAF2_18BDD341DB5","_uuid":"84DA7B4B-537F-A7FF-B1EC-191A1082E764D62160infoc","enable_web_push":"DISABLE","buvid4":"C1BCC8C4-42C9-B2B1-119B-ECF9B068F4EE62532-023111712-","home_feed_column":"5","browser_resolution":"1792-651","buvid_fp":"baf3b0336c5bb200769a6a13e324f6a5","bmg_af_switch":"1","bmg_src_def_domain":"i2.hdslb.com","header_theme_version":"CLOSE"},"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+```
+
