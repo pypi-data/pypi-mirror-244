@@ -1,0 +1,4 @@
+[console_scripts]
+falkordb-bulk-insert=falkordb_bulk_loader.bulk_insert:bulk_insert
+falkordb-bulk-update=falkordb_bulk_loader.bulk_update:bulk_update
+
