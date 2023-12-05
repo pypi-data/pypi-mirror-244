@@ -1,0 +1,4 @@
+requests
+build
+termcolor
+tqdm
