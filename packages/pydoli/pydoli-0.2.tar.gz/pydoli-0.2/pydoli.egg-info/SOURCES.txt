@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pydoli/__init__.py
+pydoli/__main__.py
+pydoli/pydoli.py
+pydoli.egg-info/PKG-INFO
+pydoli.egg-info/SOURCES.txt
+pydoli.egg-info/dependency_links.txt
+pydoli.egg-info/not-zip-safe
+pydoli.egg-info/top_level.txt
+tests/test.py
