@@ -1,0 +1,23 @@
+PID,Order,Condition,Dataset,Mental Demand,Physical Demand,Temporal Demand,Performance,Effort,Frustration
+1,1,Persist,Avalanche,5,0,5,0,5,0
+1,2,Pandas,Video Games,90,0,100,60,95,85
+2,1,Pandas,Avalanche,35,0,60,10,50,5
+2,2,Persist,Video Games,5,0,0,5,5,0
+3,1,Persist,Video Games,25,40,30,5,25,35
+3,2,Pandas,Avalanche,70,65,90,15,70,75
+4,1,Pandas,Video Games,70,0,30,50,60,55
+4,2,Persist,Avalanche,15,0,15,10,10,15
+5,1,Persist,Avalanche,0,5,15,5,5,5
+5,2,Pandas,Video Games,95,5,100,100,90,75
+6,1,Pandas,Avalanche,80,5,70,0,45,20
+6,2,Persist,Video Games,35,0,5,5,0,5
+7,1,Persist,Video Games,20,5,20,25,10,10
+7,2,Pandas,Avalanche,80,50,90,75,80,95
+8,1,Persist,Avalanche,25,0,40,10,60,0
+8,2,Pandas,Video Games,80,0,95,40,65,60
+9,1,Pandas,Video Games,50,5,20,20,25,30
+9,2,Persist,Avalanche,5,10,5,0,10,5
+10,1,Persist,Avalanche,10,0,20,0,0,5
+10,2,Pandas,Video Games,50,30,70,45,70,90
+11,1,Pandas,Avalanche,35,0,70,0,30,50
+11,2,Persist,Video Games,15,0,20,15,5,70

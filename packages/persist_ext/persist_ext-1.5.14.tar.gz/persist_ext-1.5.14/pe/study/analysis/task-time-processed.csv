@@ -1,0 +1,161 @@
+PID,Condition,Dataset,Order,Task,Sub Task,TaskID,Status,Duration,LLM,Search,Notes
+1,Persist,Avalanche,1,1,a,1a,Correct,0:02:04,FALSE,FALSE,
+1,Persist,Avalanche,1,1,b,1b,Correct,0:01:14,FALSE,FALSE,
+1,Persist,Avalanche,1,1,c,1c,Correct,0:01:00,FALSE,FALSE,
+1,Persist,Avalanche,1,2,a,2a,Correct,0:02:30,FALSE,FALSE,
+1,Persist,Avalanche,1,2,b,2b,Correct,0:01:00,FALSE,FALSE,
+1,Persist,Avalanche,1,3,a,3a,Correct,0:02:56,FALSE,FALSE,
+1,Persist,Avalanche,1,3,b,3b,Correct,0:02:23,FALSE,FALSE,.
+1,Pandas,Video Games,2,1,a,1a,Correct,0:04:10,FALSE,TRUE,Search - own laptop - non english - google only - no LLM
+1,Pandas,Video Games,2,1,b,1b,Correct,0:02:49,FALSE,TRUE,Search - own laptop - non english - google only - no LLM
+1,Pandas,Video Games,2,1,c,1c,Correct,0:10:23,FALSE,TRUE,Search - own laptop - non english - google only - no LLM
+1,Pandas,Video Games,2,2,a,2a,Correct,0:11:23,FALSE,TRUE,Search - own laptop - non english - google only - no LLM
+1,Pandas,Video Games,2,2,b,2b,Correct,0:02:13,FALSE,TRUE,Search - own laptop - non english - google only - no LLM
+1,Pandas,Video Games,2,3,a,3a,Correct,0:29:35,FALSE,TRUE,Search - own laptop - non english - google only - no LLM
+1,Pandas,Video Games,2,3,b,3b,Correct,0:03:49,FALSE,TRUE,Search - own laptop - non english - google only - no LLM
+2,Pandas,Avalanche,1,1,a,1a,Correct,0:04:11,FALSE,TRUE,Searching for ‘drop column pandas’
+2,Pandas,Avalanche,1,1,b,1b,Correct,0:04:40,FALSE,TRUE,Search for rename columns in docs
+2,Pandas,Avalanche,1,1,c,1c,Correct,0:13:07,FALSE,TRUE,Searching for replace syntax
+2,Pandas,Avalanche,1,2,a,2a,Correct,0:10:20,FALSE,TRUE,Search to fix logical 'and' in masking code
+2,Pandas,Avalanche,1,2,b,2b,Correct,0:03:13,FALSE,FALSE,
+2,Pandas,Avalanche,1,3,a,3a,Correct,0:08:55,FALSE,TRUE,Search - add new column
+2,Pandas,Avalanche,1,3,b,3b,Correct,0:02:42,FALSE,FALSE,
+2,Persist,Video Games,2,1,a,1a,Correct,0:00:38,FALSE,FALSE,
+2,Persist,Video Games,2,1,b,1b,Correct,0:00:37,FALSE,FALSE,
+2,Persist,Video Games,2,1,c,1c,Correct,0:05:01,FALSE,FALSE,
+2,Persist,Video Games,2,2,a,2a,Correct,0:04:44,FALSE,FALSE,
+2,Persist,Video Games,2,2,b,2b,Correct,0:02:10,FALSE,FALSE,
+2,Persist,Video Games,2,3,a,3a,Correct,0:03:32,FALSE,FALSE,
+2,Persist,Video Games,2,3,b,3b,Correct,0:01:43,FALSE,FALSE,
+3,Persist,Video Games,1,1,a,1a,Correct,0:02:08,FALSE,FALSE,
+3,Persist,Video Games,1,1,b,1b,Correct,0:00:52,FALSE,FALSE,
+3,Persist,Video Games,1,1,c,1c,Correct,0:05:09,FALSE,FALSE,
+3,Persist,Video Games,1,2,a,2a,Correct,0:01:17,FALSE,FALSE,
+3,Persist,Video Games,1,2,b,2b,Wrong,0:01:25,FALSE,FALSE,Removed data for 2006 as well
+3,Persist,Video Games,1,3,a,3a,Correct,0:02:38,FALSE,FALSE,
+3,Persist,Video Games,1,3,b,3b,Correct,0:03:02,FALSE,FALSE,
+3,Pandas,Avalanche,2,1,a,1a,Correct,0:07:28,FALSE,TRUE,Search
+3,Pandas,Avalanche,2,1,b,1b,Correct,0:04:45,FALSE,TRUE,Search
+3,Pandas,Avalanche,2,1,c,1c,Correct,0:09:36,FALSE,TRUE,Search
+3,Pandas,Avalanche,2,2,a,2a,Correct,0:08:59,TRUE,FALSE,ChatGPT
+3,Pandas,Avalanche,2,2,b,2b,Correct,0:04:02,TRUE,FALSE,ChatGPT
+3,Pandas,Avalanche,2,3,a,3a,Correct,0:07:32,TRUE,FALSE,ChatGPT
+3,Pandas,Avalanche,2,3,b,3b,Correct,0:01:37,FALSE,FALSE,
+4,Pandas,Video Games,1,1,a,1a,Wrong,0:05:27,FALSE,TRUE,"Search docs, never assigned removed dataframe"
+4,Pandas,Video Games,1,1,b,1b,Correct,0:05:14,FALSE,TRUE,Search for rename syntax
+4,Pandas,Video Games,1,1,c,1c,Skipped,0:15:47,FALSE,TRUE,"Search - convert type of column pandas, Search - inspect unique values pandas"
+4,Pandas,Video Games,1,2,a,2a,Correct,0:08:45,FALSE,TRUE,"Search - print values in a range
+Search  remove values less than"
+4,Pandas,Video Games,1,2,b,2b,Correct,0:02:50,FALSE,FALSE,
+4,Pandas,Video Games,1,3,a,3a,Skipped,0:17:53,FALSE,TRUE,"Search - pandas add new column
+Added empty column
+Search - how to change values based  on condition"
+4,Pandas,Video Games,1,3,b,3b,Correct,0:02:21,FALSE,FALSE,
+4,Persist,Avalanche,2,1,a,1a,Correct,0:01:04,FALSE,FALSE,
+4,Persist,Avalanche,2,1,b,1b,Correct,0:01:15,FALSE,FALSE,
+4,Persist,Avalanche,2,1,c,1c,Correct,0:01:30,FALSE,FALSE,
+4,Persist,Avalanche,2,2,a,2a,Correct,0:01:32,FALSE,FALSE,
+4,Persist,Avalanche,2,2,b,2b,Correct,0:00:40,FALSE,FALSE,
+4,Persist,Avalanche,2,3,a,3a,Correct,0:01:58,FALSE,FALSE,
+4,Persist,Avalanche,2,3,b,3b,Correct,0:01:06,FALSE,FALSE,
+5,Persist,Avalanche,1,1,a,1a,Correct,0:01:03,FALSE,FALSE,
+5,Persist,Avalanche,1,1,b,1b,Correct,0:01:11,FALSE,FALSE,
+5,Persist,Avalanche,1,1,c,1c,Correct,0:02:09,FALSE,FALSE,
+5,Persist,Avalanche,1,2,a,2a,Correct,0:01:32,FALSE,FALSE,
+5,Persist,Avalanche,1,2,b,2b,Correct,0:01:47,FALSE,FALSE,
+5,Persist,Avalanche,1,3,a,3a,Correct,0:03:26,FALSE,FALSE,
+5,Persist,Avalanche,1,3,b,3b,Correct,0:02:29,FALSE,FALSE,
+5,Pandas,Video Games,2,1,a,1a,Correct,0:04:52,FALSE,TRUE,"Search : remove columns in pandas
+Forgot that drop does not edit inplace"
+5,Pandas,Video Games,2,1,b,1b,Correct,0:02:18,FALSE,TRUE,Search : how to remove string in col name
+5,Pandas,Video Games,2,1,c,1c,Wrong,0:10:02,FALSE,TRUE,"Search for syntax. For rows containing P, set all values to 1 (forgot to subset with column)
+"
+5,Pandas,Video Games,2,2,a,2a,Skipped,0:21:18,FALSE,TRUE,"Search - how to remove entries with condition in pandas. Skipped
+"
+5,Pandas,Video Games,2,2,b,2b,Correct,0:06:34,FALSE,TRUE,Search - remove in range. Code cells need to run multiple times for visible output. Not reproducible
+5,Pandas,Video Games,2,3,a,3a,Correct,0:09:43,FALSE,TRUE,Search - add new category column syntax. Came across apply fn
+5,Pandas,Video Games,2,3,b,3b,Correct,0:01:34,FALSE,FALSE,
+6,Pandas,Avalanche,1,1,a,1a,Correct,0:03:05,FALSE,TRUE,Search - looked up syntax for drop
+6,Pandas,Avalanche,1,1,b,1b,Correct,0:03:35,FALSE,TRUE,Search syntax for rename
+6,Pandas,Avalanche,1,1,c,1c,Correct,0:05:41,FALSE,TRUE,Search - using map to remove symbol
+6,Pandas,Avalanche,1,2,a,2a,Correct,0:07:49,FALSE,TRUE,Search - filter rows pandas
+6,Pandas,Avalanche,1,2,b,2b,Correct,0:02:23,FALSE,FALSE,Created new column with map and lambda
+6,Pandas,Avalanche,1,3,a,3a,Correct,0:04:34,FALSE,FALSE,
+6,Pandas,Avalanche,1,3,b,3b,Correct,0:02:32,FALSE,FALSE,
+6,Persist,Video Games,2,1,a,1a,Correct,0:01:31,FALSE,FALSE,
+6,Persist,Video Games,2,1,b,1b,Correct,0:00:46,FALSE,FALSE,
+6,Persist,Video Games,2,1,c,1c,Correct,0:04:06,FALSE,FALSE,
+6,Persist,Video Games,2,2,a,2a,Correct,0:01:25,FALSE,FALSE,
+6,Persist,Video Games,2,2,b,2b,Correct,0:00:49,FALSE,FALSE,
+6,Persist,Video Games,2,3,a,3a,Correct,0:03:01,FALSE,FALSE,
+6,Persist,Video Games,2,3,b,3b,Correct,0:02:35,FALSE,FALSE,
+7,Persist,Video Games,1,1,a,1a,Correct,0:01:37,FALSE,FALSE,
+7,Persist,Video Games,1,1,b,1b,Correct,0:01:09,FALSE,FALSE,
+7,Persist,Video Games,1,1,c,1c,Correct,0:04:37,FALSE,FALSE,
+7,Persist,Video Games,1,2,a,2a,Correct,0:03:50,FALSE,FALSE,
+7,Persist,Video Games,1,2,b,2b,Correct,0:03:45,FALSE,FALSE,
+7,Persist,Video Games,1,3,a,3a,Correct,0:02:20,FALSE,FALSE,
+7,Persist,Video Games,1,3,b,3b,Correct,0:03:14,FALSE,FALSE,
+7,Pandas,Avalanche,2,1,a,1a,Correct,0:09:01,FALSE,TRUE,Search - remove columns in pandas
+7,Pandas,Avalanche,2,1,b,1b,Correct,0:03:44,FALSE,TRUE,Search - rename
+7,Pandas,Avalanche,2,1,c,1c,Skipped,0:17:59,FALSE,TRUE,"Search - change column values, Search - changing column types, Skipped"
+7,Pandas,Avalanche,2,2,a,2a,Correct,0:06:19,FALSE,FALSE,
+7,Pandas,Avalanche,2,2,b,2b,Correct,0:04:58,FALSE,FALSE,
+7,Pandas,Avalanche,2,3,a,3a,Skipped,0:12:51,FALSE,TRUE,"Search - add new column to dataset, Skipped"
+7,Pandas,Avalanche,2,3,b,3b,Correct,0:01:48,FALSE,FALSE,
+8,Persist,Avalanche,1,1,a,1a,Correct,0:01:08,FALSE,FALSE,
+8,Persist,Avalanche,1,1,b,1b,Correct,0:01:10,FALSE,FALSE,
+8,Persist,Avalanche,1,1,c,1c,Correct,0:03:11,FALSE,FALSE,
+8,Persist,Avalanche,1,2,a,2a,Correct,0:02:07,FALSE,FALSE,
+8,Persist,Avalanche,1,2,b,2b,Correct,0:01:50,FALSE,FALSE,
+8,Persist,Avalanche,1,3,a,3a,Correct,0:02:11,FALSE,FALSE,"Assigned Start to Jan, Feb, March. Accidentally selected March again when assinging Middle"
+8,Persist,Avalanche,1,3,b,3b,Partial,0:01:39,FALSE,FALSE,
+8,Pandas,Video Games,2,1,a,1a,Correct,0:05:01,FALSE,TRUE,"Search - drop columns Pandas, did not assign the dropped dataframe initially"
+8,Pandas,Video Games,2,1,b,1b,Correct,0:02:35,FALSE,TRUE,Search - rename column pandas
+8,Pandas,Video Games,2,1,c,1c,Partial,0:15:05,FALSE,TRUE,"Search - changing types in pandas, Search - print unique, Search - changing category names. Assigned incorrect values like '100' to category"
+8,Pandas,Video Games,2,2,a,2a,Correct,0:08:17,FALSE,TRUE,Search - identify records below threshold
+8,Pandas,Video Games,2,2,b,2b,Correct,0:05:47,FALSE,TRUE,Search - how to remove rows with specific values
+8,Pandas,Video Games,2,3,a,3a,Correct,0:04:21,FALSE,FALSE,
+8,Pandas,Video Games,2,3,b,3b,Correct,0:01:16,FALSE,FALSE,
+9,Pandas,Video Games,1,1,a,1a,Correct,0:05:04,FALSE,TRUE,Search - drop columns pandas
+9,Pandas,Video Games,1,1,b,1b,Correct,0:04:17,FALSE,TRUE,Search - rename pandas
+9,Pandas,Video Games,1,1,c,1c,Skipped,0:15:04,FALSE,TRUE,"Search - pandas change category, Search - print specific values"
+9,Pandas,Video Games,1,2,a,2a,Correct,0:04:23,FALSE,TRUE,Search select in range
+9,Pandas,Video Games,1,2,b,2b,Correct,0:04:24,FALSE,FALSE,
+9,Pandas,Video Games,1,3,a,3a,Skipped,0:16:28,FALSE,TRUE,Search - pandas new column based on other column
+9,Pandas,Video Games,1,3,b,3b,Correct,0:02:33,FALSE,FALSE,
+9,Persist,Avalanche,2,1,a,1a,Correct,0:01:13,FALSE,FALSE,
+9,Persist,Avalanche,2,1,b,1b,Correct,0:01:56,FALSE,FALSE,
+9,Persist,Avalanche,2,1,c,1c,Correct,0:01:50,FALSE,FALSE,
+9,Persist,Avalanche,2,2,a,2a,Correct,0:01:51,FALSE,FALSE,
+9,Persist,Avalanche,2,2,b,2b,Correct,0:00:43,FALSE,FALSE,
+9,Persist,Avalanche,2,3,a,3a,Correct,0:01:50,FALSE,FALSE,
+9,Persist,Avalanche,2,3,b,3b,Correct,0:01:25,FALSE,FALSE,
+10,Persist,Avalanche,1,1,a,1a,Correct,0:01:32,FALSE,FALSE,
+10,Persist,Avalanche,1,1,b,1b,Correct,0:01:19,FALSE,FALSE,
+10,Persist,Avalanche,1,1,c,1c,Correct,0:02:20,FALSE,FALSE,
+10,Persist,Avalanche,1,2,a,2a,Correct,0:01:55,FALSE,FALSE,
+10,Persist,Avalanche,1,2,b,2b,Correct,0:01:39,FALSE,FALSE,
+10,Persist,Avalanche,1,3,a,3a,Correct,0:02:49,FALSE,FALSE,
+10,Persist,Avalanche,1,3,b,3b,Correct,0:03:06,FALSE,FALSE,
+10,Pandas,Video Games,2,1,a,1a,Correct,0:03:06,FALSE,TRUE,Search drop columns
+10,Pandas,Video Games,2,1,b,1b,Correct,0:02:52,FALSE,TRUE,Search rename column
+10,Pandas,Video Games,2,1,c,1c,Correct,0:13:10,FALSE,TRUE,"Search - replace string, trying to print all rows"
+10,Pandas,Video Games,2,2,a,2a,Correct,0:04:08,FALSE,TRUE,Search for select in range
+10,Pandas,Video Games,2,2,b,2b,Correct,0:02:28,FALSE,FALSE,
+10,Pandas,Video Games,2,3,a,3a,Skipped,0:11:06,FALSE,TRUE,Search - add new column
+10,Pandas,Video Games,2,3,b,3b,Correct,0:02:09,FALSE,FALSE,
+11,Pandas,Avalanche,1,1,a,1a,Correct,0:02:35,FALSE,TRUE,Search
+11,Pandas,Avalanche,1,1,b,1b,Correct,0:05:09,FALSE,TRUE,Search
+11,Pandas,Avalanche,1,1,c,1c,Correct,0:05:52,FALSE,TRUE,Search
+11,Pandas,Avalanche,1,2,a,2a,Correct,0:03:45,FALSE,TRUE,Search
+11,Pandas,Avalanche,1,2,b,2b,Correct,0:02:17,FALSE,FALSE,
+11,Pandas,Avalanche,1,3,a,3a,Correct,0:09:28,FALSE,TRUE,Search
+11,Pandas,Avalanche,1,3,b,3b,Correct,0:01:48,FALSE,FALSE,
+11,Persist,Video Games,2,1,a,1a,Correct,0:00:49,FALSE,FALSE,
+11,Persist,Video Games,2,1,b,1b,Correct,0:00:39,FALSE,FALSE,
+11,Persist,Video Games,2,1,c,1c,Correct,0:05:54,FALSE,FALSE,
+11,Persist,Video Games,2,2,a,2a,Correct,0:03:18,FALSE,FALSE,
+11,Persist,Video Games,2,2,b,2b,Correct,0:00:55,FALSE,FALSE,
+11,Persist,Video Games,2,3,a,3a,Correct,0:02:08,FALSE,FALSE,
+11,Persist,Video Games,2,3,b,3b,Correct,0:01:25,FALSE,FALSE,

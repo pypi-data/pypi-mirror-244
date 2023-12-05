@@ -1,0 +1,12 @@
+PID,Python Reported Experience,Data Analysis Language,Pandas Reported Exp,Data Wrangling Reported Exp,Vis Libraries Used,Degree Enrolled,Non Coursework Data Exp,Domain Exp
+1,3,Python,3,3,"matplotlib, seaborn",Undergrad,N,NA
+2,4,Python,3,3,"matplotlib, seaborn",MS,Y,Unknown
+3,3,Python,3,3,"matplotlib, seaborn",MS,N,NA
+4,2,Python,1,1,matplotlib,Undergrad,N,NA
+5,4,Python,4,4,"matplotlib, pyplot",MS,N,NA
+6,5,Python,5,4,"matplotlib, seaborn, Plotly",PhD,Y,User Studies
+7,3,Python,3,3,matplotlib,PhD,Y,Notebook Research
+8,5,Python,4,4,"matplotlib, seaborn, Plotly",PhD,Y,Behavioral Economics
+9,2,Matlab,1,4,None,PhD,Y,Compilers Research
+10,4,Python,2,3,"matplotlib, seaborn",MS,Y,"Human Resources, OCR"
+11,5,Python,4,3,"matplotlib, Plotly",MS,Y,High Frequency Trading
