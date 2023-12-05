@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+idanalyzer2/__init__.py
+idanalyzer2/common.py
+idanalyzer2/idanalyzer.py
+idanalyzer2/myException.py
+idanalyzer2.egg-info/PKG-INFO
+idanalyzer2.egg-info/SOURCES.txt
+idanalyzer2.egg-info/dependency_links.txt
+idanalyzer2.egg-info/requires.txt
+idanalyzer2.egg-info/top_level.txt
