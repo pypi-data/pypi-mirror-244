@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: openasce
+Version: 0.1.0
+Summary: Open All-Scale CausalEngine
+Home-page: https://github.com/Open-All-Scale-Causal-Engine/OpenASCE
+Author: Ant Group
+License: Apache
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: econml >=0.14
+Requires-Dist: keras >=2.14
+Requires-Dist: numpy >=1.24
+Requires-Dist: pandas >=2.1
+Requires-Dist: pybind11 >=2.11.1
+Requires-Dist: pyhocon >=0.3.60
+Requires-Dist: scikit-learn >=1.2
+Requires-Dist: scipy >=1.11
+Requires-Dist: tensorflow >=2.14
+Requires-Dist: torch !=2.1.*,>=2.0.1
+Provides-Extra: test
+Requires-Dist: pytest >=6.0 ; extra == 'test'
+
+OpenASCE (Open All-Scale Casual Engine) is a Python package for end-to-end large-scale causal learning. It provides causal discovery, causal effect estimation and attribution algorthms all in one package.
