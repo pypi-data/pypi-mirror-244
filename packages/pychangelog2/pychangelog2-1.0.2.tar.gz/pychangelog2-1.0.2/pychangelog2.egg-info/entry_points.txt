@@ -1,0 +1,2 @@
+[console_scripts]
+pychangelog2 = pychangelog2.__main__:cli
