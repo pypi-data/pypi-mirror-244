@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oreilly-book-echo
+Version: 0.1.0
+Summary: Description of your package
+Home-page: https://github.com/ithingv34/oreilly-book-echo
+Author: ithingv34
+Author-email: ithingv34@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/ithingv34/oreilly-book-echo
+Description-Content-Type: text/markdown
+
+# oreilly-book-echo
