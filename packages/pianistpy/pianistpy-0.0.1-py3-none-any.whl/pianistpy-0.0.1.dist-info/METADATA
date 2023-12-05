@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pianistpy
+Version: 0.0.1
+Summary: PIANISTpy (Particle Initial conditions with ANISoTropy) for astrophysics and cosmology
+Project-URL: Homepage, https://github.com/BarryTC/PIANISTpy
+Project-URL: Issues, https://github.com/BarryTC/PIANISTpy/issues
+Author-email: "Barry T. Chiang" <barrytchiang@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pianistpy Package
+
+This is a sample source for the open-sourced Python package pianistpy,
+which is currectly under developement.
