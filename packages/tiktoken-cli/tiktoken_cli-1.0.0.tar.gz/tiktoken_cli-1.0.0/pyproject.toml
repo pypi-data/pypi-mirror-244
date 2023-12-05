@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tiktoken-cli"
+dynamic = ["version"]
+description = 'Simple wrapper around tiktoken to use it in your favorite language.'
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+authors = [
+  { name = "jplumail", email = "jeanplumail76@gmail.com" },
+]
+dependencies = ["tiktoken", "click"]
+
+[project.urls]
+Source = "https://github.com/jplumail/tiktoken-cli"
+
+[project.scripts]
+tiktoken = "tiktoken_cli:encode"
+
+[tool.hatch.version]
+path = "src/tiktoken_cli/__init__.py"
