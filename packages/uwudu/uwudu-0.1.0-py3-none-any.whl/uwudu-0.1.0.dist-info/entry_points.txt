@@ -1,0 +1,2 @@
+[console_scripts]
+uwudu = uwudu.cli:cli

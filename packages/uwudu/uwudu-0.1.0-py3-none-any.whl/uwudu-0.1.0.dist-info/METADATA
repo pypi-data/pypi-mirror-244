@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: uwudu
+Version: 0.1.0
+Summary: your cli todo list manager (U w U)
+Keywords: cli,todo,uwu,todo list,python,python cli
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: prettytable
+
