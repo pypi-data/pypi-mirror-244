@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/spacy_pat_match_dsl/__init__.py
+src/spacy_pat_match_dsl/dsl.py
+src/spacy_pat_match_dsl.egg-info/PKG-INFO
+src/spacy_pat_match_dsl.egg-info/SOURCES.txt
+src/spacy_pat_match_dsl.egg-info/dependency_links.txt
+src/spacy_pat_match_dsl.egg-info/top_level.txt
