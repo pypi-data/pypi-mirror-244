@@ -1,0 +1,12 @@
+worklogi/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+worklogi/__main__.py,sha256=vBQ82334kX06ImDbFlPFgiBRiLIinwNk3z8Khs6hd74,31
+worklogi/add_entry.py,sha256=Ps1ZAc6RRUwlQ6tgOo_Vh3tzXo9Lz3fxUr1FowOtt8c,483
+worklogi/browse_entries.py,sha256=4awdSZOiuaml4VFfjGRkJUJLu0AElvEjOOXo7b_Izms,600
+worklogi/database.py,sha256=WWljH_L8XJIxmbKL_geYKPoHQZgld2H-39dojcjZUnI,929
+worklogi/entry.py,sha256=jhL-wDaW1kej1NCnzB0NHf2aEHCobcaBe34RGJlE40M,552
+worklogi/main.py,sha256=uuNxZuIok04IYpYwAp6PRE5zXPqzDLd_xxdJm9EDA1c,566
+worklogi-0.1.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+worklogi-0.1.1.dist-info/METADATA,sha256=gEDqQ0OQ9nxGWwROM9ln00hcCyn3noaHqHa7qh28lWY,996
+worklogi-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+worklogi-0.1.1.dist-info/entry_points.txt,sha256=4Vvfs7ScqnQuWlJSWCOBPnWITX_LEe-Sb0YVX80r9j8,47
+worklogi-0.1.1.dist-info/RECORD,,
