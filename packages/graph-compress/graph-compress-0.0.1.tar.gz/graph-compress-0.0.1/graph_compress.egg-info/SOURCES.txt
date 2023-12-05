@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+graph_compress.egg-info/PKG-INFO
+graph_compress.egg-info/SOURCES.txt
+graph_compress.egg-info/dependency_links.txt
+graph_compress.egg-info/top_level.txt
+graphcompress/__init__.py
+graphcompress/builders.py
+graphcompress/make_subsets.py
+graphcompress/maxEdgeSize.py
+graphcompress/parsers.py
+graphcompress/readers.py
+tests/test_all.py
