@@ -1,0 +1,76 @@
+## This library has been created to automatize and help users to segment using ASTEC software.
+It will include tools to:
+* enhance the data (contour computation, etc ...)
+* manage the data (download and upload to distant storage, automatic compression, reduce size)
+* segment the data (examples , etc ...)
+* plot properties of the embryo data
+
+
+# Table of contents
+1. [Installation](#install)
+2. [Update](#update)
+3. [Fusion](#fusion)
+4. [Fusion parameters tuning](#fusion-parameters-test)
+5. [Fusion final run](#fusion-final-run)
+
+## Install
+
+you need to install conda on your computer
+you can find a guide to install conda [here](/https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) 
+
+Now that conda is installed,  open a new terminal, and type the following lines : 
+
+`conda create -n AstecManager -c ome python=3.6 zeroc-ice36-python omero-py` \
+`conda activate AstecManager` \
+`python3.6 -m pip install AstecManager` \
+`python3.6 -m pip install matplotlib`\
+`python3.6 -m pip install h5py`\
+`python3.6 -m pip install opencv-contrib-python`
+`python3.6 -m pip install dataclasses`
+
+AstecManager tool is now installed, with all the needed libraries.
+
+## Update
+
+Often, the tool will be updated to add features, and debug the existing ones. 
+
+* To update the tool, you can simply start a terminal in the astecmanager folder and run :
+
+`conda activate AstecManager` \
+`python3.6 -m pip install AstecManager --upgrade` \
+
+## Fusion
+
+
+The most crucial part of this process is combining the images, and it needs to be done quickly. You should begin this step right after copying the large Raw Images, and try to finish it as soon as you can.
+
+These Raw Images are very large, roughly 3 gigabytes each. This means that if you're working with one time point, it will use up about 12 gigabytes of computer memory. Think about it this way: if you're dealing with an embryo at 300 different time points and you have multiple channels of images, your Raw Images folder could take up as much as 2 to 3 terabytes of space on your computer's hard drive.
+
+Additionally, the Raw Images often have a significant amount of background information, which takes up a lot of memory. This background includes unnecessary data.
+
+The fusion step is designed to address the problems we've just talked about:
+
+- It keeps the most valuable information from each camera angle to create an isotropic image. An isotropic image means that it has the same characteristics, like intensity, across all regions.
+
+- It reduces the memory needed for a single time point from around 12 gigabytes to a more manageable 500 megabytes.
+
+- It also trims the image around the embryo, cutting out the excessive background and keeping only the essential information.
+
+For more details about this step , please follow [this link](https://astec.gitlabpages.inria.fr/astec/astec_fusion.html#fusion-method-overview)
+
+I would advise to split fusion in 2 steps 
+* A test step where you will find the best parameters for this specific dataset.
+* A production step where you will apply the best parameters to the complete dataset.
+
+* Your folder hierarchy should look like this, before starting the fusion
+
+``` 
+     embryo name
+         └───RAWDATA
+             │───stack_0_channel_0_obj_left
+             │───stack_0_channel_0_obj_right
+             │───stack_1_channel_0_obj_left
+             │───stack_1_channel_0_obj_right
+             └───... (more if you have another channel)
+             
+```
