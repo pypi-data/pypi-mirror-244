@@ -1,0 +1,6 @@
+openai>=1.0.0
+libbs
+tiktoken
+
+[ghidra]
+libbs[ghidra]
