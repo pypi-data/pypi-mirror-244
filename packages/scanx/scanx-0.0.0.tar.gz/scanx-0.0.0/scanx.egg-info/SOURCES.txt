@@ -1,0 +1,8 @@
+README.md
+setup.py
+scanx/__init__.py
+scanx.egg-info/PKG-INFO
+scanx.egg-info/SOURCES.txt
+scanx.egg-info/dependency_links.txt
+scanx.egg-info/not-zip-safe
+scanx.egg-info/top_level.txt
