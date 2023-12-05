@@ -1,0 +1,14 @@
+classversioning/__init__.py,sha256=He6EFSTR9Axw7WeFyrjaHRXNzTFXXNs_WYQAgwCnjC8,1111
+classversioning/header.py,sha256=hTxAFNllIMzqn1mNNKAtcjK2mRkD_ZFOVLssqpJTfdw,479
+classversioning/meta/__init__.py,sha256=FF-H1fatb4Czs7l5w5jBMyKc0cj6g1C3ZvfslP5K_lE,398
+classversioning/meta/cachingversionedinitmeta.py,sha256=6H3Ta6DACFtBHlMD2Y1vkbRu5-Pr2xvICchithKL5_8,595
+classversioning/meta/versionedinitmeta.py,sha256=HUmxC59rH7JcqPNbJqBs37aLmt-gdxLqMrbOJzfOYUg,552
+classversioning/meta/versionedmeta.py,sha256=x5pSAxF96Z5DjzymqPelPqC8xbxXhc0BiTiUbMy9oKM,7422
+classversioning/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classversioning/versionedclass.py,sha256=F_udEnuZ1P52cLIUCWDI7miGIgfIOFZp8jt5kNWzGig,4594
+classversioning/versionregistry.py,sha256=7eobaROlwTNkxMkFITQYSeE3yS892qZXY7fFQKv3gow,4649
+classversioning-0.7.0.dist-info/LICENSE.rst,sha256=WNS5lU35RgkS6WBvroY3OraIvMXKuAnZUv1oPmNGftc,1084
+classversioning-0.7.0.dist-info/METADATA,sha256=_nQS8Y3AE2f_x5V8YTxic1keWZML7mDcU6hH_pwwLp8,3740
+classversioning-0.7.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+classversioning-0.7.0.dist-info/entry_points.txt,sha256=cDESWF9106fGdiD3KxQ1rR60KZNi3Tr6esiVYYJDqMk,65
+classversioning-0.7.0.dist-info/RECORD,,
