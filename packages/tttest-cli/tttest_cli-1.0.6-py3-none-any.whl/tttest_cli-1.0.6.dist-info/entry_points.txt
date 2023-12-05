@@ -1,0 +1,5 @@
+[console_scripts]
+tttest.mock = tttest.main:mock
+tttest.run = tttest.main:run
+tttest.serve = tttest.main:serve
+
