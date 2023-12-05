@@ -1,0 +1,18 @@
+[project]
+name = "ffxivcalc"
+version = "0.8.60"
+authors = [
+  { name="Anthony Desrochers", email="anthony.desrochers17@gmail.com" },
+]
+description = "DPS Simulator for Final Fantasy XIV"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Website = "https://ffxivdpscalc.azurewebsites.net/simulate/"
+GitHubrepository = "https://github.com/IAmPythagoras/FFXIV-Combat-Simulator"
+Issues = "https://github.com/IAmPythagoras/FFXIV-Combat-Simulator/issues"
