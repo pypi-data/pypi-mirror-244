@@ -1,0 +1,14 @@
+drug_suggestor/__init__.py,sha256=U7kj8UL2PL2i0f-MuyGkiPchWwPclsslemr-imc5vi8,216
+drug_suggestor/__version__.py,sha256=AyPfNb7fM8mOMxvEg1gJ8sQggKMU-w224KBkcbjAwuE,18
+drug_suggestor/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drug_suggestor/v1/__init__.py,sha256=-5abGRIOA3CzSUpwnKkED_5ye_FqSGw4NVAI-ifx8bI,181
+drug_suggestor/v1/main.py,sha256=eG00zLGVmUSq7iGcV3Aygp6fex4J5hZqCnPYMe4kPpY,1433
+drug_suggestor/v1/models/__init__.py,sha256=HbfE0yqiLcnaqFzhugsrOwQVZi9Y5Qx6IuY5svski0E,169
+drug_suggestor/v1/models/disease.py,sha256=5uxhUJl_Lw8c6WousYCs1oL-HdBAmD74xiKMpE2daok,221
+drug_suggestor/v1/models/drug.py,sha256=Kzg61OH-yG8dempin2az122AlZ4FmDyxdEQ_xt93ELI,727
+drug_suggestor/v1/models/patient.py,sha256=nrLWOLUNnLxGgL85nvW1r-uBPgPd2rB4ENM05mpxfOw,307
+drug_suggestor/v1/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drug_suggestor-0.0.0.dist-info/LICENSE.md,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+drug_suggestor-0.0.0.dist-info/METADATA,sha256=u5Iygg_IWhNkBv6QHuRamrLKcQAGMAe8hUgn0e1CNhA,445
+drug_suggestor-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+drug_suggestor-0.0.0.dist-info/RECORD,,
