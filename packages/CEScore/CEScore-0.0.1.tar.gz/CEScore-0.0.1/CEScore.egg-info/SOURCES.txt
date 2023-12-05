@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+CEScore/CEScore.py
+CEScore/Functions.py
+CEScore/SUBTLEX_US_frequency_list.csv
+CEScore/__init__.py
+CEScore/__main__.py
+CEScore/concrete_words.tsv
+CEScore.egg-info/PKG-INFO
+CEScore.egg-info/SOURCES.txt
+CEScore.egg-info/dependency_links.txt
+CEScore.egg-info/entry_points.txt
+CEScore.egg-info/requires.txt
+CEScore.egg-info/top_level.txt
