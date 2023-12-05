@@ -1,0 +1,7 @@
+README.md
+setup.py
+dspin.egg-info/PKG-INFO
+dspin.egg-info/SOURCES.txt
+dspin.egg-info/dependency_links.txt
+dspin.egg-info/requires.txt
+dspin.egg-info/top_level.txt
