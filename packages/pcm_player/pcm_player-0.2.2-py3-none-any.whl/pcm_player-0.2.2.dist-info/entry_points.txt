@@ -1,0 +1,3 @@
+[console_scripts]
+pcm_player=pcm_player.__main__:cli
+
