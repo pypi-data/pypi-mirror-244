@@ -1,0 +1,11 @@
+pyusb~=1.2.1
+
+[test]
+pytest
+pytest-cov
+pytest-profiling
+pytest-mypy
+pytest-black
+pytest-sugar
+pytest-picked
+pytest-mock
