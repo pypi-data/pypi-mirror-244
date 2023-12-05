@@ -1,0 +1,28 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: lappis
+      MONGO_INITDB_ROOT_PASSWORD: lappis
+    ports:
+      - "27017:27017"
+    networks:
+      - mynetwork
+
+  myapp:
+    image: python:3.9
+    volumes:
+      - ./src:/src
+    working_dir: /src
+    command: sh -c "pip3 install --no-cache-dir -r requirements.txt && python3 main.py"
+    ports:
+      - "3004:3004"
+    networks:
+      - mynetwork
+    depends_on:
+      - mongo
+
+networks:
+  mynetwork:
+    driver: bridge
