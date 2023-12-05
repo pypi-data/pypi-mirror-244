@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robocraft
+Version: 0.0.1
+Summary: Code ComputerCraft with Python! Module fixed by Artem.
+Author-email: Neumond <author@example.com>, Artem Robocodovich <garo109696@gmail.com>
+Project-URL: Homepage, https://github.com/neumond/python-computer-craft
+Project-URL: Issues, https://github.com/neumond/python-computer-craft
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
