@@ -1,0 +1,43 @@
+# UMLify Python
+
+UMLify Python is a library that allows generating UML (Unified Modeling Language) diagrams in plantUML format from Python code. This tool is particularly useful for visualizing the structure and relationships in Python projects, aiding in understanding and documenting complex systems.
+
+## Features
+
+Currently, UMLify supports the generation of class diagrams, with plans to expand to other types of UML diagrams. Initially, it was developed with a focus on Django projects, but it is evolving to support a broader range of Python code structures and frameworks.
+
+## Installation
+
+To install UMLify, use the following command:
+
+```bash
+pip install umlify
+```
+
+## Usage
+
+To generate a UML diagram, follow the steps below:
+
+1. Import the `generate_class_diagram` function from the UMLify module.
+
+    ```python
+    from umlify.class_diagram import generate_class_diagram
+    ```
+
+2. Define the path to your Python project and the names of the packages you wish to analyze.
+
+    ```python
+    app_path = '/path/to/your/project'
+    package_names = ["views", "services", "repositories"]  # Example packages
+    ```
+
+3. Call the `generate_class_diagram` function with the project path, package names, and the output file path.
+
+    ```python
+    output_file = '/path/to/diagram.puml'
+    generate_class_diagram(app_path, package_names, output_file)
+    ```
+
+## License
+
+UMLify is licensed under the [MIT License](LICENSE).

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_generate_class_diagram.py
+umlfy/__init__.py
+umlfy/class_diagram.py
+umlify.egg-info/PKG-INFO
+umlify.egg-info/SOURCES.txt
+umlify.egg-info/dependency_links.txt
+umlify.egg-info/top_level.txt
