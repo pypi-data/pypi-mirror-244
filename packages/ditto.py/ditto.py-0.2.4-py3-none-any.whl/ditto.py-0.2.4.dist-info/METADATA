@@ -1,0 +1,241 @@
+Metadata-Version: 2.1
+Name: ditto.py
+Version: 0.2.4
+Summary: Distribution Feeder Conversion Tool
+Home-page: https://github.com/NREL/ditto
+Author: Tarek Elgindy
+Author-email: tarek.elgindy@nrel.gov
+License: BSD license
+Keywords: ditto
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click ~=8.0
+Requires-Dist: future ~=0.18
+Requires-Dist: networkx ~=2.5
+Requires-Dist: six ~=1.16
+Requires-Dist: traitlets ~=5.1
+Requires-Dist: json-tricks ~=3.16
+Requires-Dist: pandas ~=2.0
+Requires-Dist: numpy ~=1.20
+Provides-Extra: all
+Requires-Dist: lxml ~=4.9 ; extra == 'all'
+Requires-Dist: pandas ~=2.0 ; extra == 'all'
+Requires-Dist: scipy ~=1.7 ; extra == 'all'
+Requires-Dist: numpy ~=1.20 ; extra == 'all'
+Requires-Dist: XlsxWriter ~=3.0 ; extra == 'all'
+Requires-Dist: OpenDSSDirect.py ~=0.7 ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: xlrd ~=2.0 ; extra == 'all'
+Requires-Dist: croniter ~=1.3 ; extra == 'all'
+Requires-Dist: pandas-access ~=0.0 ; extra == 'all'
+Requires-Dist: bokeh ; extra == 'all'
+Requires-Dist: xmltodict ; extra == 'all'
+Provides-Extra: cyme
+Requires-Dist: numpy ~=1.20 ; extra == 'cyme'
+Provides-Extra: dev
+Requires-Dist: backports.tempfile ~=1.0 ; extra == 'dev'
+Requires-Dist: pytest ~=7.4 ; extra == 'dev'
+Requires-Dist: pytest-cov ~=4.0 ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ~=1.1 ; extra == 'dev'
+Requires-Dist: nbsphinx ~=0.8 ; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon ~=0.7 ; extra == 'dev'
+Requires-Dist: ghp-import ~=2.1 ; extra == 'dev'
+Requires-Dist: pypandoc ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: dew
+Requires-Dist: numpy ~=1.20 ; extra == 'dew'
+Requires-Dist: xlrd ~=2.0 ; extra == 'dew'
+Provides-Extra: ephasor
+Requires-Dist: numpy ~=1.20 ; extra == 'ephasor'
+Requires-Dist: pandas ; extra == 'ephasor'
+Provides-Extra: extras
+Requires-Dist: lxml ~=4.9 ; extra == 'extras'
+Requires-Dist: pandas ~=2.0 ; extra == 'extras'
+Requires-Dist: scipy ~=1.7 ; extra == 'extras'
+Requires-Dist: numpy ~=1.20 ; extra == 'extras'
+Requires-Dist: XlsxWriter ~=3.0 ; extra == 'extras'
+Provides-Extra: gridlabd
+Requires-Dist: croniter ~=1.3 ; extra == 'gridlabd'
+Requires-Dist: numpy ~=1.20 ; extra == 'gridlabd'
+Provides-Extra: opendss
+Requires-Dist: OpenDSSDirect.py ~=0.7 ; extra == 'opendss'
+Requires-Dist: pandas ; extra == 'opendss'
+Requires-Dist: numpy ~=1.20 ; extra == 'opendss'
+Provides-Extra: synergi
+Requires-Dist: numpy ~=1.20 ; extra == 'synergi'
+Requires-Dist: pandas-access ~=0.0 ; extra == 'synergi'
+Provides-Extra: test
+Requires-Dist: backports.tempfile ~=1.0 ; extra == 'test'
+Requires-Dist: pytest ~=7.4 ; extra == 'test'
+Requires-Dist: pytest-cov ~=4.0 ; extra == 'test'
+Requires-Dist: sphinx-rtd-theme ~=1.1 ; extra == 'test'
+Requires-Dist: nbsphinx ~=0.8 ; extra == 'test'
+Requires-Dist: sphinxcontrib-napoleon ~=0.7 ; extra == 'test'
+Requires-Dist: ghp-import ~=2.1 ; extra == 'test'
+Provides-Extra: windmil
+Requires-Dist: bokeh ; extra == 'windmil'
+Requires-Dist: xmltodict ; extra == 'windmil'
+
+DiTTo
+=====
+
+|image1| |image2| |image3| |codecov|
+
+DiTTo is the *Distribution Transformation Tool*. It is an open source
+tool to convert and modify electrical distribution system models. The
+most common domain of electrical distribution systems is from
+substations to customers.
+
+How it Works
+------------
+
+Flexible representations for power system components are defined in the
+ditto models defined
+`here <https://github.com/NREL/ditto/tree/master/ditto/models>`__ DiTTo
+implements a *many-to-one-to-many* parsing framework which makes it
+modular and robust. The `reader
+modules <https://github.com/NREL/ditto/tree/master/ditto/readers>`__
+parse data files of distribution system format (e.g. OpenDSS) and create
+an object for each electrical component. These objects are stored in a
+`Store <https://github.com/NREL/ditto/blob/master/ditto/store.py>`__
+instance. The `writer
+modules <https://github.com/NREL/ditto/tree/master/ditto/writers>`__ are
+then used to export the data stored in memory to a selected output
+distribution system format (e.g. Gridlab-D) which are written to disk.
+
+Additional functionality can be found in the documentation
+`here <https://nrel.github.io/ditto>`__.
+
+Quick Start
+-----------
+
+Install DiTTo
+~~~~~~~~~~~~~
+
+.. code:: bash
+
+   pip install ditto.py
+
+This will install the basic version of ditto with limited dependencies.
+Because ditto supports conversion between many multiple formats,
+dependencies can be specified during installation For example:
+
+.. code:: bash
+
+   pip install "ditto.py[extras,opendss,gridlabd]"
+
+will install the required dependencies to convert between opendss and
+gridlab-d
+
+To install the full dependency list run:
+
+.. code:: bash
+
+   pip install "ditto.py[all]"
+
+which is the same as
+
+.. code:: bash
+
+   pip install "ditto.py[extras,opendss,cyme,dew,ephasor,synergi,gridlabd]" # same as `pip install "ditto.py[all]"`
+
+Basic Usage
+~~~~~~~~~~~
+
+The most basic capability of DiTTo is the conversion of a distribution
+system from one format to another. To convert a cyme model represented
+in ASCII format with network.txt, equipment.txt and load.txt files, the
+following python script can be run to perform the conversion
+
+.. code:: python
+
+   from ditto.store import Store
+   from ditto.readers.cyme.read import Reader
+   from ditto.writers.opendss.write import Writer
+
+   store = Store()
+   reader = Reader(data_folder_path = '.', network_file='network.txt',equipment_file = 'equipment.txt', load_file = 'load.txt')
+   reader.parse(store)
+   writer = Writer(output_path='.')
+   writer.write(store)
+
+The required input files for each reader format are defined in the
+folder of each reader
+
+Command Line Interface
+~~~~~~~~~~~~~~~~~~~~~~
+
+Ditto can also be run as a command line tool to perform basic
+conversion. The CLI accepts only one input file whatever the format. If
+we have a gridlabd model entirely stored in a file called model.glm we
+can use:
+
+.. code:: bash
+
+   $ ditto-cli convert --from glm --input ./model.glm --to cyme
+
+For formats like CYME where multiple input files are needed, a simple
+JSON configuration file is supplied:
+
+.. code:: json
+
+   {
+       "data_folder_path": ".",
+       "network_filename": "network.txt",
+       "equipment_filename": "equipment.txt",
+       "load_filename": "load.txt"
+   }
+
+A default configuration file is found each reader folder. So to convert
+the cyme files described in the python program above, the following
+command would be used:
+
+.. code:: bash
+
+   $ ditto-cli convert --from cyme --input ./config.json --to dss
+
+Documentation on converting other formats can be found
+`here <https://nrel.github.io/ditto/cli-examples>`__.
+
+Contributing
+------------
+
+DiTTo is an open source project and contributions are welcome! Either
+for a simple typo, a bugfix, or a new parser you want to integrate, feel
+free to contribute.
+
+To contribute to Ditto in 3 steps: - Fork the repository (button in the
+upper right corner of the DiTTo GitHub page). - Create a feature branch
+on your local fork and implement your modifications there. - Once your
+work is ready to be shared, submit a Pull Request on the DiTTo GitHub
+page. See the official GitHub documentation on how to do that
+`here <https://help.github.com/articles/creating-a-pull-request-from-a-fork/>`__
+
+Getting Help
+------------
+
+If you are having issues using DiTTo, feel free to open an Issue on
+GitHub `here <https://github.com/NREL/ditto/issues/new>`__
+
+All contributions are welcome. For questions about collaboration please
+email `Tarek Elgindy <mailto:tarek.elgindy@nrel.gov>`__
+
+.. |image1| image:: https://travis-ci.org/NREL/ditto.svg?branch=master
+   :target: https://travis-ci.org/NREL/ditto
+.. |image2| image:: https://badges.gitter.im/NREL/ditto.png
+   :target: https://gitter.im/NREL/ditto
+.. |image3| image:: https://img.shields.io/badge/docs-ready-blue.svg
+   :target: https://nrel.github.io/ditto
+.. |codecov| image:: https://codecov.io/gh/NREL/ditto/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/NREL/ditto
+
+
