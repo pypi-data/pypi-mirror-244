@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+px_services/__init__.py
+px_services/wallet.py
+px_services.egg-info/PKG-INFO
+px_services.egg-info/SOURCES.txt
+px_services.egg-info/dependency_links.txt
+px_services.egg-info/requires.txt
+px_services.egg-info/top_level.txt
