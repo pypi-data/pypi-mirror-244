@@ -1,0 +1,4 @@
+prune .github
+prune data
+prune docs
+prune disdrodb/tests
