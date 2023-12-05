@@ -1,0 +1,26 @@
+pathvalidate
+xsdata==21.7.*
+
+[:python_version < "3.8"]
+typing-extensions
+
+[dev]
+setuptools
+build[virtualenv]
+python-semantic-release~=8.0
+twine
+xsdata[cli]
+
+[docs]
+Sphinx
+sphinx-autodoc-typehints!=1.14.0
+
+[lxml]
+xsdata[lxml]==21.7.*
+
+[test]
+pytest~=7.4
+pytest-cov
+pytest-doctestplus
+xmljson
+xsdata[lxml]==21.7.*

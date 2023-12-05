@@ -1,0 +1,15 @@
+{#
+    projectlinks.html
+    ~~~~~~~~~~~~~~~~~
+
+    Sphinx sidebar template: show links to project
+#}
+<div role="note" aria-label="project links">
+<h3>{{ _('External Links') }}</h3>
+<ul class="external-links-menu">
+  <li><a href="{{ project_url }}">Momotor project</a></li>
+  <li><a href="{{ pypi_url }}">PyPI</a></li>
+  <li><a href="{{ repository_url }}">Source</a></li>
+  <li><a href="{{ repository_url }}issues/">Issues</a></li>
+</ul>
+</div>
