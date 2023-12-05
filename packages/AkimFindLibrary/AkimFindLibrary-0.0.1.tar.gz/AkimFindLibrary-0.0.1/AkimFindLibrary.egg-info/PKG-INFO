@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AkimFindLibrary
+Version: 0.0.1
+Summary: This is the simplest module for EGE Number 24.
+Home-page: https://github.com/Akello1
+Author: Akim_b
+Author-email: akim.petbu@gmail.com
+Project-URL: GitHub, https://github.com/Akello1
+Keywords: file
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+twine upload --repository pypi dist/*  -Р­С‚Рѕ РјРЅРµ РЅСѓР¶РЅРѕ РЅР°РїРёСЃР°С‚СЊ
+# Akim File Library #
+
+## РљР°Рє РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ? ##
+
+```FindLongest_char(file, char)``` - РќР°Р№РґРµС‚ СЃР°РјСѓСЋ РґР»РёРЅРЅСѓСЋ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РґР°РЅРЅРѕРіРѕ СЃРёРјРІРѕР»Р°.
+ 
+РћСЃС‚Р°Р»СЊРЅРѕРµ РјРЅРµ РїРѕРєР° С‡С‚Рѕ РїСЂРѕРїРёСЃС‹РІР°С‚СЊ Р»РµРЅСЊ. РЈРґР°С‡Рё!
