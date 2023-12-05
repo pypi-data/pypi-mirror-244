@@ -1,0 +1,20 @@
+version: "3"
+module:
+  code: Test
+  presentation: "1"
+sources:
+  apt:
+    - name: nodesource
+      key_url: https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+      deb:
+        url: https://deb.nodesource.com/node_18.x
+        distribution: bullseye
+        component: main
+packages:
+  pip:
+    system:
+      - jupyterlab>=4
+      - name: test-requirements.txt
+        type: requirements.txt
+    user:
+      - ipykernel
