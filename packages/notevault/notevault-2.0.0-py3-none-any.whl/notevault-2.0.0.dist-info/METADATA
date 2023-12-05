@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: notevault
+Version: 2.0.0
+Summary: save parsed markdown into sqlite db
+Author-Email: sysid <sysid@gmx.de>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: sqlite-utils>=3.35.1
+Requires-Dist: markdown>=3.5.1
+Requires-Dist: bs4>=0.0.1
+Requires-Dist: pydantic>=2.4.2
+Requires-Dist: dateparser>=1.1.8
+Requires-Dist: sqlalchemy>=2.0.23
+Requires-Dist: alembic>=1.12.1
+Requires-Dist: typer>=0.9.0
+Requires-Dist: pydantic-settings>=2.0.3
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: parsy>=2.1
+Description-Content-Type: text/markdown
+
+# NoteVault
+
+Define a schema over markdown documents and store certain sections as columsn in sqlite database.
+
+Every list item must have a `name` as unique key. For non-list items the key is the heading.
+
+Every `save` creates new version of the documents's child items, no update/overwrite, i.e. `created == updated`.
+Reason: PK is auto-incremented, so it's not possible to update existing items.
+Existing items are just de-connected, i.e. foreign keys are set to `null`.
+This also implies that deletion of detached items make sense.
+
+Data will be extracted either as:
+## 1. Key-Value pairs
+```yaml
+Model:
+  KV_List:
+    name:
+      type: string
+    start:
+      type: time
+      nullable: true
+    duration:
+      type: int
+      nullable: false
+    breaks:
+      type: timedelta
+      nullable: true
+    data:
+      type: string
+      nullable: true
+```
+This works for lists and headings. The heading would be the key and the following paragraph the value.
+
+Lists can be narrow or wide:
+
+Narrow list (often used with headings as lists):
+- start: 07:30
+- duration: 2:30
+- participants: @user1, @user2
+
+Wide list:
+- name: item2, start: 17:30, duration: 2, breaks:, data: "adsfadfasdf, asdfasdf"
+- name: item1, start: 07:30, duration: 1, breaks: 0:30
+
+## 2. Lists:
+```yaml
+Model:
+  List:
+    - field:
+        name: item
+        type: string
+        nullable: false
+    - field:
+        name: time
+        type: time
+        nullable: true
+    - field:
+        name: break
+        type: timedelta
+        nullable: true
+    - field:
+        name: detail
+        type: string
+        nullable: true
+```
+List:
+- item2, 17:30,, "adsfadfasdf, asdfasdf"
+- item1, 07:30, 0:30
+
+## Format
+- Sections are defined by headings.
+- key-value pairs are extracted into fields, e.g. `key: value`
+- Fields (extraction units) correspond to "Tags", e.g. `li, h2` because it can contain other tags and newlines.
+- field values with commas must be quoted: `participants: '@user1, @user2'`
+
+### Single Item:
+- spec: `is_list: false`
+- markdown lists as fields: `- key: value`
+
+### Multiple Items:
+#### markdown lists
+- spec: `is_list: true` + `list_specifier: kv_list`
+- substructure: format: `- key: value, key: value, key: "complex, value"`
+- 
+#### sub-headings
+- spec: `is_list: true` + `heading_field: name` + `list_specifier: heading` (must specify the field which will hold the sub-heading in the schema)
+- substructure: format: `## Title x`
+can contain:
+- markdown lists as fields: `- key: value`
+- sub-headings as simple content fields
+
