@@ -1,0 +1,8 @@
+python-dotenv
+pyyaml
+fire
+import-a
+
+[openai]
+openai
+langchain
