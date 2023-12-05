@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vessels
+Version: 0.0.3
+Summary: flask, HAProxy, etc. tools
+Description-Content-Type: text/plain
+
+
+
+
+vessels
+
+
+	similar:
+		https://pypi.org/project/uvicorn/
