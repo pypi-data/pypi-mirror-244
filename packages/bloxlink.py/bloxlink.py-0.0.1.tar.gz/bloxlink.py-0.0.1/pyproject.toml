@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloxlink.py"
+version = "0.0.1"
+dependencies = [
+  "requests"
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Redacted_Nac", email = "nacinkc08@gmail.com"},
+]

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bloxlink.py
+Version: 0.0.1
+Author-email: Redacted_Nac <nacinkc08@gmail.com>
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: requests
