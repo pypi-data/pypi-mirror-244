@@ -1,0 +1,15 @@
+numpy>=1.26
+pandas>=2.0
+tqdm>=4.66
+scipy>=1.11
+pystoned>=0.6.6
+requests>=2.31
+urllib3==1.26.6
+pandas-stubs>=2.1.1
+
+[test]
+flake8>=6.1.0
+tox>=4.11.0
+pytest>=7.4.0
+pytest-cov>=4.0.0
+mypy>=1.7.0
