@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: drivepathsolver
+Version: 0.1.2
+Summary: Use QP solver to optimize paths for robots
+Home-page: https://github.com/kc94github/physical_optimization/tree/dev/python38
+Author: Kailiang Chen
+Author-email: kailiangchen94@gmail.com
+License: UNKNOWN
+Keywords: robotics,path,optimization,qp
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: qpsolvers ==4.0.0
+Requires-Dist: numpy ==1.24.4
+
+# DrivePathSolver
+
+## Description
+
+This package uses QP solver to implement path planning related optimization in robotic area, mostly related with smoothing, post-processing and constraints-applying of primitive paths.
+
+## Installation
+
+This package only requires minimalistic dependencies
+
+```bash
+pip install numpy==1.24.4
+pip install qpsolvers==4.0.0
+```
+
+Or one can directly install with requirement list
+
+```bash
+pip install -m requirements.txt
+```
+
