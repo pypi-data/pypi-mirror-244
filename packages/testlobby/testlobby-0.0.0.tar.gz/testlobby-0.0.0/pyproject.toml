@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling", "fortnitepy", "pytz", "aioconsole"]
+build-backend = "hatchling.build"
+[project]
+name = "testlobby"
+version = "0.0.0"
+authors = [
+  { name="2235", email="support@lobbybots.xyz" },
+]
+description = "V2 Fortnite Lobby Bot"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://package.lobbybots.xyz"
+"Discord" = "https://discord.gg/73t72uNYFp"
+"Tutorial" = "https://youtu.be/HoPHUgkQNYY"
