@@ -1,0 +1,8 @@
+gptsql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptsql/__main__.py,sha256=yCIqwBA-kRe968NaLhcto0yvAqUonhwoi2UHhL53sVw,14425
+gptsql/func_tools.py,sha256=S7BmZUlwTBnzwvJKByzFo1oH_lB0FZlZhkdpVUX63_s,1706
+gptsql/utils.py,sha256=b6MWanNRQF-khpmmoKuYif14Zq68gkaUt5QwIgHnZg0,3601
+gptsql-0.1.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gptsql-0.1.5.dist-info/entry_points.txt,sha256=ovNWnZ0dhimWw9G_yNV40FeJWtCkPzfGP9PmeP3c5Dc,47
+gptsql-0.1.5.dist-info/METADATA,sha256=aX163gVxdafUzFw00iN9ULmSFmbMBNqIIP4JyH3-c2Q,10351
+gptsql-0.1.5.dist-info/RECORD,,
