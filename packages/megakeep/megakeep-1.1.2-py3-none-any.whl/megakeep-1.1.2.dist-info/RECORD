@@ -1,0 +1,7 @@
+megakeep/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megakeep/megakeep.py,sha256=MdNGduwq9SRjNZ1F5jcpXiquaSTroQLLIOOXw4SqF84,1851
+megakeep/parser.py,sha256=7jW0hHemUeqDdCLf1P1FTkajnJd3ZGMu06_tI9htfcs,1139
+megakeep/user.py,sha256=ky384AIdDDgsvWPghvCmZ9GCPMsVjtn4AqRMT0gzx94,92
+megakeep-1.1.2.dist-info/METADATA,sha256=cMwxf1F9OQgIHOyN4SoZH9ks0JjQCEhm9IIRfF1raSU,1833
+megakeep-1.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+megakeep-1.1.2.dist-info/RECORD,,
