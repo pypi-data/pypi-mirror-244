@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: slippage_tabulator
+Version: 0.1.0
+Summary: Get the slippage from the uniswap universal router before execution.
+Home-page: https://github.com/davidthegardens/slippage_tabulator.git
+Author: David Desjardins
+Author-email: david@shield3.com

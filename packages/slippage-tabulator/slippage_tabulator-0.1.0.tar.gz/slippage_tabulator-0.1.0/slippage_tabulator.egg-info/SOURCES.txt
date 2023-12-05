@@ -1,0 +1,5 @@
+setup.py
+slippage_tabulator.egg-info/PKG-INFO
+slippage_tabulator.egg-info/SOURCES.txt
+slippage_tabulator.egg-info/dependency_links.txt
+slippage_tabulator.egg-info/top_level.txt
