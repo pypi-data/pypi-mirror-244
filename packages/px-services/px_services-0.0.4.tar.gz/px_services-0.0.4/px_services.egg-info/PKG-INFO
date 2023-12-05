@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: px-services
+Version: 0.0.4
+Summary: A blockchain Wallet Service APIs
+Home-page: 
+Author: Prince Foli
+Author-email: princefoli@qodehub.com
+License: MIT
+Keywords: Blockchain,Wallet,HDWallet,BlockCypher
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+License-File: LICENSE.txt
+
+This library is a service that help can create Wallet Seed or keys, create Blockcypher HD allet and also hold internal wallet reference to it. 
+
+
+Change Log
+==========
+
+0.0.4 (04/12/2023) 
+------------------  
+- Fixed blockcypher dependency name mistake
