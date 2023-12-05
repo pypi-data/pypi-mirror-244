@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nlp-chains"
+version = "0.1.0"
+description = "基于langchain构建的一些实用工具"
+authors = ["wangmengdi <wangmengdi@smart-insight.com.cn>"]
+readme = "README.md"
+packages = [{include = "nlp_chains"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.0.336"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
