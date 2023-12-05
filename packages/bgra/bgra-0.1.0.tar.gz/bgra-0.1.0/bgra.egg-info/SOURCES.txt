@@ -1,0 +1,7 @@
+bgra.c
+setup.cfg
+setup.py
+bgra.egg-info/PKG-INFO
+bgra.egg-info/SOURCES.txt
+bgra.egg-info/dependency_links.txt
+bgra.egg-info/top_level.txt
