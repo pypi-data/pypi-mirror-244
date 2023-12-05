@@ -1,0 +1,9 @@
+django_templater/__dt_main__.py,sha256=tTrNiThiMakbTlGHa_zA9wCAjgvUiREPyAxoP1ZfnKc,5706
+django_templater/__dtt_main__.py,sha256=mY1ZHyYma4k5GGOIbBrImu-gEJnXkKE4ONYSDVcPhUs,2109
+django_templater/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_templater/shared.py,sha256=v7UYx1TNd3vkhMTcjaxkrUVs9k9krb0Tx_0T6pBAkbA,5227
+django_templater-0.2.0.dist-info/LICENSE,sha256=_EqBueCIf9_ep3YIjWrRbffXZSmNAhWoKds2a9GSsaA,1096
+django_templater-0.2.0.dist-info/METADATA,sha256=pHo6e9XsZ9USW28yzizQ2o_NGaKnxEs7qsPt4pzXBlI,7476
+django_templater-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_templater-0.2.0.dist-info/entry_points.txt,sha256=oKyKJoL5ajKWzlXr0_xsGXumrUO18Ndmceaz4k5ytlo,96
+django_templater-0.2.0.dist-info/RECORD,,
