@@ -1,0 +1,6 @@
+setup.py
+waxfetcher.egg-info/PKG-INFO
+waxfetcher.egg-info/SOURCES.txt
+waxfetcher.egg-info/dependency_links.txt
+waxfetcher.egg-info/requires.txt
+waxfetcher.egg-info/top_level.txt
