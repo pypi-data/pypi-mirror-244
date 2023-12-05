@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: prospect-public
+Version: 23.0.1
+Summary: A profile likelihood code for frequentist cosmological parameter inference
+Author-email: Emil Brinch Holm <ebholm@phys.au.dk>, Thomas Tram <thomas.tram@phys.au.dk>
+Project-URL: Homepage, https://github.com/AarhusCosmology/prospect_public
+Project-URL: Bug Tracker, https://github.com/AarhusCosmology/prospect_public/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.10.0
+Description-Content-Type: text/markdown
+
+# prospect
+PROSPECT (working title): A profile likelihood code for efficient frequentist cosmological inference
+
+## How to install:
+
+` pip install . `
+
+If developing the code, remember to install in editor mode:
+
+` pip install -e . ` 
+
+This will propagate your changes to the source code without need for reinstalling. 
+
+
+## How to run:
+
+PROSPECT runs either from an input yaml file or from a folder made by a previous run of PROSPECT. It will detect on its own what type of input is given.
+
+Additionally, PROSPECT can be run either from the command line or interactively in Python.
+
+To run from the command line:
+
+` prospect input/debug.yaml `
+
+To run from inside a Python script:
+
+` from prospect.run import run; run(input) ` 
+
+where `input` is a string pointing to either the yaml input file or an output folder of a previous PROSPECT run.
