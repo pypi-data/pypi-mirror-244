@@ -1,0 +1,10 @@
+numpy
+matplotlib
+logzero
+attrs
+jacobi
+rx_scripts>=0.2.2
+rx_tools>=0.1.4
+cb_calculator>=0.1.0
+zfit>=0.14.0
+pandas
