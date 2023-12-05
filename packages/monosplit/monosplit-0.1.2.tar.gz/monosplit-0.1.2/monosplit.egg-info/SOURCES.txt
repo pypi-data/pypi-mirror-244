@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+monosplit/__init__.py
+monosplit/__main__.py
+monosplit/split.py
+monosplit.egg-info/PKG-INFO
+monosplit.egg-info/SOURCES.txt
+monosplit.egg-info/dependency_links.txt
+monosplit.egg-info/entry_points.txt
+monosplit.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pysplit.py
+tests/data/testsplitfile.py
