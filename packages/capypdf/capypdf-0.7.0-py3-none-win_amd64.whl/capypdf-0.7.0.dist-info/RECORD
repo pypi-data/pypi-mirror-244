@@ -1,0 +1,9 @@
+capypdf-0.7.0.dist-info/METADATA,sha256=nloSm2MRM1TGFPtv07T7eypCSvMuH6EDorhDNkf68iI,14861
+capypdf-0.7.0.dist-info/WHEEL,sha256=sPc5-ehI3Ng-s2tXPs2yEpWadxNWxEEdtcyBJjATYb0,82
+capypdf-0.7.0.dist-info/COPYING,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+.capypdf.mesonpy.libs/capypdf-0.dll,sha256=fJBlwzpED8j0gSdB-9eYjGnhE0zEMktKuZVnqbUGP10,2328576
+capypdf-0.7.0.data/scripts/linkicc.exe,sha256=jghpbZWc1MG67msCeXArT0VbtF-uc-Ncrwl2Hgzk6KY,301568
+capypdf-0.7.0.data/scripts/psicc.exe,sha256=mX6lE_cJLPZ5fG71BMCZa4vyUcLrOTF921B5N7S74eM,312320
+capypdf-0.7.0.data/scripts/transicc.exe,sha256=TB7mp2rArF22ESL2aez3tr1gV7Y6mSYfDOs57Zk2v3Y,341504
+capypdf-0.7.0.data/purelib/capypdf.py,sha256=qfMp1_BS0Z6WA73VnLJ5ueTfrklFDB9KDpMx7bzIAog,39905
+capypdf-0.7.0.dist-info/RECORD,,
