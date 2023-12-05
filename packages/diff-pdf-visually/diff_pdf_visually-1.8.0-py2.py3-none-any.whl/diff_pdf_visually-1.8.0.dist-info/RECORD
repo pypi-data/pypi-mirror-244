@@ -1,0 +1,11 @@
+diff_pdf_visually/__init__.py,sha256=eLvGRPKmv9Pxm06z1xmXzoue3D8uGdKCxn6Jm_tg134,283
+diff_pdf_visually/__main__.py,sha256=G0yzCvIGeqDLBh--QkHSi90leqhQ_cHCJdUr5IwAmRE,3132
+diff_pdf_visually/constants.py,sha256=pRtmgQurFBOIa-0wNWksRqafpbxi3l01u1GNCJamPJE,819
+diff_pdf_visually/diff.py,sha256=FVZG3rnWmmsmz3iAAQGWuHgUKmr5Oo278uoFyGytSXI,8129
+diff_pdf_visually/external_programs.py,sha256=gxyGIv8WOSAnuMrdCW8M9ATJX_i1IjIyjoDm17YgTf4,1867
+diff_pdf_visually/polyfill.py,sha256=BOEyRZA6cZoj7FMaCCGs0xlIGI_gTjmH9JzU0PD-qZQ,338
+diff_pdf_visually-1.8.0.dist-info/METADATA,sha256=F6tYQRXM2gNCBa9NB1M5zYEYa_vACyXoQo5YrhLjv8c,7512
+diff_pdf_visually-1.8.0.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+diff_pdf_visually-1.8.0.dist-info/licenses/LICENSE-APACHE,sha256=zUDo5Z3pVykHY4aJJn1rv2GxmJfvZc1Cf21-rmMKnuo,9750
+diff_pdf_visually-1.8.0.dist-info/licenses/LICENSE-MIT,sha256=53rvpPjT6Cj60G6uWH55Fwn0CYW-JEwufJHxP-03DvU,1067
+diff_pdf_visually-1.8.0.dist-info/RECORD,,
