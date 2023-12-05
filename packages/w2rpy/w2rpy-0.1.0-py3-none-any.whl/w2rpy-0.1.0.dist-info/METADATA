@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: w2rpy
+Version: 0.1.0
+Requires-Python: <=3.11
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: shapely
+Requires-Dist: geopandas
+Requires-Dist: rasterio
+Requires-Dist: pysheds
+Requires-Dist: scipy
+Requires-Dist: spyder
+Requires-Dist: spyder-kernels ==2.5
+Requires-Dist: jupyterlab
+Requires-Dist: ipywidgets
+Requires-Dist: notebook
+
