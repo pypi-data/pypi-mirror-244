@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pysmsl
+Version: 0.0.1
+Summary: *placeholder*
+Home-page: https://github.com/SMSL-Project/pysmsl
+Author: Yihao Liu
+Author-email: yihao.jhu@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+
+# pysmsl
