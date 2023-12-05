@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: leanvector
+Version: 0.1.0
+Summary: Python library for building serverless vector indexing and search solutions
+Home-page: https://github.com/torsstei/leanvector
+Author: Torsten Steinbach
+Author-email: torsten@steinbachnet.de
+License: Apache 2.0
+Keywords: Vector Store,Generative AI,Similarity Search,Semantic Search,Nearest Neighbor
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: faiss-cpu
+Requires-Dist: numpy
+
+# leanvector
+A library for building serverless vector indexing and search using FAISS
