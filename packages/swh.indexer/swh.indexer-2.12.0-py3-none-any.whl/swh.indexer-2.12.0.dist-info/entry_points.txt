@@ -1,0 +1,5 @@
+[swh.cli.subcommands]
+swh.indexer = swh.indexer.cli
+
+[swh.workers]
+swh.indexer = swh.indexer:register_tasks
