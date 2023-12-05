@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+polychromy/__init__.py
+polychromy/polychromy.py
+polychromy.egg-info/PKG-INFO
+polychromy.egg-info/SOURCES.txt
+polychromy.egg-info/dependency_links.txt
+polychromy.egg-info/requires.txt
+polychromy.egg-info/top_level.txt

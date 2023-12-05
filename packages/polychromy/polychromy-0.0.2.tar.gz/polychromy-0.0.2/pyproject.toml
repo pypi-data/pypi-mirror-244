@@ -1,0 +1,28 @@
+[project]
+name = "polychromy"
+version = "0.0.2"
+dependencies = ["textlinebreaker >= 0.1.0 "]
+requires-python = ">=3.9"
+authors = [
+    { name="scalvaruso", email="calvaruso.simone@gmail.com" },
+]
+description = "A module to print a strings in a given colour, with a given colour background"
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["color", "colour", "format", "Hex", "RGB", "sRGB", "text"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://pypi.org/project/polychromy"
+Repository = "https://github.com/scalvaruso/polychromy"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
