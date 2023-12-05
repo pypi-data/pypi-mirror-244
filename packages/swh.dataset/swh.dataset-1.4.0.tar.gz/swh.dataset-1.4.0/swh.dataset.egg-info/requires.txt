@@ -1,0 +1,32 @@
+boto3
+click
+tqdm
+plyvel
+swh.core[http]>=2
+swh.journal>=0.9
+swh.model>=4.3
+swh.storage
+
+[:python_version < "3.10"]
+types-requests<2.31.0.7
+
+[:python_version < "3.8"]
+pyorc<0.9
+
+[:python_version >= "3.10"]
+types-requests
+
+[:python_version >= "3.8"]
+pyorc
+
+[luigi]
+luigi
+
+[testing]
+pytest
+swh.core[testing]
+types-python-dateutil
+types-pyyaml
+
+[with_content]
+swh.objstorage
