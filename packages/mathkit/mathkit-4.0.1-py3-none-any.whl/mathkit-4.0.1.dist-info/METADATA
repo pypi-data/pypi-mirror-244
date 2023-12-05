@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: mathkit
+Version: 4.0.1
+Summary: Python library for mathematical functions
+Home-page: https://github.com/theunkownhacker/mathkit
+Author: TheUnkownHacker
+Author-email: theunkownhacker@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# MathKit - A Mathematical Library Made Simple
+
+**MathKit is a Python library that provides various mathematical functions and utilities for performing common mathematical calculations.**
+
+## New updated calculator usage for simpler functions
+
+```python
+from mathkit import main
+main()
+```
+
+## Example Usage If you decide to predefine numbers
+
+```python
+import mathkit
+
+# If you dont want to add mathkit. before all function you can import the specific function by
+
+# from mathkit import add
+# add(5,3)
+
+# You can do this with all the functions
+
+mathkit.add(5, 3)  # Output: Your answer is 8
+mathkit.cbrt(27)  # Output: The cube root of 27 is 3.0
+mathkit.div(10, 2)  # Output: Your answer is 5.0
+mathkit.fact(5)  # Output: The factorial of 5 is 120
+mathkit.hcf(24, 36)  # Output: The H.C.F. of 24 and 36 is 12
+mathkit.lcm(12, 18)  # Output: The LCM of 12 and 18 is 36
+mathkit.log(100)  # Output: Logarithm of 100 (base e) is 4.605...
+mathkit.mod(10, 3)  # Output: Your answer is 1
+mathkit.mul(4, 5)  # Output: Product = 20
+mathkit.per(50, 10)  # Output: 10 percent of 50 is 5
+mathkit.power(2, 3)  # Output: The answer is: 8
+mathkit.sqrt(25)  # Output: Square root of 25 is 5.0
+mathkit.sqr(4)  # Output: The square of 4 is 16
+mathkit.sub(8, 3)  # Output: Your answer is 5
+mathkit.compound_interest(amount,time,interest) # Output Based On predefines numbers
+mathkit.simple_interest(amount,time,interest)
+```
+ ## Please Note For the simple and compound interest to work you have to specify the order numbers exactly in the format given
+ ## For more information, please visit the GitHub repository.
