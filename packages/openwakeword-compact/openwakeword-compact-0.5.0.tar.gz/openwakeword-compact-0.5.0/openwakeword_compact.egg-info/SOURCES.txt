@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+openwakeword/__init__.py
+openwakeword/model.py
+openwakeword/utils.py
+openwakeword/vad.py
+openwakeword_compact.egg-info/PKG-INFO
+openwakeword_compact.egg-info/SOURCES.txt
+openwakeword_compact.egg-info/dependency_links.txt
+openwakeword_compact.egg-info/requires.txt
+openwakeword_compact.egg-info/top_level.txt
+tests/test_models.py

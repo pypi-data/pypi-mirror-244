@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: openwakeword-compact
+Version: 0.5.0
+Summary: A compact version of the open source framework 'openwakeword' by David Scripka
+Home-page: https://github.com/siranshen/openWakeWord-Compact
+Author: David Scripka, Siran Shen
+Project-URL: Homepage, https://github.com/siranshen/openWakeWord-Compact
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Intro
+
+openWakeWord is an open-source wakeword library that can be used to create voice-enabled applications and interfaces.
+It includes pre-trained models for common words & phrases that work well in real-world environments.
+
+This is forked repo. See [original repo](https://github.com/dscripka/openWakeWord) for details.
+
+# Changes in this fork
+
+This fork removes code related to custom model training and verification.
+By avoiding importing modules related to custom models such as `sklearn`, it saves ~33MB of memory.
+It proves to be useful on memory constrained devices, such as the Raspberry Pi Zero series.
+
+# Installation
+
+Run:
+```commandline
+pip install openwakeword-compact
+```
+Check out other configs in the [original repo](https://github.com/dscripka/openWakeWord#installation).
