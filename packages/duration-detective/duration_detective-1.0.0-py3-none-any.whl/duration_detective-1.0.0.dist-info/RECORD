@@ -1,0 +1,10 @@
+durationdetective/__init__.py,sha256=Lia9gvfiD-ZH1ku0kmiZXTFnVqmaYLk5fxCMBsLMP_4,72
+durationdetective/__main__.py,sha256=p_XgrV1qQWMNSyYPMZ9UabWaJ0_8_5yUzXsQMgkPcIA,630
+durationdetective/cli.py,sha256=pl7KAdiTKYIa6xkQBA85uKXjhsSrFo3EP_shN6L3Ras,817
+durationdetective/durationdetective.py,sha256=r2c2Qqa8aoYg2yW4OGWwYb5gVjWm3vRvST0luvxXkGQ,3502
+duration_detective-1.0.0.dist-info/LICENSE,sha256=mjVifTClSNOXFb9tfut62jtHUiBGKimuiMMfeD7NZFM,1062
+duration_detective-1.0.0.dist-info/METADATA,sha256=hchtfgp7EE0yOwtF0fp7Jw1QTlBSNjPyFCNsnR785vY,4995
+duration_detective-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+duration_detective-1.0.0.dist-info/entry_points.txt,sha256=NTRvkQ0liC8GoVRPsTKt3plqLM1EDzF0u6M16GVO2SE,70
+duration_detective-1.0.0.dist-info/top_level.txt,sha256=RQzbfCra__JKFqmkPI9sz4yg7cWQhXr1HCHLHtbP3Fo,18
+duration_detective-1.0.0.dist-info/RECORD,,
