@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+detectda/__init__.py
+detectda/hlpr.py
+detectda/hypo.py
+detectda/idpo.py
+detectda/imgs.py
+detectda.egg-info/PKG-INFO
+detectda.egg-info/SOURCES.txt
+detectda.egg-info/dependency_links.txt
+detectda.egg-info/entry_points.txt
+detectda.egg-info/requires.txt
+detectda.egg-info/top_level.txt
+detectda/tests/__init__.py
+detectda/tests/test_hlpr.py
+detectda/tests/test_imgs.py
