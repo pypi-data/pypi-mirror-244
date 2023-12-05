@@ -1,0 +1,11 @@
+colorama
+configparser
+datasets>=1.7.0
+nltk
+psutil
+rotary-embedding-torch
+sacrebleu
+torch>=2.0
+tqdm
+transformers>=3.0.0
+wandb
