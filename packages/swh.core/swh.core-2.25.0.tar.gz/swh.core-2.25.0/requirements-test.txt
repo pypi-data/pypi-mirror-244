@@ -1,0 +1,12 @@
+hypothesis >= 3.11.0
+pytest
+pytest-mock
+pytz
+requests-mock
+types-click
+types-deprecated
+types-flask
+types-psycopg2
+types-pytz
+types-pyyaml
+types-requests
