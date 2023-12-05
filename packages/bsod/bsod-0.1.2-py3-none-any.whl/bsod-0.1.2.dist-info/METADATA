@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: bsod
+Version: 0.1.2
+Summary: Blue Screen of Death
+Home-page: https://github.com/arpy8/bsod
+Author: arpy8
+Author-email: arpitsengar99@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+Requires-Dist: keyboard
+Requires-Dist: pywin32
+
+### Introduction
+
+Welcome to the Blue Screen of Death (BSOD) Python Package.
+
+### Installation
+
+To install this package, you can use pip:
+
+```bash
+pip install bsod
+
+```
+
+### Usage
+
+Here's a simple example of how to use this package:
+
+```bash
+bsod
+
+```
+
+### License
+
+This package is provided under the MIT License. Please review the `LICENSE` file for more details.
+
+---
