@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-apps"
+version = "0.1.0"
+description = ""
+authors = ["wangmengdi <wangmengdi@smart-insight.com.cn>"]
+readme = "README.md"
+packages = [{include = "llm_apps"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.0.336"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
