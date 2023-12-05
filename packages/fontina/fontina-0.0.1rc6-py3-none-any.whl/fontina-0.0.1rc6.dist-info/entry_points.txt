@@ -1,0 +1,4 @@
+[console_scripts]
+fontina-generate = fontina.generate:main
+fontina-predict = fontina.predict:main
+fontina-train = fontina.train:main
