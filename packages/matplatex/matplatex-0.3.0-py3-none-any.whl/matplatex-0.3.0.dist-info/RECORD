@@ -1,0 +1,10 @@
+matplatex/__about__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+matplatex/__init__.py,sha256=3B5MNGehQbyUf0Qw6wCXMOfyjoKT3HoxQCsc1kktOXk,57
+matplatex/character_replacements.py,sha256=yrrNR1GfiXXOsi_n3D8V6AuWkruS-CtqZivIuWtnljg,60
+matplatex/latex_input.py,sha256=jkLsPjo4YwHAeVywQDY9fgVfBsyx1_fp2ITkImUClx0,5798
+matplatex/tools.py,sha256=YWVBJW2avz5F4bHIP6BHY2G8NTIYZCkjLqr6OH91HWU,6031
+matplatex/ui.py,sha256=roIEoPvCrf5L7-5bvp2orejBahWPmsNzLQmWy_KibNE,2173
+matplatex-0.3.0.dist-info/METADATA,sha256=Hm7jxYI3Mk8foaew6GIej8fehSlzQ661xJ-aumDAO3U,2952
+matplatex-0.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+matplatex-0.3.0.dist-info/licenses/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+matplatex-0.3.0.dist-info/RECORD,,
