@@ -1,0 +1,14 @@
+requests
+toml
+jira
+pyyaml
+atlassian-python-api
+asana==3.2.2
+WrikePy
+BeautifulSoup4
+
+[dev]
+check-manifest
+
+[test]
+coverage
