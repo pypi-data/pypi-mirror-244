@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nlp-chains
+Version: 0.1.0
+Summary: 基于langchain构建的一些实用工具
+Author: wangmengdi
+Author-email: wangmengdi@smart-insight.com.cn
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: langchain (>=0.0.336,<0.0.337)
+Description-Content-Type: text/markdown
+
+
