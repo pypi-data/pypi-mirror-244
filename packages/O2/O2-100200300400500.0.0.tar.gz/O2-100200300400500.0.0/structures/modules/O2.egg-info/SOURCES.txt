@@ -1,0 +1,10 @@
+license.txt
+pyproject.toml
+structure.txt
+structures/modules/O2/__init__.py
+structures/modules/O2.egg-info/PKG-INFO
+structures/modules/O2.egg-info/SOURCES.txt
+structures/modules/O2.egg-info/dependency_links.txt
+structures/modules/O2.egg-info/top_level.txt
+structures/modules/O2/clique/__init__.py
+structures/modules/O2/clique/group/__init__.py

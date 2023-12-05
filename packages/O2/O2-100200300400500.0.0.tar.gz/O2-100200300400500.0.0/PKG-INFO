@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: O2
+Version: 100200300400500.0.0
+License: 
+        
+        
+        There seems to be some sort of inscription here.
+Description-Content-Type: text/plain
+
+
+
+
+O2
+
+	license:
+		This is literally what you need to breath.
+		
+		Don't let me place limitations on your 
+		breathing and thus your immediate ability
+		to survive.
+		
+		
+	Description:
+		
+		This module is meant as a way of reserving
+		the name "O2" for everyone's use in "private"
+		python3 enterprizes. 
+		
+		There are zero plans to use this name
+		for any purpose besides giving everyone
+		a module name for use in "private" enterprizes.
+		
+		This reservation should prevent accidental 
+		publishing to pypi and ensure that no 
+		disrespect to other calculator builders
+		occurs by using the same name for one 
+		of your private enterprizes as the name of 
+		a public pypi enterprize.
+		
