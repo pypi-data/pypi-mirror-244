@@ -1,0 +1,8 @@
+ctxproc/__init__.py,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+ctxproc/multi_process.cp312-win_amd64.pyd,sha256=en2INfvhC9AqW24ar294yNcQLS5hhn8nUOY9Tyg70GE,67584
+ctxproc/single_process.cp312-win_amd64.pyd,sha256=qmn_935uL22k30x0FtFxRrNlgzMn5dNWLf3woFFB9SQ,73216
+ctxproc/zmq_process.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ctxproc-1.0.1.dist-info/METADATA,sha256=8hJ-bixTmAwdj3inmib54fBQFEIjXBFZQ4G7g7HmUsM,788
+ctxproc-1.0.1.dist-info/WHEEL,sha256=j9Aissza3750LQHFAQyYerNjmkEON1-8w_RaZNFtKSs,102
+ctxproc-1.0.1.dist-info/top_level.txt,sha256=YBj2-59k7ndHgNOeVQT_m64QhvDYH3POHrAMkIjNtUE,8
+ctxproc-1.0.1.dist-info/RECORD,,
