@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: GISAPI-SDK
+Version: 0.1.2
+Summary: GISAPI SDK enabling geospatial data search and discovery
+Home-page: https://github.com/OmniverseXYZ/gisapi-sdk-python
+Author: Parker Dinkins
+Author-email: parkerdinkins@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: gis api sdk
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# gisapi-sdk-python
+Python SDK for GISAPI.io
+
+# Install 
+```console
+pip install gisapi-sdk
+```
+
+## Usage
+```python
+from gisapi import client
+
+api = client.GISAPIClient()
+
+# regular search query. returns 200 raw results data
+search_results = api.search_results = client.search_data("Florida")
+
+# category search. returns 200 raw results from given category
+category_results = api.category_results = client.get_data_by_category("Education and Research")
+
+# returns dictionary of layer results in a list
+layer_details = api.parse_layer_details(search_results)
+
+# returns just a list of layer urls
+layer_urls = api.get_layer_urls(search_results)
+
+# returns list of host urls with no duplicates
+host_urls = api.get_host_urls(search_results)
+```

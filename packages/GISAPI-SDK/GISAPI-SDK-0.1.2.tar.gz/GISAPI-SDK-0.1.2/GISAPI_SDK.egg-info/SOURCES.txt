@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+GISAPI_SDK.egg-info/PKG-INFO
+GISAPI_SDK.egg-info/SOURCES.txt
+GISAPI_SDK.egg-info/dependency_links.txt
+GISAPI_SDK.egg-info/requires.txt
+GISAPI_SDK.egg-info/top_level.txt
+gisapi/__init__.py
+gisapi/client.py
