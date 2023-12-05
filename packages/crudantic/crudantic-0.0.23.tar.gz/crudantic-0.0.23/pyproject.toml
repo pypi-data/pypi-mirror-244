@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "crudantic"
+version = "0.0.23"
+description = "Quick and easy persistence for Pydantic models supporting basic CRUD operations"
+authors = ["David <dbernstein613@gmail.com>"]
+readme = "README.md"
+packages = [{include="crudantic"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.4.2"
+google-cloud-datastore = "^2.18.0"
+python-dotenv = "^1.0.0"
+invoke = "^2.2.0"
+dependency-injector = "^4.41.0"
+rich = "^13.6.0"
+structlog = "^23.2.0"
+better-exceptions = "^0.3.3"
+pydash = "^7.0.6"
+orjson = "^3.9.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+pytest-watch = "^4.2.0"
+snoop = "^0.4.3"
+ptpython = "^3.0.23"
+pytest-clarity = "^1.0.1"
+pytest-asyncio = "^0.21.1"
+pytest-mock = "^3.12.0"
+black = "^23.11.0"
+ipdb = "^0.13.13"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
