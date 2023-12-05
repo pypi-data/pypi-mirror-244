@@ -1,0 +1,10 @@
+py_lib3mf/Lib3MF.py,sha256=zK3DcEykGxslZVUQXETTktiulGlOkiQ0dHHIj-b5g8k,504340
+py_lib3mf/__init__.py,sha256=umTHhHAWBrYuKOQqVcJ4-dFvVdssVaZ-OeDdxkkNDug,45
+py_lib3mf/lib3mf.dll,sha256=orK00GjYQA5YHwOEceOi6AfccuuMUzmypTHxhxi0C4s,1964928
+py_lib3mf/lib3mf.dylib,sha256=9sbN9Fd269ylOuyuMmlbbkJsekXIs5aNgLAQQPCxEMg,5014520
+py_lib3mf/lib3mf.so,sha256=Mly2IK4yIdGhdXGta8tk9XxfAeIBfBl9ZKidDC1eOzM,2490912
+py_lib3mf/lib3mf.x86_64.dylib,sha256=ev_E4yvpUewdQfwj-0yyew7X92lYMd1O9P4ffVdo288,2457544
+py_lib3mf-2.2.0.dist-info/METADATA,sha256=DnH62PcZsSTj-ZPwXWTp3hs9_3SbEnXL1jVEJscaIxk,977
+py_lib3mf-2.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py_lib3mf-2.2.0.dist-info/top_level.txt,sha256=kYmCUib_IJ0KQAezsCJnHkgZ5U6jeVQCGC5zyCiGCXM,21
+py_lib3mf-2.2.0.dist-info/RECORD,,
