@@ -1,0 +1,10 @@
+{
+    "cSpell.enableFiletypes": [
+        "!python"
+    ],
+    "python.testing.pytestArgs": [
+        "rosalie"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
