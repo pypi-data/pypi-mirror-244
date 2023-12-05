@@ -1,0 +1,7 @@
+README.md
+setup.py
+LargeVis/__init__.py
+LargeVis.egg-info/PKG-INFO
+LargeVis.egg-info/SOURCES.txt
+LargeVis.egg-info/dependency_links.txt
+LargeVis.egg-info/top_level.txt
