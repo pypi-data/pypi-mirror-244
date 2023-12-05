@@ -1,0 +1,346 @@
+Ei:
+  tag: Ei (V)
+  units: V
+  dtype: <f4
+E1:
+  tag: E1 (V)
+  units: V
+  dtype: <f4
+E2:
+  tag: E2 (V)
+  units: V
+  dtype: <f4
+Ef:
+  tag: Ef (V)
+  units: V
+  dtype: <f4
+Is:
+  tag: Is
+  name: Is
+  dtype: <f4
+Is_unit:
+  tag: unit Is
+  dtype: "|u1"
+  map:
+    0: A
+    1: mA
+    2: µA
+    3: nA
+    4: pA
+ti:
+  tag: ti (h:m:s)
+  dtype: <f4
+ts:
+  tag: ts (h:m:s)
+  dtype: <f4
+tIs:
+  tag: tIs (h:m:s)
+  dtype: <f4
+Imax:
+  tag: Imax
+  dtype: <f4
+Imax_unit:
+  tag: unit Imax
+  dtype: "|u1"
+Imin:
+  tag: Imin
+  dtype: <f4
+Imin_unit:
+  tag: unit Imin
+  dtype: "|u1"
+EM:
+  tag: EM (V)
+  units: V
+  dtype: <f4
+dQM:
+  tag: dQM
+  dtype: <f4
+dQM_unit:
+  tag: unit dQM
+  dtype: "|u1"
+dE/dt:
+  tag: dE/dt
+  dtype: <f4
+dE/dt_unit:
+  tag: dE/dt unit
+  dtype: "|u1"
+record:
+  tag: record
+  dtype: "|u1"
+dI:
+  tag: dI
+  dtype: <f4
+dI_unit:
+  tag: unit dI
+  dtype: "|u1"
+dQ:
+  tag: dQ
+  dtype: <f4
+dQ_unit:
+  tag: unit dQ
+  dtype: "|u1"
+dt:
+  tag: dt (s)
+  units: s
+  dtype: <f4
+dta:
+  tag: dta (s)
+  units: s
+  dtype: <f4
+dE:
+  tag: dE (mV)
+  units: mV
+  dtype: <f4
+dEs:
+  tag: dEs (mV)
+  units: mV
+  dtype: <f4
+dts:
+  tag: dts (s)
+  units: s
+  dtype: <f4
+step percent:
+  tag: Step percent
+  units: "%"
+  dtype: "|u1"
+N:
+  tag: "N"
+  dtype: <u4
+E range min:
+  tag: E range min (V)
+  units: V
+  dtype: <f4
+E range max:
+  tag: E range max (V)
+  units: V
+  dtype: <f4
+I range:
+  tag: I range
+  dtype: "|u1"
+  map:
+    8: "1 A"
+    9: "100 mA"
+    10: "10 mA"
+    11: "1 mA"
+    12: "100 µA"
+    13: "10 µA"
+    14: "1 µA"
+    20: "10 µA"
+    21: "1 µA"
+    22: "100 nA"
+    23: "10 nA"
+    36: "1 A"
+    37: "100 mA"
+    38: "10 mA"
+    39: "1 mA"
+I range max:
+  tag: I range max
+  dtype: "|u1"
+I range min:
+  tag: I range min
+  dtype: "|u1"
+I range init:
+  tag: I range init
+  dtype: "|u1"
+bandwidth:
+  tag: Bandwidth
+  dtype: "|u1"
+goto Ns:
+  tag: goto Ns'
+  dtype: <u4        ### Is this right?
+nc cycles:
+  tag: nc cycles
+  dtype: <u4        ### Is this right?
+reverse scan:
+  tag: Reverse Scan
+  dtype: "|u1"
+sine mode:
+  tag: Mode
+  dtype: "|u1"
+fi:
+  tag: fi
+  dtype: <f4
+fi_unit:
+  tag: unit fi
+  dtype: "|u1"
+ff:
+  tag: ff
+  dtype: <f4
+ff_unit:
+  tag: unit ff
+  dtype: "|u1"
+Nd:
+  tag: Nd
+  dtype: <u4
+points:
+  tag: Points
+  dtype: "|u1"
+spacing:
+  tag: spacing
+  dtype: "|u1"
+Ia or Va:
+  tag: Ia/Va
+  dtype: "|u1"
+Ia:
+  tag: Ia
+  dtype: <f4
+Ia_unit:
+  tag: unit  Ia
+  dtype: "|u1"
+va percent:
+  tag: va pourcent
+  dtype: <f4
+pw:
+  tag: pw
+  dtype: <f4
+Na:
+  tag: Na
+  dtype: <u4
+corr:
+  tag: corr
+  dtype: "|u1"
+nr cycles:
+  tag: nr cycles
+  dtype: <u4
+inc. cycle:
+  tag: inc. cycle
+  dtype: <u4
+select:
+  tag: select
+  dtype: "|u1"
+td:
+  tag: td (h:m:s)
+  dtype: <u4
+from:
+  tag: from
+  dtype: "|u1"
+technique number:
+  tag: tech. num.
+  dtype: "|u1"
+OLE date:
+  tag: date (m/d/y)
+  dtype: <f4
+OLE time:
+  tag: date (h:m:s)
+  dtype: <f4
+I or C:
+  tag: Set I/C
+  dtype: "|u1"
+  map:
+    0: I
+    1: C
+I sign:
+  tag: I sign
+  dtype: "|u1"
+t1:
+  tag: t1 (h:m:s)
+  dtype: <f4
+dE1:
+  tag: dE1 (mV)
+  dtype: <f4
+  units: mV
+dt1:
+  tag: dt1 (s)
+  dtype: <f4
+  units: s
+tM:
+  tag: tM (h:m:s)
+  dtype: <f4
+Im:
+  tag: Im
+  dtype: <f4
+Im_unit:
+  tag: unit Im
+  dtype: "|u1"
+dI/dt:
+  tag: dI/dt
+  dtype: <f4
+dI/dt_unit:
+  tag: unit dI/dt
+  dtype: "|u1"
+dq:
+  tag: dq
+  dtype: <f4
+dq_unit:
+  tag: unit dq
+  dtype: "|u1"
+dtq:
+  tag: dtq (s)
+  dtype: <f4
+  units: s
+dxM:
+  tag: dxM
+  dtype: <f4
+tR:
+  tag: tR (h:m:s)
+  dtype: <f4
+dER/dt:
+  tag: dER/dt (mV/h)
+  dtype: <f4
+  units: mV/h
+dER:
+  tag: dER (mV)
+  dtype: <f4
+  units: mV
+dtR:
+  tag: dtR (s)
+  dtype: <f4
+  units: s
+EL:
+  tag: EL (V)
+  dtype: <f4
+  units: V
+Ns:
+  tag: Ns
+  dtype: "|u1"
+tI:
+  tag: tI (s)
+  dtype: <f4
+  units: s
+E:
+  tag: E (V)
+  dtype: <f4
+  units: V
+tE:
+  tag: tE (h:m:s)
+  dtype: <f4
+Va:
+  tag: Va (mV)
+  dtype: <f4
+  units: mV
+f:
+  tag: f
+  dtype: <f4
+f_unit:
+  tag: unit f
+  dtype: "|u1"
+comp. level:
+  tag: comp. level (%)
+  dtype: "|u1"
+comp. mode:
+  tag: comp. mode
+  dtype: "|u1"
+use results:
+  tag: use results
+  dtype: "|u1"
+Ei_vs.:
+  tag: vs.
+  dtype: "|u1"
+Is_vs.:
+  tag: vs.
+  dtype: "|u1"
+E1_vs.:
+  tag: vs.
+  dtype: "|u1"
+E2_vs.:
+  tag: vs.
+  dtype: "|u1"
+Ef_vs.:
+  tag: vs.
+  dtype: "|u1"
+EL_vs.:
+  tag: vs.
+  dtype: "|u1"
+E_vs.:
+  tag: vs.
+  dtype: "|u1"

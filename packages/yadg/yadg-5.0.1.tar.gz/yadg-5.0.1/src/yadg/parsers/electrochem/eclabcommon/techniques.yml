@@ -1,0 +1,264 @@
+CA:
+  default: v11.27
+  variants:
+    - versions: [v11.27]
+      params:
+        - Ei
+        - Ei_vs.
+        - ti
+        - Imax
+        - Imax_unit
+        - Imin
+        - Imin_unit
+        - dQM
+        - dQM_unit
+        - record
+        - dI
+        - dI_unit
+        - dQ
+        - dQ_unit
+        - dt
+        - dta
+        - E range min
+        - E range max
+        - I range
+        - I range min
+        - I range max
+        - I range init
+        - bandwidth
+        - goto Ns
+        - nc cycles
+CP:
+  default: v11.33
+  variants:
+    - versions: [v11.33]
+      params:
+        - Is
+        - Is_unit
+        - Is_vs.
+        - ts
+        - EM
+        - dQM
+        - dQM_unit
+        - record
+        - dEs
+        - dts
+        - E range min
+        - E range max
+        - I range
+        - bandwidth
+        - goto Ns
+        - nc cycles
+CV:
+  default: v11.12
+  variants:
+    - versions: [v11.12]
+      params:
+        - Ei
+        - Ei_vs.
+        - dE/dt
+        - dE/dt_unit
+        - E1
+        - E1_vs.
+        - step percent
+        - "N"
+        - E range min
+        - E range max
+        - I range
+        - I range min
+        - I range max
+        - I range init
+        - bandwidth
+        - E2
+        - E2_vs.
+        - nc cycles
+        - reverse scan
+        - Ef
+        - Ef_vs.
+GEIS:
+  default: v11.33
+  variants:
+    - versions: [v11.33]
+      params:
+        - sine mode
+        - Is
+        - Is_unit
+        - Is_vs.
+        - tIs
+        - record
+        - dE
+        - dt
+        - fi
+        - fi_unit
+        - ff
+        - ff_unit
+        - Nd
+        - points
+        - spacing
+        - Ia or Va
+        - Ia
+        - Ia_unit
+        - va percent
+        - pw
+        - Na
+        - corr
+        - E range min
+        - E range max
+        - I range
+        - bandwidth
+        - nc cycles
+        - goto Ns
+        - nr cycles
+        - inc. cycle
+WAIT:
+  default: v11.33
+  variants:
+    - versions: [v11.33]
+      params:
+        - select
+        - td
+        - from
+        - technique number
+        - OLE date
+        - OLE time
+        - record
+        - dE
+        - dI
+        - dI_unit
+        - dt
+GCPL:
+  default: v11.12
+  variants:
+    - versions: [v11.12]
+      params:
+        - I or C
+        - Is
+        - Is_unit
+        - Is_vs.
+        - "N"
+        - I sign
+        - t1
+        - I range
+        - bandwidth
+        - dE1
+        - dt1
+        - EM
+        - tM
+        - Im
+        - Im_unit
+        - dI/dt
+        - dI/dt_unit
+        - E range min
+        - E range max
+        - dq
+        - dq_unit
+        - dtq
+        - dQM
+        - dQM_unit
+        - dxM
+        - tR
+        - dER/dt
+        - dER
+        - dtR
+        - EL
+        - goto Ns
+        - nc cycles
+LSV:
+  default: v11.33
+  variants:
+    - versions: [v11.33]
+      params:
+        - tR
+        - dER/dt
+        - dER
+        - dtR
+        - dE/dt
+        - dE/dt_unit
+        - Ei
+        - Ei_vs.
+        - EL
+        - EL_vs.
+        - record
+        - dI
+        - dI_unit
+        - tI
+        - step percent
+        - "N"
+        - E range min
+        - E range max
+        - I range
+        - I range min
+        - I range max
+        - I range init
+        - bandwidth
+OCV:
+  default: v11.30
+  variants:
+    - versions: [v11.30]
+      params:
+        - tR
+        - dER/dt
+        - dER
+        - dtR
+        - E range min
+        - E range max
+PEIS:
+  default: v11.33
+  variants:
+    - versions: [v11.33]
+      params:
+        - sine mode
+        - E
+        - E_vs.
+        - tE
+        - record
+        - dI
+        - dI_unit
+        - dt
+        - fi
+        - fi_unit
+        - ff
+        - ff_unit
+        - Nd
+        - points
+        - spacing
+        - Va
+        - pw
+        - Na
+        - corr
+        - E range min
+        - E range max
+        - I range
+        - bandwidth
+        - nc cycles
+        - goto Ns
+        - nr cycles
+        - inc. cycle
+ZIR:
+  default: v11.18
+  variants:
+    - versions: [v11.18]
+      params:
+        - E
+        - E_vs.
+        - f
+        - f_unit
+        - Va
+        - pw
+        - Na
+        - E range min
+        - E range max
+        - I range
+        - bandwidth
+        - comp. level
+        - use results
+        - comp. mode
+MB:
+  default: v11.36
+  variants:
+    - versions: [v11.36]
+      params:
+        - Ns
+        - ctrl type
+        - I or C
+        - ctrl_1
