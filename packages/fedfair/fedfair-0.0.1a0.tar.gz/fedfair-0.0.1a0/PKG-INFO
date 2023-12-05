@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fedfair
+Version: 0.0.1a0
+Summary: FedFair: A Fairness-aware Federated Learning Framework
+Home-page: http://github.com/beiyuouo/fedfair
+Author: Bingjie Yan
+Author-email: bj.yan.pa@qq.com
+License: Apache-2.0 License
+Keywords: configuration,config
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ezkfg
+
+# fedfair

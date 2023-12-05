@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fedfair/__init__.py
+fedfair.egg-info/PKG-INFO
+fedfair.egg-info/SOURCES.txt
+fedfair.egg-info/dependency_links.txt
+fedfair.egg-info/requires.txt
+fedfair.egg-info/top_level.txt
