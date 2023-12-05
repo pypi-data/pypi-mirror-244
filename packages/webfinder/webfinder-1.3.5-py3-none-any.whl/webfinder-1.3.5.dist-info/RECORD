@@ -1,0 +1,13 @@
+finder/__init__.py,sha256=4kv4Aj73zvGqI_at5XSCYUNPSygLaGSpe44NEV59M90,173
+finder/cmdline.py,sha256=owPoPZhfptf1T2oztGtohLcbX6QsAP8pPRS-EEPtQ6A,2290
+finder/daemon.py,sha256=Q9gve1OSMw8S12F-r7f6l_ROMDKrDzRJ1f6U3iZMCI4,4982
+finder/server.py,sha256=kpJD9RrCKFmW6TfziwPOnPHx5FKZ5ZJRaGt9ISITCIo,7896
+finder/utils.py,sha256=qA8p9hBkczzLGK7j6gN5VgmwkYHLMp5QK4gqmk-PNoM,2249
+finder/version.py,sha256=Ma1Cr7Wijq9s7BFyajpper_VuwVkZ2L73tTxIPNHlSA,42
+finder/zipstream/__init__.py,sha256=q-0o6z2_Mjk9mjr729p_fNmxEo0umsqTnMt2H6pYHtI,17607
+finder/zipstream/compat.py,sha256=0NurGigPFYeZNcbivbJSuq7uh1MFcUXnJ9inNXc9pTc,1220
+webfinder-1.3.5.dist-info/METADATA,sha256=7zEgCBTQSs8XjvWKUVgrWKVPYXdEZqLLF8_JonV_D2E,1924
+webfinder-1.3.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+webfinder-1.3.5.dist-info/entry_points.txt,sha256=JOCoe8m0I_yiFa8i3D9PkvzCLW8jb9yL0r9zP-e6RiQ,77
+webfinder-1.3.5.dist-info/top_level.txt,sha256=qeuyoZdghL_4tQI1dUdlQtoQU5YwUwEFfy67_qxrgOU,7
+webfinder-1.3.5.dist-info/RECORD,,
