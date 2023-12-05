@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: transgeo
+Version: 0.1
+Summary: Transformations géomètriques
+Home-page: https://x.com/david_cobac
+Author: David COBAC
+Author-email: david.cobac@gmail.com
+License: CC-BY-NC-SA
+Keywords: géométrie,transformations
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# TRANSformations GEOmétriques
