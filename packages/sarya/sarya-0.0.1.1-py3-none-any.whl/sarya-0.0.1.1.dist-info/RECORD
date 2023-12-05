@@ -1,0 +1,10 @@
+sarya/UI.py,sha256=jJaSY-m74LoJ44u2pDUmISGuiNUBq5BG99qtuNPVjrI,325
+sarya/__init__.py,sha256=T88H_MtGjbhu-4fL05CBH9yecqIuSBaV7fVtetl8Sfc,102
+sarya/client.py,sha256=gBtvNsJTX1kPYXgYmRkUqKT71uwR1oUhzHdg9McWUnU,2656
+sarya/redirect.py,sha256=unMv8PQG7hWCf2v7Z6Kq6Q7TK1DIvNBg8VOLiucld1M,818
+sarya/request_typings.py,sha256=sy4AV5S2DXr9s5uD4yDhyNp8yxoFwBlhsPsZrtAmsDQ,286
+sarya/signature.py,sha256=iCzz-09-gHYY5fLl2pJZAdDqZyuFh1ijhqLFD5SZjek,3152
+sarya-0.0.1.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+sarya-0.0.1.1.dist-info/METADATA,sha256=IArHS_bT34UK_mxw1T27xm5sfeYrH-do3lYSdJDdylU,748
+sarya-0.0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sarya-0.0.1.1.dist-info/RECORD,,
