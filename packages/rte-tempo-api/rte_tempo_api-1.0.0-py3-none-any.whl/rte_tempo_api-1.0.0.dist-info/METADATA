@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rte-tempo-api
+Version: 1.0.0
+Summary: Python API wrapper for RTE API
+Home-page: https://github.com/WazoAkaRapace/rte-api
+Author: Mika Benoit
+Author-email: mika.benoit@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: packaging
+
+# Python wrapper for RTE API
+Friendly wrapper to login and retrieve information from RTE.
+
+```python
+from rte-api import RteApi
+
+api = RteApi("id_client", "id_secret")
+calendar = api.get_calendar()
+print(calendar[0]) #today (BLUE,WHITE,RED)
+print(calendar[1]) #tomorrow (BLUE,WHITE,RED,UNKNOWN)
+```
