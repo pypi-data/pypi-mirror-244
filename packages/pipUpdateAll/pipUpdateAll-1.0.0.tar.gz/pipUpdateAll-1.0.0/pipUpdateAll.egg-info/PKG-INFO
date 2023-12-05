@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pipUpdateAll
+Version: 1.0.0
+Summary: Paquete para actualizar todos los paquetes instalados con 'pip'
+Home-page: https://github.com/SurivZ/pip-update-all
+Author: SurivZ
+Author-email: franklinserrano23@email.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# pipUpdateAll
+
+**`pipUpdateAll`** es una herramienta simple que automatiza la actualización de todos los paquetes instalados usando `pip`. Facilita el proceso de mantener al día las dependencias de tu entorno de Python con una sola ejecución.
+
+## Características
+
+- Actualiza todos los paquetes instalados mediante `pip` con un solo comando.
+- Interfaz de línea de comandos (CLI) fácil de usar.
+- Compatible con entornos Python 3.7 en adelante.
+
+## Instalación
+
+Para instalar `pipUpdateAll`, simplemente utiliza `pip`:
+
+```bash
+pip install pipUpdateAll
+```
+
+## Uso
+
+Una vez instalado, puedes ejecutar la herramienta desde la línea de comandos:
+
+```bash
+update
+```
+
+### Opciones
+
+- `-v`, `--version`: Muestra la versión actual de la herramienta y sale.
+- `-V`, `--verbose`: Muestra información detallada durante la ejecución.
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Si encuentras algún problema, tienes ideas para mejoras o deseas colaborar, por favor visita el repositorio en [GitHub](https://github.com/SurivZ/pip-update-all).
+
+## Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](https://opensource.org/licenses/MIT).

@@ -1,0 +1,9 @@
+README.md
+setup.py
+pipUpdateAll/__init__.py
+pipUpdateAll/update.py
+pipUpdateAll.egg-info/PKG-INFO
+pipUpdateAll.egg-info/SOURCES.txt
+pipUpdateAll.egg-info/dependency_links.txt
+pipUpdateAll.egg-info/entry_points.txt
+pipUpdateAll.egg-info/top_level.txt
