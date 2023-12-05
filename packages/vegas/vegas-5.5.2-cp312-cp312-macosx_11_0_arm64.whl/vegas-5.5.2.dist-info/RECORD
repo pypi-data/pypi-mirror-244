@@ -1,0 +1,11 @@
+vegas.pxd,sha256=MzfsI-0xD0rFnyHl1UFXz-2wSvGjfGA9QFKuCTr5nhs,646
+vegas/_version.py,sha256=gle6t3sPEH37T7g1XkNM3s7vEccGsllfsuMq3QgpTmw,22
+vegas/__init__.py,sha256=4b6WHKTWK47n_qCmtsgMWLCrQUx1Vo5lSRlQ_KZt1jc,31289
+vegas/_vegas.cpython-312-darwin.so,sha256=vcPyfp4jbJCBtnV6eWxgiJHvE3M6iubbbGSTSNvD978,1247577
+vegas/_vegas.pxd,sha256=IXy3EpoSB2HdS4uFvpJLtXcaCTmKZS48JJSdZUHYAyo,3001
+vegas/_vegas.c,sha256=LWF-sM1qnHIkNqrUkyysLM5pAP4nSCQaYBs6KIQ_PNE,4962547
+vegas-5.5.2.dist-info/RECORD,,
+vegas-5.5.2.dist-info/WHEEL,sha256=VdDmD53Z5Im3s3DzMnDRXVcjZVnzMxiqEPFSmUQBX3s,110
+vegas-5.5.2.dist-info/top_level.txt,sha256=rnAmsIvsHyplln9ev-uw4hM7slW7VUdBQu9VgX8knkE,6
+vegas-5.5.2.dist-info/LICENSE.txt,sha256=YQSKRpj-PNC7SScHem3AECgwVONM-whKrs74SDueZxM,31996
+vegas-5.5.2.dist-info/METADATA,sha256=S3NMuLifnP6Q6-AbzQrERHxjl_r6etASO5OFfhwbEw8,1839
