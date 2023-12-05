@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "worklogi"
+version = "0.1.1"
+description = "A simple automatic worklog tracking tool"
+authors = ["Grzegorz Koperwas <admin@grzegorzkoperwas.site>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.5.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[tool.poetry.scripts]
+worklogi = 'worklogi.main:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
