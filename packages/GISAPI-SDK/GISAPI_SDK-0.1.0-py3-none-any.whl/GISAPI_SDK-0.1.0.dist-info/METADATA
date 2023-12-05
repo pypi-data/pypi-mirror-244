@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: GISAPI-SDK
+Version: 0.1.0
+Summary: GISAPI SDK enabling geospatial data search and discovery
+Home-page: https://github.com/OmniverseXYZ/gisapi-sdk-python
+Author: Parker Dinkins
+Author-email: parkerdinkins@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: gis api sdk
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# gisapi-sdk-python
+Python SDK for GISAPI.io
+
+## Usage
+Not currently on PyPi (coming soon).
+clone repo into project or download and move gisapi.py file into project. 
+```python
+import gisapi
+
+client = gisapi.GISAPIClient()
+
+# regular search query. returns 200 results
+search_results = client.search_data("Florida")
+
+# returns 200 results from given category
+category_results = client.get_data_by_category("Education and Research")
+```
