@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u012erenginys jau sukonfig\u016bruotas",
+            "already_in_progress": "Konfig\u016bracijos procesas jau vyksta",
+            "cannot_connect": "Nepavyko prisijungti"
+        },
+        "flow_title": "{name} ( {host} )",
+        "step": {
+            "device_name": {
+                "data": {
+                    "name": "Vardas"
+                }
+            },
+            "discovery_confirm": {
+                "description": "Ar norite nustatyti {name} ( {host} )?"
+            },
+            "user": {
+                "data": {
+                    "ip_address": "IP adresas"
+                }
+            }
+        }
+    }
+}
