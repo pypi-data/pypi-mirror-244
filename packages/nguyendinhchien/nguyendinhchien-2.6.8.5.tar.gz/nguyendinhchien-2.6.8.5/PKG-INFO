@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nguyendinhchien
+Version: 2.6.8.5
+Summary: Python By ChienPc
+Home-page: https://nguyendinhchien.io.vn
+Author: Nguyen Đinh Chien
+Author-email: <dinhchien2k7@gmail.com>
+Keywords: ChienPC,Python,Excel,Python Excel
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+Requires-Dist: PySimpleGUI
+Requires-Dist: yagmail
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: requests

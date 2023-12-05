@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+nguyendinhchien.egg-info/PKG-INFO
+nguyendinhchien.egg-info/SOURCES.txt
+nguyendinhchien.egg-info/dependency_links.txt
+nguyendinhchien.egg-info/requires.txt
+nguyendinhchien.egg-info/top_level.txt
