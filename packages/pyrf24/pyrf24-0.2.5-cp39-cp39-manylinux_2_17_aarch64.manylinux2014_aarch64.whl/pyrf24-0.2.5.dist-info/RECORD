@@ -1,0 +1,14 @@
+pyrf24/rf24_network.pyi,sha256=62yMzRmuv6LmNzEopVsU43cP07hVnXBs1SRssR_EqJ8,4733
+pyrf24/fake_ble.py,sha256=Wk_j3yFmyJHpDsVpD5b488ZeJjwhoiZmBbDb9rjkMgg,35160
+pyrf24/rf24.cpython-39-aarch64-linux-gnu.so,sha256=nTx8zsY7ydIDBkQglF1Dr4tCWgdfFmGgKpve05Bxc54,462992
+pyrf24/rf24_mesh.pyi,sha256=HkdQ2L2z9zQRnGaquXDIRwIgrZFqdTE16QBGx9XLoJ0,2639
+pyrf24/rf24_mesh.cpython-39-aarch64-linux-gnu.so,sha256=iDS5CUGFyBK3yJAjikmvI4EFXy-jQ1UCUidnugQCZRY,594248
+pyrf24/__init__.py,sha256=gJcu0mo9KyRVKkPhPnJzUzKD6ZoG2-1xinhXIeuCOVU,1126
+pyrf24/rf24_network.cpython-39-aarch64-linux-gnu.so,sha256=aOlP2zcEv5AhH4k24I6CcuV4URnwDQhV2_4S2GyeT8c,528560
+pyrf24/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrf24/rf24.pyi,sha256=SEnwf1EtKLmxo_z8SaxwUCmFVxtzcEzTu4shOE9L7Yg,9061
+pyrf24-0.2.5.dist-info/LICENSE,sha256=2ylvL381vKOhdO-w6zkrOxe9lLNBhRQpo9_0EbHC_HM,18046
+pyrf24-0.2.5.dist-info/METADATA,sha256=TE8H6fr7dqmHl7eWaZk4tDehCFUb_eBJEZwdkKc-45w,13682
+pyrf24-0.2.5.dist-info/RECORD,,
+pyrf24-0.2.5.dist-info/top_level.txt,sha256=XOFamTqgFW2Sra5xb_7lnItfLU8LvD8G_GOwqAN8GDM,7
+pyrf24-0.2.5.dist-info/WHEEL,sha256=CBycxh3glnwfbPQMOedoey2NiqMJxkbyufq_hPo2rPs,150
