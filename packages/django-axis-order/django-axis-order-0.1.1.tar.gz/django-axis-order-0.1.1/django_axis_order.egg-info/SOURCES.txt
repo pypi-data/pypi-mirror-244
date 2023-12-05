@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+axis_order_cache/__init__.py
+axis_order_cache/apps.py
+axis_order_cache/exceptions.py
+axis_order_cache/models.py
+axis_order_cache/registry.py
+axis_order_cache/settings.py
+axis_order_cache/utils.py
+django_axis_order.egg-info/PKG-INFO
+django_axis_order.egg-info/SOURCES.txt
+django_axis_order.egg-info/dependency_links.txt
+django_axis_order.egg-info/requires.txt
+django_axis_order.egg-info/top_level.txt
