@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "git-branch-sweeper"
+version = "0.1.0"
+description = ""
+authors = ["Ren Dela Cruz <ren_delacruz@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+inquirerpy = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+git-branch-sweeper = "git_branch_sweeper.cli:main"
