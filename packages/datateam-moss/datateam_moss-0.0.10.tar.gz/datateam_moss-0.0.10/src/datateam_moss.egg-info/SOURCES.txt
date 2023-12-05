@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/algemeen/__init__.py
+src/algemeen/historisering.py
+src/datateam_moss.egg-info/PKG-INFO
+src/datateam_moss.egg-info/SOURCES.txt
+src/datateam_moss.egg-info/dependency_links.txt
+src/datateam_moss.egg-info/top_level.txt
+src/onderwijs/__init__.py
