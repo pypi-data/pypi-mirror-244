@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/maybe/__init__.py
+src/maybe/maybe.py
+src/maybe/py.typed
+src/rustedpy_maybe.egg-info/PKG-INFO
+src/rustedpy_maybe.egg-info/SOURCES.txt
+src/rustedpy_maybe.egg-info/dependency_links.txt
+src/rustedpy_maybe.egg-info/requires.txt
+src/rustedpy_maybe.egg-info/top_level.txt
+src/rustedpy_maybe.egg-info/zip-safe
+tests/test_maybe.py
+tests/test_pattern_matching.py
