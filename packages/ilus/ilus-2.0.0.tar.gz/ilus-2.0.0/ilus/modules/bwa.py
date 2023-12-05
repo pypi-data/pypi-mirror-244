@@ -1,0 +1,38 @@
+"""NGS alignments with BWA
+"""
+
+
+def bwa_mem(config, out_prefix, rgID, fastq1, fastq2=""):
+    """Perform piped alignment of fastq input files, generating sorted output BAM.
+
+    This function process the following processes:
+    - bwa-mem alignment and output BAM
+    - samtools sort of BAM to coordinate
+    """
+    if fastq2 == ".":
+        fastq2 = ""
+
+    ref_index = config["resources"]["reference"]
+    return _get_bwa_mem_cmd(fastq1, fastq2, ref_index, rgID, out_prefix, config)
+
+
+def _get_bwa_mem_cmd(fastq1, fastq2, ref_index, rg_info, outfile_prefix, config):
+    bwa = config["aligner"]["bwa"]
+    bwa_options = " ".join([str(x) for x in config["aligner"].get("bwamem_options", [])])
+    samtools = config["samtools"]["samtools"]
+    samtools_options = " ".join([str(x) for x in config["samtools"].get("sort_options", [])])
+
+    bwa_cmd = (f"time {bwa} mem {bwa_options} -R {rg_info} {ref_index} "
+               f"{fastq1} {fastq2} | {samtools} view -bS > {outfile_prefix}.bam && "
+               f"{samtools} sort {samtools_options} -o {outfile_prefix}.sorted.bam {outfile_prefix}.bam "
+               f"&& rm -rf {outfile_prefix}.bam")
+
+    return f"{outfile_prefix}.sorted.bam", bwa_cmd
+
+
+def bam_to_cram(config, input_bam_fname, output_cram_fname):
+    samtools = config["samtools"]["samtools"]
+    reference = config["resources"]["reference"]  # reference fasta
+
+    return (f"time {samtools} view -CS -T {reference} {input_bam_fname} > "
+            f"{output_cram_fname} && {samtools} index -@ 8 {output_cram_fname}")
