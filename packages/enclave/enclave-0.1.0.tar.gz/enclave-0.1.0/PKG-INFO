@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: enclave
+Version: 0.1.0
+Summary: Connect to Enclave Markets API
+Author: benclave
+Author-email: ben@enclave.market
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+# Enclave Python
+
+This is the official Python SDK for
+[Enclave Markets](https://enclave.market/).
+
+It provides a simple interface for interacting with the
+[Enclave API](https://docs.enclave.market/).
+
+## Support
+
+Supports Python 3.8+.
+
