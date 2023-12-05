@@ -1,0 +1,9 @@
+[mlflow.artifact_repository]
+neptune=neptune_mlflow_plugin.impl.plugin:NeptuneArtifactRepo
+
+[mlflow.tracking_store]
+neptune=neptune_mlflow_plugin.impl.plugin:NeptuneTrackingStore
+
+[neptune.plugins]
+mlflow=neptune_mlflow_exporter:sync
+
