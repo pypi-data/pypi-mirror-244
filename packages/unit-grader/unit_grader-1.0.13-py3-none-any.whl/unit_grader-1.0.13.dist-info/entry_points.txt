@@ -1,0 +1,3 @@
+[console_scripts]
+unit-grader = unit_grader.cli:app
+
