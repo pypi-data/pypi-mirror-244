@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: concopilot-examples
+Version: 0.0.2
+Summary: ConCopilot simple examples.
+Author-email: ZHONG Weikun <zhong.weikun@live.com>
+Project-URL: Homepage, https://github.com/ConCopilot/concopilot-examples
+Project-URL: Bug Tracker, https://github.com/ConCopilot/concopilot-examples/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: concopilot >=0.0.1
+
+# ConCopilot Example Components
+
+This repository provides examples of ConCopilot components varying in various types.
+
+These components are fully functional and can be directly used in ConCopilot framework for LLM Agents.
+
+Developers can also refer to these examples for their own component design.
