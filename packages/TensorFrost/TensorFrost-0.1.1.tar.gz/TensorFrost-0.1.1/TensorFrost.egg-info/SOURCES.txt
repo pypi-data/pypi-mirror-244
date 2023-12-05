@@ -1,0 +1,8 @@
+__init__.py
+setup.py
+TensorFrost/TensorFrost.cp312-win_amd64.pyd
+TensorFrost/__init__.py
+TensorFrost.egg-info/PKG-INFO
+TensorFrost.egg-info/SOURCES.txt
+TensorFrost.egg-info/dependency_links.txt
+TensorFrost.egg-info/top_level.txt
