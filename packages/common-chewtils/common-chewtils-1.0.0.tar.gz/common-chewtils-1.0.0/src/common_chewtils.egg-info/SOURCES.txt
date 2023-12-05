@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/common-chewtils/__init__.py
+src/common_chewtils.egg-info/PKG-INFO
+src/common_chewtils.egg-info/SOURCES.txt
+src/common_chewtils.egg-info/dependency_links.txt
+src/common_chewtils.egg-info/top_level.txt
