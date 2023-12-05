@@ -1,0 +1,8 @@
+vtktonumpy/__init__.py,sha256=QSb_hPwsbj_aRhFWsVAQGD4GDb_6HUmhfe7ilyIcl8Y,62
+vtktonumpy/vtkgrid.py,sha256=Ju0yAgbAqiBTvBMqLV0VMDBmtqjSEPy2r5T5pqQTrPE,5939
+vtktonumpy/vtkreader.py,sha256=CDce7Lbzo_Wyw9dZgqD5eiz-OtVdLULk34N3YBTQVOA,4786
+vtktonumpy-0.2.3.dist-info/LICENSE,sha256=dfT_hN-6gqSWRXac9bzTByGuJ5l5vZ4_IF9GVQTDiBk,1069
+vtktonumpy-0.2.3.dist-info/METADATA,sha256=BW_7zKYmI_s6eQH0HwIAqhFNRk8T_606NVhcmk_4-Rs,2174
+vtktonumpy-0.2.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vtktonumpy-0.2.3.dist-info/top_level.txt,sha256=bSbydO_LhMtw6k0iO8RTOxXTEkLPIveHRuR3UxCzkwA,11
+vtktonumpy-0.2.3.dist-info/RECORD,,
