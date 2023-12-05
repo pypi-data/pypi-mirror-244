@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-exclude requirements.txt
+recursive-exclude RELEASE.sh
