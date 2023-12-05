@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+hf_biceps.egg-info/PKG-INFO
+hf_biceps.egg-info/SOURCES.txt
+hf_biceps.egg-info/dependency_links.txt
+hf_biceps.egg-info/top_level.txt
