@@ -1,0 +1,9 @@
+README.md
+setup.py
+st_kaggle_connector/__init__.py
+st_kaggle_connector/kaggle_connector.py
+st_kaggle_connector.egg-info/PKG-INFO
+st_kaggle_connector.egg-info/SOURCES.txt
+st_kaggle_connector.egg-info/dependency_links.txt
+st_kaggle_connector.egg-info/requires.txt
+st_kaggle_connector.egg-info/top_level.txt
