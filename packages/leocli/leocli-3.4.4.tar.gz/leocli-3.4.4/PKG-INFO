@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: leocli
+Version: 3.4.4
+Summary: A command line translation tool for https://dict.leo.org/
+Home-page: https://github.com/sedrubal/leocli.git
+License: MIT
+Author: sedrubal
+Author-email: dev@sedrubal.de
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: termcolor (>=2.4.0,<3.0.0)
+Requires-Dist: xdg (>=6.0.0,<7.0.0)
+Project-URL: Repository, https://github.com/sedrubal/leocli.git
+Description-Content-Type: text/markdown
+
+# leocli
+
+A command line translation tool for https://dict.leo.org
+
+`leocli` is a python script that queries `dict.leo.org` for one or more given keywords
+and prints their meanings and translations to stdout
+
+# Installation
+
+```sh
+pipx install leocli
+```
+
+## Development install
+
+```sh
+poetry install
+```
+
+Usage
+-----
+
+```sh
+poetry shell
+leo --help
+```
+
+```
+usage: leo [-h] [-l lang] [-e] [--pager pagercmd] [--version] word [word ...]
+
+leocli - a console translation script for https://dict.leo.org/ .
+
+positional arguments:
+  word                  the words you want to translate
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l lang, --lang lang  the languagecode to translate to or from en, fr, es,
+                        it, ch, ru, pt, pl
+  -e, --emojis          Use emoji language flags for languages. Your terminal
+                        font must support this feature.
+  --pager pagercmd      The pager command to use. Default: 'less -R -I -S -X'.
+                        Use `--pager=` to disable the pager.
+  --version             show program's version number and exit
+```
+
+License
+-------
+
+[MIT](COPYING)
+
