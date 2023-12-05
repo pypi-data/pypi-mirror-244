@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.1.4 (04/12/2023) 
+------------------  
+- Minor fix: key_info error 
