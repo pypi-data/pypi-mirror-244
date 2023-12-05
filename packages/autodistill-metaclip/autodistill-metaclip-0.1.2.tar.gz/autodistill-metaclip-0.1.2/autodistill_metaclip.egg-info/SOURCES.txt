@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_metaclip/__init__.py
+autodistill_metaclip/metaclip_model.py
+autodistill_metaclip.egg-info/PKG-INFO
+autodistill_metaclip.egg-info/SOURCES.txt
+autodistill_metaclip.egg-info/dependency_links.txt
+autodistill_metaclip.egg-info/requires.txt
+autodistill_metaclip.egg-info/top_level.txt
