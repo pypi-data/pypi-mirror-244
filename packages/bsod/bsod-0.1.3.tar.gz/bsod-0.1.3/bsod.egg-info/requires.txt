@@ -1,0 +1,4 @@
+pygame
+keyboard
+pywin32
+pyautogui
