@@ -1,0 +1,17 @@
+cpp_solvers.cpython-312-darwin.so,sha256=VpQwK8nq4p75iFEnclJbyCHOW3Ini8CFXHtDw-sscNI,291288
+mssm/models.py,sha256=m1i7iWdo6ZsmL2KZlpu9Co5H0FpSwwPr593K6mk13AI,59333
+mssm/__init__.py,sha256=UzcAsqczLdASUa7fpqQ80AOHjGKKmU89vU9WSn_hCLw,67
+mssm/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mssm/src/python/terms.py,sha256=fUQG2ZS81qWlYupV0AHRMpC5YqtUPhVt1BvefwhZgbw,26775
+mssm/src/python/penalties.py,sha256=UTAVF70QLkwCRUHUUuM7-qwFf2V60r_Tb3GhQAEW60Y,3371
+mssm/src/python/formula.py,sha256=RXjzGFtd2YBJ5Kvvh8S58PN4Dglhgh2Fnye1udKbH6c,67660
+mssm/src/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mssm/src/python/exp_fam.py,sha256=OJCggXPUb60122b--Ou1YLyqRqb-YJ7yiYHhgjHCyxg,3964
+mssm/src/python/gamm_solvers.py,sha256=ksVE7A1gOBiQo3kIRmi3IB22TQ24RcxkkB4wbbAnDno,19065
+mssm/src/python/smooths.py,sha256=OnGqsFRi-FiwHUajcPmjEYBS_z-2WRwyfAhqa0KQjoU,3341
+mssm/src/python/sem.py,sha256=MQey68x2X92ipWYpic_Jy625IKghJKj7IsqDmXEwzzM,26729
+mssm/src/cpp/cpp_solvers.cpp,sha256=E4lE8w3bO17RNIJ3z1iM8sicQJDSeUj8SEs3OPD2xJU,4884
+mssm-0.1.23.dist-info/RECORD,,
+mssm-0.1.23.dist-info/WHEEL,sha256=1_erwh2TCU3TrYzgBQGCtZskLEmw2vbfn7Xu2mHHvyU,111
+mssm-0.1.23.dist-info/top_level.txt,sha256=y3o15MuXm-YPqywtx3SoMcgPOGnz6ZmVe1HY60KFmv8,17
+mssm-0.1.23.dist-info/METADATA,sha256=52gZxhoc45GNs0-AEMo7WVXY3SUwQp7g-vnnEaeFbsQ,2650
