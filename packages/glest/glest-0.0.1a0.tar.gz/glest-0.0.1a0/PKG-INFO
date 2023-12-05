@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: glest
+Version: 0.0.1a0
+Summary: Estimate the grouping loss of your probabilistic classifiers.
+Author-email: Alexandre Perez-Lebel <alexandre.perez@inria.fr>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: nox ; extra == "dev"
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: pydata-sphinx-theme ; extra == "doc"
+Requires-Dist: sphinx-gallery ; extra == "doc"
+Requires-Dist: matplotlib ; extra == "doc"
+Requires-Dist: pillow ; extra == "doc"
+Requires-Dist: numpy==1.22 ; extra == "oldest_deps"
+Requires-Dist: scikit-learn==1.1.3 ; extra == "oldest_deps"
+Requires-Dist: pandas==1.5.1 ; extra == "oldest_deps"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Bug Tracker, https://github.com/aperezlebel/glest/issues
+Project-URL: Homepage, https://github.com/aperezlebel/glest
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: oldest_deps
+Provides-Extra: test
+
+# glest: Estimation of the grouping loss of a probabilistic classifier
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aperezlebel/glest.git/HEAD?labpath=examples%2Fexample.ipynb)
+[![codecov](https://codecov.io/gh/aperezlebel/glest/graph/badge.svg?token=KPDTI0WGUT)](https://codecov.io/gh/aperezlebel/glest)
+[![CI](https://github.com/aperezlebel/glest/actions/workflows/ci.yml/badge.svg)](https://github.com/aperezlebel/glest/actions/workflows/ci.yml)
+
+
+## Install
+
+From PyPi:
+```
+pip install glest
+```
+
+From source:
+```
+pip install git+https://github.com/aperezlebel/glest.git
+```
+
+## Cite
+
+```bibtex
+@inproceedings{perez-lebel2023,
+    title={Beyond calibration: estimating the grouping loss of modern neural networks},
+    author={Alexandre Perez-Lebel and Marine Le Morvan and Gaël Varoquaux},
+    booktitle={Proceedings of the International Conference on Learning Representations},
+    year={2023},
+    url={https://doi.org/10.48550/arXiv.2210.16315}
+}
+```
+
