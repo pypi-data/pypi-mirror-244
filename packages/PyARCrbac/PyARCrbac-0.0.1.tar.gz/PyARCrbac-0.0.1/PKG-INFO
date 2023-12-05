@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PyARCrbac
+Version: 0.0.1
+Summary: a Python library that provides functions for retrieving tokens from local azure metadata service.
+Author: ikbendion (dblonk)
+Author-email: <contact@ikbendion.nl>
+Keywords: python,azure,rbac,azurearc,authentication,azmanagement
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+License-File: LICENSE
