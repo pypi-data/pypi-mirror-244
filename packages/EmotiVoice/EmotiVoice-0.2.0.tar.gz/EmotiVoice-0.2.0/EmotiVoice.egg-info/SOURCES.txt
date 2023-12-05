@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+EmotiVoice.egg-info/PKG-INFO
+EmotiVoice.egg-info/SOURCES.txt
+EmotiVoice.egg-info/dependency_links.txt
+EmotiVoice.egg-info/requires.txt
+EmotiVoice.egg-info/top_level.txt
+text/__init__.py
+text/cleaners.py
+text/cmudict.py
+text/numbers.py
+text/symbols.py
