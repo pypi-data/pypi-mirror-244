@@ -1,0 +1,17 @@
+manage.py,sha256=CNQFtVKuCB53G1ncY7QNQtdxAAOYJOmXrIshiuu3V9g,251
+src/tours/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tours/admin.py,sha256=hRVf_1h5E2lGwSSXC3GllT47Hevzb_Nv02D7FWqzeDQ,1038
+src/tours/apps.py,sha256=r2H6jDEh8HJvuo8k4EZWAyn5dqDqbS6GzhCNofzGOMs,141
+src/tours/forms.py,sha256=c81FuNQk1aldPH_TM7lh90MIYylynChGyDsQ8K9fqCo,1008
+src/tours/models.py,sha256=9D0oRGVJjwh85Cy5bEpm7xD_YWubUtxGaf6Gs2wYlDU,2760
+src/tours/settings.py,sha256=l_VKzPOabQlriVf8Jc2gl2jDlzvV9h4qm24SI3ppOoE,447
+src/tours/urls.py,sha256=-S-tVfI1gUbZxJnGRB7Gc1PQ83Gw_kPY-PeLFFctzB4,198
+src/tours/views.py,sha256=ZxoAEiXq1IudRKLcO5dk5K-DN56_8V5L2bSoQYglm7o,500
+src/tours/migrations/0001_initial.py,sha256=iyUOO4MUjVmxBuXRPuOOhkk7jIUFBbcVDID6G_FomRQ,2935
+src/tours/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tours/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tours/templatetags/tours.py,sha256=UbLxWXvWc9seabYTvAjV57rhSZh5tMGrOalt6FLvTlU,1308
+django_tours-0.0.4.dist-info/METADATA,sha256=VVG0lQLO0LXi9MoxWoh1b8nFqZOfEeyhwvxWtpEjiVc,3462
+django_tours-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+django_tours-0.0.4.dist-info/licenses/LICENSE,sha256=bP13N_gH37azQWg13283pkJU_NcxcCEavy3FJZNPpnw,1072
+django_tours-0.0.4.dist-info/RECORD,,
