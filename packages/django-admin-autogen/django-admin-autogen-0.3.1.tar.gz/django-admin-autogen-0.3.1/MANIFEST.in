@@ -1,0 +1,2 @@
+include autogen/*.py
+include README.md
