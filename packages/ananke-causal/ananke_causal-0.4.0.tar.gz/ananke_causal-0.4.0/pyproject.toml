@@ -1,0 +1,127 @@
+[tool.poetry]
+name = "ananke-causal"
+version = "0.4.0"
+description = "Ananke, named for the Greek primordial goddess of necessity and causality, is a python package for causal inference using the language of graphical models."
+documentation = "https://ananke.readthedocs.io/en/latest/index.html"
+repository = "https://gitlab.com/causal/ananke"
+authors = ["Ananke community <rbhatta8@jhu.edu>"]
+maintainers = []
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"License :: OSI Approved :: Apache Software License",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9"
+]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "ananke"}]
+
+include = ['docs', 'tests', 'integration_tests', 'CONTRIBUTING.md', 'LICENSE']
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scipy = "^1.8.1"
+numpy = "^1.23.0" 
+pandas = "^1.4.3"
+statsmodels = "^0.13.2"
+pygraphviz = { version = "*", optional = true }
+pgmpy = "^0.1.21"
+graphviz = { version = "^0.20.1", optional = true }
+torch = { version = "^2.0.0, !=2.0.1, !=2.1.0", optional = true }
+mystic = "^0.4.0"
+jax = "^0.4.8"
+jaxlib = "^0.4.7"
+matplotlib = "^3.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.16.0"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+pytest-split = "^0.8.0"
+jupyter = "^1.0.0"
+flake8 = "^4.0.1"
+tox = "^3.25.0"
+twine = "^4.0.0"
+wheel = "^0.38.0"
+black = { version = "^22.6.0", extras = ["jupyter"] }
+isort = "^5.12.0"
+pre-commit = "^3.0.4"
+
+[tool.poetry.group.docs.dependencies]
+Sphinx = "^4.0.0"
+nbsphinx = "^0.8.8"
+sphinx-rtd-theme = "^1.0.0" 
+pandoc = "^2.2"
+sphinxcontrib-bibtex = "^2.6.1"
+
+[tool.poetry.group.build.dependencies]
+GitPython = "*"
+parse-changelog = "^1.0.2"
+
+[tool.poetry.extras]
+viz = ['pygraphviz', 'graphviz']
+opt = ['torch']
+
+[tool.poe.tasks]
+# stop the build if there are Python syntax errors or undefined names
+_flake8Errors = "flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics"
+_flake8Warnings = "flake8 . --count --exit-zero --statistics"
+_black = 'black .'
+_isort = 'isort .'
+_black_check = 'black --check .'
+_isort_check = 'isort --check .'
+
+# testing tasks
+test = "pytest -v -m 'not advanced' --durations=0 --durations-min=60.0"
+test_durations = "poetry run poe test --store-durations"
+test_advanced = "pytest -v"
+test_focused = "pytest -v -m 'focused'"
+
+[tool.poe.tasks.format]
+sequence = ['_black', '_isort']
+ignore_fail = 'return_non_zero'
+
+[tool.poe.tasks.format_check]
+sequence = ['_black_check', '_isort_check']
+ignore_fail = 'return_non_zero'
+
+[tool.poe.tasks.lint]
+sequence = ['_flake8Errors', '_flake8Warnings']
+ignore_fail = 'return_non_zero'
+
+[tool.poe.tasks.verify]
+sequence = ['lint', 'format_check', 'test']
+ignore_fail = "return_non_zero"
+
+[tool.black]
+line-length = 80
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+(
+      __pycache__
+    | \.github
+    | \.venv
+    | env
+)
+'''
+
+[tool.pylint]
+max-line-length = 80
+disable = ["W0511"]
+
+[tool.isort]
+profile = 'black'
+multi_line_output = 3
+line_length = 80
+py_version = 38
+skip = ["env", ".tox", ".venv"]
+
+[virtualenvs]
+create = true
+in-project = true
