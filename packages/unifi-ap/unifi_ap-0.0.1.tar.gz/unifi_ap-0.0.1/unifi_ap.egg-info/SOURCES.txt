@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+unifi_ap/__init__.py
+unifi_ap/unifi_ap.py
+unifi_ap.egg-info/PKG-INFO
+unifi_ap.egg-info/SOURCES.txt
+unifi_ap.egg-info/dependency_links.txt
+unifi_ap.egg-info/requires.txt
+unifi_ap.egg-info/top_level.txt
