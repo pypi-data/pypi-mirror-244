@@ -1,0 +1,17 @@
+swh/perfecthash/__init__.py,sha256=HfahYo931qKg7z0hzCg7d7xpDf3UVjkq_Ey2qO8-rzI,7806
+swh/perfecthash/build.py,sha256=GRYiP6rfYmAMf6Yx2bfWlu_FyzZujgnkt_DD7SxhDrQ,1747
+swh/perfecthash/hash.c,sha256=9-Ymtvkd6QC1-8_qoTi5JHCcKDMv-noT8gFsBJGGgAE,15052
+swh/perfecthash/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+swh/perfecthash/hash.h,sha256=TnKPgCZ8g4k_tvW6QtsMHFqVReAzwaIIfHuqWuES3ng,1585
+swh/perfecthash/test_hash.cpp,sha256=GWayXAXbR1X9WrH3RoU_Glz6ezYNSxoDw5ZYo5XAlnE,5600
+swh/perfecthash/Makefile,sha256=6JEzUzCizRYlJSRC3dyoEsP_2ndLUSVCCprkI3VWw2g,552
+swh/perfecthash/_hash_cffi.abi3.so,sha256=sRe5vdRnwHjAQAvWx_Y5EhPM0nJOlfUy9a2pXEBfukc,83361
+swh/perfecthash/tests/test_hash.py,sha256=O6Kk2rm_v_Y2pyQocxYJEu9HqwIF5E3EckplRvE8fuk,9012
+swh/perfecthash/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swh.perfecthash-1.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+swh.perfecthash-1.2.0.dist-info/METADATA,sha256=WufctC8H4Rv6zOYPcYsU6F9vs5caD0H7qaskJ8qgTNQ,1849
+swh.perfecthash-1.2.0.dist-info/AUTHORS,sha256=mlEi3UA90jMX6bVUsCsHJ6dvp5LV0bjYT-cRTps5yfg,112
+swh.perfecthash-1.2.0.dist-info/WHEEL,sha256=lE0vTS5tMv6cNa5mgOXaMmKQAKTWXDVMJTjkAo--ldA,144
+swh.perfecthash-1.2.0.dist-info/top_level.txt,sha256=8XlamXOHbQHPR7Tn7kZa8F4ufiLuK-BL_bZje5MY9hw,4
+swh.perfecthash-1.2.0.dist-info/RECORD,,
+swh.perfecthash.libs/libcmph-c86397e2.so.0.0.0,sha256=SV8IkYeP6oYGnPRJl08OoIfnJ5ZnDysk-hnTw3ENygc,466213
