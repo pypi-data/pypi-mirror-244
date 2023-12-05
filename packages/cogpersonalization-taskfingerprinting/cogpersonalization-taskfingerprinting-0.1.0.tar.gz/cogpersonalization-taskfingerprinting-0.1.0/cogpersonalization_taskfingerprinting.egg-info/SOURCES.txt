@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+cogpersonalization_taskfingerprinting.egg-info/PKG-INFO
+cogpersonalization_taskfingerprinting.egg-info/SOURCES.txt
+cogpersonalization_taskfingerprinting.egg-info/dependency_links.txt
+cogpersonalization_taskfingerprinting.egg-info/top_level.txt
