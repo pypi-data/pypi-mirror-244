@@ -1,0 +1,3 @@
+[console_scripts]
+bluprint=bluprint.cli:main
+
