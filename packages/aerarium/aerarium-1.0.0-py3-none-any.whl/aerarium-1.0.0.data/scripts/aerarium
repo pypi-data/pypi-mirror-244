@@ -1,0 +1,71 @@
+#!python
+
+import argparse
+import yaml
+from datetime import datetime
+from aerarium.accounts import Accounts
+from aerarium.utils import CONFIG_FILE_PATH, generate_config, make_config
+from aerarium.stats import predict_spending_for_n_days
+
+
+def load_config():
+    try:
+        with open(CONFIG_FILE_PATH, "r") as file:
+            config = yaml.load(file, Loader=yaml.FullLoader)
+    except FileNotFoundError:
+        config = generate_config()
+        make_config(config)
+    return config
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Aerarium CLI Tool")
+    parser.add_argument(
+        "--balance", "-b", action="store_true", help="Check account balance"
+    )
+    parser.add_argument(
+        "--withdraw", "-w", type=float, help="Withdraw amount from the account"
+    )
+    parser.add_argument(
+        "--deposit", "-d", type=float, help="Deposit amount into the account"
+    )
+    parser.add_argument(
+        "--transactions", "-t", action="store_true", help="Show transactions"
+    )
+    parser.add_argument(
+        "--predict",
+        "-p",
+        type=int,
+        help="Predict spending amount for a given number of days into the future",
+    )
+
+    args = parser.parse_args()
+
+    config = load_config()
+    account_name = config["account_name"]
+    account_balance = config["account_balance"]
+
+    a = Accounts(account_name, account_balance)
+
+    if args.balance:
+        print(f"Current balance: {a.check_balance()}")
+    elif args.withdraw:
+        description = input("Enter withdrawal description: ")
+        category = input("Enter withdrawal category: ")
+        amount = args.withdraw
+        print(f"Balance: {a.withdraw(amount, description, category)}")
+    elif args.deposit:
+        description = input("Enter deposit description: ")
+        category = input("Enter deposit category: ")
+        amount = args.deposit
+        print(f"Balance: {a.deposit(amount, description, category)}")
+    elif args.transactions:
+        a.get_transactions()
+    elif args.predict:
+        predict_spending_for_n_days(args.predict)
+    else:
+        print("No valid command provided. Use --help for usage information.")
+
+
+if __name__ == "__main__":
+    main()
