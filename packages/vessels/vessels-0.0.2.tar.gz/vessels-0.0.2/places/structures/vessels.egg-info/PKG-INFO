@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vessels
+Version: 0.0.2
+Summary: flask tools
+Description-Content-Type: text/plain
+
+
+
+
+vessels
+
+
+	similar:
+		https://pypi.org/project/uvicorn/
