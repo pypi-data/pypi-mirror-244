@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.7 (04/12/2023) 
+------------------  
+- Rename methods and moved them into classes. 
