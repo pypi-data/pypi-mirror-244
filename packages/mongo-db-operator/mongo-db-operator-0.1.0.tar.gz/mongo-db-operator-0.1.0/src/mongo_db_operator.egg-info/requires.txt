@@ -1,0 +1,2 @@
+seriattrs
+pymongo>=4.6.0
