@@ -1,0 +1,26 @@
+Model:
+  todos:
+    - field:
+        name: todo
+        type: string
+        nullable: false
+    - field:
+        name: status
+        type: int
+        nullable: true
+    - field:
+        name: details
+        type: string
+        nullable: true
+
+DocumentStructure:
+  Sections:
+    - section:
+        heading: "## Private"
+        type: todos
+        is_list: true
+        list_specifier: list
+
+Config:
+  database: test_todo.db
+  template: tests/resources/todo.md
