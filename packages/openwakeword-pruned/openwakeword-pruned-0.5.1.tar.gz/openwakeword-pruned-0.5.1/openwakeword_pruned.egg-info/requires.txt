@@ -1,0 +1,18 @@
+onnxruntime<2,>=1.10.0
+tqdm<5.0,>=4.0
+requests<3,>=2.0
+
+[:platform_system == "Linux"]
+tflite-runtime<3,>=2.8.0
+
+[test]
+pytest<8,>=7.2.0
+pytest-cov<3,>=2.10.1
+pytest-flake8<2,>=1.1.1
+flake8<4.1,>=4.0
+pytest-mypy<1,>=0.10.0
+types-requests
+types-PyYAML
+mock<6,>=5.1
+types-mock<6,>=5.1
+types-requests<3,>=2.0
