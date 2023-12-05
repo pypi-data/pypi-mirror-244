@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: slippage_tabulator
+Version: 0.3.0
+Summary: This is the slippage_tabulator module.
+Author-email: David Desjardins <david.thegardens@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
