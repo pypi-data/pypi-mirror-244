@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: px_services
+Version: 0.0.2
+Summary: A blockchain Wallet Service APIs
+Home-page: 
+Author: Prince Foli
+Author-email: princefoli@qodehub.com
+Keywords: Blockchain,Wallet,HDWallet,BlockCypher
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+License-File: LICENSE.txt
