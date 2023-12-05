@@ -1,0 +1,58 @@
+name: Build CLI
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ macos-latest, windows-latest ]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: Checkout my repository
+      uses: actions/checkout@v3
+    - name: Set up GraalVM
+      uses: graalvm/setup-graalvm@v1
+      with:
+        java-version: 21
+        cache: gradle
+    - name: Compile
+      run: |
+        ./gradlew mahjong-utils-cli:nativeCompile
+    - name: Rename Binary (for Windows)
+      if: ${{ matrix.os == 'windows-latest' }}
+      run: |
+        mv mahjong-utils-cli/build/native/nativeCompile/mahjong-utils-cli.exe mahjong-utils-cli/build/native/nativeCompile/mahjong-utils-cli-windows-amd64.exe
+    - name: Rename Binary (for macOS)
+      if: ${{ matrix.os == 'macos-latest' }}
+      run: |
+        mv mahjong-utils-cli/build/native/nativeCompile/mahjong-utils-cli mahjong-utils-cli/build/native/nativeCompile/mahjong-utils-cli-maxos-amd64
+    - name: Upload the Build Artifact
+      uses: actions/upload-artifact@v3.1.1
+      with:
+          name: distribution
+          path: mahjong-utils-cli/build/native/nativeCompile/*
+
+  build-on-linux:
+    runs-on: ubuntu-latest
+    container: quay.io/pypa/manylinux_2_28_x86_64
+    steps:
+      - name: Checkout my repository
+        uses: actions/checkout@v3
+      - name: Set up GraalVM
+        uses: graalvm/setup-graalvm@v1
+        with:
+          java-version: 21
+          cache: gradle
+      - name: Compile
+        run: |
+          ./gradlew mahjong-utils-cli:nativeCompile
+      - name: Rename Binary
+        run: |
+          mv mahjong-utils-cli/build/native/nativeCompile/mahjong-utils-cli mahjong-utils-cli/build/native/nativeCompile/mahjong-utils-cli-linux-amd64
+      - name: Upload the Build Artifact
+        uses: actions/upload-artifact@v3.1.1
+        with:
+          name: distribution
+          path: mahjong-utils-cli/build/native/nativeCompile/*
