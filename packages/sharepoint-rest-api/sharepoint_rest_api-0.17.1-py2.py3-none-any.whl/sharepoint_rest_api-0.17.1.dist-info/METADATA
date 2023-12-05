@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: sharepoint-rest-api
+Version: 0.17.1
+Summary: Provide REST API (DRF style) for SharePoint
+Project-URL: Homepage, https://github.com/domdinicola/sharepoint-rest-api
+Author-email: Domenico Di Nicola <domdinicola@unicef.org>
+License-Expression: Apache-2.0 OR MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: django
+Requires-Dist: django-filter
+Requires-Dist: django-model-utils
+Requires-Dist: djangorestframework
+Requires-Dist: office365-rest-python-client>=2.4
+Provides-Extra: test
+Requires-Dist: django-webtest; extra == 'test'
+Requires-Dist: drf-api-checker; extra == 'test'
+Requires-Dist: factory-boy; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: isort; extra == 'test'
+Requires-Dist: mock; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-django; extra == 'test'
+Requires-Dist: pytest-echo; extra == 'test'
+Requires-Dist: pytest-redis; extra == 'test'
+Requires-Dist: requests-mock; extra == 'test'
+Requires-Dist: sphinx; extra == 'test'
+Requires-Dist: unittest2; extra == 'test'
+Requires-Dist: vcrpy; extra == 'test'
+Description-Content-Type: text/x-rst
+
+SharePoint Rest API
+===================
+
+
+Installation
+------------
+
+.. code-block:: bash
+
+    pip install sharepoint-rest-api
+
+
+Setup
+-----
+
+Add `sharepoint_rest_api` to ``INSTALLED_APPS`` in settings
+
+.. code-block:: bash
+
+    INSTALLED_APPS = [
+        'sharepoint_rest_api',
+    ]
+
+
+Documentation
+-------------
+
+Documentation can be found at https://sharepoint-rest-api.readthedocs.io/en/latest/
+
+
+Links
+~~~~~
+
++--------------------+----------------+--------------+--------------------------+
+| Stable             | |master-build| | |master-cov| |                          |
++--------------------+----------------+--------------+--------------------------+
+| Development        | |dev-build|    | |dev-cov|    |                          |
++--------------------+----------------+--------------+--------------------------+
+| Source Code        |https://github.com/domdinicola/sharepoint-rest-api        |
++--------------------+----------------+-----------------------------------------+
+| Issue tracker      |https://github.com/domdinicola/sharepoint-rest-api/issues |
++--------------------+----------------+-----------------------------------------+
+
+
+.. |master-build| image:: https://secure.travis-ci.org/domdinicola/sharepoint-rest-api.svg?branch=master
+                    :target: http://travis-ci.org/domdinicola/sharepoint-rest-api/
+
+.. |master-cov| image:: https://codecov.io/gh/domdinicola/sharepoint-rest-api/branch/master/graph/badge.svg
+                    :target: https://codecov.io/gh/domdinicola/sharepoint-rest-api
+
+.. |dev-build| image:: https://secure.travis-ci.org/domdinicola/sharepoint-rest-api.svg?branch=develop
+                  :target: http://travis-ci.org/domdinicola/sharepoint-rest-api/
+
+.. |dev-cov| image:: https://codecov.io/gh/domdinicola/sharepoint-rest-api/branch/develop/graph/badge.svg
+                    :target: https://codecov.io/gh/domdinicola/sharepoint-rest-api
+
+
+
+Compatibility Matrix
+--------------------
+
+Stable
+~~~~~~
+.. image:: https://travis-matrix-badges.herokuapp.com/repos/domdinicola/sharepoint-rest-api/branches/master
+
+Develop
+~~~~~~~
+.. image:: https://travis-matrix-badges.herokuapp.com/repos/domdinicola/sharepoint-rest-api/branches/develop
