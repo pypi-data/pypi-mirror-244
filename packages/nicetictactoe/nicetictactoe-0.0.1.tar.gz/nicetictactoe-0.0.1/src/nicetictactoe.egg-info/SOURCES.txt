@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+src/nicetictactoe.egg-info/PKG-INFO
+src/nicetictactoe.egg-info/SOURCES.txt
+src/nicetictactoe.egg-info/dependency_links.txt
+src/nicetictactoe.egg-info/requires.txt
+src/nicetictactoe.egg-info/top_level.txt
