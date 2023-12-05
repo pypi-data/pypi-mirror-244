@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_transformers/__init__.py
+autodistill_transformers/transformers_model.py
+autodistill_transformers.egg-info/PKG-INFO
+autodistill_transformers.egg-info/SOURCES.txt
+autodistill_transformers.egg-info/dependency_links.txt
+autodistill_transformers.egg-info/requires.txt
+autodistill_transformers.egg-info/top_level.txt
