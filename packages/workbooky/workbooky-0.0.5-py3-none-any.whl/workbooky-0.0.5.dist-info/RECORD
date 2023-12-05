@@ -1,0 +1,13 @@
+workbooky/__init__.py,sha256=owZn3dKlPDPbx3tGw77jNYgtePQYx3sBBC8D3NxDyO4,141
+workbooky/_version.py,sha256=eB5tEg_BNHHsJgQexgmpZJr4c2VbfooQZMXAWuDHoIg,22
+workbooky/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workbooky/src/workbook.py,sha256=FI5B_n4Jr2sLTFGgaifvjXfY40a9_E4fciFuzUYHOGo,2954
+workbooky/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workbooky/tests/test_workbook.py,sha256=ojTlJQmBdvw2gnLPUTSWoXFv2kJMR8cqx0F3fmvW_yg,1788
+workbooky/tests/test_data/invalid_workbook.xlsx,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workbooky/tests/test_data/valid_workbook.xlsx,sha256=1Xf0_Z59mhOSZVRnIVUS2ueEKkMkUB6U_neJ_SX19OQ,5381
+workbooky-0.0.5.dist-info/LICENSE.txt,sha256=4h0e1iLfuruOGdqDfs8-aua1e_Ma97UnS8ZfwAau8aE,33889
+workbooky-0.0.5.dist-info/METADATA,sha256=yXdhLmQytiKG76kjwS4WxCpmlAqiuuV12kkAbOKQceg,1085
+workbooky-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+workbooky-0.0.5.dist-info/top_level.txt,sha256=xMGGNEt92YgBiN26WUNU2BgAbRsWjZRgrcAKi0zdDbc,10
+workbooky-0.0.5.dist-info/RECORD,,
