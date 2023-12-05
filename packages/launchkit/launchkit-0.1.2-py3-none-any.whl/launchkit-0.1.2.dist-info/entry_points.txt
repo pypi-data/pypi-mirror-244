@@ -1,0 +1,3 @@
+[console_scripts]
+launchcontrol = launchcontrol.cli:app
+
