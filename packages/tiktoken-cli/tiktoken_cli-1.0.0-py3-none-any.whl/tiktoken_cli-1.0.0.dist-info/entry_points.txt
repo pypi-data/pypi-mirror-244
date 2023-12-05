@@ -1,0 +1,2 @@
+[console_scripts]
+tiktoken = tiktoken_cli:encode
