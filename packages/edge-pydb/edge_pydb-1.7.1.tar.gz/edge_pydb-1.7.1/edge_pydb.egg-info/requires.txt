@@ -1,0 +1,13 @@
+numpy
+scipy
+astropy
+pandas
+radio_beam
+matplotlib
+requests
+h5py
+uncertainties
+
+[do_califa]
+pyFIT3D
+reproject
