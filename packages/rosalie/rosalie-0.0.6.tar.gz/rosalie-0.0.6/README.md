@@ -1,0 +1,62 @@
+# rosalie
+
+A simple tool to compare experiment evaluation methods.
+
+Related documents:
+- [Project scoping one-pager](https://docs.google.com/document/d/1hO2YyY-1JCOciWcEN8umwh3hrQ6w5RflvWVS7LiG3Ug/edit#heading=h.qn9nxtmchns2)
+- [Design document](https://docs.google.com/document/d/14SgxbImFB-A_thvLnadDU68Qg5dzgFiCD9pBufV9rUs/edit)
+
+
+## Developer workflow
+
+- Published version lives on `main`.
+- Development version lives on `dev`.
+- New features are separate branches off `dev`.
+- To publish a new feature, merge it into `dev` for testing, then merge into `main` to publish.
+
+
+## Documentation
+
+Definitions:
+
+- `preprocessors` are functions that preprocess the data prior to experiment evaluation (e.g. create CUPED adjustment). These are passed to the simulation engine.
+
+- `evaluators` are functions that create experiment evaluation results. These are passed to the simulation engine.
+
+
+Workflow:
+
+- Load data in the schema you need.
+
+- Instantiate an `Evaluator` instance and pass data, preprocessors, and evaluators.
+
+- To create a preprocessor or an evaluator, simply define a function with the appropriate decorator. Decorators are used to easily select (add decorator) and deselect (remove decorator) callables that are passed to the engine without having to change the code in multiple places. For instance, to create an evaluator, use:
+
+    ```
+    @evaluator
+    def some_evaluator(df):
+        ...
+    ```
+
+- Preprocessors are optional. You can provide one or more preprocessor. Results are calculated separately for each preprocessor. If none are passed, data is passed directly to the evaluators. If one is passed, experiments will be evaluated separately for "no preprocessing" and the passed preprocessor. If more than one is passed, experiments will be evaluated separtely for each passed preprocessor.
+
+- Evaluators are optional. You can provide one or more evaluator. Results are calculated separately for each evaluator. If none are passed, preprocessed data is evaluated using the default evaluator. If one is passed, experiments will be evaluated separately for the default evaluator and the passed evaluator. If more than one is passed, experiments will be evaluated separtely for each passed evaluator.
+
+- Most of the time, you will either want to pass one or more preprocessors or one or more evaluators.
+
+- It is the responsibility of the user to ensure that the schema of data passed to one callable corresponds to the schema expected by said callable.
+
+
+Gotchas: 
+
+**Evaluator side effects**
+
+- Ensure that your evaluator methods don't have side effects. For instance, if your evaluator changes values in the dataset it is passed, this can affect the results of evaluators used later on.
+- For example: if you define first run an evaluator that CUPED-adjusts the metric and that overwrites the metric value in the dataset, then subsequent evaluators that don't CUPED-adjust the metric but are just evaluating the metric will effectively be evaluating the CUPED-adjusted metric.
+- To avoid this, make sure that your evaluator methods don't change the dataset they are passed. If you need to change the dataset, make a copy of it first and change that copy.
+- We could also deal with this in the evaluator class, by making a copy of the sample data before it is passed to each evaluator. But this would be inefficient, so it's better to deal with it in the evaluator methods themselves.
+ 
+
+## For the curious
+
+In [Three Little Nuts for Cinderella](https://en.wikipedia.org/wiki/T%C5%99i_o%C5%99%C3%AD%C5%A1ky_pro_Popelku), "Rosalie" is Cinderella's wise pet owl that helps her make good choices; the hope is that this package does the same for its users.
