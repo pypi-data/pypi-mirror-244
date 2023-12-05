@@ -1,0 +1,7 @@
+tox
+coverage
+flake8
+ipdb
+setuptools
+
+boto3
