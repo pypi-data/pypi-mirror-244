@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+pyproject.toml
+cognitivepersonalizationtaskfingerprinting.egg-info/PKG-INFO
+cognitivepersonalizationtaskfingerprinting.egg-info/SOURCES.txt
+cognitivepersonalizationtaskfingerprinting.egg-info/dependency_links.txt
+cognitivepersonalizationtaskfingerprinting.egg-info/top_level.txt
