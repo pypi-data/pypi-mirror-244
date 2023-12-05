@@ -1,0 +1,16 @@
+rosalie/.DS_Store,sha256=IwM8FQ7DcnlFM4Xeo8oxTCls8kuX4vqaEEqyzZ8a840,6148
+rosalie/__init__.py,sha256=MZdwHKoihJMC8fqu_uQBmLD6CXPD3VMfuglF9QcOpjY,122
+rosalie/evaluator.py,sha256=5HILxASAey7v1qKosE2Em8Cyb9HmL_NUcWtJCe-acQg,10048
+rosalie/datasets/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+rosalie/datasets/customer.csv,sha256=96OWanqomusuAm1poSzB76LMCngFHyZjQICqdQjCwZo,1438154
+rosalie/sql/city.sql,sha256=TrQlqcGhl3CRZZUUkhPAR9YemFmzz34421aK91Dt6x0,260
+rosalie/sql/customer.sql,sha256=tOeZrdVdsN-0DRwqgvuNqiLJiPRnJnR0k2bRE4Wjn1w,426
+rosalie/sql/restaurant.sql,sha256=0m-YBVG-ytLJVVnqXOWB8DLueu2wamXUCyw3tglKqK4,222
+rosalie/utils/.DS_Store,sha256=IwM8FQ7DcnlFM4Xeo8oxTCls8kuX4vqaEEqyzZ8a840,6148
+rosalie/utils/datasets.py,sha256=iKy0GNTsgeRv_Sp7JrvfeorRLsiGKSfKfWoQ2jA67vQ,439
+rosalie/utils/evaluators.py,sha256=L818xbhQ3gAZ7XFMhXACueXh3Y7ikLCh3cHr2Mbj4_E,272
+rosalie/utils/helpers.py,sha256=BkFFeihZVDB3RqFU__PtYT9j780egVxqQGg5WDLawzw,8057
+rosalie-0.0.3.dist-info/METADATA,sha256=BiZtNpR7XWlcw9USTv2LunbXaCBADzmGSwtSF9mKXGQ,3591
+rosalie-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+rosalie-0.0.3.dist-info/licenses/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+rosalie-0.0.3.dist-info/RECORD,,
