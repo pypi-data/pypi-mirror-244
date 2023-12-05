@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "egc"
+version = "0.2.2"
+authors = [{ name = "EAGLE-Lab", email = "galo.gm.work@gmail.com" }]
+keywords = ["graph", "graph clustering", "community detection"]
+description = "Benchmark of Graph Clustering."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "torch>=1.12",
+    "torch-geometric>=2.0",
+    "torchaudio>=0.10.2",
+    "torchvision>=0.11.3",
+    "dgl>=1.1.0",
+    "dglgo>=0.0.2",
+    "gdown>=4.7",
+    "wget>=3.2",
+    "texttable>=1.6",
+    "Cython>=3.0.5",
+    "seaborn>=0.13.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/eaglelab-zju/EGC"
+"Bug Tracker" = "https://github.com/eaglelab-zju/EGC/issues"
+
+
+[tool.yapf]
+based_on_style = "facebook"
+indent_width = 4
+split_before_first_argument = true
+split_arguments_when_comma_terminated = true
+indent_dictionary_value = true
+column_limit = 100
+
+[tool.yapfignore]
+
+[tool.black]
+line-length = 100
+
+[tool.semantic_release]
+version_variables = ["egc/__init__.py:__version__", "docs/conf.py:release"]
+version_toml = ["pyproject.toml:project.version"]
+major_on_zero = false
+changelog_file = "CHANGELOG.md"

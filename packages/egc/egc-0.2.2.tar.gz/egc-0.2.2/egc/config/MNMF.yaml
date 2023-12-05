@@ -1,0 +1,27 @@
+alpha:
+  default: 0.05
+  help: "Clustering penalty. Defaults to 0.05."
+
+beta:
+  default: 0.05
+  help: "Modularity regularization penalty. Defaults to 0.05."
+
+lambd:
+  default: 0.2
+  help: "KKT penalty. Defaults to 0.2"
+
+eta:
+  default: 5.0
+  help: "Similarity mixing parameter. Defaults to 5.0."
+
+dimensions:
+  default: 16
+  help: "Number of dimensions. Defaults to 128."
+
+lower_control:
+  default: 10.0e-15
+  help: "Lowest possible component value. Defaults to 10.0e-15."
+
+iterations:
+  default: 200
+  help: "Number of training iterations. Defaults to 100."

@@ -1,0 +1,23 @@
+epochs:
+  default: 400
+  help: "Number of epochs to train."
+
+lr:
+  default: 0.3
+  help: "Learning rate. Defaults to 0.3."
+
+dropout:
+  default: 0
+  help: "Dropout rate (1 - keep probability)."
+
+hidden1:
+  default: 32
+  help: "Number of units in hidden layer 1."
+
+early_stopping_epoch:
+  default: 50
+  help: "early stopping threshold. Defaults to 50."
+
+activation:
+  default: 'relu'
+  help: "activation of gcn layer1. Defaults to 'relu'."

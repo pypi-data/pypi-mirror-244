@@ -1,0 +1,76 @@
+n_h:
+  type: "int"
+  default: 512
+  help: "hidden units dimension. Defaults to 512."
+nb_epochs:
+  type: "int"
+  default: 1500
+  help: "Epoch number of GDCL . Defaults to 1500."
+lr:
+  type: "float"
+  default: 0.00005
+  help: "Learning rate of GDCL. Defaults to 0.00005."
+alpha:
+  type: "float"
+  default: 0.0001
+  help: "alpha parameter of distribution. Defaults to 0.0001."
+mask_num:
+  type: "int"
+  default: 100
+  help: "mask number. Defaults to 100."
+batch_size:
+  type: "int"
+  default: 4
+  help: "batch size of GDCL. Defaults to 4."
+update_interval:
+  type: "int"
+  default: 10
+  help: "update interval of GDCL. Defaults to 10."
+model_filename:
+  type: "str"
+  default: "gdcl"
+  help: "model filename of GDCL. Defaults to 'gdcl'."
+beta:
+  type: "float"
+  default: 0.0001
+  help: "balance factor. Defaults to 10e-4."
+weight_decay:
+  type: "float"
+  default: 0.0
+  help: "weight decay of GDCL. Defaults to 0.0."
+pt_n_h:
+  type: "int"
+  default: 512
+  help: "hidden units dimension of pretrained MVGRL. Defaults to 512."
+pt_model_filename:
+  type: "str"
+  default: "mvgrl"
+  help: "model filename of pretrained MVGRL. Defaults to 'mvgrl'."
+pt_nb_epochs:
+  type: "int"
+  default: 3000
+  help: "epoch number of pretrained MVGRL. Defaults to 3000."
+pt_patience:
+  type: "int"
+  default: 20
+  help: "patience of pretrained MVGRL. Defaults to 20."
+pt_lr:
+  type: "float"
+  default: 0.001
+  help: "learning rate of pretrained MVGRL. Defaults to 0.001."
+pt_weight_decay:
+  type: "float"
+  default: 0.001
+  help: "weight decay of pretrained MVGRL. Defaults to 0.0."
+pt_sample_size:
+  type: "int"
+  default: 2000
+  help: "sample size of pretrained MVGRL. Defaults to 2000."
+pt_batch_size:
+  type: "int"
+  default: 4
+  help: "batch size of pretrained MVGRL. Defaults to 4."
+sparse:
+  type: "bool"
+  default: False
+  help: "if sparse. Defaults to False."

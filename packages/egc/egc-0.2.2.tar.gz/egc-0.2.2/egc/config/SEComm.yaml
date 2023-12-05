@@ -1,0 +1,107 @@
+activation:
+  default: 'prelu'
+  help: "activation function for Encoder"
+
+base_model:
+  default: 'GCNConv'
+  help: "base model for Encoder"
+
+batch_size:
+  default: 0
+  help: "batch size"
+
+num_hidden:
+  default: 512
+  help: "number of hidden layer units"
+
+num_layers:
+  default: 2
+  help: "number of base model layers"
+
+num_proj_hidden:
+  default: 512
+  help: "number of proj hidden layer units"
+
+tau:
+  default: 0.9
+  help: "tau is a temperature parameter"
+
+num_cl_hidden:
+  default: 64
+  help: "number of cluster hidden layer units"
+
+dropout:
+  default: 0.0
+  help: "dropout"
+
+pretrain_epochs:
+  default: 200
+  help: "epochs size of pretrain"
+
+learning_rate:
+  default: 0.0005
+  help: "learning rate"
+
+weight_decay:
+  default: 0.00001
+  help: "weight decay"
+
+drop_edge_rate_1:
+  default: 0.2
+  help: "drop edge rate 1"
+
+drop_edge_rate_2:
+  default: 0.0
+  help: "drop edge rate 2"
+
+drop_feature_rate_1:
+  default: 0.3
+  help: "drop feature rate 1"
+
+drop_feature_rate_2:
+  default: 0.2
+  help: "drop feature rate 2"
+
+x_norm:
+  default: True
+  help: "if use normalize to node embedding"
+
+iterations:
+  default: 1
+  help: "number of Self-Expressive iterations"
+
+threshold:
+  default: 0.5
+  help: "threshold"
+
+se_epochs:
+  default: 100
+  help: "epochs size of Self-Expressive module"
+
+se_alpha:
+  default: 12.0
+  help: "se loss reg"
+
+se_patience:
+  default: 40
+  help: "patience of Self-Expressive module"
+
+se_lr:
+  default: 0.001
+  help: "learning rate of Self-Expressive module"
+
+cluster_epochs:
+  default: 600
+  help: "epochs size of cluster module"
+
+cluster_alpha:
+  default: 0.001
+  help: "cluster loss reg"
+
+final_beta:
+  default: 1.0
+  help: "final loss reg"
+
+cluster_patience:
+  default: 40
+  help: "patience of cluster module"

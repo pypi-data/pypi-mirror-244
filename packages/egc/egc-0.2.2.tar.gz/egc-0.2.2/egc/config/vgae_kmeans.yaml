@@ -1,0 +1,32 @@
+epochs:
+  default: 200
+  help: "Number of epochs to train."
+
+lr:
+  default: 0.01
+  help: "Learning rate. Defaults to 0.01."
+
+hidden1:
+  default: 128
+  help: "Number of units in hidden layer 1."
+
+hidden2:
+  default: 64
+  help: "Number of units in hidden layer 2."
+
+dropout:
+  default: 0.0
+  help: "Dropout rate (1 - keep probability)."
+
+
+early_stopping_epoch:
+  default: 50
+  help: "early stopping threshold. Defaults to 50."
+
+activation:
+  default: 'relu'
+  help: "activation of gcn layer1. Defaults to 'relu'."
+
+model_filename:
+  default: "vgae_kmeans"
+  help: "Filename to save best model parameters. Defaults to `vgae_kmeans`."

@@ -1,0 +1,102 @@
+sparse:
+  type: "int"
+  default: 0
+  help: "If sparse mode. Defaults to 0."
+
+type_learner:
+  type: "str"
+  default: "fgp"
+  help: "Type of Graph Learner. Defaults to fgp.Choices: [fgp, att, mlp, gnn]"
+
+k:
+  type: "int"
+  default: 20
+  help: "Number of Neighbors k. Defaults to 20."
+sim_function:
+  type: "str"
+  default: "cosine"
+  help: "Similarity function. Defaults to cosine.Choices:['cosine', 'minkowski']"
+activation_learner:
+  type: "str"
+  default: "relu"
+  help: "Activation function of Graph Learner. Defaults to relu.Choices:[relu, tanh]"
+
+nlayers:
+  type: "int"
+  default: 2
+  help: "Number of gcn layers. Defaults to 2."
+
+hidden_dim:
+  type: "int"
+  default: 512
+  help: "Number of hidden dim. Defaults to 512."
+
+rep_dim:
+  type: "int"
+  default: 256
+  help: "Number of representation dimension. Defaults to 256."
+
+proj_dim:
+  type: "int"
+  default: 256
+  help: "Number of projection dimension. Defaults to 256."
+
+dropout:
+  type: "float"
+  default: 0.5
+  help: "Dropout rate. Defaults to 0.5."
+
+dropedge_rate:
+  type: "float"
+  default: 0.5
+  help: "Drop edge rate. Defaults to 0.5."
+
+lr:
+  type: "float"
+  default: 0.001
+  help: "Learning rate. Defaults to 0.001."
+
+w_decay:
+  type: "float"
+  default: 0.0
+  help: "Weight decay rate. Defaults to 0.001."
+
+epochs:
+  type: "int"
+  default: 2500
+  help: "Number of epochs. Defaults to 2500."
+
+maskfeat_rate_anchor:
+  type: "float"
+  default: 0.8
+  help: "Mask feat rate of anchor graph. Defaults to 0.8."
+
+maskfeat_rate_learner:
+  type: "float"
+  default: 0.1
+  help: "Mask feat rate of learned graph. Defaults to 0.1."
+
+contrast_batch_size:
+  type: "int"
+  default: 0
+  help: "Number of contrastive learning batch size. Defaults to 0."
+
+tau:
+  type: "float"
+  default: 0.9999
+  help: "Temperature rate of Structure Bootstrapping. Defaults to 0.9999."
+
+c:
+  type: "int"
+  default: 0
+  help: "The anchor structure A𝑎 is updated every 𝑐 iterations . Defaults to 0."
+
+eval_freq:
+  type: "int"
+  default: 100
+  help: "Interval of eval. Defaults to 100."
+
+n_clu_trials:
+  type: "int"
+  default: 10
+  help: "Times of each eval execute . Defaults to 10."

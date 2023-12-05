@@ -1,0 +1,3 @@
+[submodule "egc_doc_repo"]
+	path = egc_doc_repo
+	url = git@github.com:eaglelab-zju/egc_doc_repo.git

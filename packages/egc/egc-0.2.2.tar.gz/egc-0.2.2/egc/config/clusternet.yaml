@@ -1,0 +1,32 @@
+out_feats_list:
+  nargs: '+'
+  type: int
+  default: [50, 10]
+  help: "List of hidden units dimensions. Defaults to [50, 10]."
+aggregator_type:
+  default: "gcn"
+  help: "Aggregator type to use (``mean``, ``gcn``, ``pool``, ``lstm``). Defaults to 'gcn'."
+bias:
+  default: True
+  help: "If True, adds a learnable bias to the output. Defaults to True."
+cluster_temp:
+  default: 30
+  help: "softmax temperature. Defaults to 30."
+dropout:
+  default: 0.0
+  help: "Percentage for dropping in GCN. Defaults to 0.0."
+n_epochs:
+  default: 1000
+  help: "Maximum training epochs. Defaults to 1000."
+lr:
+  default: 0.01
+  help: "Learning Rate. Defaults to 0.01."
+l2_coef:
+  default: 0.0
+  help: "Weight decay. Defaults to 0.0."
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."
+model_filename:
+  default: "clusternet"
+  help: "Path to store model parameters. Defaults to 'clusternet'."

@@ -1,0 +1,38 @@
+out_feats_list:
+  nargs: '+'
+  type: int
+  default: [1024, 512]
+  help: "List of hidden units dimensions. Defaults to [1024, 512]."
+aggregator_type:
+  default: "gcn"
+  help: "Aggregator type to use (``mean``, ``gcn``, ``pool``, ``lstm``). Defaults to 'gcn'."
+bias:
+  default: True
+  help: "If True, adds a learnable bias to the output. Defaults to True."
+batch_size:
+  default: 1024
+  help: "Batch size. Defaults to 1024."
+alpha:
+  default: 1.0
+  help: "Alpha of student-T distribution. Defaults to 1.0."
+beta:
+  default: 10.0
+  help: "Coeffecient of reconstruction loss. Set 0.0 for DEC or nonzero for IDEC. Defaults to 10.0."
+n_epochs:
+  default: 1000
+  help: "Maximum training epochs. Defaults to 1000."
+n_pretrain_epochs:
+  default: 400
+  help: "Maximum pretraining epochs. Defaults to 400."
+lr:
+  default: 0.001
+  help: "Learning Rate. Defaults to 0.001."
+l2_coef:
+  default: 0.0
+  help: "Weight decay. Defaults to 0.0."
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."
+model_filename:
+  default: "idec"
+  help: "Path to store model parameters. Defaults to 'dec'."

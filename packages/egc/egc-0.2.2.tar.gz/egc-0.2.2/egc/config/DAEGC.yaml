@@ -1,0 +1,48 @@
+pre_epochs:
+  default: 100
+  help: "number of epochs to pretrain model"
+
+epochs:
+  default: 100
+  help: "number of epochs to final model"
+
+pretrain_lr:
+  default: 0.005
+  help: "learning rate of pretrain model"
+
+lr:
+  default: 0.0001
+  help: "learning rate of final model"
+
+update_interval:
+  default: 1
+  help: "update interval of DAEGC"
+
+hidden_size:
+  default: 256
+  help: "number of units in hiddin layer"
+
+embedding_size:
+  default: 16
+  help: "number of output emb dim"
+
+weight_decay:
+  type: float
+  default: 5e-3
+  help: "weight decay"
+
+alpha:
+  default: 0.2
+  help: "Alpha for the leaky_relu."
+
+estop_steps:
+  default: 8
+  help: "Number of early_stop steps. Default is 8."
+
+t:
+  default: 1
+  help: "t orders.Default is 1."
+
+v:
+  default: 1
+  help: "Degrees of freedom of the student t-distribution"

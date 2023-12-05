@@ -1,0 +1,6 @@
+[style]
+based_on_style = pep8
+
+[pep8]
+COLUMN_LIMIT = 100
+INDENT_WIDTH = 4

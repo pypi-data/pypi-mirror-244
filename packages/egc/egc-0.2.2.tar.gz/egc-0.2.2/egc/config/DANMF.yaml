@@ -1,0 +1,21 @@
+iterations:
+  default: 100
+  help: "Number of training iterations. Default is 100."
+
+pre-iterations:
+  default: 100
+  help: "Number of layerwsie pre-training iterations. Default is 100."
+
+lamb:
+  default: 0.01
+  help: "Regularization parameter. Default is 0.01."
+
+layers:
+  nargs: "+"
+  type: "int"
+  default: [32, 8]
+  help: "Layer dimensions separated by space. E.g. 128 64 32."
+
+calculate_loss:
+  default: False
+  help: "Whether to calculate loss. Defaults to False."

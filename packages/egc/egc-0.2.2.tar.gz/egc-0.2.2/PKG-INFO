@@ -1,0 +1,239 @@
+Metadata-Version: 2.1
+Name: egc
+Version: 0.2.2
+Summary: Benchmark of Graph Clustering.
+Project-URL: Homepage, https://github.com/eaglelab-zju/EGC
+Project-URL: Bug Tracker, https://github.com/eaglelab-zju/EGC/issues
+Author-email: EAGLE-Lab <galo.gm.work@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023-present EAGLE-Lab, Zhejiang University
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: community detection,graph,graph clustering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: cython>=3.0.5
+Requires-Dist: dgl>=1.1.0
+Requires-Dist: dglgo>=0.0.2
+Requires-Dist: gdown>=4.7
+Requires-Dist: seaborn>=0.13.0
+Requires-Dist: texttable>=1.6
+Requires-Dist: torch-geometric>=2.0
+Requires-Dist: torch>=1.12
+Requires-Dist: torchaudio>=0.10.2
+Requires-Dist: torchvision>=0.11.3
+Requires-Dist: wget>=3.2
+Description-Content-Type: text/markdown
+
+# EAGLEGraphClustering <!-- omit in toc -->
+
+<div align="center">
+
+[![PYPI](https://img.shields.io/pypi/v/egc?style=flat)](https://pypi.org/project/egc/)
+<!-- [![Latest Release](https://img.shields.io/github/v/tag/eaglelab-zju/EGC)](https://github.com/eaglelab-zju/EGC/tags) -->
+
+</div>
+
+A benchmark of graph clustering from [EAGLE-Lab, Zhejiang University](https://eagle.zju.edu.cn/).
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Pip Package](#pip-package)
+  - [Command line](#command-line)
+- [Datasets](#datasets)
+- [Implemented baseline methods](#implemented-baseline-methods)
+  - [Disjoint](#disjoint)
+    - [Unsupervised Graph Neural Networks + Kmeans](#unsupervised-graph-neural-networks--kmeans)
+    - [End-to-End Graph Clustering](#end-to-end-graph-clustering)
+  - [Overlapping](#overlapping)
+- [Requirements](#requirements)
+- [Contributing](#contributing)
+
+## Installation
+- python>=3.8
+- torch>=1.12
+- dgl>=1.1
+
+```bash
+$ python -m pip install egc
+```
+
+## Usage
+
+### Pip Package
+
+See [egc](https://eaglelab-zju.github.io/egc_doc_repo/) for docs.
+
+- Import the package and use any graph clustering model supported as:
+
+```python
+from torch import nn
+from egc.model import DGL_GAEKmeans
+from egc.utils import load_data
+from egc.utils import get_default_args
+
+# load graph
+graph, label, n_clusters = load_data(
+    dataset_name='Cora',
+    directory='./data',
+)
+features = graph.ndata["feat"]
+adj_csr = graph.adj_external(scipy_fmt="csr")
+
+# get default args
+args = get_default_args('gae_kmeans')
+
+# init the model
+model = DGL_GAEKmeans(
+    epochs=args["epochs"],
+    n_clusters=10,
+    fead_dim=features.shape[1],
+    n_nodes=features.shape[0],
+    hidden_dim1=args["hidden1"],
+    dropout=args["dropout"],
+    lr=args["lr"],
+    early_stop=args["early_stopping_epoch"],
+    activation=args["activation"],
+)
+
+# fit the model
+model.fit(adj_csr, features)
+
+# get clustering results
+res = model.get_memberships()
+```
+
+### Command line
+
+- Clone the Repo
+- Install the env
+
+```bash
+# NOTE: python>=3.8 is needed
+# Install cuda if necessary. Check Cuda version first.
+$ cd EGC
+# Leave out `bash .ci/install-dev.sh &&` if no dev env is needed.
+$ bash .ci/install-dev.sh && bash .ci/install.sh
+# run `source .env/bin/activate` to activate the virtual env
+```
+
+- Run any supported model as:
+
+```shell
+$ python train.py ${OPTIONAL global args} ${POSITIONAL args (model)} ${optional model args}
+```
+
+- *OPTIONAL* global args which should be used before `${model}`
+- *POSITIONAL* args, i.e., all models supported
+
+E.g.,
+
+```bash
+# check OPTIONAL global args, e.g., all models supported
+$ python train.py -h
+
+# check optional args of certain model
+$ python train.py gae_kmeans -h
+
+# run any model
+$ python train.py --dataset=Cora gae_kmeans --lr 0.001
+```
+
+## Datasets
+
+- `Cora`, `Citeseer`, `Pubmed` come from [DGL Lib](https://docs.dgl.ai/api/python/dgl.data.html)
+- `BlogCatalog`, `Flickr` come from [CoLA github](https://github.com/GRAND-Lab/CoLA/tree/main/raw_dataset)
+- `ACM` come from [SDCN github](https://github.com/bdy9527/SDCN)
+- All above datasets are converted to undirected graphs.
+
+|   Dataset   |  Nodes |   Edges | Attributes | Classes |
+| :---------: | -----: | ------: | ---------: | ------: |
+|    Cora     |  2,708 |  10,556 |      1,433 |       7 |
+|  Citeseer   |  3,327 |   9,228 |      3,703 |       6 |
+|   Pubmed    | 19,717 |  88,651 |        500 |       3 |
+| BlogCatalog |  5,196 | 343,486 |      8,189 |       6 |
+|   Flickr    |  7,575 | 479,476 |     12,047 |       9 |
+|     ACM     |  3,025 |  26,256 |      1,870 |       3 |
+|  CoraFull   | 19,793 | 126,842 |      8,710 |      70 |
+
+## Implemented baseline methods
+
+### Disjoint
+
+#### Unsupervised Graph Neural Networks + Kmeans
+
+|  method   | Conf/Journal |          Original Code           | Supproted |
+| :-------: | :----------: | :------------------------------: | :-------: |
+|  [VGAE]   |    16nips    | [TensorFlow][vgae in tensorflow] |     ✅     |
+| GraphSAGE |              |                                  |           |
+|   [DGI]   |    19iclr    |    [Pytorch][dgi in pytorch]     |     ✅     |
+|   [GMI]   |    20www     |    [Pytorch][gmi in pytorch]     |     ✅     |
+|  [SENet]  |     21nn     |                                  |     ✅     |
+
+#### End-to-End Graph Clustering
+
+|  method  | Conf/Journal |       Original Code        | Supproted |
+| :------: | :----------: | :------------------------: | :-------: |
+|  [SDCN]  |    20www     | [Pytorch][sdcn in pytorch] |     ✅     |
+| [DANMF]  |    18cikm    |     [code][danmf code]     |     ✅     |
+| [M-NMF]  |    17aaai    | [Matlab][m-nmf in matlab]  |     ✅     |
+|  [DFCN]  |    21aaai    | [Pytorch][dfcn in pytorch] |     ✅     |
+| [VGAECD] |    18icdm    |             --             |     ✅     |
+|  [ComE]  |    17cikm    |     [code][come code]      |     ✅     |
+| [DAEGC]  |   19ijcai    |  [code][daegc in pytorch]  |     ✅     |
+
+### Overlapping
+
+|     method     | Conf/Journal |              Original Code               | Supproted |
+| :------------: | :----------: | :--------------------------------------: | :-------: |
+| [CommunityGAN] |    19www     | [TensorFlow][communitygan in tensorflow] |     ✅     |
+
+## Requirements
+
+See [dependencies](./pyproject.toml), [requirements-dev.txt](./requirements-dev.txt) and [requirements.txt](./requirements.txt).
+
+## Contributing
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+[come]: https://dl.acm.org/doi/abs/10.1145/3132847.3132925
+[come code]: https://github.com/andompesta/ComE
+[communitygan]: https://arxiv.org/pdf/1901.06631.pdf
+[communitygan in tensorflow]: https://github.com/SamJia/CommunityGAN
+[daegc]: https://www.ijcai.org/proceedings/2019/0509.pdf
+[daegc in pytorch]: https://github.com/Tiger101010/DAEGC
+[danmf]: https://www.researchgate.net/profile/Chuan-Chen-11/publication/328439632_Deep_Autoencoder-like_Nonnegative_Matrix_Factorization_for_Community_Detection/links/5d7dc4b3a6fdcc2f0f6fbf3a/Deep-Autoencoder-like-Nonnegative-Matrix-Factorization-for-Community-Detection.pdf
+[danmf code]: https://github.com/benedekrozemberczki/DANMF
+[dfcn]: https://arxiv.org/pdf/2012.09600.pdf
+[dfcn in pytorch]: https://github.com/WxTu/DFCN
+[dgi]: https://arxiv.org/pdf/1809.10341.pdf
+[dgi in pytorch]: https://github.com/PetarV-/DGI
+[gmi]: https://arxiv.org/pdf/2002.01169.pdf
+[gmi in pytorch]: https://github.com/zpeng27/GMI
+[m-nmf]: https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14589/13763
+[m-nmf in matlab]: https://github.com/AnryYang/M-NMF
+[sdcn]: https://arxiv.org/pdf/2002.01633.pdf
+[sdcn in pytorch]: https://github.com/bdy9527/SDCN
+[senet]: https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227
+[vgae]: https://arxiv.org/pdf/1611.07308.pdf
+[vgae in tensorflow]: https://github.com/tkipf/gae
+[vgaecd]: https://sci-hub.ru/10.1109/icdm.2018.00022

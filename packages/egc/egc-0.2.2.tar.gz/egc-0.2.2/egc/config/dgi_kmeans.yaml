@@ -1,0 +1,39 @@
+out_feats_list:
+  nargs: "+"
+  type: "int"
+  default: [512]
+  help: "List of hidden units dimensions. Defaults to [512]."
+
+activation:
+  default: "prelu"
+  help: "Activation of gcn layers. Defaults to 'prelu'."
+
+batch_size:
+  default: 1024
+  help: "Batch size. Defaults to 1024."
+
+neighbor_sampler_fanouts:
+  nargs: "+"
+  type: "int"
+  default: -1
+  help: "List of neighbors to sample for each GNN layer. Defaults to full neighbor sampler."
+
+n_epochs:
+  default: 10000
+  help: "Maximum training epochs. Defaults to 10000."
+
+lr:
+  default: 0.001
+  help: "Learning rate. Defaults to 0.001."
+
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."
+
+l2_coef:
+  default: 0.0
+  help: "Weight decay. Defaults to 0.0."
+
+model_filename:
+  default: "dgi"
+  help: "Filename to save best model parameters. Defaults to `dgi`."

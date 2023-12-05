@@ -1,0 +1,25 @@
+out_feats_list:
+  nargs: "+"
+  type: "int"
+  default: [512]
+  help: "List of hidden units dimensions. Defaults to [512]."
+
+n_epochs:
+  default: 400
+  help: "Maximum training epochs. Defaults to 400."
+
+lr:
+  default: 0.001
+  help: "Learning rate. Defaults to 0.001."
+
+early_stopping_epoch:
+  default: 20
+  help: "Early stopping threshold. Defaults to 20."
+
+n_lin_layers:
+  default: 1
+  help: "Number of linear layers. Defaults to 1."
+
+n_gnn_layers:
+  default: 1
+  help: "Number of gnn layers. Defaults to 1."

@@ -1,0 +1,3 @@
+dim:
+  default: 128
+  help: "Number of units in hidden layer. Defaults to 128."
