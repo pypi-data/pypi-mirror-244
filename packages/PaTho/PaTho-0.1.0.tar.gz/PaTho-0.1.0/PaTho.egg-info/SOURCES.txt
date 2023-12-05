@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+PaTho/__init__.py
+PaTho/downloader.py
+PaTho.egg-info/PKG-INFO
+PaTho.egg-info/SOURCES.txt
+PaTho.egg-info/dependency_links.txt
+PaTho.egg-info/entry_points.txt
+PaTho.egg-info/requires.txt
+PaTho.egg-info/top_level.txt
