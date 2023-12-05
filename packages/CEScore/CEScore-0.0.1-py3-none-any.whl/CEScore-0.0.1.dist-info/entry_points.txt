@@ -1,0 +1,3 @@
+[console_scripts]
+CEScore = CEScore.__main__:main
+

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: CEScore
+Version: 0.0.1
+Summary: Set of an automatic metrics to evaluate the  simplicity, meaning preservation, and grammaticality of a simplified text by comparing it with the original complex text as a reference.
+Home-page: https://github.com/motasemajlouni/CEScore
+Author: Al Motasem Bellah Al Ajlouni
+Author-email: eng.motasem@ymail.com
+License: MIT
+Keywords: metric,simplicity,meaning preservation,grammaticality,text simplification,split and rephrase
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
