@@ -1,0 +1,2 @@
+[console_scripts]
+pwebarc-dumb-dump-server = pwebarc_dumb_dump_server:main
