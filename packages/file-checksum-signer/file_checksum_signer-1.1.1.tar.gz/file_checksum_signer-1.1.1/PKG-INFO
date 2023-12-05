@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: file-checksum-signer
+Version: 1.1.1
+Summary: simple creator for signed checksum files
+Project-URL: Homepage, https://git.fearvel.de/tools/python/file-checksum-signer
+Author-email: Andreas Schreiner <fearvel@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: python-gnupg
+Description-Content-Type: text/markdown
+
+# file-checksum-signer
+
+This is a simple util that created signed checksum files in the following formats.
+
+A clear-signed Version
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+#aisha-greyrat-sdxl-v10.safetensors 228451292 bytes
+SHA256 (aisha-greyrat-sdxl-v10.safetensors) = c809610f75bbc8fef3b0b606951452e3e7b10b3556a57a1b02b0a38c883eb48e
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEETqTk3Lh98OS9LMeGn04KP2DF00YFAmVr3y4ACgkQn04KP2DF
+00bHAgv/Yg18FWQazcAYQphLayCI4YIhA7CQiuSyg9jiWqQPkXpGrMstwrDXB5uS
+BLtaPUzBKPEp1A/PslJT0Yd3x+as06uPUD5LEe4Ot3TquFiYi9C2ZNx/pAMye+1m
+ZsaKjzxq3nGxvjTwKfIfXNf/VJV+SNIdrpr1opnu6G90v2vUGK0OVY9f5be4n6Hq
+30BslcCW33VoebFT60OoNghcady+aK/pNZ9VYSxj3JirhsHWfuxMLq67C4Okjjge
+yXkHraE6xPX3/q/1UjB1XZGeoL0YHvsVXaYK9ILYHDu2OFVEM6CBbDbJT7WIE46I
+wTtSX6iu7eFGOfgT/cnrh21rjJI8u92NAQ0Le3YHUdhQuQvaUvOlMz89fwQ6Bw2x
+ldWfHrXwCS2/zjgbvjZC1WGOVG1eVDw9744fo0CuJkUNAGVVpdKgL84baz/Ur14p
+V5pazybM5P3JjJX3sjGQfaxIrGSGPcSBXSj/gKGzMKrs7kK4dKHP1CEzUkR4GDJC
+avL+fbNL
+=stl8
+-----END PGP SIGNATURE-----
+```
+
+A unsigned version
+```
+#aisha-greyrat-sdxl-v10.safetensors 228451292 bytes
+SHA256 (aisha-greyrat-sdxl-v10.safetensors) = c809610f75bbc8fef3b0b606951452e3e7b10b3556a57a1b02b0a38c883eb48e
+```
+
+
+usage for signed checksum files \
+`fcsigner [file_to_sign] [PgiGP_ID]`
+
+usage for unsigned checksum files \
+`fcsigner --no-sign [file_to_sign]`
