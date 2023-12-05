@@ -1,0 +1,12 @@
+era_5g_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+era_5g_client/client.py,sha256=PFw-GF44vZEj00ZvcvXHbz6CS1zQR16HQwdofkkA4J0,13360
+era_5g_client/client_base.py,sha256=uWW4bLj84UxAIffRssjRrA-c4DarNnv8ou8r7OcaKNk,10656
+era_5g_client/dataclasses.py,sha256=ADWtcTT4mejqYSsIY1qxLDUz-iTYMPWR6k6oIyZbtk0,559
+era_5g_client/exceptions.py,sha256=OWc-lAqs3PrwuWOs8NITw8M4QJtZeAAMjZVJ1Ao6qEM,940
+era_5g_client/middleware_resource_checker.py,sha256=0l7cpSov8GKLuDSDG6X8pQnFaHUFytI-pQ8vMrg-BgA,3584
+era_5g_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+era_5g_client-0.8.0.dist-info/METADATA,sha256=6tw_Qq8ww0K03j1Jldb_0CH2vikqzbUYgdPdTxtlexs,669
+era_5g_client-0.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+era_5g_client-0.8.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+era_5g_client-0.8.0.dist-info/top_level.txt,sha256=v7NcEdAfU3Ej17qiO5zme2hMBYoilpq2a5dyanF3NG0,14
+era_5g_client-0.8.0.dist-info/RECORD,,
