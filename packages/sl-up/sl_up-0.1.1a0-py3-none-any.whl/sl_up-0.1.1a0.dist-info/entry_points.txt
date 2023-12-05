@@ -1,0 +1,3 @@
+[console_scripts]
+sl-up=sl_up.main:run
+
