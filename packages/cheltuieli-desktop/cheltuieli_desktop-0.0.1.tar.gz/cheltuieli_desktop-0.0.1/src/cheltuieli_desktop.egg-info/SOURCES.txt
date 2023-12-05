@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/cheltuieli_desktop/__init__.py
+src/cheltuieli_desktop/control.py
+src/cheltuieli_desktop/gui_desktop.py
+src/cheltuieli_desktop.egg-info/PKG-INFO
+src/cheltuieli_desktop.egg-info/SOURCES.txt
+src/cheltuieli_desktop.egg-info/dependency_links.txt
+src/cheltuieli_desktop.egg-info/requires.txt
+src/cheltuieli_desktop.egg-info/top_level.txt
