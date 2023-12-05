@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+RELEASE_NOTES.md
+pyproject.toml
+src/flake8_numbers/__init__.py
+src/flake8_numbers/check_numbers.py
+src/flake8_numbers/py.typed
+src/flake8_numbers.egg-info/PKG-INFO
+src/flake8_numbers.egg-info/SOURCES.txt
+src/flake8_numbers.egg-info/dependency_links.txt
+src/flake8_numbers.egg-info/entry_points.txt
+src/flake8_numbers.egg-info/requires.txt
+src/flake8_numbers.egg-info/top_level.txt

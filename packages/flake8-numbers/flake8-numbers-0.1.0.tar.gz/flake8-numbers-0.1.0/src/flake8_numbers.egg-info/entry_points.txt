@@ -1,0 +1,2 @@
+[flake8.extension]
+NUM = flake8_numbers.check_numbers:Flake8NumbersChecker
