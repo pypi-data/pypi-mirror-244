@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: GrandTourer
+Version: 0.1.1
+Summary: GrandTourer is a CLI tool for easily launching applications on MacOS with a two letter command: gt
+Author: WillDenby
+Author-email: 119456795+WillDenby@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Description-Content-Type: text/markdown
+
+# GrandTourer
+
+GrandTourer is a CLI tool for easily launching applications on MacOS with a two letter command: ```gt```. It's a drop-in replacement for ```open -a``` - with string matching.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install GrandTourer.
+
+```bash
+pip install grandtourer
+```
+
+## Usage
+
+Type gt followed by the first few letters of your application name.
+
+Spaces, capitals, it doesn't matter - GrandTourer will find the relevant application. If there is more than one possible match, you might need to include a few more letters.
+
+```shell
+$ gt saf
+# Launches Safari
+
+$ gt skadawb
+No apps found
+
+$ gt cal
+Did you mean one of the following?
+calculator
+calendar
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
