@@ -1,0 +1,7 @@
+# Build dependencies
+pytest-cov
+setuptools
+sphinx
+wheel
+
+# Runtime dependencies, must match install_requires in setup.py
