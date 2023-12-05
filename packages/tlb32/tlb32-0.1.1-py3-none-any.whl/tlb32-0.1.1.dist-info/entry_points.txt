@@ -1,0 +1,3 @@
+[console_scripts]
+tlb32=tlb32.tlb32:main
+
