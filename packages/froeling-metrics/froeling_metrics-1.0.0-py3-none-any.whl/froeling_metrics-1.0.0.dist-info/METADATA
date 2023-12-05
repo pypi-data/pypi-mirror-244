@@ -1,0 +1,198 @@
+Metadata-Version: 2.1
+Name: froeling-metrics
+Version: 1.0.0
+Summary: Python module for scraping facility metrics from the Fröling Connect web portal
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# froeling-metrics
+
+`froeling-metrics` is a Python module for scraping facility metrics from the [Fröling Connect web portal](https://connect-web.froeling.com/login).
+
+## Installation
+
+```shell
+pip install froeling-metrics
+```
+
+## Module content
+
+The module offers a single function: `scrapmetrics` which, given site login credentials, retrieves metrics by facility:
+
+`metrics = froeling.scrapmetrics(LOGIN, PASSWORD)`
+
+Domestic account will probably have only one facility whereas a heating installer account may have several ones.
+
+The return value is a `dict` with `int` (facility ID) as keys and `list` of `dict` (metrics) as values. For example:
+
+```python
+>>> metrics
+{12345: [{'id': '3_0',
+          'displayName': 'Kesseltemperatur',
+          'name': 'boilerTemp',
+          'editable': False,
+          'parameterType': 'NumValueObject',
+          'unit': '°C',
+          'value': '13',
+          'minVal': '-16000',
+          'maxVal': '16000'},
+         {'id': '3_1',
+          'displayName': 'Abgastemperatur',
+          'name': 'flueGasTemp',
+          'editable': False,
+          'parameterType': 'NumValueObject',
+          'unit': '°C',
+          'value': '19',
+          'minVal': '-32000',
+          'maxVal': '32000'},
+...
+```
+
+The metrics are left unchanged, as submitted by the Fröling Connect API and can be processed like this:
+
+```python
+for facility, metrics in metrics.items():
+    print(f"{facility=}")
+    for metric in metrics:
+        try:
+            if 'stringListKeyValues' in metric:
+                value = metric['stringListKeyValues'][metric['value']]
+            else:
+                value = metric['value'] + metric['unit']
+        except Exception:
+            value = metric.get('value')
+        print(f" - {metric['name']}/{metric.get('displayName')}: {value}")
+```
+
+### language
+
+Default language for `DisplayName` and `stringListKeyValues` is German. It is possible to have those fields translated with the corresponding `language`parameter:
+
+`metrics = froeling.scrapmetrics(LOGIN, PASSWORD, language='fr')`
+
+```python
+>>> metrics
+{12345: [{'id': '3_0',
+          'displayName': 'Température chaudière',
+          'name': 'boilerTemp',
+          'editable': False,
+          'parameterType': 'NumValueObject',
+          'unit': '°C',
+          'value': '13',
+          'minVal': '-16000',
+          'maxVal': '16000'},
+...
+```
+
+### authentication
+
+Access to the Fröling Connect web portal API requires a token. This token is obtained by a first authentication request with LOGIN and PASSWORD as arguments (it seems that the duration of the token is 12 hours). It could be wise not to authenticate each time, and reuse the token instead as soon as it is not expired. That is why the module also offers a `Token`class of which an instance can be passed to the `scrapmetrics()` function (instead of the LOGIN and PASSWORD). As you would expect, the `scrapmetrics()`  function checks the validity of the token before using it and renew it if necessary.
+
+ `metrics = froeling.scrapmetrics(token=token, language='fr')`
+
+The token itself is created from the LOGIN and PASSWORD:
+
+`token = froeling.Token(LOGIN, PASSWORD, storage='token.txt')`
+
+The optional `storage`parameter is the name of a file where the token is stored. If present the token is retrieved from that file when the `Token` class is instantiated. The new token is written in the file whenever it is renewed.
+
+### errors
+
+The`scrapmetrics()` function and the `Token`class constructor will raise an exception when a request to the Fröling Connect API fails. All HTTP requests are delegated to the famous `requests` module. Take a look at the [Requests documentation](https://requests.readthedocs.io/en/latest/user/quickstart/?highlight=errors#errors-and-exceptions) to see what kind of exception can be raised.
+
+### debug
+
+Enabling HTTP requests debug is done with the code:
+
+```python
+import logging
+logging.basicConfig()
+logging.getLogger("urllib3").setLevel(logging.DEBUG)
+```
+
+The module itself has been tested on a SP Dual.
+
+## Usage #1 - Longtime running script
+
+- No use to have a file storage for the token as it lives in memory.
+- Better not write the credentials in the script, get them from command line (calling `input()` is another possibility).
+
+```python
+import argparse
+import froeling
+import time
+
+parser = argparse.ArgumentParser("Periodically scrap metrics from my Fröling boiler and ...")
+parser.add_argument("login", help="Fröling user login")
+parser.add_argument("password", help="Fröling user password")
+
+token = froeling.Token(args.login, args.password)
+while True:
+    metrics = froeling.scrapmetrics(token=token, language='fr')
+    # DO WHATEVER WITH METRICS
+    ...
+    time.sleep(60)
+```
+
+## Usage #2 - One-time running script
+
+- Reuse the token between script executions with a file storage.
+- Better not write the credentials in the script. And since giving them each time is boring, get them from environment variables.
+
+```python
+import froeling
+import os
+
+login = os.environ.get('FROELING_LOGIN')
+pasword = os.environ.get('FROELING_PASSWORD')
+token = froeling.Token(login, password, storage='token.txt')
+metrics = froeling.scrapmetrics(token=token, language='fr')
+# DO WHATEVER WITH METRICS
+...
+```
+
+## Fröling Connect API
+
+The Fröling Connect API is not publicly documented. But a little analysis of the web site at https://connect-web.froeling.com/ with browser developer tools can lead to the following result:
+
+### Authentication
+
+- method: POST
+- endpoint: `https://connect-api.froeling.com/connect/v1.0/resources/login`
+- JSON payload: `{"osType": "web", "username": "xxx", "password": "yyy"}`
+- response 200:
+  - body: whatever
+  - Authorization header : a JWT token
+
+All other requests must have an Authorization header set to `Bearer {token}`where *token* is the JWT token.
+
+### Listing user facilities
+
+- method: GET
+- endpoint: `https://connect-api.froeling.com/connect/v1.0/resources/service/user/{userid}/facility`
+  - parameter *userid* comes from the payload part of the JWT token under key: `userId`
+- response 200:
+  - JSON body: `[{"facilityId": <facility identifier>}, ...]`
+
+Other interesting information than `facilityID` can be found in each object.
+
+### Listing facility components
+
+- method: GET
+- endpoint: `https://connect-api.froeling.com/fcs/v1.0/resources/user/{userid}/facility/{facility}/componentList`
+  - parameter *facility* is a facility identifier coming from the previous request
+- response 200:
+  - JSON body: `[{"componentId": <component identifier>}, ...]`
+
+### Listing metrics components
+
+- method: GET
+- endpoint: `https://connect-api.froeling.com/fcs/v1.0/resources/user/{userid}/facility/{facility}/component/{component}`
+  - parameter *component* is a component identifier coming from the previous request
+
+- response 200:
+  - JSON body is a complex structure with metrics at different levels. A metric is an object with at least the two keys `id` and `name`. Some metrics are duplicated in various components.
+
+The `scrapmetrics()` fetch and returns unique metrics from all components from all facilities the given token gives access to.
