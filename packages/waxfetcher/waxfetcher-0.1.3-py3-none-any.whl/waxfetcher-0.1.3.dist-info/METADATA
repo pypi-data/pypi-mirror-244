@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: waxfetcher
+Version: 0.1.3
+Summary: waxBlockchain get requests
+Home-page: UNKNOWN
+Author: Funkaclau
+Author-email: cloudspg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
