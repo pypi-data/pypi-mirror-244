@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/datacake/__init__.py
+src/datacake/core.py
+src/datacake.egg-info/PKG-INFO
+src/datacake.egg-info/SOURCES.txt
+src/datacake.egg-info/dependency_links.txt
+src/datacake.egg-info/top_level.txt
