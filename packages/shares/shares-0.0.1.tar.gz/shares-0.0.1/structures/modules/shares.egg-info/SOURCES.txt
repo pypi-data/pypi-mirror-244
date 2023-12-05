@@ -1,0 +1,9 @@
+pyproject.toml
+structure.txt
+structures/modules/shares/__init__.py
+structures/modules/shares.egg-info/PKG-INFO
+structures/modules/shares.egg-info/SOURCES.txt
+structures/modules/shares.egg-info/dependency_links.txt
+structures/modules/shares.egg-info/top_level.txt
+structures/modules/shares/clique/__init__.py
+structures/modules/shares/clique/group/__init__.py
