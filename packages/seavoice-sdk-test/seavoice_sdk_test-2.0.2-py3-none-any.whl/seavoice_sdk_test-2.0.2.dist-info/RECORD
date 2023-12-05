@@ -1,0 +1,10 @@
+seavoice_sdk/__init__.py,sha256=mmyo5ckJb84KRpIf4mWNjkuQ2lp5e3JsWZHwBY1ouWs,62
+seavoice_sdk/events.py,sha256=LiC2kcesi_SKDclKdHpSc1u7CLnqXfqfmpnticcSG6g,2612
+seavoice_sdk/exceptions.py,sha256=4m9klWBkNqJ_-TfvuISWr0Le_Clky0NHDyuLLooswrw,737
+seavoice_sdk/logger.py,sha256=Hgd6PDH_LSoEBVT7LihBt8PoWNcYXflaUw4UyX3F910,644
+seavoice_sdk/speech_to_text.py,sha256=xDt9Q7JBnroU6MQKqhxLLxJI1oMjivS802MxC79DVTg,14716
+seavoice_sdk_test-2.0.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+seavoice_sdk_test-2.0.2.dist-info/METADATA,sha256=II7b3_CczavRn7a-YWxyHMxm_NIulpAij4C0rl4Nmmg,999
+seavoice_sdk_test-2.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+seavoice_sdk_test-2.0.2.dist-info/top_level.txt,sha256=3Kdr1KyuKOYg9aM20e0IgH2ixIeggGHJUiVeCJ3bD7w,13
+seavoice_sdk_test-2.0.2.dist-info/RECORD,,
