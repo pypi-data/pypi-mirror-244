@@ -1,0 +1,5 @@
+numpy
+scikit-learn
+rich
+tensorboard
+torch

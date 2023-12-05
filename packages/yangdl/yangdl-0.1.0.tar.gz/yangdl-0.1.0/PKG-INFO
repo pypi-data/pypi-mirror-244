@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: yangdl
+Version: 0.1.0
+Summary: A simple pytorch-based framework for multi-fold train, val, test, predict!
+Home-page: https://github.com/m1dsolo/yangdl
+Author: m1dsolo
+Author-email: yx1053532442@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: rich
+Requires-Dist: tensorboard
+Requires-Dist: torch
+
+https://github.com/m1dsolo/yangdl
