@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+uwudu/__init__.py
+uwudu/cli.py
+uwudu/file.py
+uwudu/table.py
+uwudu.egg-info/PKG-INFO
+uwudu.egg-info/SOURCES.txt
+uwudu.egg-info/dependency_links.txt
+uwudu.egg-info/entry_points.txt
+uwudu.egg-info/requires.txt
+uwudu.egg-info/top_level.txt
