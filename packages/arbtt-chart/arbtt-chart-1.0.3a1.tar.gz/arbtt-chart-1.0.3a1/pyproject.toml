@@ -1,0 +1,81 @@
+[build-system]
+requires = [
+    "setuptools >= 64.0",
+    "setuptools_scm[toml] >= 6.2",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arbtt-chart"
+description = "Plot charts from arbtt-stats to terminal"
+authors = [{name = "Tomáš Janoušek", email = "tomi@nomi.cz"}]
+license = {text = "MIT"}
+readme = {file="README.md", content-type="text/markdown"}
+dynamic = ["version"]
+classifiers = [ # https://pypi.org/classifiers/
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+]
+urls = {Homepage = "https://github.com/liskin/arbtt-chart"}
+requires-python = "~= 3.8"
+dependencies = [
+    "pandas >= 1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build >= 0.7",
+    "cram",
+    "flake8 >= 3.7.0",
+    "isort >= 5.0",
+    "mypy >= 0.900",
+    "twine",
+]
+test = [
+    "pytest",
+]
+
+[project.scripts]
+arbtt-chart = "arbtt_chart:main"
+
+[tool.gha-check-distro]
+dependencies-apt = [
+    "python3-build",
+    "python3-cram",
+    "python3-flake8",
+    "python3-isort",
+    "python3-mypy",
+    "python3-pandas",
+    "python3-pip",
+    "python3-pip-whl",
+    "python3-pytest",
+    "python3-typeshed",
+    "python3-venv",
+    "twine",
+]
+
+[tool.setuptools_scm]
+
+[tool.setuptools]
+py-modules = ["arbtt_chart"]
+# include-package-data = false
+
+[tool.mypy]
+python_executable = ".venv/bin/python3"
+show_error_codes = true
+
+[tool.isort]
+profile = "open_stack"
+
+[tool.ruff]
+line-length = 120
+
+# vim:set et:
