@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_remote_clip/__init__.py
+autodistill_remote_clip/remoteclip_model.py
+autodistill_remote_clip.egg-info/PKG-INFO
+autodistill_remote_clip.egg-info/SOURCES.txt
+autodistill_remote_clip.egg-info/dependency_links.txt
+autodistill_remote_clip.egg-info/requires.txt
+autodistill_remote_clip.egg-info/top_level.txt
