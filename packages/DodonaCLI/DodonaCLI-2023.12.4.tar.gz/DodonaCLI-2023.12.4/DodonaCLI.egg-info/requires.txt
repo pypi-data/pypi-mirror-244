@@ -1,0 +1,5 @@
+rich
+markdownify
+bs4
+click
+click-default-group
