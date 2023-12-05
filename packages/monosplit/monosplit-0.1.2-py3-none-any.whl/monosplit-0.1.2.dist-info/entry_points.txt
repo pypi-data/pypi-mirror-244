@@ -1,0 +1,2 @@
+[console_scripts]
+monosplit = monosplit.__main__:main
