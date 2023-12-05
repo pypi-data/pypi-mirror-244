@@ -1,0 +1,12 @@
+pandas
+numpy
+shapely
+geopandas
+rasterio
+pysheds
+scipy
+spyder
+spyder-kernels==2.5
+jupyterlab
+ipywidgets
+notebook
