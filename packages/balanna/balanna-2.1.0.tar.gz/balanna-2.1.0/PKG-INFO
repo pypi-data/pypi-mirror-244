@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: balanna
+Version: 2.1.0
+Summary: Visualization Tools for 2D & 3D stuff working out-of-the-box
+Home-page: UNKNOWN
+Author: Simon Schaefer & Dorian Henning
+Author-email: simon.k.schaefer@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8

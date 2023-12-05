@@ -1,0 +1,7 @@
+PyQt5
+image_grid
+loguru
+numpy>=1.21
+scipy
+trimesh[easy]>=3.16.0
+vedo
