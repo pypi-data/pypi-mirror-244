@@ -1,0 +1,7 @@
+README.md
+min_pac.py
+setup.py
+adix.egg-info/PKG-INFO
+adix.egg-info/SOURCES.txt
+adix.egg-info/dependency_links.txt
+adix.egg-info/top_level.txt
