@@ -1,0 +1,91 @@
+[tool.poetry]
+name = "stonewave-sql-udtfs"
+version = "0.6.4"
+description = ""
+authors = ["Yue Ni <yni@yanhuangdata.com>"]
+packages = [
+    { include = "stonewave" },
+]
+include = [
+    "stonewave/sql/udtfs/version.py"
+]
+license = "Proprietary"
+homepage = "https://www.yanhuangdata.com/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+setuptools = "^67.6.0"
+wheel = "^0.38.4"
+pyarrow = "^12.0.0"
+
+transitions = "^0.8.3"
+pandas = "1.5.2"
+fastapi = "0.70.0"
+uvicorn = "^0.15.0"
+httpx = "^0.20.0"
+trio = "^0.19.0"
+requests = "^2.25.1"
+structlog = "^20.2.0"
+wheel-filename = "^1.3.0"
+toml = "^0.10.2"
+
+# !!PLEASE KEEP DEPENDENCIES FOR DIFFERENT FUNCTIONS SEPARATED!!
+# so that it is eaiser to create different virtual envs for them later
+# dependencies for `faker` table function
+faker = "^15.3.3"
+faker-cloud = "^0.1"
+faker_web = "^0.3.1"
+faker_vehicle = "^0.2.0"
+faker_microservice = "^2.0.0"
+faker_credit_score = "^0.3.0"
+
+# dependencies for `parse_format` table function
+parse = "^1.19.0"
+
+# dependencies for `parse_grok` table function
+pygrok = "^1.0.0"
+
+# dependencies for `parse_sql` table function
+sql-metadata = "^2.6.0"
+
+# dependencies for `parse_binary` table function
+kaitaistruct = "^0.10"
+
+# dependencies for `load_excel` table function
+openpyxl = "^3.0.9"
+
+# dependencies for `h3_index` table function
+h3 = "^3.7.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = {version = "^22.10.0", allow-prereleases = true}
+
+[[tool.poetry.source]]
+name = "yh-repo"
+url = "https://yanhuangdata.github.io/pypi/simple/"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+junit_family = "xunit2"
+log_cli = "true"
+# https://docs.pytest.org/en/stable/logging.html
+log_cli_level = "CRITICAL"
+log_level = "INFO"
+log_format = "%(asctime)s (%(threadName)-10s) %(filename)s:%(lineno)d %(message)s"
+log_date_format = "%Y-%m-%d %H:%M:%S"
+addopts = "--junitxml=./build/py_table_funcs_pytest_report.xml"
+testpaths = [
+    "tests",
+]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+
+[tool.poetry.scripts]
+sw_py_udtf = 'stonewave.sql.udtfs.main:execute_command'
+
+[virtualenvs]
+create = true

@@ -1,0 +1,3 @@
+signature_list = [
+    ["TABLE", "STRING", "STRING", "STRING"]
+]
