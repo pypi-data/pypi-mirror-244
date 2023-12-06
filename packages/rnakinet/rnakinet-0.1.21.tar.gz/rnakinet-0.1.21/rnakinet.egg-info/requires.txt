@@ -1,0 +1,8 @@
+pandas
+torch<2.0,>=1.13
+numpy
+ont-fast5-api
+scipy
+scikit-learn
+pysam
+tqdm
