@@ -1,0 +1,2 @@
+[console_scripts]
+linecount = linecount.cli:cli
