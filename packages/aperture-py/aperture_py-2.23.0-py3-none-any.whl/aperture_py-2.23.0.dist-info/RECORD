@@ -1,0 +1,17 @@
+aperture_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aperture_sdk/_gen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aperture_sdk/_gen/aperture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aperture_sdk/_gen/aperture/flowcontrol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aperture_sdk/_gen/aperture/flowcontrol/check/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aperture_sdk/_gen/aperture/flowcontrol/check/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aperture_sdk/_gen/aperture/flowcontrol/check/v1/check_pb2.py,sha256=1EbqaPJ0RXwUd3_M7rynY12-WjRIJ1gHg-tm-iWd3TU,19304
+aperture_sdk/_gen/aperture/flowcontrol/check/v1/check_pb2.pyi,sha256=dT-xtn_jmqTvZC2azkYGe2tm3HBTvilLxA9CCJq85tk,22661
+aperture_sdk/_gen/aperture/flowcontrol/check/v1/check_pb2_grpc.py,sha256=dy5aASYJXJrf5nvIdHQs25ZRiIbVHGPisaowvTSEusY,8499
+aperture_sdk/cache.py,sha256=xW5BKPebcqsuNHA5HWRvlSbJmj-hHPXSQ4UP8Kjg58k,1433
+aperture_sdk/client.py,sha256=qnBO_OYo_vxrTcwet6FblgUVvzShvGYDCRy7QGRLCf8,7189
+aperture_sdk/const.py,sha256=A0EsDnVcU1ugoxhsI7eHRRI1g5rGCmEj4h_A74tZkLM,987
+aperture_sdk/flow.py,sha256=WupsGfDfu3tAyWOLN5BvkfZJt2kqeig9SZ9f5IJJvME,9930
+aperture_sdk/utils.py,sha256=EoUabVFbd1HDrNIMYrs6rRmaPeAL8Ok7nWqQ14UjcdM,533
+aperture_py-2.23.0.dist-info/METADATA,sha256=yU05IrQ7chwZIcJA8MfXU_M5W03JSSTSZuQqzkuRBfw,4861
+aperture_py-2.23.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aperture_py-2.23.0.dist-info/RECORD,,
