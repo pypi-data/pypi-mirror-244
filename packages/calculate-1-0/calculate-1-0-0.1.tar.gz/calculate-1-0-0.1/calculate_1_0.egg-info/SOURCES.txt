@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+calculate/calculo.py
+calculate_1_0.egg-info/PKG-INFO
+calculate_1_0.egg-info/SOURCES.txt
+calculate_1_0.egg-info/dependency_links.txt
+calculate_1_0.egg-info/requires.txt
+calculate_1_0.egg-info/top_level.txt
