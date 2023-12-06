@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: athreading
+Version: 0.1.0
+Summary: 
+Author: Callan Gray
+Author-email: cal.j.gray@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: overrides (>=7.4.0,<8.0.0)
