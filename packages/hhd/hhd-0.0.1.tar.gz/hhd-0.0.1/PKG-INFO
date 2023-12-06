@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hhd
+Version: 0.0.1
+Summary: Handheld Daemon, a tool for configuring handheld devices.
+Author-email: Kapenekakis Antheas <git@antheas.dev>
+Project-URL: Homepage, https://github.com/antheas/hhd
+Project-URL: Bug Tracker, https://github.com/antheas/hhd/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Handheld Daemon (HHD)
+Work in progress, check back in a few days!
