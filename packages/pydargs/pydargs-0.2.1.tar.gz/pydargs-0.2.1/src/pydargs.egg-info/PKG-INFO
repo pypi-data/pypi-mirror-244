@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pydargs
+Version: 0.2.1
+Author-email: Anton Steenvoorden <Anton.Steenvoorden@ah.nl>, Guus Verstegen <gjaverstegen@gmail.com>, Rogier van der Geer <rogier@vander-geer.nl>
+License: BSD
+Project-URL: Repository, https://github.com/rogiervandergeer/pydargs
+Keywords: cli,dataclass
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: mypy==1.6.1; extra == "dev"
+Requires-Dist: pre-commit==3.5.0; extra == "dev"
+Requires-Dist: ruff==0.1.5; extra == "dev"
+Requires-Dist: pytest==7.4.3; extra == "dev"
+
+# pydargs
+
+Pydargs converts a dataclass to command line arguments in argparse.
+
+## Installation
+
+Pydargs can be installed with your favourite package manager. For example:
+
+```
+pip install pydargs
+```
+
+## Usage
+
+A minimal usage example would be:
+
+```python
+from dataclasses import dataclass
+from pydargs import parse
+
+
+@dataclass
+class Config:
+    number: int
+    some_string: str = "abc"
+
+if __name__ == "__main__":
+    config = parse(Config)
+```
+
+After which this entrypoint can be called with
+
+```shell
+entrypoint --number 42
+```
+or
+```shell
+entrypoint --number 42 --some-string abcd
+```
