@@ -1,0 +1,15 @@
+urdf_compose/__init__.py,sha256=5x4vUIzRuhq631btVUWM9rwsWZuvRTC9PXiU8TvmdVk,975
+urdf_compose/compose.py,sha256=fhGUSZrpQD_5GpEsyjlZ_5pFDOPh_wMvQPGwO8NWiqI,4513
+urdf_compose/composed_urdf.py,sha256=BXOmOaDMB0QlGdQVkQpBd14XI2UbySLCWcnRQyAl_jM,12494
+urdf_compose/connect.py,sha256=HbKxpACTSbSEH2id5Wltr7YcL6gxbeM1iGQS8lcUqrI,3730
+urdf_compose/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urdf_compose/resolve_connections.py,sha256=dTrMup6zJzxfWwbQp4LhVmo-G0wP_X7ZrA6K-vzXvs8,2360
+urdf_compose/urdf_compose_error.py,sha256=fBfzPWacIbiXiG7LkByCg4cKQV9c38QnIqVyJFlo7FY,965
+urdf_compose/urdf_obj.py,sha256=LUtb7PaDJfIVM0k0BZS5jtCaQd04cqS2IyRuGY4XgAU,2984
+urdf_compose/utils.py,sha256=K5wC11fIpltOdvvmn8roO86jnctsbaCi6yp4v8Dogh4,1383
+urdf_compose/xml_utils.py,sha256=pBq6t29IRicKtO4s9o82nFfaY2rzn02179yPDt0Um7Q,1083
+urdf_compose-0.4.0.dist-info/LICENSE,sha256=mN-sXEXe7HQSv9sAr1gaNwAtNb9xtli8QHxW0kgnUwc,1074
+urdf_compose-0.4.0.dist-info/METADATA,sha256=SxNwybzbfIlrlVTdbOoxaNCZef3Zpe8R5nH1kePtanc,15174
+urdf_compose-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+urdf_compose-0.4.0.dist-info/entry_points.txt,sha256=LHdMSWdN7oGk6xXJi1MAljxLoqdmJCkX5qh3sYeJJuw,114
+urdf_compose-0.4.0.dist-info/RECORD,,
