@@ -1,0 +1,2 @@
+[console_scripts]
+synthemol = synthemol.generate.generate:generate_command_line
