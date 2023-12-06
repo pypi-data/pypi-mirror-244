@@ -1,0 +1,25 @@
+datasets>=1.17
+mlflow
+nlpaug==1.1.9
+sacremoses
+git+https://github.com/intel/neural-compressor.git
+onnx>=1.10
+onnxruntime
+--find-links https://download.pytorch.org/cpu/whl/torch_stable.html
+torch==2.1.0
+transformers==4.34.1
+intel-tensorflow==2.13.0
+torchprofile
+intel-extension-for-pytorch
+tokenizers
+sentencepiece != 0.1.92
+accelerate
+evaluate
+wget
+git+https://github.com/huggingface/optimum.git@fa8ad73de9063885476ee39dff7c0bffbd45bd2d
+git+https://github.com/huggingface/optimum-intel.git
+peft
+tyro
+bitsandbytes
+tiktoken
+transformers_stream_generator
