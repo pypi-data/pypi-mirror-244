@@ -1,0 +1,7 @@
+Test0 '{{ str_0 }}' {# Jinja comment templates/test_template.txt #}
+
+Test1 '{{ str_1 }}'
+
+Test2 {% if int_0 > int_1 %} '{{ int_0 }}' is greater '{{ int_1 }}' {% else %} '{{ int_0 }}' is less than '{{ int_1 }}' {% endif %} {# Must be written in one line #}
+
+Test3 Int0 '{{ int_0 }}' Int1 '{{ int_1 }}'

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "examplelspserver"
+version = "0.0.3.2"
+description = "python packaging tutorial"
+authors = ["sgu <stu126367@mail.uni-kiel.de>"]
+license = "Apache License, Version 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+[tool.setuptools.packages.find]
+exclude = ["input","client","node_modules"]
+
+
+[project]
+name = "Example-Language"
+version = "0.40.0"
+authors = [
+    { name="sgu", email="sgu@informatik.uni-kiel.de" },
+]
+description = "A test dsl of the OceanDSL project."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "odsllib >= 0.38",
+]
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development",
+]
+
+license = {text = "Apache License (2.0)"}
+
+[project.urls]
+"oceandsl · GitLab" = "https://git.se.informatik.uni-kiel.de/oceandsl"
+"OceanDSL · GitHub" = "https://github.com/OceanDSL"
+
+[project.scripts]
+exp_dsl = "examplelspserver.__main__:main"
