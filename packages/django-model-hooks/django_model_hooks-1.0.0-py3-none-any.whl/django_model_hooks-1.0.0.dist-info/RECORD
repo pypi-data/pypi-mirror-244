@@ -1,0 +1,17 @@
+model_hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_hooks/admin.py,sha256=N1JDDKyM_iAnpA-Ix2rUZV3-87nZojsSl3iurttYAXA,807
+model_hooks/apps.py,sha256=iaU9-YUqsj4hKnnWT9vYOs42GSKHQKXsGviXSLl5hys,200
+model_hooks/decorators.py,sha256=F2iizFSd02hvgjQ1IJA0Yfwa3Q_fhYK-WXtvKNvxN9Q,1102
+model_hooks/events.py,sha256=GZ3WV1daBsnt5Z_y5wRd5OSu2FIP2mUHP-DjI_XX-Ec,685
+model_hooks/forms.py,sha256=JYQHv5D5o0U75hreoR8rS_h7Bdh8hH4fedURJSzDV44,544
+model_hooks/models.py,sha256=WMWRa0GsjWkDX_oCZWR4vl7zcl7XLH-jhk3L7-jlfxw,1468
+model_hooks/receivers.py,sha256=euSQRR62F-p0ZZTF9rqtR8WD_Ky9fXtGvJGfoInzrho,933
+model_hooks/signals.py,sha256=-ZWMvqMkdaZpHjbGX5jRNvVvaYmoYkjWfNJi72hFriQ,59
+model_hooks/utils.py,sha256=KgBvabQcrYb9WkBKNAstUnb_pNv7NiwbSW5nb2LQI90,2286
+model_hooks/version.py,sha256=P3HEkYrQY_hgsiUjRF3VD8nV-e_18eXM3t8rxd0ShxY,266
+model_hooks/migrations/0001_initial.py,sha256=xRk1yROY2VGQAfc6PP2RFQZtphGcz6o4z87zsY9oWj4,2143
+model_hooks/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_model_hooks-1.0.0.dist-info/METADATA,sha256=AxH4WTkNhajwgGMGMXKPYfV9mk4OicPrSsapzHdCvds,2800
+django_model_hooks-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_model_hooks-1.0.0.dist-info/top_level.txt,sha256=Twl6qNbTgOaoEUKBKjh2BFeiAxEgzSCC1TOfZyZkQZA,12
+django_model_hooks-1.0.0.dist-info/RECORD,,
