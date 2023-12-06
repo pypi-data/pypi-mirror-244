@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+colacorn.egg-info/PKG-INFO
+colacorn.egg-info/SOURCES.txt
+colacorn.egg-info/dependency_links.txt
+colacorn.egg-info/top_level.txt
