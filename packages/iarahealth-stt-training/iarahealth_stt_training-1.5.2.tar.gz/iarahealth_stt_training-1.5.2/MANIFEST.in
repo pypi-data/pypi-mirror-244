@@ -1,0 +1,2 @@
+include training/iarahealth_stt_training/VERSION
+include training/iarahealth_stt_training/GRAPH_VERSION
