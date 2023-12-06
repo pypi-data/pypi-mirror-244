@@ -1,0 +1,8 @@
+README.md
+setup.py
+logicarbor/logicarbor.py
+logicarbor.egg-info/PKG-INFO
+logicarbor.egg-info/SOURCES.txt
+logicarbor.egg-info/dependency_links.txt
+logicarbor.egg-info/requires.txt
+logicarbor.egg-info/top_level.txt
