@@ -1,0 +1,10 @@
+simpletkinter/__init__.py,sha256=vTbZIS2t3URbdS7TxKjf3dGlwc7tF-8CwR-gr9P3P9g,184
+simpletkinter/_version.py,sha256=CHUdJvPS3l7PphMt_r17ufrpB0TIJkmifpqmTNjwh84,22
+simpletkinter/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpletkinter/src/tkframes.py,sha256=APiJrUdCrgT7JEb5Se-CYZN1rehUwS4452LrWA-l4eI,1539
+simpletkinter/src/tkwidgets.py,sha256=Ou9wsR0LlTA7LA6IJdihv01fRFGWFxsc1QctaBl3g4U,5522
+simpletkinter-0.0.6.dist-info/LICENSE.txt,sha256=4h0e1iLfuruOGdqDfs8-aua1e_Ma97UnS8ZfwAau8aE,33889
+simpletkinter-0.0.6.dist-info/METADATA,sha256=WGpIxdByhSIweUdfUgLeXao2kfndvARIoRYdHEbC_5U,847
+simpletkinter-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+simpletkinter-0.0.6.dist-info/top_level.txt,sha256=Ek-ieIEcnkrEs8dyp3zitkmpSiBrohCIPozQb3yB3TY,14
+simpletkinter-0.0.6.dist-info/RECORD,,
