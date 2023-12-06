@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+tests/test_new.py
+wncfe-sql-tools/__init__.py
+wncfe-sql-tools/middleware.py
+wncfe_query_inspector.egg-info/PKG-INFO
+wncfe_query_inspector.egg-info/SOURCES.txt
+wncfe_query_inspector.egg-info/dependency_links.txt
+wncfe_query_inspector.egg-info/requires.txt
+wncfe_query_inspector.egg-info/top_level.txt
