@@ -1,0 +1,11 @@
+deluca/_version.py,sha256=waaS9bXAXUdynulsdKhTjdirHaS9Z7SqazHOrzdob3A,597
+deluca/core.py,sha256=UDHq6v7SVOvM--Y15KSn-5BiytuLtpOIKb2F_podkQo,4793
+deluca/utils/__init__.py,sha256=KYanxlVwnnlpqI0I6_vcqiv1wXfrZTP5M6ssm68nGu4,648
+deluca/utils/experiment.py,sha256=POzM79mkcXJXXFwgfjF5CpV7pnlpgoieVUDnd_tHkH0,6636
+plugin/setup.py,sha256=8bMFSFEirC83P2E5gqWscOv456HhYeZRC2ocGtZLFEo,37
+scripts/make_plugin.py,sha256=TE54x9yVXAU-AIHtX_f3LMAqY8A7y17kBnGiGqroW2k,1656
+deluca-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deluca-0.0.6.dist-info/METADATA,sha256=0RAZwjtAzhQq5-J1OQjBvIkHCOlxV4-jrt5klo8v1jo,3803
+deluca-0.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+deluca-0.0.6.dist-info/top_level.txt,sha256=31cKPgVQlvZHZ_B5zY66_bHYGewGRJseEyZB84dxkqI,34
+deluca-0.0.6.dist-info/RECORD,,
