@@ -1,0 +1,6 @@
+Wc.py
+setup.py
+lzy_Wc.egg-info/PKG-INFO
+lzy_Wc.egg-info/SOURCES.txt
+lzy_Wc.egg-info/dependency_links.txt
+lzy_Wc.egg-info/top_level.txt
