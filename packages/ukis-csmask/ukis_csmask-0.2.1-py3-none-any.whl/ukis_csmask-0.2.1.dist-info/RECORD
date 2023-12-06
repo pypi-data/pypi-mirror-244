@@ -1,0 +1,10 @@
+ukis_csmask/__init__.py,sha256=7VyHp48OUTQQUylqTtD2KYmDnZ1N5qU2-WFiy4BFYEo,23
+ukis_csmask/mask.py,sha256=UU99in-R92MQ1R2nAaTULloijUh0fcit9GMnH6gJVJA,7266
+ukis_csmask/model_4b.onnx,sha256=OyrEnQSy-srYKkFe2atW_cZtc7bOcGXAXRneA8TJ4SA,31104654
+ukis_csmask/model_6b.onnx,sha256=q9MwKOnpIYUid4u8vGJxd8ZFH3lZicgkFPN6229nOmY,31107029
+ukis_csmask/utils.py,sha256=uwZVbA1eE8g6TuhK2vrmnFLHcb-_84WVpf1F1nu92XE,11624
+ukis_csmask-0.2.1.dist-info/LICENSE,sha256=JDcr69HbNEkUAY2V3kjtYH9yJfkn6vkjN-4r_6Tf1Eg,11438
+ukis_csmask-0.2.1.dist-info/METADATA,sha256=vOiWfmNJcqlsfqQ6s7kltBC1oCHpGIJtkHW6inrcN6w,9441
+ukis_csmask-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ukis_csmask-0.2.1.dist-info/top_level.txt,sha256=trynehChG98ys9AJ1lbhbYADeA0hr3TIEcAYofzsGt4,12
+ukis_csmask-0.2.1.dist-info/RECORD,,
