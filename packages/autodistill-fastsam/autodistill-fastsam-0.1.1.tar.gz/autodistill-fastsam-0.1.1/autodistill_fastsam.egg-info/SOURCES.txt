@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+autodistill_fastsam/__init__.py
+autodistill_fastsam/helpers.py
+autodistill_fastsam/model.py
+autodistill_fastsam.egg-info/PKG-INFO
+autodistill_fastsam.egg-info/SOURCES.txt
+autodistill_fastsam.egg-info/dependency_links.txt
+autodistill_fastsam.egg-info/requires.txt
+autodistill_fastsam.egg-info/top_level.txt
