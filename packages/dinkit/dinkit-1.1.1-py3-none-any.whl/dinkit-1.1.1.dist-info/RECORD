@@ -1,0 +1,12 @@
+dinkit/__init__.py,sha256=4A55NItt9NHkc8mpbZYo0gXgr2yTV1TcdrmP3Vi-jgc,22
+dinkit/__version__.py,sha256=pTCmtyR9nVRqwAdEAUI7h2PihHygj1cOJECgG7-B1tQ,63
+dinkit/dinkit.dll,sha256=kplSqwj_yOVrxqrTtsGzNfybWI4ObodzBVxiy14lMTc,2932736
+dinkit/dinkit.py,sha256=Y4qQsB7mPgJv5o8HGx5MHLI7KDkyr27crJPBZdq3hdY,2521
+dinkit/libdinkit.dylib,sha256=V5D0nnSjqZga7-Dz-dpcq3Yc_z71TcKL-4tlJeXUDbA,2341952
+dinkit/libdinkit.so,sha256=TclWhEjvVP_uW6UMRq7Wc5XyFeh81benfw9TwuM2Z9g,2364440
+dinkit/test.py,sha256=Vy_CmbAqL9SIgxje9e8neeegLrnDZ7-r_ebTk1Y0hnM,1891
+dinkit-1.1.1.dist-info/LICENSE,sha256=NqTlefKost5lRhF9Oa_pSjPpR9zbV8yBQVvEgNol5_o,1058
+dinkit-1.1.1.dist-info/METADATA,sha256=SzKqDhIcqdd_ib0CTA0n96rcP1soyqL3FxFRfaoMtd0,2712
+dinkit-1.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dinkit-1.1.1.dist-info/top_level.txt,sha256=4sN594acgUsGuS1Bf_S29VLPRS_TkNwKt_3nb4VlEuQ,7
+dinkit-1.1.1.dist-info/RECORD,,
