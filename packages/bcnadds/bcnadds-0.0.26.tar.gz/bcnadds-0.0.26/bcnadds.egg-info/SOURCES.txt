@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+assets/__init__.py
+bcnadds/TgGraph.py
+bcnadds/__init__.py
+bcnadds/errors.py
+bcnadds/file_depreciated.py
+bcnadds/funcs.py
+bcnadds.egg-info/PKG-INFO
+bcnadds.egg-info/SOURCES.txt
+bcnadds.egg-info/dependency_links.txt
+bcnadds.egg-info/requires.txt
+bcnadds.egg-info/top_level.txt
