@@ -1,0 +1,9 @@
+gdal[numpy]==3.8.1.*
+numpy
+scipy
+elevation
+pyproj
+tqdm
+rasterio
+mpi4py
+cloudpickle
