@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: px_services
+Version: 0.1.19
+Summary: A blockchain Wallet Service APIs
+Home-page: 
+Author: Prince Foli
+Author-email: princefoli@qodehub.com
+License: MIT
+Keywords: Blockchain,Wallet,HDWallet,BlockCypher
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+```
+This library is a service that help can create Wallet Seed or keys, create BlockCypher HD allet and also hold internal wallet reference to it. 
+```
+#
+#
+#
+#### Get Started
+```sh
+# open any command-line terminal
+
+# install px-services
+pip install px-services==0.1.3
+
+# run python3 interractive shell
+python3 
+
+Python 3.9.10 (main, Jan 15 2022, 11:48:00)
+[Clang 13.0.0 (clang-1300.0.29.3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information
+
+# import px_services package classes
+>>> from px_services.wallet import PxWallet
+>>> from px_services.wallet import PxWalletKeyGenerator
+
+# This method `PxWalletKeyGenerator.generate_seed_phrase()` return a turple of 
+# `secret_phrase` ( a.k.a `seed phrase` | `recovery phrase` | `backup phrase`)
+# `seed` dictionary with these keys `hex`, `bytes`
+
+secret_phrase, seed = PxWalletKeyGenerator.generate_seed_phrase()
+
+# This method `PxWalletKeyGenerator.seedToMasterKey(seed['hex'])` take the seed (in hex format)
+# as input and returns a turple of `info` dictionary object and `hdKey` Master key object
+# (same object from which `info` dictionary object was constructed).
+
+info, hdKey = PxWalletKeyGenerator.seedToMasterKey(seed['hex'])
+
+# get Master Node or Master Key details from `info` dictionary object
+
+info.get('master_key_info')
+
+# get `account_keys` (account level extended public & private key) from `master_key_info`
+
+info.get('master_key_info').get('account_keys')
+
+# get `zprv` ( account level extended private key) from `account_keys`. This key can be 
+# used to derive all account level addresses and it corresponding public & private keys. 
+# Please DONOT share this key with any Blockchain Service Provider unless you have too.
+
+info.get('master_key_info').get('account_keys').('zprv')
+
+# get `zpub` ( account level extended public key) from `account_keys`. This key can be used 
+# to derive all account level addresses and its corresponding `public keys` but cannot derive 
+# its corresponding `private keys`. This key can be shared with any Blockchain Service 
+# Providers since they will only be able to derive addresses and read its balances.
+
+info.get('master_key_info').get('account_keys').('zpub')
+```
+
+
+
+
+Change Log
+==========
+
+0.1.19 (05/12/2023) 
+------------------  
+- Improved BlockCypher HD wallet create response 
