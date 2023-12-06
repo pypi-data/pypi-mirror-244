@@ -1,0 +1,13 @@
+Release/_swigwrapper.cp37-win_amd64.exp,sha256=DD1GXV4-uN5edr_32reHPoYmA8pmVmJpuj7MlQNLJSY,4790
+Release/_swigwrapper.cp37-win_amd64.lib,sha256=QpmGZJWSz5E3CY_s5RNfM9VjGT5uBsOXt0DhwlXH6Og,9102
+Release/swigwrapper_wrap.obj,sha256=bKYb5Gz8tVTbcVnvRb8R1YZE_IOhCxI5I91Kvjbx6dQ,10416695
+iarahealth_stt_ctcdecoder/__init__.py,sha256=mrH_2nVpcRXGV7OcW8xqYwPY44oyE4A7uC9LcObD41g,23549
+iarahealth_stt_ctcdecoder/_swigwrapper.cp37-win_amd64.pyd,sha256=cUQGXMo7SJUkaJJBdKHnoBkOYf0iVnSe09uMlwcU9Co,2661888
+iarahealth_stt_ctcdecoder/swigwrapper.py,sha256=_E4P8jm1gS1dqDoeNbWkOYKQSzRw3E1KeYvyElP6Pi4,55261
+iarahealth_stt_ctcdecoder-1.5.2.dist-info/COPYING,sha256=YQjAU7pQZsQEzQQgBlmXRCeu5DasxF0uXuE4fJCQLkk,407
+iarahealth_stt_ctcdecoder-1.5.2.dist-info/LICENSE.paddlepaddle,sha256=O_UaRClbh6spD2RX45RTNMPvtHI6-Ds04ehaYoExueo,11582
+iarahealth_stt_ctcdecoder-1.5.2.dist-info/LICENSE.parlance,sha256=edoDyyxABtz5HEyVYx4hLaE1EUUzO12wnSO0TG323I4,1133
+iarahealth_stt_ctcdecoder-1.5.2.dist-info/METADATA,sha256=VER_t-dEl1LDgsHtCivjTLIyNWjTlfZCLixYRveeNLQ,360
+iarahealth_stt_ctcdecoder-1.5.2.dist-info/WHEEL,sha256=slqBGdqRnxanDn00BSYHhryEsWH_8CUurgRUvoMtK_Y,101
+iarahealth_stt_ctcdecoder-1.5.2.dist-info/top_level.txt,sha256=Tw7YiBC-f4NFPpzM6q5EluYRBZ9APkiSoq24HxRkZF4,26
+iarahealth_stt_ctcdecoder-1.5.2.dist-info/RECORD,,
