@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PyUMLS_Similarity
+Version: 0.0.6
+Summary: This package computes a variety of similarity metrics between concepts present in the UMLS database
+Author-email: Victor Murcia <victor.murciaruiz@va.gov>
+Maintainer-email: Victor Murcia <victor.murciaruiz@va.gov>
+Project-URL: Homepage, https://github.com/victormurcia/PyUMLS_Similarity
+Project-URL: Repository, https://github.com/victormurcia/PyUMLS_Similarity
+Project-URL: Issues, https://github.com/victormurcia/PyUMLS_Similarity/issues
+Keywords: NLP,semantic similarity,medicine,UMLS,Lobster Thermidor
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This package computes a variety of similarity metrics between concepts present in the UMLS database. 
+
+It is a Python wrapper based off a Perl module developed by Bridget McInnes and Ted Pedersen. 
