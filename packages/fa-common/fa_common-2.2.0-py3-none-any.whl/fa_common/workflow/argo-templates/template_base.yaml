@@ -1,0 +1,32 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: <<NAME>>
+spec:
+  entrypoint: main
+  onExit: <<ARCHIVE_TEMP_NAME>>
+  arguments:
+    parameters: []
+  artifactGC:
+    strategy: OnWorkflowCompletion
+    serviceAccountName: argo-workflow-patch
+    forceFinalizerRemoval: true
+  artifactRepositoryRef:
+    configMap: argo-artifact-repo-config
+    key: artifact-repository-config
+  podGC:
+    strategy: OnPodCompletion
+  ttlStrategy:
+    secondsAfterCompletion: 86400
+  activeDeadlineSeconds: 28800
+  serviceAccountName: argo-workflow-patch
+  templates:
+  - name: main
+    dag:
+      tasks: []
+  <% if HAS_SECRET %>
+  volumes:
+  - secret:
+      secretName: <<SECRET_NAME>>
+    name: <<SECRET_NAME>>
+  <% endif %>
