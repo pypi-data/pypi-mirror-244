@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pt_library
+Version: 0.1.6
+Summary: A small utility package
+Author-email: Smit Jethwa <smitjethwa20@gmail.com>
+Project-URL: Documentation, https://smitjethwa.github.io/pt-library-docs/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3==1.26.6
+Requires-Dist: requests==2.31.0
+Requires-Dist: mysql-connector-python==8.0.33
+Requires-Dist: python-dateutil==2.8.2
+
+# PT Utility Package
+
+- Time Decorator
+  - decorator to calculate execution time.
+  - `from pt_library import calculate_time`
+- Notification
+  - Currently, supports only Telegram Notifications.
+  - `from pt_library import telegram_notification`
+- DB Connection
+  - Run Query on SQL and return records.
+  - `from pt_library import run_query`
+- Date time
+  - Get the current month date (format: yyyy_mm_dd)
+  - Get the previous month date ()
+  - Get the timestamp (yyyy-mm-dd HH:MM:SS) 
+  - `from pt_library import get_previous_month_year, get_current_month_year, get_timestamp`
