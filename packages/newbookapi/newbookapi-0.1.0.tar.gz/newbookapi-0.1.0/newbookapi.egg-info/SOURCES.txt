@@ -1,0 +1,9 @@
+README.md
+setup.py
+newbookapi/__init__.py
+newbookapi/newbookapi.py
+newbookapi.egg-info/PKG-INFO
+newbookapi.egg-info/SOURCES.txt
+newbookapi.egg-info/dependency_links.txt
+newbookapi.egg-info/requires.txt
+newbookapi.egg-info/top_level.txt
