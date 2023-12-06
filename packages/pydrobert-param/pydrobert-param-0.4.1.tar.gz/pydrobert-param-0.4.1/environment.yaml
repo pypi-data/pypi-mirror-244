@@ -1,0 +1,22 @@
+# development environment
+
+name: pydrobert-param
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - pytest
+  - ruamel.yaml>=0.15
+  - pyyaml
+  - numpy
+  - pytest
+  - pandas
+  - optuna
+  - param
+  - sphinx
+  - myst-parser
+  - sphinx-autodoc-typehints
+  - sphinx_rtd_theme
+
