@@ -1,0 +1,13 @@
+scisonify/__init__.py,sha256=fnQibyM44CvFuHjrOh1FHtGeUhjjkHV_G9W84XYjlNk,116
+scisonify/pandas.py,sha256=jNIi23OTaH_MQCLGzHSWPUOde8QKyu1YIBRihIM9J2g,353
+scisonify/xarray.py,sha256=Vt82ZJXJWjck5iSRT3frYnbCJXBlgLdDK3u4NrBKjXI,340
+scisonify/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scisonify/core/envelope.py,sha256=kEmLaTbSuJgFQc-Ycoxlkv8PB3R0NBB4pzCtHXzckxs,2187
+scisonify/core/sonify.py,sha256=UajnddWbp4E-VrpMf3omfpj4D0MHN9O6HJe3f1svnlk,6833
+scisonify/core/soundmaps.py,sha256=hgoi3HJeUIxplRYTwOzX-npwXdSupsS-dDwnPD2AHkk,5031
+scisonify/core/waveforms.py,sha256=3JIVe_S_XZWZY2SGuIKjdetExXfBaDXW-VhUrZNsUxU,577
+scisonify/tests/test_soundmaps.py,sha256=0GuRbyUkCgc07CvatsXZZamxm9Pc4_Y_Lme_PA2dXPs,1148
+scisonify-0.0.0.dist-info/METADATA,sha256=YpePRWmVyWtcg1FSdPNKB-4y0n5mGdBBwF8_Pn9MWZo,2040
+scisonify-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+scisonify-0.0.0.dist-info/top_level.txt,sha256=04AYpTJh8OtUWspRo4XFlAK4226AS7i35zHyzo-lqEY,10
+scisonify-0.0.0.dist-info/RECORD,,
