@@ -1,0 +1,2 @@
+[robot.output.console]
+improved = rci.improved:Improved
