@@ -1,0 +1,7 @@
+example_package_chiptest1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_chiptest1/example.py,sha256=wSNAnp6RPZ0P8dR2a-4ovnNpNxHCYWlYPFUrXgOmaQY,43
+example_package_chiptest1-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+example_package_chiptest1-0.0.1.dist-info/METADATA,sha256=HtnNrZ6GMbQs-cx4BWu6Rhjxg1OEkzF1F1nwL7bVDyQ,682
+example_package_chiptest1-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+example_package_chiptest1-0.0.1.dist-info/top_level.txt,sha256=Bn_dx1bXnYWuKxiMHl2-iTD9l-phALhQbKlxoiKH4mM,26
+example_package_chiptest1-0.0.1.dist-info/RECORD,,
