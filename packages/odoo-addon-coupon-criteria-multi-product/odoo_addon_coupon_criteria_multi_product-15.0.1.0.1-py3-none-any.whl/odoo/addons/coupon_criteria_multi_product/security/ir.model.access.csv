@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+coupon_criteria_multi_product.access_coupon_criteria,access_coupon_criteria,coupon_criteria_multi_product.model_coupon_criteria,base.group_user,0,0,0,0
