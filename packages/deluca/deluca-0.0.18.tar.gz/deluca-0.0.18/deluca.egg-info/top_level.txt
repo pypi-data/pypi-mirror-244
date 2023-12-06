@@ -1,0 +1,6 @@
+assets
+build
+deluca
+dist
+plugin
+scripts

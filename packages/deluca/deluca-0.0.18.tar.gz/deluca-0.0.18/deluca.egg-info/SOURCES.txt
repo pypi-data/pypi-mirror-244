@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+deluca/_version.py
+deluca/core.py
+deluca.egg-info/PKG-INFO
+deluca.egg-info/SOURCES.txt
+deluca.egg-info/dependency_links.txt
+deluca.egg-info/requires.txt
+deluca.egg-info/top_level.txt
+deluca/utils/__init__.py
+deluca/utils/experiment.py
+plugin/setup.py
+scripts/make_plugin.py
