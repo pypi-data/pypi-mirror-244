@@ -1,0 +1,14 @@
+tests/urbanopt_ditto_reader/test_ditto_reader_cli.py,sha256=4uY6hujsTuWqzFlvkhqwYHqhtqm-ZSYvjowW5HHyu_Q,2699
+urbanopt_ditto_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urbanopt_ditto_reader/ditto_reader_cli.py,sha256=_noH2zhi1ghU7ouu49T7jVy5WTbFeKZQNUUDFXou6xg,8417
+urbanopt_ditto_reader/example_config.json,sha256=WDn4W65VJmKFmed_SCat6EW7MHBgqjsPoRBkGj01LBo,384
+urbanopt_ditto_reader/extended_catalog.json,sha256=B-FIyJBolJnS-P_-IUP7JS3LXwOvABPY0w4PwnIEJwc,554243
+urbanopt_ditto_reader/urbanopt_ditto_reader.py,sha256=e71zja-ZdiJSiQ5-zAM4hQQ5J4Zd4KntMI4CwhP-sdg,26593
+urbanopt_ditto_reader/reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urbanopt_ditto_reader/reader/read.py,sha256=ze9I_OqIwb6wccDMf5GDKoZfb2E5cKEkb2PqBC5YD8I,36976
+urbanopt_ditto_reader-0.6.1.dist-info/LICENSE.md,sha256=34_CoAMxYgN4Dw3JhV_KqPCBWf5RrmVS1CYi3kjb_4k,1541
+urbanopt_ditto_reader-0.6.1.dist-info/METADATA,sha256=kqI3VIWAKill6RWju17NhTuwegSiUhtPRKV2XkYJcWA,6538
+urbanopt_ditto_reader-0.6.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+urbanopt_ditto_reader-0.6.1.dist-info/entry_points.txt,sha256=sQdvHuM9Mztw3JGYoWyw3zGsXFuT4AvkZpUiFnCk2mI,80
+urbanopt_ditto_reader-0.6.1.dist-info/top_level.txt,sha256=xF4ChZDC-Tu-cUIQLavfizqU4CKzYjsA_1VuJFOfXKY,28
+urbanopt_ditto_reader-0.6.1.dist-info/RECORD,,
