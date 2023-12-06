@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "django-typer"
+version = "0.1.0b"
+description = "Use Typer to define the CLI for your Django management commands."
+authors = ["Brian Kohan <bckohan@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/bckohan/django-typer"
+homepage = "https://django-typer.readthedocs.io"
+keywords = ["django", "CLI", "management", "Typer", "commands"]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: Django",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 4 - Beta",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+packages = [
+    { include = "django_typer" }
+]
+exclude = ["django_typer/tests"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+Django = ">=3.2,<5.0"
+typer = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+django-click = "^2.3.0"
+ipdb = "^0.13.13"
+rich = "^13.7.0"
+pytest-django = "^4.5.2"
+isort = "^5.6.4"
+pytest-cov = "^4.0.0"
+Sphinx = "^5.0.2"
+sphinx-rtd-theme = "^1.0.0"
+mypy = ">=0.991,<1.5"
+pylint = '^3.0'
