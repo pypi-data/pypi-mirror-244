@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: dawnet-client
+Version: 0.0.5
+Summary: DAWNet client enables remote execution of python code triggered from a DAW.
+Home-page: https://github.com/yourusername/byoca
+Author: Steve Hiehn
+Author-email: stevehiehn@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: websockets
+Requires-Dist: nest-asyncio
+
+# dawnet-client
+Bring Your Own Audio Compute
+
+
+LOCAL TEST:
+`pip uninstall dawnet-client -y && pip install . && python ./run_dawnet.py dc308761-9aeb-4667-bb71-f11d87fec665`
+
+LOCAL DEV:
+```
+export DAWNET_API_BASE_URL='http://localhost:8000'
+export DAWNET_SOCKET_IP='0.0.0.0'
+export DAWNET_SOCKET_PORT='8765'
+```
+
+
