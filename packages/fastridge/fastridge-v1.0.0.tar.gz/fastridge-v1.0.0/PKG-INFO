@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: fastridge
+Version: v1.0.0
+Summary: Fast and robust approach to ridge regression with simultaneous estimation of model parameters and hyperparameter tuning within a Bayesian framework via expectation-maximization (EM). 
+Home-page: https://github.com/marioboley/fastridge.git
+Author: Mario Boley
+Author-email: mario.boley@monash.edu
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Ridge regression,EM
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
