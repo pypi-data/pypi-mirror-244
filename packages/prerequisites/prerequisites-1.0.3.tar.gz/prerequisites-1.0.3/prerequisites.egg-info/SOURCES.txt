@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+prerequisites/__init__.py
+prerequisites/py.typed
+prerequisites.egg-info/PKG-INFO
+prerequisites.egg-info/SOURCES.txt
+prerequisites.egg-info/dependency_links.txt
+prerequisites.egg-info/top_level.txt
+tests/__init__.py
+tests/test_initial.py
+tests/test_prerequisites.py
