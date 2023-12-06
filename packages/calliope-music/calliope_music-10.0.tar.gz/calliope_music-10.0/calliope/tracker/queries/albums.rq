@@ -1,0 +1,35 @@
+# Inputs: all_artists artist_name all_albums album_name
+# Outputs: artist_name, album_name, first_file, track_count, size_mb, duration
+
+SELECT
+    ?artist_name
+    ?album_name
+    ?file AS ?first_file
+    COUNT(?track) AS ?track_count
+    SUM(nie:byteSize(?file)) / (1024.0 * 1024.0) AS ?size_mb
+    SUM(nfo:duration(?track)) AS ?duration
+FROM tracker:Audio
+FROM tracker:FileSystem
+{
+    ?album a nmm:MusicAlbum ;
+        dc:title ?album_name ;
+        nmm:albumArtist ?album_artist .
+
+    ?album_artist nmm:artistName ?artist_name .
+
+    ?track nmm:musicAlbum ?album ;
+        nie:isStoredAs ?file .
+
+    FILTER (~all_artists = "true" || EXISTS {
+        ?album_artist fts:match ~artist_name .
+    })
+    FILTER (~all_artists = "true" || (LCASE(?artist_name) = LCASE(~artist_name))) .
+
+    FILTER (~all_albums = "true" || EXISTS {
+        ?album fts:match ~album_name .
+    })
+    FILTER (~all_albums = "true" || (LCASE(?album_name) = LCASE(~album_name))) .
+
+}
+GROUP BY ?album
+ORDER BY ?artist_name ?album_name

@@ -1,0 +1,12 @@
+# Inputs:
+# Outputs: artist_name
+SELECT
+    ?artist_name
+FROM tracker:Audio
+{
+    ?artist a nmm:Artist ;
+        dc:title ?artist_name .
+    ?song nmm:artist ?artist .
+}
+GROUP BY ?artist
+ORDER BY ?artist_name

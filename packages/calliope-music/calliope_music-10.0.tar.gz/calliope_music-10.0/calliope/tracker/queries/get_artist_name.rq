@@ -1,0 +1,9 @@
+# Inputs: artist_urn
+# Outputs: artist_name
+
+SELECT ?name AS ?artist_name
+FROM tracker:Audio
+{
+    ~artist_urn a nmm:Artist ;
+        dc:title ?name .
+}

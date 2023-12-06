@@ -1,0 +1,26 @@
+# Inputs: all_artists artist_urn all_tracks track_name
+# Outputs: track_url track_title artist_name
+SELECT
+    ?track_url
+    ?track_name
+    ?artist_name
+FROM tracker:Audio
+{
+    ?track a nmm:MusicPiece ;
+        nie:isStoredAs ?track_url ;
+        nie:title ?track_name .
+    ?artist nmm:artistName ?artist_name .
+
+    FILTER (~all_artists = "true" || EXISTS {
+        ?track nmm:artist ~artist_urn .
+    })
+
+    FILTER (~all_tracks = "true" || EXISTS {
+        ?track fts:match ~track_name .
+    })
+    FILTER (~all_tracks = "true" || LCASE(?track_name) = LCASE(~track_name)) .
+
+    OPTIONAL { ?track nmm:musicAlbum ?album }
+    FILTER (! bound (?album))
+}
+ORDER BY ?artist_name ?track_name

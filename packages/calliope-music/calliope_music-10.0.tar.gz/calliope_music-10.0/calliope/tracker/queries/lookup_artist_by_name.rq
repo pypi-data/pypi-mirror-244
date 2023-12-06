@@ -1,0 +1,11 @@
+# Inputs: name
+# Outputs: artist_urn
+SELECT ?u as ?artist_urn
+FROM tracker:Audio
+{
+    ?u a nmm:Artist ;
+        dc:title ?name ;
+
+    ?u fts:match ?name .
+    FILTER (LCASE(?name) = LCASE(~name))
+)

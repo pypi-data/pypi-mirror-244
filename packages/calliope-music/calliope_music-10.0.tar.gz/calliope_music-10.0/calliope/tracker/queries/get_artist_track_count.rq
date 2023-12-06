@@ -1,0 +1,12 @@
+# Inputs: limit
+# Outputs: artist_name, artist_track_count
+SELECT ?artist_name (COUNT(?song) as ?artist_track_count)
+FROM tracker:Audio
+{
+    ?artist a nmm:Artist ;
+        dc:title ?artist_name .
+    ?song nmm:artist ?artist .
+}
+GROUP BY ?artist
+ORDER BY DESC(?songs) ?artist_name
+LIMIT ~limit

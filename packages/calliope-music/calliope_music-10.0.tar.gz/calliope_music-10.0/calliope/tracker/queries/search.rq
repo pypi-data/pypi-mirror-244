@@ -1,0 +1,54 @@
+# Inputs: text
+# Outputs: track_name track_url artist_name match_type
+SELECT DISTINCT ?track_name
+                ?track_url
+                COALESCE(?artist_name, ?performer_name, "No artist")
+                ?match_type
+FROM tracker:Audio
+{
+    ?track nie:title ?track_name ;
+        nie:isStoredAs ?track_url .
+    {
+        SELECT ?track ?artist_name ?performer_name ?match_type
+        {
+            BIND ("track" AS ?match_type)
+            ?track a nmm:MusicPiece ;
+                fts:match ~text .
+            OPTIONAL { ?track nmm:artist/nmm:artistName ?artist_name }
+            OPTIONAL { ?track nmm:performer/nmm:artistName ?performer_name }
+        }
+    } UNION {
+        SELECT ?track ?artist_name ?performer_name ?match_type
+        {
+            BIND ("artist" AS ?match_type)
+            ?artist a nmm:Artist ;
+                fts:match ~text ;
+                nmm:artistName ?artist_name .
+            ?track a nmm:MusicPiece ;
+                nmm:artist ?artist .
+            BIND ("" AS ?performer_name)
+        }
+    } UNION {
+        SELECT ?track ?artist_name ?performer_name ?match_type
+        {
+            BIND ("performer" AS ?match_type)
+            ?performer a nmm:Artist ;
+                fts:match ~text ;
+                nmm:artistName ?performer_name .
+            ?track a nmm:MusicPiece ;
+                nmm:performer ?performer .
+            BIND ("" AS ?artist_name)
+        }
+    } UNION {
+        SELECT ?track ?artist_name ?performer_name ?match_type
+        {
+            BIND ("album" AS ?match_type)
+            ?album a nmm:MusicAlbum ;
+                fts:match ~text .
+            ?track nmm:musicAlbum ?album
+            OPTIONAL { ?track nmm:artist/nmm:artistName ?artist_name }
+            OPTIONAL { ?track nmm:performer/nmm:artistName ?performer_name }
+        }
+    }
+}
+ORDER BY ?track_name ?artist_name

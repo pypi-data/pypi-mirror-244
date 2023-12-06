@@ -1,0 +1,24 @@
+# Inputs: artist_name_fts artist_name track_name_fts track_name
+# Outputs: file duration
+SELECT
+    ?file
+    nfo:duration(?track) AS ?duration
+FROM tracker:Audio
+{
+    ?track a nmm:MusicPiece ;
+        dc:title ?track_name ;
+        nie:isStoredAs ?file ;
+        nmm:artist ?artist .
+
+    ?artist nmm:artistName ?artist_name .
+
+    ?track fts:match ~track_name_fts .
+    ?artist fts:match ~artist_name_fts .
+
+    FILTER (fn:replace(LCASE(?track_name), "\\p{P}", "") = fn:replace(LCASE(~track_name), "\\p{P}", "") &&
+            fn:replace(LCASE(?artist_name), "\\p{P}", "") = fn:replace(LCASE(~artist_name), "\\p{P}", ""))
+}
+
+# The regex above is to strip punctuation. We can't use
+# tracker:strip-punctuation() due to
+# https://gitlab.gnome.org/GNOME/tracker/-/issues/419
