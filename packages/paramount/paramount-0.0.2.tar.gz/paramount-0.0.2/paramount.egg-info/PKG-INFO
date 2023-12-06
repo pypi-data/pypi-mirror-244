@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: paramount
+Version: 0.0.2
+Summary: Automated accuracy measurements for LLMs
+Home-page: https://github.com/ask-fini/paramount
+Author: Hakim K
+Author-email: 5586611+hakimkhalafi@users.noreply.github.com
+Project-URL: Source Code, https://github.com/ask-fini/paramount
+Description-Content-Type: text/markdown
+
+# paramount
+
+Automated accuracy measurements for LLMs
