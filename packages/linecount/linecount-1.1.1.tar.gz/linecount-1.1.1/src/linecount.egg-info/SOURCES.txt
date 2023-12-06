@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/linecount/__init__.py
+src/linecount/cli.py
+src/linecount/exceptions.py
+src/linecount/line_counting.py
+src/linecount.egg-info/PKG-INFO
+src/linecount.egg-info/SOURCES.txt
+src/linecount.egg-info/dependency_links.txt
+src/linecount.egg-info/entry_points.txt
+src/linecount.egg-info/top_level.txt
+test/test.py
