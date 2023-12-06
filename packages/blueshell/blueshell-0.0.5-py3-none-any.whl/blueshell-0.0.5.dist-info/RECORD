@@ -1,0 +1,9 @@
+blueshell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blueshell/list.py,sha256=fRYnot-wYwp5HHfSlDwu-UI1PM4SCaqhMpEcfZa2o6c,704
+blueshell/shell.py,sha256=U_gb1yezySSWv2TIaJ0EFRzJ3rnb37DdizACZvrgxjw,3308
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blueshell-0.0.5.dist-info/LICENSE,sha256=6yHaCJg6tT3DQS_TlPPJBuu3SpHcPorNrZxSla9xma4,1065
+blueshell-0.0.5.dist-info/METADATA,sha256=_ybBh2k8-jHf_4LT3b1e337CUoUTUcMPk0RCB1PDViA,3249
+blueshell-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+blueshell-0.0.5.dist-info/top_level.txt,sha256=ThxRrc0ALd8dxa6I6arUndl2KpvpqPJLaE_1eTWYiRQ,15
+blueshell-0.0.5.dist-info/RECORD,,
