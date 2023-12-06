@@ -1,0 +1,11 @@
+assets/__init__.py,sha256=wlsGT71cLH9mLEASTGLYLXYlJszU05PEqbRDr9o6Vkk,119
+bcnadds/TgGraph.py,sha256=RvJM-UfYRDfA6AZDVVg5bApYkEVgqNcBHaLBpOh5ZNg,17090
+bcnadds/__init__.py,sha256=QDKnHhILXWkWS6unXVzAZbtsO-GlcgnFta8l4xHW1AM,372
+bcnadds/errors.py,sha256=jg-EF_tRC7OLKx3XJZIpqbwy9z8U1Kg0T8EM4GyrVEI,401
+bcnadds/file_depreciated.py,sha256=7LWtCY8bH1Huhh5vFmVW2PrnYNylRQ67b8UFd8eHO8g,313
+bcnadds/funcs.py,sha256=1RGtMk_TGo1UGaWaHcJEvPviNoN3UmOFA1t-P9F6CeI,4607
+bcnadds-0.0.27.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bcnadds-0.0.27.dist-info/METADATA,sha256=l5ZDZfSkPrI38CdUr5YZFmsFHBtw3w3UfLLnSvlyiLA,1822
+bcnadds-0.0.27.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bcnadds-0.0.27.dist-info/top_level.txt,sha256=_3xpO3mJp7UVTqhzKVLk5yOxygb1F8EEOBl86unrWzs,15
+bcnadds-0.0.27.dist-info/RECORD,,
