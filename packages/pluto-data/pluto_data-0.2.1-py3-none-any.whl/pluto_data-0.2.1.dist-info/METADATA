@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pluto-data
+Version: 0.2.1
+License-File: LICENSE
+Requires-Dist: litellm (==1.7.12)
+Requires-Dist: posthog (==2.5.0)
+
