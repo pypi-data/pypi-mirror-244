@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+2.0.2
+-----
+
+* change screenshot from /sdcard to /data/local/tmp to fix screenshot popup
+* fix decode error, close https://github.com/openatx/adbutils/pull/99
+* support click percent support
+* fix \_device.py:390
+* add screenshot multi thread support
+* change runs-on
+* add default socket timeout to 10m, to prevent program stuck
+* fix for py37
+* fix: support splited apk
+* Update README.md
