@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: yorgassistant
+Version: 0.0.2
+Summary: assistant package for yorg
+Home-page: https://github.com/YORG-AI/Open-Assistant
+Author: XingYu-Zhong
+Author-email: zhongxingyuemail@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain ==0.0.214
+Requires-Dist: lxml ==4.9.2
+Requires-Dist: python-multipart ==0.0.6
+Requires-Dist: tiktoken ==0.5.1
+Requires-Dist: dnspython ==2.1.0
+Requires-Dist: typeguard ==4.1.2
+Requires-Dist: PyGithub ==1.58
+Requires-Dist: bs4
+Requires-Dist: pyyaml
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: httpx
+Requires-Dist: openai ==1.2.3
+Requires-Dist: fastapi ==0.72.0
+Requires-Dist: redis ==4.5.5
+Requires-Dist: GitPython
+Requires-Dist: pandas
+
+assistant package for yorg
