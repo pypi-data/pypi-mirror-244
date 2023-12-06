@@ -1,0 +1,15 @@
+sphinx
+sphinx-rtd-theme
+nbsphinx
+ipykernel
+ipython
+jupyter_client
+numpy
+xarray
+librosa
+scipy
+pip
+git+https://github.com/philipc2/sci-sonify.git
+netcdf4
+matplotlib
+astropy
