@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: upright-nhp
+Version: 0.0.1
+Summary: Upright non-human primate morphologies.
+Author-email: Sarah Walling-Bell <sarah.wallingbell@alleninstitute.org>
+Project-URL: Homepage, https://github.com/sarahwallingbell/upright_nhp.git
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: neuron-morphology
+Requires-Dist: morph-utils
+
+Upright non human primate neurons that have dorsal and medial fiducials such that dorsal is on top and medial is on the right. 
