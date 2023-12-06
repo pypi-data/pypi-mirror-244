@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: beyonddefer
+Version: 1.0.5
+Summary: The code for paper 'Is Learn to Defer Enough? Optimal Predictors that Incorporate Human Decisions'
+Author: BeyondDefer Authors
+Requires-Python: >=3.8,<=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=10.1.0,<11.0.0)
+Requires-Dist: matplotlib (>=3.7,<4.0)
+Requires-Dist: numpy (>=1.24.4,<2.0.0)
+Requires-Dist: osfclient (>=0.0.5,<0.0.6)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: sentence-transformers (>=2.2.2,<3.0.0)
+Requires-Dist: tikzplotlib (>=0.10.1,<0.11.0)
+Requires-Dist: torch (>=2.1.1,<3.0.0)
+Requires-Dist: torchtext (>=0.16.1,<0.17.0)
+Requires-Dist: torchvision (>=0.16.1,<0.17.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Quick Start
+
+In this package, we provide the code to reproduce the experiments in the paper "Is Learn to Defer Enough? Optimal Predictors that Incorporate Human Decisions". The main set of experiments are in
+`Experiments/` (Section 7). In fact,
+
+- in `Experiments/acc_vs_c.py`
+the code corresponding to the accuracy of methods based on additional defer cost is provided,
+- in `Experiments/CIFAR10K.py`
+the code corresponding to the CIFAR10K experiment for different $K$ 
+is provided,
+- in `Experiments/cost_sensitive_cov_acc.py`
+the code of accuracy vs. coverage for cost-sensitive methods is provided,
+- in `Experiments/SampleComp.py`
+the role of sample complexity is studied, and
+- in `Experiments/no_loss_cov_acc.py`
+the code of accuracy vs. coverage for methods for 0-1 losses is provided.
+
