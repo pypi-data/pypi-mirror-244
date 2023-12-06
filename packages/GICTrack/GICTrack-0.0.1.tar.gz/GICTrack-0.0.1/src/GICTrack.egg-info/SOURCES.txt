@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/GICTrack.py
+src/GICTrack.egg-info/PKG-INFO
+src/GICTrack.egg-info/SOURCES.txt
+src/GICTrack.egg-info/dependency_links.txt
+src/GICTrack.egg-info/requires.txt
+src/GICTrack.egg-info/top_level.txt
+src/gictrack/Centenary_Institute_logo.png
+src/gictrack/GIC.png
+src/gictrack/GICTrack.py
+src/gictrack/__init__.py
