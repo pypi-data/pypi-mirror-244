@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dfimagetools
+Version: 20231205
+Summary: Storage media image tools
+Home-page: https://github.com/log2timeline/dfimagetools
+Maintainer: Log2Timeline maintainers
+Maintainer-email: log2timeline-maintainers@googlegroups.com
+License: Apache License, Version 2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+License-File: ACKNOWLEDGEMENTS
+License-File: AUTHORS
+License-File: LICENSE
+License-File: README
+
+Collection of tools to process storage media images.
