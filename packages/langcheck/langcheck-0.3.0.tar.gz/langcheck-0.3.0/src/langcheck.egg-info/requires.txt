@@ -1,0 +1,35 @@
+dash>=2.11
+fugashi
+janome>=0.3.1
+nlpaug
+nltk>=3
+openai>=1
+pandas>=1
+plotly>=5
+rouge_score>=0.1.2
+sentence_transformers>=2
+sentencepiece>=0.1.95
+torch>=2
+transformers>=4.6
+unidic-lite>=1.0.1
+
+[:python_version < "3.11"]
+tomli
+
+[:python_version >= "3.11"]
+tokenizers>=0.13.2
+
+[dev]
+yapf==0.40.1
+flake8
+isort
+pyright
+pandas-stubs
+pytest
+sphinx
+sphinx-book-theme
+myst-parser
+ipykernel
+
+[optional]
+mecab-python3>=1.0.4
