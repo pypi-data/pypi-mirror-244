@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pysphalt/__init__.py
+pysphalt/multiplication.py
+pysphalt.egg-info/PKG-INFO
+pysphalt.egg-info/SOURCES.txt
+pysphalt.egg-info/dependency_links.txt
+pysphalt.egg-info/top_level.txt
