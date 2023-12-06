@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: webdriver-helper
+Version: 1.0.4
+Summary: 自动下载浏览器驱动，使selenium 4.0开箱即用
+Home-page: https://github.com/dongfangtianyu/webdriver-helper
+Author: dongfangtianyu
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: selenium~=4.15.0
+
+selenium-manager M4已发布。建议使用selenium-manager代替本工具
