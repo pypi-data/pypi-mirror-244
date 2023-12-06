@@ -1,0 +1,14 @@
+pydantic>=2.5.2
+
+[build]
+build>=1.0.3
+twine>=4.0.2
+
+[dev]
+ipython>=8.18.1
+markdown-exec[ansi]>=1.7.0
+mkdocs>=1.5.3
+mkdocs-caption>=0.0.10
+mkdocs-material>=9.4.14
+mkdocstrings>=0.24.0
+mkdocstrings-python>=1.7.5
