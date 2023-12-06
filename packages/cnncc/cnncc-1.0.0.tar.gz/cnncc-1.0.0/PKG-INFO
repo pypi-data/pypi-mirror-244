@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cnncc
+Version: 1.0.0
+Summary: A simple CNN for cell-cycle phase classification
+Author: F.Dumoncel, E.Billard, S. Boudouh
+Requires-Dist: matplotlib==3.7.1
+Requires-Dist: numpy==1.24.3
+Requires-Dist: pandas==1.5.3
+Requires-Dist: Pillow==10.1.0
+Requires-Dist: scikit_learn==1.2.2
+Requires-Dist: streamlit==1.28.2
+Requires-Dist: torch==2.1.1
+Requires-Dist: torchvision==0.16.1
