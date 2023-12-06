@@ -1,0 +1,1 @@
+pytorch_wavelets @ git+ssh://git@github.com/fbcotter/pytorch_wavelets@1.1.0#egg=pytorch_wavelets-1.1.0
