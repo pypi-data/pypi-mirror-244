@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+src/nicetictactoe/__init__.py
+src/nicetictactoe/buttons.py
+src/nicetictactoe/gui.py
+src/nicetictactoe/icon.png
+src/nicetictactoe/logic.py
+src/nicetictactoe.egg-info/PKG-INFO
+src/nicetictactoe.egg-info/SOURCES.txt
+src/nicetictactoe.egg-info/dependency_links.txt
+src/nicetictactoe.egg-info/not-zip-safe
+src/nicetictactoe.egg-info/requires.txt
+src/nicetictactoe.egg-info/top_level.txt
