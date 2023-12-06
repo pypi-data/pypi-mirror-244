@@ -1,0 +1,4 @@
+[console_scripts]
+handy=handytat:main
+handysubl=handyw:main
+
