@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: webfleet_connect
+Version: 0.1.1
+Summary: The WEBFLEET.connect API connects software applications with the Webfleet fleet management solution. Via WEBFLEET.connect you can enhance the value of all types of business solutions, including routing and scheduling optimization, ERP, Transport Management System (TMS), supply chain planning, asset management, and much more.
+Home-page: https://github.com/movomx/webfleet_connect_python
+Author: movomx
+Author-email: alex.guajardo@movomx.com
+License: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
