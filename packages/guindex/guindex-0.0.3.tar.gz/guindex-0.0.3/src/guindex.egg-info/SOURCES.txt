@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/guindex/__init__.py
+src/guindex/guindex_constants.py
+src/guindex/guindex_functions.py
+src/guindex.egg-info/PKG-INFO
+src/guindex.egg-info/SOURCES.txt
+src/guindex.egg-info/dependency_links.txt
+src/guindex.egg-info/requires.txt
+src/guindex.egg-info/top_level.txt
+tests/test_guindex.py
