@@ -1,0 +1,10 @@
+plotly_calplot/__init__.py,sha256=640TUCyxuKLus5lAxEJKD6t6T4z3_KS-IQgshF2Zv-A,118
+plotly_calplot/calplot.py,sha256=p6VV0fLcJ_lKL7Fu1QgC2XWenR-V_EvjxeTMI7fP278,10030
+plotly_calplot/date_extractors.py,sha256=HJYZgzJwVoSdDUltISyYUJbOdl6a44aNYELwZ9pVKmY,1364
+plotly_calplot/layout_formatter.py,sha256=QTLJe4QVsHwDvuwrGYyDkf4Ya1bGlLzD0Y7rErFzctc,3707
+plotly_calplot/raw_heatmap.py,sha256=v7JpVqhJarHG2t-d6_PLAVwa37i9lBTUfl0KHarZf9c,1321
+plotly_calplot/single_year_calplot.py,sha256=ON-9Oo2tW_CWNRCM5svMbMfs7zxuU3s6qixsXz7TwFg,1950
+plotly_calplot/utils.py,sha256=Ms3wq8cAVYjCD7whQWuj-zJtDjJlctnIfkf93Iur_2o,2358
+plotly_calplot-0.1.20.dist-info/METADATA,sha256=XxARUiGl5t63YjrgJBTzzzNVTRjWBaM-46xfl5wuldU,2063
+plotly_calplot-0.1.20.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+plotly_calplot-0.1.20.dist-info/RECORD,,
