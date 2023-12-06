@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_sqlite_helper/main.py
+simple_sqlite_helper.egg-info/PKG-INFO
+simple_sqlite_helper.egg-info/SOURCES.txt
+simple_sqlite_helper.egg-info/dependency_links.txt
+simple_sqlite_helper.egg-info/requires.txt
+simple_sqlite_helper.egg-info/top_level.txt
