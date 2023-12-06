@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ytdl-1080p
+Version: 1.1.0
+Summary: ytdl is a command line tool to search and download videos in 1080p from yt using the command line.
+Author: Tanish
+Author-email: sharmatanish097654@gmail.com
+Keywords: python,ytdl_1080p,ytdl-1080p,ytdl 1080p,1080p,ytdl1080p,youtube,youtube downloader,ytdl,Ytdl,1080p yt downloader,downloader,pytube
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: ffmpeg-python
+Requires-Dist: pytube
+
+# git repo
+<p>https://github.com/Tanish0907/yt-downloader-python_script-<p>
+# usage
+ <table>
+    <tr><th>
+    commands
+    </th></tr>
+    <tr><td>ytdl --search "term"</td></tr>
+    <tr><td>ytdl --downolad_video "link"</td></tr>
+    <tr><td>ytdl --download_music "link"</td></tr>
+
+  </table>
