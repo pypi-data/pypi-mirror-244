@@ -1,0 +1,10 @@
+equinox
+jax
+jaxtyping
+numpy
+pillow
+optax
+torch
+torchvision
+
+[demo]
