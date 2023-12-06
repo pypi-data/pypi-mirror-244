@@ -1,0 +1,9 @@
+sources/
+__pycache__/
+.vscode/
+build/
+Backend.spec
+.pytest_cache
+.coverage
+.coverage
+.coverage
