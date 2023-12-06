@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: aoc-toolbox
+Version: 2023.12.5
+Summary: A suite of convenience tools designed to solve AoC challenges and parse input data easily
+Keywords: AoC Utilitaries
+License: MIT
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Homepage, https://adventofcode.com
