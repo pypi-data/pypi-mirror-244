@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TestMyFirstProjectLibrary
+Version: 0.0.4
+Summary: None
+Author-email: akim.petbu@gmail.com
+Description-Content-Type: text/markdown
+
+# TestMyFirstProjectLibrary #
+
+This is a super puper project that will help you do the exam
+
+## Commands ##
+
+
+1. ```HelloAkim()``` - print Hi Akim
+2. ```Commands()``` - print all functions
+3.  ```FindLongest_char(file, char)``` - finds the longest sequence of this character in the file
