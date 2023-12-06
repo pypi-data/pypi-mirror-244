@@ -1,0 +1,8 @@
+sqlalchemy>=1.0.0
+python-dateutil
+pycryptodome
+pytz
+thrift
+grpcio
+grpcio-tools
+sqlalchemy
