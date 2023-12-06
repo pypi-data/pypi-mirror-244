@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: haproxy-cli
+Version: 0.6
+Summary: A tool to interact with HAProxy
+Author: markt.de
+Author-email: github-oss-noreply@markt.de
+License: GPL-3
+Project-URL: Bug Tracker, https://github.com/markt-de/haproxy-cli/issues
+Project-URL: Documentation, https://github.com/markt-de/haproxy-cli
+Project-URL: Source Code, https://github.com/markt-de/haproxy-cli
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.7
+License-File: LICENSE
+
