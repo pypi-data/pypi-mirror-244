@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.1.8 (05/12/2023) 
+------------------  
+- Changed README content formatting
