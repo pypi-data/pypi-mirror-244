@@ -1,0 +1,2 @@
+[console_scripts]
+nalibs_hello = nalibs.addfunc:sayHello
