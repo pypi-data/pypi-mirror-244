@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ying
+Version: 0.1.1
+Summary: My personal python library for some common usage.
+Author: Ying Cai
+Author-email: i@caiying.me
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Provides-Extra: cloud-storage-size
+Requires-Dist: azure-storage-blob (>=12.9.0,<13.0.0) ; extra == "cloud-storage-size"
+Requires-Dist: boto3 (>=1.20.0,<2.0.0) ; extra == "cloud-storage-size"
+Requires-Dist: google-cloud-monitoring (>=2.7.0,<3.0.0) ; extra == "cloud-storage-size"
+Requires-Dist: google-cloud-storage (>=1.42.0,<2.0.0) ; extra == "cloud-storage-size"
+Requires-Dist: minio (>=7.1.0,<8.0.0) ; extra == "cloud-storage-size"
+Requires-Dist: oss2 (>=2.14.0,<3.0.0) ; extra == "cloud-storage-size"
+Description-Content-Type: text/markdown
+
+# My Python Library
+
+```bash
+pip install ying
+
+pip install ying[cloud_storage_size]
+```
+
