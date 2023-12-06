@@ -1,0 +1,10 @@
+jo3mnist/__init__.py,sha256=HfGXRd_wj0j2WCB7cG-76RYYv4C9CL1lBhyUKeE6q30,94
+jo3mnist/__main__.py,sha256=n8QQy-PeqfrI87VsQyOdxzWKU0s2EIFla8Vn9AiZTgs,6946
+jo3mnist/data.py,sha256=T9DelXSkfWoKsuH0rHmmnLo1rvt6T-vuGMhgHH18AmE,862
+jo3mnist/equinox.py,sha256=v5j980r552WnXTCOtC45e85bpWk4vBRfc98d0YEihx8,4528
+jo3mnist/vis.py,sha256=8tZbEQpQkNX0SG-uZEqgeFWi3ejIPYJ4cG_LhDS2QbQ,703
+jo3mnist-0.0.2.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+jo3mnist-0.0.2.dist-info/METADATA,sha256=qq7aBL-I2o7jhi_SmNY2j-se7CK2fU7MeatndwY5tY8,983
+jo3mnist-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+jo3mnist-0.0.2.dist-info/top_level.txt,sha256=xXFOvgw5TzdwoMPc7KN-D2s-d8rvoRNxEgwtLfJUzOE,9
+jo3mnist-0.0.2.dist-info/RECORD,,
