@@ -1,0 +1,12 @@
+bcf_vcf.py,sha256=acsG09rWeeTuOMcXV9OwSFcRLQEXsAidpo1jaigNU7g,8599
+helper_functions.py,sha256=zIHs4trH1d7B2IciOACxo3-HhXrU7GI5E8RVVE1FC7Y,15596
+hmm_functions.py,sha256=bNQoObYecuekcX9jvInCpAzvw59wZhEhw8ZhZAtZGVw,14421
+main.py,sha256=g5_sPyv1WFfgAnKZBheLKRueR0BNre8prNBaYYcyVoA,16030
+make_mutationrate.py,sha256=uPeqnE3lUqVYc0d77SLd5IgVnqgfFeBQnwlLsScywNk,2007
+make_test_data.py,sha256=qVViv4BKn7GpfeyvqJdj9d220Pv6e2Q0psGpXguB0b8,4281
+hmmix-0.6.9.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hmmix-0.6.9.dist-info/METADATA,sha256=XH2mK-ap-5UVIh0NdL1h3oj5hrtc-MTy43E53toIbsQ,34673
+hmmix-0.6.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hmmix-0.6.9.dist-info/entry_points.txt,sha256=MlmoV1RgL5zMXlFwuB6L50tqmhYrKgp17YrfA0vEAEE,36
+hmmix-0.6.9.dist-info/top_level.txt,sha256=H6t_9XK9EmB4jTw9ap2nG13HIRLtaSFHbRIdcJBv6bQ,77
+hmmix-0.6.9.dist-info/RECORD,,
