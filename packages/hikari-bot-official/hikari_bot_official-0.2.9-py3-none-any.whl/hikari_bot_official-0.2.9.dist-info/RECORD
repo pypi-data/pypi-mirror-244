@@ -1,0 +1,10 @@
+hikari_bot_official/__init__.py,sha256=abXu8FDHBNihea_a4lTKEQ5GMQ4Nu2B4mfZxe2-uuoI,13907
+hikari_bot_official/data_source.py,sha256=ZC1ZwWr8JWE7rtxatl4Qn6tHG6beGdtQgFgxAx2NSu8,532
+hikari_bot_official/game/listen_config.json,sha256=tq2Gglpm7l1H2va7sfhSF52XVuO-_L2lVNxLSSleRdE,75
+hikari_bot_official/game/ocr.py,sha256=sQLxyUAe-JvcN1O_xsTVxQnIXjiLHHkMRL7cMeEQP9g,3553
+hikari_bot_official/game/pupu.py,sha256=jiq86JW74_yXqeTzqtYXYF7fsuppYqsrY__oKC3edWM,844
+hikari_bot_official/utils.py,sha256=G89PiHgE22ggE050hUsmhKSMSeZzPHqb9Y8MeSJg_uM,5053
+hikari_bot_official-0.2.9.dist-info/LICENSE,sha256=pI4zno5tjj3qRHiDszVSNxWApGb-FaxVg5VyTfasvuQ,1084
+hikari_bot_official-0.2.9.dist-info/METADATA,sha256=3832qzwuuBKj7rY-r2CIu_eRYRLapckDKJ0mUvmcQBY,9079
+hikari_bot_official-0.2.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+hikari_bot_official-0.2.9.dist-info/RECORD,,
