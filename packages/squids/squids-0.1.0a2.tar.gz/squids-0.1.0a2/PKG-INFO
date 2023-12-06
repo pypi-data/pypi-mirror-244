@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: squids
+Version: 0.1.0a2
+Summary: 
+License: MIT
+Author: Ryan Siemens
+Author-email: ryanjsiemens@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.21.45,<2.0.0)
