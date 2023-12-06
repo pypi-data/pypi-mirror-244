@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: latlonheightReader
+Version: 1.0.1
+Summary: get lat lon height value
+Home-page: UNKNOWN
+Author: zengwen.wu
+Author-email: 1441778423@qq.com
+License: Apache2.0
+Platform: all
+Requires-Python: >=3.6.0
+License-File: LICENSE
+Requires-Dist: GDAL
+Requires-Dist: numpy
+
+get lat lon height value from file
+
