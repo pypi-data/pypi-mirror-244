@@ -1,0 +1,10 @@
+squids/__init__.py,sha256=cLhBZLtDnCrrpfCiLcEjn8txJQ5h55LDEOMZ26q_Aog,134
+squids/__main__.py,sha256=7PxxQQHeqvYv7lew63owR4kERFvrpBWSWgMtht3L74Q,36
+squids/cli.py,sha256=JF90lXH1ePFkOnW5V1JeaM3Tgz_fRtugYQ2gJeftY6M,4284
+squids/consumer.py,sha256=1aY2-AfxOpzBtGK_qWJgfcucpOrIwygpFoqnyJ6Ykak,7256
+squids/core.py,sha256=vGAXDG3S4IVEDVW2zyL2Qo2QiwRRzz-9qMkngOHfN2E,12568
+squids/serde.py,sha256=QimiFW-U7rFIJVcu4f7oCJrsoRKqCowhN2D5MfrfeLg,576
+squids-0.1.0a2.dist-info/LICENSE,sha256=4OtdvH4dokKl48_NjmYNavL3ruRGeHOsc3opSY7UImk,1069
+squids-0.1.0a2.dist-info/METADATA,sha256=8VT5djwf8ETz13LIysJT3BNQQFKeu9OenwcvLzVzHWo,502
+squids-0.1.0a2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+squids-0.1.0a2.dist-info/RECORD,,
