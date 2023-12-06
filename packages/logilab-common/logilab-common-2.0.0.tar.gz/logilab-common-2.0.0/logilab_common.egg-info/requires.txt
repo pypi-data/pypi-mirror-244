@@ -1,0 +1,6 @@
+setuptools
+mypy-extensions
+typing_extensions
+
+[:python_version < "3.10"]
+importlib_metadata<7,>=6
