@@ -1,0 +1,1 @@
+# This package is used as a layer above MS cosmos db python sdk to interact with data in ms cosmos db sql api.
