@@ -1,0 +1,8 @@
+numpy
+lightgbm==4.0.0
+pyomo
+gurobipy
+pytest-cov
+IPython
+nbsphinx
+sphinx-rtd-theme

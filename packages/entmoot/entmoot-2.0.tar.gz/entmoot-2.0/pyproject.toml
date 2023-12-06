@@ -1,0 +1,28 @@
+[tool.pytest.ini_options]
+markers = [
+    "pipeline_test: marks tests as test which can be run in the pipeline (deselect with '-m \"not pipeline_test\"')",
+    "consistent: marks tests that check consistency of results, i.e. may vary for different machines (deselect with '-m \"not consistent\"')"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "entmoot"
+version = "2.0"
+authors = [
+  { name="Alexander Thebelt" },{ name="Nathan Sudermann-Merx" },{ name="Toby Boyne" },
+]
+description = "Multiobjective black-box optimization using gradient-boosted trees"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license="BSD-3-Clause"
+
+[project.urls]
+Homepage = "https://github.com/cog-imperial/entmoot"
+Issues = "https://github.com/cog-imperial/entmoot/issues"
