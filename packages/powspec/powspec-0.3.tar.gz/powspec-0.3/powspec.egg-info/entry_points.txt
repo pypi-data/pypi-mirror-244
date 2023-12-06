@@ -1,0 +1,2 @@
+[console_scripts]
+astropy_package_template_example = powspec.example_mod:main

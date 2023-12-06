@@ -1,0 +1,88 @@
+language: python
+git:
+  depth: false
+os:
+- linux
+addons:
+  apt:
+    packages:
+    - graphviz
+stages:
+- name: Initial tests
+- name: Comprehensive tests
+- name: Cron tests
+  if: type = cron
+env:
+  global:
+  - TOXENV='test'
+  - TOXARGS='-v'
+  - TOXPOSARGS=''
+  - SETUP_XVFB=True
+matrix:
+  fast_finish: true
+  include:
+  - os: osx
+    language: c
+    name: Python 3.7 with required dependencies
+    stage: Cron tests
+    env: PYTHON_VERSION=3.7 TOXENV=py37-test
+  - os: linux
+    python: 3.8
+    name: Python 3.8 with required dependencies and measure coverage
+    stage: Initial tests
+    env: TOXENV=py38-test-cov
+  - os: linux
+    python: 3.8
+    name: Documentation build
+    stage: Comprehensive tests
+    env: TOXENV=build_docs
+  - os: linux
+    python: 3.8
+    name: Python 3.8 with developer version of astropy
+    stage: Comprehensive tests
+    env: TOXENV=py38-test-devdeps
+  - os: linux
+    python: 3.6
+    name: Python 3.6 astropy LTS and Numpy 1.16
+    stage: Comprehensive tests
+    env: TOXENV=py36-test-astropylts-numpy116
+  - os: linux
+    python: 3.8
+    name: Python 3.8 latest developer version of key dependencies
+    stage: Cron tests
+    env: TOXENV=py38-test-devdeps
+  - os: windows
+    language: c
+    name: Python 3.8 with required dependencies
+    stage: Comprehensive tests
+    env: PYTHON_VERSION=3.8 TOXENV=py38-test
+  - os: linux
+    python: 3.7
+    name: Python 3.7 with astropy 3.0 and Numpy 1.17
+    stage: Comprehensive tests
+    env: TOXENV=py37-test-astropy30-numpy117
+  - os: linux
+    python: 3.8
+    name: Code style checks
+    stage: Initial tests
+    env: TOXENV=codestyle
+  allow_failures: 
+install:
+- if [[ $TRAVIS_OS_NAME != linux ]]; then git clone --depth 1 git://github.com/astropy/ci-helpers.git;
+  source ci-helpers/travis/setup_conda.sh; fi
+script:
+- pip install tox
+- tox $TOXARGS -- $TOXPOSARGS
+after_success:
+- pip install coveralls # coverage
+# - coverage combine .tmp/*/.coverage
+# - coverage report
+- coveralls
+deploy:
+  provider: pypi
+  user: __token__
+  password:
+    secure: QSAIjH32ZOhJqxHmlEp9jAx/IqjSrfYYiZ7ytPp9GCke4S/gzNFZRvZHTkcoCTTH27z1WF+jeU7wap9oCAKqMexgwYdh+jrvDdkbmgdFqR6JzjG6RmRMAoyOrM+V8BgArdhNyfhr6rGmUKiZpJ5PqXT5ipTIk3jnUcc6m8MQ31X5jAGko6yEX/rBMqRlu36tJf+IhfCrS5fAitk5/IJ4PEd7IZ/KltQ1Y+3SYDXs5peGuDyvsQvxKJcfPyqr/lfIEp43GcUcb2JoF9qgejBxYAtI3wMhQEPWcn2mscyLlkNLGb/3yGanATw4t9/jfTTt/ybw6emON9rT3c4lllcvatpKi8NS2F3npcc9wIw7V/PTA+Q3efexpdQMy55du/xBs+iyvqyr01Dom9EhgfQ3BMpkDREHE7PSYe09ZPCEq8kAF+WJ3VoDhu8Vrhyj9+U2TcaUrvW5P5+ItHTZ8/IWHOyKsGtYDl/hhFSX7XAUosrvW9DiSX+zPfQHSHKEX+YqtdUGvMblaZuLb7QmZ/+z7wX29Hz7ONgW7I5P3/UJUHq0cMX4o03Hmi1rih/JAPpc/3Z2ALpG9xoJknKd/QZUxZ/rmpd8hRMe3CCjV3rdSxtoJjSIrpaBJNOSR2ihO4/rXt+fwHjdImXlj8r85XXVrSadrr7UFgK4Ky1TwYJ0pi8=
+  on:
+    tags: true
+    repo: abeelen/powspec

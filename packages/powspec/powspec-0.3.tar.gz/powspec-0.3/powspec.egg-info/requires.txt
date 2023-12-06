@@ -1,0 +1,12 @@
+
+[docs]
+sphinx
+sphinx-automodapi
+sphinx-gallery
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest
+pytest-doctestplus

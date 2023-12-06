@@ -1,0 +1,6 @@
+sphinx-gallery
+numpy
+scipy
+astropy
+matplotlib
+-e git+http://github.com/abeelen/powspec.git#egg=powspec
