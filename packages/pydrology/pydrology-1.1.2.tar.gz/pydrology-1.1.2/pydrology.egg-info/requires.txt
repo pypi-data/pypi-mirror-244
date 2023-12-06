@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+requests
+pytest
+notebook
+scipy
+traces
+boto3
+nexradaws
+cftime
+netCDF4
+metpy
+pyyaml
