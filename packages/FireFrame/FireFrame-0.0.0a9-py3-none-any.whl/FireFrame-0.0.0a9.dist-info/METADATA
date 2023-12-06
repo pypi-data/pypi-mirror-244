@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: FireFrame
+Version: 0.0.0a9
+Summary: A firebase python web framework with ORM support.
+Author-email: Zachary Spar <zachspar@gmail.com>
+Project-URL: Homepage, https://github.com/zachspar/fireframe
+Project-URL: Bug Tracker, https://github.com/zachspar/fireframe/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click ==8.1.7
+Requires-Dist: fastapi ==0.104.1
+Requires-Dist: fireo ==2.2.1
+Requires-Dist: pydantic ==2.5.2
+Provides-Extra: dev
+Requires-Dist: black ==23.11.0 ; extra == 'dev'
+Requires-Dist: build ==1.0.3 ; extra == 'dev'
+Requires-Dist: httpx ==0.25.2 ; extra == 'dev'
+Requires-Dist: pytest ==7.4.3 ; extra == 'dev'
+Requires-Dist: pytest-xdist ==3.5.0 ; extra == 'dev'
+Requires-Dist: tox ==4.11.4 ; extra == 'dev'
+Requires-Dist: twine ==4.0.2 ; extra == 'dev'
+Requires-Dist: uvicorn ==0.24.0.post1 ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: httpx ==0.25.2 ; extra == 'test'
+Requires-Dist: pytest ==7.4.3 ; extra == 'test'
+Requires-Dist: pytest-xdist ==3.5.0 ; extra == 'test'
+
+# FireFrame
+A firebase python web framework with ORM support.
