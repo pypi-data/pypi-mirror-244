@@ -1,0 +1,10 @@
+README.md
+setup.py
+CowObfuscation/CowObfuscation.py
+CowObfuscation/__init__.py
+CowObfuscation/__version__.py
+CowObfuscation.egg-info/PKG-INFO
+CowObfuscation.egg-info/SOURCES.txt
+CowObfuscation.egg-info/dependency_links.txt
+CowObfuscation.egg-info/requires.txt
+CowObfuscation.egg-info/top_level.txt

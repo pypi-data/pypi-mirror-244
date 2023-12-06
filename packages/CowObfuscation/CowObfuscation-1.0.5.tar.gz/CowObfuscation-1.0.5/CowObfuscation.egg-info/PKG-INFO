@@ -1,0 +1,178 @@
+Metadata-Version: 2.1
+Name: CowObfuscation
+Version: 1.0.5
+Summary: Bạn là 1 nhà phát triển phần mềm, công cụ ?
+Home-page: https://github.com/tnk-admin/CowObfuscation
+Author: K07VN
+Author-email: khanhnekyh2007@gmail.com
+Keywords: python,crypto,encode,CowObfuscation,string,obfuscation python,encode
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# K07VN_Crypto #
+https://github.com/TNK-ADMIN/CowObfuscation
+
+* Vẫn hoạt động ổn định cho tới hiện tại
+* Sử dụng Python >= 3.6
+
+## **Installation** ##
+```
+pip install CowObfuscation
+```
+hoặc bạn có thể install từ github: 
+```
+pip install git+https://github.com/TNK-ADMIN/CowObfuscation
+```
+
+# **Usage** #
+
+## Cơ Bản ##
+
+Về cơ bản bạn chỉ cần install và import thư viện
+```
+from CowObfuscation import CowObfuscation
+```
+
+Và sau đó có thể gán cho 1 biến hoặc không rồi sử dụng`
+> ### CowObfuscation ###
+
+```
+from CowObfuscation import CowObfuscation
+file = "your.py"
+with open(file, mode='rb') as f:
+    script = f.read().decode('utf-8')
+filename = file.split('\\')[-1]
+skiprenaming = "y"
+skipchunks = "y"
+renvars, renlibs = (False, False) if skiprenaming else (True, True)
+randlines, shell = (False, False) if skipchunks else (True, True)
+mota="CowObfuscation"
+Hype = CowObfuscation(file, mota, content=script, renvars = renvars, renlibs = renlibs, randlines = randlines, shell = shell)
+script = Hype.content
+print(script)
+
+```
+
+> ### Demo ###
+
+```
+
+from builtins import *
+from math import prod as _math
+
+#----------------------------------------
+#Python Encode By Lê Zăn Pò
+#TIME              :   2023-12-06 11:53:49.556590
+#IP                 :   1.54.208.232
+#Andress      :  Thiên Đường - Trần Duy Hưng
+#Country       :   VN
+#Description :   CowObfuscation
+#----------------------------------------
+
+
+_calculate, System, _square, Round, Modulo, _absolute, _multiply = exec, str, tuple, map, ord, globals, type
+
+class Run:
+    def __init__(self, Hypothesis):
+        self._statistics = _math((Hypothesis, 88274))
+        self.Random(_modulo=-50136)
+
+    def Random(self, _modulo = str):
+        #Không Được Edit File Đã Mã Hoá!!! Cố Tình Edit Sẽ Nhận Kết Đắng
+        self._statistics -= -14302 + _modulo
+
+        try:
+            ((_calculate, {System: System}) for _calculate in (_calculate, Round, _add) if _absolute == _calculate)
+
+        except AssertionError:
+            (Round, _add, Modulo) if _add >= Modulo else (Round, _add, Modulo) >= _absolute
+
+        except:
+            _multiply(54105 + -28974) == None
+
+    def Calculate(self, _cube = 81387):
+        #Không Được Edit File Đã Mã Hoá!!! Cố Tình Edit Sẽ Nhận Kết Đắng
+        _cube -= -32191 / 97271
+        self._product != None
+
+        try:
+            ((System, _calculate, _calculate) or Round if (System, _calculate, _calculate) and Round else ... or (Round, (System, _calculate, _calculate)))
+
+        except AttributeError:
+            ((_add, (Modulo, _calculate, Round)) for _add in (Round, _add, Modulo) if Modulo != _square)
+
+        except:
+            _multiply(2950 - 59545) == False
+
+    def _random(_round = False):
+        return _absolute()[_round]
+
+    def Multiply(_lezanpo = 90849 + 93570, _gau = type, While = _absolute):
+        #Không Được Edit File Đã Mã Hoá!!! Cố Tình Edit Sẽ Nhận Kết Đắng
+        While()[_lezanpo] = _gau
+
+        try:
+            {_add: Round} if _add < _square else (Modulo, _calculate, Round) > System
+
+        except OSError:
+            (({_calculate: _calculate}, Modulo) for Modulo in {_add: Round})
+
+        except:
+            _multiply(2626 - -36779) == True
+
+    def execute(code = str):
+        return _calculate(System(_square(Round(Modulo, code))))
+
+    @property
+    def _product(self):
+        self.DetectVar = '<__main__._multiply object at 0x000009746BE34679>'
+        return (self.DetectVar, Run._product)
+
+if __name__ == '__main__':
+    try:
+        Run.execute(code = "CẤM EDIT FILE DƯỚI MỌI HÌNH THỨC")
+        Absolute = Run(Hypothesis = 96830 + 84629)
+
+        if 485401 > 9313947:
+            Absolute.Random(_modulo = Absolute._statistics + -91877)
+        elif 410396 < 5389047:
+            Run(Hypothesis = -25584 + -44411).Random(_modulo = Absolute._statistics - 11642)        
+
+                                          ;Run.Multiply(_lezanpo='S2SSSSS2S22S2SSS22SSSS',_gau=b'x\x9c\xddX[o\xa3:\x10~\xcf\xaf\xe8\x1b\xa0^D\x9c\x00I\xa4}[\xad\xd4\xa8)\x0f9R#U\x15"\x81\xec\x1a\x19\\%t\xc3\xfe\xfb3369\xdd\x02\x01r\xba\xfb\x10\xc3\xd8\xe3\x0b\xc3\xf8\xf3\x8c\xc7 \xe4&\x14{\xd3z6\x04\xa6{J\x9a\x83\x0c\n\xe3\xe5\xcbw!\xd70j\xd04\x04\x1f\xbf\xbf\x17\xc7\x0e\xea1\x9eg\xb3\xeb\xdb\xeb[\xf3\xd6\xbc\x1eZ\xd6\x0b\x88\x89\xf30\xcfw\'\xc5\x14\x87CQ\xd0}8\x10U\xc5D\xfc\xb4\x08\xf5t\xa1$\xa1\x0c\x98\x81\xa0i\x0e*]8~\xc9\xd8\x12\x13\xd3\x04uHKx*\x08x\xfa*wy\x10\x9c|a\x9af\x19\x11]\xc8\xc3\xb3\rRMc\xfd\xc6E\xce\xb3\xbda\xdd\xfd\x0cw\xa7A\xe5B\xf0$Ih\x08\x96I\xc2q2\xef`&\xd8\xcd\xc6\x97\xed3\x9e\x0b\xfe\xb6\xfe\x88\xa2u\xa3\xe1-4\xdc\x87\xe2\x0c!\xd6\xf3\xa7H\xb9\xe3Y\x14\x17\xa6\x11\xefE\xf8\xad\xd2\xfdb\x9d\x84\x08\xd0N\ttd\x08\xfe\x8c\x9a\xd2\x0b\x06JHY\xedm\xc1\tKjQ~JC\xc5\x05c\x94\x87Rl\xeb@\xaaz+\xc2\x93\x90\xab\t\xae3\x81>\x97 s\xc1\x10\xc5\x82\xbf\xa6rS\x07R\xedF\xb9Z\xad\x9e0A\xb1\xc2\x1c\xcbK\x86\xe7m\xf7Ow\x03z"8\x08\xa1\x12\x9f\x0b\xc6F\x84?\xe3\xcev\x93)\xbch\x83.9B\xee\x82\x01\xda\xe5\xfb\xbe;\xf4|\xfe\x00\xf7\x03\xb4\xcd\xe7p\xcf\xa9>\xef\x87\x11\xe7\x9b}\x98\xf1\xff\x87Q\xa3\x90^\x185K)1\xfa\xb5\xe5\xa2\x88\x7fdo\xdd\xbd\x8c\x82\x18A\x86\x998\x9eP\r\xe3.\x91<;\x89/\xea\xc7\xb4\x9a\xec\xa8\xea\xf2\xfd\xcbk\x9c\xd8\xac_\x16sm\x8c<g;b@C \x17\xc8\x01\x1ai\x1e\xdb&Xgk6aQ\xa7\xb1\x8cM\xe1P\x18\xc5\x1b\x19\xc5\xa61\xd9\xe6U`,:\x01_\xaa\xd3l\xe2\xa2vW\xa9\xb7\x058\x19\xf3\x84\xc3\x8dGc\xce!Xs\n\xda\xe7/(.\x86\xad\x17j\xaa\xcb1\x90\xf7a1\xdb\xc6u_\xc80]G\xe1\xd5\xe2\xf1q\xf1\xa83bf5\xfbh\x03\n\xf4\x1c=\xb6P2\x16\xe7\xcf\xdff\x11\xcdo\xd8S\x7f\x04\x1e\xe1O\xe8c%\xc1\x93\x14Oz\xcc\x81L\x86i\xa3a\x98\xb5\xcd\xc1\xb0\x9c\xc0\r\xa6\xc1(\xb0\x83a\xc0\x82\t\x90\x0bc\xddjk\xbb\xa8!\xf4\xd9\xed\xc3F y\x1c\xe0\x1b<\x90\xeb\xc0;\xa60v\\m\xed"j\x04\x83=x\xc8\x01E\x1d-\xe8C\xdb\xf9\xeb8\xd4\xebhw[\xc7\x8f\xf4\xce.\xc1\xa6(i\xf3\x9a\xd5\xad_\xfd\xa26j7\x9e\xe2\xe5n\xdcMY*^\xd5\xb1l\xd3\xf9?\xbb\x13\t}\x16\xa3\xb9\xc1\xb9\x9d\x08\xab=\xd44\xd4\xd4\xc8u\x1e)\xc3Z\xab\x0f\x19\x96\r}\xc3O\x1b\xd6\xc9\x04\xff\xc8\x82\x1f\xc1T\xeeG{\xb5\n\x94\xc4\xcc\x9a#j\xb33+\x19*-\x89\xda=\xfa\xf3w%e\xba\x0b\x95\x14\x07Y\xff\t)\x1dI\xcfw\xe9\xfc\xf9\x8cu\xd4\x98\xea#@\x199<},\xc0\xe82\xd1\x91\xa6\xcbX\xaf+.\xbd\xd4d\x1e\xf3Z\xc5\xf6t}\xc7\xd3\xd7\x84.O\xe7\x9e\xe6\x89\xda\x9d\xbf\xdf4\xd8x\xe2:\xb4\xc7l\x99\xedx\xee\xd6c\xee\x98\xb13\xa7f\xf8\xd2\xf6\xa5\x946\xdd@\xbe\xf4}\xdb\xffk\x9e{4\xee\x94\xbe\xa1\xd2RC\xfa\xef\xd5\xdb\xb4\x1b\xd5r#\xbab\xba\xa2c\xedw.>\x12\xe4\x9d\xf7\xec\x02\xd3A%u.(>Qo\x8c\'!\xd1\x14(,\xa3\x0b\xf1\xaa/\xec\xac\xa9\xfc\nI~\xf5}`|b(\xf5\t.\xf7J\xb3\x07HJ\xe5\x07l\xf9\xe3\xe1\xa0\xe7\x8eY\t\x03\xe5\xde]\x06\x01\xdc\xc0OF\x82\xedN\xa6W\xe5\x8f\xed+\xf5\xd3\xfc\n\x0e\xf3\x9b\x9b\xd7\x1d\xcf\xf2\x1b\xa0\x01V\xcd\xdf\xb6P\xbd\xad\xae\x9e\xac\x01\r3\xd5\xcf%j\xd2\x9d\xd6\xe0_ghrA')
+
+        Run(Hypothesis = -12340 / 53253).Calculate(_cube = 51333 * Absolute._statistics)
+
+
+                                      ;OooOo0OoOo0oOoOoO0oOOoo,nnnnnnnmnmnnnnnmnnmmmm,LJJJLILIJLIJJILJIJ,JLLLLLLJJIJIJIJLLIIJ,WXWXXWWWXXWWWXWWWX=(lambda WXXWXWXXWWWWWWXWXXWWX:globals()['\x65\x76\x61\x6c'](globals()['\x63\x6f\x6d\x70\x69\x6c\x65'](globals()['\x73\x74\x72']("\x67\x6c\x6f\x62\x61\x6c\x73\x28\x29\x5b\x27\x5c\x78\x36\x35\x5c\x78\x37\x36\x5c\x78\x36\x31\x5c\x78\x36\x63\x27\x5d(WXXWXWXXWWWWWWXWXXWWX)"),filename='\x4d\x4e\x4d\x4d\x4e\x4d\x4e\x4e\x4d\x4e\x4e\x4e\x4d\x4e\x4e\x4d\x4e\x4e\x4d\x4e\x4e\x4e\x4d\x4d',mode='\x65\x76\x61\x6c'))),(lambda WXXWXWXXWWWWWWXWXXWWX:WXXWXWXXWWWWWWXWXXWWX(__import__('\x7a\x6c\x69\x62'))),(lambda WXXWXWXXWWWWWWXWXXWWX:WXXWXWXXWWWWWWXWXXWWX['\x64\x65\x63\x6f\x6d\x70\x72\x65\x73\x73']),(lambda:(lambda WXXWXWXXWWWWWWXWXXWWX:globals()['\x65\x76\x61\x6c'](globals()['\x63\x6f\x6d\x70\x69\x6c\x65'](globals()['\x73\x74\x72']("\x67\x6c\x6f\x62\x61\x6c\x73\x28\x29\x5b\x27\x5c\x78\x36\x35\x5c\x78\x37\x36\x5c\x78\x36\x31\x5c\x78\x36\x63\x27\x5d(WXXWXWXXWWWWWWXWXXWWX)"),filename='\x4d\x4e\x4d\x4d\x4e\x4d\x4e\x4e\x4d\x4e\x4e\x4e\x4d\x4e\x4e\x4d\x4e\x4e\x4d\x4e\x4e\x4e\x4d\x4d',mode='\x65\x76\x61\x6c')))('\x5f\x5f\x69\x6d\x70\x6f\x72\x74\x5f\x5f\x28\x27\x62\x75\x69\x6c\x74\x69\x6e\x73\x27\x29\x2e\x65\x78\x65\x63')),(lambda wxwxwxwxxxwwxwxwwwwwxxw,WXXWXWXXWWWWWWXWXXWWX:wxwxwxwxxxwwxwxwwwwwxxw(WXXWXWXXWWWWWWXWXXWWX))
+        if 259861 > 2232622:
+            Absolute.Random(_modulo = Absolute._statistics - 50802)
+        elif 341099 < 7214855:
+            Run(Hypothesis = -79441 - 48531).Random(_modulo = Absolute._statistics + 21607)
+
+
+                                         ;JLLLLLLJJIJIJIJLLIIJ()(WXWXXWWWXXWWWXWWWX(LJJJLILIJLIJJILJIJ(nnnnnnnmnmnnnnnmnnmmmm(OooOo0OoOo0oOoOoO0oOOoo('\x76\x61\x72\x73'))),Run._random(_round='S2SSSSS2S22S2SSS22SSSS')))
+
+    except Exception as _add:
+        if 142097 > 7568053:
+            Run.execute(code = System(_add))
+
+        elif 191365 > 1956357:
+            Absolute.Random(_modulo = Absolute._statistics * 309)
+```
+
+
+# **Kết thúc** #
+
+## Contact ##
+
+Zalo: 0964243159
+
+Telegram: @tnk_k07vn
