@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+GSIBerror.egg-info/PKG-INFO
+GSIBerror.egg-info/SOURCES.txt
+GSIBerror.egg-info/dependency_links.txt
+GSIBerror.egg-info/requires.txt
+GSIBerror.egg-info/top_level.txt
+gsiberror/__init__.py
+gsiberror/plot_functions.py
