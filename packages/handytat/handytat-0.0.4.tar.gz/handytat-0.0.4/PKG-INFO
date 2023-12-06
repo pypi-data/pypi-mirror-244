@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: handytat
+Version: 0.0.4
+Summary: HandyTAT - The Handy Text Alignment Toolkit
+Author: João Gonçalves
+Author-email: joaoestgon@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: langdetect (>=1.0.9,<2.0.0)
+Requires-Dist: matplotlib (>=3.8.2,<4.0.0)
+Requires-Dist: pyqt5 (>=5.15.10,<6.0.0)
+Requires-Dist: pyqt5-qt5 (==5.15.2)
+Requires-Dist: pyside2 (>=5.15.2.1,<6.0.0.0)

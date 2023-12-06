@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "handytat"
+version = "0.0.4"
+description = "HandyTAT - The Handy Text Alignment Toolkit"
+authors = ["João Gonçalves <joaoestgon@gmail.com>"]
+# readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.11"
+langdetect = "^1.0.9"
+matplotlib = "^3.8.2"
+# UPDATE WHEN FIXED
+# Pyqt5 only has version 5.15.10 available for linux platforms
+pyqt5-qt5 = "5.15.2"
+pyqt5 = "^5.15.10"
+pyside2 = "^5.15.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
