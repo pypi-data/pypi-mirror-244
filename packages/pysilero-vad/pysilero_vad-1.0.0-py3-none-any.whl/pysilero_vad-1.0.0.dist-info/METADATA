@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pysilero-vad
+Version: 1.0.0
+Summary: Pre-packaged voice activity detector using silero-vad
+Home-page: http://github.com/rhasspy/pysilero-vad
+Author: Michael Hansen
+Author-email: mike@rhasspy.org
+License: MIT
+Keywords: voice activity vad
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: onnxruntime <2,>=1.10.0
+Requires-Dist: numpy <1.26
+
+# pySilero VAD
+
+A pre-packaged voice activity detector using [silero-vad](https://github.com/snakers4/silero-vad).
+
+``` sh
+pip install pysilero-vad
+```
+
+``` python
+from pysilero_vad import SileroVoiceActivityDetector
+
+vad = SileroVoiceActivityDetector()
+
+# Audio must be 16Khz, 16-bit mono PCM
+if vad(audio_bytes) >= 0.5:
+    print("Speech")
+else:
+    print("Silence")
+```
+
