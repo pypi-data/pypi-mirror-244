@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: SkyStaticAnalysis
+Version: 0.0.2
+Summary: A pure-python (Python>=3.10) static analysis library providing various interfaces.
+Home-page: https://github.com/ABM4ALL/Melodie
+Author: hzyrc6011
+Author-email: 1295752786@qq.com
+License: MIT
+Project-URL: Documentation, http://docs.abm4all.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: clang ~=16.0
+Requires-Dist: libclang ~=16.0
+Requires-Dist: six
+
+# SkyStaticAnalysis
+
+A pure-python (Python>=3.10) static analysis library providing various interfaces.
+
+[Documentation Website](https://hzyrc6011.github.io/skystaticanalysis/)
+
+## Interfaces
+
+### Clang
+
+Clang interface included some useful functionalities. For example:
+
+The Demo C file `"hello.c"`:
+
+```C
+typedef struct
+{
+    int abc;
+} StructA;
+
+int a = 32;
+int b = 444;
+int c = 123;
+int *p = 0;
+StructA st = {0};
+StructA *pst = {0};
+extern int extvar = 0;
+
+int f(int);
+
+int use_global(int y, float z)
+{
+    int x;
+    int c = *p + y;
+    a = 1045;
+    f(b);
+}
+
+int use_global_2(int y, float z)
+{
+    int x[1900];
+    int q = a;
+    x[q];
+    x[a];
+    if (y > 100)
+    {
+        f(x[y]);
+    }
+    else
+    {
+        f(x[(int)z]);
+    }
+}
+
+int main()
+{
+    StructA not_global = {0};
+    return 0;
+}
+```
+
+This Python script could parse variable definitions、function parameter declarations and variable references:
+
+``` python
+c_file = os.path.join("")
+root = parse_file(c_file).cursor
+
+# extract local variables
+assert {"c", "x"} == get_local_var_defs(func_decl).attributes("spelling").to_set()
+
+# extract referenced variables
+assert {"p", "y", "a", "b"} == get_var_refs(func_decl).attributes(
+    "spelling"
+).to_set()
+
+# extract referenced variables with functions
+assert {"p", "y", "a", "b", "f"} == get_var_refs(
+    func_decl, include_funcs=True
+).attributes("spelling").to_set()
+
+# extract parameter variables
+assert {"y", "z"} == get_param_decls(func_decl).attributes("spelling").to_set()
+
+# extract all global values
+assert {"a", "p", "b"} == get_global_ref_names(func_decl).to_set()
+```
+
+## In-Repo Third Party Dependencies
+
+### [JsonObject](https://github.com/dimagi/jsonobject.git)
+
+As original project used Cython, it might not be compatible with platform without compilation toolchains. So I copied the source code into this project and made it  runnable under pure-python.
+
+### [PyC-CFG](https://github.com/shramos/pyc-cfg)
+
+Pyc-cfg is a pure python control flow graph builder for almost all Ansi C programming language.
+
+As the original version only suitable for Python2, I copied its code and made it compatible for python 3.
