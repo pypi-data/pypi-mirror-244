@@ -1,0 +1,12 @@
+minivectordb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minivectordb/embedding_model.py,sha256=tCmc8CGrz_M9HAVodQFOa_oT5PYmhd2XPIUEtapaGGw,994
+minivectordb/vector_database.py,sha256=CyYhQO-b-ZNa3TGiClEi1G6Nqv_kwwRQa9Zet6T1CHc,8803
+minivectordb/resources/embedding_model_quantized.onnx,sha256=uLBbAfCGEJTwR1yyiK0bMDroruLr6W5lDSEIBdXKcPc,71794489
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_embedding_model.py,sha256=kk9fkV5tIn2D3w21lhabv0R96xIbD1usf6BtTDsw5Es,530
+tests/test_vector_database.py,sha256=pxsvpTqiYTzFvjm0QTISHxm7mbTZTOUWmZLvlO-HRfY,10811
+minivectordb-1.1.1.dist-info/LICENSE,sha256=oX-B2W26wFDWD3uBzzIljDiR6UKx4KLgk-x52xDo8Lw,1066
+minivectordb-1.1.1.dist-info/METADATA,sha256=hGQ7NIh1QifKmURaFHg0idlrsGTRaThuufYcJu0OrXU,6698
+minivectordb-1.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+minivectordb-1.1.1.dist-info/top_level.txt,sha256=DddiiOHRJV0ugI76kjpogACWRzAbO_Mu9WD0ws4wVfo,19
+minivectordb-1.1.1.dist-info/RECORD,,
