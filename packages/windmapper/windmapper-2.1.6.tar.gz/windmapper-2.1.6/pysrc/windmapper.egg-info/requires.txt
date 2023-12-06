@@ -1,0 +1,9 @@
+pygdal==3.4.1.*
+numpy
+scipy
+elevation
+pyproj
+tqdm
+rasterio
+mpi4py
+cloudpickle
