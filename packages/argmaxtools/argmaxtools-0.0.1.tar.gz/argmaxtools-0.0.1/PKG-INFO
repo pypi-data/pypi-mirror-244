@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: argmaxtools
+Version: 0.0.1
+Summary: Inference. Anything. Everywhere
+Home-page: https://github.com/argmaxinc/argmaxtools
+Author: Argmax, Inc.
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# argmaxtools
+Inference Optimization Toolkit

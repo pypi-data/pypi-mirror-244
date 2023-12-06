@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+argmaxtools.egg-info/PKG-INFO
+argmaxtools.egg-info/SOURCES.txt
+argmaxtools.egg-info/dependency_links.txt
+argmaxtools.egg-info/requires.txt
+argmaxtools.egg-info/top_level.txt
