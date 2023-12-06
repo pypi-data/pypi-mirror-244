@@ -1,0 +1,10 @@
+README.md
+setup.py
+python_sscma.egg-info/PKG-INFO
+python_sscma.egg-info/SOURCES.txt
+python_sscma.egg-info/dependency_links.txt
+python_sscma.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py
+tests/test_device.py
+tests/test_real_device.py
