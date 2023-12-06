@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/NeuralNetworkCoordinates/NeuralNetworkCoordinates.py
+src/NeuralNetworkCoordinates/__init__.py
+src/NeuralNetworkCoordinates.egg-info/PKG-INFO
+src/NeuralNetworkCoordinates.egg-info/SOURCES.txt
+src/NeuralNetworkCoordinates.egg-info/dependency_links.txt
+src/NeuralNetworkCoordinates.egg-info/requires.txt
+src/NeuralNetworkCoordinates.egg-info/top_level.txt
