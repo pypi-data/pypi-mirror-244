@@ -1,0 +1,17 @@
+vbayesfa/.DS_Store,sha256=pUFw0lxTF89TOwrK5PqGru09HDxGuHIxolj3_MM9zI8,6148
+vbayesfa/__init__.py,sha256=frzeHaObzHFU9bAJ9DS88PWdL4a-CPPKMDQpLQN7q4g,69
+vbayesfa/bayes_factors.py,sha256=yuSOZQC5JQcxTnRvVRfjMX16U817JIRYlI_jpWsPfh0,5210
+vbayesfa/discrete_finite.py,sha256=wTNYRUEdSkubTirkuGPVO9YGfDOYuWKLZzfmWqZQUyc,9420
+vbayesfa/exp_families.py,sha256=L_IbTpQWdO2QDD93I8jRXpCTz2bKg2dSSw0ZVDtspek,12636
+vbayesfa/fit_ibp.py,sha256=_J2lwk81_3M1llM8u4M6ylMYKLzDW8fd760cbIaW33o,3726
+vbayesfa/fit_lpa.py,sha256=xbzAPyMajUF5SmvafOi83SlllZM2Ju1PZNl805bsLT4,4834
+vbayesfa/full_discrete_finite.py,sha256=gYwuN-Enno5Swe1KdI30xjarsVSGrDwg9C5tTTdfp9A,9770
+vbayesfa/linear_regression.py,sha256=psKXx2KWQBA16o1jBxNSEwyps_R3a49824jbyhEIB40,995
+vbayesfa/lpa.py,sha256=nczwYVvcThR1IWHReRrTn0S6GThqCh-gO3Zx_2mZeoY,30724
+vbayesfa/lpa_outcome_analysis.py,sha256=fCD6UKAmYhyLZ27FfEbIeHIdRw-mTa1TBxD9jCJl-Ac,15256
+vbayesfa/make_sim_data.py,sha256=reM5i2MP0VnILpDYDpiAj8JQ7LLvtrsID1vnN9kW4bM,3164
+vbayesfa/sparse_cont_finite.py,sha256=YkZ6ZF8xZWDJIyIeDLj4XKa4OGTmG5gdvmySq8OYbNE,11261
+vbayesfa/sparse_pos_cont_finite.py,sha256=WSsjO0goUjW0DZVI1wN219kSqd9hlXDMaC5KLmEJSFU,16282
+vbayesfa-0.0.1.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+vbayesfa-0.0.1.dist-info/METADATA,sha256=jwMOvfHSPdItYdnQsOtr8AIlknwXQJgnIXDSgfhRQi8,179
+vbayesfa-0.0.1.dist-info/RECORD,,
