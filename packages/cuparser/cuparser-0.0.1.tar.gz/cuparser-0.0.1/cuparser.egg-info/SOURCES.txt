@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cuparser/__init__.py
+cuparser/configs.py
+cuparser/parser.py
+cuparser.egg-info/PKG-INFO
+cuparser.egg-info/SOURCES.txt
+cuparser.egg-info/dependency_links.txt
+cuparser.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cuparser
+Version: 0.0.1
+Summary: 通用、便捷、准确的计数单位解析工具
+Home-page: https://github.com/kusen-alpha/cuparser
+Author: kusen
+Author-email: 1194542196@qq.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kusen-alpha/cuparser/issues
+Project-URL: Documentation, https://github.com/kusen-alpha/cuparser/blob/master/README.md
+Project-URL: Source Code, https://github.com/kusen-alpha/cuparser
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cuparser
+
+计数单位解析器(Counting Unit Parser)，是基于Python编写的关于计量单位的识别计算库。
+
+## 使用方法
+
+### 安装
+
+    pip install cuparser
+
+### 使用
+
+    import cuparser
+    result = cuparser.parse("8.88万")
+    print(result)
+
+## 关于作者
+
+1. 邮箱：1194542196@qq.com
+2. 微信：hu1194542196
+3. 欢迎一起交流完善。
