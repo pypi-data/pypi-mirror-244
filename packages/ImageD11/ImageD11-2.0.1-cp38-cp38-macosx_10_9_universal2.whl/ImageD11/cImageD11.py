@@ -1,0 +1,118 @@
+# import cImageD11 compiled module and patch the docstrings
+
+import os
+import struct
+import warnings
+from ImageD11 import cImageD11_docstrings
+
+try:
+    from ImageD11._cImageD11 import *
+    import ImageD11._cImageD11
+except ImportError:
+    print("Failed to import compiled C code for cImageD11 module")
+    print("Are you running from a source directory?")
+    print("Try something like:")
+    print("   python -m pip install --editable .")
+    print("or:")
+    print("   python setup.py develop")
+    print("or:")
+    print("   python setup.py build_ext --inplace")
+    raise
+
+# Check for the use of openmp interactions with os.fork and multiprocessing
+
+def check_multiprocessing():
+    """ You cannot safely use os.fork together with threads.
+    But the cImageD11 codes uses threads via openmp.
+    So please use forkserver or spawn for multiprocessing.
+    
+    https://discuss.python.org/t/concerns-regarding-deprecation-of-fork-with-alive-threads/33555
+    https://github.com/FABLE-3DXRD/ImageD11/issues/177
+    
+    > Developers should respond by adjusting their use of multiprocessing or concurrent.futures
+    > to explicitly specify either the "forkserver" or "spawn" start methods via a context.
+    """
+    import multiprocessing
+    # Problem cases are:
+    #     child processes -> we will set num threads to 1
+    parent = None
+    if hasattr(multiprocessing,"parent_process"):
+        parent = multiprocessing.parent_process()
+        # only for python 3.8 and up
+        if (parent is not None) and ('OMP_NUM_THREADS' not in os.environ):
+            cimaged11_omp_set_num_threads( 1 ) 
+        # people wanting Nprocs * Mthreads need to reset after import
+        # or use OMP_NUM_THREADS as usual
+    #
+    # now check for the fork issue
+    if not hasattr(multiprocessing, 'get_start_method'):
+        # You are on python2.7. Give up.
+        return
+    if ((multiprocessing.get_start_method(allow_none=False) == 'fork') and    # we have the problem
+        (multiprocessing.get_start_method(allow_none=True) is None) and       # by accident
+         ('forkserver' in multiprocessing.get_all_start_methods())):          # so fix it
+            multiprocessing.set_start_method('forkserver')
+    if ((multiprocessing.get_start_method(allow_none=False) == 'fork') and    #  we have the problem
+        (parent is not None)):
+        # Tell them about it.
+        warnings.warn(__doc__)
+
+def cores_available():
+    """ Return the number of CPU cores you can use """
+    return len( os.sched_getaffinity( os.getpid() ) )
+
+if cimaged11_omp_get_max_threads() == 0:
+    # The code was compiled without openmp
+    OPENMP = False
+else:
+    # Openmp threading can be used
+    OPENMP = True
+    check_multiprocessing()
+
+    
+# For 32 or 64 bits
+nbyte = struct.calcsize("P")  # 4 or 8
+
+if nbyte == 8:
+
+    def put_incr(*a, **k):
+        """redirects to put_incr64"""
+        return put_incr64(*a, **k)
+
+
+if nbyte == 4:
+
+    def put_incr(*a, **k):
+        """redirects to put_incr32"""
+        return put_incr32(*a, **k)
+
+
+# Add / fix the docstrings
+
+
+def fix_doc(oldstring, to_be_added):
+    """Adds a description of the function to the f2py string"""
+    if oldstring.find("Wrapper for"):
+        try:
+            head, tail = oldstring.split("Wrapper for")
+        except:
+            print(oldstring)
+            print(to_be_added)
+            raise
+        iname = tail.find("\n")
+        return head + tail[:iname] + " " + to_be_added + tail[iname:]
+    else:
+        return oldstring + to_be_added
+
+
+def fill_in_docstrings():
+    for name in cImageD11_docstrings.__all__:
+        doc = getattr(cImageD11_docstrings, name)
+        if name in globals():
+            func = globals()[name]
+            func.__doc__ = fix_doc(func.__doc__, doc)
+
+
+fill_in_docstrings()
+
+assert verify_rounding(20) == 0, "Problem with cImageD11 fast rounding code"
