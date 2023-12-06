@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+autoflows/__init__.py
+autoflows/autoflow.py
+autoflows.egg-info/PKG-INFO
+autoflows.egg-info/SOURCES.txt
+autoflows.egg-info/dependency_links.txt
+autoflows.egg-info/requires.txt
+autoflows.egg-info/top_level.txt
+tests/test_autoflow.py
