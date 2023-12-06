@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kaggle-st-connection
+Version: 1.3.0
+Summary: st.experimental_connection implementation for Kaggle Public API
+Home-page: https://github.com/genesis331/KaggleStConnection
+Author: Cheah Zixu
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: kaggle
+Requires-Dist: streamlit
+Requires-Dist: pandas
+
+st.experimental_connection implementation for Kaggle Public API
