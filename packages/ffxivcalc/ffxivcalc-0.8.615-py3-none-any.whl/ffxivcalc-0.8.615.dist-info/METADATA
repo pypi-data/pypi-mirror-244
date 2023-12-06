@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ffxivcalc
+Version: 0.8.615
+Requires-Python: >=3.10
+License-File: License.md
+Requires-Dist: contourpy
+Requires-Dist: cycler
+Requires-Dist: fonttools
+Requires-Dist: kiwisolver
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: Pillow
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: six
+Requires-Dist: coreapi
+
