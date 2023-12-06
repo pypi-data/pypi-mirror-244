@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+smarterjson/__init__.py
+smarterjson.egg-info/PKG-INFO
+smarterjson.egg-info/SOURCES.txt
+smarterjson.egg-info/dependency_links.txt
+smarterjson.egg-info/top_level.txt
