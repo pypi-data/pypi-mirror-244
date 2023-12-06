@@ -1,0 +1,5 @@
+sounddevice
+pyzmq
+soundfile
+PyYAML
+numpy
