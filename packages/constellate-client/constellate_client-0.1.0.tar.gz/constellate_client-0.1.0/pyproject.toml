@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "constellate-client"
+version = "0.1.0"
+description = "Client library for constellate.org"
+authors = [
+    "Ian DesJardins <ian.desjardins@ithaka.org>",
+    "Mathew Lincoln <matthew.lincoln@ithaka.org>",
+]
+homepage = "https://constellate.org"
+repository = "https://github.com/ithaka/tdm"
+readme = "README.md"
+packages = [{ include = "constellate" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+requests = "^2.31.0"
+progressbar = "^2.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.18.1"
+types-requests = "^2.31.0.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
