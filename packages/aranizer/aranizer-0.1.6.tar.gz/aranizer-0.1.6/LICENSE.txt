@@ -1,0 +1,34 @@
+==========================================
+SOFTWARE LICENSE AGREEMENT - Aranizer
+==========================================
+
+* NAME: Aranizer: A Custom Tokenizer for Enhanced Arabic Language Processing
+
+* ACKNOWLEDGMENTS
+
+This software was developed by [Prince Sultan University], Riyadh, Saudi Arabia (“Owners”). The statements made herein are solely the responsibility of the authors [Omar Najar, Serry Sibaee, Lahouari Ghouti, Anis Koubaa].
+
+
+* LICENSE
+
+This software is being provided to you, the LICENSEE, by the Owners under the following license. By obtaining, using, and/or copying this software, you agree that you have read, understood, and will comply with these terms and conditions. Permission to use, copy, modify, and distribute this software and its documentation for any purpose without fee or royalty is hereby granted, provided that you agree to comply with the following copyright notice and statements, including the disclaimer, and that the same appear on ALL copies of the software, documentation, and modifications that you make for internal use or distribution.
+
+Aranizer Copyright 2023 by [Prince Sultan University]. All rights reserved.
+
+If you remix, transform, or build upon the material, you must distribute your contributions under the same license as this one. You may not apply legal terms or technological measures that legally restrict others from doing anything this license permits.
+
+THIS SOFTWARE IS PROVIDED "AS IS," AND THE OWNERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, THE OWNERS MAKE NO REPRESENTATIONS OR WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE LICENSED SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS, OR OTHER RIGHTS.
+
+The name of the Owners may not be used in advertising or publicity pertaining to distribution of the software. Title to copyright in this software and any associated documentation shall at all times remain with the Owners, and LICENSEE agrees to preserve the same.
+
+The use of Aranizer should be cited as follows:
+@misc{AraNizer_2023,
+  title={Aranizer: A Custom Tokenizer for Enhanced Arabic Language Processing},
+  author={Najar, Omar and Sibaee, Serry and Ghouti, Lahouari and Kouba, Anis},
+  affiliation={Prince Sultan University, Riyadh, Saudi Arabia},
+  year={2023},
+  howpublished={\url{https://github.com/omarnj-lab/aranizer}}
+}
+
+Aranizer Copyright 2023 by [Prince Sultan University]. All rights reserved.
+==========================================
