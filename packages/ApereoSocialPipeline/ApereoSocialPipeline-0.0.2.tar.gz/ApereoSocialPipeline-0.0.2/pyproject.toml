@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+include = ["apereo"]  # package names should match these glob patterns (["*"] by default)
+exclude = ["**/__pycache__/*"]  # exclude packages matching these glob patterns (empty by default)
+
+[project]
+name = "ApereoSocialPipeline"
+authors = [
+  {name = "Simon Lyngshede", email = "slyngshede@wikimedia.org"},
+]
+version = "0.0.2"
+dependencies = ["django"]
+description='Social Auth pipeline for use with OIDC SSO and Apereo CAS'
+readme = "README.md"
+license = {text = "ISC License"}
+
+[project.urls]
+Homepage = "https://gitlab.wikimedia.org/slyngshede/apereo_cas_social_pipeline"
+Repository = "https://gitlab.wikimedia.org/slyngshede/apereo_cas_social_pipeline.git"

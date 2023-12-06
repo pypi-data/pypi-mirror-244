@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+tox.ini
+ApereoSocialPipeline.egg-info/PKG-INFO
+ApereoSocialPipeline.egg-info/SOURCES.txt
+ApereoSocialPipeline.egg-info/dependency_links.txt
+ApereoSocialPipeline.egg-info/requires.txt
+ApereoSocialPipeline.egg-info/top_level.txt
+apereo/__init__.py
+apereo/pipelines/__init__.py
+apereo/pipelines/groups.py
+apereo/pipelines/test_groups.py
