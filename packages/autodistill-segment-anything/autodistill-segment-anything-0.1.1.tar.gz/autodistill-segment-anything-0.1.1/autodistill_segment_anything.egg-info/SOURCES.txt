@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+requirements.txt
+setup.py
+autodistill_segment_anything/__init__.py
+autodistill_segment_anything/sam_model.py
+autodistill_segment_anything.egg-info/PKG-INFO
+autodistill_segment_anything.egg-info/SOURCES.txt
+autodistill_segment_anything.egg-info/dependency_links.txt
+autodistill_segment_anything.egg-info/requires.txt
+autodistill_segment_anything.egg-info/top_level.txt
