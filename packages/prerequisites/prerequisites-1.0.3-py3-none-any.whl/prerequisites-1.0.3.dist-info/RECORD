@@ -1,0 +1,10 @@
+prerequisites/__init__.py,sha256=EB5me6XJlRaIJdkcyKdPOcT1XuR8Pvw6OzmKPhlBEB0,4524
+prerequisites/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=LHRHnDKbpfPZWLf3tc21nMxL89m5FDiHfAF-JG5rumQ,28
+tests/test_initial.py,sha256=hsnzOTelo5IvpAZ2cghwEzMHJE4ELVjTsNWDTXAy2Fs,96
+tests/test_prerequisites.py,sha256=CQcvhdB8jHyy5zuFWxm2uZ-Zk8qXzd4i2F9EmAcfw9o,1453
+prerequisites-1.0.3.dist-info/LICENSE,sha256=Xoz0FNIo8bOxyrPfuxH3qFGpx5G7rezGdYd1HfKHYjQ,1066
+prerequisites-1.0.3.dist-info/METADATA,sha256=FUSwWKCbv-LBJsUWBLy781p-U_ozofIZjUe-TYtClxY,190
+prerequisites-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+prerequisites-1.0.3.dist-info/top_level.txt,sha256=AsHfjJEdNVmaqPT8sD8aI0r_x6HPR30XEoXp_qHkahQ,20
+prerequisites-1.0.3.dist-info/RECORD,,
