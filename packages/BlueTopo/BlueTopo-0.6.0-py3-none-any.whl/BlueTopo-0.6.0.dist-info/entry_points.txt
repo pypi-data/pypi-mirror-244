@@ -1,0 +1,3 @@
+[console_scripts]
+build_vrt = nbs.bluetopo.cli.cli:build_vrt_command
+fetch_tiles = nbs.bluetopo.cli.cli:fetch_tiles_command
