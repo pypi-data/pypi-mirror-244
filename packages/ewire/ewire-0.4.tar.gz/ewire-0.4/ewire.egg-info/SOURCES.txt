@@ -1,0 +1,5 @@
+setup.py
+ewire.egg-info/PKG-INFO
+ewire.egg-info/SOURCES.txt
+ewire.egg-info/dependency_links.txt
+ewire.egg-info/top_level.txt
