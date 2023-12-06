@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "barter_fastapi_auth"
+version = "0.1.1"
+authors = [
+    { name = "kabilov", email = "kabilov2011@gmail.com" },
+]
+description = "Barter authentication package for FastApi"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'redis >=4.6.0',
+    'fastapi ==0.98.0',
+    'pydantic ==1.10.9',
+    'httpx>=0.24.1',
+    'factory-boy>=3.2.1',
+    'faker>=18.11.1',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kabilovtoha/barter_fastapi_auth"
+"Bug Tracker" = "https://github.com/kabilovtoha/barter_fastapi_auth/issues"
+
+[tool.black]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+)/
+'''
