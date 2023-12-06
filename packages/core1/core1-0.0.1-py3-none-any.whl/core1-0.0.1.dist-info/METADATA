@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: core1
+Version: 0.0.1
+Summary: Unix coreutils for software 1.0.
+Author-email: Jason Wilkes <notarealdeveloper@gmail.com>
+Project-URL: Homepage, https://github.com/notarealdeveloper/core1
+Requires-Dist: pytest
+Requires-Dist: pandas
+Requires-Dist: signalhandlers
+

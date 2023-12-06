@@ -1,0 +1,2 @@
+[console_scripts]
+groupby = core1.groupby:main
