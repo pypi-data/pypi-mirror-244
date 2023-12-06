@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sarahwallingbell-test-package
+Version: 0.0.1
+Summary: This is a test package.
+Author-email: Sarah Walling-Bell <sarah.wallingbell@alleninstitute.org>
+Keywords: test
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: morph-utils
+Requires-Dist: neuron-morphology
+
