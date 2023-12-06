@@ -1,0 +1,9 @@
+README.md
+setup.py
+scap4chan/__init__.py
+scap4chan/chan.py
+scap4chan.egg-info/PKG-INFO
+scap4chan.egg-info/SOURCES.txt
+scap4chan.egg-info/dependency_links.txt
+scap4chan.egg-info/requires.txt
+scap4chan.egg-info/top_level.txt

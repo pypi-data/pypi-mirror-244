@@ -1,0 +1,1 @@
+from scap4chan.chan import scrape4chan_board
