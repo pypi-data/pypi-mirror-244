@@ -1,0 +1,17 @@
+{
+    "config": {
+        "error": {
+            "invalid_host": "Neteisingas pagrindinio kompiuterio pavadinimas arba IP adresas"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                },
+                "data_description": {
+                    "host": "J\u016bs\u0173 Ruckus prieigos ta\u0161ko pagrindinio kompiuterio pavadinimas arba IP adresas."
+                }
+            }
+        }
+    }
+}
