@@ -1,0 +1,9 @@
+nonebot_plugin_nsfw-0.9.dist-info/METADATA,sha256=twQr4q_ORGSS1MkX62Z6UoVYd1lSgfVUpO1tqNzDrQw,6078
+nonebot_plugin_nsfw-0.9.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+nonebot_plugin_nsfw-0.9.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nonebot_plugin_nsfw/__init__.py,sha256=rOSXOPWkBo3ua76bqzEU2FIXZDJ53LMy0kXgto3dU6s,1780
+nonebot_plugin_nsfw/config.py,sha256=MTJJcPoG1zklObvp-E2Aa19jM180oaS3QLfyOCXeyWQ,1460
+nonebot_plugin_nsfw/deps.py,sha256=ez_AJDNT8Odv02QYtHyLzQfaVBYJzYeA2FBLdWm4bcE,2238
+nonebot_plugin_nsfw/loader.py,sha256=M3RQnfjVcRXJ0lyxFdW9e4Hb_bJvYS8TpSQL14GBabU,3586
+nonebot_plugin_nsfw/vendor_nsfw_model.py,sha256=otV31wOwwVkBsOIuaTLiElvHDuo2CRuHp5rKHKlxKcU,4273
+nonebot_plugin_nsfw-0.9.dist-info/RECORD,,
