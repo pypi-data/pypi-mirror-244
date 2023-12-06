@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: qualimens
+Version: 0.0.0
+Summary: Python-package for qualimens mlops service
+Author: kizill
+License: UNKNOWN
+Keywords: ml,mlops
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+License-File: LICENSE
+
+UNKNOWN
+

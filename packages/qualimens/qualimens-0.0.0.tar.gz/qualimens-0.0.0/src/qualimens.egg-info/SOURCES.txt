@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/qualimens/__init__.py
+src/qualimens/__version__.py
+src/qualimens.egg-info/PKG-INFO
+src/qualimens.egg-info/SOURCES.txt
+src/qualimens.egg-info/dependency_links.txt
+src/qualimens.egg-info/top_level.txt
