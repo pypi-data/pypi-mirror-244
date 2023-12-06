@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/signalhandlers/__init__.py
+src/signalhandlers/sigs.py
+src/signalhandlers.egg-info/PKG-INFO
+src/signalhandlers.egg-info/SOURCES.txt
+src/signalhandlers.egg-info/dependency_links.txt
+src/signalhandlers.egg-info/top_level.txt
+tests/test_signal_handlers.py
