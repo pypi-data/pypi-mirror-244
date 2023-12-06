@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include aranizer/BPE_tokenizer *.json
+recursive-include aranizer/sentence_peice_tokenizers *.json
