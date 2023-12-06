@@ -1,0 +1,13 @@
+optimum
+transformers
+onnx
+onnxruntime<1.16.0
+onnxruntime-extensions
+
+[quality]
+black~=23.1
+ruff<=0.0.259,>=0.0.241
+
+[tests]
+pytest
+parameterized
