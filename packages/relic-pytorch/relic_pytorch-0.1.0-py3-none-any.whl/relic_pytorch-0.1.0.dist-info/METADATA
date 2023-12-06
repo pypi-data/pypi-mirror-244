@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: relic-pytorch
+Version: 0.1.0
+Summary: Simple self-supervised contrastive based on based on the ReLIC method
+Home-page: https://github.com/filipbasara0/relic
+Author: Filip Basara
+Author-email: basarafilip@gmail.com
+License: MIT
+Keywords: machine learning,pytorch,self-supervised learning,representation learning,contrastive learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: datasets (>=2.15)
+Requires-Dist: torch (>=2.1)
+Requires-Dist: torchinfo (>=1.8.0)
+Requires-Dist: torchvision (>=0.16)
+Requires-Dist: tqdm (>=4.66)
+
+UNKNOWN
+
+
