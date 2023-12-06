@@ -1,0 +1,3 @@
+[datahub.custom_packages]
+models = acryl_datahub_cloud.models.schema_classes
+urns = acryl_datahub_cloud.models._urns.urn_defs
