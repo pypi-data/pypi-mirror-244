@@ -1,0 +1,6 @@
+Xp.py
+setup.py
+lzy_Xp.egg-info/PKG-INFO
+lzy_Xp.egg-info/SOURCES.txt
+lzy_Xp.egg-info/dependency_links.txt
+lzy_Xp.egg-info/top_level.txt
