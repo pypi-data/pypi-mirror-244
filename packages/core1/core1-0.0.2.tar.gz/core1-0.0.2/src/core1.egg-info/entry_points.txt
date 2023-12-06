@@ -1,0 +1,4 @@
+[console_scripts]
+after = core1.after:main
+before = core1.before:main
+groupby = core1.groupby:main
