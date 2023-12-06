@@ -1,0 +1,12 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+src/mouse_joystick_interface/__about__.py
+src/mouse_joystick_interface/__init__.py
+src/mouse_joystick_interface/mouse_joystick_interface.py
+src/mouse_joystick_interface.egg-info/PKG-INFO
+src/mouse_joystick_interface.egg-info/SOURCES.txt
+src/mouse_joystick_interface.egg-info/dependency_links.txt
+src/mouse_joystick_interface.egg-info/requires.txt
+src/mouse_joystick_interface.egg-info/top_level.txt
