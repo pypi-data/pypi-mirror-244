@@ -1,0 +1,3 @@
+[console_scripts]
+scrypture=bl_scrypture.configuration.cli:app
+
