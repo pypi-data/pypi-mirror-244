@@ -1,0 +1,2 @@
+[swh.cli.subcommands]
+swh.webhooks = swh.webhooks.cli
