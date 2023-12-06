@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: skybrush-ext-rc-gamepad
+Version: 0.6.0
+Summary: Enabling the usage of gamepads as remote controllers in Skybrush Server
+License: MIT
+Author: Tamas Nepusz
+Author-email: ntamas@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: hidapi (>=0.13.1,<0.14.0)
