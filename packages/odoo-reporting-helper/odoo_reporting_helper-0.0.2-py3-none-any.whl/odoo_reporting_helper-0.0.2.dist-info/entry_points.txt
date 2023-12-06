@@ -1,0 +1,2 @@
+[console_scripts]
+orh = orh.main:cli
