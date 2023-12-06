@@ -1,0 +1,6 @@
+Xw.py
+setup.py
+lzy_Xw.egg-info/PKG-INFO
+lzy_Xw.egg-info/SOURCES.txt
+lzy_Xw.egg-info/dependency_links.txt
+lzy_Xw.egg-info/top_level.txt
