@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+yorgassistant.egg-info/PKG-INFO
+yorgassistant.egg-info/SOURCES.txt
+yorgassistant.egg-info/dependency_links.txt
+yorgassistant.egg-info/requires.txt
+yorgassistant.egg-info/top_level.txt
