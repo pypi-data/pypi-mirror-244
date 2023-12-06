@@ -1,0 +1,18 @@
+[project]
+name = "core1"
+version = "0.0.1"
+authors = [
+  { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Unix coreutils for software 1.0."
+dependencies = [
+    "pytest",
+    "pandas",
+    "signalhandlers",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/notarealdeveloper/core1"
+
+[project.scripts]
+groupby = "core1.groupby:main"
