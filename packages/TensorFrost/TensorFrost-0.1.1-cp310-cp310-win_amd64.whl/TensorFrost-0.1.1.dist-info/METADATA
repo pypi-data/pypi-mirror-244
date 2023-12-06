@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: TensorFrost
+Version: 0.1.1
+Summary: Tensor library with automatic kernel fusion
+Home-page: https://github.com/MichaelMoroz/TensorFrost
+Author: Mykhailo Moroz
+Author-email: michael08840884@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+README.md
