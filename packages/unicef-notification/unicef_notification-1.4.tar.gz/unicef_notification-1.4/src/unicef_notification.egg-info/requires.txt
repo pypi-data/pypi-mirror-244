@@ -1,0 +1,14 @@
+django
+django-model-utils
+django-post-office
+
+[test]
+black
+flake8
+isort
+pytest
+pytest-cov
+pytest-django
+pytest-echo
+factory-boy
+psycopg2-binary
