@@ -1,0 +1,8 @@
+jsonpickle~=2.0.0
+requests~=2.23.0
+lxml~=4.6.3
+redis~=3.5.3
+pandas~=1.1.4
+setuptools~=50.3.2
+pyjsbn-rsa
+cryptography
