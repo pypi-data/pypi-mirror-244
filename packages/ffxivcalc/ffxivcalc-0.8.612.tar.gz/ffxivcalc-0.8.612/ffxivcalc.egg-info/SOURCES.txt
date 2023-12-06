@@ -1,0 +1,9 @@
+License.md
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+ffxivcalc.egg-info/PKG-INFO
+ffxivcalc.egg-info/SOURCES.txt
+ffxivcalc.egg-info/dependency_links.txt
+ffxivcalc.egg-info/top_level.txt
