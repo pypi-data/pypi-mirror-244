@@ -1,0 +1,8 @@
+setup.py
+hpapi/__init__.py
+hpapi/printer.py
+hpapi.egg-info/PKG-INFO
+hpapi.egg-info/SOURCES.txt
+hpapi.egg-info/dependency_links.txt
+hpapi.egg-info/requires.txt
+hpapi.egg-info/top_level.txt
