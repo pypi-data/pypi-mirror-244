@@ -1,0 +1,60 @@
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  key: "${CI_COMMIT_REF_SLUG}"
+  paths:
+    - "${CI_PROJECT_DIR}/.cache/pip"
+    - venv/
+
+stages:
+  - build
+  - lint-test
+  - deploy
+
+# Specify the jobs for each stage
+build-job:
+  image: python:3.8.10
+  stage: build
+  before_script:
+    - apt update && apt install -y build-essential libgdal-dev gdal-bin
+    - gdal-config --version
+    - python3 -m venv venv
+    - python --version
+    - source venv/bin/activate
+  script:
+    - pip install --upgrade pip
+    - pip install -e .
+    - pip install -e .[dev]
+
+test-job:
+  image: python:3.8.10
+  stage: lint-test
+  before_script:
+    - python --version
+    - source venv/bin/activate
+  script:
+    - echo "Testing code..."
+    - pytest
+
+lint-job:
+  image: python:3.8.10
+  stage: lint-test
+  before_script:
+    - python --version
+    - source venv/bin/activate
+  script:
+    - echo "Linting code..."
+    - isort --check-only .
+    - black --check .
+    - flake8 .
+    - pylint .
+    - echo "Linting done."
+
+deploy-job:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  image: python:latest
+  environment: production
+  script:
+    - echo "Deploying application..."
+    - echo "Application successfully deployed."
