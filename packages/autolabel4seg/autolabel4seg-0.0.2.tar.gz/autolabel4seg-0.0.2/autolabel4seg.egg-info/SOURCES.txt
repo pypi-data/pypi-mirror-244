@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+autolabel4seg/__init__.py
+autolabel4seg/create.py
+autolabel4seg/labels.py
+autolabel4seg/modules.py
+autolabel4seg/plot.py
+autolabel4seg/test.py
+autolabel4seg/upload.py
+autolabel4seg.egg-info/PKG-INFO
+autolabel4seg.egg-info/SOURCES.txt
+autolabel4seg.egg-info/dependency_links.txt
+autolabel4seg.egg-info/requires.txt
+autolabel4seg.egg-info/top_level.txt
