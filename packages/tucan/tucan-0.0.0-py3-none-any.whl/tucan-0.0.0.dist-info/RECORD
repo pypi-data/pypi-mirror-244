@@ -1,0 +1,17 @@
+tucan/__init__.py,sha256=8h7a6Poauly7Owj6yHzjmpdPLlkv3fHm5yAe-1kMsBw,42
+tucan/cli.py,sha256=2EhUdRm6WzUfmEMlMn0omHWMaoP8SNYpMn0F9KpTaYM,7403
+tucan/package_analysis.py,sha256=oDY361RktKz6sz_LgnmMZFzqY3qUJDGtTgokklTwvzY,2618
+tucan/struct_common.py,sha256=SfRNymJipV4pkopA7q5vU57sBLcXIQejEyw3laQljwU,7108
+tucan/struct_ftn.py,sha256=3QZHPXO1XXgmDM3hrclG6xHqwBlUNKblkM0MbTRvbC8,6879
+tucan/struct_main.py,sha256=DeU4VkDh3DBodrBGrGhqMaE2ikjEWGfhdMQgjRl8M7s,1338
+tucan/struct_py.py,sha256=q_40gs1kkoqunzUUNDMDlOT4fCgKABn70GPo1Wl7Ij0,6369
+tucan/unformat_common.py,sha256=gx5dw033odtIyaIVj69hNP3vOsUX2zOnfTGzMHvEgpE,5687
+tucan/unformat_ftn.py,sha256=tMR3UKyPiaR87__ap4UTEsYsBqGNW8DRa5SW9CtYclQ,10981
+tucan/unformat_main.py,sha256=l0bMOCczBxVkseXlnkNa6IQGvLH5JQzy6orjRYMDIkw,998
+tucan/unformat_py.py,sha256=sf_3Dh8cTjs7MbS-V7n0LSBqWwjspf3zAB4Oj-iHJfQ,5467
+tucan-0.0.0.dist-info/LICENSE.txt,sha256=n1bP_Mhs3ukoJCuAA-uTjZpXAfniS08jJsc7fKhAEQ8,1060
+tucan-0.0.0.dist-info/METADATA,sha256=Al5ub1NQl7HAH8JS7pAs1YL7pWptb8zr8RQY4AvVTeI,6231
+tucan-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tucan-0.0.0.dist-info/entry_points.txt,sha256=FOF_u_9_U2Nko3DEvv4HXlQvXXsVFyWVHkYxVEB1h8g,41
+tucan-0.0.0.dist-info/top_level.txt,sha256=GnWeEHM3hfxVS4VlFuMpzKLMQWdSXViho0l7ZB-sYG4,6
+tucan-0.0.0.dist-info/RECORD,,
