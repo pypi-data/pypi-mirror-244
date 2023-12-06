@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ProcessCheckerLib
+Version: 0.0.3
+Summary: This is lib for ProcessesCheckerBot.
+Home-page: 
+Author: brambleaka
+Author-email: sambuka11jail@outlook.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: flask
+Requires-Dist: schedule
+Requires-Dist: psutil
+Requires-Dist: python-dotenv
+
