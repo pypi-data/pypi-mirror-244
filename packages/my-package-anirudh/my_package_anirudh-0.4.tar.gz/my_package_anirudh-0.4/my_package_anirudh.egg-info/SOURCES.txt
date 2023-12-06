@@ -1,0 +1,7 @@
+setup.py
+my_package_anirudh.egg-info/PKG-INFO
+my_package_anirudh.egg-info/SOURCES.txt
+my_package_anirudh.egg-info/dependency_links.txt
+my_package_anirudh.egg-info/entry_points.txt
+my_package_anirudh.egg-info/requires.txt
+my_package_anirudh.egg-info/top_level.txt
