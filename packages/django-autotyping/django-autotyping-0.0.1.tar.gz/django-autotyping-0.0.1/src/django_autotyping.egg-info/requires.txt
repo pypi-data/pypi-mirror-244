@@ -1,0 +1,2 @@
+libcst>=0.4.10
+django
