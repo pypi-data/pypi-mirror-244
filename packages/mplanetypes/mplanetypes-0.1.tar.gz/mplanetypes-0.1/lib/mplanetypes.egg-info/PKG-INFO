@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mplanetypes
+Version: 0.1
+Summary: A few utility type-checking functions that I use a lot.
+Home-page: https://github.com/automorphis/mplanetypes
+Author: Michael P. Lane
+Author-email: mlanetheta@gmail.com
+Classifier: Programming Language :: Python
+Description-Content-Type: text/plain
+Requires-Dist: numpy
+
+A few utility type-checking functions that I use a lot.
