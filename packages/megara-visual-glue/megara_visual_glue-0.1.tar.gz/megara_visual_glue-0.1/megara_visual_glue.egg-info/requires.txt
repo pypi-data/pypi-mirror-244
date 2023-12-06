@@ -1,0 +1,6 @@
+numpy
+astropy
+matplotlib
+megaradrp
+qtpy
+glueviz

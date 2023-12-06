@@ -1,0 +1,2 @@
+[glue.plugins]
+MEGARA = megara_visual_glue:setup
