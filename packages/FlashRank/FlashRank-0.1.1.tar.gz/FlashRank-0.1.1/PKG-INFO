@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: FlashRank
+Version: 0.1.1
+Summary: Ultra lite & Super fast SoTA cross-encoder based re-ranking for your search & retrieval pipelines.
+Home-page: https://github.com/PrithivirajDamodaran/FlashRank
+Author: Prithivi Da
+Author-email: 
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FlashRank
+Ultra lite &amp; Super fast SoTA cross-encoder based re-ranking for your search &amp; retrieval pipelines.
