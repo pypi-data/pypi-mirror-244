@@ -1,0 +1,3 @@
+[fsspec.specs]
+union = unionai.unionfs:AsyncUnionFS
+unionmeta = unionai.unionmetafs:AsyncUnionMetaFS
