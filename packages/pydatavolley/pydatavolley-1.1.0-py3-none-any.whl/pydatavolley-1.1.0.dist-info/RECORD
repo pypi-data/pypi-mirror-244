@@ -1,0 +1,8 @@
+read_datavolley/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+read_datavolley/get_players_from_md.py,sha256=jmGKSZdz6Qh_GSMojb7rgDw6omx8LoKyWYij-c9ddeA,2745
+read_datavolley/helpers.py,sha256=boCLdDjKvY6X9PriCrsZNudqmEldFrW7fAe1d7ByZ0E,755
+read_datavolley/read_dv.py,sha256=Ryz80ZQ3tKDI_yCICsSe00j_rh5I0sjcHBlOSp5-C00,11722
+pydatavolley-1.1.0.dist-info/METADATA,sha256=9zH6Gk0k8Qw3Vnq9aVsPdd5qiD5h-RMej-GROFRE-6w,345
+pydatavolley-1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pydatavolley-1.1.0.dist-info/top_level.txt,sha256=rRF32jKUXM2jWDTTOjQmR8XlBJkBGscS8G6CibK_2pg,16
+pydatavolley-1.1.0.dist-info/RECORD,,
