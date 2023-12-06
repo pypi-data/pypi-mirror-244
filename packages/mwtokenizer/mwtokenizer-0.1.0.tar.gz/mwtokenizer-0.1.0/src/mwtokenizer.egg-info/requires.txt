@@ -1,0 +1,16 @@
+regex
+sentencepiece
+
+[benchmarking]
+pandas
+
+[dev]
+pytest>=6.2.5
+pre-commit
+pandas
+
+[pre-commit]
+pre-commit
+
+[tests]
+pytest>=6.2.5
