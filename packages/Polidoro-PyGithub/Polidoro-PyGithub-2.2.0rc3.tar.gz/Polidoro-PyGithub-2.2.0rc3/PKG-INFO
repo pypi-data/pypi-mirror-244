@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: Polidoro-PyGithub
+Version: 2.2.0rc3
+Summary: Use the full Github API v3
+Home-page: https://github.com/heitorpolidoro/PyGitHub
+Author: Vincent Jacques
+Author-email: vincent@vincent-jacques.net
+Project-URL: Documentation, http://pygithub.readthedocs.io/en/stable/
+Project-URL: Source, https://github.com/pygithub/pygithub
+Project-URL: Tracker, https://github.com/pygithub/pygithub/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: pynacl==1.5.0
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: requests==2.31.0
+Requires-Dist: pyjwt[crypto]==2.8.0
+Requires-Dist: typing-extensions==4.8.0
+Requires-Dist: urllib3==2.1.0
+Requires-Dist: Deprecated==1.2.14
+Provides-Extra: integrations
+
+# Disclaimer
+This is just a fork for the original [PyGitHub](https://github.com/PyGithub/PyGithub) just to use the Set PR to auto merge feature implemented in this
+PR [#2816](https://github.com/PyGithub/PyGithub/pull/2816). When the PR is merged this repository and the PyPi releases will
+be removed
+
+![](https://img.shields.io/badge/pypi_package-Polidoro--PyGithub-blue)
+[![PyPI](https://img.shields.io/pypi/v/Polidoro-PyGithub.svg)](https://pypi.python.org/pypi/Polidoro-PyGithub)
+![GitHub issue/pull request detail](https://img.shields.io/github/pulls/detail/state/PyGithub/PyGithub/2816)
+
+## Install
+
+```bash
+pip install Polidoro-PyGithub
+```
+
+More info check the original repository [PyGitHub](https://github.com/PyGithub/PyGithub)
