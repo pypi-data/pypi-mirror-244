@@ -1,0 +1,4 @@
+[console_scripts]
+dbnomics = dbnomics_data_model.cli.dbnomics:app
+dbnomics-update-storage = dbnomics_data_model.cli.update_storage:app
+dbnomics-validate-storage = dbnomics_data_model.cli.validate_storage:app
