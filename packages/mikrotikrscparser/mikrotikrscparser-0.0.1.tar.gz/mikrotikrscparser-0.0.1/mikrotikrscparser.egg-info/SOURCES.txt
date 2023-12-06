@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mikrotikrscparser/__init__.py
+mikrotikrscparser/rscparser.py
+mikrotikrscparser/statement.py
+mikrotikrscparser.egg-info/PKG-INFO
+mikrotikrscparser.egg-info/SOURCES.txt
+mikrotikrscparser.egg-info/dependency_links.txt
+mikrotikrscparser.egg-info/top_level.txt

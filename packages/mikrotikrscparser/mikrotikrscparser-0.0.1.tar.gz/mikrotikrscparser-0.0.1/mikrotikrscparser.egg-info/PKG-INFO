@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mikrotikrscparser
+Version: 0.0.1
+Summary: MikroTik RSC file parser library
+Home-page: https://github.com/muqiuq/mikrotikrscparser
+Author: Philipp Albrecht
+Author-email: philipp@uisa.ch
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RSC File Parser for MikroTik
+
+Allows parsing and creating MikroTik RSC files. 
+
