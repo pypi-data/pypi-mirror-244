@@ -1,0 +1,59 @@
+#####################################
+#########   PARAMETERS   ############
+############################################################################################
+# Hamiltonian parameters (the meaning of each parameter depends on which Hamiltonian you are implementing)
+########################################################################
+stats="spinless-fermions"
+model="dipolar-Aubry-Andre"
+sites=4
+PBC=False
+sparse=True
+Ham_par1=2
+Ham_par2=1.0
+Ham_par3=7.0
+Ham_par4=1.618
+Ham_par5=0.0
+Ham_par6=[0.2512]
+Ham_par7=0.0
+Ham_par8=0.0
+Ham_par9=0.0
+Ham_par10=0.0
+########################################################################
+# Parameters for diagonalization
+########################################################################
+n_lowest_eigenvalues=6
+maxiter_Arnoldi=1000      # maximal number of iteration steps in the Arnoldi method for finding eigenvalues
+save_evals=True
+compute_evecs=True
+save_evecs=True
+########################################################################
+# Parameters for observable calculations
+########################################################################
+IPR=True
+########################################################################
+# Parameters for dynamics
+########################################################################
+dynamics=True         # Flag for calculating time evolution from initial state
+initial_state="0110"
+final_time=50.0
+dt=1.0
+########################################################################
+# Parameters for output
+########################################################################
+print_gs_energy=True
+print_es_energies=True
+print_gs=True
+print_es=True
+########################################################################
+# Parameters for visualization
+########################################################################
+plot_Hamiltonian=True
+plot_evals=True
+plot_evecs=True
+plot_dynamics=True
+movie_dynamics=True
+########################################################################
+# Other parameters
+########################################################################
+verbose=False
+########################################################################
