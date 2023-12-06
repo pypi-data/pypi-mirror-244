@@ -1,0 +1,7 @@
+README.md
+setup.py
+dummypckg.egg-info/PKG-INFO
+dummypckg.egg-info/SOURCES.txt
+dummypckg.egg-info/dependency_links.txt
+dummypckg.egg-info/not-zip-safe
+dummypckg.egg-info/top_level.txt

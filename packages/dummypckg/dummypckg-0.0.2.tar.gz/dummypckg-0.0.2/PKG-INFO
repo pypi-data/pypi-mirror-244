@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dummypckg
+Version: 0.0.2
+Summary: Dummy package
+Home-page: https://github.com/nicohlr/dummy-pypi-package
+Author: Nicolas Houlier
+Author-email: nicolas.houlier@gmail.com
+
+AAA
