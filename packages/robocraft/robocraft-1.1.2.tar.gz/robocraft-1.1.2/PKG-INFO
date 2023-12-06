@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: robocraft
+Version: 1.1.2
+Summary: Pythonization of ComputerCraft Minecraft mod. Write Python instead Lua!
+Author: Artem Robocodovich
+Author-email: garo109696@gmail.com
+License: MIT
+Keywords: computercraft minecraft
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment
+License-File: LICENSE
