@@ -1,0 +1,7 @@
+README.md
+setup.py
+earthcorr.egg-info/PKG-INFO
+earthcorr.egg-info/SOURCES.txt
+earthcorr.egg-info/dependency_links.txt
+earthcorr.egg-info/requires.txt
+earthcorr.egg-info/top_level.txt
