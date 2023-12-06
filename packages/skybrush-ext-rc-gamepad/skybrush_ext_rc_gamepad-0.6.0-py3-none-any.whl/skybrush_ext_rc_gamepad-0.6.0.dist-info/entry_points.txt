@@ -1,0 +1,7 @@
+[console_scripts]
+hid_test=skybrush_ext_rc_gamepad.hid_test:main
+skybrushd=flockwave.server.launcher:start
+
+[skybrush.server.ext]
+rc_gamepad=skybrush_ext_rc_gamepad
+

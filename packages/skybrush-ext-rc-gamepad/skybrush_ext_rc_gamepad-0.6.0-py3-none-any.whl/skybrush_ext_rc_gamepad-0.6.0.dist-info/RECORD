@@ -1,0 +1,14 @@
+skybrush_ext_rc_gamepad/__init__.py,sha256=XsWhKDB1G9z5PgWkCWpgTJ1I6FIUpgfh5jz5bGwX0kw,314
+skybrush_ext_rc_gamepad/connection.py,sha256=kjP_83j3wY_W5yQH-KI_Be1FhmIJ0iQrhRbiz2Gaq3o,3269
+skybrush_ext_rc_gamepad/devices.py,sha256=4xejqgyHZCveWNmBjifIyhU647QfDZXNEe3UoFd8nHo,15404
+skybrush_ext_rc_gamepad/extension.py,sha256=w1zMdYPcdCorFnr7BM1p73UGgM7cTvPwpm1-GNs--FE,4087
+skybrush_ext_rc_gamepad/hid_test.py,sha256=KdOAzR8IghmgkELvgadGY9pO6bI0CqCBFQkprew5Af8,1601
+skybrush_ext_rc_gamepad/scanner.py,sha256=kvHzngDLZndcpYao6iGoBdcpldaLudhwDw8jdQlMPu0,1934
+skybrush_ext_rc_gamepad/supported_devices.json,sha256=Qcni868A8gjgfJgGBbXvLx33IivuIPPJ5vKLDgnJhuc,6888
+skybrush_ext_rc_gamepad/utils.py,sha256=tvNV7uEegqcvXVVSA_EXruwISA3lyVLDeoHLqIKkx8A,1319
+skybrush_ext_rc_gamepad/version.py,sha256=gvY9W0VUdHX5XfyrdmFGvyy_5WuuLxiTPyPBONuzW1Y,95
+skybrush_ext_rc_gamepad-0.6.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+skybrush_ext_rc_gamepad-0.6.0.dist-info/METADATA,sha256=r9O0FDBGlV-nmhbO-6tvAdak1AuxFbcP66LXXTJUxrI,533
+skybrush_ext_rc_gamepad-0.6.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+skybrush_ext_rc_gamepad-0.6.0.dist-info/entry_points.txt,sha256=zUQJGXrDnOXLLB3C77-pdTXIz3BwLKr-ppIBvaKMCPA,166
+skybrush_ext_rc_gamepad-0.6.0.dist-info/RECORD,,
