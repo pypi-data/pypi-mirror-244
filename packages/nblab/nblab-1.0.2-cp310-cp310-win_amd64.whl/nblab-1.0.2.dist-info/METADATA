@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nblab
+Version: 1.0.2
+Summary: Fast Experiment Conductor
+Author: OrkeshNurbolat
+Author-email: MG1922077@smail.nju.edu.cn
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+Fast Experiment Conductor
