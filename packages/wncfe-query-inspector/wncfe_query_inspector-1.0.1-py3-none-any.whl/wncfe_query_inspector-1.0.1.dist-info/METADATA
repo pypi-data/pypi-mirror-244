@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wncfe-query-inspector
+Version: 1.0.1
+Summary: A Django middleware package to print SQL queries to the terminal
+Author-email: wncfe <alekseip2002@gmail.com>
+Project-URL: Homepage, https://github.com/wncfe
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: Pygments >=2.17.2
+Requires-Dist: sqlparse >=0.4.4
+
+SQL Tools
+=================
+Simple middleware tool for analyzing Django ORM SQL execution. 
+
+# Usage
+Add the follow line of code to your middleware in your project settings.py file
+```
+'wncfe-sql-tools.middleware.new_middleware'
+```
+
+# How it works
+The tool uses Django built in features to inspect the SQL generated from queries executed by the application. 3rd party tools are used to format and highlight the SQL presented in the terminal window.
