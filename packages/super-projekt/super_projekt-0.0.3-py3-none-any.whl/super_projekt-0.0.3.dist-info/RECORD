@@ -1,0 +1,12 @@
+arytmetyka/__init__.py,sha256=yfdFcV8LdgWb4zwBUgI3yYWytH3LGtJPvHqj9aVVrA0,37
+arytmetyka/arth.py,sha256=i0wPRd72wGwgEw35e1JcWlF2p7ggZtV-leAF5fFgMHs,120
+game/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+game/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ui/main.py,sha256=n86BKeRrTPxoKGVJp8IKRrBmqcjQ32RgmVQnQESmsYw,799
+ui/pokemon.png,sha256=HUGA9jo_swtIcDlE4qWf0VZpy5fRwskJ-opu6N4PYf8,91963
+ui/ui_check.py,sha256=0priQEsc87wrUxHK5Iwe_3gMxBfmJ7iL_aA1yaPn2HM,48
+super_projekt-0.0.3.dist-info/METADATA,sha256=quhEy8a93urWWePUDrn8_tRHQXzPCcRbE-e8x1sGaCI,1030
+super_projekt-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+super_projekt-0.0.3.dist-info/top_level.txt,sha256=QvWJCXvCH8FlEZV137MFycxqFx9w8_lyOQHQvM7JX7g,19
+super_projekt-0.0.3.dist-info/RECORD,,
