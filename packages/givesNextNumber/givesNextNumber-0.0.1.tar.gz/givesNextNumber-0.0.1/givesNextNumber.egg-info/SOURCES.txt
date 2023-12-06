@@ -1,0 +1,7 @@
+setup.py
+givesNextNumber.egg-info/PKG-INFO
+givesNextNumber.egg-info/SOURCES.txt
+givesNextNumber.egg-info/dependency_links.txt
+givesNextNumber.egg-info/top_level.txt
+helloWorld/__init__.py
+helloWorld/hello.py
