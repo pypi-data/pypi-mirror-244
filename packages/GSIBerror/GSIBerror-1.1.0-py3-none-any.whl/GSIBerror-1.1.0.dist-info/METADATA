@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: GSIBerror
+Version: 1.1.0
+Summary: A Python class to read the records and attributes from the background error covariance matrices compatible with the Gridpoint Statistical Interpolation in the .gcv file format.
+Home-page: https://gad-dimnt-cptec.github.io/GSIBerror
+Author: Carlos Frederico Bastarz
+Author-email: carlos.bastarz@inpe.br
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.18
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.22
+Requires-Dist: xarray
+Requires-Dist: Cartopy ==0.22.0
+Requires-Dist: matplotlib
+
+# GSIBerror
+
+GSIBerror is a python package that provides a class to read the records and attributes from the background error covariance matrices compatible with the [Gridpoint Statistical Interpolation](https://dtcenter.org/community-code/gridpoint-statistical-interpolation-gsi) in the `.gcv` file format.
+
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC-BY-NC-SA" width="100"/></a>
+
