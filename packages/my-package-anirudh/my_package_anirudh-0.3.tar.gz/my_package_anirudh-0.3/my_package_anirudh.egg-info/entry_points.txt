@@ -1,0 +1,2 @@
+[console_scripts]
+my_cli_app = my_cli_app:hello
