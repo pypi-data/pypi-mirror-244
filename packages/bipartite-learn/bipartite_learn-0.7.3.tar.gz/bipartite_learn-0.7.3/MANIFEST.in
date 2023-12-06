@@ -1,0 +1,5 @@
+include README.md
+include requirements.txt
+include bipartite_learn/tree/*.pxd
+include bipartite_learn/tree/*.pyx
+include tests/test_utils/*
