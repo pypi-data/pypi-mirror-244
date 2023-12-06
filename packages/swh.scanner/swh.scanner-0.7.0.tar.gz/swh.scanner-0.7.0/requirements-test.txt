@@ -1,0 +1,9 @@
+aioresponses
+asynctest
+pytest
+pytest-asyncio
+pytest-flask
+pytest-mock
+swh.core[testing-core]
+swh.model[testing]
+types-pyyaml
