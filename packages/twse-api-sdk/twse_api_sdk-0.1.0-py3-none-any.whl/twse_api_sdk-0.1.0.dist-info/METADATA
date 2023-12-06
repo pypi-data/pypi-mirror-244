@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: twse-api-sdk
+Version: 0.1.0
+Summary: A python SDK for twse open api
+License: MIT
+Author: Hua Wei Chen
+Author-email: oscar.chen.btw@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
