@@ -1,0 +1,9 @@
+dynamodb_connection/__init__.py,sha256=wR9xnQSEx7G92nfsO3b_nrwjA1Le9hfxRNOsWsbcldM,330
+dynamodb_connection/connection.py,sha256=Frgrd9cjMZXDGp7Dcz0_ZUsGeLYPGB7YvFQa2ADpXtI,10677
+dynamodb_connection/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamodb_connection/table_editor.py,sha256=hp8DVVOgtUX78ZfUC3G_VaKmcNl0ZDjdrfPG5ywX1vY,5805
+dynamodb_connection/utils.py,sha256=ZMr91pZBZihxLIAulQXw6MJxArrOaIDBprj7LC99ylY,872
+st_dynamodb_connection-0.1.5.dist-info/LICENSE,sha256=Vn3bjKJgn8hogoA0MvR9-vkAtpc7PIRM4UkZLQrKB8s,1067
+st_dynamodb_connection-0.1.5.dist-info/METADATA,sha256=zvXvLH6IJFeWses_dTG-w49FyJOa3ZaehvjbXdGT-l4,6112
+st_dynamodb_connection-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+st_dynamodb_connection-0.1.5.dist-info/RECORD,,
