@@ -1,0 +1,5 @@
+vtk>=9.1
+numpy
+pytest
+pdoc
+setuptools_scm
