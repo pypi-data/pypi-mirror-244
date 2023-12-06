@@ -1,0 +1,10 @@
+azmailer/__init__.py,sha256=EeCSjkbCufTISo_g544jGwP5sTQy5sshSd_Bh31nR5c,68
+azmailer/_routing.py,sha256=n_-34kULJCdrF2bADFUU0m_Vzn2j0VWpvuR0kEIKQMw,165
+azmailer/_version.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+azmailer/azmailer.py,sha256=x8_w2yH5X51NOkN2jUs-gzFD4_DrklBiW1Ig8pwC0tE,6218
+azmailer/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azmailer-1.0.0.dist-info/LICENSE,sha256=KMJb2kDkeO7d6TYx_cuQhhKjt0Uov3rxGdJYDgMoHc4,1070
+azmailer-1.0.0.dist-info/METADATA,sha256=8vZ8_3LOpCYiP9iI3sj3JOKe5vZRJb5AxgWjlo-SIZ0,2182
+azmailer-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+azmailer-1.0.0.dist-info/top_level.txt,sha256=ewiaQD396-mVjLiR5HUtDzPX31GIM9PHRT9sUs1xpwI,9
+azmailer-1.0.0.dist-info/RECORD,,
