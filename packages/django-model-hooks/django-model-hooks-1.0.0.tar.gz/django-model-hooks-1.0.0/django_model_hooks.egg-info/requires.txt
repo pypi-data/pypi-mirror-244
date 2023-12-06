@@ -1,0 +1,4 @@
+pytest
+pytest-cov
+pytest-django
+django~=4.2.7

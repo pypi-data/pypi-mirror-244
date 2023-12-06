@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: django-model-hooks
+Version: 1.0.0
+Summary: Model hooks for Django
+Home-page: https://gitlab.com/luggagecare/django-model-hooks
+Author: Bram Boogaard
+Author-email: bram@luggo.nl
+License: MIT License
+Keywords: Django Model hooks
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pytest-django
+Requires-Dist: django~=4.2.7
+
+# django-model-hooks
+
+Model hooks for Django.
+
+## Rationale
+
+Add persistent receivers with logging for django model signals.
+
+## Support
+
+Supports: Python 3.10.
+
+Supports Django Versions: 4.2.7
+
+## Installation
+
+```shell
+$ pip install django-model-hooks
+```
+
+## Usage
+
+Add `model_hooks` to `INSTALLED_APPS`.
+
+Run migrations:
+
+```shell
+python manage.py migrate
+```
+
+Add a module `model_hooks_registry` to one or more of your apps. Decorate any function you want to be triggered by
+a hook with the `model_hook` decorator.
+
+Post serialized data to a rest endpoint on creation of a `myapp.MyModel` instance:
+
+```python
+# model_hooks_registry.py
+import json
+
+import requests
+from model_hooks.decorators import model_hook
+from model_hooks.events import create_event
+
+from myapp.models import MyModel
+from myapp.serializers import serializer
+
+
+@model_hook(MyModel, create_event, serializer=serializer)
+def hook_create(instance, payload, **kwargs):
+    requests.post(kwargs.get('rest_url'), data=json.dumps(payload))
+```
+
+Or specify a special tag for the triggering of the function call:
+
+```python
+# model_hooks_registry.py
+import json
+
+import requests
+from model_hooks.decorators import model_hook
+from model_hooks.events import create_event
+
+from myapp.models import MyModel
+from myapp.serializers import serializer
+
+
+@model_hook(MyModel, create_event, serializer=serializer, tag='rest')
+def hook_create(instance, payload, **kwargs):
+    requests.post(kwargs.get('rest_url'), data=json.dumps(payload))
+```
+
+You may also define a custom event:
+
+```python
+# model_hooks_registry.py
+import json
+
+import requests
+from model_hooks.decorators import model_hook
+from model_hooks.events import HookEvent
+
+from myapp.models import MyModel
+from myapp.serializers import serializer
+
+
+custom_event = HookEvent('custom_event')
+
+
+@model_hook(MyModel, custom_event, serializer=serializer)
+def hook_custom(instance, payload, **kwargs):
+    requests.post(kwargs.get('rest_url'), data=json.dumps(payload))
+```
+
+Trigger the event:
+
+```python
+from model_hooks.signals import hook_event
+
+from myapp.model_hooks_registry import custom_event
+from myapp.models import MyModel
+
+instance = MyModel.objects.get(pk=1)
+hook_event.send(MyModel, model=MyModel, instance=instance, event=custom_event)
+```
+
+Now go to the Django admin and add the hooks for the appropriate models and events.
