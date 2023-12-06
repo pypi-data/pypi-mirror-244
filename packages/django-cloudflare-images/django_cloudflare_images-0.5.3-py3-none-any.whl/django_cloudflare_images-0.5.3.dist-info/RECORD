@@ -1,0 +1,10 @@
+cloudflare_images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudflare_images/config.py,sha256=LrTnVIgnc0NET4DUs2WGeMYzk8v6j-DvXOqJ4Q8bozc,1228
+cloudflare_images/field.py,sha256=JUBQ7gTVvMWiFz0FugJ0ZXG9PAoEcrovVQfZlSoYo_c,1649
+cloudflare_images/service.py,sha256=0SwLLtCeaSwRZJI5G8-VxjacPUfJFmRricvrdWQHQvw,2452
+cloudflare_images/storage.py,sha256=UwcGgPSP1lhHjD3LvxiYmz1GVZILsbGji7vFjGXuQSA,4350
+django_cloudflare_images-0.5.3.dist-info/LICENSE,sha256=745g2Xhem13xnmFRslaBoU3_2uN0W4jNp_B94koxXrA,1093
+django_cloudflare_images-0.5.3.dist-info/METADATA,sha256=jXnR2jjSise2CgZbIXrVecuJTDekshZmnaIfrx38HZI,2460
+django_cloudflare_images-0.5.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_cloudflare_images-0.5.3.dist-info/top_level.txt,sha256=Yiey3HC59_iv_0CL-e4t5R9kNKhjgfCp6yucSPwIkYA,18
+django_cloudflare_images-0.5.3.dist-info/RECORD,,
