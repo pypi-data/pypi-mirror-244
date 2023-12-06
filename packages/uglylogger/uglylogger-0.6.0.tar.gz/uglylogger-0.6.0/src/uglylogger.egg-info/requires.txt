@@ -1,0 +1,10 @@
+parameterized
+
+[dev]
+black
+flake8
+mypy
+
+[test]
+pytest
+coverage
