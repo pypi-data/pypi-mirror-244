@@ -1,0 +1,16 @@
+dvc_http/__init__.py,sha256=n3VgLGhm7WbHonlRXnisASlGTz4xG4kz5QzHTE8ZZxo,5162
+dvc_http/_dvc_http_version.py,sha256=S2dpLhPwQJbDUoVSnAGhzMU5DFif4PmewRPJAWR5c2w,413
+dvc_http/retry.py,sha256=4UH29-nEUxG_6vaCrt753DN9D-p_yZIYz-TLXVeTqgs,607
+dvc_http/spec.py,sha256=biRFkcwcP6YLJntBiAW-vyvKaKMHi1_9ykMb75XH64Y,436
+dvc_http/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dvc_http/tests/cloud.py,sha256=CWoDZLymff5ZlpYvuvt4Kuz53ZU5aPZQynyPb-qdqf8,983
+dvc_http/tests/conftest.py,sha256=UNhnW-wCMbleRbl2FIyk9oVuZiuhkOlbUsnL9XLf_yo,170
+dvc_http/tests/fixtures.py,sha256=U2HBs4qi-IoByZasvBfw2sbn1xNe_-708A2LWHe9q8s,539
+dvc_http/tests/httpd.py,sha256=h6yeNKNyHZLdHoKOqd2xVAzXMivRWxSJELnJfuv1XKM,2397
+dvc_http/tests/test_config.py,sha256=RQDOiAbNlFoJfa1s1px9uM3HbvcL2AJ8CMSjsDB_SkM,2795
+dvc_http/tests/test_dvc.py,sha256=4qfo9J6lQzqf_rAZgRtYhr7hB-zPcxax2woe0Fafe58,947
+dvc_http-2.31.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dvc_http-2.31.0.dist-info/METADATA,sha256=nZB7wqlbY0N_s2ajnYdl86HJOR5iuaUFD0NqiSFXqGs,1327
+dvc_http-2.31.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dvc_http-2.31.0.dist-info/top_level.txt,sha256=-0QUvyHu9ezy0KhXiDzMbfqamZXMCScWnlBt7O1gNd4,9
+dvc_http-2.31.0.dist-info/RECORD,,
