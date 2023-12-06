@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: civitai
+Version: 0.0.6
+Summary: A python wrapper for the civitai.com API
+Author-email: Sebastian Hartwig <sebastian@hartwig-bw.de>
+Project-URL: Homepage, https://github.com/kopetri/civitai
+Project-URL: Issues, https://github.com/kopetri/civitai/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+
+# Civitai.com API Package
+
+This is a small wrapper of the civitai.com API
