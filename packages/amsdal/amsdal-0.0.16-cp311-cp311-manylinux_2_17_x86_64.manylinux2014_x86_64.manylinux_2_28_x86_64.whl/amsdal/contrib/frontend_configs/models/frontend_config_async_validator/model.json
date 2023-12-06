@@ -1,0 +1,11 @@
+{
+    "title": "FrontendConfigAsyncValidator",
+    "type": "object",
+    "properties": {
+        "endpoint": {
+            "title": "Endpoint",
+            "type": "string"
+        }
+    },
+    "meta_class": "TypeMeta"
+}
