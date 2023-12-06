@@ -1,0 +1,16 @@
+async_client_decorator/__init__.py,sha256=mJrrfJ-oTD823fbyy52NJ9TYr2dnOaFwTvYiw0DJSx4,2015
+async_client_decorator/_functools.py,sha256=n7tbIkJ-0PdhyyTlK8ImGv3qhYtZ--4ziJEnhRMiwIA,2219
+async_client_decorator/_types.py,sha256=xFcmRLTVYTyEKVixS9u54EN-MB4VdN4I4ca1cTvK5f4,1395
+async_client_decorator/body.py,sha256=vFaynwhgMAkKNfWZVMEHX_JODQxuUxLs9ZXFGltn9hc,1289
+async_client_decorator/component.py,sha256=iQ5hf3TLBFu6IMXtSV5xznKgpBnvkw61qSqH02zEQXc,4305
+async_client_decorator/form.py,sha256=H2vifppNF1z6smqTacf8HcsK-esdmXjHeHO8LJYKpJc,1649
+async_client_decorator/header.py,sha256=IbV1-O38Ov5YgZD_Z1XG4jROzo-JbzZFVwM8emj_MR8,1659
+async_client_decorator/path.py,sha256=HTLybeOC-FONEp8W3hDH7fadwUsyDk2KC9U_YHr3X7w,1719
+async_client_decorator/query.py,sha256=lvbyifiz2G8Bu8oej5F5V6pUdUUUA_pezY3uKHhh4GU,1648
+async_client_decorator/request.py,sha256=r99-VHQHxTvMoBgfn5O2Wzkkz91oZz1NWQ__PB1UmLc,7501
+async_client_decorator/session.py,sha256=A0hp1ZYMFlTPiQ73XvJ7UvS8ATU2ZJIvbvsjdM-6rmA,2832
+async_client_decorator-0.1.0.dist-info/LICENSE,sha256=H7o6EDesGiVtbuH0UYR1Prbh1Rkzs3Ji_R9JfFipV04,1065
+async_client_decorator-0.1.0.dist-info/METADATA,sha256=9iV57V5jGgNEQGaTyKN2C4Y8aK5KEGSi_RC7kduZNkU,2515
+async_client_decorator-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+async_client_decorator-0.1.0.dist-info/top_level.txt,sha256=x3BmR3EV8yW8aevOgkHB8peHTzL7KBSGbw6Q-gXz7nw,23
+async_client_decorator-0.1.0.dist-info/RECORD,,
