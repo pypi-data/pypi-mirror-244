@@ -1,0 +1,13 @@
+timm>=0.4.12
+torch
+autodistill
+Pillow
+supervision
+
+[dev]
+flake8
+black==22.3.0
+isort
+twine
+pytest
+wheel
