@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/cognitivepersonalizationtaskfingerprinting.egg-info/PKG-INFO
+src/cognitivepersonalizationtaskfingerprinting.egg-info/SOURCES.txt
+src/cognitivepersonalizationtaskfingerprinting.egg-info/dependency_links.txt
+src/cognitivepersonalizationtaskfingerprinting.egg-info/top_level.txt
+src/cptf/__init__.py
+src/cptf/cog_personalization_deep_learning_model.py
+src/cptf/cog_personalization_micro_task_fingerprinting.py
