@@ -1,0 +1,3 @@
+[console_scripts]
+spreadsheet_wrangler = spreadsheet_wrangler.cli:main
+
