@@ -1,0 +1,9 @@
+pytaxon/__init__.py,sha256=BE179ebVYOjh5-T-0UgtmOpIpLPG6yigaX3aHsMI95M,60
+pytaxon/pytaxon.py,sha256=JhkBLWyklHhOVGy0QhyjP2V0iofET7N_tpONGOZBT_w,463
+pytaxon/pytaxonGBIF.py,sha256=AhyorZBho3TcIkhhJ2oMeMWJ2cRxU9wtvZJXd-7du88,10028
+pytaxon/pytaxonOpenTree.py,sha256=PI27JNFt5iHF9kRta0vN6T2Jt11RqOSv2ntLQOGQO1U,10276
+pytaxon-1.0.0.dist-info/METADATA,sha256=UmH46hLeng1qf8fpHMKAMA5O9OrPeZgFtWpKpZVH3pE,751
+pytaxon-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytaxon-1.0.0.dist-info/entry_points.txt,sha256=iNmPXWdOxR5GoSadPahyIPxTaCp8gNBQ3-2D09OmVSk,49
+pytaxon-1.0.0.dist-info/top_level.txt,sha256=-cJ69sykW2pzBR2p2zGwmfiCOCe3DtDUX9xgcjotM0s,8
+pytaxon-1.0.0.dist-info/RECORD,,
