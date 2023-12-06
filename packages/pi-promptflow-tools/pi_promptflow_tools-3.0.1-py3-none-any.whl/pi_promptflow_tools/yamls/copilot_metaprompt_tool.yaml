@@ -1,0 +1,12 @@
+pi_promptflow_tools.tools.copilot_metaprompt_tool.set_metaprompt_parameter:
+  description: This is a tool for storing the current MetaPrompt that is used by our
+    Copilot service.
+  function: set_metaprompt_parameter
+  inputs:
+    recordCount:
+      default: '100'
+      type:
+      - string
+  module: pi_promptflow_tools.tools.copilot_metaprompt_tool
+  name: Copilot MetaPrompt Tool
+  type: python
