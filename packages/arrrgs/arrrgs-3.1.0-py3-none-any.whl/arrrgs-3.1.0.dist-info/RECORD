@@ -1,0 +1,11 @@
+arrrgs/__init__.py,sha256=sxc1BvLexCzVEVlqaH1jwhhgZHmsCAPg1WCpgHTUkW4,122
+arrrgs/arguments.py,sha256=28oyJSHA_xBJeRnMIhE4kVCed_Vv70wKETUTCNX5Os0,701
+arrrgs/command.py,sha256=-3_gpPQ_GeIEj3oFX7Myk8OL1jCjigviBh-9WbPMDjM,1207
+arrrgs/log.py,sha256=r8hNwRUDQ4Ouc4kwYVV3QrXMtMmq-TVbk0c2QRUM_q8,405
+arrrgs/parser.py,sha256=Qo65WsiydN62eRx5LwbWE4wGltL7uovK0Z0SGcus_Zg,229
+arrrgs/run.py,sha256=nlY43HDQFp3RwYv3VUDBLzAfNiXSMWb2PPof2aLRM_Q,2395
+arrrgs-3.1.0.dist-info/LICENSE,sha256=_ksnWlEYJp14XHjoqEbfZJZdcWM-OGHV6FPVlNaVU3s,1073
+arrrgs-3.1.0.dist-info/METADATA,sha256=vAA9l7Of2ytgXDMIJcKVibyHqsPYDHVQQbDLRtVgZvY,3964
+arrrgs-3.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+arrrgs-3.1.0.dist-info/top_level.txt,sha256=o27flTZGouAugN1INVriYCeSsvNdpBxuVMUtSNZWrxE,7
+arrrgs-3.1.0.dist-info/RECORD,,
