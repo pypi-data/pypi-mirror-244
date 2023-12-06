@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: arkindex-base-worker
+Version: 0.3.6rc3
+Summary: Base Worker to easily build Arkindex ML workflows
+Author-email: Teklia <contact@teklia.com>
+Maintainer-email: Teklia <contact@teklia.com>
+Project-URL: Homepage, https://workers.arkindex.org
+Project-URL: Documentation, https://workers.arkindex.org
+Project-URL: Repository, https://gitlab.teklia.com/workers/base-worker
+Project-URL: Bug Tracker, https://gitlab.teklia.com/workers/base-worker/issues
+Project-URL: Authors, https://teklia.com
+Keywords: python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: arkindex-client==1.0.14
+Requires-Dist: peewee==3.17.0
+Requires-Dist: Pillow==10.1.0
+Requires-Dist: pymdown-extensions==10.3.1
+Requires-Dist: python-gnupg==0.5.1
+Requires-Dist: shapely==2.0.2
+Requires-Dist: tenacity==8.2.3
+Requires-Dist: zstandard==0.22.0
+Provides-Extra: docs
+Requires-Dist: black==23.11.0; extra == "docs"
+Requires-Dist: doc8==1.1.1; extra == "docs"
+Requires-Dist: mkdocs==1.5.3; extra == "docs"
+Requires-Dist: mkdocs-material==9.4.8; extra == "docs"
+Requires-Dist: mkdocstrings==0.23.0; extra == "docs"
+Requires-Dist: mkdocstrings-python==1.7.3; extra == "docs"
+Requires-Dist: recommonmark==0.7.1; extra == "docs"
+
+# Arkindex base Worker
+
+An easy to use Python 3 high level API client, to build ML tasks.
+
+## Create a new worker using our template
+
+```
+pip install --user cookiecutter
+cookiecutter git@gitlab.teklia.com:workers/base-worker.git
+```
