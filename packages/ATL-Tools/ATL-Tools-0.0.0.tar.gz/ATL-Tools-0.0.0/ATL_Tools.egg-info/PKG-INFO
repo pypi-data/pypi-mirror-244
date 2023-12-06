@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ATL-Tools
+Version: 0.0.0
+Summary: AI-Tianlong的Tools打包，开箱即用
+License: MIT License
+Keywords: ATL-Tools,ATL-path,AI-Tianlong,chinese
+Description-Content-Type: text/markdown
+
+# ATL-Tools 使用指南
+## 1. 简介
+ATL-Tools 是一个由[AI-Tianlong](https://github.com/AI-Tianlong)开发的工具集合，包含一些便利的小工具，发布的目的是为了方便大家使用，同时也是为了方便自己使用。
+## 2. 使用方法
+### 2.1. ATL-path
+ATL-path 是一个用于获取文件夹内数据集绝对路径的小工具，可以获取当前文件内符合后缀的文件的绝对路径，以及替代`os.path.exit()`和`os.mkdir()`自动判断是否存在该文件夹，如果不存在则创建文件夹。
+
+有以下两个主要的功能：
+- 创建文件夹：
+    ```python
+    mkdir_or_exist(xxxx) # 创建文件夹, 存在则不创建
+    ```
+- 寻找所有符合后缀文件夹名称(绝对路径):
+    ```python
+    mkdir_or_exist(xxxx) # 创建文件夹, 存在则不创建
+    ```

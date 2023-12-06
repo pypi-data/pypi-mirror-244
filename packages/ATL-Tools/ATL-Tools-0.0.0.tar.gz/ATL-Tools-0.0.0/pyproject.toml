@@ -1,0 +1,11 @@
+  [build-system]
+    requires = ["setuptools", "setuptools-scm"]
+    build-backend = "setuptools.build_meta"
+    
+    [project]
+    name = "ATL-Tools"
+    description = "AI-Tianlong的Tools打包，开箱即用"
+    readme = "README.md"
+    keywords= ["ATL-Tools", "ATL-path", "AI-Tianlong", "chinese"]
+    license = {text = "MIT License"}
+    dynamic = ["version"]
