@@ -1,0 +1,5 @@
+pravega-0.3.7.dist-info/METADATA,sha256=s5e3AypDBwBPe56KRE84_kMfsjVh7eGZZZ96b4dzbZg,2270
+pravega-0.3.7.dist-info/WHEEL,sha256=szYC40KRjcdOG1DiFyzO6u0H9f9kLFWhAkZA18AQty8,110
+pravega_client/__init__.py,sha256=Pq-fktxcIFdbHbKj3cNCZZB5uHJMN_9lPOxyUnASZRk,139
+pravega_client/pravega_client.cpython-310-x86_64-linux-gnu.so,sha256=nnrlM2lPtFAEGqCvCd_07b4X-pZhhuCNWUBRjwuGghA,37181672
+pravega-0.3.7.dist-info/RECORD,,
