@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name="streamlit_api"
+version="1.0.0"
+description="Visualize music data from Spotify API with Streamlit"
+readme="README.md"
+dynamic = ["dependencies"]
+classifiers = ["Development Status :: 5 - Production/Stable"]
+license = { file = "LICENSE" }
+keywords = ["streamlit"]
