@@ -1,0 +1,15 @@
+LICENSE
+README
+setup.py
+frame_model.egg-info/PKG-INFO
+frame_model.egg-info/SOURCES.txt
+frame_model.egg-info/dependency_links.txt
+frame_model.egg-info/requires.txt
+frame_model.egg-info/top_level.txt
+framemodel/CPTEC_BAM.py
+framemodel/CPTEC_BRAMS.py
+framemodel/CPTEC_ETA.py
+framemodel/CPTEC_GFS.py
+framemodel/CPTEC_UTIL.py
+framemodel/CPTEC_WRF.py
+framemodel/CPTEC_Widgets.py
