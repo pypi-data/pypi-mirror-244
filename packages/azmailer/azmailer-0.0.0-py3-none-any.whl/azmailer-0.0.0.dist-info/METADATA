@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: azmailer
+Version: 0.0.0
+Summary: send mails from az
+Author: anglisanosa
+Author-email: marcanglisano@gmail.com
+Project-URL: Documentation, https://anglisanosa.github.io/azmailer/
+Project-URL: Bug Reports, https://github.com/anglisanosa/azmailer/issues
+Project-URL: Source, https://github.com/anglisanosa/azmailer
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: azure-communication-email ==1.0.*
+
+# Project Readme
+
+
+# 'azmailer'
+
+## Introduction
+send mails from az
+
+## Installation
+To install azmailer, simply use pip:
+
+```bash
+pip install 'azmailer'
+
+```
+
+## Usage Example
+Here's an example of how to use the PathUtils class:
+
+```python
+from 'azmailer' import *
+
+# write example here
+```
+
+## Documentation
+The Sphinx-generated documentation for PathUtils can be found [here](https://anglisanosa.github.io/azmailer/).
+
+## Contribution
+Feel free to contribute by submitting issues [here](https://github.com/anglisanosa/azmailer/issues).
