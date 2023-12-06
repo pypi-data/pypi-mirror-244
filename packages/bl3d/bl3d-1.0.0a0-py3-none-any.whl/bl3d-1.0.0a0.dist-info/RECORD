@@ -1,0 +1,8 @@
+bl3d/__init__.py,sha256=jqaE3hhZQYWmOQRx9aa0GoeGIHjcXYfbd5FEmRkiSCM,10095
+bl3d/event_sourcing.py,sha256=p4m5PTWMWpWL8U9dm_eXVZByk7b2IUuc2Mp0CMdu2uw,3892
+bl3d/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bl3d/test_history.py,sha256=DeFVLedDGIUPgJrq1yz4leVEeCL0kHSpWgzmmGJx22c,1067
+bl3d-1.0.0a0.dist-info/LICENSE.md,sha256=Ek5QEA95J-rDWI292Voo0vl4dSICshIs7RjRaq-12TY,34895
+bl3d-1.0.0a0.dist-info/METADATA,sha256=1t766WjD3dmWHoLsThFK3vM-WLe-bjX69Znjk7b3aM0,985
+bl3d-1.0.0a0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bl3d-1.0.0a0.dist-info/RECORD,,
