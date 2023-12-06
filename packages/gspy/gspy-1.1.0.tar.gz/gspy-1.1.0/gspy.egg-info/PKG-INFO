@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gspy
+Version: 1.1.0
+Summary: Data handling
+Home-page: https://github.com/usgs.gov
+Download-URL: https://github.com/usgs/gspy/releases/v1.1.0.tar.gz
+Author: Leon Foks, Stephanie James, Burke Minsley
+Author-email: nfoks@contractor.usgs.gov
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: scipy
+Requires-Dist: h5py
+Requires-Dist: netcdf4
+Requires-Dist: matplotlib
+Requires-Dist: fortranformat
+Requires-Dist: rioxarray
+Requires-Dist: pyproj
+Provides-Extra: dev
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: build; extra == "dev"
+
+gspy converts commonly used data formats into a netcdf file honoring our GS convention.
