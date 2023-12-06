@@ -1,0 +1,8 @@
+README.md
+setup.py
+paramount/__init__.py
+paramount/record.py
+paramount.egg-info/PKG-INFO
+paramount.egg-info/SOURCES.txt
+paramount.egg-info/dependency_links.txt
+paramount.egg-info/top_level.txt
