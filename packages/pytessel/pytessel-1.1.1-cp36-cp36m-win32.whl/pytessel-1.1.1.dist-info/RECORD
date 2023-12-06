@@ -1,0 +1,8 @@
+pytessel/__init__.py,sha256=n7uXMiIPBCWoCxVi2lWP47jsE7dr7w-ajKiVAv2BEvQ,69
+pytessel/_version.py,sha256=KGJQJ23MnEKMR2yQigWuN5Fj9B4JRjsenwhmGe0cwAA,23
+pytessel/pytessel.cp36-win32.pyd,sha256=fyVICVFs1kN-L4ohYn90sJ9fzPzeUJYA6gpoQ7wSFF4,102912
+pytessel-1.1.1.dist-info/LICENSE,sha256=N9LlpinTG3mzwIdqFGx9TB-NLPcCdt1PrC2Nar0_CzI,35795
+pytessel-1.1.1.dist-info/METADATA,sha256=VLk0lQ0gOpNyYW0EbQSI53Z7EkZLJ9UPdsGgq-4f0YA,5046
+pytessel-1.1.1.dist-info/WHEEL,sha256=ZX-iFFGFiHZRWPwXowAnONYwAL2TBxDHVbhC1HaSV9Q,97
+pytessel-1.1.1.dist-info/top_level.txt,sha256=QDauMEeJ6MuBmtCTV4HZAr1XodXsUesXTlcImp5LE54,9
+pytessel-1.1.1.dist-info/RECORD,,
