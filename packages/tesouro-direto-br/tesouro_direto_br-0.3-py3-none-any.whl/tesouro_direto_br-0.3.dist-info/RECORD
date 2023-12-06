@@ -1,0 +1,9 @@
+tesouro_direto_br/.gitignore,sha256=S6Xp5tKo3ypoFbmU9tuuEO_pPjjL34LD7keOBWwAu1g,2094
+tesouro_direto_br/__init__.py,sha256=WL_2uLWFM266HU4jP13G0kjQxoOJHAl8UsKeejcTdmU,140
+tesouro_direto_br/tabela_iof_investimentos.xlsx,sha256=0aoBYxRcyaDmy446zMrSFr9MYvJGpaHnXFYbHTKwUUQ,9520
+tesouro_direto_br/tesouro_direto_br.py,sha256=uTn_Vl-nyOmyaf3BAFlQWArqDCBlHL0PSTRhTCeS9Vs,18394
+tesouro_direto_br/version.py,sha256=vfkoUcLqKB50LpjNGp3NvR0vpXyAHSvacZb5VS3NI8o,44
+tesouro_direto_br-0.3.dist-info/LICENSE.md,sha256=hqVtQHSLMDbUwHQY7mXcU428swdIUrvHQHjqGfk6Opw,1072
+tesouro_direto_br-0.3.dist-info/METADATA,sha256=sgFWAZCMdXJ_Qf_50XxnQgbLF4kZxZRd4H6GY-2sPfo,7520
+tesouro_direto_br-0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tesouro_direto_br-0.3.dist-info/RECORD,,
