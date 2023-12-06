@@ -1,0 +1,15 @@
+pythoncrc>=0.10.0
+pyserial>=3.5
+
+[dev]
+black>=23.11.0
+pre-commit>=2.20.0
+flake8>=5.0.4
+isort>=5.10.1
+Flake8-pyproject>=1.1.0.post0
+setuptools_scm>=6.2
+
+[tests]
+mypy>=1.7.1
+pytest>=7.4.3
+types-pyserial>=3.5
