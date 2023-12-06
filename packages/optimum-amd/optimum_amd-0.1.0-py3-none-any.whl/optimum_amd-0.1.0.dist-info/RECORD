@@ -1,0 +1,15 @@
+optimum/amd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optimum/amd/cli.py,sha256=MeBH9kklB4msUdMjwHJ8lztgQoUOu_swVCNehWCHwv8,1556
+optimum/amd/topology_utils.py,sha256=1p3-vYndRWviNhtAuJfSEnicd_Km7ALOSJWwHcTw1QM,2857
+optimum/amd/version.py,sha256=O4V_XY6VrrYEBf9sMhR9rx0YnXQ06uqkKIky49YEXog,117
+optimum/amd/ryzenai/__init__.py,sha256=eZ4Vgd5jvrffKPKVFWaquRBUyMxG9MIkfjdGZUYB_yk,884
+optimum/amd/ryzenai/configuration.py,sha256=glQx9zX2N_wajEnaXk22XivYaV_4fLUVU2j30eLNCp4,4349
+optimum/amd/ryzenai/modeling.py,sha256=2OK5R9zugNJG5N2OLUpQzTZS_KRcn4WbPgYSDuKyQKQ,20209
+optimum/amd/ryzenai/quantization.py,sha256=8nWsSANXF7njqaUNqCPF_GmF9xjK1jpagIDMgRjrAZs,10372
+optimum/amd/ryzenai/utils.py,sha256=kPy6eKb3n5CJQiPdJ175Obnslx8tUUwpy0uXgNZjxyA,736
+optimum_amd-0.1.0.dist-info/LICENSE,sha256=1uexlFHBs9HWY1O7SxJ0E4lTs7_ZrmDFbnex9Uh5aYI,1069
+optimum_amd-0.1.0.dist-info/METADATA,sha256=9ujlGH4WO6hvzT3wPk6CEdUtrhXdwYFRVt_MrSJwDO8,7625
+optimum_amd-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+optimum_amd-0.1.0.dist-info/entry_points.txt,sha256=HnhRDxfjRjmE3tEOREdn1hzSZvD4Fygew65dkVS10Xg,50
+optimum_amd-0.1.0.dist-info/top_level.txt,sha256=rc1rV-uPZnV1Ek7hCwh56pvMCKcip65JbHRRWs8Yqu8,8
+optimum_amd-0.1.0.dist-info/RECORD,,

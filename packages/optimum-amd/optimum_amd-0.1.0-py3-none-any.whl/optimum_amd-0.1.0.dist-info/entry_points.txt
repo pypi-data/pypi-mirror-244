@@ -1,0 +1,2 @@
+[console_scripts]
+amdrun = optimum.amd.cli:amdrun
