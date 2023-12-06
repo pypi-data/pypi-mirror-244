@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+logdebug/__init__.py
+logdebug/logdebug.py
+logdebug.egg-info/PKG-INFO
+logdebug.egg-info/SOURCES.txt
+logdebug.egg-info/dependency_links.txt
+logdebug.egg-info/not-zip-safe
+logdebug.egg-info/top_level.txt
