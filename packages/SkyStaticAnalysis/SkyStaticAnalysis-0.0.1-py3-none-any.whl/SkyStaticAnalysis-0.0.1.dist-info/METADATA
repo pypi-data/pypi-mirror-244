@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SkyStaticAnalysis
+Version: 0.0.1
+Summary: Template for module
+Home-page: https://github.com/ABM4ALL/Melodie
+Author: Songmin Yu
+Author-email: abm4all@outlook.com
+License: MIT
+Project-URL: Documentation, http://docs.abm4all.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: clang ~=16.0
+Requires-Dist: libclang ~=16.0
+Requires-Dist: six
+
