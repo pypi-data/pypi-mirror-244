@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gfftk
+Version: 23.12.5
+Summary: GFFtk: genome annotation GFF3 tool kit
+Home-page: https://github.com/nextgenusfs/gfftk
+Author: Jon Palmer
+Author-email: nextgenusfs@gmail.com
+License: BSD-2
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Unix
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: natsort
+Requires-Dist: numpy
+
+
+[![Latest Github release](https://img.shields.io/github/release/nextgenusfs/gfftk.svg)](https://github.com/nextgenusfs/gfftk/releases/latest)
+![Conda](https://img.shields.io/conda/dn/bioconda/gfftk)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# GFFtk: genome annotation tool kit
+
+
+To install release versions use the pip package manager, like so:
+```
+python -m pip install gfftk
+```
+
+To install the most updated code in master you can run:
+```
+python -m pip install git+https://github.com/nextgenusfs/gfftk.git
+```
