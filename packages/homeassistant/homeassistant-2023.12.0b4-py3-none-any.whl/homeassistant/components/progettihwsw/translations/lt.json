@@ -1,0 +1,15 @@
+{
+    "config": {
+        "step": {
+            "relay_modes": {
+                "title": "Nustatykite reles"
+            },
+            "user": {
+                "data_description": {
+                    "host": "ProgettiHWSW plok\u0161t\u0117s pagrindinio kompiuterio pavadinimas arba IP adresas."
+                },
+                "title": "Nustatykite lent\u0105"
+            }
+        }
+    }
+}
