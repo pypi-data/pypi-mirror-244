@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+requirements.txt
+setup.py
+autodistill_grounded_sam/__init__.py
+autodistill_grounded_sam/grounded_sam.py
+autodistill_grounded_sam/helpers.py
+autodistill_grounded_sam.egg-info/PKG-INFO
+autodistill_grounded_sam.egg-info/SOURCES.txt
+autodistill_grounded_sam.egg-info/dependency_links.txt
+autodistill_grounded_sam.egg-info/requires.txt
+autodistill_grounded_sam.egg-info/top_level.txt
