@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on linux)" generated="20231205 15:11:06.807" rpa="false" schemaversion="4">
+<suite id="s1" name="Test" source="/home/inte/PycharmProjects/test-proj/test.robot">
+<test id="s1-t1" name="Simple IF" line="2">
+<kw name="Evaluate" library="BuiltIn">
+<var>${random_number}</var>
+<arg>random.randint(0, 10)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20231205 15:11:06.818" level="INFO">${random_number} = 0</msg>
+<status status="PASS" starttime="20231205 15:11:06.818" endtime="20231205 15:11:06.818"/>
+</kw>
+<if>
+<branch type="IF" condition="${random_number} % 2">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n${random_number} is odd!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20231205 15:11:06.819" endtime="20231205 15:11:06.819"/>
+</kw>
+<status status="NOT RUN" starttime="20231205 15:11:06.818" endtime="20231205 15:11:06.819"/>
+</branch>
+<status status="PASS" starttime="20231205 15:11:06.818" endtime="20231205 15:11:06.819"/>
+</if>
+<status status="PASS" starttime="20231205 15:11:06.818" endtime="20231205 15:11:06.819"/>
+</test>
+<status status="PASS" starttime="20231205 15:11:06.808" endtime="20231205 15:11:06.819"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
