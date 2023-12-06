@@ -1,0 +1,2 @@
+[nbdev]
+dref = dref._modidx:d
