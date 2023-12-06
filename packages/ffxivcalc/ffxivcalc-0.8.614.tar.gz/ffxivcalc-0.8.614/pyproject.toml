@@ -1,0 +1,27 @@
+[project]
+name = "ffxivcalc"
+version = "0.8.614"
+authors = [
+  { name="Anthony Desrochers", email="anthony.desrochers17@gmail.com" },
+  {name="Others (see on GitHub)", email="anthony.desrochers17@gmail.com"},
+]
+description = "DPS Simulator for Final Fantasy XIV"
+readme = "README.md"
+license = {file = "License"}
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 5 - Production/Stable",
+]
+keywords = ["ffxiv", "dps", "simulator", "environment", "ffxiv-combat-simulator"]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Source = "https://github.com/IAmPythagoras/FFXIV-Combat-Simulator"
+Documentation = "https://iampythagoras.github.io/index.html"
+Website = "https://ffxivdpscalc.azurewebsites.net/simulate/"
+Issues = "https://github.com/IAmPythagoras/FFXIV-Combat-Simulator/issues"
