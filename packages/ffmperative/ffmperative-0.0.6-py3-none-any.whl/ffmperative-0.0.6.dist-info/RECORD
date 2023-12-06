@@ -1,0 +1,15 @@
+ffmperative/__init__.py,sha256=RQtRpgUrTUMJEvpVdCzWRylDtjX-ADMQlBCtISBZ2VM,2513
+ffmperative/cli.py,sha256=-sFYaTQ-IK3OH66hw9McdZ-zLD5fSgc2YzNRIuXeSfk,1859
+ffmperative/extras.py,sha256=zcB8zNKH1H35ciGnQu87rQfL6D5pE1jIf5k1paHAlE4,18951
+ffmperative/interpretor.py,sha256=oI8Bs_KYCJNZAGtzI-wP5OOS4d5Qvs5eojkRxM-ZKUI,10422
+ffmperative/prompts.py,sha256=Gj1SKgthh6hOZVNsyJBdxlFMHy-eVObG__Dz6D2g5wY,9812
+ffmperative/tool_mapping.py,sha256=E_U94QlJguMXSQVGUUtcK0S-8Pa1BAB_A4_026LXuPQ,311
+ffmperative/tools.py,sha256=TcdSvzn_M6OWZKwW2KXbkOCL5M0p9QSaG9-UYSXI7E8,16464
+ffmperative/utils.py,sha256=UySe23VXMKhS53qWVaMohkxi9DxmoRgs8WyvkmWhOgw,5225
+ffmperative/bin/ffmp,sha256=-yCFrMX8MKMD-uzIqsaYNHUCTLMpuhFPLTO_3MkGap4,3804168
+ffmperative-0.0.6.dist-info/LICENSE,sha256=08y6UINXSwNc7rrPXbxA230VfE0-lkbr8zGvSqanfmk,1065
+ffmperative-0.0.6.dist-info/METADATA,sha256=FWfMicZgCrBQSL4pXAox6fGBl5G9p8y4HM3P6FbZ0fM,2816
+ffmperative-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ffmperative-0.0.6.dist-info/entry_points.txt,sha256=usK3S9ZbcuOUqwQoyR31LyqIwI4KF7WZq1pF__U1Rb0,53
+ffmperative-0.0.6.dist-info/top_level.txt,sha256=phfS7dNhucv5MTBeH67o-vzt6OSYjgxuFVEA6-mbTxY,12
+ffmperative-0.0.6.dist-info/RECORD,,
