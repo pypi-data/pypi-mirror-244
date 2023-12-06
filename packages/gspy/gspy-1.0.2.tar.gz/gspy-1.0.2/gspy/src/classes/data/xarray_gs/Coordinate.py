@@ -1,0 +1,174 @@
+from numpy import arange
+from .DataArray import DataArray
+
+from xarray import register_dataarray_accessor
+
+# @register_dataarray_accessor("gs_coordinate")
+class Coordinate(DataArray):
+    """Accessor to xarray.DataArray to define a Coordinate.
+
+    Checks necessary metadata to satisfy the CF convention, and allows use with GIS software.
+    Handles both arbitrary coordinates and standard coordinates defined as x, y, z, or t used within NetCDF files.
+    Standard coordinates have extra checks on the metadata.
+
+    See Also
+    --------
+    Coordinate.from_dict : For instantiation
+    Coordinate.from_values : For instantiation
+
+    """
+
+    @classmethod
+    def from_dict(cls, name, is_projected=False, is_dimension=False, **kwargs):
+        """Specifically generates a coordinate/dimension from a dict.
+
+        Automatically checks/generates required Coordinate metadata and bounds. If the coordinate is a "standard coordinate" i.e. ('x', 'y', 'z', 't'), extra checks on metadata are performed.
+
+        Parameters
+        ----------
+        name : str
+            The name of the coordinate to attach
+        is_projected : bool
+            If the coordinate is projected, the standard_name metadata entry needs to change
+        is_dimension : bool
+            If the coordinate is a coordinate-dimension defines its dims as itself
+
+        Other Parameters
+        ----------------
+        centers : array_like, optional
+            * Explicit definition of Coordinate center values. Used for non-uniformly distanced center values.
+            * Has shape (size of dimension, ) defining the center values of each "cell"
+        increment : scalar, optional
+            Increment of the Coordinate centers. Only used if centers is None.
+        length : int, optional
+            Size of the Coordinate centers. Only used if centers is None.
+        origin : scalar, optional
+            Lower limit of the Coordinate centers. Only used if centers is None.
+
+        See Also
+        --------
+        .DataArray.DataArray.from_values : For GS standard metadata keywords
+        Coordinate.check_standard_coordinates : For extra keywords when name in ('x', 'y', 'z', 't')
+
+        Example
+        -------
+        >>> depth_dict = {"standard_name": "depth",
+        >>>               "long_name": "Depth below earth's surface DTM",
+        >>>               "units": "m",
+        >>>               "null_value": "not_defined",
+        >>>               "centers" : [2.5, 7.5, 20.0]}
+        >>> Coordinate.from_dict('depth', **depth_dict)
+
+        """
+        if 'centers' in kwargs:
+            values = kwargs.pop('centers')
+
+        else:
+            assert all([x in kwargs for x in ['origin', 'increment', 'length']]), ValueError("Explicit dimension definition {} must have 'origin', 'increment', 'length".format(name))
+            x0, dx, nx = kwargs.pop('origin'), kwargs.pop('increment'), kwargs.pop('length')
+            values = (arange(nx) * dx) + x0
+
+        # Add a check for units to conform to ARC reading
+        if 'units' in kwargs:
+            if kwargs['units'] == 'm':
+                kwargs['units'] = 'meters'
+
+        return Coordinate.from_values(name, values, is_projected, is_dimension, **kwargs)
+
+    @classmethod
+    def from_values(cls, name, values, is_projected=False, is_dimension=False, **kwargs):
+        """Generate a Coordinate from an array of values.
+
+        Parameters
+        ----------
+        name : str
+            The name of the coordinate to attach
+        is_projected : bool
+            If the coordinate is projected, the standard_name metadata entry needs to change
+        is_dimension : bool
+            If the coordinate is a coordinate-dimension defines its dims as itself.
+
+        Other Parameters
+        ----------------
+        centers : array_like, optional
+            Explicit definition of Coordinate center values. Used for non-uniformly distanced center values.
+            Has shape (size of dimension, ) defining the center values of each "cell"
+        increment : scalar, optional
+            Increment of the Coordinate centers. Only used if centers is None.
+        length : int, optional
+            Size of the Coordinate centers. Only used if centers is None.
+        origin : scalar, optional
+            Lower limit of the Coordinate centers. Only used if centers is None.
+
+        See Also
+        --------
+        .DataArray.DataArray.from_values : For GS convention metadata keywords
+        Coordinate.check_standard_coordinates : For extra keywords when creating a standard coordinate
+
+        Example
+        -------
+        >>> depth_dict = {"standard_name": "depth",
+        >>>               "long_name": "Depth below earth's surface DTM",
+        >>>               "units": "m",
+        >>>               "null_value": "not_defined",
+        >>>               "centers" : [2.5, 7.5, 20.0]}
+        >>> Coordinate.from_dict('depth', np.r_[2.5, 7.5, 20.0], **depth_dict)
+
+        """
+        kwargs['standard_name'] = cls.check_is_projected(name, is_projected)
+
+        cls.check_standard_coordinates(name, **kwargs)
+
+        if is_dimension:
+            dims = [name]
+            coords = {name : values}
+        else:
+            dims = kwargs.pop('dimensions')
+            coords = kwargs.pop('coords')
+
+        return super().from_values(name, values, dimensions=dims, coords=coords, **kwargs)
+
+    @staticmethod
+    def check_is_projected(name, is_projected):
+        """Checks for a projected standard coordinate x or y
+
+        Parameters
+        ----------
+        name : str
+            Name of the coordinate
+        is_projected : bool
+            Is the coordinate projected or not
+
+        Returns
+        -------
+        out : str
+
+        """
+        out = name
+        if is_projected:
+            if name in ('x', 'y'):
+                out = "projection_{}_coordinate".format(name)
+        return out
+
+    @staticmethod
+    def check_standard_coordinates(name, **kwargs):
+        """If this is a standard coordinate do some extra checks on metadata.
+
+        Parameters
+        ----------
+        axis : int, optional
+            Axis this Coordinate belongs to .
+        positive : str, optional
+            "up" or "down". Only used if name == 'z'.
+        time_datum : str, optional
+            Time datum. Only used if name == 't'.
+        vertical_datum : str, optional
+            Vertical datum name. Only used if name == 'z'.
+        """
+        if name in ("x", "y", "z", "t"):
+            assert "axis" in kwargs, ValueError('coordinate definition for {} requires "axis" defined in the variable metadata. e.g. "axis":"X" for x'.format(name))
+            if name == "z":
+                assert "positive" in kwargs, ValueError('z coordinate definition requires entry "positive" : "up" or "down"')
+                assert "vertical_datum" in kwargs, ValueError('z coordinate definition requires entry "vertical_datum", e.g. "ground surface"')
+            if name == "t":
+                assert "time_datum" in kwargs, ValueError('time coordinate definition requires entry for "time_datum", e.g. "Jan-01-1900"')
