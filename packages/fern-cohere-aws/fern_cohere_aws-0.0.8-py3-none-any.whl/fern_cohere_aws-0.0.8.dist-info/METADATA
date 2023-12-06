@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: fern-cohere-aws
+Version: 0.0.8
+Summary: 
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.28.57)
+Requires-Dist: botocore (>=1.31.57)
+Requires-Dist: httpx (>=0.21.2)
+Requires-Dist: pydantic (>=1.9.2,<2.5.0)
+Description-Content-Type: text/markdown
+
+# Cohere Python Library
+
+[![pypi](https://img.shields.io/pypi/v/fern-cohere-aws.svg)](https://pypi.python.org/pypi/fern-cohere-aws)
+[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-SDK%20generated%20by%20Fern-brightgreen)](https://github.com/fern-api/fern)
+
+The CohereAws Python Library provides convenient access to the Cohere API from AWS Bedrock and Sagemaker.
+
+## Installation
+
+```sh
+pip install --upgrade fern-cohere-aws
+```
+
+## Usage
+
+```python
+from cohere_aws.client import CohereAWS
+import cohere_aws
+
+client = CohereAWS(
+  aws_access_key="ey...", # defaults to AWS_ACCESS_KEY
+  aws_secret_key="ey..."  # defaults to AWS_SECRET_KEY
+  aws_region="us-west-1" # defaults to us-east-1
+)
+
+response = client.bedrock.embed(...)
+```
+
+## Async Client
+
+```python
+from cohere_aws.client import AsyncCohereAWS
+
+import asyncio
+
+client = AsyncCohereAWS(
+  aws_access_key="ey...", # defaults to AWS_ACCESS_KEY
+  aws_secret_key="ey..."  # defaults to AWS_SECRET_KEY
+  aws_region="us-west-1" # defaults to us-east-1
+)
+
+async def embed(): 
+  response = client.bedrock.embed(...)
+
+asyncio.run(embed)
+```
+
+# Beta Status
+
+This SDK is in beta, and there may be breaking changes between versions without a major 
+version update. Therefore, we recommend pinning the package version to a specific version. 
+This way, you can install the same version each time without breaking changes.
+
+# Contributing
+
+While we value open-source contributions to this SDK, this library is generated programmatically. 
+Additions made directly to this library would have to be moved over to our generation code, 
+otherwise they would be overwritten upon the next generated release. Feel free to open a PR as
+ a proof of concept, but know that we will not be able to merge it as-is. We suggest opening 
+an issue first to discuss with us!
+
+On the other hand, contributions to the README are always very welcome!
+
