@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: unionai
+Version: 0.0.0b0
+Summary: Adds Union Cloud specific functionality to Flytekit
+Home-page: https://github.com/unionai-oss/unionai
+Author: unionai
+Author-email: oss@union.ai
+License: apache2
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: googleapis-common-protos >=1.57
+Requires-Dist: grpcio
+Requires-Dist: grpcio-status
+Requires-Dist: importlib-metadata
+Requires-Dist: fsspec <=2023.9.2,>=2023.3.0
+Requires-Dist: aiofiles >=23.2.1
+
+# Unionai
+
+The SDK for [Union.ai](https://www.union.ai/).
