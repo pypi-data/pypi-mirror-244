@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: guindex
+Version: 0.0.3
+Summary: A package to retrieve data from the Guindex project.
+Author-email: The Guindex Team <theguindexteam@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 The Guindex Project
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/rmcg123/guindex-py
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# Guindex Package
+This package retrieves data from the Guindex project for various end-uses. 
+The Guindex is a community data-collection project that tracks the price of 
+pints of Guinness in pubs across the Republic of Ireland. More information 
+on the Guindex project is available 
+[here](https://www.guindex.ie).
+
+## Installation
+This package can be installed through `pip install guindex`.
+
+## Quick Start Examples:
+Below are some examples of using the package:
+1. Return a Pandas DataFrame that has all of the pubs from the Guindex 
+   project:
+    ```
+    import guindex
+    
+    pubs_df = guindex.pubs()
+    ```
+2. Return a Pandas DataFrame that has all open pubs from county Wicklow that 
+   have 
+   a price of Guinness submitted:
+    ```
+    import guindex
+    
+    pubs_df = guindex.pubs(county="Wicklow", closed=False, with_prices=True)
+    ```
+3. Return a Pandas DataFrame that has all of the Guinness prices that have 
+   been submitted to the Guindex:
+   ```
+   import guindex
+   
+   pints_df = guindex.pints()
+   ```
