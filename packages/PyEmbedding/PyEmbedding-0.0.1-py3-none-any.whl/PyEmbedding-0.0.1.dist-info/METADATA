@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PyEmbedding
+Version: 0.0.1
+Summary: Effortlessly transform data into meaningful vector representations in Python.
+Author: Kyle Ng
+Author-email: <pyembedding@gmail.com>
+Keywords: python,embedding
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: English
+
+PyEmbedding is a versatile Python package designed to streamline the implementation and utilization of embedding techniques in various applications. Whether you're working with natural language processing, computer vision, or any domain that involves transforming data into meaningful vector representations, PyEmbedding provides a user-friendly interface and a robust set of tools.
