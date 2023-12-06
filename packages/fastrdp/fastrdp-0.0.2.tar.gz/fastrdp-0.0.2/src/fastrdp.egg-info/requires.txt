@@ -1,0 +1,11 @@
+numpy>=1.20
+
+[dev]
+build
+pytest
+wheel
+
+[docs]
+jupyter
+matplotlib
+rdp
