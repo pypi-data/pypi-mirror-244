@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dataengineeringfunctions"
+version = "0.1.0"
+description = "This package contains functions commonly used in data engineering tasks."
+authors = ["Rokas Klydzia"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
