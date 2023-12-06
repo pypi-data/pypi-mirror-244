@@ -1,0 +1,14 @@
+json_relational/__init__.py,sha256=z0c4x1BIwcjVHG7S-krom0AzV3CKVNj8vVx34f-1MtA,89
+json_relational/flatten_strategies.py,sha256=7m2fADx-zpH81lFoZtA5X50GggTVfCY9HtyiulWfyT8,1618
+json_relational/main.py,sha256=KkU-VFa2LgRY5Bd1ntSYIJpWlFFZQiZlZb9lJHPDdgI,2953
+json_relational/models.py,sha256=eoyPc-psTvncM7RUHsDX5Mq0iIJmQeN4v6cbI0UYJKw,2158
+json_relational/protocols.py,sha256=3xk5-w8J-vheqcdlWDgCiVu1mjduO7-Tvprzw_Dn3LI,507
+json_relational/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_relational/src/flatten_strategies.py,sha256=XtNv7BgsvLSA3m60rQHVO04KM9Yi-xfRKCsVp_IhL1o,1622
+json_relational/src/main.py,sha256=5odDYcWl3xB5AKHZIJchf7VT39BvWX895ZCebcPZQtI,3402
+json_relational/src/models.py,sha256=eoyPc-psTvncM7RUHsDX5Mq0iIJmQeN4v6cbI0UYJKw,2158
+json_relational/src/protocols.py,sha256=yJt3-YmADWPMSERrpVG83IGSDMIq4UKHBvNkVFUn9EM,511
+json_relational-0.0.1.dist-info/METADATA,sha256=yZWsaJU84oOe-XPG5zK7Zlw98bzLj4KFzyR6gsVcVYw,2987
+json_relational-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+json_relational-0.0.1.dist-info/top_level.txt,sha256=5qzUwmWFH5NeATZ7ON79zAkIbjn-Qu762WxazHpBA7c,16
+json_relational-0.0.1.dist-info/RECORD,,
