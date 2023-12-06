@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+jsondbase/__init__.py
+jsondbase/database.py
+jsondbase.egg-info/PKG-INFO
+jsondbase.egg-info/SOURCES.txt
+jsondbase.egg-info/dependency_links.txt
+jsondbase.egg-info/top_level.txt
