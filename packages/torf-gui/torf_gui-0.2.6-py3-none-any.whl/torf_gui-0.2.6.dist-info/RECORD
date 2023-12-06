@@ -1,0 +1,11 @@
+torf_gui/__init__.py,sha256=8COw98WoDRKEKlFAQMHu5ztaeJfJdZGSbwWk9tsrGWM,111
+torf_gui/gui.py,sha256=EkXb0IwK5SOq2VWBNkN8ySX37fCNuhwLR8__PkD097c,25354
+torf_gui/ui_about.py,sha256=pZj60NOvkl5GBDBZgoDFSpWOE5pgH4mnEq5YShNEqPU,5536
+torf_gui/ui_mainwindow.py,sha256=b10NgW_q3WHchGXgx3pZ4CxexPGnfAJK--yg2NpNWNw,22855
+torf_gui/version.py,sha256=Oz5HbwHMyE87nmwV80AZzpkJPf-wBg7eDuJr_BXZkhU,22
+torf_gui-0.2.6.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+torf_gui-0.2.6.dist-info/METADATA,sha256=SNRqmFReQVQqCtQ9H2E02lanHyVrL1Fopmf_MxuidnI,3668
+torf_gui-0.2.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+torf_gui-0.2.6.dist-info/entry_points.txt,sha256=i19hC9lqtHLX3qHyH_6ohR8u0IWZxOJeFFnosoXx5F4,43
+torf_gui-0.2.6.dist-info/top_level.txt,sha256=OO-7DLOhPQK6OfmUFoFKJIai2NQsFLBah1zVALIfQco,9
+torf_gui-0.2.6.dist-info/RECORD,,
