@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+falahgsauto.egg-info/PKG-INFO
+falahgsauto.egg-info/SOURCES.txt
+falahgsauto.egg-info/dependency_links.txt
+falahgsauto.egg-info/requires.txt
+falahgsauto.egg-info/top_level.txt
