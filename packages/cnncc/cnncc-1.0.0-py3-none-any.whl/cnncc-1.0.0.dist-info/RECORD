@@ -1,0 +1,14 @@
+cnncc/__init__.py,sha256=Cq0fvHA5bVGbbqgI4q5nepanRtBjqr5eY34mG51GPrs,111
+cnncc/main.py,sha256=YEkLY6PucAoj9_FdmBgSkTZBM47Y6IpJtPV0Pp6veBs,743
+cnncc/utils.py,sha256=UrtbdGGtXmycKXmEmWeiRUtwCoE_l-1SA_58sEZXXfo,1286
+cnncc/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cnncc/models/paper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cnncc/models/resnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cnncc/models/resnet/model.py,sha256=CXzLIMUHEseVeDIY_5uystoXHaT_BIs_Ks8M_tIYdLo,4739
+cnncc/models/resnet/model1.pt,sha256=wo3QdCiQyXoTiqfCP8KH9bxe2O3Za-CA9y9tTtwirCs,2876706
+cnncc/models/resnet/model1_state.pth,sha256=0ySSHnAyq2gGrtGwDU1hki2iUfKhQbYVRTSjOKbWFnE,2853906
+cnncc-1.0.0.dist-info/METADATA,sha256=wuolaNbqcfvmws44ZZVBX1G9Q0HF3v_j1hLXa8_MAlY,410
+cnncc-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cnncc-1.0.0.dist-info/entry_points.txt,sha256=ajNtP-roHtGVt6KGjnDhNAa1dd40VGXspHrpdwFoZVM,62
+cnncc-1.0.0.dist-info/top_level.txt,sha256=UnOaJhY_gI1j_NzxAtKomFw0ylU0Qfbe1QQESMU53rg,6
+cnncc-1.0.0.dist-info/RECORD,,
