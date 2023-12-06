@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/create.py
+mypackage/labels.py
+mypackage/upload.py
+mypackage_falahgs.egg-info/PKG-INFO
+mypackage_falahgs.egg-info/SOURCES.txt
+mypackage_falahgs.egg-info/dependency_links.txt
+mypackage_falahgs.egg-info/requires.txt
+mypackage_falahgs.egg-info/top_level.txt
