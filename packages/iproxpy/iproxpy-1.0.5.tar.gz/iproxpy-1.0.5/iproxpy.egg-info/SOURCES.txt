@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+iproxpy.egg-info/PKG-INFO
+iproxpy.egg-info/SOURCES.txt
+iproxpy.egg-info/dependency_links.txt
+iproxpy.egg-info/requires.txt
+iproxpy.egg-info/top_level.txt
