@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: inter-api-connector
+Version: 0.1.0
+Summary: Um conector não oficial para API do Banco Inter.
+Home-page: https://github.com/LuizDMM/api-inter-python-connector
+Author: LuizDMM
+Author-email: luizdmmainart@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Office/Business :: Financial
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Provides-Extra: dev
+Requires-Dist: build >=1.0.3 ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+
+# api-inter-python-connector
+Um conector não oficial para a API do Banco Inter
