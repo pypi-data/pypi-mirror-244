@@ -1,0 +1,11 @@
+VASP2KP/__init__.py,sha256=HDPWmgixcsjDmSVqcImx4qVhyioQvFlsilwW7CYC61k,676
+VASP2KP/_get_kp_Zeeman.py,sha256=ovP-qFtMIVqnc65CQ0Wdhkf9V8KQ2cUUn8knlq-g-k8,30147
+VASP2KP/_numeric_kp.py,sha256=dlm1ObhScFWt8TeWOWK2poE0lR83zn_nuzvO1a2puK8,61690
+VASP2KP/_read_data.py,sha256=3q0S0an49mnwh7Y99zWPZ28f2NPcQWsVKUuY8rlt4y8,19910
+VASP2KP/_standard_kp.py,sha256=Q9E-rm1Ln1HLjKLGGLhjJ62cr0IDfJdSJ3whODxNe8U,90055
+VASP2KP/_transform_matrix.py,sha256=Kv71TtDbGouiztGm00WPn0Pw36cfJo3Scd85RBzLVwk,24467
+VASP2KP-1.0.1.dist-info/LICENSE.txt,sha256=qfnI7VL3okQbRI6Q0KWKujAMFxGGz__yXbfe2b_yTLo,35145
+VASP2KP-1.0.1.dist-info/METADATA,sha256=BnPnt4uMZo3v2U4sCBo2wY53Q8Adh0QSEOrZL3BXwnA,1205
+VASP2KP-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+VASP2KP-1.0.1.dist-info/top_level.txt,sha256=HLrRoheMn9u4IgbVHmBBjD50Ipdr2ET9cBWn4L4v2Cc,8
+VASP2KP-1.0.1.dist-info/RECORD,,
