@@ -1,0 +1,12 @@
+signature_mahalanobis_knn/__init__.py,sha256=pyxcXo0ZUZO-DTczbVi_S1DzcAqAQBN3zS0Os8-bbAc,435
+signature_mahalanobis_knn/mahal_distance.py,sha256=-8ZPpvJPe82Hvbqije7B8KNWF4MEedcx9-xDNg7LILo,4430
+signature_mahalanobis_knn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signature_mahalanobis_knn/sig_mahal_knn.py,sha256=e-oyfxuIAnCfbd4L6VL-EPuBH6jb20BMxl03C31Dt4I,11285
+signature_mahalanobis_knn/utils.py,sha256=DcvY_kNG8s79pIX02m-UU7upO_2wZ6l5lpAhFmIaPSs,12051
+signature_mahalanobis_knn/baselines/isolation_forest.py,sha256=PMrL1G9VYLf7yw3tDi9dDIlLK4BemgeaCWiMfWKQENg,4530
+signature_mahalanobis_knn/baselines/local_outlier_factor.py,sha256=NF8pG-2aSYxSY9cJIYESnKXu2uk6VqQO0WRbfg9QvGI,4596
+signature_mahalanobis_knn/baselines/utils.py,sha256=W6VybLpCHKV1VFExjFMGQoEM-dL64ZOzvW3c5Wv7JCE,4645
+signature_mahalanobis_knn-0.1.0.dist-info/METADATA,sha256=nxTQch447wnXdFlrlqM5dxQxuD44JfDmt-GEC32brSg,7792
+signature_mahalanobis_knn-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+signature_mahalanobis_knn-0.1.0.dist-info/licenses/LICENSE,sha256=tkoxc1fW00noiOzOOt2w3ZUqHRvEhF8ody7G87-rLGI,1069
+signature_mahalanobis_knn-0.1.0.dist-info/RECORD,,
