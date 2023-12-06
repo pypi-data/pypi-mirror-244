@@ -1,0 +1,84 @@
+name: run-template
+container:
+  <% if HAS_ENV_SECRETS %>
+  envFrom:
+    <% for ENV_SECRET in ENV_SECRETS %>
+    - secretRef:
+        name: << ENV_SECRET.name >>
+    <% endfor %>
+  <% endif %>
+  args:
+  - |-
+    set -e;
+    echo Step-Pod: "{{pod.name}}";
+
+    {{inputs.parameters.PRE_COMMAND}};
+
+    function copy_artifacts {
+      mkdir -p /tmp/output/;
+
+      outPath=<<APP_OUTPUT_PATH>>
+      if [ -d "$outPath" ]; then
+        cp -r $outPath/* /tmp/output/;
+      else
+        echo Output path: $outPath did not exist.
+      fi
+    }
+
+    trap 'copy_artifacts; exit 1;' ERR;
+
+    path="<<APP_INPUT_PATH>>";
+    if [ -d "$path" ]; then
+      echo "The path exists."
+    else
+      echo "The path does not exist. Creating the path now..."
+      mkdir -p "$path"
+
+      if [ $? -eq 0 ]; then
+        echo "Path successfully created."
+      else
+        echo "Failed to create path."
+      fi
+    fi;
+
+    echo {{inputs.parameters.JOB_PARAMETERS}} > $path/param.json;
+    {{inputs.parameters.COMMAND}};
+
+    copy_artifacts;
+
+    {{inputs.parameters.POST_COMMAND}};
+  command:
+  - /bin/bash
+  - -c
+  image: '{{inputs.parameters.IMAGE}}'
+podSpecPatch: '{"containers":[{"name":"main", "resources":{"limits":{"cpu": "{{inputs.parameters.CPU}}",
+  "memory": "{{inputs.parameters.MEMORY}}" }}}]}'
+inputs:
+  parameters:
+  - name: JOB_PARAMETERS
+  - name: IMAGE
+  - name: MEMORY
+  - name: CPU
+  - name: COMMAND
+  - name: PRE_COMMAND
+  - name: POST_COMMAND
+  <% for i in range(MAX_NUM) %>
+  - name: dep-art-loc-<<i + 1>>
+    default: no-location
+  <% endfor %>
+  artifacts:
+  - name: input-files
+    path: /app/input/
+    optional: true
+  <% for i in range(MAX_NUM) %>
+  - name: dep-art-<<i + 1>>
+    optional: true
+    path: <<APP_INPUT_PATH>>/{{inputs.parameters.dep-art-loc-<<i + 1>>}}/
+  <% endfor %>
+outputs:
+  artifacts:
+  - name: output-files
+    path: /tmp/output/
+  parameters:
+  - name: pod-name
+    value: '{{pod.name}}'

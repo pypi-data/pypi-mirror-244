@@ -1,0 +1,48 @@
+name: <<TEMPLATE_NAME>>
+container:
+  <% if HAS_SECRET %>
+  volumeMounts:
+  - name: <<SECRET_NAME>>
+    mountPath: /etc/storage-auth
+  <% endif %>
+  args:
+  - |-
+    set -e;
+    trap 'copy_logs; exit 1;' ERR;
+    <% if STORAGE_TYPE == STORAGE_ENUM.FIREBASE_STORAGE %>
+    function copy_logs {
+      <% if HAS_SECRET %>gcloud auth activate-service-account --key-file=/etc/storage-auth/<<SECRET_KEY>>;<% endif %>
+      gsutil -m cp -r /var/run/argo/ctr/main/combined {{inputs.parameters.upload-base-path}}/{{workflow.name}}/{{pod.name}}/main.log
+    };
+    <% if HAS_SECRET %>gcloud auth activate-service-account --key-file=/etc/storage-auth/<<SECRET_KEY>>;<% endif %>
+    gsutil -m cp -r /tmp/output/** {{inputs.parameters.upload-base-path}}/{{workflow.name}}/{{inputs.parameters.pod-name}};
+    <% if RUN_LOGGING %>gsutil -m cp -r /tmp/log/main.log {{inputs.parameters.upload-base-path}}/{{workflow.name}}/{{inputs.parameters.pod-name}}/main.log;<% endif %>
+    <% endif %>
+
+    <% if STORAGE_TYPE == STORAGE_ENUM.MINIO %>
+    function copy_logs {
+      aws s3 cp /var/run/argo/ctr/main/combined {{inputs.parameters.upload-base-path}}/{{workflow.name}}/{{pod.name}}/main.log
+    };
+    aws s3 cp /tmp/output/ {{inputs.parameters.upload-base-path}}/{{workflow.name}}/{{inputs.parameters.pod-name}}/ --recursive;
+    <% if RUN_LOGGING %>aws s3 cp /tmp/log/main.log {{inputs.parameters.upload-base-path}}/{{workflow.name}}/{{inputs.parameters.pod-name}}/main.log;<% endif %>
+    <% endif %>
+
+    <% if UPLOAD_LOGGING %>copy_logs;<% endif %>
+  command:
+  - /bin/bash
+  - -c
+  image: << CLOUD_BASE_IMAGE >>
+inputs:
+  artifacts:
+  - name: output-files
+    path: /tmp/output/
+    <% if RUN_LOGGING %>
+  - name: main-logs
+    s3:
+      key: '{{workflow.name}}/{{inputs.parameters.pod-name}}/main.log'
+    path: /tmp/log/main.log
+    <% endif %>
+  parameters:
+  - name: pod-name
+  - name: task-name
+  - name: upload-base-path

@@ -1,0 +1,51 @@
+name: upload-template
+container:
+  <% if HAS_SECRET %>
+  volumeMounts:
+  - name: <<SECRET_NAME>>
+    mountPath: /etc/storage-auth
+  <% endif %>
+  args:
+  - |-
+    set -e;
+    trap 'copy_logs; exit 1;' ERR;
+    <% if STORAGE_TYPE == STORAGE_ENUM.FIREBASE_STORAGE %>
+    function copy_logs {
+      <% if HAS_SECRET %>gcloud auth activate-service-account --key-file=/etc/storage-auth/<<SECRET_KEY>>;<% endif %>
+      gsutil -m cp -r /var/run/argo/ctr/main/combined <<JOBS[0].UPLOAD_BASE_PATH>>/{{workflow.name}}/{{pod.name}}/main.log;
+    };
+    <% if HAS_SECRET %>gcloud auth activate-service-account --key-file=/etc/storage-auth/<<SECRET_KEY>>;<% endif %>
+    <% for JOB in JOBS %>
+    gsutil -m cp -r /tmp/output-<<JOB.ID>>/** <<JOB.UPLOAD_BASE_PATH>>/{{workflow.name}}/{{inputs.parameters.<<JOB.TAR_PATH>>}};
+    <% if RUN_LOGGING %>gsutil -m cp -r /tmp/log-<<JOB.ID>>/main.log <<JOB.UPLOAD_BASE_PATH>>/{{workflow.name}}/{{inputs.parameters.<<JOB.TAR_PATH>>}}/main.log;<% endif %><% endfor %>
+    <% endif %>
+
+    <% if STORAGE_TYPE == STORAGE_ENUM.MINIO %>
+    function copy_logs {
+      aws s3 cp /var/run/argo/ctr/main/combined <<JOBS[0].UPLOAD_BASE_PATH>>/{{workflow.name}}/{{pod.name}}/main.log;
+    };
+    <% for JOB in JOBS %>
+    aws s3 cp /tmp/output-<<JOB.ID>>/ <<JOB.UPLOAD_BASE_PATH>>/{{workflow.name}}/{{inputs.parameters.<<JOB.TAR_PATH>>}}/ --recursive;
+    <% if RUN_LOGGING %>aws s3 cp /tmp/log-<<JOB.ID>>/main.log <<JOB.UPLOAD_BASE_PATH>>/{{workflow.name}}/{{inputs.parameters.<<JOB.TAR_PATH>>}}/main.log;<% endif %><% endfor %>
+    <% endif %>
+    <% if UPLOAD_LOGGING %>copy_logs;<% endif %>
+  command:
+  - /bin/bash
+  - -c
+  image: << CLOUD_BASE_IMAGE >>
+inputs:
+  artifacts:
+  <% for JOB in JOBS %>
+  - name: output-files-<<JOB.ID>>
+    path: /tmp/output-<<JOB.ID>>/
+    <% if RUN_LOGGING %>
+  - name: main-logs-<<JOB.ID>>
+    s3:
+      key: '{{workflow.name}}/{{inputs.parameters.<<JOB.TAR_PATH>>}}/main.log'
+    path: /tmp/log-<<JOB.ID>>/main.log
+    <% endif %>
+  <% endfor %>
+  parameters:
+  <% for JOB in JOBS %>
+  - name: pod-name-<<JOB.ID>>
+  <% endfor %>
