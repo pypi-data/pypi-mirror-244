@@ -1,0 +1,11 @@
+pykdgrav3_utils/__init__.py,sha256=C7mRQnPGLslCGDgaf7onE4XvvXtGsRf-8Z7evqQrtGk,182
+pykdgrav3_utils/fofstat.py,sha256=OvT8nAgLe4ID8kay27AvMKe73GOqodTAxkW0D2W10_A,2198
+pykdgrav3_utils/hdf5.py,sha256=RJLjBTT331D3HIFmeuW6bS54Sfo8_x9BeNO6MCEnN84,7034
+pykdgrav3_utils/ic.py,sha256=1DKizQoNjBSYU10-mnqZvYXdB4TA8aZa2yqnWqF8jto,15531
+pykdgrav3_utils/timings.py,sha256=k57x_RKGG1G1dWIqQ1S5whgPa0ZQapSvccKSTDhr7r4,5146
+pykdgrav3_utils/tipsy.py,sha256=iTXxb7pUapZ6pMiNSDeA5fPrtC-WPp_6OKzx07ERmEg,2397
+pykdgrav3_utils/units.py,sha256=GXPVG-h_7I1iaJhNBbwyo7PhbDc12k12W0stiGtnpj0,3376
+pykdgrav3_utils-0.1.1.dist-info/LICENSE,sha256=6rOQ-lQ8Omf-UGm_Ny-x91j2JOzTrUj4hOJbs1oFCIY,1081
+pykdgrav3_utils-0.1.1.dist-info/METADATA,sha256=WZd6Sp3qpbz_ywvh-j7z3v-cglbOkgA-8qz2LtHiEkE,1361
+pykdgrav3_utils-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pykdgrav3_utils-0.1.1.dist-info/RECORD,,
