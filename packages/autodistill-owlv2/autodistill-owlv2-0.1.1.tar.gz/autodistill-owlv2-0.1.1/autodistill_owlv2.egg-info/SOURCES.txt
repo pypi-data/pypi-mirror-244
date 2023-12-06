@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_owlv2/__init__.py
+autodistill_owlv2/owlv2_model.py
+autodistill_owlv2.egg-info/PKG-INFO
+autodistill_owlv2.egg-info/SOURCES.txt
+autodistill_owlv2.egg-info/dependency_links.txt
+autodistill_owlv2.egg-info/requires.txt
+autodistill_owlv2.egg-info/top_level.txt
