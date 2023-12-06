@@ -1,0 +1,9 @@
+combocurve-api-v1
+more-itertools
+requests
+typing-extensions
+
+[dev]
+flake8>=6.1.0
+flake8-pyproject>=1.2.3
+mypy>=1.7.0
