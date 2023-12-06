@@ -1,0 +1,2 @@
+[console_scripts]
+aitestcraft = aitestcraft.main:generate_test
