@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+ichor.egg-info/PKG-INFO
+ichor.egg-info/SOURCES.txt
+ichor.egg-info/dependency_links.txt
+ichor.egg-info/top_level.txt
+ichor/files/__init__.py
+ichor/files/pdb_file.py
+ichor/files/xyz.py
