@@ -1,0 +1,19 @@
+[project]
+name = "robocraft"
+version = "1.0.2"
+authors = [
+  { name="Artem Robocodovich", email="garo109696@gmail.com" },
+  { name="Neumond", email="cacapic@aboba.com" },
+]
+description = "Code ComputerCraft with Python! Module fixed by Artem."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/neumond/python-computer-craft"
+Issues = "https://github.com/neumond/python-computer-craft"
