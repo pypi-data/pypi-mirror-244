@@ -1,0 +1,8 @@
+gdal[numpy]==3.7.2.*
+numpy
+scipy
+elevation
+pyproj
+tqdm
+rasterio
+mpi4py
