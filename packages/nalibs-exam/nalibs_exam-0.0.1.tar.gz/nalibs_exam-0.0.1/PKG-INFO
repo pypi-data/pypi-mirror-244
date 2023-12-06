@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nalibs_exam
+Version: 0.0.1
+Summary: qana - tiny package - nalibs-example
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Ron <naq0310@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# nalibs-example
