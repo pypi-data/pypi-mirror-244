@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+test.py
+pypibasic/__init__.py
+pypibasic/arithmetic.py
+testsimpleproject.egg-info/PKG-INFO
+testsimpleproject.egg-info/SOURCES.txt
+testsimpleproject.egg-info/dependency_links.txt
+testsimpleproject.egg-info/top_level.txt
