@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/upright/__init__.py
+src/upright/upright.py
+src/upright/upright_utils/fiducials.py
+src/upright/upright_utils/geometry.py
+src/upright/upright_utils/query.py
+src/upright_nhp.egg-info/PKG-INFO
+src/upright_nhp.egg-info/SOURCES.txt
+src/upright_nhp.egg-info/dependency_links.txt
+src/upright_nhp.egg-info/requires.txt
+src/upright_nhp.egg-info/top_level.txt
