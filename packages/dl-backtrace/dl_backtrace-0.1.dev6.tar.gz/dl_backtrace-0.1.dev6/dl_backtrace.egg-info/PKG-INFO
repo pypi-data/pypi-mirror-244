@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: dl-backtrace
+Version: 0.1.dev6
+Summary: Add description here...
+Home-page: https://xai.arya.ai/docs/introduction
+License: MIT
+Keywords: aryaxai,ML observability
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py==0.13.0
+Requires-Dist: appdirs==1.4.4
+Requires-Dist: astunparse==1.6.3
+Requires-Dist: azure-functions==1.7.2
+Requires-Dist: black==21.6b0
+Requires-Dist: cachetools==4.2.2
+Requires-Dist: Cerberus==1.3.4
+Requires-Dist: certifi==2021.5.30
+Requires-Dist: chardet==4.0.0
+Requires-Dist: click==8.0.1
+Requires-Dist: flatbuffers==1.12
+Requires-Dist: gast==0.4.0
+Requires-Dist: google-auth==1.32.0
+Requires-Dist: google-auth-oauthlib==0.4.4
+Requires-Dist: google-pasta==0.2.0
+Requires-Dist: grpcio==1.34.1
+Requires-Dist: h5py==3.1.0
+Requires-Dist: idna==2.10
+Requires-Dist: Keras==2.4.3
+Requires-Dist: keras-nightly==2.5.0.dev2021032900
+Requires-Dist: Keras-Preprocessing==1.1.2
+Requires-Dist: Markdown==3.3.4
+Requires-Dist: mypy-extensions==0.4.3
+Requires-Dist: numpy==1.19.5
+Requires-Dist: oauthlib==3.1.1
+Requires-Dist: opt-einsum==3.3.0
+Requires-Dist: pathspec==0.8.1
+Requires-Dist: protobuf==3.17.3
+Requires-Dist: pyasn1==0.4.8
+Requires-Dist: pyasn1-modules==0.2.8
+Requires-Dist: PyYAML==5.4.1
+Requires-Dist: regex==2021.4.4
+Requires-Dist: requests==2.25.1
+Requires-Dist: requests-oauthlib==1.3.0
+Requires-Dist: rsa==4.7.2
+Requires-Dist: scipy==1.7.0
+Requires-Dist: six==1.15.0
+Requires-Dist: tensorboard==2.5.0
+Requires-Dist: tensorboard-data-server==0.6.1
+Requires-Dist: tensorboard-plugin-wit==1.8.0
+Requires-Dist: tensorflow==2.5.0
+Requires-Dist: tensorflow-estimator==2.5.0
+Requires-Dist: termcolor==1.1.0
+Requires-Dist: toml==0.10.2
+Requires-Dist: typing-extensions==3.7.4.3
+Requires-Dist: urllib3==1.26.5
+Requires-Dist: Werkzeug==2.0.1
+Requires-Dist: wrapt==1.12.1
+
+# AryaXai-Backtrace
+Backtrace module for Generating Explainability on Deep learning models
+
+# Backtrace Module
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+## Overview
+
+The Backtrace Module is a powerful and patent-pending algorithm developed by AryaXAI for enhancing the explainability of AI models, particularly in the context of complex techniques like deep learning.
+
+## Features
+
+- **Explainability:** Gain deep insights into your AI models by using the Backtrace algorithm, providing multiple explanations for their decisions.
+
+- **Consistency:** Ensure consistent and accurate explanations across different scenarios and use cases.
+
+- **Mission-Critical Support:** Tailored for mission-critical AI use cases where transparency is paramount.
+
+## Installation
+
+To integrate the Backtrace Module into your project, follow these simple steps:
+
+For more detailed examples and use cases, check out our documentation.
+
+## Getting Started
+If you are new to Backtrace, head over to our Getting Started Guide to quickly set up and use the module in your projects.
+
+## Contributing
+We welcome contributions from the community. To contribute, please follow our Contribution Guidelines.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For any inquiries or support, please contact AryaXAI Support.
