@@ -1,0 +1,34 @@
+GitPython
+jinja2
+more-itertools
+ruamel.yaml
+typer>=0.9.0
+
+[:python_version < "3.10"]
+typing_extensions
+
+[:python_version < "3.8"]
+backports.cached-property
+
+[dev]
+bump-my-version
+generate-changelog
+git-fame>=1.12.2
+
+[docs]
+furo
+ghp-import
+linkify-it-py
+myst-parser
+Sphinx
+sphinx-autodoc-typehints
+sphinx-click
+sphinx-copybutton
+
+[test]
+coverage[toml]
+faker
+pre-commit
+pytest
+pytest-cov
+pytest-mock
