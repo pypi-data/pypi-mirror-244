@@ -1,0 +1,56 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "aoc-toolbox"
+description = "A suite of convenience tools designed to solve AoC challenges and parse input data easily"
+version = "2023.12.05.2"
+require-python = ">=3.11"
+authors = []
+keywords = [
+    "AoC",
+    "Utilitaries",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://adventofcode.com"
+
+[tool.pdm]
+ignore_package_warnings = [
+    "pdm-backend",
+]
+
+[tool.pdm.build]
+package-dir = "src"
+includes = [
+    "src/aoc_toolbox",
+]
+source-includes = [
+    "tests",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "tox.ini",
+]
+
+[tool.pdm.scripts]
+test = "pytest"
+lint = "pre-commit run --all-files"
+
+[tool.pdm.scripts.coverage]
+shell = "pytest --verbosity=3 --cov=src/pdm --cov-branch --cov-report term-missing tests/\n                    "
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+minversion = "7.0"
+addopts = "--import-mode=importlib"
