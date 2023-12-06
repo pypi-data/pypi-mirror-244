@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rdafn/__init__.py
+rdafn/analyze.py
+rdafn/load.py
+rdafn.egg-info/PKG-INFO
+rdafn.egg-info/SOURCES.txt
+rdafn.egg-info/dependency_links.txt
+rdafn.egg-info/not-zip-safe
+rdafn.egg-info/requires.txt
+rdafn.egg-info/top_level.txt
+test/test_scorecard.py
