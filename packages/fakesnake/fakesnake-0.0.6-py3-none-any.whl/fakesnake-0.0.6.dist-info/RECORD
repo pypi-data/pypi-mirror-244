@@ -1,0 +1,13 @@
+fakesnake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fakesnake/creation.py,sha256=4Cvhr1M5D4mCcJ5e7lbpoB2f27chOT2cEaewmqtylIo,3790
+fakesnake/main.py,sha256=cHilBxKn5sbjkJXe1521pqzU40-Je6dvC6L7UTnLePs,3236
+fakesnake/setting.py,sha256=bI7-UTWIm6B8NKfjr_5WJLOeF9_cFym4aMWUZh029n8,1016
+state/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+state/data.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+state/database.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fakesnake-0.0.6.dist-info/LICENSE,sha256=rmhmJ_ZGt4xbq7D0vROWVFCx1nyEvkX6nIyJAnHeYG0,35151
+fakesnake-0.0.6.dist-info/METADATA,sha256=lIKmQM0nchUPPTJef8iPH5cI1nbiQRoUVOJZ7PSGgIs,1537
+fakesnake-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fakesnake-0.0.6.dist-info/entry_points.txt,sha256=JValIwT3VUjg37H5pabVEWFFCD-ux6Zw-eLOgWNeILM,46
+fakesnake-0.0.6.dist-info/top_level.txt,sha256=9-LLJBtYeX6OlrZIfskLM8vpaa3GMsWFu3axoz2afTc,10
+fakesnake-0.0.6.dist-info/RECORD,,
