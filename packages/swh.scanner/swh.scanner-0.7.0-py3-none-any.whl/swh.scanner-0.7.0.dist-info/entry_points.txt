@@ -1,0 +1,2 @@
+[swh.cli.subcommands]
+swh.scanner = swh.scanner.cli
