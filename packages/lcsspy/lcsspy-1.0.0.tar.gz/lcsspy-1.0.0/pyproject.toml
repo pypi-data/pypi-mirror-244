@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lcsspy"
+version = "1.0.0"
+dependencies = [
+  "numpy >= 1.26.1",
+  "pandas >= 2.1.2",
+  "matplotlib >= 3.8.0"
+]
+authors = [
+  { name="Francesco Lafratta", email="fl.novacta@outlook.com" },
+]
+maintainers = [
+  {name = "Francesco Lafratta", email = "fl.novacta@outlook.com"}
+]
+description = "Longest Common Subsequence (LCSS) computation to measure similarity for time series."
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["lcss", "lcsspy", "similarity", "time series"]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+tests = ["pytest >= 7.4.3"]
+
+[project.urls]
+Homepage = "https://github.com/francescolafratta/lcsspy"
+Documentation = "https://francescolafratta.github.io/lcsspy/"
+Issues = "https://github.com/francescolafratta/lcsspy/issues"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[tool.black]
+target-version = ["py39", "py310", "py311", "py312"]
+
+[tool.isort]
+profile = "black"
