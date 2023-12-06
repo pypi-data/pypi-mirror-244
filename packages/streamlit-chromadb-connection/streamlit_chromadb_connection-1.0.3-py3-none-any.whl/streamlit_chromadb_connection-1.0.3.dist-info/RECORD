@@ -1,0 +1,7 @@
+streamlit_chromadb_connection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamlit_chromadb_connection/chromadb_connection.py,sha256=-YE389EqBwY9s2SIZLW1KUuolVzUgn3KN4OQYTxOSBA,10176
+streamlit_chromadb_connection-1.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+streamlit_chromadb_connection-1.0.3.dist-info/METADATA,sha256=RmJ_g8lGjrsdJjQnPwT78yRLE_bG3A5Mg7UC3mToTk0,11706
+streamlit_chromadb_connection-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+streamlit_chromadb_connection-1.0.3.dist-info/top_level.txt,sha256=brZjkd0qNAxUgDl6Td4mWAs5we2QTcHhTtNZxPHm8_Y,30
+streamlit_chromadb_connection-1.0.3.dist-info/RECORD,,
