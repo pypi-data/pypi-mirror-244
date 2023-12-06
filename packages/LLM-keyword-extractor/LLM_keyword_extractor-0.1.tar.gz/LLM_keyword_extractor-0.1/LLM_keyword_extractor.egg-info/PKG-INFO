@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: LLM-keyword-extractor
+Version: 0.1
+Summary: This is a python package to extract keywords from a given text using LLMs
+Author: Sandeep Chataut
+Author-email: sandeepkesh52@gmail.com
