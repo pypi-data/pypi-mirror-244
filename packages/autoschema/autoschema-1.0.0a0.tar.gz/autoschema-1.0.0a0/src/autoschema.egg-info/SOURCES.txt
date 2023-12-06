@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/autoschema/__init__.py
+src/autoschema/py.typed
+src/autoschema.egg-info/PKG-INFO
+src/autoschema.egg-info/SOURCES.txt
+src/autoschema.egg-info/dependency_links.txt
+src/autoschema.egg-info/requires.txt
+src/autoschema.egg-info/top_level.txt
+tests/test_import.py
