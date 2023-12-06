@@ -1,0 +1,8 @@
+README.md
+setup.py
+calcaraj/__init__.py
+calcaraj/basicCalc.py
+calcaraj.egg-info/PKG-INFO
+calcaraj.egg-info/SOURCES.txt
+calcaraj.egg-info/dependency_links.txt
+calcaraj.egg-info/top_level.txt
