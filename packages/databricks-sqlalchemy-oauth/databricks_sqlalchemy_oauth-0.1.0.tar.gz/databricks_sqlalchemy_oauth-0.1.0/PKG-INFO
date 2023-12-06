@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: databricks-sqlalchemy-oauth
+Version: 0.1.0
+Summary: SQLAlchemy OAuth connector to Databricks
+License: MIT
+Author: Simona Barankova
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: databricks-sdk (>=0.13.0,<0.14.0)
+Requires-Dist: databricks-sql-connector (>=3.0.0,<4.0.0)
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Databricks SQLAlchemy OAuth
+
+- To create SQLalchemy engine or session dynamically, using OAuth access tokens from Databricks.
