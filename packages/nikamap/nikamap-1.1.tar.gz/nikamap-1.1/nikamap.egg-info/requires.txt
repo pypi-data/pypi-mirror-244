@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+astropy>5.3
+photutils>=1.9
+scikit_image
+powspec
