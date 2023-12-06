@@ -1,0 +1,2 @@
+[console_scripts]
+widsindex = webdataset.wids.wids_index:main
