@@ -1,0 +1,6 @@
+setup.py
+PyEmbedding.egg-info/PKG-INFO
+PyEmbedding.egg-info/SOURCES.txt
+PyEmbedding.egg-info/dependency_links.txt
+PyEmbedding.egg-info/top_level.txt
+extras/__init__.py
