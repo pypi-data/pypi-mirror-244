@@ -1,0 +1,15 @@
+{
+    "config": {
+        "abort": {
+            "already_configured_device": "\u012erenginys jau sukonfig\u016bruotas",
+            "already_configured_local_device": "Vietinis \u012frenginys (-iai) jau sukonfig\u016bruotas. Prie\u0161 konfig\u016bruodami debesies \u012frengin\u012f, pirmiausia pa\u0161alinkite juos.",
+            "cannot_connect": "Nepavyko prisijungti",
+            "invalid_mdns": "Nepalaikomas Smappee integravimo \u012frenginys.",
+            "no_url_available": "N\u0117ra URL. Nor\u0117dami gauti informacijos apie \u0161i\u0105 klaid\u0105, [\u017er. pagalbos skyri\u0173]( {docs_url} )",
+            "oauth_error": "Gauti neteisingi prieigos rakto duomenys.",
+            "oauth_failed": "Klaida gaunant prieigos rakt\u0105.",
+            "oauth_timeout": "Baig\u0117si skirtasis OAuth prieigos raktas.",
+            "oauth_unauthorized": "OAuth prieigos teis\u0117s klaida gaunant prieigos rakt\u0105."
+        }
+    }
+}
