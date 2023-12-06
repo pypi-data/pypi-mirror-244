@@ -1,0 +1,7 @@
+autodistill_segment_anything/__init__.py,sha256=FTQZ6xap_4vOU7YdBWYVDg38QURixTh-4cJ5rR_gGzU,90
+autodistill_segment_anything/sam_model.py,sha256=F2aB8V6R5X1cZ2jXzT7do8Pdr5aUWjeca2PhusU8Eqs,2508
+autodistill_segment_anything-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autodistill_segment_anything-0.1.1.dist-info/METADATA,sha256=go-dF0lxukLGlboVAUzTV6OCYwlhjZIlrG-Po0hsDME,2652
+autodistill_segment_anything-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+autodistill_segment_anything-0.1.1.dist-info/top_level.txt,sha256=T019iKVkaImKJugByI_LIhSwTYIdPgGIYorryUXFjkI,29
+autodistill_segment_anything-0.1.1.dist-info/RECORD,,
