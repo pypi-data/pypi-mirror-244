@@ -1,0 +1,8 @@
+scaffold/__init__.py,sha256=uktGaLjgAKCoLRdIbvDKP-s-vuGpg_yAFfALQ0jl8vI,101232
+scaffold/iso7816.py,sha256=czu2Zb7Uq6heUEYc68y7G5V38gtjHWGhAEe_wnyvns0,26768
+scaffold/stm32.py,sha256=qqXsps0F7Kbidp-jTXAGvUy8VGtkUHFmm1cD0xfm4aA,14863
+donjon_scaffold-0.8.0.dist-info/LICENSE,sha256=YhkM8PRt069YKjDWc0jF_KxGsZ-FLi544sYgBQKHdV8,688
+donjon_scaffold-0.8.0.dist-info/METADATA,sha256=-t-DwvNy01vwiGy-J7T8gym5O9fCTJ8PMtMJ5O-t0PE,538
+donjon_scaffold-0.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+donjon_scaffold-0.8.0.dist-info/top_level.txt,sha256=aLfYcjRWwVHB73DR9jvLh71eUnfVb37BudybADkmaSM,9
+donjon_scaffold-0.8.0.dist-info/RECORD,,
