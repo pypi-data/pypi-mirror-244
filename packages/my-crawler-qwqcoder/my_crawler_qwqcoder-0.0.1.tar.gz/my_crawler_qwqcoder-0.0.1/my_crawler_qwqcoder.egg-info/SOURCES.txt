@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+my_crawler_qwqcoder.egg-info/PKG-INFO
+my_crawler_qwqcoder.egg-info/SOURCES.txt
+my_crawler_qwqcoder.egg-info/dependency_links.txt
+my_crawler_qwqcoder.egg-info/top_level.txt

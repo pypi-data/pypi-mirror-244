@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: my_crawler_qwqcoder
+Version: 0.0.1
+Summary: a ligh weight menu , support both win and mac 
+Author: qwqcoder
+Author-email: 
+Keywords: python,menu,crawler,windows,mac,linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# MyCrawler
+
++ 通过request, PyQuery 实现对豆瓣的短评爬取
++ 使用jieba, WordCloud 实现对短评的词频统计和词云图生成
