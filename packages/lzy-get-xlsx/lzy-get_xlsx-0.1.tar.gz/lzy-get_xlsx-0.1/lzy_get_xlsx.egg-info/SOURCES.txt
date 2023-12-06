@@ -1,0 +1,6 @@
+get_xlsx.py
+setup.py
+lzy_get_xlsx.egg-info/PKG-INFO
+lzy_get_xlsx.egg-info/SOURCES.txt
+lzy_get_xlsx.egg-info/dependency_links.txt
+lzy_get_xlsx.egg-info/top_level.txt
