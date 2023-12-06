@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+  {name = "Philip Chmielowiec", email = "philipc@ucar.edu"},
+]
+classifiers = [
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering",
+]
+description = "Turn Scientific Data into Sounds & Music"
+dynamic = ["version"]
+name = "scisonify"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+  "scipy",
+  "librosa",
+  "ipython",
+]
