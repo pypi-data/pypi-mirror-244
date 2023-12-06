@@ -1,0 +1,2 @@
+aiohttp==3.6.0
+greenlet==1.1.1
