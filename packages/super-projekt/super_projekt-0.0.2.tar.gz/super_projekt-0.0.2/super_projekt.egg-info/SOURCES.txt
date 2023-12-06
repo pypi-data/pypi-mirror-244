@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+arytmetyka/__init__.py
+arytmetyka/arth.py
+game/__init__.py
+game/main.py
+super_projekt.egg-info/PKG-INFO
+super_projekt.egg-info/SOURCES.txt
+super_projekt.egg-info/dependency_links.txt
+super_projekt.egg-info/requires.txt
+super_projekt.egg-info/top_level.txt
+ui/__init__.py
+ui/main.py
+ui/pokemon.png
+ui/ui_check.py
