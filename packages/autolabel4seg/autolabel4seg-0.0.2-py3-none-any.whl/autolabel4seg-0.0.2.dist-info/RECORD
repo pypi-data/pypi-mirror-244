@@ -1,0 +1,12 @@
+autolabel4seg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autolabel4seg/create.py,sha256=MMt6nt0IApbWik2WEWFSg0CBKG6Ky5s8F_3qPflvarU,487
+autolabel4seg/labels.py,sha256=Szle9tP3Vu9CUWiq83FtmYxyJqgAOp_65uyxP6nejTE,1253
+autolabel4seg/modules.py,sha256=0KAUEjw6g0PKNICZIQrMWk3mHQxpeZq1_xYQc6bHXIs,3081
+autolabel4seg/plot.py,sha256=1bWl5VpA5n4CPLWol4jqwDic7IETDqWaLNx-Q5ZdlGo,1303
+autolabel4seg/test.py,sha256=Kl9KMywUsQnX9dkrS6cMVEnR9QDCFTt34cTcwlK4Xn0,178
+autolabel4seg/upload.py,sha256=5C9kVVvIGiqcMDh5o80AF1KUky0rM3pf0I6YNQS0xLw,528
+autolabel4seg-0.0.2.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+autolabel4seg-0.0.2.dist-info/METADATA,sha256=sJialaRiIH9awnkWbw255yDu_7XQKCM-WnBRftGO2xw,795
+autolabel4seg-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+autolabel4seg-0.0.2.dist-info/top_level.txt,sha256=HDMRZ2OuVhon-MSK13fCULxhLWKYsK5ZETetLwVppOQ,14
+autolabel4seg-0.0.2.dist-info/RECORD,,
