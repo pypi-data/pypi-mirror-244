@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+dref/__init__.py
+dref/_modidx.py
+dref/_tmp.py
+dref/core.py
+dref.egg-info/PKG-INFO
+dref.egg-info/SOURCES.txt
+dref.egg-info/dependency_links.txt
+dref.egg-info/entry_points.txt
+dref.egg-info/not-zip-safe
+dref.egg-info/requires.txt
+dref.egg-info/top_level.txt
