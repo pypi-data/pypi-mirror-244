@@ -1,0 +1,12 @@
+neuralspace/__init__.py,sha256=gTW7dj9RIivTXDrbvhFonkGWDnzCOQrCt2SuHlcr43I,148
+neuralspace/cli.py,sha256=Gbs49AlbANABRAjEXKiFHO8WLZRJPCPNIDrAlwgifik,1226
+neuralspace/constants.py,sha256=dmMYvf8DLzdkiFnEdeKn1PU7bUghcK8kfOZYOcdmhnI,2388
+neuralspace/env.py,sha256=Mp9WcCrBPr1oRKi8Vnlwof1b_8PWYkiNGraYZISFaSU,343
+neuralspace/utils.py,sha256=MUVXdgNDSMqWOpVKB4CyDoGsYXPpMquihAc5J6YOxnc,1905
+neuralspace/version.py,sha256=s2Ub2ir58wRlYlwo-oIC_0mBAViCnB9La690rWDGBd8,18
+neuralspace/voice_ai.py,sha256=nZr23UMseLtadHMiVNm96dd4BZJhaE6JL4T1KRsunew,11907
+neuralspace-1.1.0.dist-info/METADATA,sha256=HdgT7UIrRCwo4DzJ3eSNEE4zC4tfRcHkbXvnAeRbm6M,14583
+neuralspace-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+neuralspace-1.1.0.dist-info/entry_points.txt,sha256=7C79zaII-ttFOJwuWcDQI3PmlhEqQWh1BTJX6aWxTes,43
+neuralspace-1.1.0.dist-info/top_level.txt,sha256=Kzy-zosaxSctnjFfEYCjzIoEpwR-v8S3NGIF_xfZn38,12
+neuralspace-1.1.0.dist-info/RECORD,,
