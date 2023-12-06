@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "handytat"
+authors = [{ name = "João Gonçalves", email = "joaoestgon@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+dependencies = ["PyQt6", "PySide6", "PyQt5", "PySide2", "langdetect"]
+
+[project.scripts]
+handy = "handytat:main"
+handysubl = "handyw:main"

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: handytat
+Version: 0.1.1
+Summary: HandyTAT - The Handy Text Alignment Toolkit
+Author-email: João Gonçalves <joaoestgon@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: PyQt6
+Requires-Dist: PySide6
+Requires-Dist: PyQt5
+Requires-Dist: PySide2
+Requires-Dist: langdetect
