@@ -1,0 +1,11 @@
+snowd/__init__.py,sha256=dQRYIr5IFWMwUmO7U1XLrI3adCA99nfHgXLnu6_IASQ,141
+snowd/__main__.py,sha256=SDjGB5N6yElBCo5dmHau0IqVdRxqOym1dESeoP4GLcM,467
+snowd/client.py,sha256=r5Hkoey4hQWKBr9Okz30mqkR4z3J4qyyoouG7i2k4HU,6379
+snowd/envvars.py,sha256=Y2j-E3bnqIgeVxIAubv1Vhor9FEFzYsJ9M7VIvwZ1K4,575
+snowd/git.py,sha256=zTaWEnh1TxE3gENzbuqVkPfQoGU4l4FTEWLLCcDoJlM,5357
+snowd/polling.py,sha256=OEd81dW6Nso9Peurf1JOl8zAZoR8htcXd3JZujd_Gsg,871
+snowd/state.py,sha256=rFqwvA8qBH2Wc6MhuUNWYJStgZNhMNvqfUe6f4HvaG0,1770
+snowd/utils.py,sha256=R0xylUiHq9EvVHNvffLaJ0O67Ymb-OyrpKe9mPSA4VQ,3522
+snowd-0.1.0.dist-info/METADATA,sha256=KseqZcvNTINEQmELgkSwGBnPx_1rSkJHIJNyDUM90Yo,2728
+snowd-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+snowd-0.1.0.dist-info/RECORD,,
