@@ -1,0 +1,14 @@
+CHANGELOG.md,sha256=wBh22S_USt-prj5Q7EF2oB_TcNHBws3fztLoJkF3QmA,288
+LICENSE,sha256=R5t8JVTLdLvAkY8H10fMW8fudF7D7oh2srk4jqMWnOc,1070
+README.md,sha256=mVNiSkzBvUJBrOS_cqy-S-byRnVYk_llqcU1NpZBzDw,1124
+examples/README.md,sha256=jmMjosiv_A57ss5ms6_zWXkMmhkPHwPgtzj3K9WL9Rg,11
+gpiodevice/__init__.py,sha256=Y-6iUpFZk5sMo10mV0tzAdGFaOQ2KGxSFUiDX1qdX0Y,5113
+gpiodevice/errors.py,sha256=8T9q1vbw50JtIqrwZQ2ApYWpLOKsoO3k7HrbFfQq50U,1362
+gpiodevice/platform/__init__.py,sha256=5Jzlrtlrb1rxY4KepmM0xzzZpO-HT8YjF-sT5arQj90,491
+gpiodevice/platform/alienware.py,sha256=uTaKdKkWmJQy8pRBelshAstuCMWR5aHn2MzU52tgJZg,329
+gpiodevice/platform/pi.py,sha256=VW5NmersBZ_kebee40gv1OICv7RsiUlG5rfzBVyTGG0,446
+gpiodevice/platform/radxa.py,sha256=LKjz6MbSXhsClg4mM6S3UuNcL7iBPd6BvTN40yk7djc,560
+gpiodevice-0.0.3.dist-info/METADATA,sha256=KoxaZbeLdqSj492ayxZh7CfQZWCFk-VNmD0029iT3tA,3798
+gpiodevice-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gpiodevice-0.0.3.dist-info/licenses/LICENSE,sha256=R5t8JVTLdLvAkY8H10fMW8fudF7D7oh2srk4jqMWnOc,1070
+gpiodevice-0.0.3.dist-info/RECORD,,
