@@ -1,0 +1,13 @@
+dokr_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dokr_pkg/anonymous_matlab.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dokr_pkg/try1.py,sha256=TVbM9aw9NsaAYyqS_vHxwxENKhqgluhADFvKzpVYnSk,4260
+dokr_pkg/vit2.py,sha256=JuTKum-GOjoAywCZniOXuP_dy-zP8RlwgZkawZZcdSE,4571
+vit2.py-0.1.data/scripts/abc_matlab.py,sha256=TVbM9aw9NsaAYyqS_vHxwxENKhqgluhADFvKzpVYnSk,4260
+vit2.py-0.1.data/scripts/anonymous_matlab.py,sha256=TVbM9aw9NsaAYyqS_vHxwxENKhqgluhADFvKzpVYnSk,4260
+vit2.py-0.1.data/scripts/try1.py,sha256=TVbM9aw9NsaAYyqS_vHxwxENKhqgluhADFvKzpVYnSk,4260
+vit2.py-0.1.data/scripts/vit1.py,sha256=JuTKum-GOjoAywCZniOXuP_dy-zP8RlwgZkawZZcdSE,4571
+vit2.py-0.1.data/scripts/vit2.py,sha256=JuTKum-GOjoAywCZniOXuP_dy-zP8RlwgZkawZZcdSE,4571
+vit2.py-0.1.dist-info/METADATA,sha256=ycsSQlpFXkEJMDlVnCSzhHeTR9Bj8a8pybJhKWi62cY,383
+vit2.py-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vit2.py-0.1.dist-info/top_level.txt,sha256=BW2gA5R7zefFD8yozRmzL9fSjG2-Z3TFYsG0em8p19k,9
+vit2.py-0.1.dist-info/RECORD,,
