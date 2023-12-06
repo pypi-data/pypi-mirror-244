@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mujoco-gpc
+Version: 0.0.1
+Summary: My mujoco-gpc package
+Home-page: https://mujoco-gpc.com
+Author: mujoco-gpc
+Author-email: mujoco-gpc@mujoco-gpc.com
+License: MIT License
+Keywords: mujoco-gpc
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE

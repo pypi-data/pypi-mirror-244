@@ -1,0 +1,7 @@
+LICENSE
+setup.cfg
+setup.py
+mujoco_gpc.egg-info/PKG-INFO
+mujoco_gpc.egg-info/SOURCES.txt
+mujoco_gpc.egg-info/dependency_links.txt
+mujoco_gpc.egg-info/top_level.txt
