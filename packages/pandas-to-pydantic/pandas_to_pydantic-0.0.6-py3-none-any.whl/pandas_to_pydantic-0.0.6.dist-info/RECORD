@@ -1,0 +1,8 @@
+pandas_to_pydantic/__about__.py,sha256=SooaRgHyz6aE7i5Ymd3zWQ8ho7ONqY_FJKThpV4D2zA,18
+pandas_to_pydantic/__init__.py,sha256=HgBFdRRPb2ogs9fWUgYujXaTe2IXc1PFgnwA4nQUpV0,201
+pandas_to_pydantic/annotation_utils.py,sha256=naJCAYH6xaw8oJw2yx908Ii8liS4ZNF3dWnK6heQLwE,1819
+pandas_to_pydantic/to_pydantic.py,sha256=puN6N04CyiDf7wi6W0nMMzRcvMtSJBrmgYewGivlOYA,2620
+pandas_to_pydantic-0.0.6.dist-info/METADATA,sha256=mqIOEwjgawqns1AblirY73QFKQJGmPiR1UQ2aGkzT_Y,7971
+pandas_to_pydantic-0.0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pandas_to_pydantic-0.0.6.dist-info/licenses/LICENSE,sha256=9uFp8CM0scxqzUa611j882GtT1lBgqum9WuoBQcn7JU,1064
+pandas_to_pydantic-0.0.6.dist-info/RECORD,,
