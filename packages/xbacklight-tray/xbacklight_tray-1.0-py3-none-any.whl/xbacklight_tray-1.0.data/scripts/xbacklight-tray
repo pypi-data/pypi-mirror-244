@@ -1,0 +1,135 @@
+#!python
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk, Gdk
+
+import subprocess as sp
+from functools import partial
+from threading import Thread
+from queue import Queue
+import signal, sys, os
+
+class LightThread (Thread):
+
+    def __init__ (self, queue):
+        self.queue = queue
+        super ().__init__ (daemon = True)
+
+    def run (self):
+        while 1:
+            brightness = self.queue.get ()
+            sp.call (["xbacklight", "-time", "1", "-steps", "1", "-set", str (brightness)])
+            self.queue.task_done ()
+
+class Tray:
+
+    def __init__ (self, orientation):
+        self.queue = Queue ()
+        LightThread (self.queue).start ()
+
+        self.icon = Gtk.StatusIcon.new_from_icon_name ("brightness-high")
+        self.icon.connect ("button-press-event", self.popup_slider)
+        self.icon.connect ("popup-menu", self.popup_menu)
+        self.icon.set_has_tooltip (True)
+
+        try:
+            dim = float (sp.check_output (["xbacklight", "-get"]))
+        except FileNotFoundError:
+            print ("xbacklight not installed, quitting.", file = sys.stderr)
+            sys.exit (1)
+
+        self.tooltip_template = "Brightness: {:.0f}%"
+        self.icon.set_tooltip_text (self.tooltip_template.format (dim))
+
+        self.slider = Gtk.Scale (
+            orientation = orientation,
+            adjustment  = Gtk.Adjustment (value = int (dim),
+                                          lower = 0,
+                                          upper = 100,
+                                          step_increment = 5,
+                                          page_increment = 10,
+                                          page_size = 0)
+        )
+        self.slider.set_value (dim)
+        self.slider.set_draw_value (True)
+        self.slider.set_has_origin (True)
+        self.slider.set_halign (Gtk.Align.START)
+        self.slider.connect ("value-changed", self.dim)
+        self.slider.connect ("format-value", self.format_percent)
+
+        self.length = 140
+        size = [-1, self.length]
+        if   orientation == Gtk.Orientation.HORIZONTAL:
+            size.reverse ()
+            self.slider.set_size_request (*size)
+            self.slider.set_value_pos(Gtk.PositionType.RIGHT)
+        elif orientation == Gtk.Orientation.VERTICAL:
+            self.slider.set_size_request (*size)
+            self.slider.set_inverted (True)
+
+        self.step_size = 10
+        self.last_step = dim
+
+        self.window = Gtk.Window (type=Gtk.WindowType.POPUP)
+        self.window.set_decorated (False)
+        self.window.set_skip_pager_hint (True)
+        self.window.set_skip_taskbar_hint (True)
+        self.window.set_keep_above (True)
+        self.window.add (self.slider)
+
+        item = Gtk.ImageMenuItem.new_from_stock ('gtk-quit')
+        item.connect ('activate', Gtk.main_quit)
+        self.menu = Gtk.Menu ()
+        self.menu.add (item)
+
+    def dim (self, slider, *_):
+        val  = slider.get_value ()
+        self.icon.set_tooltip_text (self.tooltip_template.format (val))
+        if abs (val - self.last_step) < self.step_size:
+            return
+
+        self.last_step = val
+        self.queue.put (val)
+
+    def popup_menu (self, widget, button, time):
+        self.menu.show_all ()
+        self.menu.popup (None, None,
+            self.icon.position_menu,
+            self.icon, button, time
+        )
+
+    def popup_slider (self, widget, event_button):
+        if not event_button.button == 1:
+            return
+
+        if not self.window.props.visible:
+            _, _, area, _ = self.icon.get_geometry ()
+            self.window.move (area.x - self.length, area.y)
+            self.window.show_all ()
+        else:
+            self.window.hide ()
+
+    def format_percent (self, widget, val):
+        return "{:.0f}%".format(val)
+
+    def main (self):
+        self.icon.set_visible (True)
+        Gtk.main ()
+
+    def quit (self, *_):
+        self.queue.join ()
+        Gtk.main_quit ()
+
+if len (sys.argv) < 2 or sys.argv [1] == "-h":
+    o = Gtk.Orientation.HORIZONTAL
+elif sys.argv [1] == "-v":
+    o = Gtk.Orientation.VERTICAL
+else:
+    print ("Usage: {} (-v|-h)\n"
+           "\t-v vertical orientation\n"
+           "\t-h horizontal orientation".format (sys.argv [0]))
+    sys.exit (1)
+
+signal.signal (signal.SIGINT, signal.SIG_DFL)
+tray = Tray (o)
+tray.main ()
