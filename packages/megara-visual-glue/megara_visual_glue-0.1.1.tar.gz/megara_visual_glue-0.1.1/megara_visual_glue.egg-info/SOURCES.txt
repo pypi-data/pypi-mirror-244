@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+megara_visual_glue/__init__.py
+megara_visual_glue/data_viewer.py
+megara_visual_glue.egg-info/PKG-INFO
+megara_visual_glue.egg-info/SOURCES.txt
+megara_visual_glue.egg-info/dependency_links.txt
+megara_visual_glue.egg-info/entry_points.txt
+megara_visual_glue.egg-info/requires.txt
+megara_visual_glue.egg-info/top_level.txt
