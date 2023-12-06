@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: paramount
+Version: 0.0.1
+Summary: Automated accuracy measurements for LLMs
+Author: Hakim K
+Author-email: hakimkse+pypi@gmail.com
+
