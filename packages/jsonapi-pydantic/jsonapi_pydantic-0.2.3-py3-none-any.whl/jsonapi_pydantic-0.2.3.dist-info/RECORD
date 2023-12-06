@@ -1,0 +1,16 @@
+jsonapi_pydantic/__init__.py,sha256=deEmioNNaXVCLAxB8KdkaHCiffhXd2p6aQNuipehKoc,101
+jsonapi_pydantic/constants.py,sha256=xCgGzUN9y0ClEDHUYHBC1fTYF4UipWkQoaUFo26LnWs,223
+jsonapi_pydantic/v1_0/__init__.py,sha256=dmfI_qnguoyHpHQEONUVlBh79kpGbCsRmSn6u_xC5bY,315
+jsonapi_pydantic/v1_0/error.py,sha256=-ne42yD7f58EQDiNYBOsMU27NUgzb5mPblpkOMOcDqA,1055
+jsonapi_pydantic/v1_0/jsonapi.py,sha256=a5OHB2uCk59k83YUoBdeb-BYW7UDCqBnboGc_5Exmlc,358
+jsonapi_pydantic/v1_0/links.py,sha256=l1DDh5TqAgWUkINrJ57eOlVWvczYGLWTVoxDinhQ58U,809
+jsonapi_pydantic/v1_0/meta.py,sha256=4aMvmQvXFhISBavqxwXXCXhRGoUL4wodftBhXSZCgQ4,73
+jsonapi_pydantic/v1_0/resource/__init__.py,sha256=o8eUUCMThnIzYnT4uEWj84K-1Oqalbh3RoPpkCeog3U,176
+jsonapi_pydantic/v1_0/resource/relationship.py,sha256=vrAFdx6YuaGl8Ts4L4SHqeLPoer7NddkqpX0YQ-Hh0c,1130
+jsonapi_pydantic/v1_0/resource/relationship_links.py,sha256=SzRW-uRpq4Az7G4a6hSbF-dLsAtPWvXFta7h9xUVXeA,948
+jsonapi_pydantic/v1_0/resource/resource.py,sha256=W0Aic9cYQOooid6GLsjgWWL5f6MJvMAiUQFUZW3ihFU,2182
+jsonapi_pydantic/v1_0/resource_identifier.py,sha256=JHJVuv5W85MjqaJLdSzoF-ByGduWdrEgyF89FMp1xAo,455
+jsonapi_pydantic/v1_0/toplevel.py,sha256=URpAJiNQgrNzFVLQmTH8A8s6CpYgovFddP5hSknk8Vg,1965
+jsonapi_pydantic-0.2.3.dist-info/METADATA,sha256=D2bRCAJ96Otj0N7ih1Ppyf4Yh4lLkKASGSLQDgg2LFA,3831
+jsonapi_pydantic-0.2.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+jsonapi_pydantic-0.2.3.dist-info/RECORD,,
