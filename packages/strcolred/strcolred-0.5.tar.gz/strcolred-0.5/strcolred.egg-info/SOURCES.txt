@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+strcolred/__init__.py
+strcolred/test.py
+strcolred.egg-info/PKG-INFO
+strcolred.egg-info/SOURCES.txt
+strcolred.egg-info/dependency_links.txt
+strcolred.egg-info/top_level.txt
