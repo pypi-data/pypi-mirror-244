@@ -1,0 +1,9 @@
+matplotlib
+scipy
+cma
+numpy
+pyswarm
+mpi4py
+sympy
+scipy
+alive_progress
