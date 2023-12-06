@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+*.fits
+.vscode
+doc/_build/*
+.ipynb_checkpoints
+build/*
+dist/*
+*.egg-info
+_version.py
